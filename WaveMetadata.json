@@ -1,30 +1,30 @@
 {
 	"serviceWave": {
-		"dataflowName": "<source service wave dataflow name>",
+		"dataflowName": "<source service wave dataflow name / not in use for now>",
 		"objects": [
 			{
 				"name": "User",
-				"url": "<url for the service wave users csv>",
+				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
 				"children": [
 					{
 						"name": "Case",
-						"url": "<url for the cases csv>"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Cases.csv"
 					},
 					{
 						"name": "Task",
-						"url": "<url for the service wave tasks csv>"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv"
 					},
 					{
 						"name": "Event",
-						"url": "<url for the service wave events csv>"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv"
 					}
 				]
 			}
 		] 
 	},
 	"salesWave": {
-		"dataflowName": "<source sales wave dataflow name>",
-		"quotas" : "<url for the sales wave quotas csv>",
+		"dataflowName": "<source sales wave dataflow name / not in use for now>",
+		"quotas" : "<url for the sales wave quotas csv / not in use for now>",
 		"objects": [
 			{
 				"name": "User",
@@ -32,21 +32,21 @@
 				"children": [
 					{
 						"name": "Account",
-						"url": "<url for the accounts csv>",
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
 						"children": [
 							{
 								"name": "Opportunity",
-								"url": "<url for the opportunities csv>"
+								"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Opportunities.csv"
 							}
 						]
 					},
 					{
 						"name": "Task",
-						"url": "<url for the sales wave tasks csv>"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv"
 					},
 					{
 						"name": "Event",
-						"url": "<url for the sales wave events csv>"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv"
 					}
 				]
 			}
