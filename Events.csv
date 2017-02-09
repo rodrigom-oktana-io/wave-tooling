@@ -1,0 +1,101 @@
+External_Id__c,Owner.External_Id__c,Subject,Type,DurationInMinutes,Status,Priority,CallDisposition,CallType,ActivityDateTime
+W_Event.00001,W_User.00011,Other,Meeting,0,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00002,W_User.00016,Send Letter,Email,28,Not Started,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00003,W_User.00012,Send Letter,Email,36,Not Started,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00004,W_User.00002,Send Letter,Email,41,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00005,W_User.00003,Call,Meeting,0,Not Started,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00006,W_User.00003,Send Letter,Email,30,Completed,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00007,W_User.00013,Call,Meeting,0,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00008,W_User.00002,Other,Meeting,1,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00009,W_User.00002,Call,Call,11,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00010,W_User.00009,Send Quote,Email,60,On Hold,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00011,W_User.00002,Other,Prep,29,Completed,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00012,W_User.00007,Send Quote,Email,0,On Hold,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00013,W_User.00019,Other,Prep,7,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00014,W_User.00001,Send Letter,Email,19,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00015,W_User.00013,Other,Prep,0,Not Started,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00016,W_User.00005,Call,Meeting,3,In Progress,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00017,W_User.00013,Send Quote,Email,0,Completed,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00018,W_User.00019,Send Letter,Email,15,On Hold,Normal,Hot,Internal,2017-02-07 23:05:37
+W_Event.00019,W_User.00005,Send Letter,Email,11,Not Started,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00020,W_User.00020,Other,Other,0,In Progress,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00021,W_User.00018,Send Letter,Email,0,On Hold,Normal,Hot,Outbound,2017-02-07 23:05:37
+W_Event.00022,W_User.00018,Other,Meeting,55,In Progress,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00023,W_User.00014,Other,Prep,0,Not Started,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00024,W_User.00015,Call,Call,0,Not Started,High,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00025,W_User.00002,Send Letter,Email,10,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00026,W_User.00012,Call,Meeting,0,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00027,W_User.00015,Other,Meeting,2,Completed,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00028,W_User.00011,Other,Prep,0,On Hold,Normal,Hot,Outbound,2017-02-07 23:05:37
+W_Event.00029,W_User.00014,Call,Call,27,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00030,W_User.00015,Send Letter,Email,6,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00031,W_User.00003,Send Letter,Email,33,Not Started,Normal,Hot,Internal,2017-02-07 23:05:37
+W_Event.00032,W_User.00005,Call,Call,0,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00033,W_User.00014,Call,Call,0,Not Started,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00034,W_User.00008,Call,Call,28,Not Started,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00035,W_User.00004,Call,Call,0,Not Started,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00036,W_User.00016,Other,Meeting,0,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00037,W_User.00006,Other,Meeting,0,Not Started,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00038,W_User.00006,Call,Call,32,Completed,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00039,W_User.00006,Send Letter,Email,0,Completed,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00040,W_User.00016,Send Letter,Email,30,On Hold,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00041,W_User.00005,Send Letter,Email,51,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00042,W_User.00014,Send Letter,Email,52,Completed,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00043,W_User.00019,Other,Meeting,0,Completed,High,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00044,W_User.00017,Call,Call,10,Not Started,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00045,W_User.00004,Call,Call,22,In Progress,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00046,W_User.00004,Send Letter,Email,53,Completed,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00047,W_User.00019,Send Letter,Email,0,On Hold,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00048,W_User.00002,Send Letter,Email,0,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00049,W_User.00006,Call,Meeting,13,On Hold,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00050,W_User.00017,Send Letter,Email,20,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00051,W_User.00018,Send Letter,Email,59,Completed,High,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00052,W_User.00019,Send Letter,Email,0,On Hold,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00053,W_User.00010,Send Letter,Email,0,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00054,W_User.00006,Send Letter,Email,0,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00055,W_User.00014,Call,Meeting,6,Completed,High,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00056,W_User.00010,Call,Call,0,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00057,W_User.00020,Send Letter,Email,2,Not Started,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00058,W_User.00003,Other,Other,0,On Hold,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00059,W_User.00005,Send Letter,Email,0,On Hold,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00060,W_User.00020,Send Letter,Email,6,Not Started,High,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00061,W_User.00019,Send Letter,Email,19,In Progress,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00062,W_User.00010,Send Letter,Email,0,Completed,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00063,W_User.00008,Call,Meeting,3,In Progress,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00064,W_User.00001,Call,Call,15,Completed,Normal,Hot,Outbound,2017-02-07 23:05:37
+W_Event.00065,W_User.00010,Call,Call,54,In Progress,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00066,W_User.00008,Send Letter,Email,0,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00067,W_User.00005,Send Letter,Email,0,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00068,W_User.00002,Call,Call,5,Not Started,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00069,W_User.00001,Call,Call,22,Completed,High,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00070,W_User.00006,Send Letter,Email,0,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00071,W_User.00016,Call,Meeting,0,In Progress,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00072,W_User.00005,Call,Call,46,In Progress,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00073,W_User.00016,Call,Call,56,In Progress,High,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00074,W_User.00014,Other,Other,0,On Hold,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00075,W_User.00001,Send Letter,Email,0,On Hold,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00076,W_User.00007,Send Letter,Email,0,Not Started,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00077,W_User.00009,Send Letter,Email,0,On Hold,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00078,W_User.00011,Other,Other,0,Completed,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00079,W_User.00016,Call,Call,0,Completed,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00080,W_User.00012,Send Quote,Email,11,Completed,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00081,W_User.00014,Call,Call,0,In Progress,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00082,W_User.00013,Other,Meeting,0,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00083,W_User.00008,Call,Meeting,0,Not Started,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00084,W_User.00019,Other,Meeting,0,Completed,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00085,W_User.00017,Call,Meeting,4,Not Started,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00086,W_User.00017,Send Quote,Email,0,On Hold,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00087,W_User.00007,Send Letter,Email,0,Completed,Normal,Warm,Internal,2017-02-07 23:05:37
+W_Event.00088,W_User.00013,Other,Prep,0,Not Started,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00089,W_User.00009,Send Letter,Email,0,In Progress,Normal,Warm,Inbound,2017-02-07 23:05:37
+W_Event.00090,W_User.00015,Send Letter,Email,0,Completed,Normal,Cold,Inbound,2017-02-07 23:05:37
+W_Event.00091,W_User.00008,Call,Call,19,On Hold,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00092,W_User.00010,Send Letter,Email,0,Not Started,High,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00093,W_User.00020,Send Quote,Email,0,Completed,Normal,Hot,Outbound,2017-02-07 23:05:37
+W_Event.00094,W_User.00002,Other,Other,49,On Hold,Normal,Hot,Outbound,2017-02-07 23:05:37
+W_Event.00095,W_User.00003,Other,Other,54,Not Started,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00096,W_User.00001,Call,Call,0,Not Started,Normal,Hot,Inbound,2017-02-07 23:05:37
+W_Event.00097,W_User.00013,Other,Other,0,In Progress,Normal,Warm,Outbound,2017-02-07 23:05:37
+W_Event.00098,W_User.00002,Other,Prep,1,Completed,Normal,Cold,Outbound,2017-02-07 23:05:37
+W_Event.00099,W_User.00020,Send Letter,Email,0,On Hold,Normal,Hot,Outbound,2017-02-07 23:05:37
+W_Event.00100,W_User.00005,Send Letter,Email,50,Completed,Normal,Hot,Outbound,2017-02-07 23:05:37
