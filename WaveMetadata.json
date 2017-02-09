@@ -1,0 +1,55 @@
+{
+	"serviceWave": {
+		"dataflowName": "<source service wave dataflow name>",
+		"objects": [
+			{
+				"name": "User",
+				"url": "<url for the service wave users csv>",
+				"children": [
+					{
+						"name": "Case",
+						"url": "<url for the cases csv>"
+					},
+					{
+						"name": "Task",
+						"url": "<url for the service wave tasks csv>"
+					},
+					{
+						"name": "Event",
+						"url": "<url for the service wave events csv>"
+					}
+				]
+			}
+		] 
+	},
+	"salesWave": {
+		"dataflowName": "<source sales wave dataflow name>",
+		"quotas" : "<url for the sales wave quotas csv>",
+		"objects": [
+			{
+				"name": "User",
+				"url": "<url for the sales wave users csv>",
+				"children": [
+					{
+						"name": "Account",
+						"url": "<url for the accounts csv>",
+						"children": [
+							{
+								"name": "Opportunity",
+								"url": "<url for the opportunities csv>"
+							}
+						]
+					},
+					{
+						"name": "Task",
+						"url": "<url for the sales wave tasks csv>"
+					},
+					{
+						"name": "Event",
+						"url": "<url for the sales wave events csv>"
+					}
+				]
+			}
+		] 
+	}
+}
