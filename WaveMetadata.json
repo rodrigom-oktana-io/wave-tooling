@@ -4,7 +4,7 @@
 		"objects": [
 			{
 				"name": "User",
-				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Users.csv",
 				"children": [
 					{
 						"name": "Case",
@@ -28,7 +28,7 @@
 		"objects": [
 			{
 				"name": "User",
-				"url": "<url for the sales wave users csv>",
+				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Users.csv",
 				"children": [
 					{
 						"name": "Account",
