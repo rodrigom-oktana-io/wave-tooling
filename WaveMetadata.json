@@ -4,19 +4,19 @@
 		"objects": [
 			{
 				"name": "User",
-				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
+				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
 				"children": [
 					{
 						"name": "Case",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Cases.csv"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv"
 					},
 					{
 						"name": "Task",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Tasks.csv"
 					},
 					{
 						"name": "Event",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Events.csv"
 					}
 				]
 			}
@@ -32,21 +32,21 @@
 				"children": [
 					{
 						"name": "Account",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Accounts.csv",
 						"children": [
 							{
 								"name": "Opportunity",
-								"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Opportunities.csv"
+								"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv"
 							}
 						]
 					},
 					{
 						"name": "Task",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Tasks.csv"
 					},
 					{
 						"name": "Event",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv"
+						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Events.csv"
 					}
 				]
 			}
