@@ -1,5 +1,6 @@
-{
-	"servicesWave": {
+[
+	{
+		"appName": "Services Wave",
 		"dataflowName": "<source service wave dataflow name / not in use for now>",
 		"objects": [
 			{
@@ -20,11 +21,11 @@
 					}
 				]
 			}
-		] 
+		]
 	},
-	"salesWave": {
+	{
+		"appName": "Sales Wave",
 		"dataflowName": "<source sales wave dataflow name / not in use for now>",
-		"quotas" : "<url for the sales wave quotas csv / not in use for now>",
 		"objects": [
 			{
 				"name": "User",
@@ -50,6 +51,6 @@
 					}
 				]
 			}
-		] 
+		]
 	}
-}
+]
