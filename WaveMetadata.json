@@ -1,5 +1,5 @@
 {
-	"serviceWave": {
+	"servicesWave": {
 		"dataflowName": "<source service wave dataflow name / not in use for now>",
 		"objects": [
 			{
