@@ -1,0 +1,101 @@
+External_Id__c,Owner.External_Id__c,AccountSource,AnnualRevenue,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,Industry,Name,NumberOfEmployees,Ownership,Phone,Rating,Type,YearStarted
+W_Account.00001,W_User.00011,Data.com,3497000,26 Graceland Street,Cincinnati,OH,45271,USA,Education,Roodel,260,Other,1-(513)172-5827,Hot,Mid-Market,1900
+W_Account.00002,W_User.00009,Social Media,1993000,0 Buhler Trail,Albany,NY,12222,USA,Transportation,Wikizz,136,Private,1-(518)686-1436,Cool,Mid-Market,1902
+W_Account.00003,W_User.00001,Inbound Call,2652000,71665 Farwell Junction,Washington,DC,20337,USA,Chemicals,Geba,143,Public,1-(202)393-3586,Hot,Small Business,2001
+W_Account.00004,W_User.00011,Referral,1931000,9 Hauk Crossing,Raleigh,NC,27605,USA,Environmental,Devbug,104,Private,1-(919)615-9043,Warm,Small Business,2006
+W_Account.00005,W_User.00005,Cold Call,3007000,690 Golf View Circle,Moreno Valley,CA,92555,USA,Communications,Meeveo,157,Private,1-(951)591-0261,Warm,Small Business,1989
+W_Account.00006,W_User.00012,Marketing Event,1495000,8 Judy Point,Philadelphia,PA,19172,USA,Technology,Lazz,86,Private,1-(215)855-6396,Cool,Mid-Market,1976
+W_Account.00007,W_User.00012,Inbound Call,3327000,136 Hudson Street,Huntington,WV,25721,USA,Recreation,Thoughtsphere,212,Other,1-(304)731-7420,Hot,Small Business,1990
+W_Account.00008,W_User.00017,Website,2260000,88758 Emmet Parkway,El Paso,TX,88584,USA,Other,Photospace,149,Private,1-(915)430-0308,Warm,Small Business,1899
+W_Account.00009,W_User.00014,Social Media,3117000,01 Loomis Drive,Las Vegas,NV,89166,USA,Insurance,Feedfire,204,Private,1-(702)528-9630,Warm,Small Business,1968
+W_Account.00010,W_User.00018,Community,2746000,10 Trailsway Park,Virginia Beach,VA,23459,USA,Shipping,Realbuzz,197,Public,1-(757)635-2658,Cool,Small Business,1912
+W_Account.00011,W_User.00008,Community,3771000,9 Mesta Court,Huntington,WV,25711,USA,Energy,Ooba,337,Other,1-(304)154-6372,Warm,Small Business,1918
+W_Account.00012,W_User.00008,Data.com,2718000,20590 Del Sol Place,Greenville,SC,29615,USA,Entertainment,Ainyx,237,Private,1-(864)568-0266,Warm,Small Business,1959
+W_Account.00013,W_User.00016,Cold Call,3137000,3150 Thackeray Point,Minneapolis,MN,55480,USA,Food & Beverage,Realfire,212,Subsidiary,1-(612)704-4501,Cool,Mid-Market,1989
+W_Account.00014,W_User.00003,Referral,3449000,73 Tennyson Terrace,Tempe,AZ,85284,USA,Hospitality,Omba,317,Private,1-(480)682-8213,Cool,Mid-Market,1924
+W_Account.00015,W_User.00015,Social Media,2682000,0785 Dryden Road,Saint Paul,MN,55127,USA,Communications,Realblab,144,Subsidiary,1-(612)694-9499,Hot,Small Business,1898
+W_Account.00016,W_User.00020,Partner,3082000,012 Surrey Junction,Springfield,MO,65805,USA,Agriculture,Yacero,206,Other,1-(417)415-8247,Warm,Small Business,1928
+W_Account.00017,W_User.00002,Referral,3322000,278 Burning Wood Trail,Las Vegas,NV,89140,USA,Food & Beverage,Twitterlist,177,Private,1-(702)307-4538,Cool,Mid-Market,1955
+W_Account.00018,W_User.00001,Inbound Call,3324000,34973 Saint Paul Hill,Kalamazoo,MI,49048,USA,Banking,Oozz,247,Other,1-(269)908-1187,Hot,Mid-Market,1962
+W_Account.00019,W_User.00006,Website,3367000,8 Mosinee Hill,New York City,NY,10292,USA,Engineering,Photojam,213,Public,1-(212)455-6055,Cool,Small Business,1920
+W_Account.00020,W_User.00017,Referral,3112000,58245 Maple Wood Point,Bellevue,WA,98008,USA,Apparel,Rhynyx,165,Private,1-(425)419-5685,Hot,Small Business,1943
+W_Account.00021,W_User.00006,Cold Call,3207000,6 Namekagon Point,Oklahoma City,OK,73129,USA,Entertainment,Twimm,213,Private,1-(405)183-3658,Hot,Mid-Market,1886
+W_Account.00022,W_User.00013,Data.com,2221000,89 West Lane,Anchorage,AK,99512,USA,Retail,Voonyx,169,Private,1-(907)340-2255,Cool,Small Business,1922
+W_Account.00023,W_User.00017,Community,3557000,1 Kingsford Circle,Amarillo,TX,79118,USA,Retail,Ooba,224,Private,1-(806)442-3692,Warm,Small Business,1950
+W_Account.00024,W_User.00009,Cold Call,3828000,80 Almo Point,El Paso,TX,88579,USA,Not For Profit,Yata,262,Private,1-(915)724-5617,Warm,Mid-Market,1899
+W_Account.00025,W_User.00015,Referral,2466000,11930 Weeping Birch Court,Newport Beach,CA,92662,USA,Media,Talane,254,Public,1-(714)308-6013,Warm,Small Business,2003
+W_Account.00026,W_User.00006,Referral,3446000,3 Erie Street,Des Moines,IA,50347,USA,Healthcare & Life Sciences,Tazzy,225,Private,1-(515)218-4079,Hot,Small Business,1957
+W_Account.00027,W_User.00011,Partner,2192000,65109 Orin Avenue,Indianapolis,IN,46254,USA,Insurance,Riffpath,169,Private,1-(317)723-3670,Hot,Small Business,1889
+W_Account.00028,W_User.00009,Community,2908000,3 School Circle,San Francisco,CA,94121,USA,Manufacturing,Feedspan,182,Private,1-(415)704-2775,Hot,Small Business,2002
+W_Account.00029,W_User.00008,Community,2433000,19 Moulton Place,Las Vegas,NV,89125,USA,Entertainment,Meejo,111,Private,1-(702)321-1111,Cool,Small Business,1948
+W_Account.00030,W_User.00016,Partner,2370000,168 David Trail,New York City,NY,10270,USA,Chemicals,Thoughtbeat,135,Private,1-(347)224-2902,Cool,Small Business,1885
+W_Account.00031,W_User.00003,Referral,2700000,1 Manitowish Pass,New Haven,CT,06520,USA,Telecommunications,Midel,154,Other,1-(203)542-4728,Hot,Small Business,1920
+W_Account.00032,W_User.00010,Marketing Event,3073000,6339 Sachtjen Point,Saint Paul,MN,55188,USA,Manufacturing,Centidel,231,Public,1-(651)161-9689,Cool,Small Business,1993
+W_Account.00033,W_User.00016,Referral,2317000,2815 Westport Alley,New York City,NY,10275,USA,Entertainment,Jabbertype,151,Private,1-(212)932-1019,Warm,Small Business,1966
+W_Account.00034,W_User.00016,Cold Call,3613000,876 Graedel Terrace,Augusta,GA,30905,USA,Other,Babbleopia,282,Other,1-(706)491-5311,Warm,Small Business,1932
+W_Account.00035,W_User.00009,Partner,1928000,2 Mayfield Terrace,Tucson,AZ,85748,USA,Hospitality,Oyope,93,Private,1-(520)240-4845,Cool,Small Business,1937
+W_Account.00036,W_User.00004,Data.com,2784000,6139 Nova Point,Tulsa,OK,74108,USA,Chemicals,Topicshots,215,Public,1-(918)142-0531,Hot,Small Business,1933
+W_Account.00037,W_User.00009,Website,3532000,9 Hanson Center,Champaign,IL,61825,USA,Agriculture,Skajo,316,Subsidiary,1-(217)790-4562,Cool,Mid-Market,1910
+W_Account.00038,W_User.00010,Social Media,3169000,55090 Talisman Center,Salt Lake City,UT,84199,USA,Communications,Dynazzy,195,Private,1-(801)447-7683,Cool,Mid-Market,2002
+W_Account.00039,W_User.00009,Data.com,2466000,7 Huxley Center,Toledo,OH,43610,USA,Entertainment,Wordtune,119,Subsidiary,1-(419)243-4814,Cool,Small Business,1920
+W_Account.00040,W_User.00014,Social Media,2641000,6 Clemons Trail,Los Angeles,CA,90101,USA,Insurance,Yakitri,176,Subsidiary,1-(213)680-0803,Hot,Small Business,1978
+W_Account.00041,W_User.00003,Inbound Call,2728000,3311 Ronald Regan Drive,Macon,GA,31205,USA,Communications,Abatz,157,Public,1-(478)985-9309,Warm,Mid-Market,1966
+W_Account.00042,W_User.00012,Inbound Call,2462000,71512 Schiller Center,Harrisburg,PA,17126,USA,Engineering,Wordtune,153,Other,1-(717)414-9072,Warm,Small Business,1933
+W_Account.00043,W_User.00008,Cold Call,3124000,352 Steensland Alley,Phoenix,AZ,85072,USA,Financial Services,Shufflester,155,Private,1-(602)464-5697,Cool,Small Business,1903
+W_Account.00044,W_User.00014,Data.com,2547000,58259 Sugar Lane,Sioux City,IA,51105,USA,Recreation,Tavu,211,Private,1-(712)560-4452,Hot,Small Business,1992
+W_Account.00045,W_User.00020,Data.com,2399000,178 Bobwhite Plaza,Louisville,KY,40287,USA,Food & Beverage,Buzzshare,107,Private,1-(502)933-4005,Hot,Small Business,1970
+W_Account.00046,W_User.00017,Partner,2528000,16903 Acker Alley,Richmond,VA,23277,USA,Retail,Trupe,195,Private,1-(804)980-4540,Hot,Small Business,1951
+W_Account.00047,W_User.00011,Partner,2749000,603 Fairview Way,Grand Rapids,MI,49510,USA,Consulting,Demizz,159,Other,1-(616)276-7129,Hot,Small Business,1925
+W_Account.00048,W_User.00020,Community,2136000,649 Farwell Point,Whittier,CA,90605,USA,Manufacturing,Mydo,138,Subsidiary,1-(562)926-5494,Warm,Small Business,1977
+W_Account.00049,W_User.00012,Community,3164000,4 Hoffman Crossing,San Francisco,CA,94126,USA,Energy,Tekfly,170,Subsidiary,1-(415)424-4835,Cool,Small Business,1997
+W_Account.00050,W_User.00010,Community,2112000,0 Daystar Parkway,El Paso,TX,79905,USA,Food & Beverage,Twimm,159,Private,1-(915)117-6933,Warm,Small Business,1928
+W_Account.00051,W_User.00009,Cold Call,3341000,906 Sutteridge Way,Ventura,CA,93005,USA,Consulting,Tagopia,205,Subsidiary,1-(805)740-3354,Cool,Mid-Market,1946
+W_Account.00052,W_User.00012,Cold Call,2862000,5 Sommers Alley,Oklahoma City,OK,73135,USA,Construction,Thoughtblab,242,Private,1-(405)313-1390,Hot,Small Business,1980
+W_Account.00053,W_User.00018,Referral,2627000,0 Meadow Valley Place,Louisville,KY,40220,USA,Healthcare & Life Sciences,Talane,154,Public,1-(502)140-8957,Warm,Small Business,1886
+W_Account.00054,W_User.00017,Community,2534000,7 Hooker Trail,San Francisco,CA,94169,USA,Apparel,Photobug,151,Private,1-(415)653-7689,Hot,Small Business,1966
+W_Account.00055,W_User.00020,Website,3190000,1 Scott Alley,Lake Charles,LA,70616,USA,Education,Latz,166,Subsidiary,1-(337)562-3746,Warm,Small Business,1931
+W_Account.00056,W_User.00012,Cold Call,3843000,63 Hermina Park,Knoxville,TN,37939,USA,Telecommunications,Wordware,219,Private,1-(865)937-8458,Hot,Mid-Market,1899
+W_Account.00057,W_User.00013,Website,3642000,58 Brown Parkway,Atlanta,GA,30323,USA,Engineering,Chatterpoint,231,Private,1-(770)709-7523,Hot,Small Business,2005
+W_Account.00058,W_User.00019,Referral,4156000,36 Fremont Plaza,Lima,OH,45807,USA,Agriculture,Zoozzy,258,Private,1-(419)479-8954,Cool,Mid-Market,2009
+W_Account.00059,W_User.00016,Partner,3805000,4 Twin Pines Lane,Odessa,TX,79764,USA,Not For Profit,Skyndu,329,Private,1-(432)279-2817,Warm,Mid-Market,1988
+W_Account.00060,W_User.00001,Data.com,3127000,94307 Clyde Gallagher Trail,San Antonio,TX,78250,USA,Entertainment,Edgeclub,203,Public,1-(210)164-0258,Warm,Mid-Market,1939
+W_Account.00061,W_User.00002,Partner,2196000,7325 Mcguire Court,Flint,MI,48505,USA,Hospitality,Viva,126,Private,1-(810)707-9757,Warm,Mid-Market,1900
+W_Account.00062,W_User.00010,Community,2430000,3671 Melvin Road,Loretto,MN,55598,USA,Biotechnology,Flashspan,155,Private,1-(763)796-5957,Warm,Small Business,1963
+W_Account.00063,W_User.00017,Social Media,4004000,49 Muir Trail,Miami,FL,33245,USA,Not For Profit,Cogibox,277,Private,1-(786)809-4428,Warm,Small Business,1918
+W_Account.00064,W_User.00017,Inbound Call,3139000,99581 Mesta Terrace,Brockton,MA,02305,USA,Consulting,Oyoloo,248,Private,1-(508)618-4327,Hot,Mid-Market,1977
+W_Account.00065,W_User.00016,Social Media,3238000,2 Pennsylvania Road,San Francisco,CA,94177,USA,Other,Meejo,195,Private,1-(415)255-2570,Hot,Small Business,1993
+W_Account.00066,W_User.00003,Marketing Event,2519000,61920 Di Loreto Point,Reno,NV,89550,USA,Government,Jatri,152,Private,1-(775)538-3270,Cool,Small Business,1954
+W_Account.00067,W_User.00009,Community,2840000,21907 Oriole Circle,Richmond,VA,23213,USA,Energy,Kwinu,146,Private,1-(804)153-0299,Cool,Small Business,1984
+W_Account.00068,W_User.00018,Cold Call,2424000,88 Northland Crossing,Wichita,KS,67205,USA,Financial Services,Dabfeed,132,Public,1-(316)967-9811,Hot,Small Business,1995
+W_Account.00069,W_User.00016,Marketing Event,2690000,0 Reinke Road,Little Rock,AR,72215,USA,Transportation,Realmix,262,Other,1-(501)280-1404,Cool,Small Business,1921
+W_Account.00070,W_User.00005,Partner,2839000,4776 Glendale Lane,Sarasota,FL,34233,USA,Communications,Photolist,278,Private,1-(941)772-4229,Cool,Small Business,1936
+W_Account.00071,W_User.00001,Cold Call,2959000,5 Stephen Junction,Tampa,FL,33605,USA,Utilities,Jabbercube,228,Other,1-(813)423-3546,Cool,Small Business,1972
+W_Account.00072,W_User.00006,Data.com,2755000,15 Grover Point,El Paso,TX,79989,USA,Environmental,Oyoloo,139,Public,1-(915)338-4440,Hot,Small Business,1935
+W_Account.00073,W_User.00009,Referral,3080000,0466 Lien Hill,New Haven,CT,06505,USA,Utilities,Mita,179,Public,1-(203)405-5448,Cool,Small Business,1986
+W_Account.00074,W_User.00009,Community,3488000,42820 Ilene Place,Fort Wayne,IN,46896,USA,Energy,Ainyx,283,Private,1-(260)682-4212,Hot,Small Business,1907
+W_Account.00075,W_User.00017,Social Media,2639000,48693 Coolidge Court,Huntington,WV,25726,USA,Machinery,Reallinks,253,Private,1-(304)998-6312,Hot,Small Business,1935
+W_Account.00076,W_User.00001,Social Media,3411000,85 Stuart Place,Farmington,MI,48335,USA,Not For Profit,Kwilith,203,Private,1-(248)906-2433,Hot,Small Business,1970
+W_Account.00077,W_User.00011,Referral,3450000,12922 Towne Plaza,Sioux Falls,SD,57193,USA,Apparel,Skipstorm,195,Private,1-(605)132-2866,Warm,Small Business,2007
+W_Account.00078,W_User.00018,Community,2170000,48359 Sage Terrace,Bowie,MD,20719,USA,Government,Youbridge,187,Private,1-(240)380-4527,Cool,Small Business,1914
+W_Account.00079,W_User.00017,Marketing Event,3142000,66 Pond Court,Redwood City,CA,94064,USA,Consulting,Gevee,234,Subsidiary,1-(650)647-3967,Cool,Small Business,1899
+W_Account.00080,W_User.00002,Social Media,3781000,728 Coleman Parkway,Rochester,NY,14614,USA,Entertainment,Edgewire,269,Private,1-(315)188-9273,Cool,Small Business,1948
+W_Account.00081,W_User.00014,Referral,3183000,2312 Nevada Pass,Tampa,FL,33620,USA,Technology,Browsezoom,221,Other,1-(813)640-7080,Hot,Mid-Market,1905
+W_Account.00082,W_User.00013,Website,3098000,2 Longview Circle,Boston,MA,02283,USA,Financial Services,Thoughtstorm,220,Private,1-(978)548-0029,Hot,Mid-Market,2009
+W_Account.00083,W_User.00006,Website,2789000,2319 Main Lane,Canton,OH,44705,USA,Utilities,Aimbo,147,Private,1-(330)137-7110,Hot,Small Business,1920
+W_Account.00084,W_User.00002,Data.com,3360000,62011 Stuart Plaza,Johnson City,TN,37605,USA,Electronics,Blognation,203,Private,1-(423)910-8530,Warm,Mid-Market,1881
+W_Account.00085,W_User.00003,Partner,2487000,0 Hansons Center,Akron,OH,44310,USA,Banking,Omba,275,Subsidiary,1-(330)419-9623,Hot,Small Business,1916
+W_Account.00086,W_User.00010,Cold Call,3086000,2843 Dorton Junction,Vero Beach,FL,32969,USA,Manufacturing,Shufflebeat,181,Private,1-(772)199-3923,Hot,Small Business,1934
+W_Account.00087,W_User.00008,Social Media,3125000,18740 Dahle Court,Chico,CA,95973,USA,Apparel,Kare,184,Subsidiary,1-(530)235-6396,Hot,Small Business,1968
+W_Account.00088,W_User.00002,Partner,3197000,04 Almo Center,Chesapeake,VA,23324,USA,Entertainment,Twitterwire,180,Private,1-(757)441-2871,Warm,Small Business,1894
+W_Account.00089,W_User.00019,Website,4233000,8836 Moose Parkway,Sacramento,CA,94257,USA,Chemicals,Realpoint,311,Public,1-(916)137-5508,Hot,Small Business,1917
+W_Account.00090,W_User.00006,Social Media,3984000,91817 Northview Street,Tulsa,OK,74133,USA,Transportation,Vitz,216,Subsidiary,1-(918)925-2241,Warm,Small Business,1999
+W_Account.00091,W_User.00016,Data.com,1763000,2863 Becker Street,Hampton,VA,23663,USA,Shipping,Topiczoom,137,Public,1-(757)920-9575,Hot,Small Business,1993
+W_Account.00092,W_User.00009,Website,2749000,14910 Service Plaza,Waterbury,CT,06726,USA,Energy,Kazio,199,Private,1-(203)696-7295,Warm,Small Business,1953
+W_Account.00093,W_User.00015,Community,2455000,80124 Killdeer Way,Jacksonville,FL,32204,USA,Consulting,Snaptags,152,Private,1-(904)781-6236,Hot,Small Business,1972
+W_Account.00094,W_User.00016,Inbound Call,3316000,6 Pierstorff Road,Round Rock,TX,78682,USA,Entertainment,Kanoodle,247,Public,1-(512)816-1704,Warm,Mid-Market,1900
+W_Account.00095,W_User.00015,Partner,3492000,1 Hayes Crossing,San Antonio,TX,78245,USA,Technology,Realpoint,245,Public,1-(210)374-5591,Hot,Mid-Market,1930
+W_Account.00096,W_User.00019,Partner,3861000,2 Paget Lane,South Bend,IN,46634,USA,Hospitality,Flipbug,247,Private,1-(574)665-4167,Warm,Small Business,2003
+W_Account.00097,W_User.00010,Marketing Event,2703000,86439 Jackson Pass,Albany,NY,12255,USA,Machinery,Edgepulse,141,Private,1-(518)371-2561,Warm,Small Business,1896
+W_Account.00098,W_User.00009,Website,2700000,01 Waywood Road,Houston,TX,77070,USA,Technology,Jayo,151,Public,1-(713)976-7927,Hot,Small Business,1931
+W_Account.00099,W_User.00013,Social Media,2969000,1 Dottie Pass,Hartford,CT,06140,USA,Machinery,Bluejam,412,Private,1-(860)527-2747,Cool,Mid-Market,1906
+W_Account.00100,W_User.00010,Data.com,1426000,06 Sunnyside Crossing,Washington,DC,20546,USA,Chemicals,Oozz,99,Public,1-(202)969-9059,Hot,Small Business,1909
