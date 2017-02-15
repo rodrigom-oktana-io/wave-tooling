@@ -1,56 +1,44 @@
-[
-	{
-		"appName": "Services Wave",
-		"dataflowName": "<source service wave dataflow name / not in use for now>",
-		"objects": [
-			{
-				"name": "User",
-				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Users.csv",
-				"children": [
-					{
-						"name": "Case",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv"
-					},
-					{
-						"name": "Task",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Tasks.csv"
-					},
-					{
-						"name": "Event",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Events.csv"
-					}
-				]
-			}
-		]
-	},
-	{
-		"appName": "Sales Wave",
-		"dataflowName": "<source sales wave dataflow name / not in use for now>",
-		"objects": [
-			{
-				"name": "User",
-				"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Users.csv",
-				"children": [
-					{
-						"name": "Account",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Accounts.csv",
-						"children": [
-							{
-								"name": "Opportunity",
-								"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv"
-							}
-						]
-					},
-					{
-						"name": "Task",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Tasks.csv"
-					},
-					{
-						"name": "Event",
-						"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Events.csv"
-					}
-				]
-			}
-		]
-	}
-]
+{
+	"commonObjects" : [
+		{
+			"name": "User",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
+			"children": [
+				{
+					"name": "Account",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv"
+				},
+				{
+					"name": "Task",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv"
+				},
+				{
+					"name": "Event",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv"
+				}
+			]
+		}
+	],
+	"waveApplications" : [
+		{
+			"appName": "Services Wave",
+			"dataflowName": "<source service wave dataflow name / not in use for now>",
+			"objects": [
+				{
+					"name": "Case",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv"				
+				}
+			]
+		},
+		{
+			"appName": "Sales Wave",
+			"dataflowName": "<source sales wave dataflow name / not in use for now>",
+			"objects": [
+				{
+					"name": "Opportunity",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv"
+				}
+			]
+		}
+	]
+}
