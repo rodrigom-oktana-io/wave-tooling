@@ -3,18 +3,56 @@
 		{
 			"name": "User",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
+			"relationships": [
+				{
+					"csv_column_name": "UserRole.Name",
+					"target_sobject" : "UserRole",
+					"target_sobject_lookup_field" : "Name",
+					"foreign_key_field" : "UserRoleId"
+				},
+				{
+					"csv_column_name": "Profile.Name",
+					"target_sobject" : "Profile",
+					"target_sobject_lookup_field" : "Name",
+					"foreign_key_field" : "ProfileId"
+				}
+			],
 			"children": [
 				{
 					"name": "Account",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv"
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
+					"relationships": [
+						{
+							"csv_column_name": "Owner.External_Id__c",
+							"target_sobject" : "User",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "OwnerId"
+						}
+					]
 				},
 				{
 					"name": "Task",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv"
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv",
+					"relationships": [
+						{
+							"csv_column_name": "Owner.External_Id__c",
+							"target_sobject" : "User",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "OwnerId"
+						}
+					]
 				},
 				{
 					"name": "Event",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv"
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv",
+					"relationships": [
+						{
+							"csv_column_name": "Owner.External_Id__c",
+							"target_sobject" : "User",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "OwnerId"
+						}
+					]
 				}
 			]
 		}
@@ -26,7 +64,21 @@
 			"objects": [
 				{
 					"name": "Case",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv"				
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+					"relationships": [
+						{
+							"csv_column_name": "Owner.External_Id__c",
+							"target_sobject" : "User",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "OwnerId"
+						},
+						{
+							"csv_column_name": "Account.External_Id__c",
+							"target_sobject" : "Account",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "AccountId"
+						}
+					]
 				}
 			]
 		},
@@ -36,7 +88,21 @@
 			"objects": [
 				{
 					"name": "Opportunity",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv"
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
+					"relationships": [
+						{
+							"csv_column_name": "Owner.External_Id__c",
+							"target_sobject" : "User",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "OwnerId"
+						},
+						{
+							"csv_column_name": "Account.External_Id__c",
+							"target_sobject" : "Account",
+							"target_sobject_lookup_field" : "External_Id__c",
+							"foreign_key_field" : "AccountId"
+						}
+					]
 				}
 			]
 		}
