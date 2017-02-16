@@ -3,54 +3,54 @@
 		{
 			"name": "User",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
-			"relationships": [
+			"relations": [
 				{
-					"csv_column_name": "UserRole.Name",
-					"target_sobject" : "UserRole",
-					"target_sobject_lookup_field" : "Name",
-					"foreign_key_field" : "UserRoleId"
+					"csvColumnName": "UserRole.Name",
+					"targetSObject" : "UserRole",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "UserRoleId"
 				},
 				{
-					"csv_column_name": "Profile.Name",
-					"target_sobject" : "Profile",
-					"target_sobject_lookup_field" : "Name",
-					"foreign_key_field" : "ProfileId"
+					"csvColumnName": "Profile.Name",
+					"targetSObject" : "Profile",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "ProfileId"
 				}
 			],
 			"children": [
 				{
 					"name": "Account",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
-					"relationships": [
+					"relations": [
 						{
-							"csv_column_name": "Owner.External_Id__c",
-							"target_sobject" : "User",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "OwnerId"
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						}
 					]
 				},
 				{
 					"name": "Task",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv",
-					"relationships": [
+					"relations": [
 						{
-							"csv_column_name": "Owner.External_Id__c",
-							"target_sobject" : "User",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "OwnerId"
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						}
 					]
 				},
 				{
 					"name": "Event",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv",
-					"relationships": [
+					"relations": [
 						{
-							"csv_column_name": "Owner.External_Id__c",
-							"target_sobject" : "User",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "OwnerId"
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						}
 					]
 				}
@@ -65,18 +65,18 @@
 				{
 					"name": "Case",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
-					"relationships": [
+					"relations": [
 						{
-							"csv_column_name": "Owner.External_Id__c",
-							"target_sobject" : "User",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "OwnerId"
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						},
 						{
-							"csv_column_name": "Account.External_Id__c",
-							"target_sobject" : "Account",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "AccountId"
+							"csvColumnName": "Account.External_Id__c",
+							"targetSObject" : "Account",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "AccountId"
 						}
 					]
 				}
@@ -89,18 +89,18 @@
 				{
 					"name": "Opportunity",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
-					"relationships": [
+					"relations": [
 						{
-							"csv_column_name": "Owner.External_Id__c",
-							"target_sobject" : "User",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "OwnerId"
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						},
 						{
-							"csv_column_name": "Account.External_Id__c",
-							"target_sobject" : "Account",
-							"target_sobject_lookup_field" : "External_Id__c",
-							"foreign_key_field" : "AccountId"
+							"csvColumnName": "Account.External_Id__c",
+							"targetSObject" : "Account",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "AccountId"
 						}
 					]
 				}
