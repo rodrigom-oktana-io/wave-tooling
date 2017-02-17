@@ -60,7 +60,7 @@
 	"waveApplications" : [
 		{
 			"appName": "Services Wave",
-			"dataflowName": "<source service wave dataflow name / not in use for now>",
+			"dataflowLocation": "<URL for the json definition>",
 			"objects": [
 				{
 					"name": "Case",
@@ -84,7 +84,7 @@
 		},
 		{
 			"appName": "Sales Wave",
-			"dataflowName": "<source sales wave dataflow name / not in use for now>",
+			"dataflowLocation": "<URL for the json definition>",
 			"objects": [
 				{
 					"name": "Opportunity",
