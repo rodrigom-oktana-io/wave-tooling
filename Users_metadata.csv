@@ -1,2 +1,2 @@
-Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsRequired,IsExternalId
 External ID,ExternalId,Text,,50,0,0,1,1
