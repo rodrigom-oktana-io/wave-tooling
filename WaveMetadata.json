@@ -31,32 +31,6 @@
 							"foreignKeyField" : "OwnerId"
 						}
 					]
-				},
-				{
-					"name": "Task",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv",
-					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks_metadata.csv",
-					"relations": [
-						{
-							"csvColumnName": "Owner.External_Id__c",
-							"targetSObject" : "User",
-							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "OwnerId"
-						}
-					]
-				},
-				{
-					"name": "Event",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv",
-					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events_metadata.csv",
-					"relations": [
-						{
-							"csvColumnName": "Owner.External_Id__c",
-							"targetSObject" : "User",
-							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "OwnerId"
-						}
-					]
 				}
 			]
 		}
@@ -84,29 +58,17 @@
 							"foreignKeyField" : "AccountId"
 						}
 					]
-				}
-			]
-		},
-		{
-			"appName": "Sales Wave",
-			"dataflowLocation": "<URL for the json definition>",
-			"objects": [
+				},
 				{
-					"name": "Opportunity",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
-					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities_metadata.csv",
+					"name": "CaseHistory__c",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_History.csv",
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/CasesHistory_metadata.csv",
 					"relations": [
 						{
-							"csvColumnName": "Owner.External_Id__c",
-							"targetSObject" : "User",
+							"csvColumnName": "Case.External_Id__c",
+							"targetSObject" : "Case",
 							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "OwnerId"
-						},
-						{
-							"csvColumnName": "Account.External_Id__c",
-							"targetSObject" : "Account",
-							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "AccountId"
+							"foreignKeyField" : "CaseId"
 						}
 					]
 				}
