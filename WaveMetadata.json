@@ -9,7 +9,7 @@
 					"csvColumnName": "UserRole.Name",
 					"targetSObject" : "UserRole",
 					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "UserRoleId"
+					"foreignKeyField" : "UserRoleId" 
 				},
 				{
 					"csvColumnName": "Profile.Name",
