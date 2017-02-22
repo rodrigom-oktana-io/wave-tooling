@@ -101,3 +101,4 @@ EmailPreferencesStayInTouchReminder,EmailPreferencesStayInTouchReminder,boolean,
 UserPreferencesGlobalNavBarWTShown,UserPreferencesGlobalNavBarWTShown,boolean,,100,0,0,FALSE,FALSE
 UserPreferencesGlobalNavGridMenuWTShown,UserPreferencesGlobalNavGridMenuWTShown,boolean,,100,0,0,FALSE,FALSE
 UserPreferencesCreateLEXAppsWTShown,UserPreferencesCreateLEXAppsWTShown,boolean,,100,0,0,FALSE,FALSE
+
