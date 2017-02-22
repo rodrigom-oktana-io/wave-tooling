@@ -1,5 +1,5 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
-External_Id__c,External_Id__c,Text,,50,0,0,TRUE,TRUE
+External_Id__c,External_Id__c,Text,,50,0,0,True,True
 CompanyName,CompanyName,Text,,100,0,0,FALSE,FALSE
 FirstName,FirstName,Text,,100,0,0,FALSE,TRUE
 LastName,LastName,Text,,100,0,0,FALSE,TRUE
