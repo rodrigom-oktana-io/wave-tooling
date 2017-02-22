@@ -3,7 +3,7 @@
 		{
 			"name": "User",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users_metadata.csv",
+			"metadataUrl": "http://sfdc-mockaroo.herokuapp.com/fdf832d0/download?count=1&key=ad4356a0",
 			"relations": [
 				{
 					"csvColumnName": "UserRole.Name",
