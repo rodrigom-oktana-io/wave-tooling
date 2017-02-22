@@ -3,13 +3,13 @@
 		{
 			"name": "User",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
-			"metadataUrl": "https://sfdc-mockaroo.herokuapp.com/fdf832d0/download?count=1&key=ad4356a0",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "UserRole.Name",
 					"targetSObject" : "UserRole",
 					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "UserRoleId" 
+					"foreignKeyField" : "UserRoleId"
 				},
 				{
 					"csvColumnName": "Profile.Name",
