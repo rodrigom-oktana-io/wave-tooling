@@ -9,8 +9,6 @@ Username,Username,Text,,100,0,0,FALSE,TRUE
 CommunityNickname,CommunityNickname,Text,,100,0,0,FALSE,FALSE
 Email,Email,Email,,100,0,0,FALSE,TRUE
 Phone,Phone,Text,,100,0,0,FALSE,FALSE
-UserRole.Name,UserRole.Name,Text,,100,0,0,FALSE,TRUE
-Profile.Name,Profile.Name,Text,,100,0,0,FALSE,TRUE
 Title,Title,Text,,100,0,0,FALSE,TRUE
 TimeZoneSidKey,TimeZoneSidKey,Text,,100,0,0,FALSE,FALSE
 LocaleSidKey,LocaleSidKey,Text,,100,0,0,FALSE,FALSE
