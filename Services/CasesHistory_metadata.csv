@@ -1,5 +1,6 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
-Case.External_Id__c,Case.External_Id__c,Text,Case,50,0,0,TRUE,TRUE
+Case,CaseId__c,MasterDetail,Case,0,0,0,FALSE,TRUE
+ExternalId,External_Id__c,Text,,50,0,0,TRUE,TRUE
 CreatedById__c,CreatedById__c,Text,User,50,0,0,TRUE,TRUE
 CreatedDate__c,CreatedDate__c,Date,,100,0,0,FALSE,TRUE
 Field__c,Field__c,Text,,100,0,0,FALSE,TRUE
