@@ -19,12 +19,12 @@ Profit Log,Profit Log,Text,,100,0,0,FALSE,FALSE
 Outlier,Outlier,Text,,100,0,0,FALSE,FALSE
 Status,Status,Text,,100,0,0,FALSE,TRUE
 First_Contact_Close__c,First_Contact_Close__c,boolean,,100,0,0,FALSE,TRUE
-time_open,time_open,int,,100,0,0,FALSE,TRUE
+time_open,time_open,Number,,100,0,0,FALSE,TRUE
 UserRole.Name,UserRole.Name,Text,,100,0,0,FALSE,TRUE
 User.External_Id__c,User.External_Id__c,Text,User,100,0,0,TRUE,TRUE
-close_date_offset,close_date_offset,int,,100,0,0,FALSE,FALSE
+close_date_offset,close_date_offset,Number,,100,0,0,FALSE,FALSE
 Account.External_Id__c,Account.External_Id__c,Text,Account,100,0,0,TRUE,TRUE
-account_case_ct,account_case_ct,int,,100,0,0,FALSE,FALSE
+account_case_ct,account_case_ct,Number,,100,0,0,FALSE,FALSE
 DateOpened,DateOpened,Date,,100,0,0,FALSE,TRUE
 DateClosed,DateClosed,Date,,100,0,0,FALSE,TRUE
 Ext_Id__c,Ext_Id__c,Text,,50,0,0,TRUE,TRUE
