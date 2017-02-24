@@ -3,6 +3,7 @@
 		{
 			"name": "User",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
+			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users_metadata.csv",
 			"relations": [
 				{
@@ -22,6 +23,7 @@
 				{
 					"name": "Account",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
+					"additionalDataFiles": 3,
 					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
 					"relations": [
 						{
@@ -43,6 +45,7 @@
 				{
 					"name": "Case",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+					"additionalDataFiles": 5,
 					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
 					"relations": [
 						{
@@ -62,6 +65,7 @@
 				{
 					"name": "CaseHistory__c",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_History.csv",
+					"additionalDataFiles": 14,
 					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/CasesHistory_metadata.csv",
 					"relations": [
 						{
