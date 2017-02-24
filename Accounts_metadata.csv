@@ -1,6 +1,5 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
 External_Id__c,External_Id__c,Text,,50,0,0,TRUE,TRUE
-Owner.External_Id__c,Owner.External_Id__c,Text,User,50,0,0,TRUE,TRUE
 AccountSource,AccountSource,Text,,100,0,0,FALSE,FALSE
 AnnualRevenue,AnnualRevenue,double,,12,15,2,FALSE,FALSE
 BillingStreet,BillingStreet,Text,,100,0,0,FALSE,FALSE
