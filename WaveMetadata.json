@@ -73,6 +73,12 @@
 							"targetSObject" : "Case",
 							"targetSObjectLookupField" : "External_Id__c",
 							"foreignKeyField" : "CaseId"
+						},
+						{
+							"csvColumnName": "CreatedById__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "CreatedById__c"
 						}
 					]
 				}
