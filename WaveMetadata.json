@@ -61,6 +61,26 @@
 							"foreignKeyField" : "AccountId"
 						}
 					]
+				},
+				{
+					"name": "CaseHistory__c",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_History.csv",
+					"additionalDataFiles": 14,
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/CasesHistory_metadata.csv",
+					"relations": [
+						{
+							"csvColumnName": "Case.External_Id__c",
+							"targetSObject" : "Case",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "CaseId"
+						},
+						{
+							"csvColumnName": "CreatedById__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "CreatedById__c"
+						}
+					]
 				}
 			]
 		}
