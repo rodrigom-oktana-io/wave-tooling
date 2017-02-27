@@ -9994,7 +9994,3 @@ Case_29200,W_User.10,2016-09-18,Status,,New
 Case_29200,W_User.10,2016-09-24,Status,New,Escalated
 Case_29200,W_User.10,2016-10-21,Status,Escalated,On Hold
 Case_29200,W_User.10,2016-11-17,Status,On Hold,Closed
-Case_29201,W_User.13,2016-08-01,created,,
-Case_29201,W_User.13,2016-08-01,Status,,New
-Case_29201,W_User.13,2016-08-09,Status,New,Waiting on Customer
-Case_29201,W_User.13,2016-09-08,Status,Waiting on Customer,On Hold
