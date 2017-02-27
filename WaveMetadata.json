@@ -36,33 +36,5 @@
 				}
 			]
 		}
-	],
-	"waveApplications" : [
-		{
-			"appName": "Services Wave",
-			"dataflowLocation": "<URL for the json definition>",
-			"objects": [
-				{
-					"name": "Case",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
-					"additionalDataFiles": 5,
-					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
-					"relations": [
-						{
-							"csvColumnName": "User.External_Id__c",
-							"targetSObject" : "User",
-							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "OwnerId"
-						},
-						{
-							"csvColumnName": "Account.External_Id__c",
-							"targetSObject" : "Account",
-							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "AccountId"
-						}
-					]
-				}
-			]
-		}
 	]
 }
