@@ -36,5 +36,53 @@
 				}
 			]
 		}
+	],
+	"waveApplications" : [
+		{
+			"appName": "Services Wave",
+			"dataflowLocation": "<URL for the json definition>",
+			"objects": [
+				{
+					"name": "Case",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+					"additionalDataFiles": 5,
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
+					"relations": [
+						{
+							"csvColumnName": "User.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
+						},
+						{
+							"csvColumnName": "Account.External_Id__c",
+							"targetSObject" : "Account",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "AccountId"
+						}
+					]
+				},
+				{
+					"name": "CaseHistory__c",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_History.csv",
+					"additionalDataFiles": 14,
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/CasesHistory_metadata.csv",
+					"relations": [
+						{
+							"csvColumnName": "Case.External_Id__c",
+							"targetSObject" : "Case",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "CaseId"
+						},
+						{
+							"csvColumnName": "CreatedById__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "CreatedById__c"
+						}
+					]
+				}
+			]
+		}
 	]
 }
