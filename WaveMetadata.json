@@ -83,6 +83,30 @@
 					]
 				}
 			]
+		},
+		{
+			"appName": "Sales Wave",
+			"dataflowLocation": "<URL for the json definition>",
+			"objects": [
+				{
+					"name": "Opportunity",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
+					"relations": [
+						{
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
+						},
+						{
+							"csvColumnName": "Account.External_Id__c",
+							"targetSObject" : "Account",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "AccountId"
+						}
+					]
+				}
+			]
 		}
 	]
 }
