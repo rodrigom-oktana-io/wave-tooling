@@ -93,6 +93,8 @@
 				{
 					"name": "Opportunity",
 					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
+					"additionalDataFiles": 0,
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunity_metadata.csv",
 					"relations": [
 						{
 							"csvColumnName": "Owner.External_Id__c",
