@@ -22,7 +22,7 @@
 			"children": [
 				{
 					"name": "Account",
-					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsForSales.csv",
 					"additionalDataFiles": 3,
 					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
 					"relations": [
