@@ -39,7 +39,8 @@
 	],
 	"waveApplications" : [
 		{
-			"appName": "Services Wave",
+			"appName": "Wave for Services",
+			"appDescription": "This package includes data on Users, Accounts, Cases and Cases History for Wave for Services. It also includes a Wave workflow and dashboards.",
 			"dataflowLocation": "<URL for the json definition>",
 			"objects": [
 				{
@@ -85,7 +86,8 @@
 			]
 		},
 		{
-			"appName": "Sales Wave",
+			"appName": "Wave for Sales",
+			"appDescription": "This package includes data on Users, Accounts, Opportunities for Wave for Sales. It also includes a Wave workflow and dashboards.",
 			"dataflowLocation": "<URL for the json definition>",
 			"objects": [
 				{
