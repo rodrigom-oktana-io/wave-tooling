@@ -19,10 +19,10 @@ CSAT__c,CSAT__c,Text,,100,0,0,FALSE,TRUE
 Profit Log,Profit Log,Text,,100,0,0,FALSE,FALSE
 Outlier,Outlier,Text,,100,0,0,FALSE,FALSE
 Status,Status,Text,,100,0,0,FALSE,TRUE
-First_Contact_Close__c,First_Contact_Close__c,boolean,,100,0,0,FALSE,TRUE
+First_Contact_Close__c,First_Contact_Close__c,Checkbox,,100,0,0,FALSE,TRUE
 time_open,time_open,Number,,100,0,0,FALSE,TRUE
 close_date_offset,close_date_offset,Number,,100,0,0,FALSE,FALSE
 account_case_ct,account_case_ct,Number,,100,0,0,FALSE,FALSE
 DateOpened,DateOpened,Date,,100,0,0,FALSE,TRUE
 DateClosed,DateClosed,Date,,100,0,0,FALSE,TRUE
-IsEscalated,IsEscalated,boolean,,100,0,0,FALSE,TRUE
+IsEscalated,IsEscalated,Checkbox,,100,0,0,FALSE,TRUE
