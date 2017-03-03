@@ -1,1504 +1,1504 @@
 Case.External_Id__c,CreatedById__c,CreatedDate__c,Field__c,OldValue__c,NewValue__c
-Case_29202,W_User.12,2016-10-12,created,,
-Case_29202,W_User.12,2016-10-12,Status,,New
-Case_29202,W_User.12,2016-11-17,Status,New,Closed
-Case_29203,W_User.9,2016-09-18,created,,
-Case_29203,W_User.9,2016-09-18,Status,,New
-Case_29203,W_User.9,2016-11-17,Status,New,Closed
-Case_29204,W_User.13,2016-08-01,created,,
-Case_29204,W_User.13,2016-08-01,Status,,New
-Case_29204,W_User.13,2016-11-17,Status,New,Closed
-Case_29205,W_User.13,2016-11-05,created,,
-Case_29205,W_User.13,2016-11-05,Status,,New
-Case_29205,W_User.13,2016-11-17,Status,New,Closed
-Case_29206,W_User.14,2016-09-18,created,,
-Case_29206,W_User.14,2016-09-18,Status,,New
-Case_29206,W_User.14,2016-09-29,Status,New,Escalated
-Case_29206,W_User.14,2016-10-27,Status,Escalated,On Hold
-Case_29206,W_User.14,2016-11-17,Status,On Hold,Waiting on Customer
-Case_29207,W_User.7,2016-08-13,created,,
-Case_29207,W_User.7,2016-08-13,Status,,New
-Case_29207,W_User.7,2016-11-17,Status,New,Closed
-Case_29208,W_User.18,2016-09-06,created,,
-Case_29208,W_User.18,2016-09-06,Status,,New
-Case_29208,W_User.18,2016-11-17,Status,New,Closed
-Case_29209,W_User.14,2016-10-24,created,,
-Case_29209,W_User.14,2016-10-24,Status,,New
-Case_29209,W_User.14,2016-11-17,Status,New,Closed
-Case_29210,W_User.6,2016-11-05,created,,
-Case_29210,W_User.6,2016-11-05,Status,,New
-Case_29210,W_User.6,2016-11-17,Status,New,Closed
-Case_29211,W_User.7,2016-09-18,created,,
-Case_29211,W_User.7,2016-09-18,Status,,New
-Case_29211,W_User.7,2016-11-17,Status,New,Closed
-Case_29212,W_User.1,2016-09-30,created,,
-Case_29212,W_User.1,2016-09-30,Status,,New
-Case_29212,W_User.1,2016-11-17,Status,New,Closed
-Case_29213,W_User.14,2016-11-05,created,,
-Case_29213,W_User.14,2016-11-05,Status,,New
-Case_29213,W_User.14,2016-11-07,Status,New,Waiting on Customer
-Case_29213,W_User.14,2016-11-08,Status,Waiting on Customer,Escalated
-Case_29213,W_User.14,2016-11-17,Status,Escalated,On Hold
-Case_29214,W_User.12,2016-09-30,created,,
-Case_29214,W_User.12,2016-09-30,Status,,New
-Case_29214,W_User.12,2016-11-17,Status,New,Closed
-Case_29215,W_User.15,2016-09-06,created,,
-Case_29215,W_User.15,2016-09-06,Status,,New
-Case_29215,W_User.15,2016-11-17,Status,New,Closed
-Case_29216,W_User.8,2016-10-24,created,,
-Case_29216,W_User.8,2016-10-24,Status,,New
-Case_29216,W_User.8,2016-11-07,Status,New,Escalated
-Case_29216,W_User.8,2016-11-17,Status,Escalated,Closed
-Case_29217,W_User.8,2016-10-12,created,,
-Case_29217,W_User.8,2016-10-12,Status,,New
-Case_29217,W_User.8,2016-10-19,Status,New,Escalated
-Case_29217,W_User.8,2016-11-02,Status,Escalated,Working
-Case_29217,W_User.8,2016-11-17,Status,Working,Closed
-Case_29218,W_User.15,2016-10-24,created,,
-Case_29218,W_User.15,2016-10-24,Status,,New
-Case_29218,W_User.15,2016-11-14,Status,New,Escalated
-Case_29218,W_User.15,2016-11-17,Status,Escalated,Closed
-Case_29219,W_User.8,2016-09-30,created,,
-Case_29219,W_User.8,2016-09-30,Status,,New
-Case_29219,W_User.8,2016-10-12,Status,New,Working
-Case_29219,W_User.8,2016-11-01,Status,Working,On Hold
-Case_29219,W_User.8,2016-11-17,Status,On Hold,Closed
-Case_29220,W_User.15,2016-11-05,created,,
-Case_29220,W_User.15,2016-11-05,Status,,New
-Case_29220,W_User.15,2016-11-17,Status,New,Closed
-Case_29221,W_User.10,2016-09-30,created,,
-Case_29221,W_User.10,2016-09-30,Status,,New
-Case_29221,W_User.10,2016-10-07,Status,New,Escalated
-Case_29221,W_User.10,2016-10-11,Status,Escalated,On Hold
-Case_29221,W_User.10,2016-10-21,Status,On Hold,Waiting on Customer
-Case_29221,W_User.10,2016-10-28,Status,Waiting on Customer,Working
-Case_29221,W_User.10,2016-11-17,Status,Working,Closed
-Case_29222,W_User.14,2016-08-01,created,,
-Case_29222,W_User.14,2016-08-01,Status,,New
-Case_29222,W_User.14,2016-11-17,Status,New,Closed
-Case_29223,W_User.13,2016-08-13,created,,
-Case_29223,W_User.13,2016-08-13,Status,,New
-Case_29223,W_User.13,2016-11-17,Status,New,Closed
-Case_29224,W_User.12,2016-10-24,created,,
-Case_29224,W_User.12,2016-10-24,Status,,New
-Case_29224,W_User.12,2016-10-28,Status,New,Waiting on Customer
-Case_29224,W_User.12,2016-11-17,Status,Waiting on Customer,Closed
-Case_29225,W_User.1,2016-10-12,created,,
-Case_29225,W_User.1,2016-10-12,Status,,New
-Case_29225,W_User.1,2016-10-23,Status,New,Escalated
-Case_29225,W_User.1,2016-11-17,Status,Escalated,Closed
-Case_29226,W_User.6,2016-11-05,created,,
-Case_29226,W_User.6,2016-11-05,Status,,New
-Case_29226,W_User.6,2016-11-17,Status,New,Closed
-Case_29227,W_User.15,2016-10-12,created,,
-Case_29227,W_User.15,2016-10-12,Status,,New
-Case_29227,W_User.15,2016-10-16,Status,New,Working
-Case_29227,W_User.15,2016-10-22,Status,Working,Waiting on Customer
-Case_29227,W_User.15,2016-11-17,Status,Waiting on Customer,Closed
-Case_29228,W_User.9,2016-10-24,created,,
-Case_29228,W_User.9,2016-10-24,Status,,New
-Case_29228,W_User.9,2016-11-17,Status,New,Closed
-Case_29229,W_User.13,2016-09-18,created,,
-Case_29229,W_User.13,2016-09-18,Status,,New
-Case_29229,W_User.13,2016-11-17,Status,New,Closed
-Case_29230,W_User.11,2016-10-24,created,,
-Case_29230,W_User.11,2016-10-24,Status,,New
-Case_29230,W_User.11,2016-11-08,Status,New,On Hold
-Case_29230,W_User.11,2016-11-17,Status,On Hold,Closed
-Case_29231,W_User.14,2016-09-06,created,,
-Case_29231,W_User.14,2016-09-06,Status,,New
-Case_29231,W_User.14,2016-11-17,Status,New,Closed
-Case_29232,W_User.18,2016-10-12,created,,
-Case_29232,W_User.18,2016-10-12,Status,,New
-Case_29232,W_User.18,2016-10-14,Status,New,On Hold
-Case_29232,W_User.18,2016-11-08,Status,On Hold,Waiting on Customer
-Case_29232,W_User.18,2016-11-17,Status,Waiting on Customer,Closed
-Case_29233,W_User.9,2016-07-20,created,,
-Case_29233,W_User.9,2016-07-20,Status,,New
-Case_29233,W_User.9,2016-08-14,Status,New,Escalated
-Case_29233,W_User.9,2016-08-21,Status,Escalated,Waiting on Customer
-Case_29233,W_User.9,2016-09-09,Status,Waiting on Customer,Working
-Case_29233,W_User.9,2016-09-24,Status,Working,On Hold
-Case_29233,W_User.9,2016-09-26,Status,On Hold,Waiting on Customer
-Case_29233,W_User.9,2016-09-29,Status,Waiting on Customer,Working
-Case_29233,W_User.9,2016-10-23,Status,Working,On Hold
-Case_29233,W_User.9,2016-11-02,Status,On Hold,Working
-Case_29233,W_User.9,2016-11-14,Status,Working,On Hold
-Case_29233,W_User.9,2016-11-17,Status,On Hold,Closed
-Case_29234,W_User.1,2016-07-20,created,,
-Case_29234,W_User.1,2016-07-20,Status,,New
-Case_29234,W_User.1,2016-11-17,Status,New,Closed
-Case_29235,W_User.6,2016-08-25,created,,
-Case_29235,W_User.6,2016-08-25,Status,,New
-Case_29235,W_User.6,2016-11-17,Status,New,Closed
-Case_29236,W_User.19,2016-07-20,created,,
-Case_29236,W_User.19,2016-07-20,Status,,New
-Case_29236,W_User.19,2016-08-10,Status,New,Escalated
-Case_29236,W_User.19,2016-08-10,Status,Escalated,Waiting on Customer
-Case_29236,W_User.19,2016-09-01,Status,Waiting on Customer,On Hold
-Case_29236,W_User.19,2016-09-02,Status,On Hold,Working
-Case_29236,W_User.19,2016-09-06,Status,Working,Waiting on Customer
-Case_29236,W_User.19,2016-09-29,Status,Waiting on Customer,On Hold
-Case_29236,W_User.19,2016-10-02,Status,On Hold,Waiting on Customer
-Case_29236,W_User.19,2016-10-13,Status,Waiting on Customer,Working
-Case_29236,W_User.19,2016-11-11,Status,Working,On Hold
-Case_29236,W_User.19,2016-11-12,Status,On Hold,Waiting on Customer
-Case_29236,W_User.19,2016-11-15,Status,Waiting on Customer,On Hold
-Case_29236,W_User.19,2016-11-17,Status,On Hold,Closed
-Case_29237,W_User.15,2016-10-12,created,,
-Case_29237,W_User.15,2016-10-12,Status,,New
-Case_29237,W_User.15,2016-11-17,Status,New,Closed
-Case_29238,W_User.13,2016-10-24,created,,
-Case_29238,W_User.13,2016-10-24,Status,,New
-Case_29238,W_User.13,2016-10-27,Status,New,Waiting on Customer
-Case_29238,W_User.13,2016-11-15,Status,Waiting on Customer,Escalated
-Case_29238,W_User.13,2016-11-17,Status,Escalated,Closed
-Case_29239,W_User.14,2016-09-18,created,,
-Case_29239,W_User.14,2016-09-18,Status,,New
-Case_29239,W_User.14,2016-09-30,Status,New,On Hold
-Case_29239,W_User.14,2016-10-14,Status,On Hold,Waiting on Customer
-Case_29239,W_User.14,2016-10-31,Status,Waiting on Customer,On Hold
-Case_29239,W_User.14,2016-11-04,Status,On Hold,Waiting on Customer
-Case_29239,W_User.14,2016-11-17,Status,Waiting on Customer,Closed
-Case_29240,W_User.6,2016-08-25,created,,
-Case_29240,W_User.6,2016-08-25,Status,,New
-Case_29240,W_User.6,2016-11-17,Status,New,Closed
-Case_29241,W_User.20,2016-10-12,created,,
-Case_29241,W_User.20,2016-10-12,Status,,New
-Case_29241,W_User.20,2016-11-17,Status,New,Closed
-Case_29242,W_User.17,2016-08-01,created,,
-Case_29242,W_User.17,2016-08-01,Status,,New
-Case_29242,W_User.17,2016-11-17,Status,New,Closed
-Case_29243,W_User.6,2016-10-24,created,,
-Case_29243,W_User.6,2016-10-24,Status,,New
-Case_29243,W_User.6,2016-11-17,Status,New,Closed
-Case_29244,W_User.14,2016-08-25,created,,
-Case_29244,W_User.14,2016-08-25,Status,,New
-Case_29244,W_User.14,2016-09-23,Status,New,On Hold
-Case_29244,W_User.14,2016-10-10,Status,On Hold,Waiting on Customer
-Case_29244,W_User.14,2016-10-30,Status,Waiting on Customer,Escalated
-Case_29244,W_User.14,2016-11-17,Status,Escalated,Closed
-Case_29245,W_User.15,2016-09-06,created,,
-Case_29245,W_User.15,2016-09-06,Status,,New
-Case_29245,W_User.15,2016-09-18,Status,New,Working
-Case_29245,W_User.15,2016-09-23,Status,Working,Waiting on Customer
-Case_29245,W_User.15,2016-09-29,Status,Waiting on Customer,On Hold
-Case_29245,W_User.15,2016-10-04,Status,On Hold,Working
-Case_29245,W_User.15,2016-10-31,Status,Working,Escalated
-Case_29245,W_User.15,2016-11-17,Status,Escalated,Closed
-Case_29246,W_User.9,2016-08-25,created,,
-Case_29246,W_User.9,2016-08-25,Status,,New
-Case_29246,W_User.9,2016-09-17,Status,New,Escalated
-Case_29246,W_User.9,2016-10-12,Status,Escalated,Waiting on Customer
-Case_29246,W_User.9,2016-10-18,Status,Waiting on Customer,On Hold
-Case_29246,W_User.9,2016-11-16,Status,On Hold,Waiting on Customer
-Case_29246,W_User.9,2016-11-17,Status,Waiting on Customer,Working
-Case_29248,W_User.8,2016-07-20,created,,
-Case_29248,W_User.8,2016-07-20,Status,,New
-Case_29248,W_User.8,2016-07-28,Status,New,Working
-Case_29248,W_User.8,2016-08-09,Status,Working,Waiting on Customer
-Case_29248,W_User.8,2016-08-27,Status,Waiting on Customer,On Hold
-Case_29248,W_User.8,2016-09-03,Status,On Hold,Escalated
-Case_29248,W_User.8,2016-09-13,Status,Escalated,Working
-Case_29248,W_User.8,2016-10-11,Status,Working,On Hold
-Case_29248,W_User.8,2016-10-25,Status,On Hold,Working
-Case_29248,W_User.8,2016-10-28,Status,Working,Waiting on Customer
-Case_29248,W_User.8,2016-11-05,Status,Waiting on Customer,On Hold
-Case_29248,W_User.8,2016-11-07,Status,On Hold,Waiting on Customer
-Case_29248,W_User.8,2016-11-17,Status,Waiting on Customer,Closed
-Case_29249,W_User.7,2016-09-06,created,,
-Case_29249,W_User.7,2016-09-06,Status,,New
-Case_29249,W_User.7,2016-09-19,Status,New,On Hold
-Case_29249,W_User.7,2016-09-28,Status,On Hold,Escalated
-Case_29249,W_User.7,2016-10-24,Status,Escalated,On Hold
-Case_29249,W_User.7,2016-11-04,Status,On Hold,Waiting on Customer
-Case_29249,W_User.7,2016-11-17,Status,Waiting on Customer,Closed
-Case_29250,W_User.15,2016-10-24,created,,
-Case_29250,W_User.15,2016-10-24,Status,,New
-Case_29250,W_User.15,2016-11-17,Status,New,Closed
-Case_29251,W_User.11,2016-11-05,created,,
-Case_29251,W_User.11,2016-11-05,Status,,New
-Case_29251,W_User.11,2016-11-17,Status,New,Closed
-Case_29252,W_User.9,2016-09-30,created,,
-Case_29252,W_User.9,2016-09-30,Status,,New
-Case_29252,W_User.9,2016-10-24,Status,New,On Hold
-Case_29252,W_User.9,2016-11-07,Status,On Hold,Working
-Case_29252,W_User.9,2016-11-17,Status,Working,Closed
-Case_29253,W_User.15,2016-07-20,created,,
-Case_29253,W_User.15,2016-07-20,Status,,New
-Case_29253,W_User.15,2016-08-08,Status,New,Waiting on Customer
-Case_29253,W_User.15,2016-08-14,Status,Waiting on Customer,On Hold
-Case_29253,W_User.15,2016-09-07,Status,On Hold,Working
-Case_29253,W_User.15,2016-09-10,Status,Working,On Hold
-Case_29253,W_User.15,2016-09-23,Status,On Hold,Escalated
-Case_29253,W_User.15,2016-09-25,Status,Escalated,Waiting on Customer
-Case_29253,W_User.15,2016-10-23,Status,Waiting on Customer,Working
-Case_29253,W_User.15,2016-11-14,Status,Working,On Hold
-Case_29253,W_User.15,2016-11-17,Status,On Hold,Closed
-Case_29254,W_User.6,2016-09-18,created,,
-Case_29254,W_User.6,2016-09-18,Status,,New
-Case_29254,W_User.6,2016-11-17,Status,New,Closed
-Case_29255,W_User.1,2016-09-30,created,,
-Case_29255,W_User.1,2016-09-30,Status,,New
-Case_29255,W_User.1,2016-11-17,Status,New,Closed
-Case_29256,W_User.15,2016-08-25,created,,
-Case_29256,W_User.15,2016-08-25,Status,,New
-Case_29256,W_User.15,2016-09-24,Status,New,Waiting on Customer
-Case_29256,W_User.15,2016-10-11,Status,Waiting on Customer,Escalated
-Case_29256,W_User.15,2016-11-09,Status,Escalated,On Hold
-Case_29256,W_User.15,2016-11-17,Status,On Hold,Closed
-Case_29257,W_User.11,2016-08-25,created,,
-Case_29257,W_User.11,2016-08-25,Status,,New
-Case_29257,W_User.11,2016-08-28,Status,New,Waiting on Customer
-Case_29257,W_User.11,2016-09-12,Status,Waiting on Customer,Escalated
-Case_29257,W_User.11,2016-09-26,Status,Escalated,On Hold
-Case_29257,W_User.11,2016-10-19,Status,On Hold,Waiting on Customer
-Case_29257,W_User.11,2016-10-21,Status,Waiting on Customer,Working
-Case_29257,W_User.11,2016-10-21,Status,Working,Waiting on Customer
-Case_29257,W_User.11,2016-10-28,Status,Waiting on Customer,On Hold
-Case_29257,W_User.11,2016-11-09,Status,On Hold,Working
-Case_29257,W_User.11,2016-11-17,Status,Working,Closed
-Case_29258,W_User.8,2016-11-05,created,,
-Case_29258,W_User.8,2016-11-05,Status,,New
-Case_29258,W_User.8,2016-11-17,Status,New,Closed
-Case_29259,W_User.15,2016-09-30,created,,
-Case_29259,W_User.15,2016-09-30,Status,,New
-Case_29259,W_User.15,2016-10-11,Status,New,Working
-Case_29259,W_User.15,2016-11-07,Status,Working,Waiting on Customer
-Case_29259,W_User.15,2016-11-17,Status,Waiting on Customer,Closed
-Case_29260,W_User.14,2016-07-20,created,,
-Case_29260,W_User.14,2016-07-20,Status,,New
-Case_29260,W_User.14,2016-11-17,Status,New,Closed
-Case_29261,W_User.6,2016-08-13,created,,
-Case_29261,W_User.6,2016-08-13,Status,,New
-Case_29261,W_User.6,2016-11-17,Status,New,Closed
-Case_29262,W_User.8,2016-09-30,created,,
-Case_29262,W_User.8,2016-09-30,Status,,New
-Case_29262,W_User.8,2016-11-17,Status,New,Closed
-Case_29263,W_User.7,2016-09-06,created,,
-Case_29263,W_User.7,2016-09-06,Status,,New
-Case_29263,W_User.7,2016-09-22,Status,New,Waiting on Customer
-Case_29263,W_User.7,2016-10-13,Status,Waiting on Customer,Working
-Case_29263,W_User.7,2016-11-01,Status,Working,On Hold
-Case_29263,W_User.7,2016-11-08,Status,On Hold,Escalated
-Case_29263,W_User.7,2016-11-17,Status,Escalated,Closed
-Case_29264,W_User.3,2016-10-12,created,,
-Case_29264,W_User.3,2016-10-12,Status,,New
-Case_29264,W_User.3,2016-11-17,Status,New,Closed
-Case_29265,W_User.6,2016-09-29,created,,
-Case_29265,W_User.6,2016-09-29,Status,,New
-Case_29265,W_User.6,2016-10-05,Status,New,Escalated
-Case_29265,W_User.6,2016-10-11,Status,Escalated,Working
-Case_29265,W_User.6,2016-10-30,Status,Working,Waiting on Customer
-Case_29265,W_User.6,2016-11-08,Status,Waiting on Customer,Working
-Case_29265,W_User.6,2016-11-16,Status,Working,Closed
-Case_29266,W_User.3,2016-10-23,created,,
-Case_29266,W_User.3,2016-10-23,Status,,New
-Case_29266,W_User.3,2016-10-28,Status,New,On Hold
-Case_29266,W_User.3,2016-11-06,Status,On Hold,Working
-Case_29266,W_User.3,2016-11-11,Status,Working,Waiting on Customer
-Case_29266,W_User.3,2016-11-16,Status,Waiting on Customer,Closed
-Case_29267,W_User.8,2016-07-31,created,,
-Case_29267,W_User.8,2016-07-31,Status,,New
-Case_29267,W_User.8,2016-08-07,Status,New,On Hold
-Case_29267,W_User.8,2016-09-04,Status,On Hold,Working
-Case_29267,W_User.8,2016-09-28,Status,Working,On Hold
-Case_29267,W_User.8,2016-10-20,Status,On Hold,Escalated
-Case_29267,W_User.8,2016-11-01,Status,Escalated,Working
-Case_29267,W_User.8,2016-11-16,Status,Working,Waiting on Customer
-Case_29268,W_User.13,2016-10-11,created,,
-Case_29268,W_User.13,2016-10-11,Status,,New
-Case_29268,W_User.13,2016-10-30,Status,New,Waiting on Customer
-Case_29268,W_User.13,2016-10-30,Status,Waiting on Customer,Escalated
-Case_29268,W_User.13,2016-11-08,Status,Escalated,On Hold
-Case_29268,W_User.13,2016-11-16,Status,On Hold,Closed
-Case_29269,W_User.11,2016-08-24,created,,
-Case_29269,W_User.11,2016-08-24,Status,,New
-Case_29269,W_User.11,2016-11-16,Status,New,Closed
-Case_29270,W_User.10,2016-11-04,created,,
-Case_29270,W_User.10,2016-11-04,Status,,New
-Case_29270,W_User.10,2016-11-16,Status,New,Closed
-Case_29271,W_User.6,2016-09-17,created,,
-Case_29271,W_User.6,2016-09-17,Status,,New
-Case_29271,W_User.6,2016-11-16,Status,New,Closed
-Case_29272,W_User.12,2016-10-23,created,,
-Case_29272,W_User.12,2016-10-23,Status,,New
-Case_29272,W_User.12,2016-11-16,Status,New,Closed
-Case_29273,W_User.9,2016-07-31,created,,
-Case_29273,W_User.9,2016-07-31,Status,,New
-Case_29273,W_User.9,2016-11-16,Status,New,Closed
-Case_29274,W_User.13,2016-09-05,created,,
-Case_29274,W_User.13,2016-09-05,Status,,New
-Case_29274,W_User.13,2016-10-01,Status,New,On Hold
-Case_29274,W_User.13,2016-10-01,Status,On Hold,Waiting on Customer
-Case_29274,W_User.13,2016-10-22,Status,Waiting on Customer,Escalated
-Case_29274,W_User.13,2016-11-04,Status,Escalated,Working
-Case_29274,W_User.13,2016-11-16,Status,Working,Closed
-Case_29275,W_User.9,2016-08-24,created,,
-Case_29275,W_User.9,2016-08-24,Status,,New
-Case_29275,W_User.9,2016-11-16,Status,New,Closed
-Case_29276,W_User.9,2016-10-23,created,,
-Case_29276,W_User.9,2016-10-23,Status,,New
-Case_29276,W_User.9,2016-11-16,Status,New,Closed
-Case_29277,W_User.17,2016-07-19,created,,
-Case_29277,W_User.17,2016-07-19,Status,,New
-Case_29277,W_User.17,2016-08-01,Status,New,Waiting on Customer
-Case_29277,W_User.17,2016-08-06,Status,Waiting on Customer,Working
-Case_29277,W_User.17,2016-09-03,Status,Working,Waiting on Customer
-Case_29277,W_User.17,2016-09-24,Status,Waiting on Customer,Working
-Case_29277,W_User.17,2016-10-13,Status,Working,Escalated
-Case_29277,W_User.17,2016-10-30,Status,Escalated,On Hold
-Case_29277,W_User.17,2016-11-16,Status,On Hold,Closed
-Case_29278,W_User.14,2016-07-19,created,,
-Case_29278,W_User.14,2016-07-19,Status,,New
-Case_29278,W_User.14,2016-11-16,Status,New,Closed
-Case_29279,W_User.5,2016-09-05,created,,
-Case_29279,W_User.5,2016-09-05,Status,,New
-Case_29279,W_User.5,2016-11-16,Status,New,Closed
-Case_29280,W_User.6,2016-10-11,created,,
-Case_29280,W_User.6,2016-10-11,Status,,New
-Case_29280,W_User.6,2016-10-20,Status,New,Working
-Case_29280,W_User.6,2016-10-24,Status,Working,Waiting on Customer
-Case_29280,W_User.6,2016-11-16,Status,Waiting on Customer,On Hold
-Case_29281,W_User.11,2016-08-24,created,,
-Case_29281,W_User.11,2016-08-24,Status,,New
-Case_29281,W_User.11,2016-11-16,Status,New,Closed
-Case_29282,W_User.6,2016-07-19,created,,
-Case_29282,W_User.6,2016-07-19,Status,,New
-Case_29282,W_User.6,2016-11-16,Status,New,Closed
-Case_29283,W_User.11,2016-10-23,created,,
-Case_29283,W_User.11,2016-10-23,Status,,New
-Case_29283,W_User.11,2016-10-24,Status,New,Waiting on Customer
-Case_29283,W_User.11,2016-10-29,Status,Waiting on Customer,Working
-Case_29283,W_User.11,2016-11-14,Status,Working,Waiting on Customer
-Case_29283,W_User.11,2016-11-16,Status,Waiting on Customer,Closed
-Case_29284,W_User.15,2016-11-04,created,,
-Case_29284,W_User.15,2016-11-04,Status,,New
-Case_29284,W_User.15,2016-11-16,Status,New,Closed
-Case_29285,W_User.13,2016-08-24,created,,
-Case_29285,W_User.13,2016-08-24,Status,,New
-Case_29285,W_User.13,2016-09-03,Status,New,Escalated
-Case_29285,W_User.13,2016-09-10,Status,Escalated,Working
-Case_29285,W_User.13,2016-09-13,Status,Working,On Hold
-Case_29285,W_User.13,2016-10-13,Status,On Hold,Waiting on Customer
-Case_29285,W_User.13,2016-11-08,Status,Waiting on Customer,On Hold
-Case_29285,W_User.13,2016-11-16,Status,On Hold,Closed
-Case_29286,W_User.16,2016-07-19,created,,
-Case_29286,W_User.16,2016-07-19,Status,,New
-Case_29286,W_User.16,2016-11-16,Status,New,Closed
-Case_29287,W_User.13,2016-10-23,created,,
-Case_29287,W_User.13,2016-10-23,Status,,New
-Case_29287,W_User.13,2016-11-05,Status,New,On Hold
-Case_29287,W_User.13,2016-11-16,Status,On Hold,Closed
-Case_29289,W_User.14,2016-07-31,created,,
-Case_29289,W_User.14,2016-07-31,Status,,New
-Case_29289,W_User.14,2016-08-11,Status,New,Working
-Case_29289,W_User.14,2016-08-24,Status,Working,On Hold
-Case_29289,W_User.14,2016-09-04,Status,On Hold,Escalated
-Case_29289,W_User.14,2016-09-29,Status,Escalated,Working
-Case_29289,W_User.14,2016-10-10,Status,Working,On Hold
-Case_29289,W_User.14,2016-10-17,Status,On Hold,Waiting on Customer
-Case_29289,W_User.14,2016-11-03,Status,Waiting on Customer,Working
-Case_29289,W_User.14,2016-11-16,Status,Working,Closed
-Case_29290,W_User.6,2016-11-04,created,,
-Case_29290,W_User.6,2016-11-04,Status,,New
-Case_29290,W_User.6,2016-11-16,Status,New,Closed
-Case_29291,W_User.7,2016-08-24,created,,
-Case_29291,W_User.7,2016-08-24,Status,,New
-Case_29291,W_User.7,2016-11-16,Status,New,Closed
-Case_29292,W_User.14,2016-09-29,created,,
-Case_29292,W_User.14,2016-09-29,Status,,New
-Case_29292,W_User.14,2016-11-16,Status,New,Closed
-Case_29293,W_User.1,2016-10-11,created,,
-Case_29293,W_User.1,2016-10-11,Status,,New
-Case_29293,W_User.1,2016-11-16,Status,New,Closed
-Case_29294,W_User.15,2016-09-17,created,,
-Case_29294,W_User.15,2016-09-17,Status,,New
-Case_29294,W_User.15,2016-10-11,Status,New,Waiting on Customer
-Case_29294,W_User.15,2016-11-06,Status,Waiting on Customer,On Hold
-Case_29294,W_User.15,2016-11-11,Status,On Hold,Escalated
-Case_29294,W_User.15,2016-11-16,Status,Escalated,Closed
-Case_29295,W_User.15,2016-09-17,created,,
-Case_29295,W_User.15,2016-09-17,Status,,New
-Case_29295,W_User.15,2016-09-22,Status,New,Escalated
-Case_29295,W_User.15,2016-10-04,Status,Escalated,Waiting on Customer
-Case_29295,W_User.15,2016-10-15,Status,Waiting on Customer,Working
-Case_29295,W_User.15,2016-10-22,Status,Working,Waiting on Customer
-Case_29295,W_User.15,2016-11-03,Status,Waiting on Customer,On Hold
-Case_29295,W_User.15,2016-11-11,Status,On Hold,Working
-Case_29295,W_User.15,2016-11-16,Status,Working,Closed
-Case_29296,W_User.11,2016-09-29,created,,
-Case_29296,W_User.11,2016-09-29,Status,,New
-Case_29296,W_User.11,2016-11-16,Status,New,Closed
-Case_29297,W_User.9,2016-08-12,created,,
-Case_29297,W_User.9,2016-08-12,Status,,New
-Case_29297,W_User.9,2016-11-16,Status,New,Closed
-Case_29298,W_User.1,2016-10-11,created,,
-Case_29298,W_User.1,2016-10-11,Status,,New
-Case_29298,W_User.1,2016-11-16,Status,New,Closed
-Case_29299,W_User.11,2016-10-11,created,,
-Case_29299,W_User.11,2016-10-11,Status,,New
-Case_29299,W_User.11,2016-11-09,Status,New,On Hold
-Case_29299,W_User.11,2016-11-16,Status,On Hold,Closed
-Case_29300,W_User.9,2016-07-31,created,,
-Case_29300,W_User.9,2016-07-31,Status,,New
-Case_29300,W_User.9,2016-08-18,Status,New,Working
-Case_29300,W_User.9,2016-09-16,Status,Working,On Hold
-Case_29300,W_User.9,2016-10-12,Status,On Hold,Working
-Case_29300,W_User.9,2016-10-13,Status,Working,Escalated
-Case_29300,W_User.9,2016-10-30,Status,Escalated,On Hold
-Case_29300,W_User.9,2016-11-07,Status,On Hold,Working
-Case_29300,W_User.9,2016-11-16,Status,Working,Closed
-Case_29301,W_User.6,2016-10-11,created,,
-Case_29301,W_User.6,2016-10-11,Status,,New
-Case_29301,W_User.6,2016-11-09,Status,New,Waiting on Customer
-Case_29301,W_User.6,2016-11-15,Status,Waiting on Customer,Working
-Case_29301,W_User.6,2016-11-16,Status,Working,Closed
-Case_29302,W_User.9,2016-07-31,created,,
-Case_29302,W_User.9,2016-07-31,Status,,New
-Case_29302,W_User.9,2016-08-21,Status,New,On Hold
-Case_29302,W_User.9,2016-08-21,Status,On Hold,Escalated
-Case_29302,W_User.9,2016-08-24,Status,Escalated,On Hold
-Case_29302,W_User.9,2016-08-28,Status,On Hold,Working
-Case_29302,W_User.9,2016-09-12,Status,Working,On Hold
-Case_29302,W_User.9,2016-09-29,Status,On Hold,Working
-Case_29302,W_User.9,2016-10-11,Status,Working,On Hold
-Case_29302,W_User.9,2016-10-12,Status,On Hold,Waiting on Customer
-Case_29302,W_User.9,2016-11-10,Status,Waiting on Customer,Working
-Case_29302,W_User.9,2016-11-16,Status,Working,Closed
-Case_29303,W_User.7,2016-10-23,created,,
-Case_29303,W_User.7,2016-10-23,Status,,New
-Case_29303,W_User.7,2016-11-16,Status,New,Closed
-Case_29304,W_User.15,2016-09-05,created,,
-Case_29304,W_User.15,2016-09-05,Status,,New
-Case_29304,W_User.15,2016-11-16,Status,New,Closed
-Case_29305,W_User.7,2016-09-29,created,,
-Case_29305,W_User.7,2016-09-29,Status,,New
-Case_29305,W_User.7,2016-11-16,Status,New,Closed
-Case_29306,W_User.9,2016-07-19,created,,
-Case_29306,W_User.9,2016-07-19,Status,,New
-Case_29306,W_User.9,2016-11-16,Status,New,Closed
-Case_29307,W_User.6,2016-09-29,created,,
-Case_29307,W_User.6,2016-09-29,Status,,New
-Case_29307,W_User.6,2016-10-08,Status,New,On Hold
-Case_29307,W_User.6,2016-10-14,Status,On Hold,Escalated
-Case_29307,W_User.6,2016-10-18,Status,Escalated,Working
-Case_29307,W_User.6,2016-11-13,Status,Working,On Hold
-Case_29307,W_User.6,2016-11-16,Status,On Hold,Closed
-Case_29308,W_User.9,2016-09-17,created,,
-Case_29308,W_User.9,2016-09-17,Status,,New
-Case_29308,W_User.9,2016-11-16,Status,New,Closed
-Case_29309,W_User.9,2016-07-31,created,,
-Case_29309,W_User.9,2016-07-31,Status,,New
-Case_29309,W_User.9,2016-11-16,Status,New,Closed
-Case_29310,W_User.7,2016-09-29,created,,
-Case_29310,W_User.7,2016-09-29,Status,,New
-Case_29310,W_User.7,2016-11-16,Status,New,Closed
-Case_29311,W_User.8,2016-09-05,created,,
-Case_29311,W_User.8,2016-09-05,Status,,New
-Case_29311,W_User.8,2016-09-21,Status,New,On Hold
-Case_29311,W_User.8,2016-10-13,Status,On Hold,Working
-Case_29311,W_User.8,2016-10-16,Status,Working,Waiting on Customer
-Case_29311,W_User.8,2016-11-01,Status,Waiting on Customer,Escalated
-Case_29311,W_User.8,2016-11-16,Status,Escalated,Closed
-Case_29312,W_User.2,2016-07-31,created,,
-Case_29312,W_User.2,2016-07-31,Status,,New
-Case_29312,W_User.2,2016-08-26,Status,New,On Hold
-Case_29312,W_User.2,2016-09-01,Status,On Hold,Waiting on Customer
-Case_29312,W_User.2,2016-09-21,Status,Waiting on Customer,Working
-Case_29312,W_User.2,2016-10-18,Status,Working,On Hold
-Case_29312,W_User.2,2016-10-29,Status,On Hold,Waiting on Customer
-Case_29312,W_User.2,2016-11-16,Status,Waiting on Customer,Closed
-Case_29313,W_User.16,2016-11-04,created,,
-Case_29313,W_User.16,2016-11-04,Status,,New
-Case_29313,W_User.16,2016-11-06,Status,New,On Hold
-Case_29313,W_User.16,2016-11-12,Status,On Hold,Working
-Case_29313,W_User.16,2016-11-14,Status,Working,Escalated
-Case_29313,W_User.16,2016-11-16,Status,Escalated,Closed
-Case_29314,W_User.8,2016-07-31,created,,
-Case_29314,W_User.8,2016-07-31,Status,,New
-Case_29314,W_User.8,2016-11-16,Status,New,Closed
-Case_29315,W_User.8,2016-09-29,created,,
-Case_29315,W_User.8,2016-09-29,Status,,New
-Case_29315,W_User.8,2016-10-10,Status,New,Working
-Case_29315,W_User.8,2016-11-02,Status,Working,On Hold
-Case_29315,W_User.8,2016-11-16,Status,On Hold,Closed
-Case_29316,W_User.7,2016-10-23,created,,
-Case_29316,W_User.7,2016-10-23,Status,,New
-Case_29316,W_User.7,2016-11-16,Status,New,Closed
-Case_29317,W_User.13,2016-08-12,created,,
-Case_29317,W_User.13,2016-08-12,Status,,New
-Case_29317,W_User.13,2016-09-10,Status,New,Escalated
-Case_29317,W_User.13,2016-10-01,Status,Escalated,Working
-Case_29317,W_User.13,2016-10-06,Status,Working,On Hold
-Case_29317,W_User.13,2016-10-21,Status,On Hold,Working
-Case_29317,W_User.13,2016-11-09,Status,Working,On Hold
-Case_29317,W_User.13,2016-11-16,Status,On Hold,Closed
-Case_29318,W_User.4,2016-11-04,created,,
-Case_29318,W_User.4,2016-11-04,Status,,New
-Case_29318,W_User.4,2016-11-16,Status,New,Closed
-Case_29319,W_User.9,2016-10-11,created,,
-Case_29319,W_User.9,2016-10-11,Status,,New
-Case_29319,W_User.9,2016-11-09,Status,New,Waiting on Customer
-Case_29319,W_User.9,2016-11-16,Status,Waiting on Customer,Closed
-Case_29320,W_User.11,2016-09-29,created,,
-Case_29320,W_User.11,2016-09-29,Status,,New
-Case_29320,W_User.11,2016-10-06,Status,New,Waiting on Customer
-Case_29320,W_User.11,2016-10-29,Status,Waiting on Customer,On Hold
-Case_29320,W_User.11,2016-11-11,Status,On Hold,Escalated
-Case_29320,W_User.11,2016-11-16,Status,Escalated,Closed
-Case_29321,W_User.9,2016-08-12,created,,
-Case_29321,W_User.9,2016-08-12,Status,,New
-Case_29321,W_User.9,2016-11-16,Status,New,Closed
-Case_29322,W_User.15,2016-09-05,created,,
-Case_29322,W_User.15,2016-09-05,Status,,New
-Case_29322,W_User.15,2016-09-22,Status,New,Escalated
-Case_29322,W_User.15,2016-09-22,Status,Escalated,Working
-Case_29322,W_User.15,2016-10-05,Status,Working,Waiting on Customer
-Case_29322,W_User.15,2016-11-02,Status,Waiting on Customer,On Hold
-Case_29322,W_User.15,2016-11-02,Status,On Hold,Waiting on Customer
-Case_29322,W_User.15,2016-11-16,Status,Waiting on Customer,Closed
-Case_29323,W_User.6,2016-10-23,created,,
-Case_29323,W_User.6,2016-10-23,Status,,New
-Case_29323,W_User.6,2016-11-16,Status,New,Closed
-Case_29324,W_User.9,2016-09-05,created,,
-Case_29324,W_User.9,2016-09-05,Status,,New
-Case_29324,W_User.9,2016-11-16,Status,New,Closed
-Case_29325,W_User.7,2016-09-29,created,,
-Case_29325,W_User.7,2016-09-29,Status,,New
-Case_29325,W_User.7,2016-11-16,Status,New,Closed
-Case_29326,W_User.11,2016-11-04,created,,
-Case_29326,W_User.11,2016-11-04,Status,,New
-Case_29326,W_User.11,2016-11-16,Status,New,Closed
-Case_29327,W_User.8,2016-11-04,created,,
-Case_29327,W_User.8,2016-11-04,Status,,New
-Case_29327,W_User.8,2016-11-12,Status,New,On Hold
-Case_29327,W_User.8,2016-11-16,Status,On Hold,Closed
-Case_29328,W_User.7,2016-09-17,created,,
-Case_29328,W_User.7,2016-09-17,Status,,New
-Case_29328,W_User.7,2016-11-16,Status,New,Closed
-Case_29329,W_User.12,2016-09-29,created,,
-Case_29329,W_User.12,2016-09-29,Status,,New
-Case_29329,W_User.12,2016-10-18,Status,New,On Hold
-Case_29329,W_User.12,2016-11-11,Status,On Hold,Escalated
-Case_29329,W_User.12,2016-11-11,Status,Escalated,On Hold
-Case_29329,W_User.12,2016-11-16,Status,On Hold,Closed
-Case_29331,W_User.18,2016-09-17,created,,
-Case_29331,W_User.18,2016-09-17,Status,,New
-Case_29331,W_User.18,2016-10-13,Status,New,Escalated
-Case_29331,W_User.18,2016-10-17,Status,Escalated,On Hold
-Case_29331,W_User.18,2016-11-13,Status,On Hold,Waiting on Customer
-Case_29331,W_User.18,2016-11-16,Status,Waiting on Customer,Closed
-Case_29332,W_User.12,2016-09-29,created,,
-Case_29332,W_User.12,2016-09-29,Status,,New
-Case_29332,W_User.12,2016-10-06,Status,New,Waiting on Customer
-Case_29332,W_User.12,2016-10-20,Status,Waiting on Customer,On Hold
-Case_29332,W_User.12,2016-11-03,Status,On Hold,Working
-Case_29332,W_User.12,2016-11-09,Status,Working,Escalated
-Case_29332,W_User.12,2016-11-16,Status,Escalated,Closed
-Case_29333,W_User.10,2016-07-19,created,,
-Case_29333,W_User.10,2016-07-19,Status,,New
-Case_29333,W_User.10,2016-11-16,Status,New,Closed
-Case_29334,W_User.7,2016-07-19,created,,
-Case_29334,W_User.7,2016-07-19,Status,,New
-Case_29334,W_User.7,2016-07-20,Status,New,Escalated
-Case_29334,W_User.7,2016-07-31,Status,Escalated,Working
-Case_29334,W_User.7,2016-08-17,Status,Working,Waiting on Customer
-Case_29334,W_User.7,2016-09-14,Status,Waiting on Customer,Working
-Case_29334,W_User.7,2016-10-08,Status,Working,On Hold
-Case_29334,W_User.7,2016-10-25,Status,On Hold,Waiting on Customer
-Case_29334,W_User.7,2016-11-15,Status,Waiting on Customer,Working
-Case_29334,W_User.7,2016-11-16,Status,Working,Closed
-Case_29335,W_User.18,2016-09-29,created,,
-Case_29335,W_User.18,2016-09-29,Status,,New
-Case_29335,W_User.18,2016-11-16,Status,New,Closed
-Case_29336,W_User.1,2016-09-05,created,,
-Case_29336,W_User.1,2016-09-05,Status,,New
-Case_29336,W_User.1,2016-11-16,Status,New,Closed
-Case_29337,W_User.9,2016-10-11,created,,
-Case_29337,W_User.9,2016-10-11,Status,,New
-Case_29337,W_User.9,2016-11-16,Status,New,Closed
-Case_29338,W_User.9,2016-08-24,created,,
-Case_29338,W_User.9,2016-08-24,Status,,New
-Case_29338,W_User.9,2016-11-16,Status,New,Closed
-Case_29339,W_User.6,2016-09-17,created,,
-Case_29339,W_User.6,2016-09-17,Status,,New
-Case_29339,W_User.6,2016-11-16,Status,New,Closed
-Case_29340,W_User.9,2016-09-05,created,,
-Case_29340,W_User.9,2016-09-05,Status,,New
-Case_29340,W_User.9,2016-11-16,Status,New,Closed
-Case_29341,W_User.9,2016-08-24,created,,
-Case_29341,W_User.9,2016-08-24,Status,,New
-Case_29341,W_User.9,2016-08-26,Status,New,On Hold
-Case_29341,W_User.9,2016-09-01,Status,On Hold,Waiting on Customer
-Case_29341,W_User.9,2016-09-16,Status,Waiting on Customer,Escalated
-Case_29341,W_User.9,2016-10-02,Status,Escalated,Waiting on Customer
-Case_29341,W_User.9,2016-10-07,Status,Waiting on Customer,On Hold
-Case_29341,W_User.9,2016-10-24,Status,On Hold,Working
-Case_29341,W_User.9,2016-10-28,Status,Working,Waiting on Customer
-Case_29341,W_User.9,2016-11-16,Status,Waiting on Customer,Closed
-Case_29342,W_User.9,2016-10-23,created,,
-Case_29342,W_User.9,2016-10-23,Status,,New
-Case_29342,W_User.9,2016-11-16,Status,New,Closed
-Case_29343,W_User.15,2016-10-23,created,,
-Case_29343,W_User.15,2016-10-23,Status,,New
-Case_29343,W_User.15,2016-11-16,Status,New,Closed
-Case_29344,W_User.14,2016-07-19,created,,
-Case_29344,W_User.14,2016-07-19,Status,,New
-Case_29344,W_User.14,2016-11-16,Status,New,Closed
-Case_29345,W_User.10,2016-09-29,created,,
-Case_29345,W_User.10,2016-09-29,Status,,New
-Case_29345,W_User.10,2016-11-16,Status,New,Closed
-Case_29346,W_User.7,2016-07-19,created,,
-Case_29346,W_User.7,2016-07-19,Status,,New
-Case_29346,W_User.7,2016-08-09,Status,New,Escalated
-Case_29346,W_User.7,2016-08-21,Status,Escalated,Working
-Case_29346,W_User.7,2016-09-02,Status,Working,Waiting on Customer
-Case_29346,W_User.7,2016-10-02,Status,Waiting on Customer,On Hold
-Case_29346,W_User.7,2016-10-17,Status,On Hold,Waiting on Customer
-Case_29346,W_User.7,2016-11-13,Status,Waiting on Customer,Working
-Case_29346,W_User.7,2016-11-16,Status,Working,Closed
-Case_29347,W_User.11,2016-11-04,created,,
-Case_29347,W_User.11,2016-11-04,Status,,New
-Case_29347,W_User.11,2016-11-16,Status,New,Closed
-Case_29348,W_User.9,2016-09-29,created,,
-Case_29348,W_User.9,2016-09-29,Status,,New
-Case_29348,W_User.9,2016-10-10,Status,New,Escalated
-Case_29348,W_User.9,2016-11-02,Status,Escalated,Working
-Case_29348,W_User.9,2016-11-16,Status,Working,Closed
-Case_29349,W_User.16,2016-10-11,created,,
-Case_29349,W_User.16,2016-10-11,Status,,New
-Case_29349,W_User.16,2016-11-16,Status,New,Closed
-Case_29350,W_User.15,2016-10-23,created,,
-Case_29350,W_User.15,2016-10-23,Status,,New
-Case_29350,W_User.15,2016-11-16,Status,New,Closed
-Case_29351,W_User.6,2016-07-31,created,,
-Case_29351,W_User.6,2016-07-31,Status,,New
-Case_29351,W_User.6,2016-11-16,Status,New,Closed
-Case_29352,W_User.7,2016-09-05,created,,
-Case_29352,W_User.7,2016-09-05,Status,,New
-Case_29352,W_User.7,2016-10-04,Status,New,Waiting on Customer
-Case_29352,W_User.7,2016-10-27,Status,Waiting on Customer,Working
-Case_29352,W_User.7,2016-11-16,Status,Working,Closed
-Case_29353,W_User.14,2016-08-24,created,,
-Case_29353,W_User.14,2016-08-24,Status,,New
-Case_29353,W_User.14,2016-09-11,Status,New,Working
-Case_29353,W_User.14,2016-10-08,Status,Working,Waiting on Customer
-Case_29353,W_User.14,2016-10-09,Status,Waiting on Customer,Escalated
-Case_29353,W_User.14,2016-11-03,Status,Escalated,Waiting on Customer
-Case_29353,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
-Case_29354,W_User.11,2016-08-12,created,,
-Case_29354,W_User.11,2016-08-12,Status,,New
-Case_29354,W_User.11,2016-08-26,Status,New,Waiting on Customer
-Case_29354,W_User.11,2016-09-04,Status,Waiting on Customer,Escalated
-Case_29354,W_User.11,2016-09-28,Status,Escalated,Working
-Case_29354,W_User.11,2016-10-17,Status,Working,Waiting on Customer
-Case_29354,W_User.11,2016-11-08,Status,Waiting on Customer,Working
-Case_29354,W_User.11,2016-11-16,Status,Working,Closed
-Case_29355,W_User.8,2016-08-24,created,,
-Case_29355,W_User.8,2016-08-24,Status,,New
-Case_29355,W_User.8,2016-11-16,Status,New,Closed
-Case_29356,W_User.14,2016-08-12,created,,
-Case_29356,W_User.14,2016-08-12,Status,,New
-Case_29356,W_User.14,2016-09-05,Status,New,Escalated
-Case_29356,W_User.14,2016-09-09,Status,Escalated,Waiting on Customer
-Case_29356,W_User.14,2016-10-09,Status,Waiting on Customer,Working
-Case_29356,W_User.14,2016-10-09,Status,Working,Waiting on Customer
-Case_29356,W_User.14,2016-10-25,Status,Waiting on Customer,Working
-Case_29356,W_User.14,2016-10-25,Status,Working,On Hold
-Case_29356,W_User.14,2016-11-02,Status,On Hold,Waiting on Customer
-Case_29356,W_User.14,2016-11-06,Status,Waiting on Customer,Working
-Case_29356,W_User.14,2016-11-16,Status,Working,Closed
-Case_29357,W_User.10,2016-07-31,created,,
-Case_29357,W_User.10,2016-07-31,Status,,New
-Case_29357,W_User.10,2016-11-16,Status,New,Closed
-Case_29358,W_User.15,2016-07-19,created,,
-Case_29358,W_User.15,2016-07-19,Status,,New
-Case_29358,W_User.15,2016-11-16,Status,New,Closed
-Case_29359,W_User.20,2016-09-29,created,,
-Case_29359,W_User.20,2016-09-29,Status,,New
-Case_29359,W_User.20,2016-11-16,Status,New,Closed
-Case_29360,W_User.1,2016-10-11,created,,
-Case_29360,W_User.1,2016-10-11,Status,,New
-Case_29360,W_User.1,2016-11-16,Status,New,Closed
-Case_29361,W_User.7,2016-07-31,created,,
-Case_29361,W_User.7,2016-07-31,Status,,New
-Case_29361,W_User.7,2016-11-16,Status,New,Closed
-Case_29362,W_User.9,2016-08-24,created,,
-Case_29362,W_User.9,2016-08-24,Status,,New
-Case_29362,W_User.9,2016-09-15,Status,New,Escalated
-Case_29362,W_User.9,2016-09-17,Status,Escalated,On Hold
-Case_29362,W_User.9,2016-10-07,Status,On Hold,Waiting on Customer
-Case_29362,W_User.9,2016-10-12,Status,Waiting on Customer,Working
-Case_29362,W_User.9,2016-10-30,Status,Working,Waiting on Customer
-Case_29362,W_User.9,2016-10-30,Status,Waiting on Customer,On Hold
-Case_29362,W_User.9,2016-11-12,Status,On Hold,Working
-Case_29362,W_User.9,2016-11-15,Status,Working,On Hold
-Case_29362,W_User.9,2016-11-16,Status,On Hold,Closed
-Case_29363,W_User.13,2016-09-05,created,,
-Case_29363,W_User.13,2016-09-05,Status,,New
-Case_29363,W_User.13,2016-11-16,Status,New,Closed
-Case_29364,W_User.9,2016-07-19,created,,
-Case_29364,W_User.9,2016-07-19,Status,,New
-Case_29364,W_User.9,2016-11-16,Status,New,Closed
-Case_29365,W_User.6,2016-09-05,created,,
-Case_29365,W_User.6,2016-09-05,Status,,New
-Case_29365,W_User.6,2016-11-16,Status,New,Closed
-Case_29366,W_User.14,2016-09-05,created,,
-Case_29366,W_User.14,2016-09-05,Status,,New
-Case_29366,W_User.14,2016-09-11,Status,New,Waiting on Customer
-Case_29366,W_User.14,2016-10-04,Status,Waiting on Customer,Escalated
-Case_29366,W_User.14,2016-11-02,Status,Escalated,On Hold
-Case_29366,W_User.14,2016-11-15,Status,On Hold,Waiting on Customer
-Case_29366,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
-Case_29367,W_User.13,2016-07-19,created,,
-Case_29367,W_User.13,2016-07-19,Status,,New
-Case_29367,W_User.13,2016-08-13,Status,New,Working
-Case_29367,W_User.13,2016-08-26,Status,Working,Waiting on Customer
-Case_29367,W_User.13,2016-09-24,Status,Waiting on Customer,Escalated
-Case_29367,W_User.13,2016-10-12,Status,Escalated,On Hold
-Case_29367,W_User.13,2016-10-30,Status,On Hold,Working
-Case_29367,W_User.13,2016-11-16,Status,Working,Closed
-Case_29368,W_User.14,2016-09-17,created,,
-Case_29368,W_User.14,2016-09-17,Status,,New
-Case_29368,W_User.14,2016-10-10,Status,New,Escalated
-Case_29368,W_User.14,2016-10-24,Status,Escalated,Waiting on Customer
-Case_29368,W_User.14,2016-11-10,Status,Waiting on Customer,Working
-Case_29368,W_User.14,2016-11-16,Status,Working,Closed
-Case_29369,W_User.9,2016-10-23,created,,
-Case_29369,W_User.9,2016-10-23,Status,,New
-Case_29369,W_User.9,2016-11-11,Status,New,Waiting on Customer
-Case_29369,W_User.9,2016-11-16,Status,Waiting on Customer,Closed
-Case_29370,W_User.14,2016-10-11,created,,
-Case_29370,W_User.14,2016-10-11,Status,,New
-Case_29370,W_User.14,2016-11-16,Status,New,Closed
-Case_29371,W_User.8,2016-11-04,created,,
-Case_29371,W_User.8,2016-11-04,Status,,New
-Case_29371,W_User.8,2016-11-16,Status,New,Closed
-Case_29373,W_User.7,2016-10-11,created,,
-Case_29373,W_User.7,2016-10-11,Status,,New
-Case_29373,W_User.7,2016-11-01,Status,New,Escalated
-Case_29373,W_User.7,2016-11-05,Status,Escalated,Working
-Case_29373,W_User.7,2016-11-16,Status,Working,Closed
-Case_29374,W_User.3,2016-10-11,created,,
-Case_29374,W_User.3,2016-10-11,Status,,New
-Case_29374,W_User.3,2016-11-08,Status,New,Working
-Case_29374,W_User.3,2016-11-08,Status,Working,Escalated
-Case_29374,W_User.3,2016-11-16,Status,Escalated,Closed
-Case_29375,W_User.6,2016-07-19,created,,
-Case_29375,W_User.6,2016-07-19,Status,,New
-Case_29375,W_User.6,2016-11-16,Status,New,Closed
-Case_29376,W_User.19,2016-08-12,created,,
-Case_29376,W_User.19,2016-08-12,Status,,New
-Case_29376,W_User.19,2016-09-07,Status,New,Waiting on Customer
-Case_29376,W_User.19,2016-09-18,Status,Waiting on Customer,Escalated
-Case_29376,W_User.19,2016-09-19,Status,Escalated,Waiting on Customer
-Case_29376,W_User.19,2016-09-24,Status,Waiting on Customer,On Hold
-Case_29376,W_User.19,2016-09-29,Status,On Hold,Working
-Case_29376,W_User.19,2016-10-26,Status,Working,On Hold
-Case_29376,W_User.19,2016-11-06,Status,On Hold,Working
-Case_29376,W_User.19,2016-11-16,Status,Working,Closed
-Case_29377,W_User.14,2016-10-11,created,,
-Case_29377,W_User.14,2016-10-11,Status,,New
-Case_29377,W_User.14,2016-10-12,Status,New,Escalated
-Case_29377,W_User.14,2016-10-26,Status,Escalated,On Hold
-Case_29377,W_User.14,2016-11-16,Status,On Hold,Closed
-Case_29378,W_User.1,2016-11-04,created,,
-Case_29378,W_User.1,2016-11-04,Status,,New
-Case_29378,W_User.1,2016-11-16,Status,New,Closed
-Case_29379,W_User.14,2016-11-04,created,,
-Case_29379,W_User.14,2016-11-04,Status,,New
-Case_29379,W_User.14,2016-11-16,Status,New,Closed
-Case_29380,W_User.11,2016-11-04,created,,
-Case_29380,W_User.11,2016-11-04,Status,,New
-Case_29380,W_User.11,2016-11-06,Status,New,On Hold
-Case_29380,W_User.11,2016-11-16,Status,On Hold,Closed
-Case_29381,W_User.13,2016-09-17,created,,
-Case_29381,W_User.13,2016-09-17,Status,,New
-Case_29381,W_User.13,2016-10-15,Status,New,Working
-Case_29381,W_User.13,2016-10-25,Status,Working,Escalated
-Case_29381,W_User.13,2016-11-16,Status,Escalated,Closed
-Case_29382,W_User.5,2016-09-17,created,,
-Case_29382,W_User.5,2016-09-17,Status,,New
-Case_29382,W_User.5,2016-10-06,Status,New,Escalated
-Case_29382,W_User.5,2016-11-05,Status,Escalated,On Hold
-Case_29382,W_User.5,2016-11-10,Status,On Hold,Working
-Case_29382,W_User.5,2016-11-14,Status,Working,Waiting on Customer
-Case_29382,W_User.5,2016-11-16,Status,Waiting on Customer,Closed
-Case_29383,W_User.1,2016-09-17,created,,
-Case_29383,W_User.1,2016-09-17,Status,,New
-Case_29383,W_User.1,2016-10-15,Status,New,On Hold
-Case_29383,W_User.1,2016-10-26,Status,On Hold,Waiting on Customer
-Case_29383,W_User.1,2016-11-16,Status,Waiting on Customer,Closed
-Case_29384,W_User.10,2016-08-12,created,,
-Case_29384,W_User.10,2016-08-12,Status,,New
-Case_29384,W_User.10,2016-08-15,Status,New,Working
-Case_29384,W_User.10,2016-08-22,Status,Working,Waiting on Customer
-Case_29384,W_User.10,2016-09-08,Status,Waiting on Customer,On Hold
-Case_29384,W_User.10,2016-09-19,Status,On Hold,Working
-Case_29384,W_User.10,2016-10-07,Status,Working,Waiting on Customer
-Case_29384,W_User.10,2016-10-30,Status,Waiting on Customer,Escalated
-Case_29384,W_User.10,2016-11-16,Status,Escalated,Closed
-Case_29385,W_User.17,2016-10-11,created,,
-Case_29385,W_User.17,2016-10-11,Status,,New
-Case_29385,W_User.17,2016-10-14,Status,New,On Hold
-Case_29385,W_User.17,2016-10-25,Status,On Hold,Working
-Case_29385,W_User.17,2016-10-25,Status,Working,Waiting on Customer
-Case_29385,W_User.17,2016-11-09,Status,Waiting on Customer,Working
-Case_29385,W_User.17,2016-11-16,Status,Working,Closed
-Case_29386,W_User.7,2016-09-29,created,,
-Case_29386,W_User.7,2016-09-29,Status,,New
-Case_29386,W_User.7,2016-10-06,Status,New,Waiting on Customer
-Case_29386,W_User.7,2016-10-28,Status,Waiting on Customer,On Hold
-Case_29386,W_User.7,2016-10-31,Status,On Hold,Working
-Case_29386,W_User.7,2016-11-08,Status,Working,Waiting on Customer
-Case_29386,W_User.7,2016-11-09,Status,Waiting on Customer,Escalated
-Case_29386,W_User.7,2016-11-16,Status,Escalated,Closed
-Case_29387,W_User.15,2016-08-12,created,,
-Case_29387,W_User.15,2016-08-12,Status,,New
-Case_29387,W_User.15,2016-11-16,Status,New,Closed
-Case_29388,W_User.15,2016-10-11,created,,
-Case_29388,W_User.15,2016-10-11,Status,,New
-Case_29388,W_User.15,2016-11-16,Status,New,Closed
-Case_29389,W_User.15,2016-07-31,created,,
-Case_29389,W_User.15,2016-07-31,Status,,New
-Case_29389,W_User.15,2016-11-16,Status,New,Closed
-Case_29390,W_User.11,2016-08-12,created,,
-Case_29390,W_User.11,2016-08-12,Status,,New
-Case_29390,W_User.11,2016-11-16,Status,New,Closed
-Case_29391,W_User.13,2016-08-24,created,,
-Case_29391,W_User.13,2016-08-24,Status,,New
-Case_29391,W_User.13,2016-11-16,Status,New,Closed
-Case_29392,W_User.8,2016-07-31,created,,
-Case_29392,W_User.8,2016-07-31,Status,,New
-Case_29392,W_User.8,2016-08-23,Status,New,Waiting on Customer
-Case_29392,W_User.8,2016-09-01,Status,Waiting on Customer,On Hold
-Case_29392,W_User.8,2016-09-06,Status,On Hold,Waiting on Customer
-Case_29392,W_User.8,2016-09-21,Status,Waiting on Customer,On Hold
-Case_29392,W_User.8,2016-10-13,Status,On Hold,Working
-Case_29392,W_User.8,2016-10-13,Status,Working,Waiting on Customer
-Case_29392,W_User.8,2016-11-10,Status,Waiting on Customer,On Hold
-Case_29392,W_User.8,2016-11-16,Status,On Hold,Closed
-Case_29393,W_User.14,2016-08-12,created,,
-Case_29393,W_User.14,2016-08-12,Status,,New
-Case_29393,W_User.14,2016-08-28,Status,New,Working
-Case_29393,W_User.14,2016-09-16,Status,Working,Waiting on Customer
-Case_29393,W_User.14,2016-09-22,Status,Waiting on Customer,Escalated
-Case_29393,W_User.14,2016-10-06,Status,Escalated,Working
-Case_29393,W_User.14,2016-10-30,Status,Working,Waiting on Customer
-Case_29393,W_User.14,2016-11-09,Status,Waiting on Customer,On Hold
-Case_29393,W_User.14,2016-11-16,Status,On Hold,Closed
-Case_29394,W_User.17,2016-08-24,created,,
-Case_29394,W_User.17,2016-08-24,Status,,New
-Case_29394,W_User.17,2016-09-13,Status,New,On Hold
-Case_29394,W_User.17,2016-09-17,Status,On Hold,Working
-Case_29394,W_User.17,2016-09-30,Status,Working,Escalated
-Case_29394,W_User.17,2016-10-02,Status,Escalated,On Hold
-Case_29394,W_User.17,2016-10-22,Status,On Hold,Waiting on Customer
-Case_29394,W_User.17,2016-10-26,Status,Waiting on Customer,On Hold
-Case_29394,W_User.17,2016-10-27,Status,On Hold,Waiting on Customer
-Case_29394,W_User.17,2016-11-04,Status,Waiting on Customer,Working
-Case_29394,W_User.17,2016-11-16,Status,Working,Closed
-Case_29395,W_User.16,2016-10-23,created,,
-Case_29395,W_User.16,2016-10-23,Status,,New
-Case_29395,W_User.16,2016-11-16,Status,New,Closed
-Case_29396,W_User.10,2016-11-04,created,,
-Case_29396,W_User.10,2016-11-04,Status,,New
-Case_29396,W_User.10,2016-11-16,Status,New,Closed
-Case_29397,W_User.13,2016-09-29,created,,
-Case_29397,W_User.13,2016-09-29,Status,,New
-Case_29397,W_User.13,2016-09-29,Status,New,On Hold
-Case_29397,W_User.13,2016-10-29,Status,On Hold,Working
-Case_29397,W_User.13,2016-11-16,Status,Working,Closed
-Case_29398,W_User.14,2016-11-04,created,,
-Case_29398,W_User.14,2016-11-04,Status,,New
-Case_29398,W_User.14,2016-11-09,Status,New,On Hold
-Case_29398,W_User.14,2016-11-16,Status,On Hold,Closed
-Case_29399,W_User.8,2016-08-24,created,,
-Case_29399,W_User.8,2016-08-24,Status,,New
-Case_29399,W_User.8,2016-11-16,Status,New,Closed
-Case_29400,W_User.10,2016-09-29,created,,
-Case_29400,W_User.10,2016-09-29,Status,,New
-Case_29400,W_User.10,2016-11-16,Status,New,Closed
-Case_29401,W_User.9,2016-08-12,created,,
-Case_29401,W_User.9,2016-08-12,Status,,New
-Case_29401,W_User.9,2016-11-16,Status,New,Closed
-Case_29402,W_User.14,2016-09-17,created,,
-Case_29402,W_User.14,2016-09-17,Status,,New
-Case_29402,W_User.14,2016-11-16,Status,New,Closed
-Case_29403,W_User.15,2016-10-11,created,,
-Case_29403,W_User.15,2016-10-11,Status,,New
-Case_29403,W_User.15,2016-10-24,Status,New,On Hold
-Case_29403,W_User.15,2016-11-16,Status,On Hold,Closed
-Case_29404,W_User.13,2016-09-17,created,,
-Case_29404,W_User.13,2016-09-17,Status,,New
-Case_29404,W_User.13,2016-10-05,Status,New,Working
-Case_29404,W_User.13,2016-10-11,Status,Working,On Hold
-Case_29404,W_User.13,2016-10-12,Status,On Hold,Waiting on Customer
-Case_29404,W_User.13,2016-10-17,Status,Waiting on Customer,Escalated
-Case_29404,W_User.13,2016-10-28,Status,Escalated,Waiting on Customer
-Case_29404,W_User.13,2016-11-16,Status,Waiting on Customer,Closed
-Case_29405,W_User.9,2016-11-04,created,,
-Case_29405,W_User.9,2016-11-04,Status,,New
-Case_29405,W_User.9,2016-11-09,Status,New,Working
-Case_29405,W_User.9,2016-11-16,Status,Working,Closed
-Case_29406,W_User.13,2016-11-04,created,,
-Case_29406,W_User.13,2016-11-04,Status,,New
-Case_29406,W_User.13,2016-11-16,Status,New,Closed
-Case_29407,W_User.8,2016-09-29,created,,
-Case_29407,W_User.8,2016-09-29,Status,,New
-Case_29407,W_User.8,2016-11-16,Status,New,Closed
-Case_29408,W_User.9,2016-09-29,created,,
-Case_29408,W_User.9,2016-09-29,Status,,New
-Case_29408,W_User.9,2016-10-27,Status,New,Working
-Case_29408,W_User.9,2016-11-16,Status,Working,Closed
-Case_29409,W_User.8,2016-11-04,created,,
-Case_29409,W_User.8,2016-11-04,Status,,New
-Case_29409,W_User.8,2016-11-16,Status,New,Closed
-Case_29410,W_User.7,2016-08-12,created,,
-Case_29410,W_User.7,2016-08-12,Status,,New
-Case_29410,W_User.7,2016-08-16,Status,New,Working
-Case_29410,W_User.7,2016-09-09,Status,Working,Escalated
-Case_29410,W_User.7,2016-09-15,Status,Escalated,Waiting on Customer
-Case_29410,W_User.7,2016-10-02,Status,Waiting on Customer,Working
-Case_29410,W_User.7,2016-10-23,Status,Working,On Hold
-Case_29410,W_User.7,2016-11-16,Status,On Hold,Closed
-Case_29411,W_User.13,2016-09-05,created,,
-Case_29411,W_User.13,2016-09-05,Status,,New
-Case_29411,W_User.13,2016-09-19,Status,New,Working
-Case_29411,W_User.13,2016-10-14,Status,Working,On Hold
-Case_29411,W_User.13,2016-10-23,Status,On Hold,Working
-Case_29411,W_User.13,2016-11-03,Status,Working,Waiting on Customer
-Case_29411,W_User.13,2016-11-16,Status,Waiting on Customer,Closed
-Case_29413,W_User.12,2016-09-17,created,,
-Case_29413,W_User.12,2016-09-17,Status,,New
-Case_29413,W_User.12,2016-11-16,Status,New,Closed
-Case_29414,W_User.2,2016-07-31,created,,
-Case_29414,W_User.2,2016-07-31,Status,,New
-Case_29414,W_User.2,2016-11-16,Status,New,Closed
-Case_29415,W_User.12,2016-08-12,created,,
-Case_29415,W_User.12,2016-08-12,Status,,New
-Case_29415,W_User.12,2016-11-16,Status,New,Closed
-Case_29416,W_User.18,2016-08-24,created,,
-Case_29416,W_User.18,2016-08-24,Status,,New
-Case_29416,W_User.18,2016-11-16,Status,New,Closed
-Case_29417,W_User.8,2016-08-12,created,,
-Case_29417,W_User.8,2016-08-12,Status,,New
-Case_29417,W_User.8,2016-11-16,Status,New,Closed
-Case_29418,W_User.14,2016-09-17,created,,
-Case_29418,W_User.14,2016-09-17,Status,,New
-Case_29418,W_User.14,2016-10-11,Status,New,Waiting on Customer
-Case_29418,W_User.14,2016-10-13,Status,Waiting on Customer,Working
-Case_29418,W_User.14,2016-10-26,Status,Working,On Hold
-Case_29418,W_User.14,2016-11-06,Status,On Hold,Waiting on Customer
-Case_29418,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
-Case_29419,W_User.9,2016-07-31,created,,
-Case_29419,W_User.9,2016-07-31,Status,,New
-Case_29419,W_User.9,2016-08-06,Status,New,On Hold
-Case_29419,W_User.9,2016-08-24,Status,On Hold,Working
-Case_29419,W_User.9,2016-08-31,Status,Working,Waiting on Customer
-Case_29419,W_User.9,2016-09-05,Status,Waiting on Customer,On Hold
-Case_29419,W_User.9,2016-09-23,Status,On Hold,Working
-Case_29419,W_User.9,2016-10-12,Status,Working,Escalated
-Case_29419,W_User.9,2016-11-09,Status,Escalated,Working
-Case_29419,W_User.9,2016-11-16,Status,Working,Closed
-Case_29420,W_User.7,2016-10-11,created,,
-Case_29420,W_User.7,2016-10-11,Status,,New
-Case_29420,W_User.7,2016-11-16,Status,New,Closed
-Case_29421,W_User.14,2016-08-12,created,,
-Case_29421,W_User.14,2016-08-12,Status,,New
-Case_29421,W_User.14,2016-11-16,Status,New,Closed
-Case_29422,W_User.6,2016-07-31,created,,
-Case_29422,W_User.6,2016-07-31,Status,,New
-Case_29422,W_User.6,2016-08-17,Status,New,Working
-Case_29422,W_User.6,2016-08-19,Status,Working,Escalated
-Case_29422,W_User.6,2016-09-18,Status,Escalated,Waiting on Customer
-Case_29422,W_User.6,2016-09-23,Status,Waiting on Customer,Working
-Case_29422,W_User.6,2016-10-06,Status,Working,On Hold
-Case_29422,W_User.6,2016-11-05,Status,On Hold,Working
-Case_29422,W_User.6,2016-11-16,Status,Working,Closed
-Case_29423,W_User.3,2016-11-04,created,,
-Case_29423,W_User.3,2016-11-04,Status,,New
-Case_29423,W_User.3,2016-11-16,Status,New,Closed
-Case_29424,W_User.11,2016-07-31,created,,
-Case_29424,W_User.11,2016-07-31,Status,,New
-Case_29424,W_User.11,2016-11-16,Status,New,Closed
-Case_29425,W_User.17,2016-07-19,created,,
-Case_29425,W_User.17,2016-07-19,Status,,New
-Case_29425,W_User.17,2016-08-11,Status,New,Working
-Case_29425,W_User.17,2016-09-09,Status,Working,On Hold
-Case_29425,W_User.17,2016-09-29,Status,On Hold,Waiting on Customer
-Case_29425,W_User.17,2016-10-15,Status,Waiting on Customer,Escalated
-Case_29425,W_User.17,2016-10-15,Status,Escalated,Working
-Case_29425,W_User.17,2016-11-03,Status,Working,Waiting on Customer
-Case_29425,W_User.17,2016-11-12,Status,Waiting on Customer,Working
-Case_29425,W_User.17,2016-11-16,Status,Working,Closed
-Case_29426,W_User.8,2016-08-24,created,,
-Case_29426,W_User.8,2016-08-24,Status,,New
-Case_29426,W_User.8,2016-09-16,Status,New,Escalated
-Case_29426,W_User.8,2016-10-14,Status,Escalated,On Hold
-Case_29426,W_User.8,2016-11-06,Status,On Hold,Working
-Case_29426,W_User.8,2016-11-10,Status,Working,On Hold
-Case_29426,W_User.8,2016-11-16,Status,On Hold,Closed
-Case_29427,W_User.10,2016-09-29,created,,
-Case_29427,W_User.10,2016-09-29,Status,,New
-Case_29427,W_User.10,2016-11-16,Status,New,Closed
-Case_29428,W_User.14,2016-09-05,created,,
-Case_29428,W_User.14,2016-09-05,Status,,New
-Case_29428,W_User.14,2016-11-16,Status,New,Closed
-Case_29429,W_User.10,2016-10-11,created,,
-Case_29429,W_User.10,2016-10-11,Status,,New
-Case_29429,W_User.10,2016-11-16,Status,New,Closed
-Case_29430,W_User.16,2016-09-17,created,,
-Case_29430,W_User.16,2016-09-17,Status,,New
-Case_29430,W_User.16,2016-11-16,Status,New,Closed
-Case_29431,W_User.13,2016-09-05,created,,
-Case_29431,W_User.13,2016-09-05,Status,,New
-Case_29431,W_User.13,2016-09-30,Status,New,Working
-Case_29431,W_User.13,2016-10-12,Status,Working,Waiting on Customer
-Case_29431,W_User.13,2016-10-17,Status,Waiting on Customer,Escalated
-Case_29431,W_User.13,2016-10-24,Status,Escalated,Waiting on Customer
-Case_29431,W_User.13,2016-11-12,Status,Waiting on Customer,Working
-Case_29431,W_User.13,2016-11-16,Status,Working,Closed
-Case_29432,W_User.10,2016-09-29,created,,
-Case_29432,W_User.10,2016-09-29,Status,,New
-Case_29432,W_User.10,2016-10-18,Status,New,Working
-Case_29432,W_User.10,2016-11-12,Status,Working,On Hold
-Case_29432,W_User.10,2016-11-16,Status,On Hold,Closed
-Case_29433,W_User.12,2016-08-12,created,,
-Case_29433,W_User.12,2016-08-12,Status,,New
-Case_29433,W_User.12,2016-11-16,Status,New,Closed
-Case_29434,W_User.13,2016-11-04,created,,
-Case_29434,W_User.13,2016-11-04,Status,,New
-Case_29434,W_User.13,2016-11-16,Status,New,Closed
-Case_29435,W_User.9,2016-07-19,created,,
-Case_29435,W_User.9,2016-07-19,Status,,New
-Case_29435,W_User.9,2016-11-16,Status,New,Closed
-Case_29436,W_User.15,2016-08-12,created,,
-Case_29436,W_User.15,2016-08-12,Status,,New
-Case_29436,W_User.15,2016-11-16,Status,New,Closed
-Case_29437,W_User.14,2016-08-24,created,,
-Case_29437,W_User.14,2016-08-24,Status,,New
-Case_29437,W_User.14,2016-09-09,Status,New,Escalated
-Case_29437,W_User.14,2016-09-25,Status,Escalated,Working
-Case_29437,W_User.14,2016-10-04,Status,Working,Waiting on Customer
-Case_29437,W_User.14,2016-11-03,Status,Waiting on Customer,Working
-Case_29437,W_User.14,2016-11-16,Status,Working,Closed
-Case_29438,W_User.6,2016-10-23,created,,
-Case_29438,W_User.6,2016-10-23,Status,,New
-Case_29438,W_User.6,2016-11-16,Status,New,Closed
-Case_29439,W_User.19,2016-09-05,created,,
-Case_29439,W_User.19,2016-09-05,Status,,New
-Case_29439,W_User.19,2016-11-16,Status,New,Closed
-Case_29440,W_User.12,2016-08-12,created,,
-Case_29440,W_User.12,2016-08-12,Status,,New
-Case_29440,W_User.12,2016-11-16,Status,New,Closed
-Case_29441,W_User.14,2016-09-29,created,,
-Case_29441,W_User.14,2016-09-29,Status,,New
-Case_29441,W_User.14,2016-10-23,Status,New,Waiting on Customer
-Case_29441,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
-Case_29442,W_User.10,2016-10-23,created,,
-Case_29442,W_User.10,2016-10-23,Status,,New
-Case_29442,W_User.10,2016-11-16,Status,New,Closed
-Case_29443,W_User.12,2016-09-29,created,,
-Case_29443,W_User.12,2016-09-29,Status,,New
-Case_29443,W_User.12,2016-10-02,Status,New,On Hold
-Case_29443,W_User.12,2016-10-26,Status,On Hold,Working
-Case_29443,W_User.12,2016-11-13,Status,Working,On Hold
-Case_29443,W_User.12,2016-11-16,Status,On Hold,Closed
-Case_29444,W_User.15,2016-09-17,created,,
-Case_29444,W_User.15,2016-09-17,Status,,New
-Case_29444,W_User.15,2016-10-05,Status,New,On Hold
-Case_29444,W_User.15,2016-10-25,Status,On Hold,Escalated
-Case_29444,W_User.15,2016-11-13,Status,Escalated,On Hold
-Case_29444,W_User.15,2016-11-16,Status,On Hold,Closed
-Case_29445,W_User.11,2016-08-12,created,,
-Case_29445,W_User.11,2016-08-12,Status,,New
-Case_29445,W_User.11,2016-08-30,Status,New,Escalated
-Case_29445,W_User.11,2016-09-29,Status,Escalated,Working
-Case_29445,W_User.11,2016-10-12,Status,Working,On Hold
-Case_29445,W_User.11,2016-11-10,Status,On Hold,Working
-Case_29445,W_User.11,2016-11-16,Status,Working,Closed
-Case_29446,W_User.6,2016-09-05,created,,
-Case_29446,W_User.6,2016-09-05,Status,,New
-Case_29446,W_User.6,2016-11-16,Status,New,Closed
-Case_29447,W_User.15,2016-08-12,created,,
-Case_29447,W_User.15,2016-08-12,Status,,New
-Case_29447,W_User.15,2016-08-19,Status,New,Escalated
-Case_29447,W_User.15,2016-08-27,Status,Escalated,Working
-Case_29447,W_User.15,2016-09-14,Status,Working,Waiting on Customer
-Case_29447,W_User.15,2016-10-12,Status,Waiting on Customer,On Hold
-Case_29447,W_User.15,2016-10-25,Status,On Hold,Waiting on Customer
-Case_29447,W_User.15,2016-10-25,Status,Waiting on Customer,On Hold
-Case_29447,W_User.15,2016-11-16,Status,On Hold,Closed
-Case_29448,W_User.12,2016-08-12,created,,
-Case_29448,W_User.12,2016-08-12,Status,,New
-Case_29448,W_User.12,2016-11-16,Status,New,Closed
-Case_29449,W_User.14,2016-09-05,created,,
-Case_29449,W_User.14,2016-09-05,Status,,New
-Case_29449,W_User.14,2016-09-16,Status,New,Waiting on Customer
-Case_29449,W_User.14,2016-10-07,Status,Waiting on Customer,Escalated
-Case_29449,W_User.14,2016-10-26,Status,Escalated,On Hold
-Case_29449,W_User.14,2016-11-16,Status,On Hold,Closed
-Case_29450,W_User.8,2016-10-23,created,,
-Case_29450,W_User.8,2016-10-23,Status,,New
-Case_29450,W_User.8,2016-11-16,Status,New,Closed
-Case_29451,W_User.12,2016-08-12,created,,
-Case_29451,W_User.12,2016-08-12,Status,,New
-Case_29451,W_User.12,2016-11-16,Status,New,Closed
-Case_29452,W_User.18,2016-11-04,created,,
-Case_29452,W_User.18,2016-11-04,Status,,New
-Case_29452,W_User.18,2016-11-06,Status,New,Waiting on Customer
-Case_29452,W_User.18,2016-11-07,Status,Waiting on Customer,Working
-Case_29452,W_User.18,2016-11-16,Status,Working,Closed
-Case_29453,W_User.3,2016-09-29,created,,
-Case_29453,W_User.3,2016-09-29,Status,,New
-Case_29453,W_User.3,2016-11-16,Status,New,Closed
-Case_29454,W_User.7,2016-10-11,created,,
-Case_29454,W_User.7,2016-10-11,Status,,New
-Case_29454,W_User.7,2016-10-25,Status,New,Escalated
-Case_29454,W_User.7,2016-10-27,Status,Escalated,Waiting on Customer
-Case_29454,W_User.7,2016-11-02,Status,Waiting on Customer,Working
-Case_29454,W_User.7,2016-11-16,Status,Working,Closed
-Case_29455,W_User.10,2016-09-29,created,,
-Case_29455,W_User.10,2016-09-29,Status,,New
-Case_29455,W_User.10,2016-09-29,Status,New,Working
-Case_29455,W_User.10,2016-10-28,Status,Working,Escalated
-Case_29455,W_User.10,2016-10-31,Status,Escalated,Working
-Case_29455,W_User.10,2016-11-16,Status,Working,Closed
-Case_29456,W_User.14,2016-10-23,created,,
-Case_29456,W_User.14,2016-10-23,Status,,New
-Case_29456,W_User.14,2016-11-16,Status,New,Closed
-Case_29458,W_User.7,2016-07-31,created,,
-Case_29458,W_User.7,2016-07-31,Status,,New
-Case_29458,W_User.7,2016-08-06,Status,New,Escalated
-Case_29458,W_User.7,2016-09-05,Status,Escalated,On Hold
-Case_29458,W_User.7,2016-09-17,Status,On Hold,Working
-Case_29458,W_User.7,2016-10-14,Status,Working,Waiting on Customer
-Case_29458,W_User.7,2016-11-06,Status,Waiting on Customer,On Hold
-Case_29458,W_User.7,2016-11-14,Status,On Hold,Working
-Case_29458,W_User.7,2016-11-16,Status,Working,Closed
-Case_29459,W_User.1,2016-07-31,created,,
-Case_29459,W_User.1,2016-07-31,Status,,New
-Case_29459,W_User.1,2016-11-16,Status,New,Closed
-Case_29460,W_User.15,2016-11-04,created,,
-Case_29460,W_User.15,2016-11-04,Status,,New
-Case_29460,W_User.15,2016-11-16,Status,New,Closed
-Case_29461,W_User.13,2016-08-12,created,,
-Case_29461,W_User.13,2016-08-12,Status,,New
-Case_29461,W_User.13,2016-08-27,Status,New,Escalated
-Case_29461,W_User.13,2016-09-14,Status,Escalated,On Hold
-Case_29461,W_User.13,2016-09-20,Status,On Hold,Waiting on Customer
-Case_29461,W_User.13,2016-10-15,Status,Waiting on Customer,On Hold
-Case_29461,W_User.13,2016-10-26,Status,On Hold,Waiting on Customer
-Case_29461,W_User.13,2016-11-11,Status,Waiting on Customer,On Hold
-Case_29461,W_User.13,2016-11-14,Status,On Hold,Working
-Case_29461,W_User.13,2016-11-16,Status,Working,Closed
-Case_29462,W_User.1,2016-09-29,created,,
-Case_29462,W_User.1,2016-09-29,Status,,New
-Case_29462,W_User.1,2016-10-15,Status,New,Waiting on Customer
-Case_29462,W_User.1,2016-11-13,Status,Waiting on Customer,Escalated
-Case_29462,W_User.1,2016-11-16,Status,Escalated,Closed
-Case_29463,W_User.6,2016-08-12,created,,
-Case_29463,W_User.6,2016-08-12,Status,,New
-Case_29463,W_User.6,2016-11-16,Status,New,Closed
-Case_29464,W_User.9,2016-08-12,created,,
-Case_29464,W_User.9,2016-08-12,Status,,New
-Case_29464,W_User.9,2016-09-06,Status,New,Working
-Case_29464,W_User.9,2016-09-17,Status,Working,On Hold
-Case_29464,W_User.9,2016-09-27,Status,On Hold,Waiting on Customer
-Case_29464,W_User.9,2016-09-27,Status,Waiting on Customer,On Hold
-Case_29464,W_User.9,2016-10-14,Status,On Hold,Waiting on Customer
-Case_29464,W_User.9,2016-11-01,Status,Waiting on Customer,On Hold
-Case_29464,W_User.9,2016-11-03,Status,On Hold,Escalated
-Case_29464,W_User.9,2016-11-16,Status,Escalated,Closed
-Case_29465,W_User.14,2016-09-17,created,,
-Case_29465,W_User.14,2016-09-17,Status,,New
-Case_29465,W_User.14,2016-09-28,Status,New,On Hold
-Case_29465,W_User.14,2016-10-01,Status,On Hold,Escalated
-Case_29465,W_User.14,2016-10-10,Status,Escalated,Working
-Case_29465,W_User.14,2016-11-01,Status,Working,On Hold
-Case_29465,W_User.14,2016-11-08,Status,On Hold,Waiting on Customer
-Case_29465,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
-Case_29466,W_User.6,2016-07-19,created,,
-Case_29466,W_User.6,2016-07-19,Status,,New
-Case_29466,W_User.6,2016-08-14,Status,New,On Hold
-Case_29466,W_User.6,2016-09-05,Status,On Hold,Escalated
-Case_29466,W_User.6,2016-10-03,Status,Escalated,Working
-Case_29466,W_User.6,2016-10-16,Status,Working,On Hold
-Case_29466,W_User.6,2016-10-18,Status,On Hold,Working
-Case_29466,W_User.6,2016-10-27,Status,Working,Waiting on Customer
-Case_29466,W_User.6,2016-11-16,Status,Waiting on Customer,Closed
-Case_29467,W_User.13,2016-09-29,created,,
-Case_29467,W_User.13,2016-09-29,Status,,New
-Case_29467,W_User.13,2016-11-16,Status,New,Closed
-Case_29468,W_User.8,2016-08-24,created,,
-Case_29468,W_User.8,2016-08-24,Status,,New
-Case_29468,W_User.8,2016-11-16,Status,New,Closed
-Case_29469,W_User.9,2016-10-11,created,,
-Case_29469,W_User.9,2016-10-11,Status,,New
-Case_29469,W_User.9,2016-10-12,Status,New,Working
-Case_29469,W_User.9,2016-10-14,Status,Working,Escalated
-Case_29469,W_User.9,2016-11-12,Status,Escalated,Working
-Case_29469,W_User.9,2016-11-16,Status,Working,Closed
-Case_29470,W_User.12,2016-10-11,created,,
-Case_29470,W_User.12,2016-10-11,Status,,New
-Case_29470,W_User.12,2016-11-16,Status,New,Closed
-Case_29471,W_User.5,2016-10-23,created,,
-Case_29471,W_User.5,2016-10-23,Status,,New
-Case_29471,W_User.5,2016-11-16,Status,New,Closed
-Case_29472,W_User.10,2016-08-12,created,,
-Case_29472,W_User.10,2016-08-12,Status,,New
-Case_29472,W_User.10,2016-11-16,Status,New,Closed
-Case_29473,W_User.12,2016-08-24,created,,
-Case_29473,W_User.12,2016-08-24,Status,,New
-Case_29473,W_User.12,2016-11-16,Status,New,Closed
-Case_29474,W_User.12,2016-10-23,created,,
-Case_29474,W_User.12,2016-10-23,Status,,New
-Case_29474,W_User.12,2016-11-16,Status,New,Closed
-Case_29475,W_User.13,2016-09-29,created,,
-Case_29475,W_User.13,2016-09-29,Status,,New
-Case_29475,W_User.13,2016-11-16,Status,New,Closed
-Case_29476,W_User.6,2016-11-04,created,,
-Case_29476,W_User.6,2016-11-04,Status,,New
-Case_29476,W_User.6,2016-11-08,Status,New,Waiting on Customer
-Case_29476,W_User.6,2016-11-16,Status,Waiting on Customer,Closed
-Case_29477,W_User.8,2016-08-24,created,,
-Case_29477,W_User.8,2016-08-24,Status,,New
-Case_29477,W_User.8,2016-11-16,Status,New,Closed
-Case_29478,W_User.10,2016-09-05,created,,
-Case_29478,W_User.10,2016-09-05,Status,,New
-Case_29478,W_User.10,2016-09-21,Status,New,Escalated
-Case_29478,W_User.10,2016-10-05,Status,Escalated,Waiting on Customer
-Case_29478,W_User.10,2016-10-10,Status,Waiting on Customer,On Hold
-Case_29478,W_User.10,2016-10-23,Status,On Hold,Working
-Case_29478,W_User.10,2016-11-11,Status,Working,Waiting on Customer
-Case_29478,W_User.10,2016-11-13,Status,Waiting on Customer,On Hold
-Case_29478,W_User.10,2016-11-16,Status,On Hold,Closed
-Case_29479,W_User.11,2016-08-12,created,,
-Case_29479,W_User.11,2016-08-12,Status,,New
-Case_29479,W_User.11,2016-09-02,Status,New,Working
-Case_29479,W_User.11,2016-09-19,Status,Working,Waiting on Customer
-Case_29479,W_User.11,2016-09-22,Status,Waiting on Customer,Escalated
-Case_29479,W_User.11,2016-10-01,Status,Escalated,On Hold
-Case_29479,W_User.11,2016-10-23,Status,On Hold,Waiting on Customer
-Case_29479,W_User.11,2016-10-24,Status,Waiting on Customer,On Hold
-Case_29479,W_User.11,2016-10-29,Status,On Hold,Waiting on Customer
-Case_29479,W_User.11,2016-11-16,Status,Waiting on Customer,Closed
-Case_29480,W_User.1,2016-09-17,created,,
-Case_29480,W_User.1,2016-09-17,Status,,New
-Case_29480,W_User.1,2016-09-25,Status,New,On Hold
-Case_29480,W_User.1,2016-10-14,Status,On Hold,Escalated
-Case_29480,W_User.1,2016-10-19,Status,Escalated,Waiting on Customer
-Case_29480,W_User.1,2016-11-11,Status,Waiting on Customer,On Hold
-Case_29480,W_User.1,2016-11-16,Status,On Hold,Closed
-Case_29481,W_User.11,2016-11-04,created,,
-Case_29481,W_User.11,2016-11-04,Status,,New
-Case_29481,W_User.11,2016-11-16,Status,New,Closed
-Case_29482,W_User.12,2016-09-17,created,,
-Case_29482,W_User.12,2016-09-17,Status,,New
-Case_29482,W_User.12,2016-09-17,Status,New,On Hold
-Case_29482,W_User.12,2016-09-29,Status,On Hold,Waiting on Customer
-Case_29482,W_User.12,2016-10-07,Status,Waiting on Customer,On Hold
-Case_29482,W_User.12,2016-11-06,Status,On Hold,Escalated
-Case_29482,W_User.12,2016-11-15,Status,Escalated,Working
-Case_29482,W_User.12,2016-11-16,Status,Working,Closed
-Case_29483,W_User.6,2016-11-04,created,,
-Case_29483,W_User.6,2016-11-04,Status,,New
-Case_29483,W_User.6,2016-11-16,Status,New,Closed
-Case_29484,W_User.14,2016-07-19,created,,
-Case_29484,W_User.14,2016-07-19,Status,,New
-Case_29484,W_User.14,2016-11-16,Status,New,Closed
-Case_29485,W_User.15,2016-09-29,created,,
-Case_29485,W_User.15,2016-09-29,Status,,New
-Case_29485,W_User.15,2016-11-16,Status,New,Closed
-Case_29486,W_User.4,2016-10-23,created,,
-Case_29486,W_User.4,2016-10-23,Status,,New
-Case_29486,W_User.4,2016-11-16,Status,New,Closed
-Case_29487,W_User.15,2016-10-11,created,,
-Case_29487,W_User.15,2016-10-11,Status,,New
-Case_29487,W_User.15,2016-10-25,Status,New,Escalated
-Case_29487,W_User.15,2016-11-16,Status,Escalated,Closed
-Case_29488,W_User.15,2016-08-24,created,,
-Case_29488,W_User.15,2016-08-24,Status,,New
-Case_29488,W_User.15,2016-11-16,Status,New,Closed
-Case_29489,W_User.13,2016-10-11,created,,
-Case_29489,W_User.13,2016-10-11,Status,,New
-Case_29489,W_User.13,2016-10-18,Status,New,On Hold
-Case_29489,W_User.13,2016-11-13,Status,On Hold,Waiting on Customer
-Case_29489,W_User.13,2016-11-16,Status,Waiting on Customer,Closed
-Case_29490,W_User.7,2016-10-11,created,,
-Case_29490,W_User.7,2016-10-11,Status,,New
-Case_29490,W_User.7,2016-11-04,Status,New,Escalated
-Case_29490,W_User.7,2016-11-06,Status,Escalated,On Hold
-Case_29490,W_User.7,2016-11-11,Status,On Hold,Working
-Case_29490,W_User.7,2016-11-16,Status,Working,Closed
-Case_29491,W_User.1,2016-07-31,created,,
-Case_29491,W_User.1,2016-07-31,Status,,New
-Case_29491,W_User.1,2016-08-04,Status,New,Working
-Case_29491,W_User.1,2016-08-23,Status,Working,Waiting on Customer
-Case_29491,W_User.1,2016-08-24,Status,Waiting on Customer,Working
-Case_29491,W_User.1,2016-08-31,Status,Working,Waiting on Customer
-Case_29491,W_User.1,2016-09-13,Status,Waiting on Customer,Escalated
-Case_29491,W_User.1,2016-09-13,Status,Escalated,Working
-Case_29491,W_User.1,2016-09-29,Status,Working,On Hold
-Case_29491,W_User.1,2016-09-29,Status,On Hold,Working
-Case_29491,W_User.1,2016-10-24,Status,Working,On Hold
-Case_29491,W_User.1,2016-11-16,Status,On Hold,Closed
-Case_29492,W_User.11,2016-09-05,created,,
-Case_29492,W_User.11,2016-09-05,Status,,New
-Case_29492,W_User.11,2016-11-16,Status,New,Closed
-Case_29493,W_User.20,2016-10-23,created,,
-Case_29493,W_User.20,2016-10-23,Status,,New
-Case_29493,W_User.20,2016-11-16,Status,New,Closed
-Case_29495,W_User.6,2016-11-04,created,,
-Case_29495,W_User.6,2016-11-04,Status,,New
-Case_29495,W_User.6,2016-11-16,Status,New,Closed
-Case_29496,W_User.11,2016-11-04,created,,
-Case_29496,W_User.11,2016-11-04,Status,,New
-Case_29496,W_User.11,2016-11-16,Status,New,Closed
-Case_29497,W_User.19,2016-09-29,created,,
-Case_29497,W_User.19,2016-09-29,Status,,New
-Case_29497,W_User.19,2016-10-09,Status,New,Working
-Case_29497,W_User.19,2016-10-29,Status,Working,On Hold
-Case_29497,W_User.19,2016-11-13,Status,On Hold,Working
-Case_29497,W_User.19,2016-11-16,Status,Working,Closed
-Case_29498,W_User.6,2016-10-11,created,,
-Case_29498,W_User.6,2016-10-11,Status,,New
-Case_29498,W_User.6,2016-11-16,Status,New,Closed
-Case_29499,W_User.11,2016-08-24,created,,
-Case_29499,W_User.11,2016-08-24,Status,,New
-Case_29499,W_User.11,2016-11-16,Status,New,Closed
-Case_29500,W_User.15,2016-09-29,created,,
-Case_29500,W_User.15,2016-09-29,Status,,New
-Case_29500,W_User.15,2016-10-13,Status,New,On Hold
-Case_29500,W_User.15,2016-10-31,Status,On Hold,Working
-Case_29500,W_User.15,2016-11-16,Status,Working,Closed
-Case_29501,W_User.10,2016-08-24,created,,
-Case_29501,W_User.10,2016-08-24,Status,,New
-Case_29501,W_User.10,2016-11-16,Status,New,Closed
-Case_29502,W_User.18,2016-11-04,created,,
-Case_29502,W_User.18,2016-11-04,Status,,New
-Case_29502,W_User.18,2016-11-16,Status,New,Closed
-Case_29503,W_User.11,2016-09-05,created,,
-Case_29503,W_User.11,2016-09-05,Status,,New
-Case_29503,W_User.11,2016-09-10,Status,New,Escalated
-Case_29503,W_User.11,2016-09-23,Status,Escalated,Waiting on Customer
-Case_29503,W_User.11,2016-10-07,Status,Waiting on Customer,Working
-Case_29503,W_User.11,2016-10-15,Status,Working,On Hold
-Case_29503,W_User.11,2016-10-31,Status,On Hold,Waiting on Customer
-Case_29503,W_User.11,2016-11-09,Status,Waiting on Customer,Working
-Case_29503,W_User.11,2016-11-16,Status,Working,Closed
-Case_29504,W_User.9,2016-08-12,created,,
-Case_29504,W_User.9,2016-08-12,Status,,New
-Case_29504,W_User.9,2016-11-16,Status,New,Closed
-Case_29505,W_User.11,2016-10-23,created,,
-Case_29505,W_User.11,2016-10-23,Status,,New
-Case_29505,W_User.11,2016-10-27,Status,New,Escalated
-Case_29505,W_User.11,2016-11-10,Status,Escalated,On Hold
-Case_29505,W_User.11,2016-11-16,Status,On Hold,Closed
-Case_29506,W_User.14,2016-07-19,created,,
-Case_29506,W_User.14,2016-07-19,Status,,New
-Case_29506,W_User.14,2016-08-05,Status,New,Working
-Case_29506,W_User.14,2016-08-11,Status,Working,Escalated
-Case_29506,W_User.14,2016-08-15,Status,Escalated,On Hold
-Case_29506,W_User.14,2016-08-17,Status,On Hold,Waiting on Customer
-Case_29506,W_User.14,2016-08-18,Status,Waiting on Customer,On Hold
-Case_29506,W_User.14,2016-09-17,Status,On Hold,Working
-Case_29506,W_User.14,2016-09-24,Status,Working,On Hold
-Case_29506,W_User.14,2016-10-08,Status,On Hold,Waiting on Customer
-Case_29506,W_User.14,2016-10-31,Status,Waiting on Customer,Working
-Case_29506,W_User.14,2016-11-16,Status,Working,Closed
-Case_29507,W_User.15,2016-09-05,created,,
-Case_29507,W_User.15,2016-09-05,Status,,New
-Case_29507,W_User.15,2016-09-26,Status,New,Escalated
-Case_29507,W_User.15,2016-10-04,Status,Escalated,Waiting on Customer
-Case_29507,W_User.15,2016-10-11,Status,Waiting on Customer,Working
-Case_29507,W_User.15,2016-10-31,Status,Working,On Hold
-Case_29507,W_User.15,2016-11-07,Status,On Hold,Waiting on Customer
-Case_29507,W_User.15,2016-11-07,Status,Waiting on Customer,Working
-Case_29507,W_User.15,2016-11-16,Status,Working,Closed
-Case_29508,W_User.14,2016-10-23,created,,
-Case_29508,W_User.14,2016-10-23,Status,,New
-Case_29508,W_User.14,2016-11-16,Status,New,Closed
-Case_29509,W_User.9,2016-09-17,created,,
-Case_29509,W_User.9,2016-09-17,Status,,New
-Case_29509,W_User.9,2016-11-16,Status,New,Closed
-Case_29510,W_User.7,2016-07-19,created,,
-Case_29510,W_User.7,2016-07-19,Status,,New
-Case_29510,W_User.7,2016-07-26,Status,New,On Hold
-Case_29510,W_User.7,2016-08-06,Status,On Hold,Waiting on Customer
-Case_29510,W_User.7,2016-08-14,Status,Waiting on Customer,On Hold
-Case_29510,W_User.7,2016-08-25,Status,On Hold,Escalated
-Case_29510,W_User.7,2016-08-28,Status,Escalated,Working
-Case_29510,W_User.7,2016-09-25,Status,Working,Waiting on Customer
-Case_29510,W_User.7,2016-09-30,Status,Waiting on Customer,On Hold
-Case_29510,W_User.7,2016-10-20,Status,On Hold,Waiting on Customer
-Case_29510,W_User.7,2016-11-06,Status,Waiting on Customer,On Hold
-Case_29510,W_User.7,2016-11-16,Status,On Hold,Waiting on Customer
-Case_29511,W_User.13,2016-07-31,created,,
-Case_29511,W_User.13,2016-07-31,Status,,New
-Case_29511,W_User.13,2016-08-02,Status,New,Waiting on Customer
-Case_29511,W_User.13,2016-08-11,Status,Waiting on Customer,Working
-Case_29511,W_User.13,2016-08-16,Status,Working,On Hold
-Case_29511,W_User.13,2016-09-05,Status,On Hold,Waiting on Customer
-Case_29511,W_User.13,2016-09-07,Status,Waiting on Customer,Working
-Case_29511,W_User.13,2016-09-27,Status,Working,On Hold
-Case_29511,W_User.13,2016-10-17,Status,On Hold,Escalated
-Case_29511,W_User.13,2016-11-11,Status,Escalated,On Hold
-Case_29511,W_User.13,2016-11-16,Status,On Hold,Closed
-Case_29512,W_User.9,2016-09-05,created,,
-Case_29512,W_User.9,2016-09-05,Status,,New
-Case_29512,W_User.9,2016-11-16,Status,New,Closed
-Case_29513,W_User.6,2016-09-29,created,,
-Case_29513,W_User.6,2016-09-29,Status,,New
-Case_29513,W_User.6,2016-10-25,Status,New,Waiting on Customer
-Case_29513,W_User.6,2016-11-16,Status,Waiting on Customer,Closed
-Case_29514,W_User.6,2016-08-24,created,,
-Case_29514,W_User.6,2016-08-24,Status,,New
-Case_29514,W_User.6,2016-11-16,Status,New,Closed
-Case_29515,W_User.6,2016-08-24,created,,
-Case_29515,W_User.6,2016-08-24,Status,,New
-Case_29515,W_User.6,2016-09-05,Status,New,Waiting on Customer
-Case_29515,W_User.6,2016-09-18,Status,Waiting on Customer,Working
-Case_29515,W_User.6,2016-10-07,Status,Working,Waiting on Customer
-Case_29515,W_User.6,2016-11-03,Status,Waiting on Customer,Working
-Case_29515,W_User.6,2016-11-16,Status,Working,Closed
-Case_29516,W_User.3,2016-07-19,created,,
-Case_29516,W_User.3,2016-07-19,Status,,New
-Case_29516,W_User.3,2016-08-08,Status,New,Waiting on Customer
-Case_29516,W_User.3,2016-08-30,Status,Waiting on Customer,Working
-Case_29516,W_User.3,2016-09-26,Status,Working,Waiting on Customer
-Case_29516,W_User.3,2016-10-13,Status,Waiting on Customer,Escalated
-Case_29516,W_User.3,2016-10-16,Status,Escalated,Waiting on Customer
-Case_29516,W_User.3,2016-11-09,Status,Waiting on Customer,Working
-Case_29516,W_User.3,2016-11-16,Status,Working,Closed
-Case_29517,W_User.13,2016-11-04,created,,
-Case_29517,W_User.13,2016-11-04,Status,,New
-Case_29517,W_User.13,2016-11-09,Status,New,Escalated
-Case_29517,W_User.13,2016-11-16,Status,Escalated,Closed
-Case_29518,W_User.10,2016-07-19,created,,
-Case_29518,W_User.10,2016-07-19,Status,,New
-Case_29518,W_User.10,2016-07-27,Status,New,On Hold
-Case_29518,W_User.10,2016-08-21,Status,On Hold,Escalated
-Case_29518,W_User.10,2016-09-18,Status,Escalated,Working
-Case_29518,W_User.10,2016-10-18,Status,Working,On Hold
-Case_29518,W_User.10,2016-10-29,Status,On Hold,Working
-Case_29518,W_User.10,2016-10-30,Status,Working,Waiting on Customer
-Case_29518,W_User.10,2016-11-16,Status,Waiting on Customer,Closed
-Case_29519,W_User.14,2016-09-29,created,,
-Case_29519,W_User.14,2016-09-29,Status,,New
-Case_29519,W_User.14,2016-10-23,Status,New,Escalated
-Case_29519,W_User.14,2016-10-24,Status,Escalated,Waiting on Customer
-Case_29519,W_User.14,2016-10-24,Status,Waiting on Customer,Working
-Case_29519,W_User.14,2016-11-03,Status,Working,Waiting on Customer
-Case_29519,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
-Case_29520,W_User.14,2016-09-29,created,,
-Case_29520,W_User.14,2016-09-29,Status,,New
-Case_29520,W_User.14,2016-10-12,Status,New,On Hold
-Case_29520,W_User.14,2016-10-28,Status,On Hold,Escalated
-Case_29520,W_User.14,2016-11-15,Status,Escalated,On Hold
-Case_29520,W_User.14,2016-11-16,Status,On Hold,Closed
-Case_29521,W_User.10,2016-11-04,created,,
-Case_29521,W_User.10,2016-11-04,Status,,New
-Case_29521,W_User.10,2016-11-16,Status,New,Closed
+W_Case.202,W_User.12,2016-10-12,created,,
+W_Case.202,W_User.12,2016-10-12,Status,,New
+W_Case.202,W_User.12,2016-11-17,Status,New,Closed
+W_Case.203,W_User.9,2016-09-18,created,,
+W_Case.203,W_User.9,2016-09-18,Status,,New
+W_Case.203,W_User.9,2016-11-17,Status,New,Closed
+W_Case.204,W_User.13,2016-08-01,created,,
+W_Case.204,W_User.13,2016-08-01,Status,,New
+W_Case.204,W_User.13,2016-11-17,Status,New,Closed
+W_Case.205,W_User.13,2016-11-05,created,,
+W_Case.205,W_User.13,2016-11-05,Status,,New
+W_Case.205,W_User.13,2016-11-17,Status,New,Closed
+W_Case.206,W_User.14,2016-09-18,created,,
+W_Case.206,W_User.14,2016-09-18,Status,,New
+W_Case.206,W_User.14,2016-09-29,Status,New,Escalated
+W_Case.206,W_User.14,2016-10-27,Status,Escalated,On Hold
+W_Case.206,W_User.14,2016-11-17,Status,On Hold,Waiting on Customer
+W_Case.207,W_User.7,2016-08-13,created,,
+W_Case.207,W_User.7,2016-08-13,Status,,New
+W_Case.207,W_User.7,2016-11-17,Status,New,Closed
+W_Case.208,W_User.18,2016-09-06,created,,
+W_Case.208,W_User.18,2016-09-06,Status,,New
+W_Case.208,W_User.18,2016-11-17,Status,New,Closed
+W_Case.209,W_User.14,2016-10-24,created,,
+W_Case.209,W_User.14,2016-10-24,Status,,New
+W_Case.209,W_User.14,2016-11-17,Status,New,Closed
+W_Case.210,W_User.6,2016-11-05,created,,
+W_Case.210,W_User.6,2016-11-05,Status,,New
+W_Case.210,W_User.6,2016-11-17,Status,New,Closed
+W_Case.211,W_User.7,2016-09-18,created,,
+W_Case.211,W_User.7,2016-09-18,Status,,New
+W_Case.211,W_User.7,2016-11-17,Status,New,Closed
+W_Case.212,W_User.1,2016-09-30,created,,
+W_Case.212,W_User.1,2016-09-30,Status,,New
+W_Case.212,W_User.1,2016-11-17,Status,New,Closed
+W_Case.213,W_User.14,2016-11-05,created,,
+W_Case.213,W_User.14,2016-11-05,Status,,New
+W_Case.213,W_User.14,2016-11-07,Status,New,Waiting on Customer
+W_Case.213,W_User.14,2016-11-08,Status,Waiting on Customer,Escalated
+W_Case.213,W_User.14,2016-11-17,Status,Escalated,On Hold
+W_Case.214,W_User.12,2016-09-30,created,,
+W_Case.214,W_User.12,2016-09-30,Status,,New
+W_Case.214,W_User.12,2016-11-17,Status,New,Closed
+W_Case.215,W_User.15,2016-09-06,created,,
+W_Case.215,W_User.15,2016-09-06,Status,,New
+W_Case.215,W_User.15,2016-11-17,Status,New,Closed
+W_Case.216,W_User.8,2016-10-24,created,,
+W_Case.216,W_User.8,2016-10-24,Status,,New
+W_Case.216,W_User.8,2016-11-07,Status,New,Escalated
+W_Case.216,W_User.8,2016-11-17,Status,Escalated,Closed
+W_Case.217,W_User.8,2016-10-12,created,,
+W_Case.217,W_User.8,2016-10-12,Status,,New
+W_Case.217,W_User.8,2016-10-19,Status,New,Escalated
+W_Case.217,W_User.8,2016-11-02,Status,Escalated,Working
+W_Case.217,W_User.8,2016-11-17,Status,Working,Closed
+W_Case.218,W_User.15,2016-10-24,created,,
+W_Case.218,W_User.15,2016-10-24,Status,,New
+W_Case.218,W_User.15,2016-11-14,Status,New,Escalated
+W_Case.218,W_User.15,2016-11-17,Status,Escalated,Closed
+W_Case.219,W_User.8,2016-09-30,created,,
+W_Case.219,W_User.8,2016-09-30,Status,,New
+W_Case.219,W_User.8,2016-10-12,Status,New,Working
+W_Case.219,W_User.8,2016-11-01,Status,Working,On Hold
+W_Case.219,W_User.8,2016-11-17,Status,On Hold,Closed
+W_Case.220,W_User.15,2016-11-05,created,,
+W_Case.220,W_User.15,2016-11-05,Status,,New
+W_Case.220,W_User.15,2016-11-17,Status,New,Closed
+W_Case.221,W_User.10,2016-09-30,created,,
+W_Case.221,W_User.10,2016-09-30,Status,,New
+W_Case.221,W_User.10,2016-10-07,Status,New,Escalated
+W_Case.221,W_User.10,2016-10-11,Status,Escalated,On Hold
+W_Case.221,W_User.10,2016-10-21,Status,On Hold,Waiting on Customer
+W_Case.221,W_User.10,2016-10-28,Status,Waiting on Customer,Working
+W_Case.221,W_User.10,2016-11-17,Status,Working,Closed
+W_Case.222,W_User.14,2016-08-01,created,,
+W_Case.222,W_User.14,2016-08-01,Status,,New
+W_Case.222,W_User.14,2016-11-17,Status,New,Closed
+W_Case.223,W_User.13,2016-08-13,created,,
+W_Case.223,W_User.13,2016-08-13,Status,,New
+W_Case.223,W_User.13,2016-11-17,Status,New,Closed
+W_Case.224,W_User.12,2016-10-24,created,,
+W_Case.224,W_User.12,2016-10-24,Status,,New
+W_Case.224,W_User.12,2016-10-28,Status,New,Waiting on Customer
+W_Case.224,W_User.12,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.225,W_User.1,2016-10-12,created,,
+W_Case.225,W_User.1,2016-10-12,Status,,New
+W_Case.225,W_User.1,2016-10-23,Status,New,Escalated
+W_Case.225,W_User.1,2016-11-17,Status,Escalated,Closed
+W_Case.226,W_User.6,2016-11-05,created,,
+W_Case.226,W_User.6,2016-11-05,Status,,New
+W_Case.226,W_User.6,2016-11-17,Status,New,Closed
+W_Case.227,W_User.15,2016-10-12,created,,
+W_Case.227,W_User.15,2016-10-12,Status,,New
+W_Case.227,W_User.15,2016-10-16,Status,New,Working
+W_Case.227,W_User.15,2016-10-22,Status,Working,Waiting on Customer
+W_Case.227,W_User.15,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.228,W_User.9,2016-10-24,created,,
+W_Case.228,W_User.9,2016-10-24,Status,,New
+W_Case.228,W_User.9,2016-11-17,Status,New,Closed
+W_Case.229,W_User.13,2016-09-18,created,,
+W_Case.229,W_User.13,2016-09-18,Status,,New
+W_Case.229,W_User.13,2016-11-17,Status,New,Closed
+W_Case.230,W_User.11,2016-10-24,created,,
+W_Case.230,W_User.11,2016-10-24,Status,,New
+W_Case.230,W_User.11,2016-11-08,Status,New,On Hold
+W_Case.230,W_User.11,2016-11-17,Status,On Hold,Closed
+W_Case.231,W_User.14,2016-09-06,created,,
+W_Case.231,W_User.14,2016-09-06,Status,,New
+W_Case.231,W_User.14,2016-11-17,Status,New,Closed
+W_Case.232,W_User.18,2016-10-12,created,,
+W_Case.232,W_User.18,2016-10-12,Status,,New
+W_Case.232,W_User.18,2016-10-14,Status,New,On Hold
+W_Case.232,W_User.18,2016-11-08,Status,On Hold,Waiting on Customer
+W_Case.232,W_User.18,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.233,W_User.9,2016-07-20,created,,
+W_Case.233,W_User.9,2016-07-20,Status,,New
+W_Case.233,W_User.9,2016-08-14,Status,New,Escalated
+W_Case.233,W_User.9,2016-08-21,Status,Escalated,Waiting on Customer
+W_Case.233,W_User.9,2016-09-09,Status,Waiting on Customer,Working
+W_Case.233,W_User.9,2016-09-24,Status,Working,On Hold
+W_Case.233,W_User.9,2016-09-26,Status,On Hold,Waiting on Customer
+W_Case.233,W_User.9,2016-09-29,Status,Waiting on Customer,Working
+W_Case.233,W_User.9,2016-10-23,Status,Working,On Hold
+W_Case.233,W_User.9,2016-11-02,Status,On Hold,Working
+W_Case.233,W_User.9,2016-11-14,Status,Working,On Hold
+W_Case.233,W_User.9,2016-11-17,Status,On Hold,Closed
+W_Case.234,W_User.1,2016-07-20,created,,
+W_Case.234,W_User.1,2016-07-20,Status,,New
+W_Case.234,W_User.1,2016-11-17,Status,New,Closed
+W_Case.235,W_User.6,2016-08-25,created,,
+W_Case.235,W_User.6,2016-08-25,Status,,New
+W_Case.235,W_User.6,2016-11-17,Status,New,Closed
+W_Case.236,W_User.19,2016-07-20,created,,
+W_Case.236,W_User.19,2016-07-20,Status,,New
+W_Case.236,W_User.19,2016-08-10,Status,New,Escalated
+W_Case.236,W_User.19,2016-08-10,Status,Escalated,Waiting on Customer
+W_Case.236,W_User.19,2016-09-01,Status,Waiting on Customer,On Hold
+W_Case.236,W_User.19,2016-09-02,Status,On Hold,Working
+W_Case.236,W_User.19,2016-09-06,Status,Working,Waiting on Customer
+W_Case.236,W_User.19,2016-09-29,Status,Waiting on Customer,On Hold
+W_Case.236,W_User.19,2016-10-02,Status,On Hold,Waiting on Customer
+W_Case.236,W_User.19,2016-10-13,Status,Waiting on Customer,Working
+W_Case.236,W_User.19,2016-11-11,Status,Working,On Hold
+W_Case.236,W_User.19,2016-11-12,Status,On Hold,Waiting on Customer
+W_Case.236,W_User.19,2016-11-15,Status,Waiting on Customer,On Hold
+W_Case.236,W_User.19,2016-11-17,Status,On Hold,Closed
+W_Case.237,W_User.15,2016-10-12,created,,
+W_Case.237,W_User.15,2016-10-12,Status,,New
+W_Case.237,W_User.15,2016-11-17,Status,New,Closed
+W_Case.238,W_User.13,2016-10-24,created,,
+W_Case.238,W_User.13,2016-10-24,Status,,New
+W_Case.238,W_User.13,2016-10-27,Status,New,Waiting on Customer
+W_Case.238,W_User.13,2016-11-15,Status,Waiting on Customer,Escalated
+W_Case.238,W_User.13,2016-11-17,Status,Escalated,Closed
+W_Case.239,W_User.14,2016-09-18,created,,
+W_Case.239,W_User.14,2016-09-18,Status,,New
+W_Case.239,W_User.14,2016-09-30,Status,New,On Hold
+W_Case.239,W_User.14,2016-10-14,Status,On Hold,Waiting on Customer
+W_Case.239,W_User.14,2016-10-31,Status,Waiting on Customer,On Hold
+W_Case.239,W_User.14,2016-11-04,Status,On Hold,Waiting on Customer
+W_Case.239,W_User.14,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.240,W_User.6,2016-08-25,created,,
+W_Case.240,W_User.6,2016-08-25,Status,,New
+W_Case.240,W_User.6,2016-11-17,Status,New,Closed
+W_Case.241,W_User.20,2016-10-12,created,,
+W_Case.241,W_User.20,2016-10-12,Status,,New
+W_Case.241,W_User.20,2016-11-17,Status,New,Closed
+W_Case.242,W_User.17,2016-08-01,created,,
+W_Case.242,W_User.17,2016-08-01,Status,,New
+W_Case.242,W_User.17,2016-11-17,Status,New,Closed
+W_Case.243,W_User.6,2016-10-24,created,,
+W_Case.243,W_User.6,2016-10-24,Status,,New
+W_Case.243,W_User.6,2016-11-17,Status,New,Closed
+W_Case.244,W_User.14,2016-08-25,created,,
+W_Case.244,W_User.14,2016-08-25,Status,,New
+W_Case.244,W_User.14,2016-09-23,Status,New,On Hold
+W_Case.244,W_User.14,2016-10-10,Status,On Hold,Waiting on Customer
+W_Case.244,W_User.14,2016-10-30,Status,Waiting on Customer,Escalated
+W_Case.244,W_User.14,2016-11-17,Status,Escalated,Closed
+W_Case.245,W_User.15,2016-09-06,created,,
+W_Case.245,W_User.15,2016-09-06,Status,,New
+W_Case.245,W_User.15,2016-09-18,Status,New,Working
+W_Case.245,W_User.15,2016-09-23,Status,Working,Waiting on Customer
+W_Case.245,W_User.15,2016-09-29,Status,Waiting on Customer,On Hold
+W_Case.245,W_User.15,2016-10-04,Status,On Hold,Working
+W_Case.245,W_User.15,2016-10-31,Status,Working,Escalated
+W_Case.245,W_User.15,2016-11-17,Status,Escalated,Closed
+W_Case.246,W_User.9,2016-08-25,created,,
+W_Case.246,W_User.9,2016-08-25,Status,,New
+W_Case.246,W_User.9,2016-09-17,Status,New,Escalated
+W_Case.246,W_User.9,2016-10-12,Status,Escalated,Waiting on Customer
+W_Case.246,W_User.9,2016-10-18,Status,Waiting on Customer,On Hold
+W_Case.246,W_User.9,2016-11-16,Status,On Hold,Waiting on Customer
+W_Case.246,W_User.9,2016-11-17,Status,Waiting on Customer,Working
+W_Case.248,W_User.8,2016-07-20,created,,
+W_Case.248,W_User.8,2016-07-20,Status,,New
+W_Case.248,W_User.8,2016-07-28,Status,New,Working
+W_Case.248,W_User.8,2016-08-09,Status,Working,Waiting on Customer
+W_Case.248,W_User.8,2016-08-27,Status,Waiting on Customer,On Hold
+W_Case.248,W_User.8,2016-09-03,Status,On Hold,Escalated
+W_Case.248,W_User.8,2016-09-13,Status,Escalated,Working
+W_Case.248,W_User.8,2016-10-11,Status,Working,On Hold
+W_Case.248,W_User.8,2016-10-25,Status,On Hold,Working
+W_Case.248,W_User.8,2016-10-28,Status,Working,Waiting on Customer
+W_Case.248,W_User.8,2016-11-05,Status,Waiting on Customer,On Hold
+W_Case.248,W_User.8,2016-11-07,Status,On Hold,Waiting on Customer
+W_Case.248,W_User.8,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.249,W_User.7,2016-09-06,created,,
+W_Case.249,W_User.7,2016-09-06,Status,,New
+W_Case.249,W_User.7,2016-09-19,Status,New,On Hold
+W_Case.249,W_User.7,2016-09-28,Status,On Hold,Escalated
+W_Case.249,W_User.7,2016-10-24,Status,Escalated,On Hold
+W_Case.249,W_User.7,2016-11-04,Status,On Hold,Waiting on Customer
+W_Case.249,W_User.7,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.250,W_User.15,2016-10-24,created,,
+W_Case.250,W_User.15,2016-10-24,Status,,New
+W_Case.250,W_User.15,2016-11-17,Status,New,Closed
+W_Case.251,W_User.11,2016-11-05,created,,
+W_Case.251,W_User.11,2016-11-05,Status,,New
+W_Case.251,W_User.11,2016-11-17,Status,New,Closed
+W_Case.252,W_User.9,2016-09-30,created,,
+W_Case.252,W_User.9,2016-09-30,Status,,New
+W_Case.252,W_User.9,2016-10-24,Status,New,On Hold
+W_Case.252,W_User.9,2016-11-07,Status,On Hold,Working
+W_Case.252,W_User.9,2016-11-17,Status,Working,Closed
+W_Case.253,W_User.15,2016-07-20,created,,
+W_Case.253,W_User.15,2016-07-20,Status,,New
+W_Case.253,W_User.15,2016-08-08,Status,New,Waiting on Customer
+W_Case.253,W_User.15,2016-08-14,Status,Waiting on Customer,On Hold
+W_Case.253,W_User.15,2016-09-07,Status,On Hold,Working
+W_Case.253,W_User.15,2016-09-10,Status,Working,On Hold
+W_Case.253,W_User.15,2016-09-23,Status,On Hold,Escalated
+W_Case.253,W_User.15,2016-09-25,Status,Escalated,Waiting on Customer
+W_Case.253,W_User.15,2016-10-23,Status,Waiting on Customer,Working
+W_Case.253,W_User.15,2016-11-14,Status,Working,On Hold
+W_Case.253,W_User.15,2016-11-17,Status,On Hold,Closed
+W_Case.254,W_User.6,2016-09-18,created,,
+W_Case.254,W_User.6,2016-09-18,Status,,New
+W_Case.254,W_User.6,2016-11-17,Status,New,Closed
+W_Case.255,W_User.1,2016-09-30,created,,
+W_Case.255,W_User.1,2016-09-30,Status,,New
+W_Case.255,W_User.1,2016-11-17,Status,New,Closed
+W_Case.256,W_User.15,2016-08-25,created,,
+W_Case.256,W_User.15,2016-08-25,Status,,New
+W_Case.256,W_User.15,2016-09-24,Status,New,Waiting on Customer
+W_Case.256,W_User.15,2016-10-11,Status,Waiting on Customer,Escalated
+W_Case.256,W_User.15,2016-11-09,Status,Escalated,On Hold
+W_Case.256,W_User.15,2016-11-17,Status,On Hold,Closed
+W_Case.257,W_User.11,2016-08-25,created,,
+W_Case.257,W_User.11,2016-08-25,Status,,New
+W_Case.257,W_User.11,2016-08-28,Status,New,Waiting on Customer
+W_Case.257,W_User.11,2016-09-12,Status,Waiting on Customer,Escalated
+W_Case.257,W_User.11,2016-09-26,Status,Escalated,On Hold
+W_Case.257,W_User.11,2016-10-19,Status,On Hold,Waiting on Customer
+W_Case.257,W_User.11,2016-10-21,Status,Waiting on Customer,Working
+W_Case.257,W_User.11,2016-10-21,Status,Working,Waiting on Customer
+W_Case.257,W_User.11,2016-10-28,Status,Waiting on Customer,On Hold
+W_Case.257,W_User.11,2016-11-09,Status,On Hold,Working
+W_Case.257,W_User.11,2016-11-17,Status,Working,Closed
+W_Case.258,W_User.8,2016-11-05,created,,
+W_Case.258,W_User.8,2016-11-05,Status,,New
+W_Case.258,W_User.8,2016-11-17,Status,New,Closed
+W_Case.259,W_User.15,2016-09-30,created,,
+W_Case.259,W_User.15,2016-09-30,Status,,New
+W_Case.259,W_User.15,2016-10-11,Status,New,Working
+W_Case.259,W_User.15,2016-11-07,Status,Working,Waiting on Customer
+W_Case.259,W_User.15,2016-11-17,Status,Waiting on Customer,Closed
+W_Case.260,W_User.14,2016-07-20,created,,
+W_Case.260,W_User.14,2016-07-20,Status,,New
+W_Case.260,W_User.14,2016-11-17,Status,New,Closed
+W_Case.261,W_User.6,2016-08-13,created,,
+W_Case.261,W_User.6,2016-08-13,Status,,New
+W_Case.261,W_User.6,2016-11-17,Status,New,Closed
+W_Case.262,W_User.8,2016-09-30,created,,
+W_Case.262,W_User.8,2016-09-30,Status,,New
+W_Case.262,W_User.8,2016-11-17,Status,New,Closed
+W_Case.263,W_User.7,2016-09-06,created,,
+W_Case.263,W_User.7,2016-09-06,Status,,New
+W_Case.263,W_User.7,2016-09-22,Status,New,Waiting on Customer
+W_Case.263,W_User.7,2016-10-13,Status,Waiting on Customer,Working
+W_Case.263,W_User.7,2016-11-01,Status,Working,On Hold
+W_Case.263,W_User.7,2016-11-08,Status,On Hold,Escalated
+W_Case.263,W_User.7,2016-11-17,Status,Escalated,Closed
+W_Case.264,W_User.3,2016-10-12,created,,
+W_Case.264,W_User.3,2016-10-12,Status,,New
+W_Case.264,W_User.3,2016-11-17,Status,New,Closed
+W_Case.265,W_User.6,2016-09-29,created,,
+W_Case.265,W_User.6,2016-09-29,Status,,New
+W_Case.265,W_User.6,2016-10-05,Status,New,Escalated
+W_Case.265,W_User.6,2016-10-11,Status,Escalated,Working
+W_Case.265,W_User.6,2016-10-30,Status,Working,Waiting on Customer
+W_Case.265,W_User.6,2016-11-08,Status,Waiting on Customer,Working
+W_Case.265,W_User.6,2016-11-16,Status,Working,Closed
+W_Case.266,W_User.3,2016-10-23,created,,
+W_Case.266,W_User.3,2016-10-23,Status,,New
+W_Case.266,W_User.3,2016-10-28,Status,New,On Hold
+W_Case.266,W_User.3,2016-11-06,Status,On Hold,Working
+W_Case.266,W_User.3,2016-11-11,Status,Working,Waiting on Customer
+W_Case.266,W_User.3,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.267,W_User.8,2016-07-31,created,,
+W_Case.267,W_User.8,2016-07-31,Status,,New
+W_Case.267,W_User.8,2016-08-07,Status,New,On Hold
+W_Case.267,W_User.8,2016-09-04,Status,On Hold,Working
+W_Case.267,W_User.8,2016-09-28,Status,Working,On Hold
+W_Case.267,W_User.8,2016-10-20,Status,On Hold,Escalated
+W_Case.267,W_User.8,2016-11-01,Status,Escalated,Working
+W_Case.267,W_User.8,2016-11-16,Status,Working,Waiting on Customer
+W_Case.268,W_User.13,2016-10-11,created,,
+W_Case.268,W_User.13,2016-10-11,Status,,New
+W_Case.268,W_User.13,2016-10-30,Status,New,Waiting on Customer
+W_Case.268,W_User.13,2016-10-30,Status,Waiting on Customer,Escalated
+W_Case.268,W_User.13,2016-11-08,Status,Escalated,On Hold
+W_Case.268,W_User.13,2016-11-16,Status,On Hold,Closed
+W_Case.269,W_User.11,2016-08-24,created,,
+W_Case.269,W_User.11,2016-08-24,Status,,New
+W_Case.269,W_User.11,2016-11-16,Status,New,Closed
+W_Case.270,W_User.10,2016-11-04,created,,
+W_Case.270,W_User.10,2016-11-04,Status,,New
+W_Case.270,W_User.10,2016-11-16,Status,New,Closed
+W_Case.271,W_User.6,2016-09-17,created,,
+W_Case.271,W_User.6,2016-09-17,Status,,New
+W_Case.271,W_User.6,2016-11-16,Status,New,Closed
+W_Case.272,W_User.12,2016-10-23,created,,
+W_Case.272,W_User.12,2016-10-23,Status,,New
+W_Case.272,W_User.12,2016-11-16,Status,New,Closed
+W_Case.273,W_User.9,2016-07-31,created,,
+W_Case.273,W_User.9,2016-07-31,Status,,New
+W_Case.273,W_User.9,2016-11-16,Status,New,Closed
+W_Case.274,W_User.13,2016-09-05,created,,
+W_Case.274,W_User.13,2016-09-05,Status,,New
+W_Case.274,W_User.13,2016-10-01,Status,New,On Hold
+W_Case.274,W_User.13,2016-10-01,Status,On Hold,Waiting on Customer
+W_Case.274,W_User.13,2016-10-22,Status,Waiting on Customer,Escalated
+W_Case.274,W_User.13,2016-11-04,Status,Escalated,Working
+W_Case.274,W_User.13,2016-11-16,Status,Working,Closed
+W_Case.275,W_User.9,2016-08-24,created,,
+W_Case.275,W_User.9,2016-08-24,Status,,New
+W_Case.275,W_User.9,2016-11-16,Status,New,Closed
+W_Case.276,W_User.9,2016-10-23,created,,
+W_Case.276,W_User.9,2016-10-23,Status,,New
+W_Case.276,W_User.9,2016-11-16,Status,New,Closed
+W_Case.277,W_User.17,2016-07-19,created,,
+W_Case.277,W_User.17,2016-07-19,Status,,New
+W_Case.277,W_User.17,2016-08-01,Status,New,Waiting on Customer
+W_Case.277,W_User.17,2016-08-06,Status,Waiting on Customer,Working
+W_Case.277,W_User.17,2016-09-03,Status,Working,Waiting on Customer
+W_Case.277,W_User.17,2016-09-24,Status,Waiting on Customer,Working
+W_Case.277,W_User.17,2016-10-13,Status,Working,Escalated
+W_Case.277,W_User.17,2016-10-30,Status,Escalated,On Hold
+W_Case.277,W_User.17,2016-11-16,Status,On Hold,Closed
+W_Case.278,W_User.14,2016-07-19,created,,
+W_Case.278,W_User.14,2016-07-19,Status,,New
+W_Case.278,W_User.14,2016-11-16,Status,New,Closed
+W_Case.279,W_User.5,2016-09-05,created,,
+W_Case.279,W_User.5,2016-09-05,Status,,New
+W_Case.279,W_User.5,2016-11-16,Status,New,Closed
+W_Case.280,W_User.6,2016-10-11,created,,
+W_Case.280,W_User.6,2016-10-11,Status,,New
+W_Case.280,W_User.6,2016-10-20,Status,New,Working
+W_Case.280,W_User.6,2016-10-24,Status,Working,Waiting on Customer
+W_Case.280,W_User.6,2016-11-16,Status,Waiting on Customer,On Hold
+W_Case.281,W_User.11,2016-08-24,created,,
+W_Case.281,W_User.11,2016-08-24,Status,,New
+W_Case.281,W_User.11,2016-11-16,Status,New,Closed
+W_Case.282,W_User.6,2016-07-19,created,,
+W_Case.282,W_User.6,2016-07-19,Status,,New
+W_Case.282,W_User.6,2016-11-16,Status,New,Closed
+W_Case.283,W_User.11,2016-10-23,created,,
+W_Case.283,W_User.11,2016-10-23,Status,,New
+W_Case.283,W_User.11,2016-10-24,Status,New,Waiting on Customer
+W_Case.283,W_User.11,2016-10-29,Status,Waiting on Customer,Working
+W_Case.283,W_User.11,2016-11-14,Status,Working,Waiting on Customer
+W_Case.283,W_User.11,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.284,W_User.15,2016-11-04,created,,
+W_Case.284,W_User.15,2016-11-04,Status,,New
+W_Case.284,W_User.15,2016-11-16,Status,New,Closed
+W_Case.285,W_User.13,2016-08-24,created,,
+W_Case.285,W_User.13,2016-08-24,Status,,New
+W_Case.285,W_User.13,2016-09-03,Status,New,Escalated
+W_Case.285,W_User.13,2016-09-10,Status,Escalated,Working
+W_Case.285,W_User.13,2016-09-13,Status,Working,On Hold
+W_Case.285,W_User.13,2016-10-13,Status,On Hold,Waiting on Customer
+W_Case.285,W_User.13,2016-11-08,Status,Waiting on Customer,On Hold
+W_Case.285,W_User.13,2016-11-16,Status,On Hold,Closed
+W_Case.286,W_User.16,2016-07-19,created,,
+W_Case.286,W_User.16,2016-07-19,Status,,New
+W_Case.286,W_User.16,2016-11-16,Status,New,Closed
+W_Case.287,W_User.13,2016-10-23,created,,
+W_Case.287,W_User.13,2016-10-23,Status,,New
+W_Case.287,W_User.13,2016-11-05,Status,New,On Hold
+W_Case.287,W_User.13,2016-11-16,Status,On Hold,Closed
+W_Case.289,W_User.14,2016-07-31,created,,
+W_Case.289,W_User.14,2016-07-31,Status,,New
+W_Case.289,W_User.14,2016-08-11,Status,New,Working
+W_Case.289,W_User.14,2016-08-24,Status,Working,On Hold
+W_Case.289,W_User.14,2016-09-04,Status,On Hold,Escalated
+W_Case.289,W_User.14,2016-09-29,Status,Escalated,Working
+W_Case.289,W_User.14,2016-10-10,Status,Working,On Hold
+W_Case.289,W_User.14,2016-10-17,Status,On Hold,Waiting on Customer
+W_Case.289,W_User.14,2016-11-03,Status,Waiting on Customer,Working
+W_Case.289,W_User.14,2016-11-16,Status,Working,Closed
+W_Case.290,W_User.6,2016-11-04,created,,
+W_Case.290,W_User.6,2016-11-04,Status,,New
+W_Case.290,W_User.6,2016-11-16,Status,New,Closed
+W_Case.291,W_User.7,2016-08-24,created,,
+W_Case.291,W_User.7,2016-08-24,Status,,New
+W_Case.291,W_User.7,2016-11-16,Status,New,Closed
+W_Case.292,W_User.14,2016-09-29,created,,
+W_Case.292,W_User.14,2016-09-29,Status,,New
+W_Case.292,W_User.14,2016-11-16,Status,New,Closed
+W_Case.293,W_User.1,2016-10-11,created,,
+W_Case.293,W_User.1,2016-10-11,Status,,New
+W_Case.293,W_User.1,2016-11-16,Status,New,Closed
+W_Case.294,W_User.15,2016-09-17,created,,
+W_Case.294,W_User.15,2016-09-17,Status,,New
+W_Case.294,W_User.15,2016-10-11,Status,New,Waiting on Customer
+W_Case.294,W_User.15,2016-11-06,Status,Waiting on Customer,On Hold
+W_Case.294,W_User.15,2016-11-11,Status,On Hold,Escalated
+W_Case.294,W_User.15,2016-11-16,Status,Escalated,Closed
+W_Case.295,W_User.15,2016-09-17,created,,
+W_Case.295,W_User.15,2016-09-17,Status,,New
+W_Case.295,W_User.15,2016-09-22,Status,New,Escalated
+W_Case.295,W_User.15,2016-10-04,Status,Escalated,Waiting on Customer
+W_Case.295,W_User.15,2016-10-15,Status,Waiting on Customer,Working
+W_Case.295,W_User.15,2016-10-22,Status,Working,Waiting on Customer
+W_Case.295,W_User.15,2016-11-03,Status,Waiting on Customer,On Hold
+W_Case.295,W_User.15,2016-11-11,Status,On Hold,Working
+W_Case.295,W_User.15,2016-11-16,Status,Working,Closed
+W_Case.296,W_User.11,2016-09-29,created,,
+W_Case.296,W_User.11,2016-09-29,Status,,New
+W_Case.296,W_User.11,2016-11-16,Status,New,Closed
+W_Case.297,W_User.9,2016-08-12,created,,
+W_Case.297,W_User.9,2016-08-12,Status,,New
+W_Case.297,W_User.9,2016-11-16,Status,New,Closed
+W_Case.298,W_User.1,2016-10-11,created,,
+W_Case.298,W_User.1,2016-10-11,Status,,New
+W_Case.298,W_User.1,2016-11-16,Status,New,Closed
+W_Case.299,W_User.11,2016-10-11,created,,
+W_Case.299,W_User.11,2016-10-11,Status,,New
+W_Case.299,W_User.11,2016-11-09,Status,New,On Hold
+W_Case.299,W_User.11,2016-11-16,Status,On Hold,Closed
+W_Case.300,W_User.9,2016-07-31,created,,
+W_Case.300,W_User.9,2016-07-31,Status,,New
+W_Case.300,W_User.9,2016-08-18,Status,New,Working
+W_Case.300,W_User.9,2016-09-16,Status,Working,On Hold
+W_Case.300,W_User.9,2016-10-12,Status,On Hold,Working
+W_Case.300,W_User.9,2016-10-13,Status,Working,Escalated
+W_Case.300,W_User.9,2016-10-30,Status,Escalated,On Hold
+W_Case.300,W_User.9,2016-11-07,Status,On Hold,Working
+W_Case.300,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.301,W_User.6,2016-10-11,created,,
+W_Case.301,W_User.6,2016-10-11,Status,,New
+W_Case.301,W_User.6,2016-11-09,Status,New,Waiting on Customer
+W_Case.301,W_User.6,2016-11-15,Status,Waiting on Customer,Working
+W_Case.301,W_User.6,2016-11-16,Status,Working,Closed
+W_Case.302,W_User.9,2016-07-31,created,,
+W_Case.302,W_User.9,2016-07-31,Status,,New
+W_Case.302,W_User.9,2016-08-21,Status,New,On Hold
+W_Case.302,W_User.9,2016-08-21,Status,On Hold,Escalated
+W_Case.302,W_User.9,2016-08-24,Status,Escalated,On Hold
+W_Case.302,W_User.9,2016-08-28,Status,On Hold,Working
+W_Case.302,W_User.9,2016-09-12,Status,Working,On Hold
+W_Case.302,W_User.9,2016-09-29,Status,On Hold,Working
+W_Case.302,W_User.9,2016-10-11,Status,Working,On Hold
+W_Case.302,W_User.9,2016-10-12,Status,On Hold,Waiting on Customer
+W_Case.302,W_User.9,2016-11-10,Status,Waiting on Customer,Working
+W_Case.302,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.303,W_User.7,2016-10-23,created,,
+W_Case.303,W_User.7,2016-10-23,Status,,New
+W_Case.303,W_User.7,2016-11-16,Status,New,Closed
+W_Case.304,W_User.15,2016-09-05,created,,
+W_Case.304,W_User.15,2016-09-05,Status,,New
+W_Case.304,W_User.15,2016-11-16,Status,New,Closed
+W_Case.305,W_User.7,2016-09-29,created,,
+W_Case.305,W_User.7,2016-09-29,Status,,New
+W_Case.305,W_User.7,2016-11-16,Status,New,Closed
+W_Case.306,W_User.9,2016-07-19,created,,
+W_Case.306,W_User.9,2016-07-19,Status,,New
+W_Case.306,W_User.9,2016-11-16,Status,New,Closed
+W_Case.307,W_User.6,2016-09-29,created,,
+W_Case.307,W_User.6,2016-09-29,Status,,New
+W_Case.307,W_User.6,2016-10-08,Status,New,On Hold
+W_Case.307,W_User.6,2016-10-14,Status,On Hold,Escalated
+W_Case.307,W_User.6,2016-10-18,Status,Escalated,Working
+W_Case.307,W_User.6,2016-11-13,Status,Working,On Hold
+W_Case.307,W_User.6,2016-11-16,Status,On Hold,Closed
+W_Case.308,W_User.9,2016-09-17,created,,
+W_Case.308,W_User.9,2016-09-17,Status,,New
+W_Case.308,W_User.9,2016-11-16,Status,New,Closed
+W_Case.309,W_User.9,2016-07-31,created,,
+W_Case.309,W_User.9,2016-07-31,Status,,New
+W_Case.309,W_User.9,2016-11-16,Status,New,Closed
+W_Case.310,W_User.7,2016-09-29,created,,
+W_Case.310,W_User.7,2016-09-29,Status,,New
+W_Case.310,W_User.7,2016-11-16,Status,New,Closed
+W_Case.311,W_User.8,2016-09-05,created,,
+W_Case.311,W_User.8,2016-09-05,Status,,New
+W_Case.311,W_User.8,2016-09-21,Status,New,On Hold
+W_Case.311,W_User.8,2016-10-13,Status,On Hold,Working
+W_Case.311,W_User.8,2016-10-16,Status,Working,Waiting on Customer
+W_Case.311,W_User.8,2016-11-01,Status,Waiting on Customer,Escalated
+W_Case.311,W_User.8,2016-11-16,Status,Escalated,Closed
+W_Case.312,W_User.2,2016-07-31,created,,
+W_Case.312,W_User.2,2016-07-31,Status,,New
+W_Case.312,W_User.2,2016-08-26,Status,New,On Hold
+W_Case.312,W_User.2,2016-09-01,Status,On Hold,Waiting on Customer
+W_Case.312,W_User.2,2016-09-21,Status,Waiting on Customer,Working
+W_Case.312,W_User.2,2016-10-18,Status,Working,On Hold
+W_Case.312,W_User.2,2016-10-29,Status,On Hold,Waiting on Customer
+W_Case.312,W_User.2,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.313,W_User.16,2016-11-04,created,,
+W_Case.313,W_User.16,2016-11-04,Status,,New
+W_Case.313,W_User.16,2016-11-06,Status,New,On Hold
+W_Case.313,W_User.16,2016-11-12,Status,On Hold,Working
+W_Case.313,W_User.16,2016-11-14,Status,Working,Escalated
+W_Case.313,W_User.16,2016-11-16,Status,Escalated,Closed
+W_Case.314,W_User.8,2016-07-31,created,,
+W_Case.314,W_User.8,2016-07-31,Status,,New
+W_Case.314,W_User.8,2016-11-16,Status,New,Closed
+W_Case.315,W_User.8,2016-09-29,created,,
+W_Case.315,W_User.8,2016-09-29,Status,,New
+W_Case.315,W_User.8,2016-10-10,Status,New,Working
+W_Case.315,W_User.8,2016-11-02,Status,Working,On Hold
+W_Case.315,W_User.8,2016-11-16,Status,On Hold,Closed
+W_Case.316,W_User.7,2016-10-23,created,,
+W_Case.316,W_User.7,2016-10-23,Status,,New
+W_Case.316,W_User.7,2016-11-16,Status,New,Closed
+W_Case.317,W_User.13,2016-08-12,created,,
+W_Case.317,W_User.13,2016-08-12,Status,,New
+W_Case.317,W_User.13,2016-09-10,Status,New,Escalated
+W_Case.317,W_User.13,2016-10-01,Status,Escalated,Working
+W_Case.317,W_User.13,2016-10-06,Status,Working,On Hold
+W_Case.317,W_User.13,2016-10-21,Status,On Hold,Working
+W_Case.317,W_User.13,2016-11-09,Status,Working,On Hold
+W_Case.317,W_User.13,2016-11-16,Status,On Hold,Closed
+W_Case.318,W_User.4,2016-11-04,created,,
+W_Case.318,W_User.4,2016-11-04,Status,,New
+W_Case.318,W_User.4,2016-11-16,Status,New,Closed
+W_Case.319,W_User.9,2016-10-11,created,,
+W_Case.319,W_User.9,2016-10-11,Status,,New
+W_Case.319,W_User.9,2016-11-09,Status,New,Waiting on Customer
+W_Case.319,W_User.9,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.320,W_User.11,2016-09-29,created,,
+W_Case.320,W_User.11,2016-09-29,Status,,New
+W_Case.320,W_User.11,2016-10-06,Status,New,Waiting on Customer
+W_Case.320,W_User.11,2016-10-29,Status,Waiting on Customer,On Hold
+W_Case.320,W_User.11,2016-11-11,Status,On Hold,Escalated
+W_Case.320,W_User.11,2016-11-16,Status,Escalated,Closed
+W_Case.321,W_User.9,2016-08-12,created,,
+W_Case.321,W_User.9,2016-08-12,Status,,New
+W_Case.321,W_User.9,2016-11-16,Status,New,Closed
+W_Case.322,W_User.15,2016-09-05,created,,
+W_Case.322,W_User.15,2016-09-05,Status,,New
+W_Case.322,W_User.15,2016-09-22,Status,New,Escalated
+W_Case.322,W_User.15,2016-09-22,Status,Escalated,Working
+W_Case.322,W_User.15,2016-10-05,Status,Working,Waiting on Customer
+W_Case.322,W_User.15,2016-11-02,Status,Waiting on Customer,On Hold
+W_Case.322,W_User.15,2016-11-02,Status,On Hold,Waiting on Customer
+W_Case.322,W_User.15,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.323,W_User.6,2016-10-23,created,,
+W_Case.323,W_User.6,2016-10-23,Status,,New
+W_Case.323,W_User.6,2016-11-16,Status,New,Closed
+W_Case.324,W_User.9,2016-09-05,created,,
+W_Case.324,W_User.9,2016-09-05,Status,,New
+W_Case.324,W_User.9,2016-11-16,Status,New,Closed
+W_Case.325,W_User.7,2016-09-29,created,,
+W_Case.325,W_User.7,2016-09-29,Status,,New
+W_Case.325,W_User.7,2016-11-16,Status,New,Closed
+W_Case.326,W_User.11,2016-11-04,created,,
+W_Case.326,W_User.11,2016-11-04,Status,,New
+W_Case.326,W_User.11,2016-11-16,Status,New,Closed
+W_Case.327,W_User.8,2016-11-04,created,,
+W_Case.327,W_User.8,2016-11-04,Status,,New
+W_Case.327,W_User.8,2016-11-12,Status,New,On Hold
+W_Case.327,W_User.8,2016-11-16,Status,On Hold,Closed
+W_Case.328,W_User.7,2016-09-17,created,,
+W_Case.328,W_User.7,2016-09-17,Status,,New
+W_Case.328,W_User.7,2016-11-16,Status,New,Closed
+W_Case.329,W_User.12,2016-09-29,created,,
+W_Case.329,W_User.12,2016-09-29,Status,,New
+W_Case.329,W_User.12,2016-10-18,Status,New,On Hold
+W_Case.329,W_User.12,2016-11-11,Status,On Hold,Escalated
+W_Case.329,W_User.12,2016-11-11,Status,Escalated,On Hold
+W_Case.329,W_User.12,2016-11-16,Status,On Hold,Closed
+W_Case.331,W_User.18,2016-09-17,created,,
+W_Case.331,W_User.18,2016-09-17,Status,,New
+W_Case.331,W_User.18,2016-10-13,Status,New,Escalated
+W_Case.331,W_User.18,2016-10-17,Status,Escalated,On Hold
+W_Case.331,W_User.18,2016-11-13,Status,On Hold,Waiting on Customer
+W_Case.331,W_User.18,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.332,W_User.12,2016-09-29,created,,
+W_Case.332,W_User.12,2016-09-29,Status,,New
+W_Case.332,W_User.12,2016-10-06,Status,New,Waiting on Customer
+W_Case.332,W_User.12,2016-10-20,Status,Waiting on Customer,On Hold
+W_Case.332,W_User.12,2016-11-03,Status,On Hold,Working
+W_Case.332,W_User.12,2016-11-09,Status,Working,Escalated
+W_Case.332,W_User.12,2016-11-16,Status,Escalated,Closed
+W_Case.333,W_User.10,2016-07-19,created,,
+W_Case.333,W_User.10,2016-07-19,Status,,New
+W_Case.333,W_User.10,2016-11-16,Status,New,Closed
+W_Case.334,W_User.7,2016-07-19,created,,
+W_Case.334,W_User.7,2016-07-19,Status,,New
+W_Case.334,W_User.7,2016-07-20,Status,New,Escalated
+W_Case.334,W_User.7,2016-07-31,Status,Escalated,Working
+W_Case.334,W_User.7,2016-08-17,Status,Working,Waiting on Customer
+W_Case.334,W_User.7,2016-09-14,Status,Waiting on Customer,Working
+W_Case.334,W_User.7,2016-10-08,Status,Working,On Hold
+W_Case.334,W_User.7,2016-10-25,Status,On Hold,Waiting on Customer
+W_Case.334,W_User.7,2016-11-15,Status,Waiting on Customer,Working
+W_Case.334,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.335,W_User.18,2016-09-29,created,,
+W_Case.335,W_User.18,2016-09-29,Status,,New
+W_Case.335,W_User.18,2016-11-16,Status,New,Closed
+W_Case.336,W_User.1,2016-09-05,created,,
+W_Case.336,W_User.1,2016-09-05,Status,,New
+W_Case.336,W_User.1,2016-11-16,Status,New,Closed
+W_Case.337,W_User.9,2016-10-11,created,,
+W_Case.337,W_User.9,2016-10-11,Status,,New
+W_Case.337,W_User.9,2016-11-16,Status,New,Closed
+W_Case.338,W_User.9,2016-08-24,created,,
+W_Case.338,W_User.9,2016-08-24,Status,,New
+W_Case.338,W_User.9,2016-11-16,Status,New,Closed
+W_Case.339,W_User.6,2016-09-17,created,,
+W_Case.339,W_User.6,2016-09-17,Status,,New
+W_Case.339,W_User.6,2016-11-16,Status,New,Closed
+W_Case.340,W_User.9,2016-09-05,created,,
+W_Case.340,W_User.9,2016-09-05,Status,,New
+W_Case.340,W_User.9,2016-11-16,Status,New,Closed
+W_Case.341,W_User.9,2016-08-24,created,,
+W_Case.341,W_User.9,2016-08-24,Status,,New
+W_Case.341,W_User.9,2016-08-26,Status,New,On Hold
+W_Case.341,W_User.9,2016-09-01,Status,On Hold,Waiting on Customer
+W_Case.341,W_User.9,2016-09-16,Status,Waiting on Customer,Escalated
+W_Case.341,W_User.9,2016-10-02,Status,Escalated,Waiting on Customer
+W_Case.341,W_User.9,2016-10-07,Status,Waiting on Customer,On Hold
+W_Case.341,W_User.9,2016-10-24,Status,On Hold,Working
+W_Case.341,W_User.9,2016-10-28,Status,Working,Waiting on Customer
+W_Case.341,W_User.9,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.342,W_User.9,2016-10-23,created,,
+W_Case.342,W_User.9,2016-10-23,Status,,New
+W_Case.342,W_User.9,2016-11-16,Status,New,Closed
+W_Case.343,W_User.15,2016-10-23,created,,
+W_Case.343,W_User.15,2016-10-23,Status,,New
+W_Case.343,W_User.15,2016-11-16,Status,New,Closed
+W_Case.344,W_User.14,2016-07-19,created,,
+W_Case.344,W_User.14,2016-07-19,Status,,New
+W_Case.344,W_User.14,2016-11-16,Status,New,Closed
+W_Case.345,W_User.10,2016-09-29,created,,
+W_Case.345,W_User.10,2016-09-29,Status,,New
+W_Case.345,W_User.10,2016-11-16,Status,New,Closed
+W_Case.346,W_User.7,2016-07-19,created,,
+W_Case.346,W_User.7,2016-07-19,Status,,New
+W_Case.346,W_User.7,2016-08-09,Status,New,Escalated
+W_Case.346,W_User.7,2016-08-21,Status,Escalated,Working
+W_Case.346,W_User.7,2016-09-02,Status,Working,Waiting on Customer
+W_Case.346,W_User.7,2016-10-02,Status,Waiting on Customer,On Hold
+W_Case.346,W_User.7,2016-10-17,Status,On Hold,Waiting on Customer
+W_Case.346,W_User.7,2016-11-13,Status,Waiting on Customer,Working
+W_Case.346,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.347,W_User.11,2016-11-04,created,,
+W_Case.347,W_User.11,2016-11-04,Status,,New
+W_Case.347,W_User.11,2016-11-16,Status,New,Closed
+W_Case.348,W_User.9,2016-09-29,created,,
+W_Case.348,W_User.9,2016-09-29,Status,,New
+W_Case.348,W_User.9,2016-10-10,Status,New,Escalated
+W_Case.348,W_User.9,2016-11-02,Status,Escalated,Working
+W_Case.348,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.349,W_User.16,2016-10-11,created,,
+W_Case.349,W_User.16,2016-10-11,Status,,New
+W_Case.349,W_User.16,2016-11-16,Status,New,Closed
+W_Case.350,W_User.15,2016-10-23,created,,
+W_Case.350,W_User.15,2016-10-23,Status,,New
+W_Case.350,W_User.15,2016-11-16,Status,New,Closed
+W_Case.351,W_User.6,2016-07-31,created,,
+W_Case.351,W_User.6,2016-07-31,Status,,New
+W_Case.351,W_User.6,2016-11-16,Status,New,Closed
+W_Case.352,W_User.7,2016-09-05,created,,
+W_Case.352,W_User.7,2016-09-05,Status,,New
+W_Case.352,W_User.7,2016-10-04,Status,New,Waiting on Customer
+W_Case.352,W_User.7,2016-10-27,Status,Waiting on Customer,Working
+W_Case.352,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.353,W_User.14,2016-08-24,created,,
+W_Case.353,W_User.14,2016-08-24,Status,,New
+W_Case.353,W_User.14,2016-09-11,Status,New,Working
+W_Case.353,W_User.14,2016-10-08,Status,Working,Waiting on Customer
+W_Case.353,W_User.14,2016-10-09,Status,Waiting on Customer,Escalated
+W_Case.353,W_User.14,2016-11-03,Status,Escalated,Waiting on Customer
+W_Case.353,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.354,W_User.11,2016-08-12,created,,
+W_Case.354,W_User.11,2016-08-12,Status,,New
+W_Case.354,W_User.11,2016-08-26,Status,New,Waiting on Customer
+W_Case.354,W_User.11,2016-09-04,Status,Waiting on Customer,Escalated
+W_Case.354,W_User.11,2016-09-28,Status,Escalated,Working
+W_Case.354,W_User.11,2016-10-17,Status,Working,Waiting on Customer
+W_Case.354,W_User.11,2016-11-08,Status,Waiting on Customer,Working
+W_Case.354,W_User.11,2016-11-16,Status,Working,Closed
+W_Case.355,W_User.8,2016-08-24,created,,
+W_Case.355,W_User.8,2016-08-24,Status,,New
+W_Case.355,W_User.8,2016-11-16,Status,New,Closed
+W_Case.356,W_User.14,2016-08-12,created,,
+W_Case.356,W_User.14,2016-08-12,Status,,New
+W_Case.356,W_User.14,2016-09-05,Status,New,Escalated
+W_Case.356,W_User.14,2016-09-09,Status,Escalated,Waiting on Customer
+W_Case.356,W_User.14,2016-10-09,Status,Waiting on Customer,Working
+W_Case.356,W_User.14,2016-10-09,Status,Working,Waiting on Customer
+W_Case.356,W_User.14,2016-10-25,Status,Waiting on Customer,Working
+W_Case.356,W_User.14,2016-10-25,Status,Working,On Hold
+W_Case.356,W_User.14,2016-11-02,Status,On Hold,Waiting on Customer
+W_Case.356,W_User.14,2016-11-06,Status,Waiting on Customer,Working
+W_Case.356,W_User.14,2016-11-16,Status,Working,Closed
+W_Case.357,W_User.10,2016-07-31,created,,
+W_Case.357,W_User.10,2016-07-31,Status,,New
+W_Case.357,W_User.10,2016-11-16,Status,New,Closed
+W_Case.358,W_User.15,2016-07-19,created,,
+W_Case.358,W_User.15,2016-07-19,Status,,New
+W_Case.358,W_User.15,2016-11-16,Status,New,Closed
+W_Case.359,W_User.20,2016-09-29,created,,
+W_Case.359,W_User.20,2016-09-29,Status,,New
+W_Case.359,W_User.20,2016-11-16,Status,New,Closed
+W_Case.360,W_User.1,2016-10-11,created,,
+W_Case.360,W_User.1,2016-10-11,Status,,New
+W_Case.360,W_User.1,2016-11-16,Status,New,Closed
+W_Case.361,W_User.7,2016-07-31,created,,
+W_Case.361,W_User.7,2016-07-31,Status,,New
+W_Case.361,W_User.7,2016-11-16,Status,New,Closed
+W_Case.362,W_User.9,2016-08-24,created,,
+W_Case.362,W_User.9,2016-08-24,Status,,New
+W_Case.362,W_User.9,2016-09-15,Status,New,Escalated
+W_Case.362,W_User.9,2016-09-17,Status,Escalated,On Hold
+W_Case.362,W_User.9,2016-10-07,Status,On Hold,Waiting on Customer
+W_Case.362,W_User.9,2016-10-12,Status,Waiting on Customer,Working
+W_Case.362,W_User.9,2016-10-30,Status,Working,Waiting on Customer
+W_Case.362,W_User.9,2016-10-30,Status,Waiting on Customer,On Hold
+W_Case.362,W_User.9,2016-11-12,Status,On Hold,Working
+W_Case.362,W_User.9,2016-11-15,Status,Working,On Hold
+W_Case.362,W_User.9,2016-11-16,Status,On Hold,Closed
+W_Case.363,W_User.13,2016-09-05,created,,
+W_Case.363,W_User.13,2016-09-05,Status,,New
+W_Case.363,W_User.13,2016-11-16,Status,New,Closed
+W_Case.364,W_User.9,2016-07-19,created,,
+W_Case.364,W_User.9,2016-07-19,Status,,New
+W_Case.364,W_User.9,2016-11-16,Status,New,Closed
+W_Case.365,W_User.6,2016-09-05,created,,
+W_Case.365,W_User.6,2016-09-05,Status,,New
+W_Case.365,W_User.6,2016-11-16,Status,New,Closed
+W_Case.366,W_User.14,2016-09-05,created,,
+W_Case.366,W_User.14,2016-09-05,Status,,New
+W_Case.366,W_User.14,2016-09-11,Status,New,Waiting on Customer
+W_Case.366,W_User.14,2016-10-04,Status,Waiting on Customer,Escalated
+W_Case.366,W_User.14,2016-11-02,Status,Escalated,On Hold
+W_Case.366,W_User.14,2016-11-15,Status,On Hold,Waiting on Customer
+W_Case.366,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.367,W_User.13,2016-07-19,created,,
+W_Case.367,W_User.13,2016-07-19,Status,,New
+W_Case.367,W_User.13,2016-08-13,Status,New,Working
+W_Case.367,W_User.13,2016-08-26,Status,Working,Waiting on Customer
+W_Case.367,W_User.13,2016-09-24,Status,Waiting on Customer,Escalated
+W_Case.367,W_User.13,2016-10-12,Status,Escalated,On Hold
+W_Case.367,W_User.13,2016-10-30,Status,On Hold,Working
+W_Case.367,W_User.13,2016-11-16,Status,Working,Closed
+W_Case.368,W_User.14,2016-09-17,created,,
+W_Case.368,W_User.14,2016-09-17,Status,,New
+W_Case.368,W_User.14,2016-10-10,Status,New,Escalated
+W_Case.368,W_User.14,2016-10-24,Status,Escalated,Waiting on Customer
+W_Case.368,W_User.14,2016-11-10,Status,Waiting on Customer,Working
+W_Case.368,W_User.14,2016-11-16,Status,Working,Closed
+W_Case.369,W_User.9,2016-10-23,created,,
+W_Case.369,W_User.9,2016-10-23,Status,,New
+W_Case.369,W_User.9,2016-11-11,Status,New,Waiting on Customer
+W_Case.369,W_User.9,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.370,W_User.14,2016-10-11,created,,
+W_Case.370,W_User.14,2016-10-11,Status,,New
+W_Case.370,W_User.14,2016-11-16,Status,New,Closed
+W_Case.371,W_User.8,2016-11-04,created,,
+W_Case.371,W_User.8,2016-11-04,Status,,New
+W_Case.371,W_User.8,2016-11-16,Status,New,Closed
+W_Case.373,W_User.7,2016-10-11,created,,
+W_Case.373,W_User.7,2016-10-11,Status,,New
+W_Case.373,W_User.7,2016-11-01,Status,New,Escalated
+W_Case.373,W_User.7,2016-11-05,Status,Escalated,Working
+W_Case.373,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.374,W_User.3,2016-10-11,created,,
+W_Case.374,W_User.3,2016-10-11,Status,,New
+W_Case.374,W_User.3,2016-11-08,Status,New,Working
+W_Case.374,W_User.3,2016-11-08,Status,Working,Escalated
+W_Case.374,W_User.3,2016-11-16,Status,Escalated,Closed
+W_Case.375,W_User.6,2016-07-19,created,,
+W_Case.375,W_User.6,2016-07-19,Status,,New
+W_Case.375,W_User.6,2016-11-16,Status,New,Closed
+W_Case.376,W_User.19,2016-08-12,created,,
+W_Case.376,W_User.19,2016-08-12,Status,,New
+W_Case.376,W_User.19,2016-09-07,Status,New,Waiting on Customer
+W_Case.376,W_User.19,2016-09-18,Status,Waiting on Customer,Escalated
+W_Case.376,W_User.19,2016-09-19,Status,Escalated,Waiting on Customer
+W_Case.376,W_User.19,2016-09-24,Status,Waiting on Customer,On Hold
+W_Case.376,W_User.19,2016-09-29,Status,On Hold,Working
+W_Case.376,W_User.19,2016-10-26,Status,Working,On Hold
+W_Case.376,W_User.19,2016-11-06,Status,On Hold,Working
+W_Case.376,W_User.19,2016-11-16,Status,Working,Closed
+W_Case.377,W_User.14,2016-10-11,created,,
+W_Case.377,W_User.14,2016-10-11,Status,,New
+W_Case.377,W_User.14,2016-10-12,Status,New,Escalated
+W_Case.377,W_User.14,2016-10-26,Status,Escalated,On Hold
+W_Case.377,W_User.14,2016-11-16,Status,On Hold,Closed
+W_Case.378,W_User.1,2016-11-04,created,,
+W_Case.378,W_User.1,2016-11-04,Status,,New
+W_Case.378,W_User.1,2016-11-16,Status,New,Closed
+W_Case.379,W_User.14,2016-11-04,created,,
+W_Case.379,W_User.14,2016-11-04,Status,,New
+W_Case.379,W_User.14,2016-11-16,Status,New,Closed
+W_Case.380,W_User.11,2016-11-04,created,,
+W_Case.380,W_User.11,2016-11-04,Status,,New
+W_Case.380,W_User.11,2016-11-06,Status,New,On Hold
+W_Case.380,W_User.11,2016-11-16,Status,On Hold,Closed
+W_Case.381,W_User.13,2016-09-17,created,,
+W_Case.381,W_User.13,2016-09-17,Status,,New
+W_Case.381,W_User.13,2016-10-15,Status,New,Working
+W_Case.381,W_User.13,2016-10-25,Status,Working,Escalated
+W_Case.381,W_User.13,2016-11-16,Status,Escalated,Closed
+W_Case.382,W_User.5,2016-09-17,created,,
+W_Case.382,W_User.5,2016-09-17,Status,,New
+W_Case.382,W_User.5,2016-10-06,Status,New,Escalated
+W_Case.382,W_User.5,2016-11-05,Status,Escalated,On Hold
+W_Case.382,W_User.5,2016-11-10,Status,On Hold,Working
+W_Case.382,W_User.5,2016-11-14,Status,Working,Waiting on Customer
+W_Case.382,W_User.5,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.383,W_User.1,2016-09-17,created,,
+W_Case.383,W_User.1,2016-09-17,Status,,New
+W_Case.383,W_User.1,2016-10-15,Status,New,On Hold
+W_Case.383,W_User.1,2016-10-26,Status,On Hold,Waiting on Customer
+W_Case.383,W_User.1,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.384,W_User.10,2016-08-12,created,,
+W_Case.384,W_User.10,2016-08-12,Status,,New
+W_Case.384,W_User.10,2016-08-15,Status,New,Working
+W_Case.384,W_User.10,2016-08-22,Status,Working,Waiting on Customer
+W_Case.384,W_User.10,2016-09-08,Status,Waiting on Customer,On Hold
+W_Case.384,W_User.10,2016-09-19,Status,On Hold,Working
+W_Case.384,W_User.10,2016-10-07,Status,Working,Waiting on Customer
+W_Case.384,W_User.10,2016-10-30,Status,Waiting on Customer,Escalated
+W_Case.384,W_User.10,2016-11-16,Status,Escalated,Closed
+W_Case.385,W_User.17,2016-10-11,created,,
+W_Case.385,W_User.17,2016-10-11,Status,,New
+W_Case.385,W_User.17,2016-10-14,Status,New,On Hold
+W_Case.385,W_User.17,2016-10-25,Status,On Hold,Working
+W_Case.385,W_User.17,2016-10-25,Status,Working,Waiting on Customer
+W_Case.385,W_User.17,2016-11-09,Status,Waiting on Customer,Working
+W_Case.385,W_User.17,2016-11-16,Status,Working,Closed
+W_Case.386,W_User.7,2016-09-29,created,,
+W_Case.386,W_User.7,2016-09-29,Status,,New
+W_Case.386,W_User.7,2016-10-06,Status,New,Waiting on Customer
+W_Case.386,W_User.7,2016-10-28,Status,Waiting on Customer,On Hold
+W_Case.386,W_User.7,2016-10-31,Status,On Hold,Working
+W_Case.386,W_User.7,2016-11-08,Status,Working,Waiting on Customer
+W_Case.386,W_User.7,2016-11-09,Status,Waiting on Customer,Escalated
+W_Case.386,W_User.7,2016-11-16,Status,Escalated,Closed
+W_Case.387,W_User.15,2016-08-12,created,,
+W_Case.387,W_User.15,2016-08-12,Status,,New
+W_Case.387,W_User.15,2016-11-16,Status,New,Closed
+W_Case.388,W_User.15,2016-10-11,created,,
+W_Case.388,W_User.15,2016-10-11,Status,,New
+W_Case.388,W_User.15,2016-11-16,Status,New,Closed
+W_Case.389,W_User.15,2016-07-31,created,,
+W_Case.389,W_User.15,2016-07-31,Status,,New
+W_Case.389,W_User.15,2016-11-16,Status,New,Closed
+W_Case.390,W_User.11,2016-08-12,created,,
+W_Case.390,W_User.11,2016-08-12,Status,,New
+W_Case.390,W_User.11,2016-11-16,Status,New,Closed
+W_Case.391,W_User.13,2016-08-24,created,,
+W_Case.391,W_User.13,2016-08-24,Status,,New
+W_Case.391,W_User.13,2016-11-16,Status,New,Closed
+W_Case.392,W_User.8,2016-07-31,created,,
+W_Case.392,W_User.8,2016-07-31,Status,,New
+W_Case.392,W_User.8,2016-08-23,Status,New,Waiting on Customer
+W_Case.392,W_User.8,2016-09-01,Status,Waiting on Customer,On Hold
+W_Case.392,W_User.8,2016-09-06,Status,On Hold,Waiting on Customer
+W_Case.392,W_User.8,2016-09-21,Status,Waiting on Customer,On Hold
+W_Case.392,W_User.8,2016-10-13,Status,On Hold,Working
+W_Case.392,W_User.8,2016-10-13,Status,Working,Waiting on Customer
+W_Case.392,W_User.8,2016-11-10,Status,Waiting on Customer,On Hold
+W_Case.392,W_User.8,2016-11-16,Status,On Hold,Closed
+W_Case.393,W_User.14,2016-08-12,created,,
+W_Case.393,W_User.14,2016-08-12,Status,,New
+W_Case.393,W_User.14,2016-08-28,Status,New,Working
+W_Case.393,W_User.14,2016-09-16,Status,Working,Waiting on Customer
+W_Case.393,W_User.14,2016-09-22,Status,Waiting on Customer,Escalated
+W_Case.393,W_User.14,2016-10-06,Status,Escalated,Working
+W_Case.393,W_User.14,2016-10-30,Status,Working,Waiting on Customer
+W_Case.393,W_User.14,2016-11-09,Status,Waiting on Customer,On Hold
+W_Case.393,W_User.14,2016-11-16,Status,On Hold,Closed
+W_Case.394,W_User.17,2016-08-24,created,,
+W_Case.394,W_User.17,2016-08-24,Status,,New
+W_Case.394,W_User.17,2016-09-13,Status,New,On Hold
+W_Case.394,W_User.17,2016-09-17,Status,On Hold,Working
+W_Case.394,W_User.17,2016-09-30,Status,Working,Escalated
+W_Case.394,W_User.17,2016-10-02,Status,Escalated,On Hold
+W_Case.394,W_User.17,2016-10-22,Status,On Hold,Waiting on Customer
+W_Case.394,W_User.17,2016-10-26,Status,Waiting on Customer,On Hold
+W_Case.394,W_User.17,2016-10-27,Status,On Hold,Waiting on Customer
+W_Case.394,W_User.17,2016-11-04,Status,Waiting on Customer,Working
+W_Case.394,W_User.17,2016-11-16,Status,Working,Closed
+W_Case.395,W_User.16,2016-10-23,created,,
+W_Case.395,W_User.16,2016-10-23,Status,,New
+W_Case.395,W_User.16,2016-11-16,Status,New,Closed
+W_Case.396,W_User.10,2016-11-04,created,,
+W_Case.396,W_User.10,2016-11-04,Status,,New
+W_Case.396,W_User.10,2016-11-16,Status,New,Closed
+W_Case.397,W_User.13,2016-09-29,created,,
+W_Case.397,W_User.13,2016-09-29,Status,,New
+W_Case.397,W_User.13,2016-09-29,Status,New,On Hold
+W_Case.397,W_User.13,2016-10-29,Status,On Hold,Working
+W_Case.397,W_User.13,2016-11-16,Status,Working,Closed
+W_Case.398,W_User.14,2016-11-04,created,,
+W_Case.398,W_User.14,2016-11-04,Status,,New
+W_Case.398,W_User.14,2016-11-09,Status,New,On Hold
+W_Case.398,W_User.14,2016-11-16,Status,On Hold,Closed
+W_Case.399,W_User.8,2016-08-24,created,,
+W_Case.399,W_User.8,2016-08-24,Status,,New
+W_Case.399,W_User.8,2016-11-16,Status,New,Closed
+W_Case.400,W_User.10,2016-09-29,created,,
+W_Case.400,W_User.10,2016-09-29,Status,,New
+W_Case.400,W_User.10,2016-11-16,Status,New,Closed
+W_Case.401,W_User.9,2016-08-12,created,,
+W_Case.401,W_User.9,2016-08-12,Status,,New
+W_Case.401,W_User.9,2016-11-16,Status,New,Closed
+W_Case.402,W_User.14,2016-09-17,created,,
+W_Case.402,W_User.14,2016-09-17,Status,,New
+W_Case.402,W_User.14,2016-11-16,Status,New,Closed
+W_Case.403,W_User.15,2016-10-11,created,,
+W_Case.403,W_User.15,2016-10-11,Status,,New
+W_Case.403,W_User.15,2016-10-24,Status,New,On Hold
+W_Case.403,W_User.15,2016-11-16,Status,On Hold,Closed
+W_Case.404,W_User.13,2016-09-17,created,,
+W_Case.404,W_User.13,2016-09-17,Status,,New
+W_Case.404,W_User.13,2016-10-05,Status,New,Working
+W_Case.404,W_User.13,2016-10-11,Status,Working,On Hold
+W_Case.404,W_User.13,2016-10-12,Status,On Hold,Waiting on Customer
+W_Case.404,W_User.13,2016-10-17,Status,Waiting on Customer,Escalated
+W_Case.404,W_User.13,2016-10-28,Status,Escalated,Waiting on Customer
+W_Case.404,W_User.13,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.405,W_User.9,2016-11-04,created,,
+W_Case.405,W_User.9,2016-11-04,Status,,New
+W_Case.405,W_User.9,2016-11-09,Status,New,Working
+W_Case.405,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.406,W_User.13,2016-11-04,created,,
+W_Case.406,W_User.13,2016-11-04,Status,,New
+W_Case.406,W_User.13,2016-11-16,Status,New,Closed
+W_Case.407,W_User.8,2016-09-29,created,,
+W_Case.407,W_User.8,2016-09-29,Status,,New
+W_Case.407,W_User.8,2016-11-16,Status,New,Closed
+W_Case.408,W_User.9,2016-09-29,created,,
+W_Case.408,W_User.9,2016-09-29,Status,,New
+W_Case.408,W_User.9,2016-10-27,Status,New,Working
+W_Case.408,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.409,W_User.8,2016-11-04,created,,
+W_Case.409,W_User.8,2016-11-04,Status,,New
+W_Case.409,W_User.8,2016-11-16,Status,New,Closed
+W_Case.410,W_User.7,2016-08-12,created,,
+W_Case.410,W_User.7,2016-08-12,Status,,New
+W_Case.410,W_User.7,2016-08-16,Status,New,Working
+W_Case.410,W_User.7,2016-09-09,Status,Working,Escalated
+W_Case.410,W_User.7,2016-09-15,Status,Escalated,Waiting on Customer
+W_Case.410,W_User.7,2016-10-02,Status,Waiting on Customer,Working
+W_Case.410,W_User.7,2016-10-23,Status,Working,On Hold
+W_Case.410,W_User.7,2016-11-16,Status,On Hold,Closed
+W_Case.411,W_User.13,2016-09-05,created,,
+W_Case.411,W_User.13,2016-09-05,Status,,New
+W_Case.411,W_User.13,2016-09-19,Status,New,Working
+W_Case.411,W_User.13,2016-10-14,Status,Working,On Hold
+W_Case.411,W_User.13,2016-10-23,Status,On Hold,Working
+W_Case.411,W_User.13,2016-11-03,Status,Working,Waiting on Customer
+W_Case.411,W_User.13,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.413,W_User.12,2016-09-17,created,,
+W_Case.413,W_User.12,2016-09-17,Status,,New
+W_Case.413,W_User.12,2016-11-16,Status,New,Closed
+W_Case.414,W_User.2,2016-07-31,created,,
+W_Case.414,W_User.2,2016-07-31,Status,,New
+W_Case.414,W_User.2,2016-11-16,Status,New,Closed
+W_Case.415,W_User.12,2016-08-12,created,,
+W_Case.415,W_User.12,2016-08-12,Status,,New
+W_Case.415,W_User.12,2016-11-16,Status,New,Closed
+W_Case.416,W_User.18,2016-08-24,created,,
+W_Case.416,W_User.18,2016-08-24,Status,,New
+W_Case.416,W_User.18,2016-11-16,Status,New,Closed
+W_Case.417,W_User.8,2016-08-12,created,,
+W_Case.417,W_User.8,2016-08-12,Status,,New
+W_Case.417,W_User.8,2016-11-16,Status,New,Closed
+W_Case.418,W_User.14,2016-09-17,created,,
+W_Case.418,W_User.14,2016-09-17,Status,,New
+W_Case.418,W_User.14,2016-10-11,Status,New,Waiting on Customer
+W_Case.418,W_User.14,2016-10-13,Status,Waiting on Customer,Working
+W_Case.418,W_User.14,2016-10-26,Status,Working,On Hold
+W_Case.418,W_User.14,2016-11-06,Status,On Hold,Waiting on Customer
+W_Case.418,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.419,W_User.9,2016-07-31,created,,
+W_Case.419,W_User.9,2016-07-31,Status,,New
+W_Case.419,W_User.9,2016-08-06,Status,New,On Hold
+W_Case.419,W_User.9,2016-08-24,Status,On Hold,Working
+W_Case.419,W_User.9,2016-08-31,Status,Working,Waiting on Customer
+W_Case.419,W_User.9,2016-09-05,Status,Waiting on Customer,On Hold
+W_Case.419,W_User.9,2016-09-23,Status,On Hold,Working
+W_Case.419,W_User.9,2016-10-12,Status,Working,Escalated
+W_Case.419,W_User.9,2016-11-09,Status,Escalated,Working
+W_Case.419,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.420,W_User.7,2016-10-11,created,,
+W_Case.420,W_User.7,2016-10-11,Status,,New
+W_Case.420,W_User.7,2016-11-16,Status,New,Closed
+W_Case.421,W_User.14,2016-08-12,created,,
+W_Case.421,W_User.14,2016-08-12,Status,,New
+W_Case.421,W_User.14,2016-11-16,Status,New,Closed
+W_Case.422,W_User.6,2016-07-31,created,,
+W_Case.422,W_User.6,2016-07-31,Status,,New
+W_Case.422,W_User.6,2016-08-17,Status,New,Working
+W_Case.422,W_User.6,2016-08-19,Status,Working,Escalated
+W_Case.422,W_User.6,2016-09-18,Status,Escalated,Waiting on Customer
+W_Case.422,W_User.6,2016-09-23,Status,Waiting on Customer,Working
+W_Case.422,W_User.6,2016-10-06,Status,Working,On Hold
+W_Case.422,W_User.6,2016-11-05,Status,On Hold,Working
+W_Case.422,W_User.6,2016-11-16,Status,Working,Closed
+W_Case.423,W_User.3,2016-11-04,created,,
+W_Case.423,W_User.3,2016-11-04,Status,,New
+W_Case.423,W_User.3,2016-11-16,Status,New,Closed
+W_Case.424,W_User.11,2016-07-31,created,,
+W_Case.424,W_User.11,2016-07-31,Status,,New
+W_Case.424,W_User.11,2016-11-16,Status,New,Closed
+W_Case.425,W_User.17,2016-07-19,created,,
+W_Case.425,W_User.17,2016-07-19,Status,,New
+W_Case.425,W_User.17,2016-08-11,Status,New,Working
+W_Case.425,W_User.17,2016-09-09,Status,Working,On Hold
+W_Case.425,W_User.17,2016-09-29,Status,On Hold,Waiting on Customer
+W_Case.425,W_User.17,2016-10-15,Status,Waiting on Customer,Escalated
+W_Case.425,W_User.17,2016-10-15,Status,Escalated,Working
+W_Case.425,W_User.17,2016-11-03,Status,Working,Waiting on Customer
+W_Case.425,W_User.17,2016-11-12,Status,Waiting on Customer,Working
+W_Case.425,W_User.17,2016-11-16,Status,Working,Closed
+W_Case.426,W_User.8,2016-08-24,created,,
+W_Case.426,W_User.8,2016-08-24,Status,,New
+W_Case.426,W_User.8,2016-09-16,Status,New,Escalated
+W_Case.426,W_User.8,2016-10-14,Status,Escalated,On Hold
+W_Case.426,W_User.8,2016-11-06,Status,On Hold,Working
+W_Case.426,W_User.8,2016-11-10,Status,Working,On Hold
+W_Case.426,W_User.8,2016-11-16,Status,On Hold,Closed
+W_Case.427,W_User.10,2016-09-29,created,,
+W_Case.427,W_User.10,2016-09-29,Status,,New
+W_Case.427,W_User.10,2016-11-16,Status,New,Closed
+W_Case.428,W_User.14,2016-09-05,created,,
+W_Case.428,W_User.14,2016-09-05,Status,,New
+W_Case.428,W_User.14,2016-11-16,Status,New,Closed
+W_Case.429,W_User.10,2016-10-11,created,,
+W_Case.429,W_User.10,2016-10-11,Status,,New
+W_Case.429,W_User.10,2016-11-16,Status,New,Closed
+W_Case.430,W_User.16,2016-09-17,created,,
+W_Case.430,W_User.16,2016-09-17,Status,,New
+W_Case.430,W_User.16,2016-11-16,Status,New,Closed
+W_Case.431,W_User.13,2016-09-05,created,,
+W_Case.431,W_User.13,2016-09-05,Status,,New
+W_Case.431,W_User.13,2016-09-30,Status,New,Working
+W_Case.431,W_User.13,2016-10-12,Status,Working,Waiting on Customer
+W_Case.431,W_User.13,2016-10-17,Status,Waiting on Customer,Escalated
+W_Case.431,W_User.13,2016-10-24,Status,Escalated,Waiting on Customer
+W_Case.431,W_User.13,2016-11-12,Status,Waiting on Customer,Working
+W_Case.431,W_User.13,2016-11-16,Status,Working,Closed
+W_Case.432,W_User.10,2016-09-29,created,,
+W_Case.432,W_User.10,2016-09-29,Status,,New
+W_Case.432,W_User.10,2016-10-18,Status,New,Working
+W_Case.432,W_User.10,2016-11-12,Status,Working,On Hold
+W_Case.432,W_User.10,2016-11-16,Status,On Hold,Closed
+W_Case.433,W_User.12,2016-08-12,created,,
+W_Case.433,W_User.12,2016-08-12,Status,,New
+W_Case.433,W_User.12,2016-11-16,Status,New,Closed
+W_Case.434,W_User.13,2016-11-04,created,,
+W_Case.434,W_User.13,2016-11-04,Status,,New
+W_Case.434,W_User.13,2016-11-16,Status,New,Closed
+W_Case.435,W_User.9,2016-07-19,created,,
+W_Case.435,W_User.9,2016-07-19,Status,,New
+W_Case.435,W_User.9,2016-11-16,Status,New,Closed
+W_Case.436,W_User.15,2016-08-12,created,,
+W_Case.436,W_User.15,2016-08-12,Status,,New
+W_Case.436,W_User.15,2016-11-16,Status,New,Closed
+W_Case.437,W_User.14,2016-08-24,created,,
+W_Case.437,W_User.14,2016-08-24,Status,,New
+W_Case.437,W_User.14,2016-09-09,Status,New,Escalated
+W_Case.437,W_User.14,2016-09-25,Status,Escalated,Working
+W_Case.437,W_User.14,2016-10-04,Status,Working,Waiting on Customer
+W_Case.437,W_User.14,2016-11-03,Status,Waiting on Customer,Working
+W_Case.437,W_User.14,2016-11-16,Status,Working,Closed
+W_Case.438,W_User.6,2016-10-23,created,,
+W_Case.438,W_User.6,2016-10-23,Status,,New
+W_Case.438,W_User.6,2016-11-16,Status,New,Closed
+W_Case.439,W_User.19,2016-09-05,created,,
+W_Case.439,W_User.19,2016-09-05,Status,,New
+W_Case.439,W_User.19,2016-11-16,Status,New,Closed
+W_Case.440,W_User.12,2016-08-12,created,,
+W_Case.440,W_User.12,2016-08-12,Status,,New
+W_Case.440,W_User.12,2016-11-16,Status,New,Closed
+W_Case.441,W_User.14,2016-09-29,created,,
+W_Case.441,W_User.14,2016-09-29,Status,,New
+W_Case.441,W_User.14,2016-10-23,Status,New,Waiting on Customer
+W_Case.441,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.442,W_User.10,2016-10-23,created,,
+W_Case.442,W_User.10,2016-10-23,Status,,New
+W_Case.442,W_User.10,2016-11-16,Status,New,Closed
+W_Case.443,W_User.12,2016-09-29,created,,
+W_Case.443,W_User.12,2016-09-29,Status,,New
+W_Case.443,W_User.12,2016-10-02,Status,New,On Hold
+W_Case.443,W_User.12,2016-10-26,Status,On Hold,Working
+W_Case.443,W_User.12,2016-11-13,Status,Working,On Hold
+W_Case.443,W_User.12,2016-11-16,Status,On Hold,Closed
+W_Case.444,W_User.15,2016-09-17,created,,
+W_Case.444,W_User.15,2016-09-17,Status,,New
+W_Case.444,W_User.15,2016-10-05,Status,New,On Hold
+W_Case.444,W_User.15,2016-10-25,Status,On Hold,Escalated
+W_Case.444,W_User.15,2016-11-13,Status,Escalated,On Hold
+W_Case.444,W_User.15,2016-11-16,Status,On Hold,Closed
+W_Case.445,W_User.11,2016-08-12,created,,
+W_Case.445,W_User.11,2016-08-12,Status,,New
+W_Case.445,W_User.11,2016-08-30,Status,New,Escalated
+W_Case.445,W_User.11,2016-09-29,Status,Escalated,Working
+W_Case.445,W_User.11,2016-10-12,Status,Working,On Hold
+W_Case.445,W_User.11,2016-11-10,Status,On Hold,Working
+W_Case.445,W_User.11,2016-11-16,Status,Working,Closed
+W_Case.446,W_User.6,2016-09-05,created,,
+W_Case.446,W_User.6,2016-09-05,Status,,New
+W_Case.446,W_User.6,2016-11-16,Status,New,Closed
+W_Case.447,W_User.15,2016-08-12,created,,
+W_Case.447,W_User.15,2016-08-12,Status,,New
+W_Case.447,W_User.15,2016-08-19,Status,New,Escalated
+W_Case.447,W_User.15,2016-08-27,Status,Escalated,Working
+W_Case.447,W_User.15,2016-09-14,Status,Working,Waiting on Customer
+W_Case.447,W_User.15,2016-10-12,Status,Waiting on Customer,On Hold
+W_Case.447,W_User.15,2016-10-25,Status,On Hold,Waiting on Customer
+W_Case.447,W_User.15,2016-10-25,Status,Waiting on Customer,On Hold
+W_Case.447,W_User.15,2016-11-16,Status,On Hold,Closed
+W_Case.448,W_User.12,2016-08-12,created,,
+W_Case.448,W_User.12,2016-08-12,Status,,New
+W_Case.448,W_User.12,2016-11-16,Status,New,Closed
+W_Case.449,W_User.14,2016-09-05,created,,
+W_Case.449,W_User.14,2016-09-05,Status,,New
+W_Case.449,W_User.14,2016-09-16,Status,New,Waiting on Customer
+W_Case.449,W_User.14,2016-10-07,Status,Waiting on Customer,Escalated
+W_Case.449,W_User.14,2016-10-26,Status,Escalated,On Hold
+W_Case.449,W_User.14,2016-11-16,Status,On Hold,Closed
+W_Case.450,W_User.8,2016-10-23,created,,
+W_Case.450,W_User.8,2016-10-23,Status,,New
+W_Case.450,W_User.8,2016-11-16,Status,New,Closed
+W_Case.451,W_User.12,2016-08-12,created,,
+W_Case.451,W_User.12,2016-08-12,Status,,New
+W_Case.451,W_User.12,2016-11-16,Status,New,Closed
+W_Case.452,W_User.18,2016-11-04,created,,
+W_Case.452,W_User.18,2016-11-04,Status,,New
+W_Case.452,W_User.18,2016-11-06,Status,New,Waiting on Customer
+W_Case.452,W_User.18,2016-11-07,Status,Waiting on Customer,Working
+W_Case.452,W_User.18,2016-11-16,Status,Working,Closed
+W_Case.453,W_User.3,2016-09-29,created,,
+W_Case.453,W_User.3,2016-09-29,Status,,New
+W_Case.453,W_User.3,2016-11-16,Status,New,Closed
+W_Case.454,W_User.7,2016-10-11,created,,
+W_Case.454,W_User.7,2016-10-11,Status,,New
+W_Case.454,W_User.7,2016-10-25,Status,New,Escalated
+W_Case.454,W_User.7,2016-10-27,Status,Escalated,Waiting on Customer
+W_Case.454,W_User.7,2016-11-02,Status,Waiting on Customer,Working
+W_Case.454,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.455,W_User.10,2016-09-29,created,,
+W_Case.455,W_User.10,2016-09-29,Status,,New
+W_Case.455,W_User.10,2016-09-29,Status,New,Working
+W_Case.455,W_User.10,2016-10-28,Status,Working,Escalated
+W_Case.455,W_User.10,2016-10-31,Status,Escalated,Working
+W_Case.455,W_User.10,2016-11-16,Status,Working,Closed
+W_Case.456,W_User.14,2016-10-23,created,,
+W_Case.456,W_User.14,2016-10-23,Status,,New
+W_Case.456,W_User.14,2016-11-16,Status,New,Closed
+W_Case.458,W_User.7,2016-07-31,created,,
+W_Case.458,W_User.7,2016-07-31,Status,,New
+W_Case.458,W_User.7,2016-08-06,Status,New,Escalated
+W_Case.458,W_User.7,2016-09-05,Status,Escalated,On Hold
+W_Case.458,W_User.7,2016-09-17,Status,On Hold,Working
+W_Case.458,W_User.7,2016-10-14,Status,Working,Waiting on Customer
+W_Case.458,W_User.7,2016-11-06,Status,Waiting on Customer,On Hold
+W_Case.458,W_User.7,2016-11-14,Status,On Hold,Working
+W_Case.458,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.459,W_User.1,2016-07-31,created,,
+W_Case.459,W_User.1,2016-07-31,Status,,New
+W_Case.459,W_User.1,2016-11-16,Status,New,Closed
+W_Case.460,W_User.15,2016-11-04,created,,
+W_Case.460,W_User.15,2016-11-04,Status,,New
+W_Case.460,W_User.15,2016-11-16,Status,New,Closed
+W_Case.461,W_User.13,2016-08-12,created,,
+W_Case.461,W_User.13,2016-08-12,Status,,New
+W_Case.461,W_User.13,2016-08-27,Status,New,Escalated
+W_Case.461,W_User.13,2016-09-14,Status,Escalated,On Hold
+W_Case.461,W_User.13,2016-09-20,Status,On Hold,Waiting on Customer
+W_Case.461,W_User.13,2016-10-15,Status,Waiting on Customer,On Hold
+W_Case.461,W_User.13,2016-10-26,Status,On Hold,Waiting on Customer
+W_Case.461,W_User.13,2016-11-11,Status,Waiting on Customer,On Hold
+W_Case.461,W_User.13,2016-11-14,Status,On Hold,Working
+W_Case.461,W_User.13,2016-11-16,Status,Working,Closed
+W_Case.462,W_User.1,2016-09-29,created,,
+W_Case.462,W_User.1,2016-09-29,Status,,New
+W_Case.462,W_User.1,2016-10-15,Status,New,Waiting on Customer
+W_Case.462,W_User.1,2016-11-13,Status,Waiting on Customer,Escalated
+W_Case.462,W_User.1,2016-11-16,Status,Escalated,Closed
+W_Case.463,W_User.6,2016-08-12,created,,
+W_Case.463,W_User.6,2016-08-12,Status,,New
+W_Case.463,W_User.6,2016-11-16,Status,New,Closed
+W_Case.464,W_User.9,2016-08-12,created,,
+W_Case.464,W_User.9,2016-08-12,Status,,New
+W_Case.464,W_User.9,2016-09-06,Status,New,Working
+W_Case.464,W_User.9,2016-09-17,Status,Working,On Hold
+W_Case.464,W_User.9,2016-09-27,Status,On Hold,Waiting on Customer
+W_Case.464,W_User.9,2016-09-27,Status,Waiting on Customer,On Hold
+W_Case.464,W_User.9,2016-10-14,Status,On Hold,Waiting on Customer
+W_Case.464,W_User.9,2016-11-01,Status,Waiting on Customer,On Hold
+W_Case.464,W_User.9,2016-11-03,Status,On Hold,Escalated
+W_Case.464,W_User.9,2016-11-16,Status,Escalated,Closed
+W_Case.465,W_User.14,2016-09-17,created,,
+W_Case.465,W_User.14,2016-09-17,Status,,New
+W_Case.465,W_User.14,2016-09-28,Status,New,On Hold
+W_Case.465,W_User.14,2016-10-01,Status,On Hold,Escalated
+W_Case.465,W_User.14,2016-10-10,Status,Escalated,Working
+W_Case.465,W_User.14,2016-11-01,Status,Working,On Hold
+W_Case.465,W_User.14,2016-11-08,Status,On Hold,Waiting on Customer
+W_Case.465,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.466,W_User.6,2016-07-19,created,,
+W_Case.466,W_User.6,2016-07-19,Status,,New
+W_Case.466,W_User.6,2016-08-14,Status,New,On Hold
+W_Case.466,W_User.6,2016-09-05,Status,On Hold,Escalated
+W_Case.466,W_User.6,2016-10-03,Status,Escalated,Working
+W_Case.466,W_User.6,2016-10-16,Status,Working,On Hold
+W_Case.466,W_User.6,2016-10-18,Status,On Hold,Working
+W_Case.466,W_User.6,2016-10-27,Status,Working,Waiting on Customer
+W_Case.466,W_User.6,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.467,W_User.13,2016-09-29,created,,
+W_Case.467,W_User.13,2016-09-29,Status,,New
+W_Case.467,W_User.13,2016-11-16,Status,New,Closed
+W_Case.468,W_User.8,2016-08-24,created,,
+W_Case.468,W_User.8,2016-08-24,Status,,New
+W_Case.468,W_User.8,2016-11-16,Status,New,Closed
+W_Case.469,W_User.9,2016-10-11,created,,
+W_Case.469,W_User.9,2016-10-11,Status,,New
+W_Case.469,W_User.9,2016-10-12,Status,New,Working
+W_Case.469,W_User.9,2016-10-14,Status,Working,Escalated
+W_Case.469,W_User.9,2016-11-12,Status,Escalated,Working
+W_Case.469,W_User.9,2016-11-16,Status,Working,Closed
+W_Case.470,W_User.12,2016-10-11,created,,
+W_Case.470,W_User.12,2016-10-11,Status,,New
+W_Case.470,W_User.12,2016-11-16,Status,New,Closed
+W_Case.471,W_User.5,2016-10-23,created,,
+W_Case.471,W_User.5,2016-10-23,Status,,New
+W_Case.471,W_User.5,2016-11-16,Status,New,Closed
+W_Case.472,W_User.10,2016-08-12,created,,
+W_Case.472,W_User.10,2016-08-12,Status,,New
+W_Case.472,W_User.10,2016-11-16,Status,New,Closed
+W_Case.473,W_User.12,2016-08-24,created,,
+W_Case.473,W_User.12,2016-08-24,Status,,New
+W_Case.473,W_User.12,2016-11-16,Status,New,Closed
+W_Case.474,W_User.12,2016-10-23,created,,
+W_Case.474,W_User.12,2016-10-23,Status,,New
+W_Case.474,W_User.12,2016-11-16,Status,New,Closed
+W_Case.475,W_User.13,2016-09-29,created,,
+W_Case.475,W_User.13,2016-09-29,Status,,New
+W_Case.475,W_User.13,2016-11-16,Status,New,Closed
+W_Case.476,W_User.6,2016-11-04,created,,
+W_Case.476,W_User.6,2016-11-04,Status,,New
+W_Case.476,W_User.6,2016-11-08,Status,New,Waiting on Customer
+W_Case.476,W_User.6,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.477,W_User.8,2016-08-24,created,,
+W_Case.477,W_User.8,2016-08-24,Status,,New
+W_Case.477,W_User.8,2016-11-16,Status,New,Closed
+W_Case.478,W_User.10,2016-09-05,created,,
+W_Case.478,W_User.10,2016-09-05,Status,,New
+W_Case.478,W_User.10,2016-09-21,Status,New,Escalated
+W_Case.478,W_User.10,2016-10-05,Status,Escalated,Waiting on Customer
+W_Case.478,W_User.10,2016-10-10,Status,Waiting on Customer,On Hold
+W_Case.478,W_User.10,2016-10-23,Status,On Hold,Working
+W_Case.478,W_User.10,2016-11-11,Status,Working,Waiting on Customer
+W_Case.478,W_User.10,2016-11-13,Status,Waiting on Customer,On Hold
+W_Case.478,W_User.10,2016-11-16,Status,On Hold,Closed
+W_Case.479,W_User.11,2016-08-12,created,,
+W_Case.479,W_User.11,2016-08-12,Status,,New
+W_Case.479,W_User.11,2016-09-02,Status,New,Working
+W_Case.479,W_User.11,2016-09-19,Status,Working,Waiting on Customer
+W_Case.479,W_User.11,2016-09-22,Status,Waiting on Customer,Escalated
+W_Case.479,W_User.11,2016-10-01,Status,Escalated,On Hold
+W_Case.479,W_User.11,2016-10-23,Status,On Hold,Waiting on Customer
+W_Case.479,W_User.11,2016-10-24,Status,Waiting on Customer,On Hold
+W_Case.479,W_User.11,2016-10-29,Status,On Hold,Waiting on Customer
+W_Case.479,W_User.11,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.480,W_User.1,2016-09-17,created,,
+W_Case.480,W_User.1,2016-09-17,Status,,New
+W_Case.480,W_User.1,2016-09-25,Status,New,On Hold
+W_Case.480,W_User.1,2016-10-14,Status,On Hold,Escalated
+W_Case.480,W_User.1,2016-10-19,Status,Escalated,Waiting on Customer
+W_Case.480,W_User.1,2016-11-11,Status,Waiting on Customer,On Hold
+W_Case.480,W_User.1,2016-11-16,Status,On Hold,Closed
+W_Case.481,W_User.11,2016-11-04,created,,
+W_Case.481,W_User.11,2016-11-04,Status,,New
+W_Case.481,W_User.11,2016-11-16,Status,New,Closed
+W_Case.482,W_User.12,2016-09-17,created,,
+W_Case.482,W_User.12,2016-09-17,Status,,New
+W_Case.482,W_User.12,2016-09-17,Status,New,On Hold
+W_Case.482,W_User.12,2016-09-29,Status,On Hold,Waiting on Customer
+W_Case.482,W_User.12,2016-10-07,Status,Waiting on Customer,On Hold
+W_Case.482,W_User.12,2016-11-06,Status,On Hold,Escalated
+W_Case.482,W_User.12,2016-11-15,Status,Escalated,Working
+W_Case.482,W_User.12,2016-11-16,Status,Working,Closed
+W_Case.483,W_User.6,2016-11-04,created,,
+W_Case.483,W_User.6,2016-11-04,Status,,New
+W_Case.483,W_User.6,2016-11-16,Status,New,Closed
+W_Case.484,W_User.14,2016-07-19,created,,
+W_Case.484,W_User.14,2016-07-19,Status,,New
+W_Case.484,W_User.14,2016-11-16,Status,New,Closed
+W_Case.485,W_User.15,2016-09-29,created,,
+W_Case.485,W_User.15,2016-09-29,Status,,New
+W_Case.485,W_User.15,2016-11-16,Status,New,Closed
+W_Case.486,W_User.4,2016-10-23,created,,
+W_Case.486,W_User.4,2016-10-23,Status,,New
+W_Case.486,W_User.4,2016-11-16,Status,New,Closed
+W_Case.487,W_User.15,2016-10-11,created,,
+W_Case.487,W_User.15,2016-10-11,Status,,New
+W_Case.487,W_User.15,2016-10-25,Status,New,Escalated
+W_Case.487,W_User.15,2016-11-16,Status,Escalated,Closed
+W_Case.488,W_User.15,2016-08-24,created,,
+W_Case.488,W_User.15,2016-08-24,Status,,New
+W_Case.488,W_User.15,2016-11-16,Status,New,Closed
+W_Case.489,W_User.13,2016-10-11,created,,
+W_Case.489,W_User.13,2016-10-11,Status,,New
+W_Case.489,W_User.13,2016-10-18,Status,New,On Hold
+W_Case.489,W_User.13,2016-11-13,Status,On Hold,Waiting on Customer
+W_Case.489,W_User.13,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.490,W_User.7,2016-10-11,created,,
+W_Case.490,W_User.7,2016-10-11,Status,,New
+W_Case.490,W_User.7,2016-11-04,Status,New,Escalated
+W_Case.490,W_User.7,2016-11-06,Status,Escalated,On Hold
+W_Case.490,W_User.7,2016-11-11,Status,On Hold,Working
+W_Case.490,W_User.7,2016-11-16,Status,Working,Closed
+W_Case.491,W_User.1,2016-07-31,created,,
+W_Case.491,W_User.1,2016-07-31,Status,,New
+W_Case.491,W_User.1,2016-08-04,Status,New,Working
+W_Case.491,W_User.1,2016-08-23,Status,Working,Waiting on Customer
+W_Case.491,W_User.1,2016-08-24,Status,Waiting on Customer,Working
+W_Case.491,W_User.1,2016-08-31,Status,Working,Waiting on Customer
+W_Case.491,W_User.1,2016-09-13,Status,Waiting on Customer,Escalated
+W_Case.491,W_User.1,2016-09-13,Status,Escalated,Working
+W_Case.491,W_User.1,2016-09-29,Status,Working,On Hold
+W_Case.491,W_User.1,2016-09-29,Status,On Hold,Working
+W_Case.491,W_User.1,2016-10-24,Status,Working,On Hold
+W_Case.491,W_User.1,2016-11-16,Status,On Hold,Closed
+W_Case.492,W_User.11,2016-09-05,created,,
+W_Case.492,W_User.11,2016-09-05,Status,,New
+W_Case.492,W_User.11,2016-11-16,Status,New,Closed
+W_Case.493,W_User.20,2016-10-23,created,,
+W_Case.493,W_User.20,2016-10-23,Status,,New
+W_Case.493,W_User.20,2016-11-16,Status,New,Closed
+W_Case.495,W_User.6,2016-11-04,created,,
+W_Case.495,W_User.6,2016-11-04,Status,,New
+W_Case.495,W_User.6,2016-11-16,Status,New,Closed
+W_Case.496,W_User.11,2016-11-04,created,,
+W_Case.496,W_User.11,2016-11-04,Status,,New
+W_Case.496,W_User.11,2016-11-16,Status,New,Closed
+W_Case.497,W_User.19,2016-09-29,created,,
+W_Case.497,W_User.19,2016-09-29,Status,,New
+W_Case.497,W_User.19,2016-10-09,Status,New,Working
+W_Case.497,W_User.19,2016-10-29,Status,Working,On Hold
+W_Case.497,W_User.19,2016-11-13,Status,On Hold,Working
+W_Case.497,W_User.19,2016-11-16,Status,Working,Closed
+W_Case.498,W_User.6,2016-10-11,created,,
+W_Case.498,W_User.6,2016-10-11,Status,,New
+W_Case.498,W_User.6,2016-11-16,Status,New,Closed
+W_Case.499,W_User.11,2016-08-24,created,,
+W_Case.499,W_User.11,2016-08-24,Status,,New
+W_Case.499,W_User.11,2016-11-16,Status,New,Closed
+W_Case.500,W_User.15,2016-09-29,created,,
+W_Case.500,W_User.15,2016-09-29,Status,,New
+W_Case.500,W_User.15,2016-10-13,Status,New,On Hold
+W_Case.500,W_User.15,2016-10-31,Status,On Hold,Working
+W_Case.500,W_User.15,2016-11-16,Status,Working,Closed
+W_Case.500,W_User.10,2016-08-24,created,,
+W_Case.500,W_User.10,2016-08-24,Status,,New
+W_Case.500,W_User.10,2016-11-16,Status,New,Closed
+W_Case.500,W_User.18,2016-11-04,created,,
+W_Case.500,W_User.18,2016-11-04,Status,,New
+W_Case.500,W_User.18,2016-11-16,Status,New,Closed
+W_Case.500,W_User.11,2016-09-05,created,,
+W_Case.500,W_User.11,2016-09-05,Status,,New
+W_Case.500,W_User.11,2016-09-10,Status,New,Escalated
+W_Case.500,W_User.11,2016-09-23,Status,Escalated,Waiting on Customer
+W_Case.500,W_User.11,2016-10-07,Status,Waiting on Customer,Working
+W_Case.500,W_User.11,2016-10-15,Status,Working,On Hold
+W_Case.500,W_User.11,2016-10-31,Status,On Hold,Waiting on Customer
+W_Case.500,W_User.11,2016-11-09,Status,Waiting on Customer,Working
+W_Case.500,W_User.11,2016-11-16,Status,Working,Closed
+W_Case.500,W_User.9,2016-08-12,created,,
+W_Case.500,W_User.9,2016-08-12,Status,,New
+W_Case.500,W_User.9,2016-11-16,Status,New,Closed
+W_Case.500,W_User.11,2016-10-23,created,,
+W_Case.500,W_User.11,2016-10-23,Status,,New
+W_Case.500,W_User.11,2016-10-27,Status,New,Escalated
+W_Case.500,W_User.11,2016-11-10,Status,Escalated,On Hold
+W_Case.500,W_User.11,2016-11-16,Status,On Hold,Closed
+W_Case.500,W_User.14,2016-07-19,created,,
+W_Case.500,W_User.14,2016-07-19,Status,,New
+W_Case.500,W_User.14,2016-08-05,Status,New,Working
+W_Case.500,W_User.14,2016-08-11,Status,Working,Escalated
+W_Case.500,W_User.14,2016-08-15,Status,Escalated,On Hold
+W_Case.500,W_User.14,2016-08-17,Status,On Hold,Waiting on Customer
+W_Case.500,W_User.14,2016-08-18,Status,Waiting on Customer,On Hold
+W_Case.500,W_User.14,2016-09-17,Status,On Hold,Working
+W_Case.500,W_User.14,2016-09-24,Status,Working,On Hold
+W_Case.500,W_User.14,2016-10-08,Status,On Hold,Waiting on Customer
+W_Case.500,W_User.14,2016-10-31,Status,Waiting on Customer,Working
+W_Case.500,W_User.14,2016-11-16,Status,Working,Closed
+W_Case.500,W_User.15,2016-09-05,created,,
+W_Case.500,W_User.15,2016-09-05,Status,,New
+W_Case.500,W_User.15,2016-09-26,Status,New,Escalated
+W_Case.500,W_User.15,2016-10-04,Status,Escalated,Waiting on Customer
+W_Case.500,W_User.15,2016-10-11,Status,Waiting on Customer,Working
+W_Case.500,W_User.15,2016-10-31,Status,Working,On Hold
+W_Case.500,W_User.15,2016-11-07,Status,On Hold,Waiting on Customer
+W_Case.500,W_User.15,2016-11-07,Status,Waiting on Customer,Working
+W_Case.500,W_User.15,2016-11-16,Status,Working,Closed
+W_Case.500,W_User.14,2016-10-23,created,,
+W_Case.500,W_User.14,2016-10-23,Status,,New
+W_Case.500,W_User.14,2016-11-16,Status,New,Closed
+W_Case.500,W_User.9,2016-09-17,created,,
+W_Case.500,W_User.9,2016-09-17,Status,,New
+W_Case.500,W_User.9,2016-11-16,Status,New,Closed
+W_Case.100,W_User.7,2016-07-19,created,,
+W_Case.100,W_User.7,2016-07-19,Status,,New
+W_Case.100,W_User.7,2016-07-26,Status,New,On Hold
+W_Case.100,W_User.7,2016-08-06,Status,On Hold,Waiting on Customer
+W_Case.100,W_User.7,2016-08-14,Status,Waiting on Customer,On Hold
+W_Case.100,W_User.7,2016-08-25,Status,On Hold,Escalated
+W_Case.100,W_User.7,2016-08-28,Status,Escalated,Working
+W_Case.100,W_User.7,2016-09-25,Status,Working,Waiting on Customer
+W_Case.100,W_User.7,2016-09-30,Status,Waiting on Customer,On Hold
+W_Case.100,W_User.7,2016-10-20,Status,On Hold,Waiting on Customer
+W_Case.100,W_User.7,2016-11-06,Status,Waiting on Customer,On Hold
+W_Case.100,W_User.7,2016-11-16,Status,On Hold,Waiting on Customer
+W_Case.100,W_User.13,2016-07-31,created,,
+W_Case.100,W_User.13,2016-07-31,Status,,New
+W_Case.100,W_User.13,2016-08-02,Status,New,Waiting on Customer
+W_Case.100,W_User.13,2016-08-11,Status,Waiting on Customer,Working
+W_Case.100,W_User.13,2016-08-16,Status,Working,On Hold
+W_Case.100,W_User.13,2016-09-05,Status,On Hold,Waiting on Customer
+W_Case.100,W_User.13,2016-09-07,Status,Waiting on Customer,Working
+W_Case.100,W_User.13,2016-09-27,Status,Working,On Hold
+W_Case.100,W_User.13,2016-10-17,Status,On Hold,Escalated
+W_Case.100,W_User.13,2016-11-11,Status,Escalated,On Hold
+W_Case.100,W_User.13,2016-11-16,Status,On Hold,Closed
+W_Case.100,W_User.9,2016-09-05,created,,
+W_Case.100,W_User.9,2016-09-05,Status,,New
+W_Case.100,W_User.9,2016-11-16,Status,New,Closed
+W_Case.100,W_User.6,2016-09-29,created,,
+W_Case.100,W_User.6,2016-09-29,Status,,New
+W_Case.100,W_User.6,2016-10-25,Status,New,Waiting on Customer
+W_Case.100,W_User.6,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.100,W_User.6,2016-08-24,created,,
+W_Case.100,W_User.6,2016-08-24,Status,,New
+W_Case.100,W_User.6,2016-11-16,Status,New,Closed
+W_Case.100,W_User.6,2016-08-24,created,,
+W_Case.100,W_User.6,2016-08-24,Status,,New
+W_Case.100,W_User.6,2016-09-05,Status,New,Waiting on Customer
+W_Case.100,W_User.6,2016-09-18,Status,Waiting on Customer,Working
+W_Case.100,W_User.6,2016-10-07,Status,Working,Waiting on Customer
+W_Case.100,W_User.6,2016-11-03,Status,Waiting on Customer,Working
+W_Case.100,W_User.6,2016-11-16,Status,Working,Closed
+W_Case.100,W_User.3,2016-07-19,created,,
+W_Case.100,W_User.3,2016-07-19,Status,,New
+W_Case.100,W_User.3,2016-08-08,Status,New,Waiting on Customer
+W_Case.100,W_User.3,2016-08-30,Status,Waiting on Customer,Working
+W_Case.100,W_User.3,2016-09-26,Status,Working,Waiting on Customer
+W_Case.100,W_User.3,2016-10-13,Status,Waiting on Customer,Escalated
+W_Case.100,W_User.3,2016-10-16,Status,Escalated,Waiting on Customer
+W_Case.100,W_User.3,2016-11-09,Status,Waiting on Customer,Working
+W_Case.100,W_User.3,2016-11-16,Status,Working,Closed
+W_Case.100,W_User.13,2016-11-04,created,,
+W_Case.100,W_User.13,2016-11-04,Status,,New
+W_Case.100,W_User.13,2016-11-09,Status,New,Escalated
+W_Case.100,W_User.13,2016-11-16,Status,Escalated,Closed
+W_Case.100,W_User.10,2016-07-19,created,,
+W_Case.100,W_User.10,2016-07-19,Status,,New
+W_Case.100,W_User.10,2016-07-27,Status,New,On Hold
+W_Case.100,W_User.10,2016-08-21,Status,On Hold,Escalated
+W_Case.100,W_User.10,2016-09-18,Status,Escalated,Working
+W_Case.100,W_User.10,2016-10-18,Status,Working,On Hold
+W_Case.100,W_User.10,2016-10-29,Status,On Hold,Working
+W_Case.100,W_User.10,2016-10-30,Status,Working,Waiting on Customer
+W_Case.100,W_User.10,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.100,W_User.14,2016-09-29,created,,
+W_Case.100,W_User.14,2016-09-29,Status,,New
+W_Case.100,W_User.14,2016-10-23,Status,New,Escalated
+W_Case.100,W_User.14,2016-10-24,Status,Escalated,Waiting on Customer
+W_Case.100,W_User.14,2016-10-24,Status,Waiting on Customer,Working
+W_Case.100,W_User.14,2016-11-03,Status,Working,Waiting on Customer
+W_Case.100,W_User.14,2016-11-16,Status,Waiting on Customer,Closed
+W_Case.1,W_User.14,2016-09-29,created,,
+W_Case.1,W_User.14,2016-09-29,Status,,New
+W_Case.1,W_User.14,2016-10-12,Status,New,On Hold
+W_Case.1,W_User.14,2016-10-28,Status,On Hold,Escalated
+W_Case.1,W_User.14,2016-11-15,Status,Escalated,On Hold
+W_Case.1,W_User.14,2016-11-16,Status,On Hold,Closed
+W_Case.1,W_User.10,2016-11-04,created,,
+W_Case.1,W_User.10,2016-11-04,Status,,New
+W_Case.1,W_User.10,2016-11-16,Status,New,Closed
