@@ -72,7 +72,7 @@
 							"csvColumnName": "Case.External_Id__c",
 							"targetSObject" : "Case",
 							"targetSObjectLookupField" : "External_Id__c",
-							"foreignKeyField" : "CaseId"
+							"foreignKeyField" : "CaseId__c"
 						},
 						{
 							"csvColumnName": "CreatedById__c",
