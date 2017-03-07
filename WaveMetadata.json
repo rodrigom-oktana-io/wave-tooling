@@ -24,21 +24,19 @@
 							"targetSObjectLookupField" : "Name",
 							"foreignKeyField" : "ProfileId"
 						}
-					],
-					"children": [
+					]
+				},
+				{
+					"name": "Account",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsForSales.csv",
+					"additionalDataFiles": 0,
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
+					"relations": [
 						{
-							"name": "Account",
-							"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsForSales.csv",
-							"additionalDataFiles": 0,
-							"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
-							"relations": [
-								{
-									"csvColumnName": "Owner.External_Id__c",
-									"targetSObject" : "User",
-									"targetSObjectLookupField" : "External_Id__c",
-									"foreignKeyField" : "OwnerId"
-								}
-							]
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						}
 					]
 				},
@@ -107,21 +105,19 @@
 							"targetSObjectLookupField" : "Name",
 							"foreignKeyField" : "ProfileId"
 						}
-					],
-					"children": [
+					]
+				},
+				{
+					"name": "Account",
+					"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsForSales.csv",
+					"additionalDataFiles": 0,
+					"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
+					"relations": [
 						{
-							"name": "Account",
-							"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsForSales.csv",
-							"additionalDataFiles": 0,
-							"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
-							"relations": [
-								{
-									"csvColumnName": "Owner.External_Id__c",
-									"targetSObject" : "User",
-									"targetSObjectLookupField" : "External_Id__c",
-									"foreignKeyField" : "OwnerId"
-								}
-							]
+							"csvColumnName": "Owner.External_Id__c",
+							"targetSObject" : "User",
+							"targetSObjectLookupField" : "External_Id__c",
+							"foreignKeyField" : "OwnerId"
 						}
 					]
 				},
@@ -144,6 +140,13 @@
 							"foreignKeyField" : "AccountId"
 						}
 					]
+				}
+			],
+			"edgemarts": [
+				{
+					"edgemartName": "Quotas",
+					"edgemartMetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/QuotaMetadata.json",
+					"edgemartDataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Quota.csv"
 				}
 			]
 		}
