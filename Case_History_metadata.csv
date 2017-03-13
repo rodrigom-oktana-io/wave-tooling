@@ -1,7 +1,0 @@
-Label,Name,Type,ParentObject,Length,IsExternalId
-Case,CaseId,Master-Detail,Case,,0
-External ID,ExternalId,Text,,50,1
-Changed Field,Field,Text,,255,0
-Created Date,CreatedDate,Date/Time,,,0
-Old Value,OldValue,Text,,255,0
-New Value,NewValue,Text,,255,0

@@ -1,2 +1,0 @@
-Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
-External ID,ExternalId,Text,,50,0,0,True,True
