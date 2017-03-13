@@ -60,9 +60,10 @@
 	],
 	"edgemarts": [
 		{
-			"edgemartName": "Quotas",
-			"edgemartMetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/QuotaMetadata.json",
-			"edgemartDataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Quota.csv"
+			"Name": "Quotas",
+			"Label": "Quotas",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/QuotaMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Quota.csv"
 		}
 	]
 }
