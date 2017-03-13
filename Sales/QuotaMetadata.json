@@ -18,7 +18,7 @@
       "fields": [
         {
           "name": "FirstName",
-          "fullyQualifiedName": "Quotas.FirstName",
+          "fullyQualifiedName": "FirstName",
           "label": "First Name",
           "description": "First Name",
           "type": "Text",
@@ -35,7 +35,7 @@
         },
         {
           "name": "LastName",
-          "fullyQualifiedName": "Quotas.LastName",
+          "fullyQualifiedName": "LastName",
           "label": "Last Name",
           "description": "Last Name",
           "type": "Text",
@@ -52,7 +52,7 @@
         },
         {
           "name": "Gender",
-          "fullyQualifiedName": "Quotas.Gender",
+          "fullyQualifiedName": "Gender",
           "label": "Gender",
           "description": "Gender",
           "type": "Text",
@@ -69,7 +69,7 @@
         },
         {
           "name": "Birthdate",
-          "fullyQualifiedName": "Quotas.Birthdate",
+          "fullyQualifiedName": "Birthdate",
           "label": "Birth date",
           "description": "Birth date",
           "type": "Date",

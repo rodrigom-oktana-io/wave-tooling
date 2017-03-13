@@ -25,7 +25,7 @@
 		},
 		{
 			"name": "Account",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsForSales.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
 			"relations": [
