@@ -4,7 +4,7 @@
     "fieldsDelimitedBy": ",",
     "fieldsEnclosedBy": "\"",
     "linesTerminatedBy": "\n",
-    "numberOfLinesToIgnore": 0
+    "numberOfLinesToIgnore": 1
   },
   "objects": [
     {
