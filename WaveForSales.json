@@ -63,7 +63,7 @@
 			"Name": "Quotas",
 			"Label": "Quotas",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/QuotaMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Quota.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Quotas.csv"
 		}
 	]
 }
