@@ -11,7 +11,7 @@
       "name": "Friends",
       "fullyQualifiedName": "Friends",
       "connector": "SalesforceAnalyticsCloudDatasetLoader",
-      "label": "Quotas",
+      "label": "Friends",
       "description": "Friends",
       "acl": null,
       "rowLevelSecurityFilter": null,
