@@ -1,0 +1,35 @@
+{
+	"appName": "Simple",
+	"appDescription": "",
+	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
+	"objects": [
+		{
+			"name": "User",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "UserRole.Name",
+					"targetSObject" : "UserRole",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "UserRoleId"
+				},
+				{
+					"csvColumnName": "Profile.Name",
+					"targetSObject" : "Profile",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "ProfileId"
+				}
+			]
+		}
+	],
+	"edgemarts": [
+		{
+			"Name": "Friends",
+			"Label": "Friends",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FriendsMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/Friends.csv"
+		}
+	]
+}
