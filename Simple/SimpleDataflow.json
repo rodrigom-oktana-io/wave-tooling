@@ -38,7 +38,7 @@
     "action": "sfdcRegister",
     "parameters": {
       "name": "SimpleUsers",
-      "alias": "Simple Users",
+      "alias": "SimpleUsers",
       "source": "Extract_Users"
     }
   },
@@ -46,7 +46,7 @@
     "action": "sfdcRegister",
     "parameters": {
       "name": "UsersAndFriends",
-      "alias": "Users and Friends",
+      "alias": "UsersAndFriends",
       "source": "Combine_Users_Friends"
     }
   }
