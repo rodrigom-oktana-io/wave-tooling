@@ -39,7 +39,8 @@
     "parameters": {
       "name": "SimpleUsers",
       "alias": "Simple Users",
-      "source": "Extract_Users"
+      "source": "Extract_Users",
+      "folderid": "<folderId>"
     }
   },
   "Register_Users_Friends": {
@@ -47,7 +48,8 @@
     "parameters": {
       "name": "UsersAndFriends",
       "alias": "Users and Friends",
-      "source": "Combine_Users_Friends"
+      "source": "Combine_Users_Friends",
+      "folderid": "<folderId>"
     }
   }
 }
