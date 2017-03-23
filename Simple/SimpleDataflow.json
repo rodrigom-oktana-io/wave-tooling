@@ -1,0 +1,53 @@
+{
+  "Extract_Users": {
+    "action": "sfdcDigest",
+    "parameters": {
+      "fields": [
+        {
+          "name": "External_Id__c"
+        },
+        {
+          "name": "FirstName"
+        },
+        {
+          "name": "LastName"
+        }
+      ],
+      "complexFilterConditions": "External_Id__c LIKE 'W_User.%'",
+      "object": "User"
+    }
+  },
+  "Extract_Friends": {
+    "action": "edgemart",
+    "parameters": { 
+      "alias": "Friends" 
+    }
+  },
+  "Combine_Users_Friends": {
+    "action": "augment",
+    "parameters": {
+      "left": "Extract_Users",
+      "left_key": [ "External_Id__c" ],
+      "relationship": "Friend",
+      "right": "Extract_Friends",
+      "right_key": [ "External_Id__c" ],
+      "right_select": [ "FirstName", "LastName", "Gender", "Birthdate" ]
+    }
+  },
+  "Register_Users": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "SimpleUsers",
+      "alias": "Simple Users",
+      "source": "Extract_Users"
+    }
+  },
+  "Register_Users_Friends": {
+    "action": "sfdcRegister",
+    "parameters": {
+      "name": "UsersAndFriends",
+      "alias": "Users and Friends",
+      "source": "Combine_Users_Friends"
+    }
+  }
+}
