@@ -8,11 +8,11 @@
   },
   "objects": [
     {
-      "name": "Quotas",
-      "fullyQualifiedName": "Quotas",
+      "name": "Friends",
+      "fullyQualifiedName": "Friends",
       "connector": "SalesforceAnalyticsCloudDatasetLoader",
       "label": "Quotas",
-      "description": "Quotas",
+      "description": "Friends",
       "acl": null,
       "rowLevelSecurityFilter": null,
       "fields": [
