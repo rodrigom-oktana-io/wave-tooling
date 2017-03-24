@@ -31,5 +31,9 @@
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FriendsMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/Friends.csv"
 		}
+	],
+	"dashboards": [
+		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/DonutByGender.json",
+		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FilteredFriendship.json"
 	]
 }
