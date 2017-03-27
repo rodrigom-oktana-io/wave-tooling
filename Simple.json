@@ -30,6 +30,23 @@
 			"Label": "Friends",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FriendsMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/Friends.csv"
+		},
+		{
+			"Name": "SimpleUsers",
+			"Label": "Simple Users",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleUsersMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleUsers.csv"
+		},
+		{
+			"Name": "UsersAndFriends",
+			"Label": "Users and Friends",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/UsersAndFriendsMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/UsersAndFriends.csv"
 		}
+	],
+	"dashboards": [
+		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/UserFriendsTable.json",
+		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/DonutByGender.json",
+		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FilteredFriendship.json"
 	]
 }
