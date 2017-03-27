@@ -46,7 +46,7 @@
   "Register_Users": {
     "action": "sfdcRegister",
     "parameters": {
-      "name": "<SimpleUsers>",
+      "name": "SimpleUsers",
       "alias": "<SimpleUsers>",
       "source": "Extract_Users",
       "folderid": "<folderId>"
@@ -55,7 +55,7 @@
   "Register_Users_Friends": {
     "action": "sfdcRegister",
     "parameters": {
-      "name": "<UsersAndFriends>",
+      "name": "UsersAndFriends",
       "alias": "<UsersAndFriends>",
       "source": "Combine_Users_Friends",
       "folderid": "<folderId>"
