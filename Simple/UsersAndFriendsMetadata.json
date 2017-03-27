@@ -68,10 +68,10 @@
           "acl": null
         },
         {
-          "name": "Friend.FirstName",
-          "fullyQualifiedName": "Friend.FirstName",
-          "label": "Friend.FirstName",
-          "description": "Friend First Name",
+          "name": "Friend.LastName",
+          "fullyQualifiedName": "Friend.LastName",
+          "label": "Friend.LastName",
+          "description": "Friend Last Name",
           "type": "Text",
           "precision": 255,
           "scale": 0,
@@ -85,10 +85,10 @@
           "acl": null
         },
         {
-          "name": "Friend.LastName",
-          "fullyQualifiedName": "Friend.LastName",
-          "label": "Friend.LastName",
-          "description": "Friend Last Name",
+          "name": "Friend.FirstName",
+          "fullyQualifiedName": "Friend.FirstName",
+          "label": "Friend.FirstName",
+          "description": "Friend First Name",
           "type": "Text",
           "precision": 255,
           "scale": 0,
