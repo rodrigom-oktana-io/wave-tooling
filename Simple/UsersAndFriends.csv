@@ -1,0 +1,2 @@
+FirstName,LastName,External_Id__c,Friend.FirstName,Friend.LastName,Friend.Gender,Friend.Birthdate
+Nancy,Perez,W_User.10,Debra,Sanchez,Female,1981-05-08
