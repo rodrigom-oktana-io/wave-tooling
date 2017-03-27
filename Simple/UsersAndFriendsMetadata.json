@@ -68,25 +68,8 @@
           "acl": null
         },
         {
-          "name": "Friend.LastName",
-          "fullyQualifiedName": "Friend.LastName",
-          "label": "Friend.LastName",
-          "description": "Friend Last Name",
-          "type": "Text",
-          "precision": 255,
-          "scale": 0,
-          "defaultValue": "",
-          "format": null,
-          "isSystemField": false,
-          "isUniqueId": false,
-          "isMultiValue": false,
-          "multiValueSeparator": null,
-          "fiscalMonthOffset": 0,
-          "acl": null
-        },
-        {
-          "name": "Friend.FirstName",
-          "fullyQualifiedName": "Friend.FirstName",
+          "name": "FriendFirstName",
+          "fullyQualifiedName": "FriendFirstName",
           "label": "Friend.FirstName",
           "description": "Friend First Name",
           "type": "Text",
@@ -102,8 +85,25 @@
           "acl": null
         },
         {
-          "name": "Friend.Gender",
-          "fullyQualifiedName": "Friend.Gender",
+          "name": "FriendLastName",
+          "fullyQualifiedName": "FriendLastName",
+          "label": "Friend.LastName",
+          "description": "Friend Last Name",
+          "type": "Text",
+          "precision": 255,
+          "scale": 0,
+          "defaultValue": "",
+          "format": null,
+          "isSystemField": false,
+          "isUniqueId": false,
+          "isMultiValue": false,
+          "multiValueSeparator": null,
+          "fiscalMonthOffset": 0,
+          "acl": null
+        },
+        {
+          "name": "FriendGender",
+          "fullyQualifiedName": "FriendGender",
           "label": "Friend.Gender",
           "description": "Friend Gender",
           "type": "Text",
@@ -119,8 +119,8 @@
           "acl": null
         },
         {
-          "name": "Friend.Birthdate",
-          "fullyQualifiedName": "Friend.Birthdate",
+          "name": "FriendBirthdate",
+          "fullyQualifiedName": "FriendBirthdate",
           "label": "Friend.BirthDate",
           "description": "Birth date",
           "type": "Date",
