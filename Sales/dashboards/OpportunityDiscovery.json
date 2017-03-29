@@ -1,0 +1,1076 @@
+{
+  "label": "Opportunity Discovery",
+  "folder": {
+    "id": "<folderId>"
+  },
+  "state": {
+    "dataSourceLinks": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1360,
+        "name": "Default",
+        "numColumns": 48,
+        "pages": [
+          {
+            "widgets": [
+              {
+                "colspan": 10,
+                "column": 1,
+                "name": "text_1",
+                "row": 1,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "text_2",
+                "row": 5,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "text_3",
+                "row": 6,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 1,
+                "name": "text_4",
+                "row": 8,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "ui_pill_open_won",
+                "row": 9,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "rangeselector_1",
+                "row": 11,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "rangeselector_2",
+                "row": 15,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 0,
+                "name": "container_1",
+                "row": 5,
+                "rowspan": 14,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 16,
+                "name": "ui_account_products_matrix",
+                "row": 7,
+                "rowspan": 12,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 13,
+                "column": 1,
+                "name": "text_5",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "ui_raw_opportunity_line_items",
+                "row": 20,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_2",
+                "row": 19,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_3",
+                "row": 1,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "rgb(60, 141, 225)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 40,
+                "name": "text_6",
+                "row": 2,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "rgb(60, 141, 225)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 36,
+                "name": "link_1",
+                "row": 2,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 16,
+                "name": "container_4",
+                "row": 5,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 17,
+                "name": "ui_static_top_n_accounts",
+                "row": 6,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 26,
+                "name": "ui_static_top_n_products",
+                "row": 6,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 1,
+                "name": "ui_dropdown_opportunity_type",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 9,
+                "name": "ui_RecordType_Name",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 40,
+                "name": "ui_static_time_dropdown",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_6",
+                "row": 3,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 20
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#C5D3E0",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "documentId": "",
+          "fit": "original"
+        },
+        "version": 1
+      },
+      {
+        "name": "phone",
+        "numColumns": 24,
+        "pages": [
+          {
+            "widgets": [
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "ui_static_time_dropdown",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "rangeselector_1",
+                "row": 20,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "rangeselector_2",
+                "row": 23,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_1",
+                "row": 6,
+                "rowspan": 21,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 13,
+                "name": "ui_static_top_n_accounts",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 1,
+                "name": "ui_static_top_n_products",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "text_5",
+                "row": 28,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "ui_raw_opportunity_line_items",
+                "row": 29,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_2",
+                "row": 27,
+                "rowspan": 12,
+                "widgetStyle": {
+                  "backgroundColor": "#C5D3E0",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "text_7",
+                "row": 0,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 12,
+                "name": "listselector_1",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 21,
+                "column": 1,
+                "name": "chart_1",
+                "row": 9,
+                "rowspan": 10,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 1,
+                "name": "listselector_2",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [
+          "maxWidth(599)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#091A3E",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "product_totalprice": {
+        "isFacet": true,
+        "isGlobal": false,
+        "label": "",
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar",
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"limit\":\"{{cell(static_top_n_products.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Product.Name\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "dropdown_name": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Opportunity.Account.Owner.Name\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "dropdown_record_type": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[],\"groups\":[\"Opportunity.RecordType.Name\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "static_top_n_products": {
+        "dimensions": [],
+        "groups": [],
+        "isFacet": false,
+        "isGlobal": false,
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Top 10\",\"value\":10}",
+          "{\"display\":\"Top 20\",\"value\":20}",
+          "{\"display\":\"Top 30\",\"value\":30}"
+        ],
+        "datasets": []
+      },
+      "account_products_matrix": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "heatmap",
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"groups\":[\"Opportunity.Account.Name\",\"Product.Name\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "static_time_dropdown": {
+        "dimensions": [],
+        "groups": [],
+        "isFacet": false,
+        "isGlobal": false,
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "start": "{\"display\":[\"This Quarter\"]}",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"This Month\",\"current\":[[\"month\",0],[\"month\",0]]}",
+          "{\"display\":\"This Quarter\",\"current\":[[\"quarter\",0],[\"quarter\",0]]}",
+          "{\"display\":\"This Year\",\"current\":[[\"year\",0],[\"year\",0]]}",
+          "{\"display\":\"Next Month\",\"current\":[[\"month\",1],[\"month\",1]]}",
+          "{\"display\":\"Next Quarter\",\"current\":[[\"quarter\",1],[\"quarter\",1]]}",
+          "{\"display\":\"Next Year\",\"current\":[[\"year\",1],[\"year\",1]]}",
+          "{\"display\":\"Last Year\",\"current\":[[\"year\",-1],[\"year\",-1]]}"
+        ],
+        "datasets": []
+      },
+      "raw_opportunity_line_items": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "valuestable",
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"],[\"sum\",\"Opportunity.Account.AnnualRevenue\"],[\"sum\",\"Opportunity.Account.NumberOfEmployees\"]],\"groups\":[\"Opportunity.Account.Name\",\"Opportunity.Name\",\"Product.Name\",\"Opportunity.CloseDate\",\"Opportunity.ForecastCategoryName\",\"Opportunity.StageName\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "range_number_of_employees": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"sum\",\"Opportunity.Account.NumberOfEmployees\"]],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "account_totalprice": {
+        "isFacet": true,
+        "isGlobal": false,
+        "label": "",
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar",
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"limit\":\"{{cell(static_top_n_accounts.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Opportunity.Account.Name\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "pill_open_won": {
+        "dimensions": [],
+        "groups": [],
+        "isFacet": false,
+        "isGlobal": false,
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Closed Won\",\"value\":[\"Opportunity.IsWon\",\"true\"],\"won_value\":\"true\"}",
+          "{\"display\":\"Open\",\"value\":[\"Opportunity.IsClosed\",\"false\"],\"won_value\":\"false\"}"
+        ],
+        "datasets": []
+      },
+      "dropdown_opportunity_type": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Opportunity.Type\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "range_annual_revenue": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {
+          "options": {}
+        },
+        "query": {
+          "query": "{\"measures\":[[\"sum\",\"Opportunity.Account.AnnualRevenue\"]],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<opportunity_products>"
+          }
+        ]
+      },
+      "static_top_n_accounts": {
+        "dimensions": [],
+        "groups": [],
+        "isFacet": false,
+        "isGlobal": false,
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Top 10\",\"value\":10}",
+          "{\"display\":\"Top 20\",\"value\":20}",
+          "{\"display\":\"Top 30\",\"value\":30}"
+        ],
+        "datasets": []
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "ui_account_products_matrix": {
+        "parameters": {
+          "autoFitMode": "none",
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "highColor": "rgb(0, 157, 223)",
+          "lowColor": "rgb(0, 157, 223)",
+          "x": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "visualizationType": "matrix",
+          "y": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "theme": "light",
+          "step": "account_products_matrix",
+          "exploreLink": true,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          }
+        },
+        "type": "chart"
+      },
+      "ui_raw_opportunity_line_items": {
+        "parameters": {
+          "customBulkActions": [],
+          "exploreLink": true,
+          "step": "raw_opportunity_line_items"
+        },
+        "type": "table"
+      },
+      "ui_pill_open_won": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "step": "pill_open_won"
+        },
+        "type": "pillbox"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "ui_dropdown_opportunity_type": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "step": "dropdown_opportunity_type",
+          "title": "Opportunity Type"
+        },
+        "type": "listselector"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "rangeselector_1": {
+        "parameters": {
+          "instant": true,
+          "step": "range_annual_revenue",
+          "title": "Account Annual Revenue"
+        },
+        "type": "rangeselector"
+      },
+      "container_4": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "rangeselector_2": {
+        "parameters": {
+          "instant": true,
+          "step": "range_number_of_employees",
+          "title": "Account Employee Size"
+        },
+        "type": "rangeselector"
+      },
+      "text_3": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "Analyze your accounts and products to uncover whitespace, cross sell and upsell opportunities",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "ui_static_time_dropdown": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "step": "static_time_dropdown",
+          "title": "Time Period"
+        },
+        "type": "listselector"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Discover New Opportunities",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Opportunity Details",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "ui_static_top_n_accounts": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "value",
+          "step": "static_top_n_accounts",
+          "title": "Filter Accounts"
+        },
+        "type": "listselector"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "View by:",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_7": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Opportunity Discovery",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_6": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Opportunity Discovery",
+          "textAlignment": "center",
+          "textColor": "rgb(60, 141, 225)"
+        },
+        "type": "text"
+      },
+      "chart_1": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "showValues": true,
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "stackvbar",
+          "exploreLink": true,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "textColor": "#FFFFFF",
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "referenceLine": null
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "referenceLine": null
+          },
+          "normalize": false,
+          "step": "account_products_matrix",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": true,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": ""
+          }
+        },
+        "type": "chart"
+      },
+      "ui_RecordType_Name": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "step": "dropdown_record_type",
+          "title": "Record Type"
+        },
+        "type": "listselector"
+      },
+      "listselector_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "step": "dropdown_name",
+          "title": "Account Owner Name"
+        },
+        "type": "listselector"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Opportunity Discovery",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Sales_Rep_Overview1"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 14,
+          "includeState": false,
+          "text": "Overview",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "ui_static_top_n_products": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "value",
+          "step": "static_top_n_products",
+          "title": "Filter Products"
+        },
+        "type": "listselector"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "step": "pill_open_won",
+          "title": ""
+        },
+        "type": "listselector"
+      }
+    }
+  }
+}
