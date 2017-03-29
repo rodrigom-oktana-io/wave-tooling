@@ -1,0 +1,39 @@
+{
+  "fileFormat": {
+    "charsetName": "UTF-8",
+    "fieldsDelimitedBy": ",",
+    "fieldsEnclosedBy": "\"",
+    "linesTerminatedBy": "\n",
+    "numberOfLinesToIgnore": 1
+  },
+  "objects": [
+    {
+      "name": "case",
+      "fullyQualifiedName": "case",
+      "connector": "SalesforceAnalyticsCloudDatasetLoader",
+      "label": "Cases",
+      "description": "Cases",
+      "acl": null,
+      "rowLevelSecurityFilter": null,
+      "fields": [
+        {
+          "name": "GenericColumn",
+          "fullyQualifiedName": "GenericColumn",
+          "label": "Generic Column",
+          "description": "Generic Column",
+          "type": "Text",
+          "precision": 255,
+          "scale": 0,
+          "defaultValue": "",
+          "format": null,
+          "isSystemField": false,
+          "isUniqueId": false,
+          "isMultiValue": false,
+          "multiValueSeparator": null,
+          "fiscalMonthOffset": 0,
+          "acl": null
+        }
+      ]
+    }
+  ]
+}
