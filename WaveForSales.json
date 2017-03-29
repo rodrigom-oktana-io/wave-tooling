@@ -125,5 +125,8 @@
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/CasesMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Cases.csv"
 		}
+	],
+	"dashboards": [
+		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/AboutWaveForSales.json"
 	]
 }
