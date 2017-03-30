@@ -45,8 +45,17 @@
 		}
 	],
 	"dashboards": [
-		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/UserFriendsTable.json",
-		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/DonutByGender.json",
-		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FilteredFriendship.json"
+		{
+			"Name": "UserFriendsTable",
+			"JsonUrl": "https://raw.gubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/UserFriendsTable.json"
+		},
+		{
+			"Name": "DonutByGender",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/DonutByGender.json"
+		},
+		{
+			"Name": "FilteredFriendship",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/FilteredFriendship.json"
+		}
 	]
 }

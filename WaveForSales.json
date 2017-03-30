@@ -127,6 +127,9 @@
 		}
 	],
 	"dashboards": [
-		"https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/AboutWaveForSales.json"
+		{
+			"Name": "AboutWaveForSales",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/AboutWaveForSales.json"
+		}
 	]
 }
