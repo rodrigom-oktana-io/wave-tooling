@@ -1,7 +1,7 @@
 {
 	"appName": "Wave for Services",
 	"appDescription": "This package includes data on Users, Accounts, Cases and Cases History for Wave for Services. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "<URL for the json definition>",
+	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Wave_For_Services_Dataflow.json",
 	"objects": [
 		{
 			"name": "User",
@@ -76,6 +76,72 @@
 					"foreignKeyField" : "CreatedById__c"
 				}
 			]
+		}
+	],
+	"edgemarts": [
+		{
+			"Name": "ServiceActivity",
+			"Label": "ServiceActivity",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceActivityMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceActivity.csv"
+		},
+		{
+			"Name": "ServiceCase",
+			"Label": "ServiceCase",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCase.csv"
+		},
+		{
+			"Name": "ServiceOpportunity",
+			"Label": "ServiceOpportunity",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunityMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunity.csv"
+		}
+	],
+	"dashboards": [
+		{
+			"Name": "AboutServiceWave",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/AboutServiceWave.json"
+		},
+		{
+			"Name": "MyPerformanceSummary",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/MyPerformanceSummary.json"
+		},
+		{
+			"Name": "ServiceAccountProfile",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAccountProfile.json"
+		},
+		{
+			"Name": "ServiceAgentPerformance",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentPerformance.json"
+		},
+		{
+			"Name": "ServiceAgentSidebarByCustomer",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarByCustomer.json"
+		},
+		{
+			"Name": "ServiceAgentSidebarBySimilarity",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarBySimilarity.json"
+		},
+		{
+			"Name": "ServiceBacklog",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceBacklog.json"
+		},
+		{
+			"Name": "ServiceChannelReview",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceChannelReview.json"
+		},
+		{
+			"Name": "ServiceCustomerSatisfaction",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceCustomerSatisfaction.json"
+		},
+		{
+			"Name": "ServiceOpenCases",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOpenCases.json"
+		},
+		{
+			"Name": "ServiceTelephony",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceTelephony.json"
 		}
 	]
 }

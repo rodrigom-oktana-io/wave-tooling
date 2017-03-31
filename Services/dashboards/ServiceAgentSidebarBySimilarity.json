@@ -1,0 +1,534 @@
+{
+  "label": "Service Agent Sidebar By Similarity",
+  "folder": {
+    "id": "00l36000001OGs0AAG"
+  },
+  "state": {
+    "dataSourceLinks": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 500,
+        "name": "Default",
+        "numColumns": 24,
+        "pages": [
+          {
+            "widgets": [
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "dateselector_CreatedDate_Select",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "text_Similar_Cases_based_on_Product_and_Reason",
+                "row": 2,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "left"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "number_Closed_Cases",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "chart_Cases_Closed_Similarity",
+                "row": 4,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "number_Closed_Duration",
+                "row": 9,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "chart_Duration_Similarity",
+                "row": 10,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "table_valuesTable_By_Similarity",
+                "row": 16,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 22,
+                "column": 1,
+                "name": "text_Case_Details",
+                "row": 15,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_1",
+                "row": 0,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 24
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_2",
+                "row": 3,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_3",
+                "row": 9,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_4",
+                "row": 15,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#FFFFFF",
+          "cellSpacingX": 4,
+          "cellSpacingY": 4,
+          "documentId": "",
+          "fit": "original"
+        },
+        "version": 1,
+        "rowHeight": "normal"
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Duration_Similarity": {
+        "isFacet": true,
+        "isGlobal": false,
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time",
+          "options": {}
+        },
+        "selectMode": "single",
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"DurationCalculatedField\"]],\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "ServiceCase3"
+          }
+        ]
+      },
+      "Cases_Closed_Similarity": {
+        "isFacet": true,
+        "isGlobal": false,
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time",
+          "options": {}
+        },
+        "selectMode": "single",
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "ServiceCase3"
+          }
+        ]
+      },
+      "valuesTable_By_Similarity": {
+        "isFacet": true,
+        "isGlobal": false,
+        "type": "grain",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "valuestable",
+          "options": {}
+        },
+        "query": {
+          "query": "{\"values\":[\"CaseNumber\",\"Owner.Name\",\"Status\",\"DurationCalculatedField\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "ServiceCase3"
+          }
+        ]
+      },
+      "CreatedDate_Select": {
+        "isFacet": true,
+        "isGlobal": false,
+        "start": "[[[\"year\",-1],[\"year\",0]]]",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar",
+          "options": {}
+        },
+        "selectMode": "single",
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate_Year\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "ServiceCase3"
+          }
+        ]
+      },
+      "Closed_Duration": {
+        "isFacet": true,
+        "isGlobal": false,
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar",
+          "options": {}
+        },
+        "selectMode": "single",
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"DurationCalculatedField\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "ServiceCase3"
+          }
+        ]
+      },
+      "Closed_Cases": {
+        "isFacet": true,
+        "isGlobal": false,
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar",
+          "options": {}
+        },
+        "selectMode": "single",
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "ServiceCase3"
+          }
+        ]
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "chart_Duration_Similarity": {
+        "parameters": {
+          "fillArea": true,
+          "showPoints": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "position": "right-top",
+            "inside": false,
+            "customSize": "auto"
+          },
+          "measureAxis1": {
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "sqrtScale": false,
+            "referenceLine": null
+          },
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "step": "Duration_Similarity",
+          "theme": "light",
+          "timeAxis": {
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "predictiveLine": null
+          },
+          "exploreLink": true,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "showZero": true,
+          "axisMode": "multi",
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showAxis": true,
+            "showTitle": true,
+            "title": "",
+            "referenceLine": null
+          }
+        },
+        "type": "chart"
+      },
+      "chart_Cases_Closed_Similarity": {
+        "parameters": {
+          "fillArea": true,
+          "showPoints": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "position": "right-top",
+            "inside": false,
+            "customSize": "auto"
+          },
+          "measureAxis1": {
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "sqrtScale": false,
+            "referenceLine": null
+          },
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "step": "Cases_Closed_Similarity",
+          "theme": "light",
+          "timeAxis": {
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "predictiveLine": null
+          },
+          "exploreLink": true,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "showZero": true,
+          "axisMode": "multi",
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showAxis": true,
+            "showTitle": true,
+            "title": "",
+            "referenceLine": null
+          }
+        },
+        "type": "chart"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "table_valuesTable_By_Similarity": {
+        "parameters": {
+          "customBulkActions": [],
+          "exploreLink": true,
+          "step": "valuesTable_By_Similarity"
+        },
+        "type": "table"
+      },
+      "container_4": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "number_Closed_Cases": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "count",
+          "numberColor": "#091A3E",
+          "numberSize": 24,
+          "step": "Closed_Cases",
+          "textAlignment": "right",
+          "title": "Closed Cases",
+          "titleColor": "#091A3E",
+          "titleSize": 14
+        },
+        "type": "number"
+      },
+      "text_Case_Details": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Case Details",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "dateselector_CreatedDate_Select": {
+        "parameters": {
+          "instant": false,
+          "step": "CreatedDate_Select",
+          "title": "Created Date (date)",
+          "defaultAbsoluteMode": true,
+          "defaultFiscalMode": false,
+          "modeSwitchingAllowed": true,
+          "calendarTypeSwitchingAllowed": false
+        },
+        "type": "dateselector"
+      },
+      "text_Similar_Cases_based_on_Product_and_Reason": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "Similar Cases based on Product and Reason",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "number_Closed_Duration": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "avg_DurationCalculatedField",
+          "numberColor": "#091A3E",
+          "numberSize": 24,
+          "step": "Closed_Duration",
+          "textAlignment": "right",
+          "title": "Average Case Duration",
+          "titleColor": "#091A3E",
+          "titleSize": 14
+        },
+        "type": "number"
+      }
+    }
+  }
+}
