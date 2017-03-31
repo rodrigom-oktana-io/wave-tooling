@@ -2121,7 +2121,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FK36000000MHhpGAG",
+          "destination": "<ExecOverviewPipelinePerformance>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2133,7 +2133,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FK36000000MHhqGAG",
+          "destination": "<ExecOverviewSalesPerformance>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,

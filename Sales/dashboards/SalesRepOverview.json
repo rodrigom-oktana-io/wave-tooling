@@ -2704,7 +2704,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FK36000000MHhwGAG",
+          "destination": "<OpportunityDiscovery>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,

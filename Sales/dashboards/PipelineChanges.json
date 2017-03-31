@@ -1240,7 +1240,7 @@
       },
       "link_3": {
         "parameters": {
-          "destination": "0FK36000000MHhzGAG",
+          "destination": "<TeamProductivity>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1252,7 +1252,7 @@
       },
       "link_4": {
         "parameters": {
-          "destination": "0FK36000000MHhoGAG",
+          "destination": "<QuotaProgress>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1264,7 +1264,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FK36000000MHhsGAG",
+          "destination": "<PipelineChanges>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1276,7 +1276,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FK36000000MHhvGAG",
+          "destination": "<ManagerOverview>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,

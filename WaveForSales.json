@@ -130,6 +130,78 @@
 		{
 			"Name": "AboutWaveForSales",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/AboutWaveForSales.json"
+		},
+		{
+			"Name": "ExecOverviewPipelinePerformance",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/ExecOverviewPipelinePerformance.json"
+		},
+		{
+			"Name": "ExecOverviewSalesPerformance",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/ExecOverviewSalesPerformance.json"
+		},
+		{
+			"Name": "ExecOverviewServicePerformance",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/ExecOverviewServicePerformance.json"
+		},
+		{
+			"Name": "LeadAnalysis",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/LeadAnalysis.json"
+		},
+		{
+			"Name": "LeaderOverview",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/LeaderOverview.json"
+		},
+		{
+			"Name": "LeaderPipelineChanges",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/LeaderPipelineChanges.json"
+		},
+		{
+			"Name": "ManagerOverview",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/ManagerOverview.json"
+		},
+		{
+			"Name": "OpportunityDiscovery",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/OpportunityDiscovery.json"
+		},
+		{
+			"Name": "PerformanceByCustomer",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PerformanceByCustomer.json"
+		},
+		{
+			"Name": "PerformanceByGeography",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PerformanceByGeography.json"
+		},
+		{
+			"Name": "PerformanceByProduct",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PerformanceByProduct.json"
+		},
+		{
+			"Name": "PerformanceBySource",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PerformanceBySource.json"
+		},
+		{
+			"Name": "PipelineChanges",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PipelineChanges.json"
+		},
+		{
+			"Name": "QuotaProgress",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/QuotaProgress.json"
+		},
+		{
+			"Name": "SalesRepOverview",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SalesRepOverview.json"
+		},
+		{
+			"Name": "SummaryOfAccount",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SummaryOfAccount.json"
+		},
+		{
+			"Name": "SummaryOfOpportunity",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SummaryOfOpportunity.json"
+		},
+		{
+			"Name": "TeamProductivity",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/TeamProductivity.json"
 		}
 	]
 }

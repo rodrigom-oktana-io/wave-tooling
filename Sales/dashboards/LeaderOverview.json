@@ -1522,7 +1522,7 @@
     "widgets": {
       "link_overview": {
         "parameters": {
-          "destination": "0FK36000000MHhxGAG",
+          "destination": "<LeaderOverview>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1885,7 +1885,7 @@
       },
       "link_lead_analysis": {
         "parameters": {
-          "destination": "0FK36000000MHi6GAG",
+          "destination": "<LeadAnalysis>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2097,7 +2097,7 @@
       },
       "link_by_customer": {
         "parameters": {
-          "destination": "0FK36000000MHi0GAG",
+          "destination": "<PerformanceByCustomer>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2406,7 +2406,7 @@
       },
       "link_pipeline_changes": {
         "parameters": {
-          "destination": "0FK36000000MHhyGAG",
+          "destination": "<LeaderPipelineChanges>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2419,7 +2419,7 @@
       },
       "link_by_source": {
         "parameters": {
-          "destination": "0FK36000000MHi3GAG",
+          "destination": "<PerformanceBySource>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2432,7 +2432,7 @@
       },
       "link_by_geography": {
         "parameters": {
-          "destination": "0FK36000000MHi1GAG",
+          "destination": "<PerformanceByGeography>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2455,7 +2455,7 @@
       },
       "link_by_product": {
         "parameters": {
-          "destination": "0FK36000000MHi2GAG",
+          "destination": "<PerformanceByProduct>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,

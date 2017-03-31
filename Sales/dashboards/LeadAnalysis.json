@@ -1479,7 +1479,7 @@
       },
       "link_3": {
         "parameters": {
-          "destination": "0FK36000000MHi0GAG",
+          "destination": "<PerformanceByCustomer>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1552,7 +1552,7 @@
       },
       "link_4": {
         "parameters": {
-          "destination": "0FK36000000MHi1GAG",
+          "destination": "<PerformanceByGeography>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1564,7 +1564,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FK36000000MHhxGAG",
+          "destination": "<LeaderOverview>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1576,7 +1576,7 @@
       },
       "link_by_product": {
         "parameters": {
-          "destination": "0FK36000000MHi2GAG",
+          "destination": "<PerformanceByProduct>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1588,7 +1588,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FK36000000MHhyGAG",
+          "destination": "<LeaderPipelineChanges>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1615,7 +1615,7 @@
       },
       "link_5": {
         "parameters": {
-          "destination": "0FK36000000MHi3GAG",
+          "destination": "<PerformanceBySource>",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
