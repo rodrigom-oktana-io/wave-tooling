@@ -1792,7 +1792,7 @@
       },
       "link_Channel_Review": {
         "parameters": {
-          "destination": "0FK36000000MHtOGAW",
+          "destination": "<ServiceChannelReview>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2070,7 +2070,7 @@
       },
       "link_Telephony": {
         "parameters": {
-          "destination": "0FK36000000MHtSGAW",
+          "destination": "<ServiceTelephony>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2202,7 +2202,7 @@
       },
       "link_Home": {
         "parameters": {
-          "destination": "0FK36000000MHtRGAW",
+          "destination": "<AboutServiceWave>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,

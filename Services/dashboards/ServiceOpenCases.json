@@ -2279,7 +2279,7 @@
       },
       "link_Home": {
         "parameters": {
-          "destination": "0FK36000000MHtRGAW",
+          "destination": "<AboutServiceWave>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2368,7 +2368,7 @@
       },
       "link_Prioritize_Open_Cases": {
         "parameters": {
-          "destination": "0FK36000000MHtQGAW",
+          "destination": "<ServiceOpenCases>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2534,7 +2534,7 @@
       },
       "link_Backlog": {
         "parameters": {
-          "destination": "0FK36000000MHtMGAW",
+          "destination": "<ServiceBacklog>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,

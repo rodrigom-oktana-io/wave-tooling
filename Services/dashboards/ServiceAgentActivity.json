@@ -2703,7 +2703,7 @@
       },
       "link_Home": {
         "parameters": {
-          "destination": "0FK36000000MHtRGAW",
+          "destination": "<AboutServiceWave>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2959,7 +2959,7 @@
       },
       "link_Activity": {
         "parameters": {
-          "destination": "0FK36000000MHtJGAW",
+          "destination": "<ServiceAgentActivity>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -3082,7 +3082,7 @@
       },
       "link_Performance": {
         "parameters": {
-          "destination": "0FK36000000MHtKGAW",
+          "destination": "<ServiceAgentPerformance>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,

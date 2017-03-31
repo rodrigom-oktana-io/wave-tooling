@@ -1684,7 +1684,7 @@
       },
       "link_Account_Profile": {
         "parameters": {
-          "destination": "0FK36000000MHtIGAW",
+          "destination": "<ServiceAccountProfile>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2068,7 +2068,7 @@
       },
       "link_Home": {
         "parameters": {
-          "destination": "0FK36000000MHtRGAW",
+          "destination": "<AboutServiceWave>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2206,7 +2206,7 @@
       },
       "link_Constants_CaseCustomerSatLabel": {
         "parameters": {
-          "destination": "0FK36000000MHtPGAW",
+          "destination": "<ServiceCustomerSatisfaction>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
