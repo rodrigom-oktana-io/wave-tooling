@@ -905,7 +905,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -942,7 +942,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -961,7 +961,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -980,7 +980,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1020,7 +1020,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1040,7 +1040,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1059,7 +1059,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1067,7 +1067,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"ServiceCase3\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\")}}; q = foreach q generate 'CaseNumber', first('Account.Name') as 'Account.Name', first('CSAT__c') as 'CSAT__c', first('First_Contact_Close__c') as 'First_Contact_Close__c', first('Type') as 'Type', first('Owner.Name') as 'Owner.Name', first('MilestoneStatus') as 'MilestoneStatus',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Origin') as 'Origin', first('Priority') as 'Priority', first('Status') as 'Status', first('SLA_Type__c') as 'SLA_Type__c',first('IsEscalated') as 'Escalated'; q = order q by 'CaseNumber' desc; q = limit q 100;",
+        "query": "q = load \"<ServiceCase>\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\")}}; q = foreach q generate 'CaseNumber', first('Account.Name') as 'Account.Name', first('CSAT__c') as 'CSAT__c', first('First_Contact_Close__c') as 'First_Contact_Close__c', first('Type') as 'Type', first('Owner.Name') as 'Owner.Name', first('MilestoneStatus') as 'MilestoneStatus',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Origin') as 'Origin', first('Priority') as 'Priority', first('Status') as 'Status', first('SLA_Type__c') as 'SLA_Type__c',first('IsEscalated') as 'Escalated'; q = order q by 'CaseNumber' desc; q = limit q 100;",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -1077,7 +1077,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"ServiceCase3\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\")}}; q = foreach q generate 'CaseNumber', first('Account.Name') as 'Account.Name', first('First_Contact_Close__c') as 'First_Contact_Close__c', first('Type') as 'Type', first('Owner.Name') as 'Owner.Name', first('MilestoneStatus') as 'MilestoneStatus',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Origin') as 'Origin', first('Priority') as 'Priority', first('Status') as 'Status', first('SLA_Type__c') as 'SLA_Type__c',first('IsEscalated') as 'Escalated'; q = order q by 'CaseNumber' desc; q = limit q 100;",
+        "query": "q = load \"<ServiceCase>\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\")}}; q = foreach q generate 'CaseNumber', first('Account.Name') as 'Account.Name', first('First_Contact_Close__c') as 'First_Contact_Close__c', first('Type') as 'Type', first('Owner.Name') as 'Owner.Name', first('MilestoneStatus') as 'MilestoneStatus',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Origin') as 'Origin', first('Priority') as 'Priority', first('Status') as 'Status', first('SLA_Type__c') as 'SLA_Type__c',first('IsEscalated') as 'Escalated'; q = order q by 'CaseNumber' desc; q = limit q 100;",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -1098,7 +1098,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1135,7 +1135,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1154,7 +1154,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1174,7 +1174,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1194,7 +1194,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1213,7 +1213,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1233,7 +1233,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1285,7 +1285,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1305,7 +1305,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1320,12 +1320,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceCase3\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"BacklogCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; q = filter q by 'IsClosed' == \\\"true\\\"; q = group q by 'First_Contact_Close__c'; q = foreach q generate 'First_Contact_Close__c' as 'First_Contact_Close__c', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'First_Contact_Close__c' == \\\"true\\\"; \",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"BacklogCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; q = filter q by 'IsClosed' == \\\"true\\\"; q = group q by 'First_Contact_Close__c'; q = foreach q generate 'First_Contact_Close__c' as 'First_Contact_Close__c', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'First_Contact_Close__c' == \\\"true\\\"; \",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1340,12 +1340,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"ServiceCase3\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"measures\":[[\"avg\",\"Duration\"]],\"autoFilter\":true}",
+          "query": "{\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"measures\":[[\"avg\",\"Duration\"]],\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1381,7 +1381,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1400,7 +1400,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       }

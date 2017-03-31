@@ -1103,7 +1103,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1118,12 +1118,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"last\",\"DurationCalculatedField\",null,{\"display\":\"Days Since Last Activity\"}],[\"sum\",\"DurationCalculatedField\",null,{\"display\":\"Duration\"}]],\"pigql\":\"q = load \\\"ServiceCase3\\\";q = filter q by 'IsClosed' ==\\\"false\\\";q = group q by 'CaseNumber'; q = foreach q generate 'CaseNumber' as 'CaseNumber', sum('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'sum_DurationCalculatedField', sum('sum_last_activity') as 'last_DurationCalculatedField';q = order q by ('sum_DurationCalculatedField' desc,'last_DurationCalculatedField' desc);q = limit q 100\",\"autoFilter\":true,\"groups\":[\"CaseNumber\"]}",
+          "query": "{\"measures\":[[\"last\",\"DurationCalculatedField\",null,{\"display\":\"Days Since Last Activity\"}],[\"sum\",\"DurationCalculatedField\",null,{\"display\":\"Duration\"}]],\"pigql\":\"q = load \\\"<ServiceCase>\\\";q = filter q by 'IsClosed' ==\\\"false\\\";q = group q by 'CaseNumber'; q = foreach q generate 'CaseNumber' as 'CaseNumber', sum('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'sum_DurationCalculatedField', sum('sum_last_activity') as 'last_DurationCalculatedField';q = order q by ('sum_DurationCalculatedField' desc,'last_DurationCalculatedField' desc);q = limit q 100\",\"autoFilter\":true,\"groups\":[\"CaseNumber\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1142,7 +1142,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1162,7 +1162,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1182,7 +1182,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1202,7 +1202,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1217,15 +1217,15 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"],[\"sum\",\"Amount\"]],\"pigql\":\"q = load \\\"ServiceCase3\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; r = load \\\"ServiceOpportunity2\\\"; s = group q by 'Account.Name' left, r by 'Account.Name'; s = foreach s generate q.'Account.Name' as 'Account.Name', count(q) as 'count', coalesce(sum(r.'Amount'),0) as 'sum_Amount'; s = order s by {{cell(Field_Select.selection, 0, \\\"value\\\").asString()}} {{cell(static_1.selection, 0, \\\"value\\\").asString()}};\",\"autoFilter\":true,\"groups\":[\"Account.Name\"]}",
+          "query": "{\"measures\":[[\"count\",\"*\"],[\"sum\",\"Amount\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; r = load \\\"<ServiceOpportunity>\\\"; s = group q by 'Account.Name' left, r by 'Account.Name'; s = foreach s generate q.'Account.Name' as 'Account.Name', count(q) as 'count', coalesce(sum(r.'Amount'),0) as 'sum_Amount'; s = order s by {{cell(Field_Select.selection, 0, \\\"value\\\").asString()}} {{cell(static_1.selection, 0, \\\"value\\\").asString()}};\",\"autoFilter\":true,\"groups\":[\"Account.Name\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           },
           {
-            "name": "ServiceOpportunity2"
+            "name": "<ServiceOpportunity>"
           }
         ]
       },
@@ -1246,7 +1246,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1281,7 +1281,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1301,7 +1301,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1316,12 +1316,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Duration\"]],\"pigql\":\"q = load \\\"ServiceCase3\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"Duration\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1340,7 +1340,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1360,7 +1360,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1379,7 +1379,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceOpportunity2"
+            "name": "<ServiceOpportunity>"
           }
         ]
       },
@@ -1399,7 +1399,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1419,7 +1419,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1439,7 +1439,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1476,7 +1476,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1495,7 +1495,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1514,7 +1514,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1529,12 +1529,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceCase3\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; q = group q by 'IsEscalated'; q = foreach q generate 'IsEscalated' as 'IsEscalated', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'IsEscalated' == \\\"true\\\"; \",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; q = group q by 'IsEscalated'; q = foreach q generate 'IsEscalated' as 'IsEscalated', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'IsEscalated' == \\\"true\\\"; \",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceCase3"
+            "name": "<ServiceCase>"
           }
         ]
       },
@@ -1558,7 +1558,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"ServiceCase3\"; q = filter q by 'IsClosed' == \"false\"; q = foreach q generate first('CaseNumber') as 'CaseNumber', first('Account.Name') as 'Account.Name', first('Owner.Name') as 'Owner.Name', first('Type') as 'Type', first('Priority') as 'Priority', first('IsEscalated') as 'Escalated',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Status') as 'Status', first('Origin') as 'Origin', first('MilestoneStatus') as 'MilestoneStatus', first('SLA_Type__c') as 'SLA_Type__c';",
+        "query": "q = load \"<ServiceCase>\"; q = filter q by 'IsClosed' == \"false\"; q = foreach q generate first('CaseNumber') as 'CaseNumber', first('Account.Name') as 'Account.Name', first('Owner.Name') as 'Owner.Name', first('Type') as 'Type', first('Priority') as 'Priority', first('IsEscalated') as 'Escalated',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Status') as 'Status', first('Origin') as 'Origin', first('MilestoneStatus') as 'MilestoneStatus', first('SLA_Type__c') as 'SLA_Type__c';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",

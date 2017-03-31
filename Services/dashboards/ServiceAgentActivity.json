@@ -1408,7 +1408,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1428,7 +1428,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1448,7 +1448,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1468,7 +1468,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1488,7 +1488,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1508,7 +1508,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1528,7 +1528,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1543,12 +1543,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"activity_cnt\",null,{\"display\":\"Average Number of Activities\"}]],\"pigql\":\"q = load \\\"ServiceActivity1\\\";q = filter q by {{column(IsClosed_21.selection, [\\\"ActivityIsClosed\\\"]).asEquality(\\\"ActivityIsClosed\\\")}};q = filter q by {{column(pie_activity_type.selection, [\\\"ActivityType\\\"]).asEquality(\\\"ActivityType\\\")}};q = filter q by {{column(activity_count_by_case_priority.selection, [\\\"Case.Priority\\\"]).asEquality(\\\"Case.Priority\\\")}};q = filter q by {{column(filter_account.selection, [\\\"Case.Account.Name\\\"]).asEquality(\\\"Case.Account.Name\\\")}}; q = filter q by {{column(filter_case_record_type.selection, [\\\"Case.Id\\\"]).asEquality(\\\"Case.Id\\\")}} && {{column(filter_case_status.selection, [\\\"Case.IsClosed\\\"]).asEquality(\\\"Case.IsClosed\\\")}}; q = filter q by {{column(filter_role.selection, [\\\"Case.Role.Name\\\"]).asEquality(\\\"Case.Role.Name\\\")}}; q = filter q by {{column(filter_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}} && {{column(activity_by_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}}; q = filter q by {{column(filter_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}} && {{column(activity_by_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}}; q = filter q by {{column(filter_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}} && {{column(activity_by_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}}; q = filter q by {{column(filter_case_type.selection, [\\\"Case.Type\\\"]).asEquality(\\\"Case.Type\\\")}};q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};r = filter q by ({{column(filter_activity_owner.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}} && {{column(scatter_activity_per_case.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}); r = group r by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}});r = foreach r generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Owner.Id') as 'avg_activity_cnt', (case when (\\\"{{cell(filter_activity_owner.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\" && \\\"{{cell(scatter_activity_per_case.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\") then \\\"ALL\\\" else \\\"Selected Agents\\\" end) as 'Performance'; s = group q by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}}); s = foreach s generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Owner.Id') as 'avg_activity_cnt', \\\"Team\\\" as 'Performance';u = union r, s; u = filter u by 'Performance' != \\\"ALL\\\";\",\"groups\":[\"{{cell(Time_Selection.selection, 0, \\\"compactGroup\\\").asObject()}}\",\"Performance\"]}",
+          "query": "{\"measures\":[[\"avg\",\"activity_cnt\",null,{\"display\":\"Average Number of Activities\"}]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\";q = filter q by {{column(IsClosed_21.selection, [\\\"ActivityIsClosed\\\"]).asEquality(\\\"ActivityIsClosed\\\")}};q = filter q by {{column(pie_activity_type.selection, [\\\"ActivityType\\\"]).asEquality(\\\"ActivityType\\\")}};q = filter q by {{column(activity_count_by_case_priority.selection, [\\\"Case.Priority\\\"]).asEquality(\\\"Case.Priority\\\")}};q = filter q by {{column(filter_account.selection, [\\\"Case.Account.Name\\\"]).asEquality(\\\"Case.Account.Name\\\")}}; q = filter q by {{column(filter_case_record_type.selection, [\\\"Case.Id\\\"]).asEquality(\\\"Case.Id\\\")}} && {{column(filter_case_status.selection, [\\\"Case.IsClosed\\\"]).asEquality(\\\"Case.IsClosed\\\")}}; q = filter q by {{column(filter_role.selection, [\\\"Case.Role.Name\\\"]).asEquality(\\\"Case.Role.Name\\\")}}; q = filter q by {{column(filter_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}} && {{column(activity_by_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}}; q = filter q by {{column(filter_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}} && {{column(activity_by_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}}; q = filter q by {{column(filter_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}} && {{column(activity_by_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}}; q = filter q by {{column(filter_case_type.selection, [\\\"Case.Type\\\"]).asEquality(\\\"Case.Type\\\")}};q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};r = filter q by ({{column(filter_activity_owner.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}} && {{column(scatter_activity_per_case.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}); r = group r by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}});r = foreach r generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Owner.Id') as 'avg_activity_cnt', (case when (\\\"{{cell(filter_activity_owner.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\" && \\\"{{cell(scatter_activity_per_case.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\") then \\\"ALL\\\" else \\\"Selected Agents\\\" end) as 'Performance'; s = group q by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}}); s = foreach s generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Owner.Id') as 'avg_activity_cnt', \\\"Team\\\" as 'Performance';u = union r, s; u = filter u by 'Performance' != \\\"ALL\\\";\",\"groups\":[\"{{cell(Time_Selection.selection, 0, \\\"compactGroup\\\").asObject()}}\",\"Performance\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1563,12 +1563,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceActivity1\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastYearCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(count(s)-count(r))/count(r) as 'perc_Percent', (case when 100*(count(s)-count(r))/count(r) < 0 then \\\"#D4504C\\\" when 100*(count(s)-count(r))/count(r) > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastYearCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(count(s)-count(r))/count(r) as 'perc_Percent', (case when 100*(count(s)-count(r))/count(r) < 0 then \\\"#D4504C\\\" when 100*(count(s)-count(r))/count(r) > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1588,7 +1588,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1603,12 +1603,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"case_duration\",null,{\"display\":\"Average Case Duration\"}],[\"sum\",\"activity_per_case\",null,{\"display\":\"Avg Activity per Case\"}],[\"sum\",\"total_cases\",null,{\"display\":\"Number of Cases With Activities\"}]],\"pigql\":\"activity = load \\\"ServiceActivity1\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};activity = group activity by 'Owner.Name';activity = foreach activity generate coalesce(count(), 0) / coalesce(unique('Case.Id'), 0) as 'sum_activity_per_case', coalesce(unique('Case.Id'), 0) as 'sum_total_cases',coalesce(avg('Case.{{column(Static_Duration.selection, [\\\"value\\\"]).asObject()}}'), 0) as 'avg_case_duration','Owner.Name' as 'Owner.Name';activity = limit activity 2000;\",\"autoFilter\":true,\"groups\":[\"Owner.Name\"]}",
+          "query": "{\"measures\":[[\"avg\",\"case_duration\",null,{\"display\":\"Average Case Duration\"}],[\"sum\",\"activity_per_case\",null,{\"display\":\"Avg Activity per Case\"}],[\"sum\",\"total_cases\",null,{\"display\":\"Number of Cases With Activities\"}]],\"pigql\":\"activity = load \\\"<ServiceActivity>\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};activity = group activity by 'Owner.Name';activity = foreach activity generate coalesce(count(), 0) / coalesce(unique('Case.Id'), 0) as 'sum_activity_per_case', coalesce(unique('Case.Id'), 0) as 'sum_total_cases',coalesce(avg('Case.{{column(Static_Duration.selection, [\\\"value\\\"]).asObject()}}'), 0) as 'avg_case_duration','Owner.Name' as 'Owner.Name';activity = limit activity 2000;\",\"autoFilter\":true,\"groups\":[\"Owner.Name\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1628,7 +1628,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1643,12 +1643,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"activity = load \\\"ServiceActivity1\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};activity = group activity by all;activity = foreach activity generate coalesce(count(activity), 0)/coalesce(unique('Owner.Name'), 0) as 'sum_avg_activity_per_agent';activity =limit activity 2000;\",\"measures\":[[\"sum\",\"avg_activity_per_agent\"]]}",
+          "query": "{\"pigql\":\"activity = load \\\"<ServiceActivity>\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};activity = group activity by all;activity = foreach activity generate coalesce(count(activity), 0)/coalesce(unique('Owner.Name'), 0) as 'sum_avg_activity_per_agent';activity =limit activity 2000;\",\"measures\":[[\"sum\",\"avg_activity_per_agent\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1663,12 +1663,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"activity = load \\\"ServiceActivity1\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};activity = group activity by all;activity = foreach activity generate coalesce(count(activity), 0)/coalesce(unique('Case.Id'), 0) as 'sum_avg_activity_per_case';activity =limit activity 2000;\",\"measures\":[[\"sum\",\"avg_activity_per_case\"]],\"autoFilter\":true}",
+          "query": "{\"pigql\":\"activity = load \\\"<ServiceActivity>\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};activity = group activity by all;activity = foreach activity generate coalesce(count(activity), 0)/coalesce(unique('Case.Id'), 0) as 'sum_avg_activity_per_case';activity =limit activity 2000;\",\"measures\":[[\"sum\",\"avg_activity_per_case\"]],\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1683,12 +1683,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceActivity1\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastPeriodCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(count(s)-count(r))/count(r) as 'perc_Percent', (case when 100*(count(s)-count(r))/count(r) < 0 then \\\"#f2536d\\\" when 100*(count(s)-count(r))/count(r) > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastPeriodCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(count(s)-count(r))/count(r) as 'perc_Percent', (case when 100*(count(s)-count(r))/count(r) < 0 then \\\"#f2536d\\\" when 100*(count(s)-count(r))/count(r) > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1708,7 +1708,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1744,12 +1744,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"completed_activity_pct\"]],\"pigql\":\"activity = load \\\"ServiceActivity1\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};comp_activity = filter activity by 'ActivityIsClosed' == \\\"Completed\\\";comp_activity = foreach comp_activity generate count() as 'cnt_comp_activities';result = group comp_activity by all full, activity by all;result = foreach result generate coalesce(sum(comp_activity.cnt_comp_activities), 0) / coalesce(count(activity), 0) * 100 as 'sum_completed_activity_pct';result = limit result 2000;\",\"autoFilter\":true,\"groups\":[]}",
+          "query": "{\"measures\":[[\"sum\",\"completed_activity_pct\"]],\"pigql\":\"activity = load \\\"<ServiceActivity>\\\";activity = filter activity by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};comp_activity = filter activity by 'ActivityIsClosed' == \\\"Completed\\\";comp_activity = foreach comp_activity generate count() as 'cnt_comp_activities';result = group comp_activity by all full, activity by all;result = foreach result generate coalesce(sum(comp_activity.cnt_comp_activities), 0) / coalesce(count(activity), 0) * 100 as 'sum_completed_activity_pct';result = limit result 2000;\",\"autoFilter\":true,\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1764,12 +1764,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceActivity1\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastYearCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') as 'perc_Percent', (case when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') < 0 then \\\"#f2536d\\\" when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastYearCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') as 'perc_Percent', (case when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') < 0 then \\\"#f2536d\\\" when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1789,7 +1789,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1809,7 +1809,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1824,12 +1824,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"activity_cnt\",null,{\"display\":\"Activities per Case\"}]],\"pigql\":\"q = load \\\"ServiceActivity1\\\";q = filter q by {{column(IsClosed_21.selection, [\\\"ActivityIsClosed\\\"]).asEquality(\\\"ActivityIsClosed\\\")}};q = filter q by {{column(pie_activity_type.selection, [\\\"ActivityType\\\"]).asEquality(\\\"ActivityType\\\")}};q = filter q by {{column(activity_count_by_case_priority.selection, [\\\"Case.Priority\\\"]).asEquality(\\\"Case.Priority\\\")}};q = filter q by {{column(filter_account.selection, [\\\"Case.Account.Name\\\"]).asEquality(\\\"Case.Account.Name\\\")}}; q = filter q by {{column(filter_case_record_type.selection, [\\\"Case.Id\\\"]).asEquality(\\\"Case.Id\\\")}} && {{column(filter_case_status.selection, [\\\"Case.IsClosed\\\"]).asEquality(\\\"Case.IsClosed\\\")}}; q = filter q by {{column(filter_role.selection, [\\\"Case.Role.Name\\\"]).asEquality(\\\"Case.Role.Name\\\")}}; q = filter q by {{column(filter_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}} && {{column(activity_by_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}}; q = filter q by {{column(filter_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}} && {{column(activity_by_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}}; q = filter q by {{column(filter_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}} && {{column(activity_by_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}}; q = filter q by {{column(filter_case_type.selection, [\\\"Case.Type\\\"]).asEquality(\\\"Case.Type\\\")}};q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};r = filter q by ({{column(filter_activity_owner.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}} && {{column(scatter_activity_per_case.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}); r = group r by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}});r = foreach r generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Case.Id') as 'avg_activity_cnt', (case when (\\\"{{cell(filter_activity_owner.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\" && \\\"{{cell(scatter_activity_per_case.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\") then \\\"ALL\\\" else \\\"Selected Agents\\\" end) as 'Performance'; s = group q by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}}); s = foreach s generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Case.Id') as 'avg_activity_cnt', \\\"Team\\\" as 'Performance';u = union r, s; u = filter u by 'Performance' != \\\"ALL\\\";\",\"groups\":[\"{{cell(Time_Selection.selection, 0, \\\"compactGroup\\\").asObject()}}\",\"Performance\"]}",
+          "query": "{\"measures\":[[\"avg\",\"activity_cnt\",null,{\"display\":\"Activities per Case\"}]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\";q = filter q by {{column(IsClosed_21.selection, [\\\"ActivityIsClosed\\\"]).asEquality(\\\"ActivityIsClosed\\\")}};q = filter q by {{column(pie_activity_type.selection, [\\\"ActivityType\\\"]).asEquality(\\\"ActivityType\\\")}};q = filter q by {{column(activity_count_by_case_priority.selection, [\\\"Case.Priority\\\"]).asEquality(\\\"Case.Priority\\\")}};q = filter q by {{column(filter_account.selection, [\\\"Case.Account.Name\\\"]).asEquality(\\\"Case.Account.Name\\\")}}; q = filter q by {{column(filter_case_record_type.selection, [\\\"Case.Id\\\"]).asEquality(\\\"Case.Id\\\")}} && {{column(filter_case_status.selection, [\\\"Case.IsClosed\\\"]).asEquality(\\\"Case.IsClosed\\\")}}; q = filter q by {{column(filter_role.selection, [\\\"Case.Role.Name\\\"]).asEquality(\\\"Case.Role.Name\\\")}}; q = filter q by {{column(filter_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}} && {{column(activity_by_product.selection, [\\\"Case.Product_Family_KB__c\\\"]).asEquality(\\\"Case.Product_Family_KB__c\\\")}}; q = filter q by {{column(filter_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}} && {{column(activity_by_reason.selection, [\\\"Case.Reason\\\"]).asEquality(\\\"Case.Reason\\\")}}; q = filter q by {{column(filter_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}} && {{column(activity_by_case_origin.selection, [\\\"Case.Origin\\\"]).asEquality(\\\"Case.Origin\\\")}}; q = filter q by {{column(filter_case_type.selection, [\\\"Case.Type\\\"]).asEquality(\\\"Case.Type\\\")}};q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};r = filter q by ({{column(filter_activity_owner.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}} && {{column(scatter_activity_per_case.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}); r = group r by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}});r = foreach r generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Case.Id') as 'avg_activity_cnt', (case when (\\\"{{cell(filter_activity_owner.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\" && \\\"{{cell(scatter_activity_per_case.selection, 0, \\\"Owner.Name\\\").asString()}}\\\" == \\\"all\\\") then \\\"ALL\\\" else \\\"Selected Agents\\\" end) as 'Performance'; s = group q by ({{cell(Time_Selection.selection, 0, \\\"GroupbyCreatedDate\\\").asObject()}}); s = foreach s generate {{cell(Time_Selection.selection, 0, \\\"GenerateCreatedDate\\\").asObject()}}, count()/unique('Case.Id') as 'avg_activity_cnt', \\\"Team\\\" as 'Performance';u = union r, s; u = filter u by 'Performance' != \\\"ALL\\\";\",\"groups\":[\"{{cell(Time_Selection.selection, 0, \\\"compactGroup\\\").asObject()}}\",\"Performance\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1849,7 +1849,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1869,7 +1869,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1889,7 +1889,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1909,7 +1909,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1924,12 +1924,12 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceActivity1\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastPeriodCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') as 'perc_Percent', (case when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') < 0 then \\\"#f2536d\\\" when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\"; r = filter q by {{cell(Time_Selection.selection, 0, \\\"LastPeriodCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; s = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') as 'perc_Percent', (case when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') < 0 then \\\"#f2536d\\\" when 100*(unique(s.'Case.Id')-unique(r.'Case.Id'))/unique(r.'Case.Id') > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1944,12 +1944,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceActivity1\\\";q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};q = group q by all;q = foreach q generate coalesce(({{coalesce(cell(kpi_activity_per_agent.result, 0, \\\"sum_avg_activity_per_agent\\\"),0).asObject()}} - ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}))/ ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}),0)*100 as 'perc_Percent', (case when coalesce(({{coalesce(cell(kpi_activity_per_agent.result, 0, \\\"sum_avg_activity_per_agent\\\"),0).asObject()}} - ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}))/ ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}),0)*100 < 0 then \\\"#f2536d\\\" when coalesce(({{coalesce(cell(kpi_activity_per_agent.result, 0, \\\"sum_avg_activity_per_agent\\\"),0).asObject()}} - ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}))/ ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}),0)*100 > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true,\"groups\":[]}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceActivity>\\\";q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}};q = group q by all;q = foreach q generate coalesce(({{coalesce(cell(kpi_activity_per_agent.result, 0, \\\"sum_avg_activity_per_agent\\\"),0).asObject()}} - ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}))/ ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}),0)*100 as 'perc_Percent', (case when coalesce(({{coalesce(cell(kpi_activity_per_agent.result, 0, \\\"sum_avg_activity_per_agent\\\"),0).asObject()}} - ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}))/ ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}),0)*100 < 0 then \\\"#f2536d\\\" when coalesce(({{coalesce(cell(kpi_activity_per_agent.result, 0, \\\"sum_avg_activity_per_agent\\\"),0).asObject()}} - ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}))/ ({{coalesce(cell(kpi_total_activity.result, 0, \\\"count\\\"),0).asObject()}}/{{coalesce(cell(kpi_agent_count.result, 0, \\\"unique_Owner.Name\\\"),0).asObject()}}),0)*100 > 0 then \\\"#3CAF6D\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"autoFilter\":true,\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1969,7 +1969,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -1989,7 +1989,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -2025,7 +2025,7 @@
         },
         "datasets": [
           {
-            "name": "ServiceActivity1"
+            "name": "<ServiceActivity>"
           }
         ]
       },
@@ -2033,7 +2033,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"ServiceActivity1\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\")}}; q = foreach q generate first('Case.CaseNumber') as 'Case.CaseNumber','Id', first('Subject') as 'Subject', first('ActivityType') as 'ActivityType', first('Owner.Name') as 'Owner.Name', first('Status') as 'Status', first('Priority') as 'Priority', avg('Case.{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Case.Account.Name') as 'Case.Account.Name'; q = limit q 100;",
+        "query": "q = load \"<ServiceActivity>\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\")}}; q = foreach q generate first('Case.CaseNumber') as 'Case.CaseNumber','Id', first('Subject') as 'Subject', first('ActivityType') as 'ActivityType', first('Owner.Name') as 'Owner.Name', first('Status') as 'Status', first('Priority') as 'Priority', avg('Case.{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Case.Account.Name') as 'Case.Account.Name'; q = limit q 100;",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
