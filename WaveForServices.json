@@ -112,6 +112,10 @@
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAccountProfile.json"
 		},
 		{
+			"Name": "ServiceAgentActivity",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentActivity.json"
+		},
+		{
 			"Name": "ServiceAgentPerformance",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentPerformance.json"
 		},
