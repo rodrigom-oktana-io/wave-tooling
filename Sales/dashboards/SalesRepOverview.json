@@ -1410,7 +1410,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"<activity>\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; today = filter a by date('<activity>Date_Year','<activity>Date_Month', '<activity>Date_Day') in [\\\"7 days ago\\\"..\\\"current day\\\"]; last_week = filter a by date('<activity>Date_Year','<activity>Date_Month', '<activity>Date_Day') in [\\\"15 days ago\\\"..\\\"8 days ago\\\"]; q = group today by all full, last_week by all; q = foreach q generate coalesce(count('today'),0) as 'today', coalesce(count('last_week'),0) as 'last_week'; q = foreach q generate (case when coalesce(sum('last_week'),0) == 0 && coalesce(sum('today'),0) > 0 then 1.0 else coalesce((coalesce(sum('today'),0) - coalesce(sum('last_week'),0))/coalesce(sum('last_week'),0),0) end) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"<activity>\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; today = filter a by date('ActivityDate_Year','ActivityDate_Month', 'ActivityDate_Day') in [\\\"7 days ago\\\"..\\\"current day\\\"]; last_week = filter a by date('ActivityDate_Year','ActivityDate_Month', 'ActivityDate_Day') in [\\\"15 days ago\\\"..\\\"8 days ago\\\"]; q = group today by all full, last_week by all; q = foreach q generate coalesce(count('today'),0) as 'today', coalesce(count('last_week'),0) as 'last_week'; q = foreach q generate (case when coalesce(sum('last_week'),0) == 0 && coalesce(sum('today'),0) > 0 then 1.0 else coalesce((coalesce(sum('today'),0) - coalesce(sum('last_week'),0))/coalesce(sum('last_week'),0),0) end) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
@@ -1469,7 +1469,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"<activity>Date\",\"{{column(dropdown_close_date.selection, [\\\"current\\\"]).asObject()}}\",\"in\"],[\"Owner.Name\",\"{{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asObject()}}\",\"in\"],[\"Opportunity.RecordType.Name\",\"{{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asObject()}}\",\"in\"],[\"Opportunity.Type\",\"{{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asObject()}}\",\"in\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"ActivityDate\",\"{{column(dropdown_close_date.selection, [\\\"current\\\"]).asObject()}}\",\"in\"],[\"Owner.Name\",\"{{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asObject()}}\",\"in\"],[\"Opportunity.RecordType.Name\",\"{{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asObject()}}\",\"in\"],[\"Opportunity.Type\",\"{{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asObject()}}\",\"in\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1489,7 +1489,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"pigql\":\"q = load \\\"<opportunity>\\\"; q = filter q by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; q = filter q by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; q = filter q by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; q = filter q by 'IsClosed' ==\\\"false\\\"; q = filter q by {{column(dropdown_stage_list.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; q = group q by ('Id','Name'); q = foreach q generate 'Id' as 'Id','Name' as 'Name', sum('Amount') as 'sum_Amount', sum('DaysSinceLast<activity>') as 'DaysBetween'; q = filter q by 'DaysBetween' > 60; q = order q by 'sum_Amount' desc; q = limit q 10;\",\"groups\":[\"Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"pigql\":\"q = load \\\"<opportunity>\\\"; q = filter q by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; q = filter q by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; q = filter q by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; q = filter q by 'IsClosed' ==\\\"false\\\"; q = filter q by {{column(dropdown_stage_list.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; q = group q by ('Id','Name'); q = foreach q generate 'Id' as 'Id','Name' as 'Name', sum('Amount') as 'sum_Amount', sum('DaysSinceLastActivity') as 'DaysBetween'; q = filter q by 'DaysBetween' > 60; q = order q by 'sum_Amount' desc; q = limit q 10;\",\"groups\":[\"Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -1627,7 +1627,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"<activity>\\\"; a = filter a by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\"); a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('<activity>Date_Year', '<activity>Date_Month', '<activity>Date_Day')\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = group a by 'OwnerId'; a = foreach a generate count() as 'owner_count', 'OwnerId' as 'OwnerId'; a = group a by all; a = foreach a generate coalesce(coalesce(sum('owner_count'),0) / unique('OwnerId'),0) as 'team_avg'; a = foreach a generate coalesce(({{coalesce(cell(kpi_activities_completed.result, 0, \\\"count\\\"), 0).asObject()}} - coalesce(sum('team_avg'),0)) / coalesce(sum('team_avg'),0),0) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"<activity>\\\"; a = filter a by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\"); a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day')\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = group a by 'OwnerId'; a = foreach a generate count() as 'owner_count', 'OwnerId' as 'OwnerId'; a = group a by all; a = foreach a generate coalesce(coalesce(sum('owner_count'),0) / unique('OwnerId'),0) as 'team_avg'; a = foreach a generate coalesce(({{coalesce(cell(kpi_activities_completed.result, 0, \\\"count\\\"), 0).asObject()}} - coalesce(sum('team_avg'),0)) / coalesce(sum('team_avg'),0),0) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
@@ -1976,7 +1976,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 12,
-          "text": "* Opportunities with no <activity> in the past 60 days.",
+          "text": "* Opportunities with no activity in the past 60 days.",
           "textAlignment": "center",
           "textColor": "#091A3E"
         },

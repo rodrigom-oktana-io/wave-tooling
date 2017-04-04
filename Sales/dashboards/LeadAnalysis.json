@@ -1,5 +1,5 @@
 {
-  "label": "<lead> Analysis",
+  "label": "Lead Analysis",
   "folder": {
     "id": "<folderId>"
   },
@@ -1196,7 +1196,7 @@
       "ui_text_lead_source": {
         "parameters": {
           "fontSize": 14,
-          "text": "<lead> Source",
+          "text": "Lead Source",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -1227,7 +1227,7 @@
           "theme": "dark",
           "exploreLink": true,
           "title": {
-            "label": "<lead> Conversion",
+            "label": "Lead Conversion",
             "align": "center",
             "subtitleLabel": ""
           },
@@ -1244,7 +1244,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "<lead> Analysis",
+          "text": "Lead Analysis",
           "textAlignment": "center",
           "textColor": "rgb(60, 141, 225)"
         },
@@ -1261,7 +1261,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "<lead> Performance Details",
+          "text": "Lead Performance Details",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -1270,7 +1270,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 14,
-          "text": "<lead> Conversion over Time",
+          "text": "Lead Conversion over Time",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -1340,7 +1340,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 20,
-          "text": "<lead> Conversion",
+          "text": "Lead Conversion",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1349,7 +1349,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 20,
-          "text": "<lead> Analysis",
+          "text": "Lead Analysis",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1449,7 +1449,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 24,
-          "text": "<lead> Analysis",
+          "text": "Lead Analysis",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -1495,7 +1495,7 @@
           "exploreLink": false,
           "instant": true,
           "step": "time_dropdown",
-          "title": "<lead> Created Date"
+          "title": "Lead Created Date"
         },
         "type": "listselector"
       },

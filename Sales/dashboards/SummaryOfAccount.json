@@ -919,7 +919,7 @@
           }
         ]
       },
-      "days_since_last_<activity>": {
+      "days_since_last_activity": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "none",
@@ -930,7 +930,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"min\",\"DaysSinceLast<activity>\"]],\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"min\",\"DaysSinceLastActivity\"]],\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -1006,12 +1006,12 @@
         "parameters": {
           "compact": false,
           "exploreLink": true,
-          "measureField": "min_DaysSinceLast<activity>",
+          "measureField": "min_DaysSinceLastActivity",
           "numberColor": "#FFFFFF",
           "numberSize": 18,
-          "step": "days_since_last_<activity>",
+          "step": "days_since_last_activity",
           "textAlignment": "center",
-          "title": "Days Since <activity>",
+          "title": "Days Since Activity",
           "titleColor": "#FFFFFF",
           "titleSize": 14
         },
@@ -1162,7 +1162,7 @@
           "exploreLink": true,
           "medium": 1,
           "title": {
-            "label": "Days Since Last <activity>",
+            "label": "Days Since Last Activity",
             "align": "left",
             "subtitleLabel": ""
           },
@@ -1183,7 +1183,7 @@
           "high": 100,
           "min": 0,
           "valueType": "compactNumber",
-          "step": "days_since_last_<activity>",
+          "step": "days_since_last_activity",
           "theme": "dark",
           "referenceLine": null
         },
@@ -1739,12 +1739,12 @@
         "parameters": {
           "compact": false,
           "exploreLink": true,
-          "measureField": "max_DaysSinceLast<activity>",
+          "measureField": "max_DaysSinceLastActivity",
           "numberColor": "#FFFFFF",
           "numberSize": 24,
-          "step": "days_since_last_<activity>",
+          "step": "days_since_last_activity",
           "textAlignment": "center",
-          "title": "Days Since <activity>",
+          "title": "Days Since Activity",
           "titleColor": "#FFFFFF",
           "titleSize": 14
         },
