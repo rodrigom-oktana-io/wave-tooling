@@ -701,7 +701,7 @@
         ],
         "datasets": []
       },
-      "<lead>_target_line": {
+      "lead_target_line": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
@@ -1086,10 +1086,10 @@
           }
         ]
       },
-      "barchart_<lead>_conversion": {
+      "barchart_lead_conversion": {
         "isFacet": true,
         "isGlobal": false,
-        "label": "<lead>_Conversion",
+        "label": "Lead_Conversion",
         "selectMode": "single",
         "type": "aggregateflex",
         "useGlobal": true,
@@ -1500,7 +1500,7 @@
             "predictiveLine": null
           },
           "title": {
-            "label": "<lead> Conversion Rate",
+            "label": "Lead Conversion Rate",
             "align": "left",
             "subtitleLabel": ""
           },
@@ -1525,13 +1525,13 @@
             "referenceLine": {
               "color": "rgb(255, 136, 35)",
               "label": "Average",
-              "value": "{{cell(<lead>_target_line.result,0,\"sum_percent\").asString()}}"
+              "value": "{{cell(lead_target_line.result,0,\"sum_percent\").asString()}}"
             },
             "showAxis": true,
             "title": ""
           },
           "theme": "light",
-          "step": "barchart_<lead>_conversion"
+          "step": "barchart_lead_conversion"
         },
         "type": "chart"
       },
