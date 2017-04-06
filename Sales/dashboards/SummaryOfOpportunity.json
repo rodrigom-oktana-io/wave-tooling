@@ -633,7 +633,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"<pipeline_trending>\\\"; q = filter q by {{coalesce(column(oppty_id_filter.result, [\\\"Id\\\"]),\\\"0\\\").asEquality(\\\"OpportunityId\\\")}}; q = filter q by {{column(oppty_name_filter.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; q = filter q by 'Stage_isUpdated' == \\\"1\\\"; q = order q by 'CreatedDate_sec_epoch' asc; q = foreach q generate 'CreatedDate_sec_epoch' as 'CreatedDate_sec_epoch', 'Opportunity.StageName', (case when 'Opportunity.IsClosed' == \\\"false\\\" then daysBetween(toDate(last('CreatedDate_Day') + \\\"-\\\" + last('CreatedDate_Month') + \\\"-\\\" + last('CreatedDate_Year'), \\\"dd-MM-yyyy\\\"), now()) else 0 end) as 'sum_diff';\",\"measures\":[[\"sum\",\"diff\"]]}",
+          "query": "{\"pigql\":\"q = load \\\"<pipeline_trending>\\\"; q = filter q by {{coalesce(column(oppty_id_filter.result, [\\\"Id\\\"]),\\\"0\\\").asEquality(\\\"OpportunityId\\\")}}; q = filter q by {{column(oppty_name_filter.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; q = filter q by 'Stage_isUpdated' == \\\"1\\\"; q = order q by 'CreatedDate__c_sec_epoch' asc; q = foreach q generate 'CreatedDate__c_sec_epoch' as 'CreatedDate__c_sec_epoch', 'Opportunity.StageName', (case when 'Opportunity.IsClosed' == \\\"false\\\" then daysBetween(toDate(last('CreatedDate__c_Day') + \\\"-\\\" + last('CreatedDate__c_Month') + \\\"-\\\" + last('CreatedDate__c_Year'), \\\"dd-MM-yyyy\\\"), now()) else 0 end) as 'sum_diff';\",\"measures\":[[\"sum\",\"diff\"]]}",
           "version": -1
         },
         "datasets": [
@@ -692,7 +692,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{coalesce(column(oppty_id_filter.result, [\\\"Id\\\"]),\\\"0\\\").asEquality(\\\"Id\\\")}}; a = filter a by {{column(oppty_name_filter.selection, [\\\"Name\\\"]).asEquality(\\\"Name\\\")}}; a = foreach a generate (case when 'IsClosed' == \\\"true\\\" then sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') else daysBetween(toDate('CreatedDate_Year' + \\\"-\\\" + 'CreatedDate_Month' + \\\"-\\\" + 'CreatedDate_Day', \\\"yyyy-MM-dd\\\"), now()) end) as 'sum_Days_Open';\",\"measures\":[[\"sum\",\"Days_Open\"]]}",
+          "query": "{\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{coalesce(column(oppty_id_filter.result, [\\\"Id\\\"]),\\\"0\\\").asEquality(\\\"Id\\\")}}; a = filter a by {{column(oppty_name_filter.selection, [\\\"Name\\\"]).asEquality(\\\"Name\\\")}}; a = foreach a generate (case when 'IsClosed' == \\\"true\\\" then sum('CloseDate_day_epoch') - sum('CreatedDate__c_day_epoch') else daysBetween(toDate('CreatedDate__c_Year' + \\\"-\\\" + 'CreatedDate__c_Month' + \\\"-\\\" + 'CreatedDate__c_Day', \\\"yyyy-MM-dd\\\"), now()) end) as 'sum_Days_Open';\",\"measures\":[[\"sum\",\"Days_Open\"]]}",
           "version": -1
         },
         "datasets": [
