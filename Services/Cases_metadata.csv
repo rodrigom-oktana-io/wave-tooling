@@ -1,28 +1,7 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
 ExternalId,External_Id__c,Text,,50,0,0,TRUE,TRUE
-Channel,Channel,Text,,100,0,0,FALSE,TRUE
-Store,Store,Text,User,100,0,0,FALSE,TRUE
 Product_Family_KB__c,Product_Family_KB__c,Text,,100,0,0,FALSE,TRUE
-Priority,Priority,Text,,100,15,2,FALSE,TRUE
-Average Age,Average Age,Text,,100,0,0,FALSE,FALSE
-Percent Male,Percent Male,Text,,100,0,0,FALSE,FALSE
-SLA,SLA,Text,,100,0,0,FALSE,TRUE
-Daily Revenue,Daily Revenue,Text,,100,0,0,FALSE,FALSE
-Reason,Reason,Text,,100,0,0,FALSE,TRUE
-Reg Price,Reg Price,Text,,100,0,0,FALSE,FALSE
 Type_of_Support__c,Type_of_Support__c,Text,,100,0,0,FALSE,TRUE
-Price,Price,Text,,100,0,0,FALSE,FALSE
-Quantity,Quantity,Text,,100,0,0,FALSE,FALSE
-Cost,Cost,Text,,100,0,0,FALSE,FALSE
-Profit,Profit,Text,,100,0,0,FALSE,FALSE
 CSAT__c,CSAT__c,Text,,100,0,0,FALSE,TRUE
-Profit Log,Profit Log,Text,,100,0,0,FALSE,FALSE
-Outlier,Outlier,Text,,100,0,0,FALSE,FALSE
-Status,Status,Text,,100,0,0,FALSE,TRUE
 First_Contact_Close__c,First_Contact_Close__c,Checkbox,,100,0,0,FALSE,TRUE
-time_open,time_open,Number,,100,0,0,FALSE,TRUE
-close_date_offset,close_date_offset,Number,,100,0,0,FALSE,FALSE
-account_case_ct,account_case_ct,Number,,100,0,0,FALSE,FALSE
-DateOpened,DateOpened,Date,,100,0,0,FALSE,TRUE
-DateClosed,DateClosed,Date,,100,0,0,FALSE,TRUE
-IsEscalated,IsEscalated,Checkbox,,100,0,0,FALSE,TRUE
+Created Date,CreatedDate__c,Date,,100,0,0,FALSE,FALSE
