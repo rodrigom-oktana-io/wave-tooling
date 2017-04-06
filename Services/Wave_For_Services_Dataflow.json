@@ -163,7 +163,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": "0",
-          "name": "CreatedDate",
+          "name": "CreatedDate__c",
           "isYearEndFiscalYear": false
         },
         {
@@ -298,7 +298,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": "0",
-          "name": "CreatedDate",
+          "name": "CreatedDate__c",
           "isYearEndFiscalYear": false
         },
         {
@@ -399,7 +399,7 @@
           "defaultValue": "0",
           "precision": 18,
           "name": "DurationCalculatedField",
-          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CreatedDate_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate_sec_epoch')/86400  end",
+          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
           "scale": 2,
           "label": "Case Duration",
           "type": "Numeric"
@@ -425,7 +425,7 @@
         "Type",
         "IsClosed",
         "ClosedDate",
-        "CreatedDate",
+        "CreatedDate__c",
         "SLA_Type__c",
         "Status",
         "Product_Family_KB__c",
