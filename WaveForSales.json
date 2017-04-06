@@ -56,34 +56,6 @@
 					"foreignKeyField" : "AccountId"
 				}
 			]
-		},
-		{
-			"name": "Task",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OwnerId"
-				}
-			]
-		},
-		{
-			"name": "Event",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OwnerId"
-				}
-			]
 		}
 	],
 	"edgemarts": [
