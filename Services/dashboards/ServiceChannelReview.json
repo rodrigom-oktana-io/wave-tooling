@@ -900,7 +900,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -937,7 +937,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -956,7 +956,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Account.BillingCountry\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Account.BillingCountry\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -975,7 +975,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Type\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Type\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -996,12 +996,12 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"YTD\",\"Backlog30DayClose\":\"[\\\"current day - 395 days\\\"..\\\"current day - 1 year\\\"]\",\"BacklogCompare\":[\"current day - 1 year\",\"current day\"],\"BacklogLabel\":\"Backlog Last Year\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate_Month')\",\"Compact\":[[\"year\",0],[\"year\",0]],\"CreatedField\":\"'CreatedDate_Month'\",\"CreatedProjection\":\"created['CreatedDate_Month']\",\"Current\":[\"current year\",\"current day\"],\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month\",\"LastPeriodCompare\":[\"current year - 1 year\",\"current day - 1 year\"],\"LastYearCompare\":[\"current year - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"filter\":\"year\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"SAQL\":\"coalesce((avg(ThisYear['DurationCalculatedField'])-avg(LastYear['DurationCalculatedField']))/avg(LastYear['DurationCalculatedField']),0)*100 as sum_Percent\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"QTD\",\"Backlog30DayClose\":\"[\\\"current day - 120 days\\\"..\\\"current day - 1 quarter\\\"]\",\"BacklogCompare\":[\"current day - 1 quarter\",\"current day\"],\"BacklogLabel\":\"Backlog Last Quarter\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate_Week')\",\"Compact\":[[\"quarter\",0],[\"quarter\",0]],\"CreatedField\":\"'CreatedDate_Week'\",\"CreatedProjection\":\"created['CreatedDate_Week']\",\"Current\":[\"current quarter\",\"current day\"],\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Week')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Week\",\"LastPeriodCompare\":[\"current quarter - 1 quarter\",\"current day - 1 quarter\"],\"LastYearCompare\":[\"current quarter - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Week\"],\"filter\":\"quarter\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"SAQL\":\"coalesce((avg(ThisYear['DurationCalculatedField'])-avg(LastYear['DurationCalculatedField']))/avg(LastYear['DurationCalculatedField']),0)*100 as sum_Percent\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"MTD\",\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 1 month\\\"]\",\"BacklogCompare\":[\"current day - 1 month\",\"current day\"],\"BacklogLabel\":\"Backlog Last Month\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate_Month','CreatedDate_Day')\",\"Compact\":[[\"month\",0],[\"month\",0]],\"CreatedField\":\"'CreatedDate_Month','CreatedDate_Day'\",\"CreatedProjection\":\"created['CreatedDate_Month'] +\\\"~~~\\\" + created['CreatedDate_Day']\",\"Current\":[\"current month\",\"current month\"],\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month']+\\\"~~~\\\"+created['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"LastPeriodCompare\":[\"current month - 1 month\",\"current day - 1 month\"],\"LastYearCompare\":[\"current month - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month']+\\\"~~~\\\"+ThisYear['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"Last 7 Days\",\"Backlog30DayClose\":\"[\\\"current day - 37 days\\\"..\\\"current day - 7 days\\\"]\",\"BacklogCompare\":[\"current day - 1 week\",\"current day\"],\"BacklogLabel\":\"Backlog Last 7 Days\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate_Month','CreatedDate_Day')\",\"Compact\":[[\"day\",-7],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Month','CreatedDate_Day'\",\"CreatedProjection\":\"created['CreatedDate_Month'] +\\\"~~~\\\" + created['CreatedDate_Day']\",\"Current\":[\"7 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month']+\\\"~~~\\\"+created['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"LastPeriodCompare\":[\"7 days ago - 1 week\",\"current day - 1 week\"],\"LastYearCompare\":[\"7 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month']+\\\"~~~\\\"+ThisYear['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"Last 30 Days\",\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 30 days\\\"]\",\"BacklogCompare\":[\"current day - 30 days\",\"current day\"],\"BacklogLabel\":\"Backlog Last 30 Days\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate_Week')\",\"Compact\":[[\"day\",-30],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Week'\",\"CreatedProjection\":\"created['CreatedDate_Week']\",\"Current\":[\"30 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Week')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Week\",\"LastPeriodCompare\":[\"30 days ago - 30 days\",\"current day - 30 days\"],\"LastYearCompare\":[\"30 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Week\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"Last 180 Days\",\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":[\"current day - 180 days\",\"current day\"],\"BacklogLabel\":\"Backlog Last 180 Days\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate_Month')\",\"Compact\":[[\"day\",-180],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Month'\",\"CreatedProjection\":\"created['CreatedDate_Month']\",\"Current\":[\"180 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month\",\"LastPeriodCompare\":[\"180 days ago - 180 days\",\"current day - 180 days\"],\"LastYearCompare\":[\"180 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}"
+          "{\"display\":\"YTD\",\"Backlog30DayClose\":\"[\\\"current day - 395 days\\\"..\\\"current day - 1 year\\\"]\",\"BacklogCompare\":[\"current day - 1 year\",\"current day\"],\"BacklogLabel\":\"Backlog Last Year\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate__c_Month')\",\"Compact\":[[\"year\",0],[\"year\",0]],\"CreatedField\":\"'CreatedDate__c_Month'\",\"CreatedProjection\":\"created['CreatedDate__c_Month']\",\"Current\":[\"current year\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"LastPeriodCompare\":[\"current year - 1 year\",\"current day - 1 year\"],\"LastYearCompare\":[\"current year - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"],\"filter\":\"year\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"SAQL\":\"coalesce((avg(ThisYear['DurationCalculatedField'])-avg(LastYear['DurationCalculatedField']))/avg(LastYear['DurationCalculatedField']),0)*100 as sum_Percent\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
+          "{\"display\":\"QTD\",\"Backlog30DayClose\":\"[\\\"current day - 120 days\\\"..\\\"current day - 1 quarter\\\"]\",\"BacklogCompare\":[\"current day - 1 quarter\",\"current day\"],\"BacklogLabel\":\"Backlog Last Quarter\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate__c_Week')\",\"Compact\":[[\"quarter\",0],[\"quarter\",0]],\"CreatedField\":\"'CreatedDate__c_Week'\",\"CreatedProjection\":\"created['CreatedDate__c_Week']\",\"Current\":[\"current quarter\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Week')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"LastPeriodCompare\":[\"current quarter - 1 quarter\",\"current day - 1 quarter\"],\"LastYearCompare\":[\"current quarter - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Week\"],\"filter\":\"quarter\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"SAQL\":\"coalesce((avg(ThisYear['DurationCalculatedField'])-avg(LastYear['DurationCalculatedField']))/avg(LastYear['DurationCalculatedField']),0)*100 as sum_Percent\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
+          "{\"display\":\"MTD\",\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 1 month\\\"]\",\"BacklogCompare\":[\"current day - 1 month\",\"current day\"],\"BacklogLabel\":\"Backlog Last Month\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate__c_Month','CreatedDate__c_Day')\",\"Compact\":[[\"month\",0],[\"month\",0]],\"CreatedField\":\"'CreatedDate__c_Month','CreatedDate__c_Day'\",\"CreatedProjection\":\"created['CreatedDate__c_Month'] +\\\"~~~\\\" + created['CreatedDate__c_Day']\",\"Current\":[\"current month\",\"current month\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month']+\\\"~~~\\\"+created['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"LastPeriodCompare\":[\"current month - 1 month\",\"current day - 1 month\"],\"LastYearCompare\":[\"current month - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month']+\\\"~~~\\\"+ThisYear['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
+          "{\"display\":\"Last 7 Days\",\"Backlog30DayClose\":\"[\\\"current day - 37 days\\\"..\\\"current day - 7 days\\\"]\",\"BacklogCompare\":[\"current day - 1 week\",\"current day\"],\"BacklogLabel\":\"Backlog Last 7 Days\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate__c_Month','CreatedDate__c_Day')\",\"Compact\":[[\"day\",-7],[\"day\",0]],\"CreatedField\":\"'CreatedDate__c_Month','CreatedDate__c_Day'\",\"CreatedProjection\":\"created['CreatedDate__c_Month'] +\\\"~~~\\\" + created['CreatedDate__c_Day']\",\"Current\":[\"7 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month']+\\\"~~~\\\"+created['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"LastPeriodCompare\":[\"7 days ago - 1 week\",\"current day - 1 week\"],\"LastYearCompare\":[\"7 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month']+\\\"~~~\\\"+ThisYear['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
+          "{\"display\":\"Last 30 Days\",\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 30 days\\\"]\",\"BacklogCompare\":[\"current day - 30 days\",\"current day\"],\"BacklogLabel\":\"Backlog Last 30 Days\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate__c_Week')\",\"Compact\":[[\"day\",-30],[\"day\",0]],\"CreatedField\":\"'CreatedDate__c_Week'\",\"CreatedProjection\":\"created['CreatedDate__c_Week']\",\"Current\":[\"30 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Week')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"LastPeriodCompare\":[\"30 days ago - 30 days\",\"current day - 30 days\"],\"LastYearCompare\":[\"30 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Week\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
+          "{\"display\":\"Last 180 Days\",\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":[\"current day - 180 days\",\"current day\"],\"BacklogLabel\":\"Backlog Last 180 Days\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate__c_Month')\",\"Compact\":[[\"day\",-180],[\"day\",0]],\"CreatedField\":\"'CreatedDate__c_Month'\",\"CreatedProjection\":\"created['CreatedDate__c_Month']\",\"Current\":[\"180 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"LastPeriodCompare\":[\"180 days ago - 180 days\",\"current day - 180 days\"],\"LastYearCompare\":[\"180 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}"
         ],
         "datasets": []
       },
@@ -1015,7 +1015,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1035,7 +1035,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"{{cell(Time_Selection.selection,0,\\\"compactGroup\\\").asObject()}}\",\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"{{cell(Time_Selection.selection,0,\\\"compactGroup\\\").asObject()}}\",\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1093,7 +1093,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1130,7 +1130,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1149,7 +1149,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Origin\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Origin\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1169,7 +1169,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1189,7 +1189,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1208,7 +1208,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Id\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Id\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1228,7 +1228,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":\"{{concat(column(Static_Duration.selection, [\\\"value\\\"]), cell(static_CSAT.selection,0, \\\"compact\\\")).asObject()}}\",\"groups\":[\"Origin\"],\"filters\":[[\"CSAT\",[[\"{{cell(static_CSAT.selection,0, \\\"mea\\\").asObject()}}\"]],\">=\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":\"{{concat(column(Static_Duration.selection, [\\\"value\\\"]), cell(static_CSAT.selection,0, \\\"compact\\\")).asObject()}}\",\"groups\":[\"Origin\"],\"filters\":[[\"CSAT\",[[\"{{cell(static_CSAT.selection,0, \\\"mea\\\").asObject()}}\"]],\">=\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1280,7 +1280,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"filters\":[[\"CSAT\",[[-10]],\">=\"],[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"filters\":[[\"CSAT\",[[-10]],\">=\"],[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1300,7 +1300,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1320,7 +1320,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"BacklogCompare\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; q = filter q by 'IsClosed' == \\\"true\\\"; q = group q by 'First_Contact_Close__c'; q = foreach q generate 'First_Contact_Close__c' as 'First_Contact_Close__c', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'First_Contact_Close__c' == \\\"true\\\"; \",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"BacklogCompare\\\").asDateRange(\\\"date('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\\\")}}; q = filter q by 'IsClosed' == \\\"true\\\"; q = group q by 'First_Contact_Close__c'; q = foreach q generate 'First_Contact_Close__c' as 'First_Contact_Close__c', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'First_Contact_Close__c' == \\\"true\\\"; \",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -1340,7 +1340,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"measures\":[[\"avg\",\"Duration\"]],\"autoFilter\":true}",
+          "query": "{\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\\\")}}; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"measures\":[[\"avg\",\"Duration\"]],\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -1395,7 +1395,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SLA_Type__c\"],\"filters\":[[\"CreatedDate\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SLA_Type__c\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
