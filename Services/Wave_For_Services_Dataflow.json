@@ -102,7 +102,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": "0",
-          "name": "CreatedDate",
+          "name": "CreatedDate__c",
           "isYearEndFiscalYear": false
         },
         {
