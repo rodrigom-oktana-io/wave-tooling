@@ -738,7 +738,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"IsConverted\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"IsConverted\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -751,7 +751,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"<lead>\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('Country') as 'Country', first('Industry') as 'Industry', first('Owner.Name') as 'Owner.Name', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'IsConverted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'sum_LeadAge';",
+        "query": "q = load \"<lead>\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('Country') as 'Country', first('Industry') as 'Industry', first('Owner.Name') as 'Owner.Name', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'IsConverted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'sum_LeadAge';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -768,7 +768,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Status\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Status\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -788,7 +788,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"LeadSource\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"LeadSource\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -808,7 +808,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -849,7 +849,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"false\"],\"in\"],[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"false\"],\"in\"],[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -869,7 +869,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -889,7 +889,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Country\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Country\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -909,7 +909,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -951,7 +951,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Rating\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Rating\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
@@ -964,7 +964,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "leads = load \"<lead>\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
+        "query": "leads = load \"<lead>\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -982,7 +982,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"ConvertedDate_Year\",\"ConvertedDate_Week\"]],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"IsConverted\",[\"true\"],\"in\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"ConvertedDate_Year\",\"ConvertedDate_Week\"]],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"IsConverted\",[\"true\"],\"in\"]]}",
           "version": -1
         },
         "datasets": [
