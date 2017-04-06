@@ -1727,7 +1727,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"limit\":10,\"groups\":[\"Name\"],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"],[\"CloseDate\",\"{{column(dropdown_close_date.selection, [\\\"current\\\"]).asObject()}}\",\"in\"],[\"Owner.Name\",\"{{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asObject()}}\",\"in\"],[\"CreatedDate\",\"{{column(dropdown_created_date.selection, [\\\"compact\\\"]).asObject()}}\",\"in\"],[\"RecordType.Name\",\"{{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asObject()}}\",\"in\"],[\"Type\",\"{{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asObject()}}\",\"in\"],[\"StageName\",\"{{column(dropdown_stage_list.selection, [\\\"StageName\\\"]).asObject()}}\",\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"limit\":10,\"groups\":[\"Name\"],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"],[\"CloseDate\",\"{{column(dropdown_close_date.selection, [\\\"current\\\"]).asObject()}}\",\"in\"],[\"Owner.Name\",\"{{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asObject()}}\",\"in\"],[\"CreatedDate__c\",\"{{column(dropdown_created_date.selection, [\\\"compact\\\"]).asObject()}}\",\"in\"],[\"RecordType.Name\",\"{{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asObject()}}\",\"in\"],[\"Type\",\"{{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asObject()}}\",\"in\"],[\"StageName\",\"{{column(dropdown_stage_list.selection, [\\\"StageName\\\"]).asObject()}}\",\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
