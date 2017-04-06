@@ -443,7 +443,7 @@
         },
         "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate_Year\"]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate__c_Year\"]}",
           "version": -1
         },
         "datasets": [
