@@ -890,7 +890,7 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Days_Open\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = foreach a generate first('Owner.Name') as 'Owner.Name', sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; a = group a by all; a = foreach a generate avg('Days_Open') as 'avg_Days_Open';\",\"groups\":[],\"order\":[]}",
+          "query": "{\"measures\":[[\"avg\",\"Days_Open\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = foreach a generate first('Owner.Name') as 'Owner.Name', sum('CloseDate_day_epoch') - sum('CreatedDate__c_day_epoch') as 'Days_Open'; a = group a by all; a = foreach a generate avg('Days_Open') as 'avg_Days_Open';\",\"groups\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
