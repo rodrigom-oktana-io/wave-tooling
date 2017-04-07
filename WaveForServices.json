@@ -55,6 +55,10 @@
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "AccountId"
 				}
+			],
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"ClosedDate"
 			]
 		},
 		{
@@ -75,6 +79,9 @@
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "CreatedById__c"
 				}
+			],
+			"dateFieldsToShift": [
+				"CreatedDate__c"
 			]
 		}
 	],
