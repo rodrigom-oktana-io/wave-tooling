@@ -4,7 +4,6 @@ Close Date,CloseDate__c,Date,,0,0,0,FALSE,TRUE
 Created Date,CreatedDate__c,Date,,100,0,0,FALSE,TRUE
 Expected Revenue,ExpectedRevenue__c,Currency,,0,18,2,FALSE,FALSE
 Forecast Category,ForecastCategory__c,Text,,40,0,0,FALSE,FALSE
-Deleted,IsDeleted__c,Checkbox,,0,0,0,FALSE,TRUE
 Opportunity ID,OpportunityId__c,MasterDetail,Opportunity,0,0,0,FALSE,TRUE
 Probability,Probability__c,Percent,,0,3,0,FALSE,FALSE
 Stage Name,StageName__c,Text,,40,0,0,FALSE,TRUE
