@@ -355,7 +355,7 @@
     "parameters": {
       "fields": [
         {
-          "name": "IsClosed"
+          "name": "IsClosed__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -363,16 +363,16 @@
           "name": "CreatedDate__c"
         },
         {
-          "name": "Description"
+          "name": "Description__c"
         },
         {
-          "name": "ForecastCategory"
+          "name": "ForecastCategory__c"
         },
         {
-          "name": "ForecastCategoryName"
+          "name": "ForecastCategoryName__c"
         },
         {
-          "name": "IsActive"
+          "name": "IsActive__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -380,22 +380,22 @@
           "name": "LastModifiedDate"
         },
         {
-          "name": "MasterLabel"
+          "name": "MasterLabel__c"
         },
         {
           "name": "Id"
         },
         {
-          "name": "DefaultProbability"
+          "name": "DefaultProbability__c"
         },
         {
-          "name": "SortOrder"
+          "name": "SortOrder__c"
         },
         {
           "name": "SystemModstamp"
         },
         {
-          "name": "IsWon"
+          "name": "IsWon__c"
         }
       ],
       "object": "OpportunityStage__c"
@@ -644,15 +644,15 @@
     "action": "augment",
     "parameters": {
       "right_key": [
-        "MasterLabel"
+        "MasterLabel__c"
       ],
       "left": "Add_Fields_to_OpportunityHistory",
       "left_key": [
         "StageName"
       ],
       "right_select": [
-        "IsClosed",
-        "IsWon"
+        "IsClosed__c",
+        "IsWon__c"
       ],
       "right": "Extract_OpportunityStage",
       "relationship": "Stage"
@@ -764,15 +764,15 @@
     "action": "augment",
     "parameters": {
       "right_key": [
-        "MasterLabel"
+        "MasterLabel__c"
       ],
       "left": "Add_Fields_To_Opportunity",
       "left_key": [
         "StageName"
       ],
       "right_select": [
-        "SortOrder",
-        "DefaultProbability"
+        "SortOrder__c",
+        "DefaultProbability__c"
       ],
       "right": "Extract_OpportunityStage",
       "relationship": "Stage"
@@ -810,7 +810,7 @@
               "label": "CreatedDate"
             },
             {
-              "name": "Amount",
+              "name": "Amount__c",
               "description": "Amount",
               "label": "Amount"
             }
@@ -822,12 +822,12 @@
     "parameters": {
       "fields": [
         {
-          "name": "Amount"
+          "name": "Amount__c"
         },
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CloseDate"
+          "name": "CloseDate__c"
         },
         {
           "name": "CreatedById"
@@ -838,7 +838,7 @@
           "name": "CreatedDate__c"
         },
         {
-          "name": "ForecastCategory"
+          "name": "ForecastCategory__c"
         },
         {
           "name": "Id"
@@ -847,10 +847,10 @@
           "name": "IsDeleted"
         },
         {
-          "name": "OpportunityId"
+          "name": "OpportunityId__c"
         },
         {
-          "name": "StageName"
+          "name": "StageName__c"
         }
       ],
       "object": "OpportunityHistory__c"
@@ -1562,7 +1562,7 @@
     "action": "computeRelative",
     "parameters": {
       "partitionBy": [
-        "OpportunityId"
+        "OpportunityId__c"
       ],
       "orderBy": [
         {
@@ -1604,7 +1604,7 @@
         },
         {
           "expression": {
-            "sourceField": "Amount",
+            "sourceField": "Amount__c",
             "default": "0",
             "offset": "previous()"
           },
@@ -1614,7 +1614,7 @@
         },
         {
           "expression": {
-            "sourceField": "StageName",
+            "sourceField": "StageName__c",
             "default": null,
             "offset": "previous()"
           },
@@ -1624,7 +1624,7 @@
         },
         {
           "expression": {
-            "sourceField": "ForecastCategory",
+            "sourceField": "ForecastCategory__c",
             "default": null,
             "offset": "previous()"
           },
@@ -1634,7 +1634,7 @@
         },
         {
           "expression": {
-            "sourceField": "CloseDate",
+            "sourceField": "CloseDate__c",
             "default": "1970-01-01",
             "offset": "previous()"
           },
@@ -2109,15 +2109,15 @@
     "action": "augment",
     "parameters": {
       "right_key": [
-        "MasterLabel"
+        "MasterLabel__c"
       ],
       "left": "Join_OpportunityStage",
       "left_key": [
         "StageNamePrev"
       ],
       "right_select": [
-        "IsClosed",
-        "IsWon"
+        "IsClosed__c",
+        "IsWon__c"
       ],
       "right": "Extract_OpportunityStage",
       "relationship": "StagePrev"
