@@ -1,5 +1,6 @@
 {
 	"appName": "Simple",
+	"appType": "Services",
 	"appDescription": "",
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
