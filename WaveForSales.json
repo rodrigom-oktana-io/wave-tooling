@@ -88,6 +88,15 @@
 			]
 		},
 		{
+			"name": "Lead",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Leads.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Lead_metadata.csv",
+			"dateFieldsToShift": [
+				"CreatedDate__c"
+			]
+		},
+		{
 			"name": "Task",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv",
 			"additionalDataFiles": 0,
