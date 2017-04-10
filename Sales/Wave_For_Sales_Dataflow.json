@@ -853,7 +853,7 @@
           "name": "StageName"
         }
       ],
-      "object": "OpportunityHistory"
+      "object": "OpportunityHistory__c"
     }
   },
   "Extract_OpportunityLineItem": {
