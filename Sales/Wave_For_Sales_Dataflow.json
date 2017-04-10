@@ -398,7 +398,7 @@
           "name": "IsWon"
         }
       ],
-      "object": "OpportunityStage"
+      "object": "OpportunityStage__c"
     }
   },
   "Join_OpportunityStage_Previous_with_Opp": {
