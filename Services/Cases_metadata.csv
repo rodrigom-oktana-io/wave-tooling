@@ -1,7 +1,7 @@
-Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
-ExternalId,External_Id__c,Text,,50,0,0,TRUE,TRUE
-Product_Family_KB__c,Product_Family_KB__c,Text,,100,0,0,FALSE,TRUE
-Type_of_Support__c,Type_of_Support__c,Text,,100,0,0,FALSE,TRUE
-CSAT__c,CSAT__c,Text,,100,0,0,FALSE,TRUE
-First_Contact_Close__c,First_Contact_Close__c,Checkbox,,100,0,0,FALSE,TRUE
-Created Date,CreatedDate__c,Date,,100,0,0,FALSE,FALSE
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired,DefaultValue
+ExternalId,External_Id__c,Text,,50,0,0,TRUE,TRUE,
+Product_Family_KB__c,Product_Family_KB__c,Text,,100,0,0,FALSE,TRUE,
+Type_of_Support__c,Type_of_Support__c,Text,,100,0,0,FALSE,TRUE,
+CSAT__c,CSAT__c,Text,,100,0,0,FALSE,TRUE,
+First_Contact_Close__c,First_Contact_Close__c,Checkbox,,100,0,0,FALSE,TRUE,
+Created Date,CreatedDate__c,Date,,100,0,0,FALSE,FALSE,
