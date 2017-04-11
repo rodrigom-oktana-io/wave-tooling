@@ -1,2 +1,2 @@
-Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired,DefaultValue
-Created Date,CreatedDate__c,Date,,100,0,0,FALSE,TRUE,
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
+Created Date,CreatedDate__c,Date,,100,0,0,,FALSE,TRUE
