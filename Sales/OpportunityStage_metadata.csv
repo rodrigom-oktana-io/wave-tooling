@@ -1,11 +1,11 @@
-Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
-Created Date,CreatedDate__c,Date,,100,0,0,FALSE,TRUE
-Probability (%),DefaultProbability__c,Percent,,0,3,0,FALSE,FALSE
-Description,Description__c,Text,,255,0,0,FALSE,FALSE
-Forecast Category,ForecastCategory__c,Text,,40,0,0,FALSE,TRUE
-Forecast Category Name,ForecastCategoryName__c,Text,,40,0,0,FALSE,TRUE
-Is Active,IsActive__c,Checkbox,,0,0,0,FALSE,TRUE
-Is Closed,IsClosed__c,Checkbox,,0,0,0,FALSE,TRUE
-Is Won,IsWon__c,Checkbox,,0,0,0,FALSE,TRUE
-Master Label,MasterLabel__c,Text,,255,0,0,FALSE,FALSE
-Sort Order,SortOrder__c,Number,,0,0,0,FALSE,FALSE
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired,DefaultValue
+Created Date,CreatedDate__c,Date,,100,0,0,FALSE,TRUE,
+Probability (%),DefaultProbability__c,Percent,,0,3,0,FALSE,FALSE,
+Description,Description__c,Text,,255,0,0,FALSE,FALSE,
+Forecast Category,ForecastCategory__c,Text,,40,0,0,FALSE,TRUE,
+Forecast Category Name,ForecastCategoryName__c,Text,,40,0,0,FALSE,TRUE,
+Is Active,IsActive__c,Checkbox,,0,0,0,FALSE,TRUE,
+Is Closed,IsClosed__c,Checkbox,,0,0,0,FALSE,TRUE,
+Is Won,IsWon__c,Checkbox,,0,0,0,FALSE,TRUE,
+Master Label,MasterLabel__c,Text,,255,0,0,FALSE,FALSE,
+Sort Order,SortOrder__c,Number,,0,0,0,FALSE,FALSE,
