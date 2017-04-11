@@ -1,8 +1,8 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,IsExternalId,IsRequired
-Case,CaseId__c,MasterDetail,Case,0,0,0,FALSE,TRUE
-ExternalId,External_Id__c,Text,,50,0,0,TRUE,TRUE
-CreatedById,CreatedById__c,Lookup,User,0,0,0,TRUE,TRUE
-CreatedDate,CreatedDate__c,Date,,0,0,0,FALSE,TRUE
-Field__c,Field__c,Text,,100,0,0,FALSE,TRUE
-OldValue,OldValue__c,Text,,100,0,0,FALSE,TRUE
-NewValue,NewValue__c,Text,,100,0,0,FALSE,TRUE
+Case ID,CaseId__c,MasterDetail,Case,0,0,0,FALSE,TRUE
+External ID,External_Id__c,Text,,50,0,0,TRUE,TRUE
+Created By ID,CreatedById__c,Lookup,User,0,0,0,TRUE,TRUE
+Created Date,CreatedDate__c,Date,,0,0,0,FALSE,TRUE
+Field,Field__c,Text,,100,0,0,FALSE,TRUE
+Old Value,OldValue__c,Text,,100,0,0,FALSE,TRUE
+New Value,NewValue__c,Text,,100,0,0,FALSE,TRUE
