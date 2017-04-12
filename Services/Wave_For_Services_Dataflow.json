@@ -1,667 +1,1169 @@
 {
-  "Join_ServiceCaseServiceTask": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "WhatId"
-      ],
-      "left": "Join_CaseAccount",
-      "left_key": [
-        "Id"
-      ],
-      "right_select": [
-        "ActivityLastModifiedDate"
-      ],
-      "right": "Compute_Extract_Task",
-      "relationship": "Task"
-    }
-  },
-  "Register_ActivityOwner_Case": {
-    "action": "sfdcRegister",
-    "parameters": {
-      "SFDCtoken": "SFDCtoken",
-      "name": "ServiceActivity",
-      "alias": "<ServiceActivity>",
-      "source": "Filter_Activities",
-      "folderid": "<folderId>"
-    }
-  },
-  "Join_CaseAccount": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "Case_CSAT_Mea",
-      "left_key": [
-        "AccountId"
-      ],
-      "right_select": [
-        "Id",
-        "Name",
-        "BillingCountry",
-        "Industry"
-      ],
-      "right": "Extract_Account",
-      "relationship": "Account"
-    }
-  },
-  "Extract_Contact": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "fields": [
-        {
-          "name": "Name"
-        },
-        {
-          "name": "Id"
+    "Register_ServiceCaseHistory":{
+        "action":"sfdcRegister",
+        "parameters":{
+            "name":"ServiceCaseHistory",
+            "alias":"<ServiceCaseHistory>",
+            "source":"Join_CaseHistory_NewOwner",
+            "folderid": "<folderId>"
         }
-      ],
-      "object": "Contact"
-    }
-  },
-  "Extract_Opportunity": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "SFDCtoken": "SFDCtoken",
-      "fields": [
-        {
-          "name": "Id"
-        },
-        {
-          "name": "AccountId"
-        },
-        {
-          "name": "OwnerId"
-        },
-        {
-          "name": "Name"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "StageName"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "LeadSource"
-        },
-        {
-          "name": "IsWon"
-        },
-        {
-          "name": "IsClosed"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "ForecastCategory"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "ForecastCategoryName"
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "CreatedDate__c",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "CloseDate",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "name": "Amount"
-        },
-        {
-          "name": "CreatedById"
+    },
+    "Join_CaseHistory_Case":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Append_CaseHistory",
+            "left_key":[
+                "CaseId__c"
+            ],
+            "right_select":[
+                "IsClosed",
+                "ClosedDate",
+                "CreatedDate__c",
+                "Duration__c",
+                "Product_Name__c",
+                "Origin",
+                "Reason",
+                "Type_of_Support__c",
+                "Priority",
+                "IsEscalated",
+                "MilestoneStatus",
+                "RecordType.Name",
+                "Account.Name",
+                "Type"
+            ],
+            "right":"Join_CaseAccountContactUserUserRoleRecordType",
+            "relationship":"Case"
         }
-      ],
-      "object": "Opportunity"
-    }
-  },
-  "Extract_Task": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "fields": [
-        {
-          "name": "Id"
-        },
-        {
-          "name": "CallObject"
-        },
-        {
-          "name": "CallDurationInSeconds"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "CallDisposition"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "CallType"
-        },
-        {
-          "name": "OwnerId"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Status"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Priority"
-        },
-        {
-          "name": "IsClosed"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "TaskSubtype"
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "CreatedDate__c",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "ActivityDate",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "LastModifiedDate",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Subject"
-        },
-        {
-          "name": "WhatId"
+    },
+    "Join_CaseHistory_OldOwner":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"compute_CaseHistory_OldNewStatus",
+            "left_key":[
+                "OldOwner"
+            ],
+            "right_select":[
+                "CallCenterId",
+                "Name",
+                "Id",
+                "Role.Name",
+                "Type"
+            ],
+            "right":"Join_CaseHistory_Queue_User_UserRole",
+            "relationship":"OldOwner"
         }
-      ],
-      "object": "Task"
-    }
-  },
-  "Join_CaseAccountContact": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "computeJoin_ServiceCaseTask",
-      "left_key": [
-        "ContactId"
-      ],
-      "right_select": [
-        "Name",
-        "Id"
-      ],
-      "right": "Extract_Contact",
-      "relationship": "Contact"
-    }
-  },
-  "Compute_Extract_Task": {
-    "action": "computeRelative",
-    "parameters": {
-      "partitionBy": [
-        "WhatId"
-      ],
-      "orderBy": [
-        {
-          "name": "LastModifiedDate",
-          "direction": "asc"
+    },
+    "Join_CaseAccount":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Case_CSAT_Mea",
+            "left_key":[
+                "AccountId"
+            ],
+            "right_select":[
+                "Id",
+                "Name",
+                "BillingState",
+                "Industry"
+            ],
+            "right":"Extract_Account",
+            "relationship":"Account"
         }
-      ],
-      "source": "Extract_Task",
-      "computedFields": [
-        {
-          "expression": {
-            "sourceField": "LastModifiedDate",
-            "default": "current()",
-            "offset": "first()"
-          },
-          "name": "ActivityLastModifiedDate",
-          "description": "ActivityLastModifiedDate",
-          "label": "ActivityLastModifiedDate"
+    },
+    "Join_ServiceCaseServiceTask":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "WhatId"
+            ],
+            "left":"Join_CaseAccount",
+            "left_key":[
+                "Id"
+            ],
+            "right_select":[
+                "ActivityLastModifiedDate"
+            ],
+            "right":"Compute_Extract_Task",
+            "relationship":"Task"
         }
-      ]
-    }
-  },
-  "Extract_User": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "fields": [
-        {
-          "name": "CallCenterId"
-        },
-        {
-          "name": "Name"
-        },
-        {
-          "name": "UserRoleId"
-        },
-        {
-          "name": "Id"
+    },
+    "Register_ActivityOwner_Case":{
+        "action":"sfdcRegister",
+        "parameters":{
+            "SFDCtoken":"SFDCtoken",
+            "name":"ServiceActivity",
+            "alias":"<ServiceActivity>",
+            "source":"Filter_Activities",
+            "folderid": "<folderId>"
         }
-      ],
-      "object": "User"
-    }
-  },
-  "Extract_Case": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "fields": [
-        {
-          "name": "CSAT__c",
-          "type": "Text"
-        },
-        {
-          "name": "AccountId"
-        },
-        {
-          "name": "ContactId"
-        },
-        {
-          "name": "OwnerId"
-        },
-        {
-          "name": "Id"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Origin"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Reason"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Type"
-        },
-        {
-          "name": "IsClosed"
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "ClosedDate",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "CreatedDate__c",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "LastModifiedDate",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "name": "IsEscalated"
-        },
-        {
-          "name": "First_Contact_Close__c"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "SLA_Type__c"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Status"
-        },
-        {
-          "name": "MilestoneStatus"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Product_Family_KB__c"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Priority"
-        },
-        {
-          "name": "CaseNumber"
+    },
+    "Extract_Contact":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"Name"
+                },
+                {
+                    "name":"Id"
+                }
+            ],
+            "object":"Contact"
         }
-      ],
-      "object": "Case"
-    }
-  },
-  "Join_CaseAccountContactUser": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "Join_CaseAccountContact",
-      "left_key": [
-        "OwnerId"
-      ],
-      "right_select": [
-        "CallCenterId",
-        "Name",
-        "Id",
-        "UserRoleId",
-        "Type"
-      ],
-      "right": "Add_Fields_To_User",
-      "relationship": "Owner"
-    }
-  },
-  "Join_OpportunityRecordTypeAccount": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "Extract_Opportunity",
-      "left_key": [
-        "AccountId"
-      ],
-      "right_select": [
-        "Id",
-        "Name",
-        "BillingCountry",
-        "Industry"
-      ],
-      "right": "Extract_Account",
-      "relationship": "Account"
-    }
-  },
-  "Case_CSAT_Mea": {
-    "action": "dim2mea",
-    "parameters": {
-      "measure": "CSAT",
-      "measureDefault": "-999",
-      "source": "compute_CalculatedCaseDuration",
-      "dimension": "CSAT__c",
-      "measureType": "long"
-    }
-  },
-  "compute_CalculatedCaseDuration": {
-    "action": "computeExpression",
-    "parameters": {
-      "source": "compute_CurrentDateForCase",
-      "computedFields": [
-        {
-          "defaultValue": "0",
-          "precision": 18,
-          "name": "DurationCalculatedField",
-          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
-          "scale": 2,
-          "label": "Case Duration",
-          "type": "Numeric"
+    },
+    "Extract_Opportunity":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "SFDCtoken":"SFDCtoken",
+            "fields":[
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"AccountId"
+                },
+                {
+                    "name":"OwnerId"
+                },
+                {
+                    "name":"Name"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"StageName"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"LeadSource"
+                },
+                {
+                    "name":"IsWon"
+                },
+                {
+                    "name":"IsClosed"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"ForecastCategory"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"ForecastCategoryName"
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"CreatedDate__c",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"CloseDate",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "name":"Amount"
+                },
+                {
+                    "name":"CreatedById"
+                },
+                {
+                    "name":"RecordTypeId"
+                }
+            ],
+            "object":"Opportunity"
         }
-      ],
-      "mergeWithSource": true
-    }
-  },
-  "Join_ActivityOwner_Case": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "Join_ActivityOwner",
-      "left_key": [
-        "WhatId"
-      ],
-      "right_select": [
-        "Id",
-        "Origin",
-        "Reason",
-        "Type",
-        "IsClosed",
-        "ClosedDate",
-        "CreatedDate__c",
-        "SLA_Type__c",
-        "Status",
-        "Product_Family_KB__c",
-        "Priority",
-        "CaseNumber",
-        "Account.Name",
-        "DurationCalculatedField",
-        "Role.Name",
-        "CurrentDate"
-      ],
-      "right": "Join_CaseAccountContactUserUserRole",
-      "relationship": "Case"
-    }
-  },
-  "compute_CurrentDateForCase": {
-    "action": "computeExpression",
-    "parameters": {
-      "source": "Extract_Case",
-      "computedFields": [
-        {
-          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-          "name": "CurrentDate",
-          "saqlExpression": "now()",
-          "label": "CurrentDate",
-          "type": "Date"
-        },
-        {
-          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-          "name": "ValidToWithNow",
-          "saqlExpression": "case  when ('IsClosed' == \"true\") then toDate('ClosedDate', \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\") else now()  end",
-          "label": "ValidToWithNow",
-          "type": "Date"
+    },
+    "Join_CaseAccountContact":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"computeJoin_ServiceCaseTask",
+            "left_key":[
+                "ContactId"
+            ],
+            "right_select":[
+                "Name",
+                "Id"
+            ],
+            "right":"Extract_Contact",
+            "relationship":"Contact"
         }
-      ],
-      "mergeWithSource": true
-    }
-  },
-  "Extract_Account": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "fields": [
-        {
-          "name": "Id"
-        },
-        {
-          "name": "Name"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "BillingCountry"
-        },
-        {
-          "defaultValue": "N/A",
-          "name": "Industry"
+    },
+    "Extract_Task":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"CallObject"
+                },
+                {
+                    "name":"CallDurationInSeconds"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"CallDisposition"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"CallType"
+                },
+                {
+                    "name":"OwnerId"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Status"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Priority"
+                },
+                {
+                    "name":"IsClosed"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"TaskSubtype"
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"CreatedDate__c",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"ActivityDate",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"LastModifiedDate",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Subject"
+                },
+                {
+                    "name":"WhatId"
+                }
+            ],
+            "object":"Task"
         }
-      ],
-      "object": "Account"
-    }
-  },
-  "Handle_Only_Task": {
-    "action": "computeExpression",
-    "parameters": {
-      "source": "Join_ActivityOwner_Case",
-      "computedFields": [
-        {
-          "name": "IsActivity",
-          "saqlExpression": "case when 'Case.Id' is null then \"No\" else \"Yes\" end",
-          "label": "Is Activity",
-          "type": "Text"
-        },
-        {
-          "name": "IsCall",
-          "saqlExpression": "case when CallDurationInSeconds > 0 then \"Yes\" else \"No\" end",
-          "label": "Is Call",
-          "type": "Text"
-        },
-        {
-          "name": "ActivityType",
-          "saqlExpression": "TaskSubtype",
-          "label": "ActivityType",
-          "type": "Text"
-        },
-        {
-          "name": "ActivityIsClosed",
-          "saqlExpression": "case when 'IsClosed' == \"true\" then \"Completed\" else \"Open\" end",
-          "label": "Activity Is Closed",
-          "type": "Text"
+    },
+    "Compute_Extract_Task":{
+        "action":"computeRelative",
+        "parameters":{
+            "partitionBy":[
+                "WhatId"
+            ],
+            "orderBy":[
+                {
+                    "name":"LastModifiedDate",
+                    "direction":"asc"
+                }
+            ],
+            "source":"Extract_Task",
+            "computedFields":[
+                {
+                    "expression":{
+                        "sourceField":"LastModifiedDate",
+                        "default":"current()",
+                        "offset":"first()"
+                    },
+                    "name":"ActivityLastModifiedDate",
+                    "description":"ActivityLastModifiedDate",
+                    "label":"ActivityLastModifiedDate"
+                }
+            ]
         }
-      ],
-      "mergeWithSource": true
-    }
-  },
-  "Add_Fields_To_User": {
-    "action": "computeExpression",
-    "parameters": {
-      "source": "Extract_User",
-      "computedFields": [
-        {
-          "name": "Type",
-          "saqlExpression": "\"User\"",
-          "label": "Type",
-          "type": "Text"
+    },
+    "Extract_User":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"CallCenterId"
+                },
+                {
+                    "name":"Name"
+                },
+                {
+                    "name":"UserRoleId"
+                },
+                {
+                    "name":"Id"
+                }
+            ],
+            "object":"User"
         }
-      ],
-      "mergeWithSource": true
-    }
-  },
-  "Join_OpportunityRecordTypeAccountCase": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "AccountId"
-      ],
-      "left": "Join_OpportunityRecordTypeAccount",
-      "left_key": [
-        "AccountId"
-      ],
-      "right_select": [
-        "Id",
-        "CaseNumber",
-        "IsEscalated",
-        "Priority"
-      ],
-      "right": "compute_CalculatedCaseDuration",
-      "relationship": "Case"
-    }
-  },
-  "computeJoin_ServiceCaseTask": {
-    "action": "computeExpression",
-    "parameters": {
-      "source": "Join_ServiceCaseServiceTask",
-      "computedFields": [
-        {
-          "defaultValue": "0",
-          "precision": 18,
-          "name": "sum_last_activity",
-          "saqlExpression": "case when ('Task.ActivityLastModifiedDate_sec_epoch' >= 'LastModifiedDate_sec_epoch') then ('CurrentDate_sec_epoch' - 'Task.ActivityLastModifiedDate_sec_epoch')/86400 when ('LastModifiedDate_sec_epoch' >= 'Task.ActivityLastModifiedDate_sec_epoch') then ('CurrentDate_sec_epoch' - 'LastModifiedDate_sec_epoch')/86400  else ('CurrentDate_sec_epoch' - 'LastModifiedDate_sec_epoch')/86400 end",
-          "scale": 2,
-          "label": "Last LastModifiedDate",
-          "type": "Numeric"
+    },
+    "Append_Queue_User":{
+        "action":"append",
+        "parameters":{
+            "sources":[
+                "Add_Fields_To_Queue",
+                "Add_Fields_To_User"
+            ]
         }
-      ],
-      "mergeWithSource": true
-    }
-  },
-  "Join_ActivityOwner": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "Extract_Task",
-      "left_key": [
-        "OwnerId"
-      ],
-      "right_select": [
-        "Name",
-        "Id",
-        "UserRoleId"
-      ],
-      "right": "Extract_User",
-      "relationship": "Owner"
-    }
-  },
-  "Extract_UserRole": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "fields": [
-        {
-          "name": "Id"
-        },
-        {
-          "name": "Name"
-        },
-        {
-          "name": "ParentRoleId"
-        },
-        {
-          "fiscalMonthOffset": 0,
-          "firstDayOfWeek": "0",
-          "name": "LastModifiedDate",
-          "isYearEndFiscalYear": false
-        },
-        {
-          "name": "LastModifiedById"
-        },
-        {
-          "name": "SystemModstamp"
+    },
+    "Join_CaseAccountContactUserUserRoleRecordType":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Join_CaseAccountContactUserUserRole",
+            "left_key":[
+                "RecordTypeId"
+            ],
+            "right_select":[
+                "Name"
+            ],
+            "right":"Extract_RecordTypes",
+            "relationship":"RecordType"
         }
-      ],
-      "object": "UserRole"
+    },
+    "Extract_Case":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"CSAT__c",
+                    "type":"Text"
+                },
+                {
+                    "name":"Duration__c"
+                },
+                {
+                    "name":"AccountId"
+                },
+                {
+                    "name":"ContactId"
+                },
+                {
+                    "name":"OwnerId"
+                },
+                {
+                    "name":"Id"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Origin"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Reason"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Type"
+                },
+                {
+                    "name":"IsClosed"
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"ClosedDate",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"CreatedDate__c",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"LastModifiedDate",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "name":"IsEscalated"
+                },
+                {
+                    "name":"First_Contact_Close__c"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Type_of_Support__c"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Status"
+                },
+                {
+                    "name":"MilestoneStatus"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Product_Name__c"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Priority"
+                },
+                {
+                    "name":"CaseNumber"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"RecordTypeId"
+                },
+                {
+                    "name":"DB_Hours__c"
+                }
+            ],
+            "object":"Case"
+        }
+    },
+    "Join_CaseAccountContactUser":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Join_CaseAccountContact",
+            "left_key":[
+                "OwnerId"
+            ],
+            "right_select":[
+                "CallCenterId",
+                "Name",
+                "Id",
+                "UserRoleId",
+                "Type"
+            ],
+            "right":"Append_Queue_User",
+            "relationship":"Owner"
+        }
+    },
+    "Join_OpportunityRecordTypeAccount":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Handle_Null_Opportunity_RecordType",
+            "left_key":[
+                "AccountId"
+            ],
+            "right_select":[
+                "Id",
+                "Name",
+                "BillingState",
+                "Industry"
+            ],
+            "right":"Extract_Account",
+            "relationship":"Account"
+        }
+    },
+    "compute_CaseHistory_DatePrevious_Owner":{
+        "action":"computeRelative",
+        "parameters":{
+            "partitionBy":[
+                "CaseId__c"
+            ],
+            "orderBy":[
+                {
+                    "name":"CreatedDate__c",
+                    "direction":"asc"
+                }
+            ],
+            "source":"Filter_CaseHistoryOwner",
+            "computedFields":[
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":"3000-10-10T10:10:10.100Z",
+                        "offset":"next()"
+                    },
+                    "name":"ValidToDate",
+                    "description":"ValidToDate",
+                    "label":"ValidToDate"
+                },
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":"current()",
+                        "offset":"current()"
+                    },
+                    "name":"ValidFromDate",
+                    "description":"ValidFromDate",
+                    "label":"ValidFromDate"
+                },
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c__c",
+                        "default":null,
+                        "offset":"next()"
+                    },
+                    "name":"CreatedDateNext",
+                    "description":"Next Created Date",
+                    "label":"Next CreatedDate"
+                },
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":null,
+                        "offset":"previous()"
+                    },
+                    "name":"CreatedDatePrev",
+                    "description":"Previous Created Date",
+                    "label":"Previous CreatedDate"
+                }
+            ]
+        }
+    },
+    "Filter_CaseHistoryStatus":{
+        "action":"filter",
+        "parameters":{
+            "filter":"Field:EQ:Status",
+            "source":"Extract_CaseHistory"
+        }
+    },
+    "compute_CaseHistory_CurrentDate":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Join_CaseHistory_Case",
+            "computedFields":[
+                {
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "name":"CurrentDate",
+                    "saqlExpression":"now()",
+                    "label":"CurrentDate",
+                    "type":"Date"
+                },
+                {
+                    "name":"ValidToWithNow",
+                    "saqlExpression":"case when 'ValidToDate' == \"3000-10-10T10:10:10.100Z\" then now() else toDate('ValidToDate', \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\") end",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "type":"Date"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Extract_Queue":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"Name"
+                }
+            ],
+            "complexFilterConditions":"Type = 'Queue'",
+            "object":"Group"
+        }
+    },
+    "Case_CSAT_Mea":{
+        "action":"dim2mea",
+        "parameters":{
+            "measure":"CSAT",
+            "measureDefault":"-999",
+            "source":"compute_CalculatedCaseDuration",
+            "dimension":"CSAT__c",
+            "measureType":"long"
+        }
+    },
+    "Join_CaseHistory_NewOwner":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Join_CaseHistory_OldOwner",
+            "left_key":[
+                "NewOwner"
+            ],
+            "right_select":[
+                "CallCenterId",
+                "Name",
+                "Id",
+                "Role.Name",
+                "Type"
+            ],
+            "right":"Join_CaseHistory_Queue_User_UserRole",
+            "relationship":"NewOwner"
+        }
+    },
+    "compute_CalculatedCaseDuration":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"compute_CurrentDateForCase",
+            "computedFields":[
+                {
+                    "defaultValue":"0",
+                    "precision":18,
+                    "name":"DurationCalculatedField",
+                    "saqlExpression":"case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
+                    "scale":2,
+                    "label":"Case Duration",
+                    "type":"Numeric"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Join_CaseHistory_Queue_User_UserRole":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Append_Queue_User",
+            "left_key":[
+                "UserRoleId"
+            ],
+            "right_select":[
+                "Name"
+            ],
+            "right":"Extract_UserRole",
+            "relationship":"Role"
+        }
+    },
+    "Join_OpportunityRecordType":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Extract_Opportunity",
+            "left_key":[
+                "RecordTypeId"
+            ],
+            "right_select":[
+                "Name"
+            ],
+            "right":"Extract_RecordTypes",
+            "relationship":"RecordType"
+        }
+    },
+    "compute_CaseHistory_DatePrevious_Status":{
+        "action":"computeRelative",
+        "parameters":{
+            "partitionBy":[
+                "CaseId__c"
+            ],
+            "orderBy":[
+                {
+                    "name":"CreatedDate__c",
+                    "direction":"asc"
+                }
+            ],
+            "source":"Filter_CaseHistoryStatus",
+            "computedFields":[
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":"3000-10-10T10:10:10.100Z",
+                        "offset":"next()"
+                    },
+                    "name":"ValidToDate",
+                    "description":"ValidToDate",
+                    "label":"ValidToDate"
+                },
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":"current()",
+                        "offset":"current()"
+                    },
+                    "name":"ValidFromDate",
+                    "description":"ValidFromDate",
+                    "label":"ValidFromDate"
+                },
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":null,
+                        "offset":"next()"
+                    },
+                    "name":"CreatedDateNext",
+                    "description":"Next Created Date",
+                    "label":"Next CreatedDate"
+                },
+                {
+                    "expression":{
+                        "sourceField":"CreatedDate__c",
+                        "default":null,
+                        "offset":"previous()"
+                    },
+                    "name":"CreatedDatePrev",
+                    "description":"Previous Created Date",
+                    "label":"Previous CreatedDate"
+                }
+            ]
+        }
+    },
+    "Handle_Null_RecordType":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Join_CaseAccountContactUserUserRoleRecordType",
+            "computedFields":[
+                {
+                    "name":"RecordTypeName",
+                    "saqlExpression":"case when RecordTypeId is null then \"N/A\" else 'RecordType.Name' end",
+                    "label":"Case Record Type",
+                    "type":"Text"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Join_ActivityOwner_Case":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Join_ActivityOwner",
+            "left_key":[
+                "WhatId"
+            ],
+            "right_select":[
+                "Id",
+                "Origin",
+                "Reason",
+                "Type",
+                "IsClosed",
+                "ClosedDate",
+                "CreatedDate__c",
+                "Type_of_Support__c",
+                "Status",
+                "Product_Name__c",
+                "Priority",
+                "CaseNumber",
+                "RecordType.Name",
+                "Account.Name",
+                "Duration__c",
+                "Role.Name",
+                "CurrentDate",
+                "DB_Hours__c"
+            ],
+            "right":"Handle_Null_RecordType",
+            "relationship":"Case"
+        }
+    },
+    "compute_CurrentDateForCase":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_Case",
+            "computedFields":[
+                {
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "name":"CurrentDate",
+                    "saqlExpression":"now()",
+                    "label":"CurrentDate",
+                    "type":"Date"
+                },
+                {
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "name":"ValidToWithNow",
+                    "saqlExpression":"case  when ('IsClosed' == \"true\") then toDate('ClosedDate', \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\") else now()  end",
+                    "label":"ValidToWithNow",
+                    "type":"Date"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Filter_CaseHistoryOwner":{
+        "action":"filter",
+        "parameters":{
+            "filter":"Field:EQ:Owner",
+            "source":"Extract_CaseHistory"
+        }
+    },
+    "Extract_CaseHistory":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "enablePKChunking":false,
+            "fields":[
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"CreatedById__c"
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"CreatedDate__c",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "name":"Field__c"
+                },
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"NewValue__c"
+                },
+                {
+                    "name":"OldValue__c"
+                }
+            ],
+            "complexFilterConditions":"CreatedDate__c >= LAST_N_MONTHS:18 and Field__c IN ('Status', 'Owner')",
+            "object":"CaseHistory__c"
+        }
+    },
+    "Extract_RecordTypes":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"Name"
+                },
+                {
+                    "name":"Id"
+                }
+            ],
+            "object":"RecordType"
+        }
+    },
+    "Extract_Account":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"Name"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"BillingState"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"Industry"
+                }
+            ],
+            "object":"Account"
+        }
+    },
+    "Handle_Only_Task":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Join_ActivityOwner_Case",
+            "computedFields":[
+                {
+                    "name":"IsActivity",
+                    "saqlExpression":"case when 'Case.Id' is null then \"No\" else \"Yes\" end",
+                    "label":"Is Activity",
+                    "type":"Text"
+                },
+                {
+                    "name":"IsCall",
+                    "saqlExpression":"case when CallDurationInSeconds > 0 then \"Yes\" else \"No\" end",
+                    "label":"Is Call",
+                    "type":"Text"
+                },
+                {
+                    "name":"ActivityType",
+                    "saqlExpression":"TaskSubtype",
+                    "label":"ActivityType",
+                    "type":"Text"
+                },
+                {
+                    "name":"ActivityIsClosed",
+                    "saqlExpression":"case when 'IsClosed' == \"true\" then \"Completed\" else \"Open\" end",
+                    "label":"Activity Is Closed",
+                    "type":"Text"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Handle_Null_Opportunity_RecordType":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Join_OpportunityRecordType",
+            "computedFields":[
+                {
+                    "name":"RecordTypeName",
+                    "saqlExpression":"case when RecordTypeId is null then \"N/A\" else 'RecordType.Name' end",
+                    "label":"Opportunity Record Type",
+                    "type":"Text"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Add_Fields_To_User":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_User",
+            "computedFields":[
+                {
+                    "name":"Type",
+                    "saqlExpression":"\"User\"",
+                    "label":"Type",
+                    "type":"Text"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Join_OpportunityRecordTypeAccountCase":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "AccountId"
+            ],
+            "left":"Join_OpportunityRecordTypeAccount",
+            "left_key":[
+                "AccountId"
+            ],
+            "right_select":[
+                "Id",
+                "CaseNumber",
+                "IsEscalated",
+                "Priority"
+            ],
+            "right":"compute_CalculatedCaseDuration",
+            "relationship":"Case"
+        }
+    },
+    "computeJoin_ServiceCaseTask":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Join_ServiceCaseServiceTask",
+            "computedFields":[
+                {
+                    "defaultValue":"0",
+                    "precision":18,
+                    "name":"sum_last_activity",
+                    "saqlExpression":"case when ('Task.ActivityLastModifiedDate_sec_epoch' >= 'LastModifiedDate_sec_epoch') then ('CurrentDate_sec_epoch' - 'Task.ActivityLastModifiedDate_sec_epoch')/86400 when ('LastModifiedDate_sec_epoch' >= 'Task.ActivityLastModifiedDate_sec_epoch') then ('CurrentDate_sec_epoch' - 'LastModifiedDate_sec_epoch')/86400  else ('CurrentDate_sec_epoch' - 'LastModifiedDate_sec_epoch')/86400 end",
+                    "scale":2,
+                    "label":"Last LastModifiedDate",
+                    "type":"Numeric"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Join_ActivityOwner":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Extract_Task",
+            "left_key":[
+                "OwnerId"
+            ],
+            "right_select":[
+                "Name",
+                "Id",
+                "UserRoleId"
+            ],
+            "right":"Extract_User",
+            "relationship":"Owner"
+        }
+    },
+    "Add_Fields_To_Queue":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_Queue",
+            "computedFields":[
+                {
+                    "name":"CallCenterId",
+                    "saqlExpression":"\"000000000000000\"",
+                    "label":"CallCenterId",
+                    "type":"Text"
+                },
+                {
+                    "name":"Type",
+                    "saqlExpression":"\"Queue\"",
+                    "label":"Type",
+                    "type":"Text"
+                },
+                {
+                    "name":"UserRoleId",
+                    "saqlExpression":"\"000000000000000\"",
+                    "label":"UserRoleId",
+                    "type":"Text"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Extract_UserRole":{
+        "action":"sfdcDigest",
+        "parameters":{
+            "fields":[
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"Name"
+                },
+                {
+                    "name":"ParentRoleId"
+                },
+                {
+                    "fiscalMonthOffset":0,
+                    "firstDayOfWeek":"0",
+                    "name":"LastModifiedDate",
+                    "isYearEndFiscalYear":false
+                },
+                {
+                    "name":"LastModifiedById"
+                },
+                {
+                    "name":"SystemModstamp"
+                }
+            ],
+            "object":"UserRole"
+        }
+    },
+    "Join_CaseAccountContactUserUserRole":{
+        "action":"augment",
+        "parameters":{
+            "right_key":[
+                "Id"
+            ],
+            "left":"Join_CaseAccountContactUser",
+            "left_key":[
+                "Owner.UserRoleId"
+            ],
+            "right_select":[
+                "Name",
+                "ParentRoleId"
+            ],
+            "right":"Extract_UserRole",
+            "relationship":"Role"
+        }
+    },
+    "compute_CaseHistory_OldNewStatus":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"compute_CaseHistory_CurrentDate",
+            "computedFields":[
+                {
+                    "name":"NewStatus",
+                    "saqlExpression":"case when 'Field' == \"created\" then \"Created\" when 'Field' == \"Status\" then 'NewValue' else\"NA\" end ",
+                    "label":"New Status",
+                    "type":"Text"
+                },
+                {
+                    "name":"OldStatus",
+                    "saqlExpression":"case when 'Field' == \"closed\" then \"Closed\" when 'Field' == \"Status\" then 'OldValue' else \"NA\" end ",
+                    "label":"Old Status",
+                    "type":"Text"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"NewOwner",
+                    "saqlExpression":"case when 'Field' == \"Owner\" then 'NewValue' else\"NA\" end ",
+                    "label":"New Owner",
+                    "type":"Text"
+                },
+                {
+                    "defaultValue":"N/A",
+                    "name":"OldOwner",
+                    "saqlExpression":"case when 'Field' == \"Owner\" then 'OldValue' else \"NA\" end ",
+                    "label":"Old Owner",
+                    "type":"Text"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":18,
+                    "name":"DateDiffOld",
+                    "saqlExpression":"case when ('CreatedDatePrev' is null) then ('CreatedDate__c_sec_epoch' - 'Case.CreatedDate__c_sec_epoch')/86400  else ('CreatedDate__c_sec_epoch' - 'CreatedDatePrev_sec_epoch')/86400 end",
+                    "scale":2,
+                    "label":"Date Diff Old",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":18,
+                    "name":"DateDiffNew",
+                    "saqlExpression":"case  when ('Case.IsClosed' == \"true\" && 'CreatedDateNext' is null && CreatedDate__c <= 'Case.ClosedDate') then ('Case.ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   when ('Case.IsClosed' == \"true\" &&  CreatedDate__c > 'Case.ClosedDate') then 0 when 'CreatedDateNext' is null then ('CurrentDate_sec_epoch' -'CreatedDate__c_sec_epoch')/86400 else ('CreatedDateNext_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400 end",
+                    "scale":2,
+                    "label":"Date Diff New",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"false",
+                    "name":"ChangeAfterCloseDate",
+                    "saqlExpression":"case  when ('Field' == \"Owner\" && 'CreatedDate__c' > 'Case.ClosedDate') then \"true\"  else \"false\" end ",
+                    "label":"Change After CloseDate",
+                    "type":"Text"
+                },
+                {
+                    "defaultValue":"false",
+                    "name":"IsLastChange",
+                    "saqlExpression":"case when ('Case.ClosedDate' is null && 'ValidToDate' == \"3000-10-10T10:10:10.100Z\") then \"true\" when ('ValidFromDate' <= 'Case.ClosedDate' && 'ValidToDate' > 'Case.ClosedDate') then \"true\" else \"false\" end ",
+                    "label":"Last Change",
+                    "type":"Text"
+                }
+            ],
+            "mergeWithSource":true
+        }
+    },
+    "Filter_Activities":{
+        "action":"filter",
+        "parameters":{
+            "filter":"IsActivity:EQ:Yes",
+            "source":"Handle_Only_Task"
+        }
+    },
+    "Register_Case":{
+        "action":"sfdcRegister",
+        "parameters":{
+            "SFDCtoken":"SFDCtoken",
+            "name":"ServiceCase",
+            "alias":"<ServiceCase>",
+            "source":"Handle_Null_RecordType",
+            "folderid": "<folderId>"
+        }
+    },
+    "Register_Opportunity":{
+        "action":"sfdcRegister",
+        "parameters":{
+            "SFDCtoken":"SFDCtoken",
+            "name":"ServiceOpportunities",
+            "alias":"<ServiceOpportunity>",
+            "source":"Join_OpportunityRecordTypeAccountCase",
+            "folderid": "<folderId>"
+        }
+    },
+    "Append_CaseHistory":{
+        "action":"append",
+        "parameters":{
+            "sources":[
+                "compute_CaseHistory_DatePrevious_Status",
+                "compute_CaseHistory_DatePrevious_Owner"
+            ]
+        }
     }
-  },
-  "Join_CaseAccountContactUserUserRole": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "Id"
-      ],
-      "left": "Join_CaseAccountContactUser",
-      "left_key": [
-        "Owner.UserRoleId"
-      ],
-      "right_select": [
-        "Name",
-        "ParentRoleId"
-      ],
-      "right": "Extract_UserRole",
-      "relationship": "Role"
-    }
-  },
-  "Filter_Activities": {
-    "action": "filter",
-    "parameters": {
-      "filter": "IsActivity:EQ:Yes",
-      "source": "Handle_Only_Task"
-    }
-  },
-  "Register_Case": {
-    "action": "sfdcRegister",
-    "parameters": {
-      "SFDCtoken": "SFDCtoken",
-      "name": "ServiceCase",
-      "alias": "<ServiceCase>",
-      "source": "Join_CaseAccountContactUserUserRole",
-      "folderid": "<folderId>"
-    }
-  },
-  "Register_Opportunity": {
-    "action": "sfdcRegister",
-    "parameters": {
-      "SFDCtoken": "SFDCtoken",
-      "name": "ServiceOpportunities",
-      "alias": "<ServiceOpportunity>",
-      "source": "Join_OpportunityRecordTypeAccountCase",
-      "folderid": "<folderId>"
-    }
-  }
 }
