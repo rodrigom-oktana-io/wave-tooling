@@ -8,10 +8,10 @@
   },
   "objects": [
     {
-      "name": "ServiceCaseHistoryMetadata",
-      "fullyQualifiedName": "ServiceCaseHistoryMetadata",
+      "name": "ServiceCaseHistory",
+      "fullyQualifiedName": "ServiceCaseHistory",
       "connector": "SalesforceAnalyticsCloudDatasetLoader",
-      "label": "ServiceCaseHistoryMetadata",
+      "label": "ServiceCaseHistory",
       "description": "Service Case History",
       "acl": null,
       "rowLevelSecurityFilter": null,
