@@ -140,6 +140,12 @@
 			"Label": "ServiceOpportunity",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunityMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunity.csv"
+		},
+		{
+			"Name": "ServiceCaseHistory",
+			"Label": "ServiceCaseHistory",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseHistoryMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseHistory.csv"			
 		}
 	],
 	"dashboards": [
