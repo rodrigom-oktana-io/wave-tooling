@@ -20,7 +20,7 @@
             ],
             "right_select":[
                 "IsClosed",
-                "ClosedDate",
+                "ClosedDate__c",
                 "CreatedDate__c",
                 "Duration__c",
                 "Product_Name__c",
@@ -384,7 +384,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"ClosedDate",
+                    "name":"ClosedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -751,7 +751,7 @@
                 "Reason",
                 "Type",
                 "IsClosed",
-                "ClosedDate",
+                "ClosedDate__c",
                 "CreatedDate__c",
                 "Type_of_Support__c",
                 "Status",
@@ -784,7 +784,7 @@
                 {
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
                     "name":"ValidToWithNow",
-                    "saqlExpression":"case  when ('IsClosed' == \"true\") then toDate('ClosedDate', \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\") else now()  end",
+                    "saqlExpression":"case  when ('IsClosed' == \"true\") then toDate('ClosedDate__c', \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\") else now()  end",
                     "label":"ValidToWithNow",
                     "type":"Date"
                 }
@@ -1107,7 +1107,7 @@
                     "defaultValue":"0",
                     "precision":18,
                     "name":"DateDiffNew",
-                    "saqlExpression":"case  when ('Case.IsClosed' == \"true\" && 'CreatedDateNext' is null && CreatedDate__c <= 'Case.ClosedDate') then ('Case.ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   when ('Case.IsClosed' == \"true\" &&  CreatedDate__c > 'Case.ClosedDate') then 0 when 'CreatedDateNext' is null then ('CurrentDate_sec_epoch' -'CreatedDate__c_sec_epoch')/86400 else ('CreatedDateNext_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400 end",
+                    "saqlExpression":"case  when ('Case.IsClosed' == \"true\" && 'CreatedDateNext' is null && CreatedDate__c <= 'Case.ClosedDate__c') then ('Case.ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   when ('Case.IsClosed' == \"true\" &&  CreatedDate__c > 'Case.ClosedDate__c') then 0 when 'CreatedDateNext' is null then ('CurrentDate_sec_epoch' -'CreatedDate__c_sec_epoch')/86400 else ('CreatedDateNext_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400 end",
                     "scale":2,
                     "label":"Date Diff New",
                     "type":"Numeric"
@@ -1115,14 +1115,14 @@
                 {
                     "defaultValue":"false",
                     "name":"ChangeAfterCloseDate",
-                    "saqlExpression":"case  when ('Field' == \"Owner\" && 'CreatedDate__c' > 'Case.ClosedDate') then \"true\"  else \"false\" end ",
+                    "saqlExpression":"case  when ('Field' == \"Owner\" && 'CreatedDate__c' > 'Case.ClosedDate__c') then \"true\"  else \"false\" end ",
                     "label":"Change After CloseDate",
                     "type":"Text"
                 },
                 {
                     "defaultValue":"false",
                     "name":"IsLastChange",
-                    "saqlExpression":"case when ('Case.ClosedDate' is null && 'ValidToDate' == \"3000-10-10T10:10:10.100Z\") then \"true\" when ('ValidFromDate' <= 'Case.ClosedDate' && 'ValidToDate' > 'Case.ClosedDate') then \"true\" else \"false\" end ",
+                    "saqlExpression":"case when ('Case.ClosedDate__c' is null && 'ValidToDate' == \"3000-10-10T10:10:10.100Z\") then \"true\" when ('ValidFromDate' <= 'Case.ClosedDate__c' && 'ValidToDate' > 'Case.ClosedDate__c') then \"true\" else \"false\" end ",
                     "label":"Last Change",
                     "type":"Text"
                 }
