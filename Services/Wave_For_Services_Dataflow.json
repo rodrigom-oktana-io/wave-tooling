@@ -539,7 +539,7 @@
     "Filter_CaseHistoryStatus":{
         "action":"filter",
         "parameters":{
-            "filter":"Field:EQ:Status",
+            "filter":"Field__c:EQ:Status",
             "source":"Extract_CaseHistory"
         }
     },
@@ -795,7 +795,7 @@
     "Filter_CaseHistoryOwner":{
         "action":"filter",
         "parameters":{
-            "filter":"Field:EQ:Owner",
+            "filter":"Field__c:EQ:Owner",
             "source":"Extract_CaseHistory"
         }
     },
@@ -1070,27 +1070,27 @@
             "computedFields":[
                 {
                     "name":"NewStatus",
-                    "saqlExpression":"case when 'Field' == \"created\" then \"Created\" when 'Field' == \"Status\" then 'NewValue' else\"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"created\" then \"Created\" when 'Field__c' == \"Status\" then 'NewValue' else\"NA\" end ",
                     "label":"New Status",
                     "type":"Text"
                 },
                 {
                     "name":"OldStatus",
-                    "saqlExpression":"case when 'Field' == \"closed\" then \"Closed\" when 'Field' == \"Status\" then 'OldValue' else \"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"closed\" then \"Closed\" when 'Field__c' == \"Status\" then 'OldValue' else \"NA\" end ",
                     "label":"Old Status",
                     "type":"Text"
                 },
                 {
                     "defaultValue":"N/A",
                     "name":"NewOwner",
-                    "saqlExpression":"case when 'Field' == \"Owner\" then 'NewValue' else\"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"Owner\" then 'NewValue' else\"NA\" end ",
                     "label":"New Owner",
                     "type":"Text"
                 },
                 {
                     "defaultValue":"N/A",
                     "name":"OldOwner",
-                    "saqlExpression":"case when 'Field' == \"Owner\" then 'OldValue' else \"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"Owner\" then 'OldValue' else \"NA\" end ",
                     "label":"Old Owner",
                     "type":"Text"
                 },
@@ -1115,7 +1115,7 @@
                 {
                     "defaultValue":"false",
                     "name":"ChangeAfterCloseDate",
-                    "saqlExpression":"case  when ('Field' == \"Owner\" && 'CreatedDate__c' > 'Case.ClosedDate__c') then \"true\"  else \"false\" end ",
+                    "saqlExpression":"case  when ('Field__c' == \"Owner\" && 'CreatedDate__c' > 'Case.ClosedDate__c') then \"true\"  else \"false\" end ",
                     "label":"Change After CloseDate",
                     "type":"Text"
                 },
