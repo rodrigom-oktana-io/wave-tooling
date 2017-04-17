@@ -59,7 +59,7 @@
 			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"ClosedDate"
+				"ClosedDate__c"
 			]
 		},
 		{
