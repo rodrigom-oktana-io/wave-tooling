@@ -1,1001 +1,1001 @@
-External_Id__c,Owner.External_Id__c,Subject,Type,TaskSubtype,CallDurationInSeconds,Status,Priority
-W_Task.1,W_User.7,Send Letter,Email,Email,360,In Progress,Normal
-W_Task.2,W_User.1,Send Letter,Email,Task,1440,Not Started,Normal
-W_Task.3,W_User.2,Call,Call,Email,1620,On Hold,Normal
-W_Task.4,W_User.5,Other,Other,Task,6480,Not Started,Normal
-W_Task.5,W_User.9,Call,Meeting,Email,360,In Progress,Normal
-W_Task.6,W_User.10,Call,Call,Task,1080,Completed,Normal
-W_Task.7,W_User.19,Other,Other,Email,3240,Completed,Normal
-W_Task.8,W_User.20,Call,Call,Email,720,In Progress,Normal
-W_Task.9,W_User.19,Send Letter,Email,Email,900,Not Started,Normal
-W_Task.10,W_User.14,Send Letter,Email,Email,1920,Not Started,Normal
-W_Task.11,W_User.13,Call,Call,Call,2250,Completed,Normal
-W_Task.12,W_User.20,Send Letter,Email,Call,900,Not Started,Normal
-W_Task.13,W_User.11,Send Letter,Email,Task,300,Not Started,Normal
-W_Task.14,W_User.19,Other,Other,Email,1620,Completed,Normal
-W_Task.15,W_User.2,Call,Call,Task,900,Not Started,Normal
-W_Task.16,W_User.16,Other,Meeting,Email,2880,In Progress,Normal
-W_Task.17,W_User.4,Send Letter,Email,Email,90,Not Started,Normal
-W_Task.18,W_User.17,Other,Meeting,Call,360,In Progress,Normal
-W_Task.19,W_User.11,Send Quote,Email,Task,3600,Not Started,Normal
-W_Task.20,W_User.12,Send Quote,Email,Email,1800,In Progress,Normal
-W_Task.21,W_User.16,Other,Prep,Task,300,Completed,Normal
-W_Task.22,W_User.10,Other,Prep,Email,450,On Hold,Normal
-W_Task.23,W_User.18,Call,Meeting,Call,150,In Progress,Normal
-W_Task.24,W_User.8,Other,Other,Task,300,Completed,Normal
-W_Task.25,W_User.14,Send Letter,Email,Task,3000,Not Started,Normal
-W_Task.26,W_User.5,Send Letter,Email,Task,900,Completed,Normal
-W_Task.27,W_User.14,Other,Meeting,Email,1620,Not Started,Normal
-W_Task.28,W_User.16,Call,Meeting,Call,900,On Hold,Normal
-W_Task.29,W_User.13,Send Letter,Email,Task,900,In Progress,Normal
-W_Task.30,W_User.15,Send Letter,Email,Call,1800,Not Started,Normal
-W_Task.31,W_User.20,Send Quote,Email,Email,600,In Progress,Normal
-W_Task.32,W_User.5,Other,Other,Task,1800,Not Started,Normal
-W_Task.33,W_User.17,Call,Call,Call,120,Not Started,Normal
-W_Task.34,W_User.7,Call,Meeting,Email,1620,In Progress,Normal
-W_Task.35,W_User.17,Send Letter,Email,Call,1080,Not Started,Normal
-W_Task.36,W_User.15,Call,Meeting,Call,360,Not Started,Normal
-W_Task.37,W_User.1,Call,Call,Call,360,Completed,Normal
-W_Task.38,W_User.9,Send Letter,Email,Email,90,Completed,Normal
-W_Task.39,W_User.14,Send Letter,Email,Call,240,On Hold,High
-W_Task.40,W_User.1,Call,Call,Call,360,Not Started,Normal
-W_Task.41,W_User.7,Send Letter,Email,Email,480,In Progress,Normal
-W_Task.42,W_User.7,Other,Meeting,Task,2400,On Hold,High
-W_Task.43,W_User.19,Send Letter,Email,Call,900,Completed,Normal
-W_Task.44,W_User.11,Send Quote,Email,Call,900,Completed,High
-W_Task.45,W_User.11,Send Letter,Email,Call,450,On Hold,Normal
-W_Task.46,W_User.19,Call,Call,Email,540,Not Started,Normal
-W_Task.47,W_User.19,Send Letter,Email,Task,900,Completed,Normal
-W_Task.48,W_User.3,Other,Other,Email,720,Not Started,Normal
-W_Task.49,W_User.12,Send Letter,Email,Email,600,Completed,Normal
-W_Task.50,W_User.6,Call,Call,Call,2700,Not Started,Normal
-W_Task.51,W_User.7,Other,Meeting,Email,120,Not Started,Normal
-W_Task.52,W_User.2,Other,Meeting,Call,750,In Progress,Normal
-W_Task.53,W_User.15,Other,Prep,Email,2160,In Progress,Normal
-W_Task.54,W_User.4,Other,Meeting,Email,360,On Hold,Normal
-W_Task.55,W_User.8,Send Letter,Email,Call,1800,On Hold,Normal
-W_Task.56,W_User.11,Send Letter,Email,Call,720,Not Started,Normal
-W_Task.57,W_User.20,Other,Other,Call,3600,In Progress,Normal
-W_Task.58,W_User.2,Call,Call,Task,300,Completed,Normal
-W_Task.59,W_User.12,Send Letter,Email,Call,1080,On Hold,Normal
-W_Task.60,W_User.15,Send Letter,Email,Call,1800,In Progress,Normal
-W_Task.61,W_User.16,Send Letter,Email,Task,2400,On Hold,Normal
-W_Task.62,W_User.3,Send Letter,Email,Email,3600,Not Started,Normal
-W_Task.63,W_User.7,Send Letter,Email,Call,600,In Progress,Normal
-W_Task.64,W_User.2,Call,Meeting,Task,360,In Progress,High
-W_Task.65,W_User.6,Send Letter,Email,Email,600,On Hold,Normal
-W_Task.66,W_User.16,Other,Prep,Task,360,On Hold,Normal
-W_Task.67,W_User.11,Other,Other,Task,4500,Completed,Normal
-W_Task.68,W_User.13,Call,Call,Task,1800,Not Started,Normal
-W_Task.69,W_User.14,Send Letter,Email,Email,750,Completed,Normal
-W_Task.70,W_User.20,Other,Prep,Email,360,Not Started,Normal
-W_Task.71,W_User.3,Send Letter,Email,Email,3600,Not Started,Normal
-W_Task.72,W_User.7,Other,Other,Email,1800,In Progress,Normal
-W_Task.73,W_User.4,Other,Meeting,Call,1200,On Hold,Normal
-W_Task.74,W_User.11,Call,Meeting,Task,120,Not Started,Normal
-W_Task.75,W_User.12,Send Letter,Email,Task,1080,Not Started,Normal
-W_Task.76,W_User.8,Send Letter,Email,Task,450,In Progress,Normal
-W_Task.77,W_User.13,Send Quote,Email,Call,120,Not Started,Normal
-W_Task.78,W_User.13,Call,Call,Call,1350,Completed,Normal
-W_Task.79,W_User.7,Send Letter,Email,Task,3600,In Progress,Normal
-W_Task.80,W_User.4,Other,Meeting,Task,1350,On Hold,Normal
-W_Task.81,W_User.7,Send Letter,Email,Email,720,Completed,Normal
-W_Task.82,W_User.13,Call,Call,Call,810,On Hold,Normal
-W_Task.83,W_User.9,Send Letter,Email,Task,240,In Progress,High
-W_Task.84,W_User.9,Send Letter,Email,Call,360,Not Started,Normal
-W_Task.85,W_User.3,Call,Meeting,Email,720,In Progress,Normal
-W_Task.86,W_User.2,Call,Call,Email,600,On Hold,Normal
-W_Task.87,W_User.16,Call,Call,Task,60,Completed,Normal
-W_Task.88,W_User.1,Other,Prep,Email,360,Not Started,Normal
-W_Task.89,W_User.15,Send Letter,Email,Task,3000,Completed,Normal
-W_Task.90,W_User.4,Call,Call,Email,600,On Hold,Normal
-W_Task.91,W_User.19,Send Quote,Email,Email,180,Not Started,High
-W_Task.92,W_User.11,Other,Other,Call,900,Completed,Normal
-W_Task.93,W_User.16,Send Letter,Email,Task,900,Not Started,Normal
-W_Task.94,W_User.15,Send Letter,Email,Task,2400,Not Started,Normal
-W_Task.95,W_User.19,Other,Other,Task,810,Completed,Normal
-W_Task.96,W_User.11,Send Letter,Email,Call,360,On Hold,Normal
-W_Task.97,W_User.2,Send Letter,Email,Call,2250,Not Started,Normal
-W_Task.98,W_User.1,Send Letter,Email,Task,150,Not Started,Normal
-W_Task.99,W_User.3,Call,Call,Task,3600,Completed,Normal
-W_Task.100,W_User.17,Send Quote,Email,Call,2400,Completed,Normal
-W_Task.101,W_User.2,Call,Call,Call,1200,Not Started,Normal
-W_Task.102,W_User.6,Other,Prep,Email,3000,Not Started,Normal
-W_Task.103,W_User.14,Send Quote,Email,Task,900,In Progress,Normal
-W_Task.104,W_User.19,Send Letter,Email,Email,2160,Not Started,Normal
-W_Task.105,W_User.11,Other,Prep,Email,360,Not Started,Normal
-W_Task.106,W_User.2,Call,Call,Task,1800,Not Started,Normal
-W_Task.107,W_User.13,Send Letter,Email,Email,720,Not Started,Normal
-W_Task.108,W_User.6,Call,Call,Task,90,On Hold,Normal
-W_Task.109,W_User.12,Send Letter,Email,Task,360,Not Started,Normal
-W_Task.110,W_User.9,Send Quote,Email,Email,150,On Hold,Normal
-W_Task.111,W_User.17,Other,Meeting,Task,2700,In Progress,High
-W_Task.112,W_User.6,Call,Call,Email,300,Not Started,Normal
-W_Task.113,W_User.7,Send Letter,Email,Email,3600,On Hold,Normal
-W_Task.114,W_User.10,Send Quote,Email,Email,4320,On Hold,Normal
-W_Task.115,W_User.20,Send Letter,Email,Email,3600,Not Started,High
-W_Task.116,W_User.11,Call,Meeting,Task,1800,In Progress,Normal
-W_Task.117,W_User.16,Other,Meeting,Email,240,Completed,Normal
-W_Task.118,W_User.8,Other,Prep,Task,600,On Hold,Normal
-W_Task.119,W_User.9,Send Letter,Email,Call,6480,Not Started,Normal
-W_Task.120,W_User.13,Other,Meeting,Call,360,On Hold,Normal
-W_Task.121,W_User.3,Send Letter,Email,Task,2400,Completed,High
-W_Task.122,W_User.5,Call,Call,Task,30,Not Started,Normal
-W_Task.123,W_User.1,Other,Prep,Call,480,In Progress,Normal
-W_Task.124,W_User.19,Send Letter,Email,Task,4500,Not Started,Normal
-W_Task.125,W_User.4,Send Letter,Email,Task,480,On Hold,Normal
-W_Task.126,W_User.15,Other,Meeting,Email,1080,On Hold,Normal
-W_Task.127,W_User.11,Other,Meeting,Task,900,Completed,Normal
-W_Task.128,W_User.5,Send Letter,Email,Email,120,Completed,Normal
-W_Task.129,W_User.13,Call,Call,Task,2400,On Hold,Normal
-W_Task.130,W_User.13,Send Quote,Email,Email,1800,On Hold,Normal
-W_Task.131,W_User.3,Send Letter,Email,Email,1080,Not Started,Normal
-W_Task.132,W_User.5,Call,Meeting,Task,240,Not Started,Normal
-W_Task.133,W_User.1,Other,Meeting,Task,360,In Progress,Normal
-W_Task.134,W_User.17,Send Letter,Email,Email,900,On Hold,Normal
-W_Task.135,W_User.17,Other,Prep,Email,1080,On Hold,Normal
-W_Task.136,W_User.5,Send Letter,Email,Email,4500,On Hold,Normal
-W_Task.137,W_User.19,Send Letter,Email,Email,3000,In Progress,Normal
-W_Task.138,W_User.20,Send Letter,Email,Email,450,Not Started,High
-W_Task.139,W_User.8,Call,Call,Call,1800,On Hold,Normal
-W_Task.140,W_User.2,Call,Meeting,Task,360,Completed,Normal
-W_Task.141,W_User.18,Other,Meeting,Task,2700,Not Started,High
-W_Task.142,W_User.1,Other,Prep,Task,2250,Completed,Normal
-W_Task.143,W_User.5,Call,Meeting,Task,180,In Progress,Normal
-W_Task.144,W_User.7,Send Letter,Email,Task,960,Completed,Normal
-W_Task.145,W_User.2,Send Letter,Email,Task,360,In Progress,Normal
-W_Task.146,W_User.2,Send Letter,Email,Email,1500,In Progress,High
-W_Task.147,W_User.5,Send Quote,Email,Call,1920,Not Started,Normal
-W_Task.148,W_User.15,Call,Call,Call,2880,On Hold,Normal
-W_Task.149,W_User.1,Send Letter,Email,Email,90,On Hold,Normal
-W_Task.150,W_User.1,Send Letter,Email,Call,1200,Not Started,Normal
-W_Task.151,W_User.13,Other,Prep,Email,600,Completed,Normal
-W_Task.152,W_User.10,Call,Call,Email,720,Not Started,Normal
-W_Task.153,W_User.14,Send Letter,Email,Task,900,Completed,Normal
-W_Task.154,W_User.16,Send Letter,Email,Call,960,Completed,Normal
-W_Task.155,W_User.20,Call,Call,Task,4320,Not Started,Normal
-W_Task.156,W_User.3,Call,Meeting,Task,600,On Hold,Normal
-W_Task.157,W_User.9,Call,Call,Task,450,On Hold,Normal
-W_Task.158,W_User.7,Call,Call,Email,1800,Completed,Normal
-W_Task.159,W_User.2,Call,Meeting,Email,3240,Not Started,Normal
-W_Task.160,W_User.8,Send Letter,Email,Task,300,In Progress,High
-W_Task.161,W_User.14,Call,Call,Call,1440,On Hold,Normal
-W_Task.162,W_User.20,Call,Call,Call,300,Not Started,Normal
-W_Task.163,W_User.19,Send Letter,Email,Task,150,In Progress,Normal
-W_Task.164,W_User.7,Send Letter,Email,Email,4320,In Progress,Normal
-W_Task.165,W_User.7,Other,Meeting,Call,360,In Progress,High
-W_Task.166,W_User.8,Call,Meeting,Call,360,Completed,Normal
-W_Task.167,W_User.6,Other,Other,Email,1500,In Progress,Normal
-W_Task.168,W_User.6,Other,Prep,Task,1080,In Progress,Normal
-W_Task.169,W_User.12,Call,Meeting,Task,240,On Hold,Normal
-W_Task.170,W_User.17,Send Letter,Email,Email,2700,On Hold,Normal
-W_Task.171,W_User.12,Other,Other,Call,600,Completed,Normal
-W_Task.172,W_User.2,Other,Other,Task,1620,Not Started,Normal
-W_Task.173,W_User.19,Call,Call,Call,4500,In Progress,Normal
-W_Task.174,W_User.4,Call,Call,Call,1200,On Hold,High
-W_Task.175,W_User.17,Send Letter,Email,Task,360,In Progress,Normal
-W_Task.176,W_User.11,Call,Call,Email,900,Not Started,Normal
-W_Task.177,W_User.6,Send Quote,Email,Task,1080,Not Started,High
-W_Task.178,W_User.18,Call,Call,Call,270,On Hold,High
-W_Task.179,W_User.19,Call,Call,Email,900,In Progress,Normal
-W_Task.180,W_User.2,Send Letter,Email,Call,1800,Not Started,High
-W_Task.181,W_User.2,Other,Meeting,Call,1200,In Progress,Normal
-W_Task.182,W_User.9,Send Quote,Email,Email,1080,On Hold,Normal
-W_Task.183,W_User.5,Send Letter,Email,Task,120,Not Started,High
-W_Task.184,W_User.7,Other,Prep,Task,1800,Completed,Normal
-W_Task.185,W_User.11,Send Letter,Email,Email,3240,In Progress,Normal
-W_Task.186,W_User.16,Send Letter,Email,Task,600,On Hold,Normal
-W_Task.187,W_User.5,Send Letter,Email,Call,360,On Hold,Normal
-W_Task.188,W_User.12,Send Letter,Email,Call,2160,Not Started,Normal
-W_Task.189,W_User.17,Call,Call,Call,2700,In Progress,Normal
-W_Task.190,W_User.4,Call,Call,Email,2880,Completed,Normal
-W_Task.191,W_User.12,Send Letter,Email,Task,1200,Not Started,Normal
-W_Task.192,W_User.9,Other,Other,Task,1200,In Progress,Normal
-W_Task.193,W_User.7,Other,Other,Email,450,In Progress,Normal
-W_Task.194,W_User.18,Call,Meeting,Call,1200,Completed,Normal
-W_Task.195,W_User.16,Call,Call,Task,2700,On Hold,Normal
-W_Task.196,W_User.3,Other,Other,Task,480,Not Started,Normal
-W_Task.197,W_User.2,Send Quote,Email,Call,720,Completed,Normal
-W_Task.198,W_User.14,Send Letter,Email,Task,450,Not Started,Normal
-W_Task.199,W_User.18,Other,Other,Email,270,On Hold,Normal
-W_Task.200,W_User.12,Other,Other,Call,120,Not Started,Normal
-W_Task.201,W_User.8,Send Letter,Email,Email,3600,In Progress,Normal
-W_Task.202,W_User.6,Call,Call,Call,1440,In Progress,Normal
-W_Task.203,W_User.5,Send Letter,Email,Call,600,On Hold,Normal
-W_Task.204,W_User.17,Send Letter,Email,Task,2880,Completed,Normal
-W_Task.205,W_User.2,Other,Meeting,Call,3000,In Progress,Normal
-W_Task.206,W_User.6,Send Letter,Email,Task,120,Completed,Normal
-W_Task.207,W_User.19,Call,Meeting,Email,600,On Hold,High
-W_Task.208,W_User.3,Other,Meeting,Email,180,Not Started,Normal
-W_Task.209,W_User.17,Call,Call,Task,1350,Not Started,Normal
-W_Task.210,W_User.14,Call,Meeting,Task,3240,Not Started,Normal
-W_Task.211,W_User.11,Send Letter,Email,Email,120,In Progress,Normal
-W_Task.212,W_User.13,Other,Other,Call,600,Not Started,Normal
-W_Task.213,W_User.10,Call,Meeting,Task,1800,Not Started,Normal
-W_Task.214,W_User.3,Send Letter,Email,Task,360,Not Started,Normal
-W_Task.215,W_User.13,Call,Call,Call,2700,On Hold,High
-W_Task.216,W_User.17,Send Letter,Email,Task,1440,Not Started,Normal
-W_Task.217,W_User.5,Call,Meeting,Email,2250,Completed,Normal
-W_Task.218,W_User.12,Call,Call,Email,180,In Progress,Normal
-W_Task.219,W_User.10,Send Letter,Email,Email,900,Not Started,Normal
-W_Task.220,W_User.10,Send Letter,Email,Task,600,On Hold,Normal
-W_Task.221,W_User.19,Send Letter,Email,Call,1440,In Progress,Normal
-W_Task.222,W_User.1,Send Letter,Email,Call,4320,In Progress,Normal
-W_Task.223,W_User.3,Send Quote,Email,Email,600,In Progress,Normal
-W_Task.224,W_User.16,Other,Meeting,Call,1800,Completed,Normal
-W_Task.225,W_User.6,Send Letter,Email,Email,270,Completed,High
-W_Task.226,W_User.1,Send Letter,Email,Email,180,On Hold,Normal
-W_Task.227,W_User.20,Send Letter,Email,Email,1620,Not Started,Normal
-W_Task.228,W_User.18,Send Letter,Email,Task,4500,Completed,Normal
-W_Task.229,W_User.11,Send Letter,Email,Task,1800,On Hold,Normal
-W_Task.230,W_User.4,Send Letter,Email,Task,1920,Completed,Normal
-W_Task.231,W_User.20,Send Quote,Email,Call,4500,On Hold,Normal
-W_Task.232,W_User.14,Send Letter,Email,Email,3240,In Progress,Normal
-W_Task.233,W_User.3,Send Letter,Email,Task,3240,In Progress,Normal
-W_Task.234,W_User.7,Send Quote,Email,Call,2250,In Progress,Normal
-W_Task.235,W_User.4,Other,Meeting,Call,3750,Not Started,Normal
-W_Task.236,W_User.18,Send Letter,Email,Email,750,Completed,Normal
-W_Task.237,W_User.18,Send Quote,Email,Call,360,On Hold,Normal
-W_Task.238,W_User.20,Send Letter,Email,Email,1080,Completed,Normal
-W_Task.239,W_User.17,Call,Call,Email,180,Not Started,Normal
-W_Task.240,W_User.16,Send Letter,Email,Email,600,In Progress,Normal
-W_Task.241,W_User.9,Call,Call,Task,900,On Hold,Normal
-W_Task.242,W_User.9,Other,Meeting,Task,450,Not Started,Normal
-W_Task.243,W_User.20,Send Letter,Email,Email,1800,Completed,Normal
-W_Task.244,W_User.13,Send Letter,Email,Email,2160,Completed,Normal
-W_Task.245,W_User.11,Other,Other,Call,1080,Not Started,Normal
-W_Task.246,W_User.4,Other,Meeting,Task,540,Completed,High
-W_Task.247,W_User.2,Call,Call,Call,360,Not Started,Normal
-W_Task.248,W_User.11,Call,Call,Task,30,Completed,High
-W_Task.249,W_User.20,Send Letter,Email,Call,1200,In Progress,Normal
-W_Task.250,W_User.16,Call,Call,Email,2160,In Progress,Normal
-W_Task.251,W_User.10,Other,Other,Email,1800,Completed,Normal
-W_Task.252,W_User.11,Send Letter,Email,Email,450,In Progress,High
-W_Task.253,W_User.11,Send Letter,Email,Call,1080,Not Started,Normal
-W_Task.254,W_User.11,Call,Meeting,Call,180,On Hold,Normal
-W_Task.255,W_User.4,Send Quote,Email,Call,360,Completed,Normal
-W_Task.256,W_User.8,Send Letter,Email,Call,2400,Not Started,Normal
-W_Task.257,W_User.4,Send Letter,Email,Task,450,On Hold,Normal
-W_Task.258,W_User.12,Call,Meeting,Task,480,In Progress,Normal
-W_Task.259,W_User.20,Send Letter,Email,Email,120,In Progress,Normal
-W_Task.260,W_User.2,Other,Meeting,Task,2160,Completed,Normal
-W_Task.261,W_User.9,Call,Call,Task,3600,Completed,Normal
-W_Task.262,W_User.19,Send Letter,Email,Email,1440,On Hold,Normal
-W_Task.263,W_User.12,Call,Call,Email,240,Not Started,Normal
-W_Task.264,W_User.12,Call,Call,Call,600,In Progress,Normal
-W_Task.265,W_User.2,Other,Meeting,Task,1800,Completed,Normal
-W_Task.266,W_User.16,Call,Meeting,Task,2400,Not Started,Normal
-W_Task.267,W_User.13,Other,Prep,Email,480,In Progress,Normal
-W_Task.268,W_User.19,Call,Call,Task,1440,On Hold,Normal
-W_Task.269,W_User.13,Other,Other,Task,720,Not Started,Normal
-W_Task.270,W_User.15,Send Quote,Email,Call,480,Completed,High
-W_Task.271,W_User.6,Other,Prep,Call,1200,On Hold,Normal
-W_Task.272,W_User.20,Other,Other,Call,1080,On Hold,Normal
-W_Task.273,W_User.6,Send Letter,Email,Email,1440,Completed,Normal
-W_Task.274,W_User.1,Call,Call,Task,1080,In Progress,Normal
-W_Task.275,W_User.20,Call,Call,Call,1350,On Hold,Normal
-W_Task.276,W_User.10,Send Letter,Email,Call,3600,On Hold,Normal
-W_Task.277,W_User.5,Other,Other,Email,450,In Progress,Normal
-W_Task.278,W_User.4,Other,Prep,Call,2700,Completed,Normal
-W_Task.279,W_User.20,Send Letter,Email,Call,1440,Not Started,Normal
-W_Task.280,W_User.11,Call,Call,Email,180,Completed,Normal
-W_Task.281,W_User.20,Send Quote,Email,Call,300,On Hold,Normal
-W_Task.282,W_User.7,Call,Call,Task,750,In Progress,Normal
-W_Task.283,W_User.9,Other,Meeting,Email,360,On Hold,Normal
-W_Task.284,W_User.7,Call,Meeting,Task,120,In Progress,Normal
-W_Task.285,W_User.16,Other,Prep,Email,900,Not Started,Normal
-W_Task.286,W_User.5,Other,Meeting,Call,120,Not Started,Normal
-W_Task.287,W_User.12,Call,Call,Call,540,Not Started,Normal
-W_Task.288,W_User.11,Send Quote,Email,Task,270,In Progress,Normal
-W_Task.289,W_User.20,Send Letter,Email,Email,2700,On Hold,Normal
-W_Task.290,W_User.11,Send Letter,Email,Email,2160,Not Started,High
-W_Task.291,W_User.10,Send Quote,Email,Task,60,Not Started,Normal
-W_Task.292,W_User.14,Other,Prep,Call,3240,On Hold,Normal
-W_Task.293,W_User.14,Send Quote,Email,Task,1920,In Progress,Normal
-W_Task.294,W_User.10,Other,Prep,Call,1800,Completed,Normal
-W_Task.295,W_User.6,Other,Meeting,Call,240,On Hold,Normal
-W_Task.296,W_User.2,Send Letter,Email,Call,720,In Progress,Normal
-W_Task.297,W_User.5,Call,Call,Task,2160,In Progress,Normal
-W_Task.298,W_User.18,Call,Call,Email,480,Not Started,High
-W_Task.299,W_User.14,Send Quote,Email,Call,2250,In Progress,Normal
-W_Task.300,W_User.11,Send Letter,Email,Call,1440,Completed,Normal
-W_Task.301,W_User.19,Send Quote,Email,Email,120,On Hold,Normal
-W_Task.302,W_User.10,Other,Other,Call,60,Not Started,Normal
-W_Task.303,W_User.16,Other,Prep,Email,1440,Not Started,Normal
-W_Task.304,W_User.20,Other,Meeting,Call,3600,On Hold,Normal
-W_Task.305,W_User.17,Send Letter,Email,Call,3600,Completed,Normal
-W_Task.306,W_User.13,Call,Call,Email,360,On Hold,Normal
-W_Task.307,W_User.9,Call,Call,Email,2160,On Hold,Normal
-W_Task.308,W_User.17,Send Letter,Email,Email,2250,Completed,Normal
-W_Task.309,W_User.20,Send Letter,Email,Email,900,Completed,Normal
-W_Task.310,W_User.1,Call,Call,Email,450,Not Started,Normal
-W_Task.311,W_User.17,Send Quote,Email,Task,900,In Progress,Normal
-W_Task.312,W_User.14,Send Letter,Email,Call,720,On Hold,Normal
-W_Task.313,W_User.13,Call,Call,Call,60,Not Started,Normal
-W_Task.314,W_User.6,Call,Call,Call,3000,In Progress,Normal
-W_Task.315,W_User.6,Call,Call,Email,540,Completed,High
-W_Task.316,W_User.15,Other,Meeting,Email,600,Completed,Normal
-W_Task.317,W_User.12,Other,Meeting,Email,3600,Completed,Normal
-W_Task.318,W_User.1,Call,Call,Call,240,Not Started,Normal
-W_Task.319,W_User.4,Other,Other,Call,750,Not Started,Normal
-W_Task.320,W_User.16,Send Letter,Email,Email,480,Not Started,Normal
-W_Task.321,W_User.5,Other,Meeting,Call,540,Completed,Normal
-W_Task.322,W_User.20,Call,Call,Call,3000,Completed,Normal
-W_Task.323,W_User.16,Send Letter,Email,Task,240,On Hold,High
-W_Task.324,W_User.18,Send Letter,Email,Call,2700,Not Started,Normal
-W_Task.325,W_User.20,Send Quote,Email,Email,480,Completed,Normal
-W_Task.326,W_User.6,Call,Call,Call,1800,In Progress,Normal
-W_Task.327,W_User.7,Other,Other,Email,240,Not Started,High
-W_Task.328,W_User.9,Call,Meeting,Task,1440,Completed,Normal
-W_Task.329,W_User.15,Call,Call,Task,1920,In Progress,High
-W_Task.330,W_User.7,Call,Call,Task,60,Completed,Normal
-W_Task.331,W_User.13,Send Letter,Email,Task,540,On Hold,Normal
-W_Task.332,W_User.16,Call,Meeting,Call,2160,On Hold,Normal
-W_Task.333,W_User.6,Other,Meeting,Task,360,In Progress,High
-W_Task.334,W_User.11,Other,Other,Task,960,Completed,High
-W_Task.335,W_User.8,Send Letter,Email,Email,4320,On Hold,Normal
-W_Task.336,W_User.2,Send Quote,Email,Call,1080,In Progress,Normal
-W_Task.337,W_User.1,Call,Call,Email,960,On Hold,Normal
-W_Task.338,W_User.15,Call,Call,Call,3000,Completed,Normal
-W_Task.339,W_User.10,Send Letter,Email,Task,1440,On Hold,Normal
-W_Task.340,W_User.19,Other,Prep,Task,810,Not Started,Normal
-W_Task.341,W_User.7,Send Letter,Email,Call,1200,Completed,Normal
-W_Task.342,W_User.11,Send Quote,Email,Call,3600,Completed,Normal
-W_Task.343,W_User.20,Other,Meeting,Call,120,On Hold,Normal
-W_Task.344,W_User.19,Send Letter,Email,Task,270,In Progress,Normal
-W_Task.345,W_User.17,Call,Call,Call,1080,On Hold,Normal
-W_Task.346,W_User.1,Call,Call,Task,480,In Progress,Normal
-W_Task.347,W_User.18,Send Quote,Email,Task,1440,In Progress,Normal
-W_Task.348,W_User.11,Other,Other,Call,720,On Hold,Normal
-W_Task.349,W_User.5,Send Letter,Email,Task,240,In Progress,Normal
-W_Task.350,W_User.13,Call,Call,Call,360,Completed,Normal
-W_Task.351,W_User.5,Send Letter,Email,Task,150,Completed,Normal
-W_Task.352,W_User.5,Send Letter,Email,Task,450,In Progress,High
-W_Task.353,W_User.12,Call,Meeting,Email,1620,In Progress,High
-W_Task.354,W_User.12,Other,Other,Task,150,Not Started,Normal
-W_Task.355,W_User.17,Send Letter,Email,Call,1440,Not Started,Normal
-W_Task.356,W_User.2,Send Quote,Email,Email,720,On Hold,Normal
-W_Task.357,W_User.20,Send Letter,Email,Call,1080,Not Started,Normal
-W_Task.358,W_User.5,Other,Prep,Call,600,Not Started,Normal
-W_Task.359,W_User.8,Other,Other,Task,1800,On Hold,High
-W_Task.360,W_User.8,Call,Call,Task,300,In Progress,High
-W_Task.361,W_User.13,Send Letter,Email,Email,600,Completed,Normal
-W_Task.362,W_User.1,Call,Call,Task,720,On Hold,Normal
-W_Task.363,W_User.19,Call,Meeting,Task,2160,Completed,Normal
-W_Task.364,W_User.11,Other,Prep,Email,450,Completed,Normal
-W_Task.365,W_User.12,Other,Meeting,Email,750,On Hold,Normal
-W_Task.366,W_User.1,Send Quote,Email,Call,150,In Progress,Normal
-W_Task.367,W_User.1,Send Letter,Email,Task,900,Not Started,Normal
-W_Task.368,W_User.15,Call,Call,Task,1350,Not Started,Normal
-W_Task.369,W_User.4,Send Letter,Email,Email,360,Not Started,High
-W_Task.370,W_User.6,Send Letter,Email,Task,900,In Progress,Normal
-W_Task.371,W_User.11,Send Letter,Email,Email,1080,Completed,Normal
-W_Task.372,W_User.15,Send Letter,Email,Call,5400,In Progress,Normal
-W_Task.373,W_User.4,Other,Prep,Call,1920,Not Started,Normal
-W_Task.374,W_User.16,Call,Meeting,Email,1080,Not Started,Normal
-W_Task.375,W_User.18,Send Quote,Email,Email,5400,In Progress,Normal
-W_Task.376,W_User.10,Send Letter,Email,Call,360,Not Started,Normal
-W_Task.377,W_User.20,Send Quote,Email,Task,90,Not Started,High
-W_Task.378,W_User.6,Call,Call,Email,2160,Not Started,High
-W_Task.379,W_User.18,Other,Other,Call,360,In Progress,Normal
-W_Task.380,W_User.20,Other,Meeting,Call,600,On Hold,Normal
-W_Task.381,W_User.15,Send Letter,Email,Task,5400,Completed,Normal
-W_Task.382,W_User.2,Send Letter,Email,Call,750,On Hold,Normal
-W_Task.383,W_User.20,Call,Call,Task,900,Completed,High
-W_Task.384,W_User.8,Call,Meeting,Call,900,Not Started,Normal
-W_Task.385,W_User.3,Send Letter,Email,Email,1800,Completed,Normal
-W_Task.386,W_User.10,Other,Prep,Task,540,On Hold,Normal
-W_Task.387,W_User.18,Send Letter,Email,Call,1920,On Hold,Normal
-W_Task.388,W_User.10,Other,Other,Call,1200,On Hold,Normal
-W_Task.389,W_User.15,Send Quote,Email,Call,540,Completed,Normal
-W_Task.390,W_User.9,Call,Call,Task,3600,On Hold,Normal
-W_Task.391,W_User.10,Send Letter,Email,Email,2700,In Progress,Normal
-W_Task.392,W_User.16,Send Letter,Email,Task,1500,In Progress,Normal
-W_Task.393,W_User.20,Send Letter,Email,Call,1080,Not Started,Normal
-W_Task.394,W_User.11,Send Letter,Email,Email,1800,On Hold,Normal
-W_Task.395,W_User.7,Send Letter,Email,Task,750,Not Started,Normal
-W_Task.396,W_User.4,Other,Meeting,Email,540,In Progress,Normal
-W_Task.397,W_User.5,Send Letter,Email,Call,2400,Not Started,Normal
-W_Task.398,W_User.18,Send Letter,Email,Task,600,On Hold,Normal
-W_Task.399,W_User.14,Send Letter,Email,Call,300,Completed,Normal
-W_Task.400,W_User.16,Send Quote,Email,Call,360,In Progress,Normal
-W_Task.401,W_User.7,Send Letter,Email,Email,1440,Completed,High
-W_Task.402,W_User.11,Send Letter,Email,Call,360,On Hold,Normal
-W_Task.403,W_User.7,Send Letter,Email,Email,1620,On Hold,Normal
-W_Task.404,W_User.14,Call,Call,Task,2250,Not Started,Normal
-W_Task.405,W_User.1,Call,Call,Email,1800,Not Started,Normal
-W_Task.406,W_User.19,Send Quote,Email,Email,2250,In Progress,Normal
-W_Task.407,W_User.5,Send Quote,Email,Email,720,Not Started,High
-W_Task.408,W_User.2,Send Quote,Email,Task,1440,In Progress,Normal
-W_Task.409,W_User.8,Send Letter,Email,Call,900,In Progress,Normal
-W_Task.410,W_User.20,Call,Meeting,Call,720,In Progress,Normal
-W_Task.411,W_User.5,Other,Other,Call,360,On Hold,Normal
-W_Task.412,W_User.18,Other,Prep,Call,180,Completed,Normal
-W_Task.413,W_User.13,Call,Call,Call,960,Not Started,High
-W_Task.414,W_User.12,Send Quote,Email,Email,2160,Completed,High
-W_Task.415,W_User.15,Other,Meeting,Call,3000,In Progress,Normal
-W_Task.416,W_User.15,Send Quote,Email,Call,1800,On Hold,High
-W_Task.417,W_User.4,Send Letter,Email,Email,120,On Hold,High
-W_Task.418,W_User.12,Other,Meeting,Task,1800,Completed,Normal
-W_Task.419,W_User.15,Send Quote,Email,Call,360,Not Started,Normal
-W_Task.420,W_User.8,Other,Meeting,Email,900,Not Started,Normal
-W_Task.421,W_User.6,Other,Other,Task,540,Completed,Normal
-W_Task.422,W_User.19,Send Letter,Email,Call,2400,On Hold,Normal
-W_Task.423,W_User.6,Call,Call,Email,360,Not Started,Normal
-W_Task.424,W_User.13,Send Quote,Email,Call,3600,Not Started,Normal
-W_Task.425,W_User.20,Call,Meeting,Email,1080,Not Started,Normal
-W_Task.426,W_User.11,Call,Call,Task,720,In Progress,Normal
-W_Task.427,W_User.13,Send Letter,Email,Task,240,Not Started,High
-W_Task.428,W_User.20,Call,Call,Call,2160,On Hold,Normal
-W_Task.429,W_User.14,Call,Call,Email,240,On Hold,Normal
-W_Task.430,W_User.8,Send Letter,Email,Task,270,In Progress,Normal
-W_Task.431,W_User.6,Call,Call,Task,720,Not Started,Normal
-W_Task.432,W_User.15,Send Letter,Email,Email,1800,Completed,Normal
-W_Task.433,W_User.14,Send Letter,Email,Task,150,In Progress,Normal
-W_Task.434,W_User.2,Send Letter,Email,Call,450,In Progress,High
-W_Task.435,W_User.19,Send Letter,Email,Email,960,In Progress,Normal
-W_Task.436,W_User.10,Call,Call,Task,2250,Not Started,Normal
-W_Task.437,W_User.2,Send Letter,Email,Task,1350,Completed,Normal
-W_Task.438,W_User.18,Other,Meeting,Task,2250,In Progress,High
-W_Task.439,W_User.17,Send Letter,Email,Task,90,On Hold,Normal
-W_Task.440,W_User.15,Call,Call,Task,960,In Progress,Normal
-W_Task.441,W_User.18,Send Letter,Email,Call,60,On Hold,Normal
-W_Task.442,W_User.10,Call,Call,Task,720,In Progress,High
-W_Task.443,W_User.18,Send Letter,Email,Task,600,On Hold,Normal
-W_Task.444,W_User.17,Call,Call,Task,600,Completed,Normal
-W_Task.445,W_User.9,Call,Call,Call,720,Completed,Normal
-W_Task.446,W_User.15,Call,Call,Task,540,On Hold,Normal
-W_Task.447,W_User.9,Other,Prep,Call,240,In Progress,Normal
-W_Task.448,W_User.14,Call,Meeting,Task,1080,On Hold,Normal
-W_Task.449,W_User.13,Call,Call,Call,450,Completed,Normal
-W_Task.450,W_User.5,Call,Call,Task,750,Completed,High
-W_Task.451,W_User.17,Send Letter,Email,Call,960,Completed,Normal
-W_Task.452,W_User.2,Other,Meeting,Call,180,Not Started,Normal
-W_Task.453,W_User.12,Send Quote,Email,Email,720,Completed,Normal
-W_Task.454,W_User.15,Send Letter,Email,Call,900,Not Started,Normal
-W_Task.455,W_User.1,Send Quote,Email,Task,1800,Completed,Normal
-W_Task.456,W_User.19,Send Quote,Email,Task,360,On Hold,Normal
-W_Task.457,W_User.5,Call,Call,Call,900,Completed,Normal
-W_Task.458,W_User.10,Other,Prep,Call,600,Completed,Normal
-W_Task.459,W_User.4,Call,Meeting,Call,960,On Hold,Normal
-W_Task.460,W_User.18,Send Quote,Email,Task,720,In Progress,High
-W_Task.461,W_User.5,Send Letter,Email,Call,360,Not Started,Normal
-W_Task.462,W_User.16,Send Letter,Email,Email,450,On Hold,Normal
-W_Task.463,W_User.18,Call,Call,Task,120,Completed,Normal
-W_Task.464,W_User.4,Call,Meeting,Call,900,Completed,Normal
-W_Task.465,W_User.6,Send Letter,Email,Call,1620,In Progress,Normal
-W_Task.466,W_User.15,Call,Call,Email,60,In Progress,Normal
-W_Task.467,W_User.3,Send Letter,Email,Call,2880,On Hold,Normal
-W_Task.468,W_User.8,Call,Call,Email,2700,Completed,Normal
-W_Task.469,W_User.4,Call,Call,Email,1800,Not Started,High
-W_Task.470,W_User.18,Call,Call,Call,540,Completed,Normal
-W_Task.471,W_User.1,Send Letter,Email,Task,270,Not Started,Normal
-W_Task.472,W_User.16,Send Quote,Email,Task,1800,In Progress,Normal
-W_Task.473,W_User.15,Call,Call,Call,1800,Not Started,Normal
-W_Task.474,W_User.1,Send Letter,Email,Task,900,In Progress,Normal
-W_Task.475,W_User.5,Send Letter,Email,Call,1350,Not Started,High
-W_Task.476,W_User.15,Send Letter,Email,Task,900,In Progress,Normal
-W_Task.477,W_User.2,Call,Call,Email,750,Not Started,Normal
-W_Task.478,W_User.19,Call,Call,Call,720,Not Started,Normal
-W_Task.479,W_User.2,Other,Prep,Call,1800,Not Started,Normal
-W_Task.480,W_User.4,Call,Meeting,Task,180,In Progress,Normal
-W_Task.481,W_User.20,Call,Call,Email,120,Not Started,Normal
-W_Task.482,W_User.20,Send Letter,Email,Email,1200,Not Started,Normal
-W_Task.483,W_User.14,Call,Call,Email,2160,In Progress,High
-W_Task.484,W_User.8,Call,Call,Call,1500,In Progress,Normal
-W_Task.485,W_User.6,Send Letter,Email,Task,3000,Not Started,Normal
-W_Task.486,W_User.15,Other,Meeting,Task,3750,In Progress,Normal
-W_Task.487,W_User.8,Call,Call,Email,450,In Progress,Normal
-W_Task.488,W_User.19,Send Letter,Email,Email,1920,Not Started,High
-W_Task.489,W_User.3,Send Letter,Email,Call,1080,Completed,Normal
-W_Task.490,W_User.5,Other,Prep,Task,120,Not Started,Normal
-W_Task.491,W_User.4,Other,Other,Call,2250,In Progress,Normal
-W_Task.492,W_User.2,Send Letter,Email,Call,1200,Completed,Normal
-W_Task.493,W_User.6,Other,Prep,Email,1080,Completed,Normal
-W_Task.494,W_User.2,Send Quote,Email,Call,900,Completed,Normal
-W_Task.495,W_User.16,Other,Meeting,Call,270,Not Started,Normal
-W_Task.496,W_User.5,Send Letter,Email,Email,2250,On Hold,Normal
-W_Task.497,W_User.13,Send Letter,Email,Task,240,Not Started,High
-W_Task.498,W_User.19,Send Letter,Email,Email,1080,On Hold,Normal
-W_Task.499,W_User.6,Call,Call,Task,360,On Hold,Normal
-W_Task.500,W_User.8,Call,Call,Task,3240,On Hold,High
-W_Task.501,W_User.5,Other,Prep,Email,1800,On Hold,High
-W_Task.502,W_User.8,Call,Call,Email,1080,Completed,Normal
-W_Task.503,W_User.6,Other,Prep,Task,300,Not Started,Normal
-W_Task.504,W_User.5,Send Letter,Email,Task,900,On Hold,Normal
-W_Task.505,W_User.16,Other,Meeting,Task,180,Completed,Normal
-W_Task.506,W_User.11,Call,Meeting,Email,2700,On Hold,Normal
-W_Task.507,W_User.9,Call,Call,Task,1080,Completed,Normal
-W_Task.508,W_User.7,Send Letter,Email,Email,600,On Hold,Normal
-W_Task.509,W_User.3,Call,Call,Task,120,On Hold,Normal
-W_Task.510,W_User.3,Call,Meeting,Email,1080,Completed,High
-W_Task.511,W_User.8,Call,Call,Task,30,Not Started,Normal
-W_Task.512,W_User.3,Other,Other,Email,360,In Progress,Normal
-W_Task.513,W_User.3,Send Quote,Email,Task,480,On Hold,Normal
-W_Task.514,W_User.6,Other,Meeting,Call,540,Not Started,Normal
-W_Task.515,W_User.15,Call,Meeting,Task,750,Not Started,Normal
-W_Task.516,W_User.4,Call,Call,Task,2160,Completed,Normal
-W_Task.517,W_User.13,Other,Meeting,Email,900,Not Started,Normal
-W_Task.518,W_User.16,Send Letter,Email,Email,2880,Completed,Normal
-W_Task.519,W_User.3,Call,Meeting,Call,720,Not Started,Normal
-W_Task.520,W_User.16,Send Quote,Email,Task,540,Not Started,Normal
-W_Task.521,W_User.10,Other,Other,Call,1800,Not Started,Normal
-W_Task.522,W_User.2,Send Letter,Email,Call,180,On Hold,Normal
-W_Task.523,W_User.6,Send Letter,Email,Email,1080,Not Started,Normal
-W_Task.524,W_User.13,Other,Meeting,Task,1800,On Hold,High
-W_Task.525,W_User.2,Send Letter,Email,Task,2700,Completed,Normal
-W_Task.526,W_User.19,Other,Other,Call,4320,Completed,Normal
-W_Task.527,W_User.15,Call,Call,Email,480,Not Started,Normal
-W_Task.528,W_User.11,Other,Meeting,Task,600,Not Started,Normal
-W_Task.529,W_User.4,Send Quote,Email,Call,540,Completed,Normal
-W_Task.530,W_User.18,Send Letter,Email,Email,4500,In Progress,Normal
-W_Task.531,W_User.14,Other,Other,Call,360,Not Started,Normal
-W_Task.532,W_User.17,Call,Call,Email,720,In Progress,Normal
-W_Task.533,W_User.13,Other,Prep,Email,1440,On Hold,Normal
-W_Task.534,W_User.5,Send Letter,Email,Call,120,In Progress,Normal
-W_Task.535,W_User.9,Other,Other,Task,5400,Completed,Normal
-W_Task.536,W_User.19,Call,Call,Task,180,Not Started,Normal
-W_Task.537,W_User.7,Call,Call,Email,720,On Hold,Normal
-W_Task.538,W_User.9,Call,Call,Task,1620,Completed,Normal
-W_Task.539,W_User.16,Send Letter,Email,Call,1800,Not Started,Normal
-W_Task.540,W_User.19,Send Letter,Email,Task,3240,Completed,Normal
-W_Task.541,W_User.4,Send Letter,Email,Email,360,On Hold,Normal
-W_Task.542,W_User.7,Send Letter,Email,Email,540,Not Started,Normal
-W_Task.543,W_User.16,Other,Prep,Call,960,Not Started,Normal
-W_Task.544,W_User.9,Send Quote,Email,Task,720,On Hold,Normal
-W_Task.545,W_User.8,Send Letter,Email,Task,720,On Hold,Normal
-W_Task.546,W_User.10,Other,Other,Email,150,In Progress,Normal
-W_Task.547,W_User.11,Call,Call,Call,240,Completed,Normal
-W_Task.548,W_User.8,Send Letter,Email,Email,450,Completed,Normal
-W_Task.549,W_User.7,Call,Call,Email,5400,Completed,Normal
-W_Task.550,W_User.20,Call,Call,Email,1080,In Progress,Normal
-W_Task.551,W_User.8,Send Letter,Email,Call,120,In Progress,Normal
-W_Task.552,W_User.9,Other,Meeting,Email,540,Completed,Normal
-W_Task.553,W_User.5,Call,Call,Task,2400,In Progress,High
-W_Task.554,W_User.16,Send Letter,Email,Call,360,In Progress,Normal
-W_Task.555,W_User.11,Send Letter,Email,Email,480,On Hold,Normal
-W_Task.556,W_User.16,Send Letter,Email,Task,900,Completed,Normal
-W_Task.557,W_User.6,Send Quote,Email,Call,360,In Progress,Normal
-W_Task.558,W_User.1,Other,Meeting,Email,2400,On Hold,Normal
-W_Task.559,W_User.9,Call,Call,Email,2160,Not Started,Normal
-W_Task.560,W_User.3,Send Letter,Email,Email,1440,On Hold,High
-W_Task.561,W_User.7,Send Quote,Email,Call,900,On Hold,Normal
-W_Task.562,W_User.10,Call,Meeting,Call,1440,On Hold,Normal
-W_Task.563,W_User.4,Other,Other,Email,180,Not Started,Normal
-W_Task.564,W_User.10,Send Letter,Email,Email,3000,Not Started,Normal
-W_Task.565,W_User.5,Call,Call,Task,3000,On Hold,Normal
-W_Task.566,W_User.11,Send Letter,Email,Task,720,On Hold,Normal
-W_Task.567,W_User.2,Send Letter,Email,Email,120,Not Started,Normal
-W_Task.568,W_User.1,Other,Prep,Email,4320,In Progress,Normal
-W_Task.569,W_User.10,Send Letter,Email,Call,1080,On Hold,Normal
-W_Task.570,W_User.19,Other,Meeting,Task,3600,Not Started,Normal
-W_Task.571,W_User.18,Call,Call,Email,1440,Not Started,Normal
-W_Task.572,W_User.11,Other,Meeting,Task,450,In Progress,Normal
-W_Task.573,W_User.6,Send Quote,Email,Task,360,Not Started,Normal
-W_Task.574,W_User.18,Other,Other,Task,120,Not Started,Normal
-W_Task.575,W_User.20,Send Letter,Email,Call,1350,Not Started,Normal
-W_Task.576,W_User.17,Call,Meeting,Task,540,Completed,Normal
-W_Task.577,W_User.16,Send Letter,Email,Email,1080,Not Started,Normal
-W_Task.578,W_User.10,Send Letter,Email,Call,270,Completed,Normal
-W_Task.579,W_User.2,Other,Other,Email,720,On Hold,Normal
-W_Task.580,W_User.10,Other,Meeting,Call,300,Not Started,Normal
-W_Task.581,W_User.10,Send Letter,Email,Task,300,On Hold,Normal
-W_Task.582,W_User.5,Other,Meeting,Email,1800,Not Started,Normal
-W_Task.583,W_User.1,Send Letter,Email,Call,120,Not Started,Normal
-W_Task.584,W_User.16,Other,Other,Email,1620,Completed,High
-W_Task.585,W_User.13,Send Letter,Email,Email,240,On Hold,Normal
-W_Task.586,W_User.8,Send Quote,Email,Task,240,Completed,Normal
-W_Task.587,W_User.17,Send Quote,Email,Task,1800,Not Started,Normal
-W_Task.588,W_User.2,Call,Call,Task,1800,In Progress,Normal
-W_Task.589,W_User.4,Send Letter,Email,Call,120,In Progress,Normal
-W_Task.590,W_User.10,Other,Other,Task,180,Not Started,Normal
-W_Task.591,W_User.4,Call,Call,Email,2700,In Progress,Normal
-W_Task.592,W_User.13,Send Quote,Email,Call,90,Not Started,Normal
-W_Task.593,W_User.17,Send Letter,Email,Email,1440,In Progress,Normal
-W_Task.594,W_User.17,Other,Other,Task,1800,Completed,Normal
-W_Task.595,W_User.6,Send Letter,Email,Call,720,On Hold,Normal
-W_Task.596,W_User.7,Call,Call,Call,540,In Progress,Normal
-W_Task.597,W_User.10,Call,Call,Task,2250,Completed,Normal
-W_Task.598,W_User.12,Send Letter,Email,Task,1080,Not Started,Normal
-W_Task.599,W_User.7,Call,Call,Email,750,On Hold,Normal
-W_Task.600,W_User.1,Other,Other,Email,90,Completed,Normal
-W_Task.601,W_User.14,Call,Call,Call,1800,On Hold,Normal
-W_Task.602,W_User.7,Send Letter,Email,Task,150,On Hold,Normal
-W_Task.603,W_User.15,Call,Call,Call,150,Completed,Normal
-W_Task.604,W_User.4,Send Letter,Email,Email,480,On Hold,Normal
-W_Task.605,W_User.17,Call,Call,Email,360,Not Started,Normal
-W_Task.606,W_User.15,Send Quote,Email,Call,1200,In Progress,Normal
-W_Task.607,W_User.10,Other,Prep,Task,1080,In Progress,Normal
-W_Task.608,W_User.14,Call,Call,Email,600,Completed,Normal
-W_Task.609,W_User.17,Other,Prep,Call,1440,On Hold,Normal
-W_Task.610,W_User.19,Send Quote,Email,Task,2160,In Progress,High
-W_Task.611,W_User.16,Call,Meeting,Email,1800,On Hold,Normal
-W_Task.612,W_User.2,Send Quote,Email,Call,270,Completed,Normal
-W_Task.613,W_User.7,Send Letter,Email,Email,480,On Hold,Normal
-W_Task.614,W_User.13,Other,Prep,Call,1200,In Progress,Normal
-W_Task.615,W_User.12,Send Letter,Email,Call,360,Not Started,Normal
-W_Task.616,W_User.16,Send Letter,Email,Task,120,In Progress,High
-W_Task.617,W_User.10,Other,Meeting,Email,720,Completed,Normal
-W_Task.618,W_User.3,Send Letter,Email,Task,1800,Not Started,Normal
-W_Task.619,W_User.6,Send Quote,Email,Task,1350,Completed,Normal
-W_Task.620,W_User.13,Call,Meeting,Call,240,In Progress,Normal
-W_Task.621,W_User.17,Send Letter,Email,Email,270,Not Started,Normal
-W_Task.622,W_User.11,Call,Call,Call,750,Not Started,Normal
-W_Task.623,W_User.9,Send Letter,Email,Task,720,Completed,Normal
-W_Task.624,W_User.2,Call,Call,Call,2700,Completed,Normal
-W_Task.625,W_User.6,Send Letter,Email,Email,120,On Hold,High
-W_Task.626,W_User.18,Other,Meeting,Email,270,On Hold,Normal
-W_Task.627,W_User.12,Send Letter,Email,Task,1440,Completed,Normal
-W_Task.628,W_User.1,Call,Call,Call,300,Completed,Normal
-W_Task.629,W_User.15,Call,Call,Email,360,On Hold,Normal
-W_Task.630,W_User.5,Call,Meeting,Email,540,Not Started,High
-W_Task.631,W_User.19,Send Quote,Email,Call,1620,Completed,Normal
-W_Task.632,W_User.16,Send Letter,Email,Call,1080,Completed,Normal
-W_Task.633,W_User.11,Call,Call,Email,180,Not Started,High
-W_Task.634,W_User.2,Send Letter,Email,Call,4320,On Hold,Normal
-W_Task.635,W_User.12,Call,Call,Email,1500,On Hold,Normal
-W_Task.636,W_User.12,Call,Call,Call,2700,Not Started,Normal
-W_Task.637,W_User.7,Send Letter,Email,Task,2160,Not Started,Normal
-W_Task.638,W_User.1,Send Letter,Email,Call,3000,Completed,Normal
-W_Task.639,W_User.17,Other,Prep,Email,540,In Progress,Normal
-W_Task.640,W_User.19,Send Letter,Email,Task,960,In Progress,Normal
-W_Task.641,W_User.14,Other,Other,Call,1800,Not Started,Normal
-W_Task.642,W_User.12,Send Letter,Email,Task,1350,Completed,Normal
-W_Task.643,W_User.10,Call,Call,Call,900,On Hold,Normal
-W_Task.644,W_User.5,Call,Call,Task,2160,Completed,Normal
-W_Task.645,W_User.17,Call,Call,Call,960,In Progress,Normal
-W_Task.646,W_User.12,Other,Prep,Call,1500,Not Started,Normal
-W_Task.647,W_User.12,Send Letter,Email,Call,450,Completed,Normal
-W_Task.648,W_User.13,Call,Call,Call,1800,Not Started,Normal
-W_Task.649,W_User.15,Call,Call,Task,240,Not Started,Normal
-W_Task.650,W_User.14,Call,Call,Call,4500,In Progress,Normal
-W_Task.651,W_User.9,Send Quote,Email,Email,1620,In Progress,Normal
-W_Task.652,W_User.16,Send Letter,Email,Call,120,In Progress,Normal
-W_Task.653,W_User.8,Call,Call,Email,900,On Hold,High
-W_Task.654,W_User.3,Call,Call,Email,360,Completed,Normal
-W_Task.655,W_User.12,Call,Call,Task,360,On Hold,Normal
-W_Task.656,W_User.15,Send Letter,Email,Email,1620,Completed,Normal
-W_Task.657,W_User.11,Send Letter,Email,Email,450,Completed,Normal
-W_Task.658,W_User.17,Send Letter,Email,Call,240,In Progress,Normal
-W_Task.659,W_User.1,Send Letter,Email,Call,900,Not Started,Normal
-W_Task.660,W_User.20,Call,Call,Task,750,On Hold,Normal
-W_Task.661,W_User.14,Other,Meeting,Call,3240,Completed,Normal
-W_Task.662,W_User.4,Other,Meeting,Email,270,Completed,Normal
-W_Task.663,W_User.8,Send Letter,Email,Call,1080,On Hold,Normal
-W_Task.664,W_User.6,Send Letter,Email,Email,180,Not Started,Normal
-W_Task.665,W_User.2,Call,Call,Call,120,On Hold,Normal
-W_Task.666,W_User.5,Send Letter,Email,Email,360,Not Started,Normal
-W_Task.667,W_User.16,Other,Other,Call,600,On Hold,Normal
-W_Task.668,W_User.11,Send Letter,Email,Email,1800,Not Started,Normal
-W_Task.669,W_User.11,Send Letter,Email,Email,360,On Hold,Normal
-W_Task.670,W_User.6,Send Letter,Email,Email,120,In Progress,High
-W_Task.671,W_User.16,Call,Meeting,Call,240,Completed,Normal
-W_Task.672,W_User.10,Send Letter,Email,Task,480,On Hold,Normal
-W_Task.673,W_User.8,Call,Meeting,Task,600,In Progress,Normal
-W_Task.674,W_User.15,Call,Call,Call,180,On Hold,High
-W_Task.675,W_User.2,Call,Call,Task,960,Completed,Normal
-W_Task.676,W_User.8,Send Letter,Email,Email,600,Not Started,Normal
-W_Task.677,W_User.9,Other,Prep,Email,540,On Hold,Normal
-W_Task.678,W_User.6,Send Letter,Email,Task,960,Completed,Normal
-W_Task.679,W_User.8,Call,Call,Call,3240,Completed,Normal
-W_Task.680,W_User.3,Send Letter,Email,Email,1080,Completed,Normal
-W_Task.681,W_User.15,Send Letter,Email,Task,120,Not Started,High
-W_Task.682,W_User.7,Call,Call,Email,900,In Progress,Normal
-W_Task.683,W_User.15,Other,Meeting,Task,720,Completed,Normal
-W_Task.684,W_User.4,Other,Meeting,Task,3600,Completed,Normal
-W_Task.685,W_User.12,Call,Meeting,Call,600,On Hold,Normal
-W_Task.686,W_User.8,Send Letter,Email,Task,2250,Not Started,Normal
-W_Task.687,W_User.13,Send Quote,Email,Email,1800,On Hold,Normal
-W_Task.688,W_User.11,Send Letter,Email,Call,120,In Progress,High
-W_Task.689,W_User.2,Send Quote,Email,Email,360,Not Started,Normal
-W_Task.690,W_User.12,Other,Meeting,Email,4500,Not Started,Normal
-W_Task.691,W_User.3,Call,Call,Task,4500,In Progress,Normal
-W_Task.692,W_User.5,Other,Other,Call,120,In Progress,Normal
-W_Task.693,W_User.12,Send Letter,Email,Task,240,Completed,Normal
-W_Task.694,W_User.3,Call,Call,Task,300,Completed,Normal
-W_Task.695,W_User.5,Other,Prep,Email,720,Not Started,Normal
-W_Task.696,W_User.12,Call,Call,Email,1200,On Hold,Normal
-W_Task.697,W_User.3,Send Letter,Email,Call,3750,In Progress,Normal
-W_Task.698,W_User.14,Send Letter,Email,Call,2700,Not Started,Normal
-W_Task.699,W_User.14,Other,Other,Call,4500,In Progress,Normal
-W_Task.700,W_User.8,Call,Call,Email,120,Completed,Normal
-W_Task.701,W_User.11,Send Letter,Email,Email,2400,On Hold,Normal
-W_Task.702,W_User.3,Send Letter,Email,Email,900,Completed,Normal
-W_Task.703,W_User.10,Call,Call,Task,480,Completed,Normal
-W_Task.704,W_User.7,Other,Other,Email,2700,Completed,Normal
-W_Task.705,W_User.16,Send Letter,Email,Task,120,Completed,Normal
-W_Task.706,W_User.1,Send Letter,Email,Call,300,Completed,Normal
-W_Task.707,W_User.2,Other,Other,Task,2880,In Progress,Normal
-W_Task.708,W_User.5,Send Letter,Email,Email,1440,Not Started,Normal
-W_Task.709,W_User.16,Other,Meeting,Task,4500,On Hold,Normal
-W_Task.710,W_User.8,Send Quote,Email,Call,540,On Hold,Normal
-W_Task.711,W_User.12,Other,Meeting,Call,240,On Hold,Normal
-W_Task.712,W_User.18,Send Letter,Email,Email,90,On Hold,Normal
-W_Task.713,W_User.12,Send Quote,Email,Call,1350,In Progress,Normal
-W_Task.714,W_User.7,Other,Prep,Task,240,On Hold,Normal
-W_Task.715,W_User.20,Send Letter,Email,Email,3240,Not Started,Normal
-W_Task.716,W_User.15,Send Letter,Email,Email,2400,On Hold,Normal
-W_Task.717,W_User.4,Send Letter,Email,Email,480,Completed,High
-W_Task.718,W_User.2,Send Letter,Email,Email,1800,In Progress,Normal
-W_Task.719,W_User.9,Send Letter,Email,Call,450,Completed,Normal
-W_Task.720,W_User.16,Send Letter,Email,Task,720,In Progress,Normal
-W_Task.721,W_User.14,Other,Other,Call,900,In Progress,Normal
-W_Task.722,W_User.1,Call,Call,Call,3600,In Progress,Normal
-W_Task.723,W_User.18,Call,Call,Task,1800,Not Started,Normal
-W_Task.724,W_User.16,Call,Call,Call,1920,In Progress,Normal
-W_Task.725,W_User.6,Call,Call,Task,1440,In Progress,High
-W_Task.726,W_User.13,Send Letter,Email,Call,240,On Hold,Normal
-W_Task.727,W_User.20,Call,Call,Email,960,In Progress,Normal
-W_Task.728,W_User.9,Send Letter,Email,Email,720,Not Started,Normal
-W_Task.729,W_User.18,Send Quote,Email,Email,360,In Progress,Normal
-W_Task.730,W_User.8,Call,Call,Email,270,Not Started,Normal
-W_Task.731,W_User.15,Send Quote,Email,Task,150,In Progress,High
-W_Task.732,W_User.2,Call,Call,Call,600,On Hold,Normal
-W_Task.733,W_User.9,Call,Call,Call,270,Not Started,Normal
-W_Task.734,W_User.11,Send Letter,Email,Task,1080,Completed,Normal
-W_Task.735,W_User.8,Other,Meeting,Email,750,Completed,Normal
-W_Task.736,W_User.7,Other,Prep,Call,240,Completed,Normal
-W_Task.737,W_User.9,Send Letter,Email,Call,180,In Progress,High
-W_Task.738,W_User.1,Other,Other,Call,240,Not Started,Normal
-W_Task.739,W_User.13,Send Letter,Email,Email,180,On Hold,Normal
-W_Task.740,W_User.10,Send Letter,Email,Task,180,Completed,Normal
-W_Task.741,W_User.7,Call,Call,Email,180,Not Started,High
-W_Task.742,W_User.11,Send Letter,Email,Call,750,On Hold,Normal
-W_Task.743,W_User.20,Send Letter,Email,Task,540,In Progress,Normal
-W_Task.744,W_User.1,Send Letter,Email,Task,2700,On Hold,Normal
-W_Task.745,W_User.9,Send Letter,Email,Email,180,Completed,Normal
-W_Task.746,W_User.13,Other,Meeting,Email,900,On Hold,Normal
-W_Task.747,W_User.19,Send Letter,Email,Task,2160,On Hold,Normal
-W_Task.748,W_User.5,Send Letter,Email,Task,360,Not Started,Normal
-W_Task.749,W_User.6,Call,Call,Email,180,On Hold,High
-W_Task.750,W_User.15,Send Letter,Email,Call,2400,On Hold,High
-W_Task.751,W_User.7,Send Letter,Email,Email,1920,On Hold,High
-W_Task.752,W_User.14,Other,Meeting,Task,540,On Hold,Normal
-W_Task.753,W_User.19,Send Quote,Email,Email,240,In Progress,Normal
-W_Task.754,W_User.8,Send Quote,Email,Email,300,On Hold,Normal
-W_Task.755,W_User.5,Call,Call,Email,60,On Hold,Normal
-W_Task.756,W_User.15,Other,Prep,Email,240,In Progress,Normal
-W_Task.757,W_User.19,Call,Meeting,Email,60,On Hold,Normal
-W_Task.758,W_User.10,Other,Meeting,Call,360,Completed,Normal
-W_Task.759,W_User.12,Send Quote,Email,Task,2700,In Progress,Normal
-W_Task.760,W_User.16,Send Letter,Email,Email,1800,On Hold,Normal
-W_Task.761,W_User.9,Call,Meeting,Call,2160,Completed,Normal
-W_Task.762,W_User.11,Send Letter,Email,Task,240,Completed,Normal
-W_Task.763,W_User.4,Send Letter,Email,Email,4320,Not Started,Normal
-W_Task.764,W_User.20,Other,Meeting,Call,360,Not Started,High
-W_Task.765,W_User.13,Call,Meeting,Call,3600,On Hold,Normal
-W_Task.766,W_User.5,Call,Call,Task,180,Not Started,Normal
-W_Task.767,W_User.8,Send Quote,Email,Email,1440,Not Started,Normal
-W_Task.768,W_User.3,Call,Call,Email,1080,On Hold,Normal
-W_Task.769,W_User.7,Call,Meeting,Task,1080,On Hold,Normal
-W_Task.770,W_User.16,Send Letter,Email,Call,2160,In Progress,Normal
-W_Task.771,W_User.15,Send Quote,Email,Call,360,In Progress,Normal
-W_Task.772,W_User.12,Call,Call,Task,720,On Hold,Normal
-W_Task.773,W_User.12,Call,Call,Task,1080,Not Started,Normal
-W_Task.774,W_User.5,Send Letter,Email,Call,3600,On Hold,Normal
-W_Task.775,W_User.2,Call,Call,Email,1620,Not Started,Normal
-W_Task.776,W_User.16,Call,Call,Task,90,In Progress,Normal
-W_Task.777,W_User.20,Other,Other,Email,120,On Hold,Normal
-W_Task.778,W_User.8,Send Letter,Email,Call,3750,Completed,Normal
-W_Task.779,W_User.17,Send Quote,Email,Task,480,Not Started,Normal
-W_Task.780,W_User.18,Send Quote,Email,Email,150,Completed,Normal
-W_Task.781,W_User.16,Send Quote,Email,Task,600,In Progress,Normal
-W_Task.782,W_User.12,Call,Call,Task,1440,In Progress,Normal
-W_Task.783,W_User.1,Other,Prep,Task,150,Not Started,Normal
-W_Task.784,W_User.14,Call,Call,Email,720,Not Started,Normal
-W_Task.785,W_User.2,Call,Call,Email,540,Completed,Normal
-W_Task.786,W_User.15,Send Letter,Email,Call,600,On Hold,Normal
-W_Task.787,W_User.3,Send Letter,Email,Call,750,On Hold,Normal
-W_Task.788,W_User.20,Call,Call,Email,1440,On Hold,High
-W_Task.789,W_User.12,Send Quote,Email,Email,5400,Not Started,Normal
-W_Task.790,W_User.18,Send Quote,Email,Call,3240,Not Started,Normal
-W_Task.791,W_User.12,Send Letter,Email,Email,270,Not Started,Normal
-W_Task.792,W_User.20,Send Letter,Email,Call,900,On Hold,Normal
-W_Task.793,W_User.17,Send Letter,Email,Email,1080,Completed,Normal
-W_Task.794,W_User.9,Call,Meeting,Task,300,In Progress,Normal
-W_Task.795,W_User.9,Send Quote,Email,Call,1440,Completed,Normal
-W_Task.796,W_User.14,Other,Meeting,Task,1800,Completed,Normal
-W_Task.797,W_User.12,Other,Other,Email,3600,Not Started,High
-W_Task.798,W_User.9,Send Quote,Email,Task,1080,Not Started,Normal
-W_Task.799,W_User.6,Send Letter,Email,Task,900,On Hold,Normal
-W_Task.800,W_User.8,Call,Call,Call,600,On Hold,Normal
-W_Task.801,W_User.18,Send Letter,Email,Email,120,Completed,Normal
-W_Task.802,W_User.18,Call,Call,Call,900,Not Started,Normal
-W_Task.803,W_User.2,Send Letter,Email,Email,450,Not Started,Normal
-W_Task.804,W_User.3,Send Letter,Email,Task,360,On Hold,Normal
-W_Task.805,W_User.1,Send Letter,Email,Call,3600,On Hold,Normal
-W_Task.806,W_User.15,Call,Call,Call,900,In Progress,Normal
-W_Task.807,W_User.14,Send Letter,Email,Task,2160,Completed,Normal
-W_Task.808,W_User.10,Call,Call,Task,2880,On Hold,Normal
-W_Task.809,W_User.12,Other,Other,Task,900,In Progress,Normal
-W_Task.810,W_User.7,Other,Meeting,Email,270,Completed,Normal
-W_Task.811,W_User.9,Send Letter,Email,Task,5400,Not Started,Normal
-W_Task.812,W_User.2,Other,Meeting,Task,360,In Progress,Normal
-W_Task.813,W_User.4,Send Quote,Email,Email,1080,Completed,Normal
-W_Task.814,W_User.4,Other,Meeting,Call,1200,In Progress,Normal
-W_Task.815,W_User.12,Call,Call,Task,150,Not Started,Normal
-W_Task.816,W_User.19,Send Letter,Email,Email,150,On Hold,Normal
-W_Task.817,W_User.14,Send Quote,Email,Email,600,Not Started,High
-W_Task.818,W_User.3,Send Quote,Email,Email,1080,Not Started,Normal
-W_Task.819,W_User.9,Send Quote,Email,Task,360,Not Started,Normal
-W_Task.820,W_User.13,Call,Call,Task,2160,In Progress,Normal
-W_Task.821,W_User.9,Other,Prep,Email,960,Not Started,Normal
-W_Task.822,W_User.13,Call,Call,Task,3600,Completed,Normal
-W_Task.823,W_User.11,Send Quote,Email,Call,3000,On Hold,Normal
-W_Task.824,W_User.3,Call,Call,Call,1620,Not Started,Normal
-W_Task.825,W_User.11,Send Letter,Email,Task,3600,On Hold,Normal
-W_Task.826,W_User.2,Send Quote,Email,Task,750,In Progress,Normal
-W_Task.827,W_User.9,Call,Call,Task,1080,Completed,Normal
-W_Task.828,W_User.10,Send Quote,Email,Email,3600,Completed,Normal
-W_Task.829,W_User.7,Call,Meeting,Call,480,Completed,Normal
-W_Task.830,W_User.14,Other,Meeting,Call,180,In Progress,Normal
-W_Task.831,W_User.16,Send Letter,Email,Task,300,In Progress,Normal
-W_Task.832,W_User.14,Call,Meeting,Task,720,In Progress,Normal
-W_Task.833,W_User.2,Call,Meeting,Task,1920,In Progress,Normal
-W_Task.834,W_User.20,Call,Call,Email,2700,On Hold,Normal
-W_Task.835,W_User.6,Send Letter,Email,Task,750,On Hold,High
-W_Task.836,W_User.17,Send Letter,Email,Email,2160,Completed,Normal
-W_Task.837,W_User.10,Send Letter,Email,Call,360,Not Started,Normal
-W_Task.838,W_User.18,Send Letter,Email,Email,2700,On Hold,Normal
-W_Task.839,W_User.17,Send Letter,Email,Email,360,Completed,Normal
-W_Task.840,W_User.1,Other,Prep,Email,2250,Not Started,Normal
-W_Task.841,W_User.5,Send Letter,Email,Call,600,Not Started,High
-W_Task.842,W_User.17,Send Letter,Email,Task,450,In Progress,Normal
-W_Task.843,W_User.7,Call,Call,Task,240,Completed,Normal
-W_Task.844,W_User.6,Send Letter,Email,Email,60,On Hold,Normal
-W_Task.845,W_User.17,Call,Meeting,Email,2160,Not Started,Normal
-W_Task.846,W_User.9,Send Letter,Email,Call,960,On Hold,Normal
-W_Task.847,W_User.6,Call,Call,Email,300,On Hold,High
-W_Task.848,W_User.10,Call,Call,Email,2400,On Hold,Normal
-W_Task.849,W_User.18,Send Letter,Email,Email,750,Completed,Normal
-W_Task.850,W_User.9,Send Letter,Email,Task,300,Completed,Normal
-W_Task.851,W_User.10,Send Letter,Email,Call,360,In Progress,Normal
-W_Task.852,W_User.7,Other,Prep,Call,1080,Completed,Normal
-W_Task.853,W_User.9,Send Letter,Email,Call,720,Completed,Normal
-W_Task.854,W_User.7,Other,Meeting,Task,120,In Progress,Normal
-W_Task.855,W_User.8,Send Letter,Email,Email,360,Completed,Normal
-W_Task.856,W_User.2,Call,Call,Task,1080,In Progress,Normal
-W_Task.857,W_User.13,Other,Meeting,Email,360,In Progress,Normal
-W_Task.858,W_User.12,Send Letter,Email,Email,540,Not Started,Normal
-W_Task.859,W_User.20,Send Quote,Email,Email,1200,Not Started,Normal
-W_Task.860,W_User.11,Call,Call,Task,4500,In Progress,Normal
-W_Task.861,W_User.9,Call,Call,Call,360,In Progress,Normal
-W_Task.862,W_User.6,Other,Other,Call,600,On Hold,High
-W_Task.863,W_User.9,Call,Call,Task,240,In Progress,Normal
-W_Task.864,W_User.11,Call,Call,Call,1200,Completed,Normal
-W_Task.865,W_User.8,Send Letter,Email,Task,1080,Not Started,High
-W_Task.866,W_User.4,Send Letter,Email,Call,1350,Completed,Normal
-W_Task.867,W_User.12,Call,Meeting,Email,1800,On Hold,Normal
-W_Task.868,W_User.20,Send Quote,Email,Task,4320,In Progress,Normal
-W_Task.869,W_User.16,Send Letter,Email,Email,2400,Not Started,Normal
-W_Task.870,W_User.11,Call,Call,Email,450,Completed,Normal
-W_Task.871,W_User.11,Send Quote,Email,Email,120,In Progress,Normal
-W_Task.872,W_User.7,Send Letter,Email,Task,3240,Completed,High
-W_Task.873,W_User.4,Send Letter,Email,Email,900,In Progress,Normal
-W_Task.874,W_User.13,Call,Meeting,Call,4320,Completed,Normal
-W_Task.875,W_User.16,Call,Call,Call,1920,On Hold,Normal
-W_Task.876,W_User.13,Send Letter,Email,Email,360,In Progress,Normal
-W_Task.877,W_User.13,Other,Meeting,Call,600,Not Started,High
-W_Task.878,W_User.14,Other,Meeting,Email,1800,Not Started,Normal
-W_Task.879,W_User.3,Call,Call,Task,1080,Completed,Normal
-W_Task.880,W_User.9,Send Letter,Email,Call,1800,Not Started,Normal
-W_Task.881,W_User.1,Call,Meeting,Task,360,Completed,Normal
-W_Task.882,W_User.18,Send Letter,Email,Email,960,In Progress,Normal
-W_Task.883,W_User.16,Call,Call,Call,900,Completed,Normal
-W_Task.884,W_User.20,Send Letter,Email,Call,720,Completed,Normal
-W_Task.885,W_User.15,Send Letter,Email,Task,180,On Hold,Normal
-W_Task.886,W_User.9,Send Letter,Email,Task,3600,Completed,Normal
-W_Task.887,W_User.10,Send Letter,Email,Call,900,Not Started,Normal
-W_Task.888,W_User.9,Call,Call,Email,1080,Completed,High
-W_Task.889,W_User.18,Call,Call,Task,90,Completed,Normal
-W_Task.890,W_User.14,Send Quote,Email,Call,300,Not Started,Normal
-W_Task.891,W_User.8,Other,Meeting,Call,3600,Completed,Normal
-W_Task.892,W_User.19,Other,Meeting,Email,360,On Hold,Normal
-W_Task.893,W_User.3,Call,Call,Call,360,On Hold,Normal
-W_Task.894,W_User.13,Send Letter,Email,Call,720,Completed,Normal
-W_Task.895,W_User.12,Send Letter,Email,Call,1500,In Progress,Normal
-W_Task.896,W_User.20,Call,Meeting,Email,450,Completed,Normal
-W_Task.897,W_User.15,Other,Prep,Call,2700,In Progress,Normal
-W_Task.898,W_User.20,Call,Call,Task,2160,Not Started,Normal
-W_Task.899,W_User.6,Call,Call,Email,1080,In Progress,Normal
-W_Task.900,W_User.15,Send Letter,Email,Task,90,On Hold,Normal
-W_Task.901,W_User.2,Call,Call,Call,600,Completed,Normal
-W_Task.902,W_User.1,Send Quote,Email,Call,2160,In Progress,Normal
-W_Task.903,W_User.1,Call,Call,Call,540,On Hold,Normal
-W_Task.904,W_User.5,Call,Meeting,Call,5400,Not Started,Normal
-W_Task.905,W_User.3,Send Quote,Email,Task,2250,Not Started,Normal
-W_Task.906,W_User.9,Send Quote,Email,Call,120,Not Started,Normal
-W_Task.907,W_User.14,Other,Meeting,Task,4500,Completed,Normal
-W_Task.908,W_User.7,Send Quote,Email,Email,3600,Completed,Normal
-W_Task.909,W_User.18,Call,Call,Call,750,In Progress,Normal
-W_Task.910,W_User.17,Other,Meeting,Call,30,Not Started,Normal
-W_Task.911,W_User.16,Call,Meeting,Email,4500,Completed,Normal
-W_Task.912,W_User.20,Send Letter,Email,Task,1080,In Progress,Normal
-W_Task.913,W_User.9,Send Letter,Email,Email,1080,In Progress,Normal
-W_Task.914,W_User.8,Other,Meeting,Email,720,Completed,Normal
-W_Task.915,W_User.5,Send Letter,Email,Email,2700,In Progress,Normal
-W_Task.916,W_User.20,Call,Call,Call,960,On Hold,Normal
-W_Task.917,W_User.16,Send Letter,Email,Email,750,In Progress,Normal
-W_Task.918,W_User.12,Send Letter,Email,Email,4500,Not Started,Normal
-W_Task.919,W_User.17,Other,Other,Email,4320,Not Started,High
-W_Task.920,W_User.8,Call,Call,Email,30,Not Started,Normal
-W_Task.921,W_User.7,Send Letter,Email,Email,900,Completed,Normal
-W_Task.922,W_User.19,Other,Meeting,Task,360,In Progress,Normal
-W_Task.923,W_User.4,Call,Call,Task,1800,In Progress,Normal
-W_Task.924,W_User.7,Other,Prep,Task,1800,Not Started,Normal
-W_Task.925,W_User.19,Other,Meeting,Email,600,In Progress,Normal
-W_Task.926,W_User.2,Send Letter,Email,Task,180,On Hold,Normal
-W_Task.927,W_User.6,Other,Meeting,Call,1080,In Progress,Normal
-W_Task.928,W_User.5,Send Quote,Email,Call,150,In Progress,High
-W_Task.929,W_User.3,Other,Meeting,Email,240,Completed,Normal
-W_Task.930,W_User.4,Other,Meeting,Task,5400,In Progress,Normal
-W_Task.931,W_User.19,Send Letter,Email,Email,2160,Completed,Normal
-W_Task.932,W_User.18,Send Letter,Email,Email,1080,Not Started,Normal
-W_Task.933,W_User.3,Call,Call,Task,240,In Progress,Normal
-W_Task.934,W_User.9,Call,Call,Email,270,In Progress,Normal
-W_Task.935,W_User.2,Send Letter,Email,Task,180,Not Started,High
-W_Task.936,W_User.8,Other,Meeting,Task,300,Completed,Normal
-W_Task.937,W_User.11,Send Quote,Email,Call,1080,On Hold,Normal
-W_Task.938,W_User.15,Send Letter,Email,Task,90,On Hold,Normal
-W_Task.939,W_User.8,Send Quote,Email,Call,720,In Progress,Normal
-W_Task.940,W_User.20,Other,Other,Email,720,Not Started,Normal
-W_Task.941,W_User.10,Call,Call,Task,180,Not Started,Normal
-W_Task.942,W_User.7,Send Letter,Email,Task,360,In Progress,Normal
-W_Task.943,W_User.19,Call,Call,Call,60,Completed,Normal
-W_Task.944,W_User.10,Send Letter,Email,Call,600,In Progress,Normal
-W_Task.945,W_User.16,Send Letter,Email,Email,1800,Not Started,Normal
-W_Task.946,W_User.4,Call,Call,Call,4320,Not Started,Normal
-W_Task.947,W_User.6,Call,Call,Email,2880,On Hold,Normal
-W_Task.948,W_User.3,Send Letter,Email,Email,1080,In Progress,Normal
-W_Task.949,W_User.10,Other,Prep,Email,1080,Not Started,Normal
-W_Task.950,W_User.20,Call,Call,Email,180,Not Started,Normal
-W_Task.951,W_User.3,Send Quote,Email,Task,300,On Hold,Normal
-W_Task.952,W_User.19,Call,Call,Task,120,Completed,Normal
-W_Task.953,W_User.17,Call,Call,Task,360,Not Started,Normal
-W_Task.954,W_User.3,Send Letter,Email,Email,720,In Progress,Normal
-W_Task.955,W_User.17,Other,Other,Call,900,On Hold,Normal
-W_Task.956,W_User.18,Send Quote,Email,Call,720,Not Started,Normal
-W_Task.957,W_User.12,Other,Other,Call,720,On Hold,Normal
-W_Task.958,W_User.1,Send Quote,Email,Call,600,In Progress,Normal
-W_Task.959,W_User.3,Send Letter,Email,Email,1800,On Hold,Normal
-W_Task.960,W_User.14,Send Letter,Email,Task,2400,Completed,Normal
-W_Task.961,W_User.16,Call,Call,Task,60,Completed,Normal
-W_Task.962,W_User.10,Send Letter,Email,Task,1440,In Progress,Normal
-W_Task.963,W_User.15,Other,Meeting,Email,900,In Progress,Normal
-W_Task.964,W_User.18,Send Letter,Email,Task,180,In Progress,Normal
-W_Task.965,W_User.6,Call,Call,Task,900,Completed,Normal
-W_Task.966,W_User.5,Call,Call,Email,2160,On Hold,Normal
-W_Task.967,W_User.13,Send Letter,Email,Task,3600,Not Started,High
-W_Task.968,W_User.2,Other,Meeting,Task,450,Completed,High
-W_Task.969,W_User.13,Call,Call,Task,180,Not Started,Normal
-W_Task.970,W_User.15,Send Letter,Email,Task,120,On Hold,Normal
-W_Task.971,W_User.3,Send Letter,Email,Email,720,Not Started,Normal
-W_Task.972,W_User.7,Other,Other,Task,540,Not Started,High
-W_Task.973,W_User.20,Send Letter,Email,Task,180,In Progress,Normal
-W_Task.974,W_User.5,Send Quote,Email,Email,900,Not Started,Normal
-W_Task.975,W_User.12,Call,Call,Email,1440,Completed,Normal
-W_Task.976,W_User.7,Send Quote,Email,Email,1440,Completed,Normal
-W_Task.977,W_User.1,Other,Prep,Email,150,Not Started,Normal
-W_Task.978,W_User.19,Send Letter,Email,Email,2250,Completed,Normal
-W_Task.979,W_User.18,Call,Meeting,Task,900,Not Started,Normal
-W_Task.980,W_User.16,Send Letter,Email,Task,450,Completed,Normal
-W_Task.981,W_User.1,Call,Call,Task,450,Completed,Normal
-W_Task.982,W_User.10,Send Letter,Email,Task,300,Completed,High
-W_Task.983,W_User.16,Call,Meeting,Task,900,Not Started,Normal
-W_Task.984,W_User.10,Call,Call,Task,180,Completed,Normal
-W_Task.985,W_User.17,Send Quote,Email,Call,240,Not Started,Normal
-W_Task.986,W_User.11,Other,Other,Call,360,Completed,Normal
-W_Task.987,W_User.20,Send Letter,Email,Task,360,In Progress,High
-W_Task.988,W_User.8,Other,Other,Call,360,Completed,Normal
-W_Task.989,W_User.12,Send Quote,Email,Call,120,Not Started,Normal
-W_Task.990,W_User.1,Send Letter,Email,Email,1440,On Hold,Normal
-W_Task.991,W_User.19,Call,Call,Email,1440,On Hold,Normal
-W_Task.992,W_User.15,Send Quote,Email,Task,2160,Completed,Normal
-W_Task.993,W_User.1,Call,Call,Call,120,Not Started,High
-W_Task.994,W_User.1,Other,Prep,Email,600,Completed,Normal
-W_Task.995,W_User.18,Send Letter,Email,Call,450,Completed,Normal
-W_Task.996,W_User.6,Send Letter,Email,Task,4320,Completed,Normal
-W_Task.997,W_User.6,Send Quote,Email,Email,150,Not Started,Normal
-W_Task.998,W_User.20,Call,Meeting,Task,2700,Completed,Normal
-W_Task.999,W_User.18,Send Letter,Email,Call,3000,Not Started,Normal
-W_Task.1000,W_User.6,Send Letter,Email,Task,1200,Not Started,Normal
+External_Id__c,Owner.External_Id__c,Subject,Type,TaskSubtype,CallDurationInSeconds,Status,Priority,CreatedDate__c
+W_Task.1,W_User.7,Send Letter,Email,Email,360,In Progress,Normal,2016-01-20 09:50:49
+W_Task.2,W_User.1,Send Letter,Email,Task,1440,Not Started,Normal,2016-09-12 03:28:37
+W_Task.3,W_User.2,Call,Call,Email,1620,On Hold,Normal,2017-01-18 07:29:40
+W_Task.4,W_User.5,Other,Other,Task,6480,Not Started,Normal,2016-05-29 04:55:13
+W_Task.5,W_User.9,Call,Meeting,Email,360,In Progress,Normal,2017-01-08 00:48:24
+W_Task.6,W_User.10,Call,Call,Task,1080,Completed,Normal,2016-01-28 21:03:14
+W_Task.7,W_User.19,Other,Other,Email,3240,Completed,Normal,2016-12-17 11:24:44
+W_Task.8,W_User.20,Call,Call,Email,720,In Progress,Normal,2016-01-01 12:27:40
+W_Task.9,W_User.19,Send Letter,Email,Email,900,Not Started,Normal,2017-01-13 13:14:35
+W_Task.10,W_User.14,Send Letter,Email,Email,1920,Not Started,Normal,2016-05-02 13:43:19
+W_Task.11,W_User.13,Call,Call,Call,2250,Completed,Normal,2017-03-12 16:41:03
+W_Task.12,W_User.20,Send Letter,Email,Call,900,Not Started,Normal,2016-03-30 03:28:33
+W_Task.13,W_User.11,Send Letter,Email,Task,300,Not Started,Normal,2016-05-09 01:55:36
+W_Task.14,W_User.19,Other,Other,Email,1620,Completed,Normal,2016-07-09 22:49:48
+W_Task.15,W_User.2,Call,Call,Task,900,Not Started,Normal,2016-04-09 08:53:19
+W_Task.16,W_User.16,Other,Meeting,Email,2880,In Progress,Normal,2016-07-03 13:55:54
+W_Task.17,W_User.4,Send Letter,Email,Email,90,Not Started,Normal,2016-05-10 08:34:01
+W_Task.18,W_User.17,Other,Meeting,Call,360,In Progress,Normal,2017-01-13 02:43:10
+W_Task.19,W_User.11,Send Quote,Email,Task,3600,Not Started,Normal,2016-02-25 23:05:48
+W_Task.20,W_User.12,Send Quote,Email,Email,1800,In Progress,Normal,2016-04-04 16:35:17
+W_Task.21,W_User.16,Other,Prep,Task,300,Completed,Normal,2017-03-05 06:16:32
+W_Task.22,W_User.10,Other,Prep,Email,450,On Hold,Normal,2016-02-04 17:48:53
+W_Task.23,W_User.18,Call,Meeting,Call,150,In Progress,Normal,2017-02-11 03:57:33
+W_Task.24,W_User.8,Other,Other,Task,300,Completed,Normal,2016-10-29 17:50:12
+W_Task.25,W_User.14,Send Letter,Email,Task,3000,Not Started,Normal,2017-03-14 08:10:15
+W_Task.26,W_User.5,Send Letter,Email,Task,900,Completed,Normal,2016-08-03 05:17:08
+W_Task.27,W_User.14,Other,Meeting,Email,1620,Not Started,Normal,2016-07-02 13:12:15
+W_Task.28,W_User.16,Call,Meeting,Call,900,On Hold,Normal,2016-07-01 05:00:55
+W_Task.29,W_User.13,Send Letter,Email,Task,900,In Progress,Normal,2017-02-06 14:28:11
+W_Task.30,W_User.15,Send Letter,Email,Call,1800,Not Started,Normal,2016-10-07 18:09:23
+W_Task.31,W_User.20,Send Quote,Email,Email,600,In Progress,Normal,2016-03-13 13:22:58
+W_Task.32,W_User.5,Other,Other,Task,1800,Not Started,Normal,2016-12-24 18:57:12
+W_Task.33,W_User.17,Call,Call,Call,120,Not Started,Normal,2016-11-14 11:19:41
+W_Task.34,W_User.7,Call,Meeting,Email,1620,In Progress,Normal,2017-02-25 13:03:05
+W_Task.35,W_User.17,Send Letter,Email,Call,1080,Not Started,Normal,2016-01-26 11:52:57
+W_Task.36,W_User.15,Call,Meeting,Call,360,Not Started,Normal,2016-08-22 00:46:41
+W_Task.37,W_User.1,Call,Call,Call,360,Completed,Normal,2017-01-18 18:10:39
+W_Task.38,W_User.9,Send Letter,Email,Email,90,Completed,Normal,2016-03-09 04:37:46
+W_Task.39,W_User.14,Send Letter,Email,Call,240,On Hold,High,2016-07-30 05:54:06
+W_Task.40,W_User.1,Call,Call,Call,360,Not Started,Normal,2016-11-11 01:34:40
+W_Task.41,W_User.7,Send Letter,Email,Email,480,In Progress,Normal,2016-06-01 03:25:14
+W_Task.42,W_User.7,Other,Meeting,Task,2400,On Hold,High,2016-12-16 02:09:54
+W_Task.43,W_User.19,Send Letter,Email,Call,900,Completed,Normal,2016-11-23 13:15:06
+W_Task.44,W_User.11,Send Quote,Email,Call,900,Completed,High,2016-09-05 06:51:55
+W_Task.45,W_User.11,Send Letter,Email,Call,450,On Hold,Normal,2016-05-02 19:17:13
+W_Task.46,W_User.19,Call,Call,Email,540,Not Started,Normal,2017-03-18 09:07:57
+W_Task.47,W_User.19,Send Letter,Email,Task,900,Completed,Normal,2016-09-28 20:39:29
+W_Task.48,W_User.3,Other,Other,Email,720,Not Started,Normal,2016-04-30 16:40:53
+W_Task.49,W_User.12,Send Letter,Email,Email,600,Completed,Normal,2017-03-08 05:17:48
+W_Task.50,W_User.6,Call,Call,Call,2700,Not Started,Normal,2016-08-09 07:01:36
+W_Task.51,W_User.7,Other,Meeting,Email,120,Not Started,Normal,2016-08-23 07:53:40
+W_Task.52,W_User.2,Other,Meeting,Call,750,In Progress,Normal,2016-12-04 08:00:24
+W_Task.53,W_User.15,Other,Prep,Email,2160,In Progress,Normal,2016-05-13 03:39:46
+W_Task.54,W_User.4,Other,Meeting,Email,360,On Hold,Normal,2017-03-09 15:50:24
+W_Task.55,W_User.8,Send Letter,Email,Call,1800,On Hold,Normal,2016-05-11 23:48:03
+W_Task.56,W_User.11,Send Letter,Email,Call,720,Not Started,Normal,2016-09-22 18:54:18
+W_Task.57,W_User.20,Other,Other,Call,3600,In Progress,Normal,2016-09-13 13:51:12
+W_Task.58,W_User.2,Call,Call,Task,300,Completed,Normal,2017-02-21 05:37:04
+W_Task.59,W_User.12,Send Letter,Email,Call,1080,On Hold,Normal,2016-04-06 01:04:13
+W_Task.60,W_User.15,Send Letter,Email,Call,1800,In Progress,Normal,2016-02-10 19:01:24
+W_Task.61,W_User.16,Send Letter,Email,Task,2400,On Hold,Normal,2016-09-02 07:20:28
+W_Task.62,W_User.3,Send Letter,Email,Email,3600,Not Started,Normal,2016-05-05 07:59:53
+W_Task.63,W_User.7,Send Letter,Email,Call,600,In Progress,Normal,2017-03-01 23:56:00
+W_Task.64,W_User.2,Call,Meeting,Task,360,In Progress,High,2017-02-19 14:49:33
+W_Task.65,W_User.6,Send Letter,Email,Email,600,On Hold,Normal,2016-05-18 10:23:11
+W_Task.66,W_User.16,Other,Prep,Task,360,On Hold,Normal,2016-03-31 03:19:12
+W_Task.67,W_User.11,Other,Other,Task,4500,Completed,Normal,2016-05-28 15:18:03
+W_Task.68,W_User.13,Call,Call,Task,1800,Not Started,Normal,2016-09-20 22:46:30
+W_Task.69,W_User.14,Send Letter,Email,Email,750,Completed,Normal,2016-01-19 13:28:34
+W_Task.70,W_User.20,Other,Prep,Email,360,Not Started,Normal,2016-05-06 09:23:33
+W_Task.71,W_User.3,Send Letter,Email,Email,3600,Not Started,Normal,2016-04-08 17:57:35
+W_Task.72,W_User.7,Other,Other,Email,1800,In Progress,Normal,2016-01-14 10:25:03
+W_Task.73,W_User.4,Other,Meeting,Call,1200,On Hold,Normal,2016-11-03 13:47:04
+W_Task.74,W_User.11,Call,Meeting,Task,120,Not Started,Normal,2016-06-22 13:01:36
+W_Task.75,W_User.12,Send Letter,Email,Task,1080,Not Started,Normal,2016-12-03 02:19:41
+W_Task.76,W_User.8,Send Letter,Email,Task,450,In Progress,Normal,2016-03-21 10:37:25
+W_Task.77,W_User.13,Send Quote,Email,Call,120,Not Started,Normal,2016-12-12 15:07:19
+W_Task.78,W_User.13,Call,Call,Call,1350,Completed,Normal,2016-05-24 11:29:56
+W_Task.79,W_User.7,Send Letter,Email,Task,3600,In Progress,Normal,2016-08-10 08:39:59
+W_Task.80,W_User.4,Other,Meeting,Task,1350,On Hold,Normal,2016-08-31 00:17:31
+W_Task.81,W_User.7,Send Letter,Email,Email,720,Completed,Normal,2016-08-15 14:11:36
+W_Task.82,W_User.13,Call,Call,Call,810,On Hold,Normal,2016-11-27 07:59:16
+W_Task.83,W_User.9,Send Letter,Email,Task,240,In Progress,High,2016-07-19 15:38:02
+W_Task.84,W_User.9,Send Letter,Email,Call,360,Not Started,Normal,2017-02-11 02:11:02
+W_Task.85,W_User.3,Call,Meeting,Email,720,In Progress,Normal,2017-01-26 01:15:06
+W_Task.86,W_User.2,Call,Call,Email,600,On Hold,Normal,2016-04-07 07:58:46
+W_Task.87,W_User.16,Call,Call,Task,60,Completed,Normal,2016-01-28 05:44:40
+W_Task.88,W_User.1,Other,Prep,Email,360,Not Started,Normal,2016-02-17 08:03:57
+W_Task.89,W_User.15,Send Letter,Email,Task,3000,Completed,Normal,2016-04-17 21:36:30
+W_Task.90,W_User.4,Call,Call,Email,600,On Hold,Normal,2016-02-28 09:12:54
+W_Task.91,W_User.19,Send Quote,Email,Email,180,Not Started,High,2016-04-25 04:02:04
+W_Task.92,W_User.11,Other,Other,Call,900,Completed,Normal,2016-09-20 15:25:25
+W_Task.93,W_User.16,Send Letter,Email,Task,900,Not Started,Normal,2016-03-12 20:45:23
+W_Task.94,W_User.15,Send Letter,Email,Task,2400,Not Started,Normal,2016-05-12 01:23:57
+W_Task.95,W_User.19,Other,Other,Task,810,Completed,Normal,2016-05-05 00:54:19
+W_Task.96,W_User.11,Send Letter,Email,Call,360,On Hold,Normal,2016-04-07 04:10:48
+W_Task.97,W_User.2,Send Letter,Email,Call,2250,Not Started,Normal,2016-04-09 12:47:34
+W_Task.98,W_User.1,Send Letter,Email,Task,150,Not Started,Normal,2016-09-18 05:02:59
+W_Task.99,W_User.3,Call,Call,Task,3600,Completed,Normal,2016-08-13 02:36:33
+W_Task.100,W_User.17,Send Quote,Email,Call,2400,Completed,Normal,2016-03-10 13:46:51
+W_Task.101,W_User.2,Call,Call,Call,1200,Not Started,Normal,2016-12-26 20:59:56
+W_Task.102,W_User.6,Other,Prep,Email,3000,Not Started,Normal,2017-01-27 03:45:50
+W_Task.103,W_User.14,Send Quote,Email,Task,900,In Progress,Normal,2016-01-13 10:06:17
+W_Task.104,W_User.19,Send Letter,Email,Email,2160,Not Started,Normal,2016-08-22 13:51:09
+W_Task.105,W_User.11,Other,Prep,Email,360,Not Started,Normal,2016-04-07 21:06:30
+W_Task.106,W_User.2,Call,Call,Task,1800,Not Started,Normal,2016-02-14 14:13:08
+W_Task.107,W_User.13,Send Letter,Email,Email,720,Not Started,Normal,2017-03-23 20:50:12
+W_Task.108,W_User.6,Call,Call,Task,90,On Hold,Normal,2016-09-18 19:26:40
+W_Task.109,W_User.12,Send Letter,Email,Task,360,Not Started,Normal,2017-01-30 06:15:36
+W_Task.110,W_User.9,Send Quote,Email,Email,150,On Hold,Normal,2016-07-07 21:32:54
+W_Task.111,W_User.17,Other,Meeting,Task,2700,In Progress,High,2016-11-28 10:01:51
+W_Task.112,W_User.6,Call,Call,Email,300,Not Started,Normal,2016-08-07 11:36:06
+W_Task.113,W_User.7,Send Letter,Email,Email,3600,On Hold,Normal,2016-08-17 09:20:08
+W_Task.114,W_User.10,Send Quote,Email,Email,4320,On Hold,Normal,2017-03-01 18:07:22
+W_Task.115,W_User.20,Send Letter,Email,Email,3600,Not Started,High,2016-06-12 03:27:34
+W_Task.116,W_User.11,Call,Meeting,Task,1800,In Progress,Normal,2016-02-29 12:35:33
+W_Task.117,W_User.16,Other,Meeting,Email,240,Completed,Normal,2016-11-21 22:26:52
+W_Task.118,W_User.8,Other,Prep,Task,600,On Hold,Normal,2016-03-03 17:43:45
+W_Task.119,W_User.9,Send Letter,Email,Call,6480,Not Started,Normal,2016-11-18 20:54:35
+W_Task.120,W_User.13,Other,Meeting,Call,360,On Hold,Normal,2017-03-09 02:10:46
+W_Task.121,W_User.3,Send Letter,Email,Task,2400,Completed,High,2017-02-04 02:54:12
+W_Task.122,W_User.5,Call,Call,Task,30,Not Started,Normal,2016-05-10 14:39:31
+W_Task.123,W_User.1,Other,Prep,Call,480,In Progress,Normal,2016-12-29 08:47:54
+W_Task.124,W_User.19,Send Letter,Email,Task,4500,Not Started,Normal,2016-08-12 21:29:15
+W_Task.125,W_User.4,Send Letter,Email,Task,480,On Hold,Normal,2017-03-13 08:55:18
+W_Task.126,W_User.15,Other,Meeting,Email,1080,On Hold,Normal,2016-06-10 04:00:32
+W_Task.127,W_User.11,Other,Meeting,Task,900,Completed,Normal,2016-04-02 10:08:55
+W_Task.128,W_User.5,Send Letter,Email,Email,120,Completed,Normal,2016-07-19 23:04:20
+W_Task.129,W_User.13,Call,Call,Task,2400,On Hold,Normal,2016-09-24 20:04:31
+W_Task.130,W_User.13,Send Quote,Email,Email,1800,On Hold,Normal,2016-10-16 19:42:52
+W_Task.131,W_User.3,Send Letter,Email,Email,1080,Not Started,Normal,2016-06-01 17:07:30
+W_Task.132,W_User.5,Call,Meeting,Task,240,Not Started,Normal,2017-02-06 21:08:19
+W_Task.133,W_User.1,Other,Meeting,Task,360,In Progress,Normal,2016-01-15 06:38:28
+W_Task.134,W_User.17,Send Letter,Email,Email,900,On Hold,Normal,2016-07-08 16:21:14
+W_Task.135,W_User.17,Other,Prep,Email,1080,On Hold,Normal,2016-10-08 18:55:15
+W_Task.136,W_User.5,Send Letter,Email,Email,4500,On Hold,Normal,2017-01-13 14:51:37
+W_Task.137,W_User.19,Send Letter,Email,Email,3000,In Progress,Normal,2016-10-07 11:06:48
+W_Task.138,W_User.20,Send Letter,Email,Email,450,Not Started,High,2016-10-09 07:04:48
+W_Task.139,W_User.8,Call,Call,Call,1800,On Hold,Normal,2017-01-17 18:14:07
+W_Task.140,W_User.2,Call,Meeting,Task,360,Completed,Normal,2016-12-22 23:00:04
+W_Task.141,W_User.18,Other,Meeting,Task,2700,Not Started,High,2016-10-01 04:34:06
+W_Task.142,W_User.1,Other,Prep,Task,2250,Completed,Normal,2016-03-12 22:38:24
+W_Task.143,W_User.5,Call,Meeting,Task,180,In Progress,Normal,2016-07-22 12:24:57
+W_Task.144,W_User.7,Send Letter,Email,Task,960,Completed,Normal,2016-03-10 17:39:32
+W_Task.145,W_User.2,Send Letter,Email,Task,360,In Progress,Normal,2017-03-24 23:26:00
+W_Task.146,W_User.2,Send Letter,Email,Email,1500,In Progress,High,2016-03-11 21:19:08
+W_Task.147,W_User.5,Send Quote,Email,Call,1920,Not Started,Normal,2016-03-17 00:33:33
+W_Task.148,W_User.15,Call,Call,Call,2880,On Hold,Normal,2017-03-28 14:39:41
+W_Task.149,W_User.1,Send Letter,Email,Email,90,On Hold,Normal,2017-01-25 18:01:14
+W_Task.150,W_User.1,Send Letter,Email,Call,1200,Not Started,Normal,2017-03-13 10:16:55
+W_Task.151,W_User.13,Other,Prep,Email,600,Completed,Normal,2016-02-20 07:39:43
+W_Task.152,W_User.10,Call,Call,Email,720,Not Started,Normal,2016-10-12 07:19:43
+W_Task.153,W_User.14,Send Letter,Email,Task,900,Completed,Normal,2016-12-05 10:27:45
+W_Task.154,W_User.16,Send Letter,Email,Call,960,Completed,Normal,2017-01-24 22:20:29
+W_Task.155,W_User.20,Call,Call,Task,4320,Not Started,Normal,2016-08-18 12:06:13
+W_Task.156,W_User.3,Call,Meeting,Task,600,On Hold,Normal,2016-09-06 04:26:53
+W_Task.157,W_User.9,Call,Call,Task,450,On Hold,Normal,2017-01-24 03:12:18
+W_Task.158,W_User.7,Call,Call,Email,1800,Completed,Normal,2017-01-22 21:10:03
+W_Task.159,W_User.2,Call,Meeting,Email,3240,Not Started,Normal,2016-09-13 02:27:25
+W_Task.160,W_User.8,Send Letter,Email,Task,300,In Progress,High,2016-03-06 23:09:42
+W_Task.161,W_User.14,Call,Call,Call,1440,On Hold,Normal,2016-07-05 15:09:33
+W_Task.162,W_User.20,Call,Call,Call,300,Not Started,Normal,2016-09-26 12:08:07
+W_Task.163,W_User.19,Send Letter,Email,Task,150,In Progress,Normal,2016-09-24 00:41:45
+W_Task.164,W_User.7,Send Letter,Email,Email,4320,In Progress,Normal,2016-05-10 17:58:44
+W_Task.165,W_User.7,Other,Meeting,Call,360,In Progress,High,2016-07-08 10:52:51
+W_Task.166,W_User.8,Call,Meeting,Call,360,Completed,Normal,2016-02-06 14:40:06
+W_Task.167,W_User.6,Other,Other,Email,1500,In Progress,Normal,2016-06-06 19:23:48
+W_Task.168,W_User.6,Other,Prep,Task,1080,In Progress,Normal,2016-02-13 04:41:03
+W_Task.169,W_User.12,Call,Meeting,Task,240,On Hold,Normal,2016-02-05 12:24:52
+W_Task.170,W_User.17,Send Letter,Email,Email,2700,On Hold,Normal,2016-02-29 08:36:01
+W_Task.171,W_User.12,Other,Other,Call,600,Completed,Normal,2016-03-07 08:06:04
+W_Task.172,W_User.2,Other,Other,Task,1620,Not Started,Normal,2016-11-04 12:15:19
+W_Task.173,W_User.19,Call,Call,Call,4500,In Progress,Normal,2016-12-18 13:50:10
+W_Task.174,W_User.4,Call,Call,Call,1200,On Hold,High,2016-03-30 03:11:12
+W_Task.175,W_User.17,Send Letter,Email,Task,360,In Progress,Normal,2017-03-26 18:41:44
+W_Task.176,W_User.11,Call,Call,Email,900,Not Started,Normal,2017-02-13 05:50:22
+W_Task.177,W_User.6,Send Quote,Email,Task,1080,Not Started,High,2016-10-14 16:29:53
+W_Task.178,W_User.18,Call,Call,Call,270,On Hold,High,2016-07-02 19:59:35
+W_Task.179,W_User.19,Call,Call,Email,900,In Progress,Normal,2017-01-01 22:11:00
+W_Task.180,W_User.2,Send Letter,Email,Call,1800,Not Started,High,2016-10-09 08:12:46
+W_Task.181,W_User.2,Other,Meeting,Call,1200,In Progress,Normal,2016-11-29 01:54:02
+W_Task.182,W_User.9,Send Quote,Email,Email,1080,On Hold,Normal,2017-01-09 19:36:36
+W_Task.183,W_User.5,Send Letter,Email,Task,120,Not Started,High,2017-01-26 05:42:44
+W_Task.184,W_User.7,Other,Prep,Task,1800,Completed,Normal,2016-03-25 14:52:37
+W_Task.185,W_User.11,Send Letter,Email,Email,3240,In Progress,Normal,2016-12-03 15:28:59
+W_Task.186,W_User.16,Send Letter,Email,Task,600,On Hold,Normal,2016-12-15 18:40:54
+W_Task.187,W_User.5,Send Letter,Email,Call,360,On Hold,Normal,2017-02-28 07:58:32
+W_Task.188,W_User.12,Send Letter,Email,Call,2160,Not Started,Normal,2016-07-20 05:51:09
+W_Task.189,W_User.17,Call,Call,Call,2700,In Progress,Normal,2016-03-28 08:28:47
+W_Task.190,W_User.4,Call,Call,Email,2880,Completed,Normal,2016-11-08 09:50:06
+W_Task.191,W_User.12,Send Letter,Email,Task,1200,Not Started,Normal,2016-02-23 17:00:45
+W_Task.192,W_User.9,Other,Other,Task,1200,In Progress,Normal,2016-12-07 03:32:02
+W_Task.193,W_User.7,Other,Other,Email,450,In Progress,Normal,2016-11-26 11:47:11
+W_Task.194,W_User.18,Call,Meeting,Call,1200,Completed,Normal,2016-06-09 20:15:41
+W_Task.195,W_User.16,Call,Call,Task,2700,On Hold,Normal,2016-04-06 04:20:54
+W_Task.196,W_User.3,Other,Other,Task,480,Not Started,Normal,2016-05-30 03:44:42
+W_Task.197,W_User.2,Send Quote,Email,Call,720,Completed,Normal,2016-09-07 02:07:50
+W_Task.198,W_User.14,Send Letter,Email,Task,450,Not Started,Normal,2016-01-03 19:01:09
+W_Task.199,W_User.18,Other,Other,Email,270,On Hold,Normal,2016-01-30 14:38:08
+W_Task.200,W_User.12,Other,Other,Call,120,Not Started,Normal,2016-01-18 19:38:56
+W_Task.201,W_User.8,Send Letter,Email,Email,3600,In Progress,Normal,2016-09-11 11:41:27
+W_Task.202,W_User.6,Call,Call,Call,1440,In Progress,Normal,2017-03-28 17:24:37
+W_Task.203,W_User.5,Send Letter,Email,Call,600,On Hold,Normal,2017-02-05 19:32:40
+W_Task.204,W_User.17,Send Letter,Email,Task,2880,Completed,Normal,2017-03-03 03:28:29
+W_Task.205,W_User.2,Other,Meeting,Call,3000,In Progress,Normal,2016-08-04 21:34:23
+W_Task.206,W_User.6,Send Letter,Email,Task,120,Completed,Normal,2016-05-07 08:14:47
+W_Task.207,W_User.19,Call,Meeting,Email,600,On Hold,High,2016-09-11 20:37:09
+W_Task.208,W_User.3,Other,Meeting,Email,180,Not Started,Normal,2016-08-12 10:36:35
+W_Task.209,W_User.17,Call,Call,Task,1350,Not Started,Normal,2016-02-26 15:44:27
+W_Task.210,W_User.14,Call,Meeting,Task,3240,Not Started,Normal,2016-12-08 12:32:01
+W_Task.211,W_User.11,Send Letter,Email,Email,120,In Progress,Normal,2017-03-25 08:35:32
+W_Task.212,W_User.13,Other,Other,Call,600,Not Started,Normal,2016-05-28 17:47:15
+W_Task.213,W_User.10,Call,Meeting,Task,1800,Not Started,Normal,2016-04-09 21:26:33
+W_Task.214,W_User.3,Send Letter,Email,Task,360,Not Started,Normal,2016-12-13 08:41:22
+W_Task.215,W_User.13,Call,Call,Call,2700,On Hold,High,2016-09-11 17:04:45
+W_Task.216,W_User.17,Send Letter,Email,Task,1440,Not Started,Normal,2017-02-01 21:14:15
+W_Task.217,W_User.5,Call,Meeting,Email,2250,Completed,Normal,2016-12-23 01:45:58
+W_Task.218,W_User.12,Call,Call,Email,180,In Progress,Normal,2016-03-06 11:57:55
+W_Task.219,W_User.10,Send Letter,Email,Email,900,Not Started,Normal,2017-02-24 18:49:48
+W_Task.220,W_User.10,Send Letter,Email,Task,600,On Hold,Normal,2016-09-23 00:56:01
+W_Task.221,W_User.19,Send Letter,Email,Call,1440,In Progress,Normal,2017-02-10 13:43:09
+W_Task.222,W_User.1,Send Letter,Email,Call,4320,In Progress,Normal,2016-10-13 22:55:46
+W_Task.223,W_User.3,Send Quote,Email,Email,600,In Progress,Normal,2016-06-19 13:00:44
+W_Task.224,W_User.16,Other,Meeting,Call,1800,Completed,Normal,2016-04-06 18:10:41
+W_Task.225,W_User.6,Send Letter,Email,Email,270,Completed,High,2016-04-11 14:19:30
+W_Task.226,W_User.1,Send Letter,Email,Email,180,On Hold,Normal,2016-02-06 14:44:30
+W_Task.227,W_User.20,Send Letter,Email,Email,1620,Not Started,Normal,2016-02-05 14:43:18
+W_Task.228,W_User.18,Send Letter,Email,Task,4500,Completed,Normal,2016-07-28 01:14:12
+W_Task.229,W_User.11,Send Letter,Email,Task,1800,On Hold,Normal,2016-09-13 12:22:07
+W_Task.230,W_User.4,Send Letter,Email,Task,1920,Completed,Normal,2017-01-24 12:30:09
+W_Task.231,W_User.20,Send Quote,Email,Call,4500,On Hold,Normal,2017-02-02 05:36:17
+W_Task.232,W_User.14,Send Letter,Email,Email,3240,In Progress,Normal,2016-02-27 22:50:57
+W_Task.233,W_User.3,Send Letter,Email,Task,3240,In Progress,Normal,2016-03-18 07:02:02
+W_Task.234,W_User.7,Send Quote,Email,Call,2250,In Progress,Normal,2016-08-03 05:52:18
+W_Task.235,W_User.4,Other,Meeting,Call,3750,Not Started,Normal,2016-01-23 09:05:50
+W_Task.236,W_User.18,Send Letter,Email,Email,750,Completed,Normal,2016-11-10 11:08:07
+W_Task.237,W_User.18,Send Quote,Email,Call,360,On Hold,Normal,2016-05-03 23:14:56
+W_Task.238,W_User.20,Send Letter,Email,Email,1080,Completed,Normal,2016-08-13 21:27:53
+W_Task.239,W_User.17,Call,Call,Email,180,Not Started,Normal,2016-11-04 07:25:48
+W_Task.240,W_User.16,Send Letter,Email,Email,600,In Progress,Normal,2016-09-15 12:30:39
+W_Task.241,W_User.9,Call,Call,Task,900,On Hold,Normal,2017-02-22 16:08:01
+W_Task.242,W_User.9,Other,Meeting,Task,450,Not Started,Normal,2016-12-30 13:41:53
+W_Task.243,W_User.20,Send Letter,Email,Email,1800,Completed,Normal,2016-07-07 09:59:34
+W_Task.244,W_User.13,Send Letter,Email,Email,2160,Completed,Normal,2017-02-05 13:02:22
+W_Task.245,W_User.11,Other,Other,Call,1080,Not Started,Normal,2016-04-19 01:23:25
+W_Task.246,W_User.4,Other,Meeting,Task,540,Completed,High,2017-02-17 06:12:49
+W_Task.247,W_User.2,Call,Call,Call,360,Not Started,Normal,2016-02-07 02:17:34
+W_Task.248,W_User.11,Call,Call,Task,30,Completed,High,2016-08-13 04:04:25
+W_Task.249,W_User.20,Send Letter,Email,Call,1200,In Progress,Normal,2016-02-09 16:06:28
+W_Task.250,W_User.16,Call,Call,Email,2160,In Progress,Normal,2017-02-13 19:53:18
+W_Task.251,W_User.10,Other,Other,Email,1800,Completed,Normal,2016-12-03 18:17:01
+W_Task.252,W_User.11,Send Letter,Email,Email,450,In Progress,High,2016-03-14 15:21:43
+W_Task.253,W_User.11,Send Letter,Email,Call,1080,Not Started,Normal,2016-12-25 16:59:32
+W_Task.254,W_User.11,Call,Meeting,Call,180,On Hold,Normal,2016-10-08 00:23:35
+W_Task.255,W_User.4,Send Quote,Email,Call,360,Completed,Normal,2016-08-16 07:27:54
+W_Task.256,W_User.8,Send Letter,Email,Call,2400,Not Started,Normal,2016-02-07 18:57:52
+W_Task.257,W_User.4,Send Letter,Email,Task,450,On Hold,Normal,2016-10-15 12:38:44
+W_Task.258,W_User.12,Call,Meeting,Task,480,In Progress,Normal,2016-03-22 05:52:35
+W_Task.259,W_User.20,Send Letter,Email,Email,120,In Progress,Normal,2016-06-17 14:33:33
+W_Task.260,W_User.2,Other,Meeting,Task,2160,Completed,Normal,2016-05-22 08:59:16
+W_Task.261,W_User.9,Call,Call,Task,3600,Completed,Normal,2016-04-28 14:44:14
+W_Task.262,W_User.19,Send Letter,Email,Email,1440,On Hold,Normal,2016-03-07 15:32:23
+W_Task.263,W_User.12,Call,Call,Email,240,Not Started,Normal,2016-03-04 09:04:03
+W_Task.264,W_User.12,Call,Call,Call,600,In Progress,Normal,2016-02-29 03:13:29
+W_Task.265,W_User.2,Other,Meeting,Task,1800,Completed,Normal,2016-02-01 14:01:23
+W_Task.266,W_User.16,Call,Meeting,Task,2400,Not Started,Normal,2016-12-07 22:37:59
+W_Task.267,W_User.13,Other,Prep,Email,480,In Progress,Normal,2016-01-23 10:47:55
+W_Task.268,W_User.19,Call,Call,Task,1440,On Hold,Normal,2016-01-04 18:53:20
+W_Task.269,W_User.13,Other,Other,Task,720,Not Started,Normal,2016-08-22 13:08:32
+W_Task.270,W_User.15,Send Quote,Email,Call,480,Completed,High,2016-11-21 22:19:36
+W_Task.271,W_User.6,Other,Prep,Call,1200,On Hold,Normal,2016-08-26 18:35:10
+W_Task.272,W_User.20,Other,Other,Call,1080,On Hold,Normal,2016-12-09 03:53:44
+W_Task.273,W_User.6,Send Letter,Email,Email,1440,Completed,Normal,2016-01-11 16:01:13
+W_Task.274,W_User.1,Call,Call,Task,1080,In Progress,Normal,2017-01-03 22:59:31
+W_Task.275,W_User.20,Call,Call,Call,1350,On Hold,Normal,2016-08-08 18:35:29
+W_Task.276,W_User.10,Send Letter,Email,Call,3600,On Hold,Normal,2017-01-17 11:30:38
+W_Task.277,W_User.5,Other,Other,Email,450,In Progress,Normal,2016-01-08 07:44:32
+W_Task.278,W_User.4,Other,Prep,Call,2700,Completed,Normal,2016-07-05 08:08:07
+W_Task.279,W_User.20,Send Letter,Email,Call,1440,Not Started,Normal,2016-03-29 08:47:41
+W_Task.280,W_User.11,Call,Call,Email,180,Completed,Normal,2016-01-09 06:01:15
+W_Task.281,W_User.20,Send Quote,Email,Call,300,On Hold,Normal,2016-01-28 05:00:49
+W_Task.282,W_User.7,Call,Call,Task,750,In Progress,Normal,2016-09-01 07:16:52
+W_Task.283,W_User.9,Other,Meeting,Email,360,On Hold,Normal,2016-01-17 21:44:08
+W_Task.284,W_User.7,Call,Meeting,Task,120,In Progress,Normal,2016-06-01 06:33:01
+W_Task.285,W_User.16,Other,Prep,Email,900,Not Started,Normal,2016-05-16 01:00:36
+W_Task.286,W_User.5,Other,Meeting,Call,120,Not Started,Normal,2016-04-29 20:21:43
+W_Task.287,W_User.12,Call,Call,Call,540,Not Started,Normal,2016-08-01 14:07:16
+W_Task.288,W_User.11,Send Quote,Email,Task,270,In Progress,Normal,2016-03-25 09:59:42
+W_Task.289,W_User.20,Send Letter,Email,Email,2700,On Hold,Normal,2017-03-13 00:20:12
+W_Task.290,W_User.11,Send Letter,Email,Email,2160,Not Started,High,2017-02-13 16:01:10
+W_Task.291,W_User.10,Send Quote,Email,Task,60,Not Started,Normal,2016-03-10 21:25:08
+W_Task.292,W_User.14,Other,Prep,Call,3240,On Hold,Normal,2017-03-28 14:24:12
+W_Task.293,W_User.14,Send Quote,Email,Task,1920,In Progress,Normal,2016-07-30 20:07:50
+W_Task.294,W_User.10,Other,Prep,Call,1800,Completed,Normal,2016-09-13 11:04:51
+W_Task.295,W_User.6,Other,Meeting,Call,240,On Hold,Normal,2016-01-05 12:01:42
+W_Task.296,W_User.2,Send Letter,Email,Call,720,In Progress,Normal,2017-03-19 19:23:28
+W_Task.297,W_User.5,Call,Call,Task,2160,In Progress,Normal,2017-03-01 02:20:22
+W_Task.298,W_User.18,Call,Call,Email,480,Not Started,High,2016-01-03 23:15:07
+W_Task.299,W_User.14,Send Quote,Email,Call,2250,In Progress,Normal,2016-09-28 04:55:44
+W_Task.300,W_User.11,Send Letter,Email,Call,1440,Completed,Normal,2017-01-14 11:48:00
+W_Task.301,W_User.19,Send Quote,Email,Email,120,On Hold,Normal,2016-08-23 03:54:58
+W_Task.302,W_User.10,Other,Other,Call,60,Not Started,Normal,2016-07-30 18:51:28
+W_Task.303,W_User.16,Other,Prep,Email,1440,Not Started,Normal,2016-03-19 08:37:02
+W_Task.304,W_User.20,Other,Meeting,Call,3600,On Hold,Normal,2017-01-02 06:55:30
+W_Task.305,W_User.17,Send Letter,Email,Call,3600,Completed,Normal,2017-03-18 10:46:23
+W_Task.306,W_User.13,Call,Call,Email,360,On Hold,Normal,2016-03-22 04:21:46
+W_Task.307,W_User.9,Call,Call,Email,2160,On Hold,Normal,2016-02-28 18:01:50
+W_Task.308,W_User.17,Send Letter,Email,Email,2250,Completed,Normal,2016-03-29 08:08:43
+W_Task.309,W_User.20,Send Letter,Email,Email,900,Completed,Normal,2016-02-11 04:53:46
+W_Task.310,W_User.1,Call,Call,Email,450,Not Started,Normal,2017-01-11 09:30:42
+W_Task.311,W_User.17,Send Quote,Email,Task,900,In Progress,Normal,2017-01-25 18:59:56
+W_Task.312,W_User.14,Send Letter,Email,Call,720,On Hold,Normal,2016-01-16 23:00:35
+W_Task.313,W_User.13,Call,Call,Call,60,Not Started,Normal,2016-04-22 13:26:43
+W_Task.314,W_User.6,Call,Call,Call,3000,In Progress,Normal,2016-09-21 21:49:42
+W_Task.315,W_User.6,Call,Call,Email,540,Completed,High,2016-02-10 18:11:32
+W_Task.316,W_User.15,Other,Meeting,Email,600,Completed,Normal,2016-02-19 10:30:14
+W_Task.317,W_User.12,Other,Meeting,Email,3600,Completed,Normal,2016-10-27 23:08:10
+W_Task.318,W_User.1,Call,Call,Call,240,Not Started,Normal,2017-02-23 15:11:12
+W_Task.319,W_User.4,Other,Other,Call,750,Not Started,Normal,2016-03-26 02:01:09
+W_Task.320,W_User.16,Send Letter,Email,Email,480,Not Started,Normal,2016-10-19 23:49:07
+W_Task.321,W_User.5,Other,Meeting,Call,540,Completed,Normal,2016-05-14 15:49:31
+W_Task.322,W_User.20,Call,Call,Call,3000,Completed,Normal,2016-04-14 12:40:45
+W_Task.323,W_User.16,Send Letter,Email,Task,240,On Hold,High,2016-05-22 10:10:43
+W_Task.324,W_User.18,Send Letter,Email,Call,2700,Not Started,Normal,2016-03-11 20:32:13
+W_Task.325,W_User.20,Send Quote,Email,Email,480,Completed,Normal,2016-03-17 07:19:05
+W_Task.326,W_User.6,Call,Call,Call,1800,In Progress,Normal,2016-12-19 15:26:41
+W_Task.327,W_User.7,Other,Other,Email,240,Not Started,High,2016-08-25 06:16:50
+W_Task.328,W_User.9,Call,Meeting,Task,1440,Completed,Normal,2017-01-26 13:14:48
+W_Task.329,W_User.15,Call,Call,Task,1920,In Progress,High,2016-09-15 00:47:35
+W_Task.330,W_User.7,Call,Call,Task,60,Completed,Normal,2016-05-17 05:45:57
+W_Task.331,W_User.13,Send Letter,Email,Task,540,On Hold,Normal,2016-02-24 17:32:47
+W_Task.332,W_User.16,Call,Meeting,Call,2160,On Hold,Normal,2016-08-11 22:33:53
+W_Task.333,W_User.6,Other,Meeting,Task,360,In Progress,High,2016-07-04 23:14:47
+W_Task.334,W_User.11,Other,Other,Task,960,Completed,High,2016-11-03 08:31:39
+W_Task.335,W_User.8,Send Letter,Email,Email,4320,On Hold,Normal,2016-06-25 15:07:52
+W_Task.336,W_User.2,Send Quote,Email,Call,1080,In Progress,Normal,2016-01-10 13:00:10
+W_Task.337,W_User.1,Call,Call,Email,960,On Hold,Normal,2016-03-12 20:57:25
+W_Task.338,W_User.15,Call,Call,Call,3000,Completed,Normal,2016-08-02 20:50:06
+W_Task.339,W_User.10,Send Letter,Email,Task,1440,On Hold,Normal,2017-02-15 01:25:13
+W_Task.340,W_User.19,Other,Prep,Task,810,Not Started,Normal,2016-11-19 11:12:26
+W_Task.341,W_User.7,Send Letter,Email,Call,1200,Completed,Normal,2017-01-05 17:44:54
+W_Task.342,W_User.11,Send Quote,Email,Call,3600,Completed,Normal,2016-07-09 20:17:21
+W_Task.343,W_User.20,Other,Meeting,Call,120,On Hold,Normal,2017-01-09 21:51:22
+W_Task.344,W_User.19,Send Letter,Email,Task,270,In Progress,Normal,2016-04-30 05:22:21
+W_Task.345,W_User.17,Call,Call,Call,1080,On Hold,Normal,2016-03-10 14:40:12
+W_Task.346,W_User.1,Call,Call,Task,480,In Progress,Normal,2017-01-01 11:08:35
+W_Task.347,W_User.18,Send Quote,Email,Task,1440,In Progress,Normal,2016-10-02 07:25:43
+W_Task.348,W_User.11,Other,Other,Call,720,On Hold,Normal,2016-12-25 14:30:20
+W_Task.349,W_User.5,Send Letter,Email,Task,240,In Progress,Normal,2016-07-17 16:05:55
+W_Task.350,W_User.13,Call,Call,Call,360,Completed,Normal,2016-02-03 18:10:58
+W_Task.351,W_User.5,Send Letter,Email,Task,150,Completed,Normal,2017-02-28 16:20:50
+W_Task.352,W_User.5,Send Letter,Email,Task,450,In Progress,High,2016-12-27 21:38:33
+W_Task.353,W_User.12,Call,Meeting,Email,1620,In Progress,High,2016-03-30 17:36:08
+W_Task.354,W_User.12,Other,Other,Task,150,Not Started,Normal,2016-08-06 21:04:05
+W_Task.355,W_User.17,Send Letter,Email,Call,1440,Not Started,Normal,2016-06-28 22:25:50
+W_Task.356,W_User.2,Send Quote,Email,Email,720,On Hold,Normal,2017-03-30 01:56:39
+W_Task.357,W_User.20,Send Letter,Email,Call,1080,Not Started,Normal,2016-01-03 09:51:51
+W_Task.358,W_User.5,Other,Prep,Call,600,Not Started,Normal,2016-12-27 16:53:42
+W_Task.359,W_User.8,Other,Other,Task,1800,On Hold,High,2017-03-23 13:42:04
+W_Task.360,W_User.8,Call,Call,Task,300,In Progress,High,2016-01-14 19:39:07
+W_Task.361,W_User.13,Send Letter,Email,Email,600,Completed,Normal,2016-06-10 21:02:03
+W_Task.362,W_User.1,Call,Call,Task,720,On Hold,Normal,2016-02-22 17:20:50
+W_Task.363,W_User.19,Call,Meeting,Task,2160,Completed,Normal,2017-01-13 10:58:14
+W_Task.364,W_User.11,Other,Prep,Email,450,Completed,Normal,2016-06-07 01:58:41
+W_Task.365,W_User.12,Other,Meeting,Email,750,On Hold,Normal,2016-09-23 16:10:50
+W_Task.366,W_User.1,Send Quote,Email,Call,150,In Progress,Normal,2016-12-15 13:58:10
+W_Task.367,W_User.1,Send Letter,Email,Task,900,Not Started,Normal,2017-01-04 17:06:36
+W_Task.368,W_User.15,Call,Call,Task,1350,Not Started,Normal,2017-01-26 01:37:37
+W_Task.369,W_User.4,Send Letter,Email,Email,360,Not Started,High,2017-01-19 06:07:12
+W_Task.370,W_User.6,Send Letter,Email,Task,900,In Progress,Normal,2016-03-24 06:09:49
+W_Task.371,W_User.11,Send Letter,Email,Email,1080,Completed,Normal,2016-01-29 05:20:42
+W_Task.372,W_User.15,Send Letter,Email,Call,5400,In Progress,Normal,2016-10-27 23:09:54
+W_Task.373,W_User.4,Other,Prep,Call,1920,Not Started,Normal,2016-10-31 20:51:57
+W_Task.374,W_User.16,Call,Meeting,Email,1080,Not Started,Normal,2017-01-28 07:35:37
+W_Task.375,W_User.18,Send Quote,Email,Email,5400,In Progress,Normal,2016-12-10 02:19:24
+W_Task.376,W_User.10,Send Letter,Email,Call,360,Not Started,Normal,2016-06-12 17:03:18
+W_Task.377,W_User.20,Send Quote,Email,Task,90,Not Started,High,2016-08-31 15:21:48
+W_Task.378,W_User.6,Call,Call,Email,2160,Not Started,High,2016-09-22 00:02:30
+W_Task.379,W_User.18,Other,Other,Call,360,In Progress,Normal,2016-04-02 07:19:26
+W_Task.380,W_User.20,Other,Meeting,Call,600,On Hold,Normal,2016-02-16 20:56:38
+W_Task.381,W_User.15,Send Letter,Email,Task,5400,Completed,Normal,2016-10-01 06:08:59
+W_Task.382,W_User.2,Send Letter,Email,Call,750,On Hold,Normal,2016-06-22 20:46:46
+W_Task.383,W_User.20,Call,Call,Task,900,Completed,High,2016-10-10 08:59:50
+W_Task.384,W_User.8,Call,Meeting,Call,900,Not Started,Normal,2016-04-20 18:59:42
+W_Task.385,W_User.3,Send Letter,Email,Email,1800,Completed,Normal,2016-09-12 22:21:51
+W_Task.386,W_User.10,Other,Prep,Task,540,On Hold,Normal,2016-07-18 03:45:57
+W_Task.387,W_User.18,Send Letter,Email,Call,1920,On Hold,Normal,2016-03-11 00:03:25
+W_Task.388,W_User.10,Other,Other,Call,1200,On Hold,Normal,2016-10-24 20:04:43
+W_Task.389,W_User.15,Send Quote,Email,Call,540,Completed,Normal,2016-08-27 11:43:56
+W_Task.390,W_User.9,Call,Call,Task,3600,On Hold,Normal,2016-10-13 21:17:05
+W_Task.391,W_User.10,Send Letter,Email,Email,2700,In Progress,Normal,2016-08-26 12:33:22
+W_Task.392,W_User.16,Send Letter,Email,Task,1500,In Progress,Normal,2016-11-30 10:51:44
+W_Task.393,W_User.20,Send Letter,Email,Call,1080,Not Started,Normal,2016-11-24 02:22:42
+W_Task.394,W_User.11,Send Letter,Email,Email,1800,On Hold,Normal,2016-10-12 09:40:48
+W_Task.395,W_User.7,Send Letter,Email,Task,750,Not Started,Normal,2016-02-29 13:09:07
+W_Task.396,W_User.4,Other,Meeting,Email,540,In Progress,Normal,2016-05-09 15:28:37
+W_Task.397,W_User.5,Send Letter,Email,Call,2400,Not Started,Normal,2016-07-19 10:17:01
+W_Task.398,W_User.18,Send Letter,Email,Task,600,On Hold,Normal,2016-10-30 13:33:01
+W_Task.399,W_User.14,Send Letter,Email,Call,300,Completed,Normal,2016-02-29 01:40:31
+W_Task.400,W_User.16,Send Quote,Email,Call,360,In Progress,Normal,2017-01-28 07:40:36
+W_Task.401,W_User.7,Send Letter,Email,Email,1440,Completed,High,2016-02-25 01:39:41
+W_Task.402,W_User.11,Send Letter,Email,Call,360,On Hold,Normal,2016-10-25 11:17:36
+W_Task.403,W_User.7,Send Letter,Email,Email,1620,On Hold,Normal,2016-08-03 00:13:15
+W_Task.404,W_User.14,Call,Call,Task,2250,Not Started,Normal,2016-05-03 14:50:07
+W_Task.405,W_User.1,Call,Call,Email,1800,Not Started,Normal,2016-09-13 00:31:46
+W_Task.406,W_User.19,Send Quote,Email,Email,2250,In Progress,Normal,2017-01-27 09:07:03
+W_Task.407,W_User.5,Send Quote,Email,Email,720,Not Started,High,2016-09-22 10:02:49
+W_Task.408,W_User.2,Send Quote,Email,Task,1440,In Progress,Normal,2016-07-08 22:38:18
+W_Task.409,W_User.8,Send Letter,Email,Call,900,In Progress,Normal,2017-01-26 08:30:17
+W_Task.410,W_User.20,Call,Meeting,Call,720,In Progress,Normal,2016-10-15 16:00:05
+W_Task.411,W_User.5,Other,Other,Call,360,On Hold,Normal,2016-04-14 07:57:45
+W_Task.412,W_User.18,Other,Prep,Call,180,Completed,Normal,2016-07-15 05:21:25
+W_Task.413,W_User.13,Call,Call,Call,960,Not Started,High,2016-07-16 18:30:19
+W_Task.414,W_User.12,Send Quote,Email,Email,2160,Completed,High,2016-05-12 22:00:05
+W_Task.415,W_User.15,Other,Meeting,Call,3000,In Progress,Normal,2016-12-07 12:29:00
+W_Task.416,W_User.15,Send Quote,Email,Call,1800,On Hold,High,2016-05-29 20:14:45
+W_Task.417,W_User.4,Send Letter,Email,Email,120,On Hold,High,2016-09-17 22:31:52
+W_Task.418,W_User.12,Other,Meeting,Task,1800,Completed,Normal,2016-08-04 02:08:01
+W_Task.419,W_User.15,Send Quote,Email,Call,360,Not Started,Normal,2016-02-06 20:10:47
+W_Task.420,W_User.8,Other,Meeting,Email,900,Not Started,Normal,2016-06-29 18:29:24
+W_Task.421,W_User.6,Other,Other,Task,540,Completed,Normal,2017-03-02 16:43:38
+W_Task.422,W_User.19,Send Letter,Email,Call,2400,On Hold,Normal,2016-01-21 20:16:48
+W_Task.423,W_User.6,Call,Call,Email,360,Not Started,Normal,2016-04-27 20:39:45
+W_Task.424,W_User.13,Send Quote,Email,Call,3600,Not Started,Normal,2017-02-19 10:41:14
+W_Task.425,W_User.20,Call,Meeting,Email,1080,Not Started,Normal,2017-03-19 01:39:20
+W_Task.426,W_User.11,Call,Call,Task,720,In Progress,Normal,2016-09-26 02:03:21
+W_Task.427,W_User.13,Send Letter,Email,Task,240,Not Started,High,2016-02-12 00:35:31
+W_Task.428,W_User.20,Call,Call,Call,2160,On Hold,Normal,2016-11-16 19:47:26
+W_Task.429,W_User.14,Call,Call,Email,240,On Hold,Normal,2017-03-02 01:58:34
+W_Task.430,W_User.8,Send Letter,Email,Task,270,In Progress,Normal,2016-09-22 00:21:16
+W_Task.431,W_User.6,Call,Call,Task,720,Not Started,Normal,2016-12-04 05:03:20
+W_Task.432,W_User.15,Send Letter,Email,Email,1800,Completed,Normal,2017-02-16 05:14:21
+W_Task.433,W_User.14,Send Letter,Email,Task,150,In Progress,Normal,2016-06-02 15:31:41
+W_Task.434,W_User.2,Send Letter,Email,Call,450,In Progress,High,2016-11-27 10:23:56
+W_Task.435,W_User.19,Send Letter,Email,Email,960,In Progress,Normal,2017-02-14 20:29:50
+W_Task.436,W_User.10,Call,Call,Task,2250,Not Started,Normal,2016-03-16 07:15:57
+W_Task.437,W_User.2,Send Letter,Email,Task,1350,Completed,Normal,2016-10-01 07:55:46
+W_Task.438,W_User.18,Other,Meeting,Task,2250,In Progress,High,2016-03-04 07:43:52
+W_Task.439,W_User.17,Send Letter,Email,Task,90,On Hold,Normal,2016-05-18 10:12:36
+W_Task.440,W_User.15,Call,Call,Task,960,In Progress,Normal,2016-08-19 17:33:12
+W_Task.441,W_User.18,Send Letter,Email,Call,60,On Hold,Normal,2016-04-01 17:30:23
+W_Task.442,W_User.10,Call,Call,Task,720,In Progress,High,2017-02-14 20:50:34
+W_Task.443,W_User.18,Send Letter,Email,Task,600,On Hold,Normal,2016-12-21 07:00:49
+W_Task.444,W_User.17,Call,Call,Task,600,Completed,Normal,2016-06-22 09:21:53
+W_Task.445,W_User.9,Call,Call,Call,720,Completed,Normal,2016-12-27 17:56:35
+W_Task.446,W_User.15,Call,Call,Task,540,On Hold,Normal,2017-02-03 19:03:01
+W_Task.447,W_User.9,Other,Prep,Call,240,In Progress,Normal,2016-06-04 22:47:15
+W_Task.448,W_User.14,Call,Meeting,Task,1080,On Hold,Normal,2017-02-19 16:45:15
+W_Task.449,W_User.13,Call,Call,Call,450,Completed,Normal,2016-05-08 18:26:59
+W_Task.450,W_User.5,Call,Call,Task,750,Completed,High,2016-04-19 15:19:13
+W_Task.451,W_User.17,Send Letter,Email,Call,960,Completed,Normal,2017-02-05 15:12:47
+W_Task.452,W_User.2,Other,Meeting,Call,180,Not Started,Normal,2016-10-11 10:12:35
+W_Task.453,W_User.12,Send Quote,Email,Email,720,Completed,Normal,2016-02-23 18:09:31
+W_Task.454,W_User.15,Send Letter,Email,Call,900,Not Started,Normal,2016-09-03 05:10:11
+W_Task.455,W_User.1,Send Quote,Email,Task,1800,Completed,Normal,2016-12-02 06:31:21
+W_Task.456,W_User.19,Send Quote,Email,Task,360,On Hold,Normal,2016-08-25 02:46:22
+W_Task.457,W_User.5,Call,Call,Call,900,Completed,Normal,2016-03-19 03:42:21
+W_Task.458,W_User.10,Other,Prep,Call,600,Completed,Normal,2017-02-17 05:42:19
+W_Task.459,W_User.4,Call,Meeting,Call,960,On Hold,Normal,2017-01-06 05:29:12
+W_Task.460,W_User.18,Send Quote,Email,Task,720,In Progress,High,2016-07-27 16:45:28
+W_Task.461,W_User.5,Send Letter,Email,Call,360,Not Started,Normal,2016-10-05 23:14:00
+W_Task.462,W_User.16,Send Letter,Email,Email,450,On Hold,Normal,2016-04-23 10:36:12
+W_Task.463,W_User.18,Call,Call,Task,120,Completed,Normal,2016-03-08 04:19:33
+W_Task.464,W_User.4,Call,Meeting,Call,900,Completed,Normal,2016-10-27 13:38:36
+W_Task.465,W_User.6,Send Letter,Email,Call,1620,In Progress,Normal,2016-05-28 14:53:44
+W_Task.466,W_User.15,Call,Call,Email,60,In Progress,Normal,2016-11-04 07:32:45
+W_Task.467,W_User.3,Send Letter,Email,Call,2880,On Hold,Normal,2017-01-23 09:58:20
+W_Task.468,W_User.8,Call,Call,Email,2700,Completed,Normal,2016-06-13 05:02:15
+W_Task.469,W_User.4,Call,Call,Email,1800,Not Started,High,2016-08-06 05:36:23
+W_Task.470,W_User.18,Call,Call,Call,540,Completed,Normal,2016-09-14 07:32:15
+W_Task.471,W_User.1,Send Letter,Email,Task,270,Not Started,Normal,2016-04-23 04:05:41
+W_Task.472,W_User.16,Send Quote,Email,Task,1800,In Progress,Normal,2017-02-28 06:06:50
+W_Task.473,W_User.15,Call,Call,Call,1800,Not Started,Normal,2017-01-27 01:56:41
+W_Task.474,W_User.1,Send Letter,Email,Task,900,In Progress,Normal,2016-07-16 17:41:15
+W_Task.475,W_User.5,Send Letter,Email,Call,1350,Not Started,High,2017-03-06 18:25:51
+W_Task.476,W_User.15,Send Letter,Email,Task,900,In Progress,Normal,2017-01-08 21:07:26
+W_Task.477,W_User.2,Call,Call,Email,750,Not Started,Normal,2016-05-19 22:56:39
+W_Task.478,W_User.19,Call,Call,Call,720,Not Started,Normal,2016-05-30 15:49:12
+W_Task.479,W_User.2,Other,Prep,Call,1800,Not Started,Normal,2016-08-21 17:15:42
+W_Task.480,W_User.4,Call,Meeting,Task,180,In Progress,Normal,2016-05-05 21:09:09
+W_Task.481,W_User.20,Call,Call,Email,120,Not Started,Normal,2016-04-03 14:04:24
+W_Task.482,W_User.20,Send Letter,Email,Email,1200,Not Started,Normal,2017-01-10 14:21:59
+W_Task.483,W_User.14,Call,Call,Email,2160,In Progress,High,2016-01-15 02:43:32
+W_Task.484,W_User.8,Call,Call,Call,1500,In Progress,Normal,2016-10-28 19:38:17
+W_Task.485,W_User.6,Send Letter,Email,Task,3000,Not Started,Normal,2017-03-15 11:50:41
+W_Task.486,W_User.15,Other,Meeting,Task,3750,In Progress,Normal,2016-09-02 15:49:10
+W_Task.487,W_User.8,Call,Call,Email,450,In Progress,Normal,2016-06-04 18:20:33
+W_Task.488,W_User.19,Send Letter,Email,Email,1920,Not Started,High,2016-03-05 03:15:19
+W_Task.489,W_User.3,Send Letter,Email,Call,1080,Completed,Normal,2016-01-31 15:07:20
+W_Task.490,W_User.5,Other,Prep,Task,120,Not Started,Normal,2016-04-13 02:56:23
+W_Task.491,W_User.4,Other,Other,Call,2250,In Progress,Normal,2016-12-15 01:55:13
+W_Task.492,W_User.2,Send Letter,Email,Call,1200,Completed,Normal,2016-04-06 18:43:35
+W_Task.493,W_User.6,Other,Prep,Email,1080,Completed,Normal,2017-03-06 00:47:36
+W_Task.494,W_User.2,Send Quote,Email,Call,900,Completed,Normal,2016-10-10 14:22:33
+W_Task.495,W_User.16,Other,Meeting,Call,270,Not Started,Normal,2016-05-04 04:38:30
+W_Task.496,W_User.5,Send Letter,Email,Email,2250,On Hold,Normal,2017-03-06 01:15:26
+W_Task.497,W_User.13,Send Letter,Email,Task,240,Not Started,High,2017-03-25 22:38:20
+W_Task.498,W_User.19,Send Letter,Email,Email,1080,On Hold,Normal,2016-02-09 23:13:24
+W_Task.499,W_User.6,Call,Call,Task,360,On Hold,Normal,2016-05-03 19:48:34
+W_Task.500,W_User.8,Call,Call,Task,3240,On Hold,High,2016-01-21 17:17:03
+W_Task.501,W_User.5,Other,Prep,Email,1800,On Hold,High,2016-08-14 07:10:31
+W_Task.502,W_User.8,Call,Call,Email,1080,Completed,Normal,2017-02-03 09:45:43
+W_Task.503,W_User.6,Other,Prep,Task,300,Not Started,Normal,2016-02-19 14:49:31
+W_Task.504,W_User.5,Send Letter,Email,Task,900,On Hold,Normal,2016-10-18 19:44:18
+W_Task.505,W_User.16,Other,Meeting,Task,180,Completed,Normal,2016-01-12 23:34:53
+W_Task.506,W_User.11,Call,Meeting,Email,2700,On Hold,Normal,2017-02-24 12:23:13
+W_Task.507,W_User.9,Call,Call,Task,1080,Completed,Normal,2016-09-04 09:08:16
+W_Task.508,W_User.7,Send Letter,Email,Email,600,On Hold,Normal,2016-11-28 19:01:39
+W_Task.509,W_User.3,Call,Call,Task,120,On Hold,Normal,2016-10-03 16:41:23
+W_Task.510,W_User.3,Call,Meeting,Email,1080,Completed,High,2016-10-07 08:32:08
+W_Task.511,W_User.8,Call,Call,Task,30,Not Started,Normal,2016-03-16 07:01:15
+W_Task.512,W_User.3,Other,Other,Email,360,In Progress,Normal,2016-02-24 10:07:12
+W_Task.513,W_User.3,Send Quote,Email,Task,480,On Hold,Normal,2016-03-12 11:09:44
+W_Task.514,W_User.6,Other,Meeting,Call,540,Not Started,Normal,2016-05-17 15:06:20
+W_Task.515,W_User.15,Call,Meeting,Task,750,Not Started,Normal,2016-02-05 03:37:24
+W_Task.516,W_User.4,Call,Call,Task,2160,Completed,Normal,2016-09-09 13:30:18
+W_Task.517,W_User.13,Other,Meeting,Email,900,Not Started,Normal,2016-06-19 21:56:55
+W_Task.518,W_User.16,Send Letter,Email,Email,2880,Completed,Normal,2016-12-28 07:08:41
+W_Task.519,W_User.3,Call,Meeting,Call,720,Not Started,Normal,2016-06-07 02:24:23
+W_Task.520,W_User.16,Send Quote,Email,Task,540,Not Started,Normal,2017-01-07 22:17:12
+W_Task.521,W_User.10,Other,Other,Call,1800,Not Started,Normal,2017-02-14 06:44:07
+W_Task.522,W_User.2,Send Letter,Email,Call,180,On Hold,Normal,2017-01-15 06:28:27
+W_Task.523,W_User.6,Send Letter,Email,Email,1080,Not Started,Normal,2016-10-02 03:42:33
+W_Task.524,W_User.13,Other,Meeting,Task,1800,On Hold,High,2016-10-06 10:05:09
+W_Task.525,W_User.2,Send Letter,Email,Task,2700,Completed,Normal,2017-02-09 08:48:17
+W_Task.526,W_User.19,Other,Other,Call,4320,Completed,Normal,2016-06-10 05:04:37
+W_Task.527,W_User.15,Call,Call,Email,480,Not Started,Normal,2016-03-09 04:54:08
+W_Task.528,W_User.11,Other,Meeting,Task,600,Not Started,Normal,2016-06-09 10:51:54
+W_Task.529,W_User.4,Send Quote,Email,Call,540,Completed,Normal,2016-01-28 20:09:41
+W_Task.530,W_User.18,Send Letter,Email,Email,4500,In Progress,Normal,2016-04-04 08:30:48
+W_Task.531,W_User.14,Other,Other,Call,360,Not Started,Normal,2016-11-18 12:04:19
+W_Task.532,W_User.17,Call,Call,Email,720,In Progress,Normal,2017-03-14 03:12:33
+W_Task.533,W_User.13,Other,Prep,Email,1440,On Hold,Normal,2016-11-03 18:22:58
+W_Task.534,W_User.5,Send Letter,Email,Call,120,In Progress,Normal,2016-09-04 05:58:34
+W_Task.535,W_User.9,Other,Other,Task,5400,Completed,Normal,2016-02-27 19:17:45
+W_Task.536,W_User.19,Call,Call,Task,180,Not Started,Normal,2016-12-24 07:49:12
+W_Task.537,W_User.7,Call,Call,Email,720,On Hold,Normal,2016-09-14 19:01:55
+W_Task.538,W_User.9,Call,Call,Task,1620,Completed,Normal,2016-09-16 20:30:52
+W_Task.539,W_User.16,Send Letter,Email,Call,1800,Not Started,Normal,2016-04-05 20:33:20
+W_Task.540,W_User.19,Send Letter,Email,Task,3240,Completed,Normal,2016-02-23 13:29:21
+W_Task.541,W_User.4,Send Letter,Email,Email,360,On Hold,Normal,2016-10-22 12:10:04
+W_Task.542,W_User.7,Send Letter,Email,Email,540,Not Started,Normal,2016-03-17 23:16:40
+W_Task.543,W_User.16,Other,Prep,Call,960,Not Started,Normal,2016-05-08 00:32:19
+W_Task.544,W_User.9,Send Quote,Email,Task,720,On Hold,Normal,2017-01-03 16:01:20
+W_Task.545,W_User.8,Send Letter,Email,Task,720,On Hold,Normal,2016-02-28 21:41:06
+W_Task.546,W_User.10,Other,Other,Email,150,In Progress,Normal,2016-11-26 00:04:19
+W_Task.547,W_User.11,Call,Call,Call,240,Completed,Normal,2016-02-13 21:42:50
+W_Task.548,W_User.8,Send Letter,Email,Email,450,Completed,Normal,2016-03-13 07:59:48
+W_Task.549,W_User.7,Call,Call,Email,5400,Completed,Normal,2016-05-25 01:26:01
+W_Task.550,W_User.20,Call,Call,Email,1080,In Progress,Normal,2016-03-11 14:33:23
+W_Task.551,W_User.8,Send Letter,Email,Call,120,In Progress,Normal,2016-07-05 14:32:50
+W_Task.552,W_User.9,Other,Meeting,Email,540,Completed,Normal,2016-10-14 07:32:36
+W_Task.553,W_User.5,Call,Call,Task,2400,In Progress,High,2016-12-19 20:45:03
+W_Task.554,W_User.16,Send Letter,Email,Call,360,In Progress,Normal,2016-10-18 17:45:21
+W_Task.555,W_User.11,Send Letter,Email,Email,480,On Hold,Normal,2016-09-20 13:16:57
+W_Task.556,W_User.16,Send Letter,Email,Task,900,Completed,Normal,2016-02-11 13:50:19
+W_Task.557,W_User.6,Send Quote,Email,Call,360,In Progress,Normal,2016-04-20 01:15:53
+W_Task.558,W_User.1,Other,Meeting,Email,2400,On Hold,Normal,2017-02-06 19:44:01
+W_Task.559,W_User.9,Call,Call,Email,2160,Not Started,Normal,2016-07-08 12:27:09
+W_Task.560,W_User.3,Send Letter,Email,Email,1440,On Hold,High,2016-05-16 12:12:10
+W_Task.561,W_User.7,Send Quote,Email,Call,900,On Hold,Normal,2017-01-10 22:10:12
+W_Task.562,W_User.10,Call,Meeting,Call,1440,On Hold,Normal,2017-01-10 02:59:42
+W_Task.563,W_User.4,Other,Other,Email,180,Not Started,Normal,2017-03-21 16:41:18
+W_Task.564,W_User.10,Send Letter,Email,Email,3000,Not Started,Normal,2017-01-06 16:15:25
+W_Task.565,W_User.5,Call,Call,Task,3000,On Hold,Normal,2016-10-16 03:41:04
+W_Task.566,W_User.11,Send Letter,Email,Task,720,On Hold,Normal,2017-01-09 07:35:09
+W_Task.567,W_User.2,Send Letter,Email,Email,120,Not Started,Normal,2017-01-30 14:05:09
+W_Task.568,W_User.1,Other,Prep,Email,4320,In Progress,Normal,2017-01-18 08:21:14
+W_Task.569,W_User.10,Send Letter,Email,Call,1080,On Hold,Normal,2016-09-27 16:22:24
+W_Task.570,W_User.19,Other,Meeting,Task,3600,Not Started,Normal,2016-04-11 21:00:43
+W_Task.571,W_User.18,Call,Call,Email,1440,Not Started,Normal,2016-09-18 16:13:48
+W_Task.572,W_User.11,Other,Meeting,Task,450,In Progress,Normal,2016-11-20 00:35:15
+W_Task.573,W_User.6,Send Quote,Email,Task,360,Not Started,Normal,2016-12-25 12:40:45
+W_Task.574,W_User.18,Other,Other,Task,120,Not Started,Normal,2017-03-06 01:37:34
+W_Task.575,W_User.20,Send Letter,Email,Call,1350,Not Started,Normal,2016-04-22 16:04:04
+W_Task.576,W_User.17,Call,Meeting,Task,540,Completed,Normal,2017-02-24 22:02:54
+W_Task.577,W_User.16,Send Letter,Email,Email,1080,Not Started,Normal,2016-09-19 12:10:59
+W_Task.578,W_User.10,Send Letter,Email,Call,270,Completed,Normal,2016-03-11 05:22:23
+W_Task.579,W_User.2,Other,Other,Email,720,On Hold,Normal,2016-11-07 13:06:41
+W_Task.580,W_User.10,Other,Meeting,Call,300,Not Started,Normal,2016-06-20 18:38:51
+W_Task.581,W_User.10,Send Letter,Email,Task,300,On Hold,Normal,2017-02-06 18:03:28
+W_Task.582,W_User.5,Other,Meeting,Email,1800,Not Started,Normal,2016-07-13 00:18:46
+W_Task.583,W_User.1,Send Letter,Email,Call,120,Not Started,Normal,2016-05-02 16:47:54
+W_Task.584,W_User.16,Other,Other,Email,1620,Completed,High,2016-09-13 17:05:13
+W_Task.585,W_User.13,Send Letter,Email,Email,240,On Hold,Normal,2016-06-22 15:11:47
+W_Task.586,W_User.8,Send Quote,Email,Task,240,Completed,Normal,2016-05-10 21:50:50
+W_Task.587,W_User.17,Send Quote,Email,Task,1800,Not Started,Normal,2016-02-10 22:40:09
+W_Task.588,W_User.2,Call,Call,Task,1800,In Progress,Normal,2016-09-22 14:13:54
+W_Task.589,W_User.4,Send Letter,Email,Call,120,In Progress,Normal,2016-07-05 23:16:43
+W_Task.590,W_User.10,Other,Other,Task,180,Not Started,Normal,2016-09-19 05:58:27
+W_Task.591,W_User.4,Call,Call,Email,2700,In Progress,Normal,2016-05-07 08:44:35
+W_Task.592,W_User.13,Send Quote,Email,Call,90,Not Started,Normal,2016-01-06 22:31:06
+W_Task.593,W_User.17,Send Letter,Email,Email,1440,In Progress,Normal,2016-02-27 14:17:07
+W_Task.594,W_User.17,Other,Other,Task,1800,Completed,Normal,2016-08-17 01:06:01
+W_Task.595,W_User.6,Send Letter,Email,Call,720,On Hold,Normal,2016-09-17 14:38:07
+W_Task.596,W_User.7,Call,Call,Call,540,In Progress,Normal,2017-02-24 19:36:42
+W_Task.597,W_User.10,Call,Call,Task,2250,Completed,Normal,2016-08-03 10:15:45
+W_Task.598,W_User.12,Send Letter,Email,Task,1080,Not Started,Normal,2016-09-11 18:18:38
+W_Task.599,W_User.7,Call,Call,Email,750,On Hold,Normal,2016-04-28 22:55:42
+W_Task.600,W_User.1,Other,Other,Email,90,Completed,Normal,2016-03-20 18:16:02
+W_Task.601,W_User.14,Call,Call,Call,1800,On Hold,Normal,2016-05-17 09:00:22
+W_Task.602,W_User.7,Send Letter,Email,Task,150,On Hold,Normal,2016-08-02 10:56:11
+W_Task.603,W_User.15,Call,Call,Call,150,Completed,Normal,2016-07-28 15:31:08
+W_Task.604,W_User.4,Send Letter,Email,Email,480,On Hold,Normal,2016-05-28 13:58:48
+W_Task.605,W_User.17,Call,Call,Email,360,Not Started,Normal,2017-03-25 13:50:10
+W_Task.606,W_User.15,Send Quote,Email,Call,1200,In Progress,Normal,2017-02-04 09:39:15
+W_Task.607,W_User.10,Other,Prep,Task,1080,In Progress,Normal,2016-09-03 21:10:00
+W_Task.608,W_User.14,Call,Call,Email,600,Completed,Normal,2017-01-10 08:42:03
+W_Task.609,W_User.17,Other,Prep,Call,1440,On Hold,Normal,2017-02-03 15:00:46
+W_Task.610,W_User.19,Send Quote,Email,Task,2160,In Progress,High,2016-08-20 23:16:28
+W_Task.611,W_User.16,Call,Meeting,Email,1800,On Hold,Normal,2017-03-24 09:27:41
+W_Task.612,W_User.2,Send Quote,Email,Call,270,Completed,Normal,2016-02-08 04:04:59
+W_Task.613,W_User.7,Send Letter,Email,Email,480,On Hold,Normal,2016-05-03 09:23:01
+W_Task.614,W_User.13,Other,Prep,Call,1200,In Progress,Normal,2017-02-20 20:03:46
+W_Task.615,W_User.12,Send Letter,Email,Call,360,Not Started,Normal,2017-03-28 19:56:42
+W_Task.616,W_User.16,Send Letter,Email,Task,120,In Progress,High,2016-05-10 20:53:22
+W_Task.617,W_User.10,Other,Meeting,Email,720,Completed,Normal,2016-07-19 18:05:11
+W_Task.618,W_User.3,Send Letter,Email,Task,1800,Not Started,Normal,2017-02-10 07:08:06
+W_Task.619,W_User.6,Send Quote,Email,Task,1350,Completed,Normal,2017-02-16 22:24:03
+W_Task.620,W_User.13,Call,Meeting,Call,240,In Progress,Normal,2016-12-25 08:29:23
+W_Task.621,W_User.17,Send Letter,Email,Email,270,Not Started,Normal,2016-01-26 09:57:46
+W_Task.622,W_User.11,Call,Call,Call,750,Not Started,Normal,2016-09-28 06:21:37
+W_Task.623,W_User.9,Send Letter,Email,Task,720,Completed,Normal,2017-03-03 14:39:19
+W_Task.624,W_User.2,Call,Call,Call,2700,Completed,Normal,2017-03-25 14:32:22
+W_Task.625,W_User.6,Send Letter,Email,Email,120,On Hold,High,2016-05-24 15:13:38
+W_Task.626,W_User.18,Other,Meeting,Email,270,On Hold,Normal,2016-07-21 08:00:14
+W_Task.627,W_User.12,Send Letter,Email,Task,1440,Completed,Normal,2016-01-06 03:03:40
+W_Task.628,W_User.1,Call,Call,Call,300,Completed,Normal,2016-11-26 12:19:18
+W_Task.629,W_User.15,Call,Call,Email,360,On Hold,Normal,2017-03-10 04:40:25
+W_Task.630,W_User.5,Call,Meeting,Email,540,Not Started,High,2016-05-12 11:21:30
+W_Task.631,W_User.19,Send Quote,Email,Call,1620,Completed,Normal,2016-02-27 18:59:13
+W_Task.632,W_User.16,Send Letter,Email,Call,1080,Completed,Normal,2016-04-01 01:40:15
+W_Task.633,W_User.11,Call,Call,Email,180,Not Started,High,2016-05-23 03:07:54
+W_Task.634,W_User.2,Send Letter,Email,Call,4320,On Hold,Normal,2016-03-02 02:36:16
+W_Task.635,W_User.12,Call,Call,Email,1500,On Hold,Normal,2016-08-25 21:40:48
+W_Task.636,W_User.12,Call,Call,Call,2700,Not Started,Normal,2016-01-17 04:12:20
+W_Task.637,W_User.7,Send Letter,Email,Task,2160,Not Started,Normal,2016-12-18 22:45:25
+W_Task.638,W_User.1,Send Letter,Email,Call,3000,Completed,Normal,2016-11-25 22:29:51
+W_Task.639,W_User.17,Other,Prep,Email,540,In Progress,Normal,2016-03-07 02:55:24
+W_Task.640,W_User.19,Send Letter,Email,Task,960,In Progress,Normal,2016-06-04 14:57:55
+W_Task.641,W_User.14,Other,Other,Call,1800,Not Started,Normal,2016-09-23 22:59:06
+W_Task.642,W_User.12,Send Letter,Email,Task,1350,Completed,Normal,2016-10-12 13:19:27
+W_Task.643,W_User.10,Call,Call,Call,900,On Hold,Normal,2016-06-24 23:07:12
+W_Task.644,W_User.5,Call,Call,Task,2160,Completed,Normal,2016-01-03 10:24:01
+W_Task.645,W_User.17,Call,Call,Call,960,In Progress,Normal,2016-07-01 16:00:25
+W_Task.646,W_User.12,Other,Prep,Call,1500,Not Started,Normal,2016-10-24 00:10:22
+W_Task.647,W_User.12,Send Letter,Email,Call,450,Completed,Normal,2016-12-21 05:26:03
+W_Task.648,W_User.13,Call,Call,Call,1800,Not Started,Normal,2017-03-10 11:01:37
+W_Task.649,W_User.15,Call,Call,Task,240,Not Started,Normal,2017-02-17 04:05:14
+W_Task.650,W_User.14,Call,Call,Call,4500,In Progress,Normal,2016-05-23 02:51:04
+W_Task.651,W_User.9,Send Quote,Email,Email,1620,In Progress,Normal,2016-03-21 08:35:56
+W_Task.652,W_User.16,Send Letter,Email,Call,120,In Progress,Normal,2016-11-01 11:50:38
+W_Task.653,W_User.8,Call,Call,Email,900,On Hold,High,2016-09-13 22:23:20
+W_Task.654,W_User.3,Call,Call,Email,360,Completed,Normal,2016-02-23 20:51:01
+W_Task.655,W_User.12,Call,Call,Task,360,On Hold,Normal,2016-10-04 15:26:56
+W_Task.656,W_User.15,Send Letter,Email,Email,1620,Completed,Normal,2016-08-16 06:35:53
+W_Task.657,W_User.11,Send Letter,Email,Email,450,Completed,Normal,2016-09-07 14:55:38
+W_Task.658,W_User.17,Send Letter,Email,Call,240,In Progress,Normal,2016-07-12 17:22:05
+W_Task.659,W_User.1,Send Letter,Email,Call,900,Not Started,Normal,2016-05-27 17:55:57
+W_Task.660,W_User.20,Call,Call,Task,750,On Hold,Normal,2016-02-11 23:01:16
+W_Task.661,W_User.14,Other,Meeting,Call,3240,Completed,Normal,2016-12-09 10:51:23
+W_Task.662,W_User.4,Other,Meeting,Email,270,Completed,Normal,2016-10-29 12:55:03
+W_Task.663,W_User.8,Send Letter,Email,Call,1080,On Hold,Normal,2016-09-05 22:11:13
+W_Task.664,W_User.6,Send Letter,Email,Email,180,Not Started,Normal,2016-01-04 07:52:31
+W_Task.665,W_User.2,Call,Call,Call,120,On Hold,Normal,2017-02-09 10:02:32
+W_Task.666,W_User.5,Send Letter,Email,Email,360,Not Started,Normal,2016-11-25 15:22:26
+W_Task.667,W_User.16,Other,Other,Call,600,On Hold,Normal,2016-01-06 02:38:59
+W_Task.668,W_User.11,Send Letter,Email,Email,1800,Not Started,Normal,2016-02-14 03:34:36
+W_Task.669,W_User.11,Send Letter,Email,Email,360,On Hold,Normal,2016-06-29 05:23:12
+W_Task.670,W_User.6,Send Letter,Email,Email,120,In Progress,High,2016-05-22 15:52:09
+W_Task.671,W_User.16,Call,Meeting,Call,240,Completed,Normal,2016-08-01 12:54:30
+W_Task.672,W_User.10,Send Letter,Email,Task,480,On Hold,Normal,2016-06-17 02:59:24
+W_Task.673,W_User.8,Call,Meeting,Task,600,In Progress,Normal,2016-02-27 07:50:00
+W_Task.674,W_User.15,Call,Call,Call,180,On Hold,High,2016-01-19 12:41:22
+W_Task.675,W_User.2,Call,Call,Task,960,Completed,Normal,2016-02-21 22:03:54
+W_Task.676,W_User.8,Send Letter,Email,Email,600,Not Started,Normal,2017-01-10 16:19:30
+W_Task.677,W_User.9,Other,Prep,Email,540,On Hold,Normal,2016-06-04 22:57:05
+W_Task.678,W_User.6,Send Letter,Email,Task,960,Completed,Normal,2016-01-25 08:35:15
+W_Task.679,W_User.8,Call,Call,Call,3240,Completed,Normal,2016-07-16 01:20:25
+W_Task.680,W_User.3,Send Letter,Email,Email,1080,Completed,Normal,2016-10-18 21:12:27
+W_Task.681,W_User.15,Send Letter,Email,Task,120,Not Started,High,2016-07-04 15:27:10
+W_Task.682,W_User.7,Call,Call,Email,900,In Progress,Normal,2016-09-23 23:18:59
+W_Task.683,W_User.15,Other,Meeting,Task,720,Completed,Normal,2016-10-26 08:27:58
+W_Task.684,W_User.4,Other,Meeting,Task,3600,Completed,Normal,2016-09-12 04:46:40
+W_Task.685,W_User.12,Call,Meeting,Call,600,On Hold,Normal,2016-09-26 16:41:03
+W_Task.686,W_User.8,Send Letter,Email,Task,2250,Not Started,Normal,2016-09-07 18:34:30
+W_Task.687,W_User.13,Send Quote,Email,Email,1800,On Hold,Normal,2016-12-14 20:09:39
+W_Task.688,W_User.11,Send Letter,Email,Call,120,In Progress,High,2016-09-01 16:45:03
+W_Task.689,W_User.2,Send Quote,Email,Email,360,Not Started,Normal,2017-01-03 03:37:26
+W_Task.690,W_User.12,Other,Meeting,Email,4500,Not Started,Normal,2016-04-02 11:14:37
+W_Task.691,W_User.3,Call,Call,Task,4500,In Progress,Normal,2016-04-20 20:45:18
+W_Task.692,W_User.5,Other,Other,Call,120,In Progress,Normal,2016-06-18 05:47:48
+W_Task.693,W_User.12,Send Letter,Email,Task,240,Completed,Normal,2016-05-02 13:49:29
+W_Task.694,W_User.3,Call,Call,Task,300,Completed,Normal,2017-01-12 17:39:40
+W_Task.695,W_User.5,Other,Prep,Email,720,Not Started,Normal,2017-01-24 17:43:25
+W_Task.696,W_User.12,Call,Call,Email,1200,On Hold,Normal,2016-04-10 01:37:13
+W_Task.697,W_User.3,Send Letter,Email,Call,3750,In Progress,Normal,2016-05-26 01:11:00
+W_Task.698,W_User.14,Send Letter,Email,Call,2700,Not Started,Normal,2016-10-12 16:06:41
+W_Task.699,W_User.14,Other,Other,Call,4500,In Progress,Normal,2016-06-15 02:22:28
+W_Task.700,W_User.8,Call,Call,Email,120,Completed,Normal,2016-03-03 14:38:42
+W_Task.701,W_User.11,Send Letter,Email,Email,2400,On Hold,Normal,2016-04-26 15:46:07
+W_Task.702,W_User.3,Send Letter,Email,Email,900,Completed,Normal,2016-10-05 10:54:08
+W_Task.703,W_User.10,Call,Call,Task,480,Completed,Normal,2016-09-18 07:28:55
+W_Task.704,W_User.7,Other,Other,Email,2700,Completed,Normal,2016-06-12 17:19:42
+W_Task.705,W_User.16,Send Letter,Email,Task,120,Completed,Normal,2017-01-04 00:24:19
+W_Task.706,W_User.1,Send Letter,Email,Call,300,Completed,Normal,2016-08-09 09:09:06
+W_Task.707,W_User.2,Other,Other,Task,2880,In Progress,Normal,2016-12-23 10:27:24
+W_Task.708,W_User.5,Send Letter,Email,Email,1440,Not Started,Normal,2017-02-19 11:21:12
+W_Task.709,W_User.16,Other,Meeting,Task,4500,On Hold,Normal,2016-06-20 17:28:04
+W_Task.710,W_User.8,Send Quote,Email,Call,540,On Hold,Normal,2016-10-23 17:35:32
+W_Task.711,W_User.12,Other,Meeting,Call,240,On Hold,Normal,2016-06-18 13:55:30
+W_Task.712,W_User.18,Send Letter,Email,Email,90,On Hold,Normal,2017-03-05 11:20:28
+W_Task.713,W_User.12,Send Quote,Email,Call,1350,In Progress,Normal,2016-10-04 08:15:03
+W_Task.714,W_User.7,Other,Prep,Task,240,On Hold,Normal,2016-08-12 11:31:56
+W_Task.715,W_User.20,Send Letter,Email,Email,3240,Not Started,Normal,2017-01-07 12:01:00
+W_Task.716,W_User.15,Send Letter,Email,Email,2400,On Hold,Normal,2016-05-31 23:57:24
+W_Task.717,W_User.4,Send Letter,Email,Email,480,Completed,High,2016-03-19 11:23:25
+W_Task.718,W_User.2,Send Letter,Email,Email,1800,In Progress,Normal,2016-06-30 03:53:13
+W_Task.719,W_User.9,Send Letter,Email,Call,450,Completed,Normal,2017-03-30 03:37:08
+W_Task.720,W_User.16,Send Letter,Email,Task,720,In Progress,Normal,2016-10-17 17:44:12
+W_Task.721,W_User.14,Other,Other,Call,900,In Progress,Normal,2017-03-07 05:46:16
+W_Task.722,W_User.1,Call,Call,Call,3600,In Progress,Normal,2017-03-02 12:44:21
+W_Task.723,W_User.18,Call,Call,Task,1800,Not Started,Normal,2016-04-16 13:50:56
+W_Task.724,W_User.16,Call,Call,Call,1920,In Progress,Normal,2016-01-20 20:54:26
+W_Task.725,W_User.6,Call,Call,Task,1440,In Progress,High,2017-01-12 10:02:13
+W_Task.726,W_User.13,Send Letter,Email,Call,240,On Hold,Normal,2016-06-04 07:54:56
+W_Task.727,W_User.20,Call,Call,Email,960,In Progress,Normal,2016-10-20 19:53:51
+W_Task.728,W_User.9,Send Letter,Email,Email,720,Not Started,Normal,2017-02-21 21:17:46
+W_Task.729,W_User.18,Send Quote,Email,Email,360,In Progress,Normal,2017-03-01 16:25:21
+W_Task.730,W_User.8,Call,Call,Email,270,Not Started,Normal,2016-11-15 18:30:16
+W_Task.731,W_User.15,Send Quote,Email,Task,150,In Progress,High,2016-07-14 22:27:36
+W_Task.732,W_User.2,Call,Call,Call,600,On Hold,Normal,2016-07-15 04:14:08
+W_Task.733,W_User.9,Call,Call,Call,270,Not Started,Normal,2017-03-01 21:17:20
+W_Task.734,W_User.11,Send Letter,Email,Task,1080,Completed,Normal,2017-03-12 09:32:37
+W_Task.735,W_User.8,Other,Meeting,Email,750,Completed,Normal,2016-05-30 14:48:43
+W_Task.736,W_User.7,Other,Prep,Call,240,Completed,Normal,2016-12-31 14:15:55
+W_Task.737,W_User.9,Send Letter,Email,Call,180,In Progress,High,2016-12-12 13:11:57
+W_Task.738,W_User.1,Other,Other,Call,240,Not Started,Normal,2017-03-04 17:52:40
+W_Task.739,W_User.13,Send Letter,Email,Email,180,On Hold,Normal,2016-02-21 13:17:47
+W_Task.740,W_User.10,Send Letter,Email,Task,180,Completed,Normal,2016-03-22 21:05:09
+W_Task.741,W_User.7,Call,Call,Email,180,Not Started,High,2016-11-19 06:12:14
+W_Task.742,W_User.11,Send Letter,Email,Call,750,On Hold,Normal,2016-07-02 06:51:19
+W_Task.743,W_User.20,Send Letter,Email,Task,540,In Progress,Normal,2016-07-05 13:37:47
+W_Task.744,W_User.1,Send Letter,Email,Task,2700,On Hold,Normal,2017-02-03 22:36:34
+W_Task.745,W_User.9,Send Letter,Email,Email,180,Completed,Normal,2016-09-16 01:57:51
+W_Task.746,W_User.13,Other,Meeting,Email,900,On Hold,Normal,2017-02-05 07:56:32
+W_Task.747,W_User.19,Send Letter,Email,Task,2160,On Hold,Normal,2016-11-19 03:48:40
+W_Task.748,W_User.5,Send Letter,Email,Task,360,Not Started,Normal,2016-02-20 02:33:45
+W_Task.749,W_User.6,Call,Call,Email,180,On Hold,High,2016-03-26 17:12:52
+W_Task.750,W_User.15,Send Letter,Email,Call,2400,On Hold,High,2017-02-08 13:02:31
+W_Task.751,W_User.7,Send Letter,Email,Email,1920,On Hold,High,2016-03-06 07:39:03
+W_Task.752,W_User.14,Other,Meeting,Task,540,On Hold,Normal,2016-10-04 17:34:04
+W_Task.753,W_User.19,Send Quote,Email,Email,240,In Progress,Normal,2016-04-15 21:08:59
+W_Task.754,W_User.8,Send Quote,Email,Email,300,On Hold,Normal,2016-02-16 21:04:05
+W_Task.755,W_User.5,Call,Call,Email,60,On Hold,Normal,2017-03-06 14:40:22
+W_Task.756,W_User.15,Other,Prep,Email,240,In Progress,Normal,2016-04-01 02:06:58
+W_Task.757,W_User.19,Call,Meeting,Email,60,On Hold,Normal,2016-03-07 20:10:51
+W_Task.758,W_User.10,Other,Meeting,Call,360,Completed,Normal,2017-02-12 05:51:12
+W_Task.759,W_User.12,Send Quote,Email,Task,2700,In Progress,Normal,2016-08-15 04:21:36
+W_Task.760,W_User.16,Send Letter,Email,Email,1800,On Hold,Normal,2016-11-05 11:35:48
+W_Task.761,W_User.9,Call,Meeting,Call,2160,Completed,Normal,2016-11-25 06:35:57
+W_Task.762,W_User.11,Send Letter,Email,Task,240,Completed,Normal,2017-02-12 08:24:14
+W_Task.763,W_User.4,Send Letter,Email,Email,4320,Not Started,Normal,2016-03-11 03:41:47
+W_Task.764,W_User.20,Other,Meeting,Call,360,Not Started,High,2016-09-25 09:20:48
+W_Task.765,W_User.13,Call,Meeting,Call,3600,On Hold,Normal,2016-03-28 19:21:44
+W_Task.766,W_User.5,Call,Call,Task,180,Not Started,Normal,2016-12-26 00:59:38
+W_Task.767,W_User.8,Send Quote,Email,Email,1440,Not Started,Normal,2016-10-28 03:06:00
+W_Task.768,W_User.3,Call,Call,Email,1080,On Hold,Normal,2016-12-02 00:09:50
+W_Task.769,W_User.7,Call,Meeting,Task,1080,On Hold,Normal,2017-02-23 02:57:57
+W_Task.770,W_User.16,Send Letter,Email,Call,2160,In Progress,Normal,2016-02-11 14:05:59
+W_Task.771,W_User.15,Send Quote,Email,Call,360,In Progress,Normal,2016-07-02 15:29:02
+W_Task.772,W_User.12,Call,Call,Task,720,On Hold,Normal,2016-02-04 02:12:51
+W_Task.773,W_User.12,Call,Call,Task,1080,Not Started,Normal,2016-07-20 23:08:13
+W_Task.774,W_User.5,Send Letter,Email,Call,3600,On Hold,Normal,2016-05-15 18:58:18
+W_Task.775,W_User.2,Call,Call,Email,1620,Not Started,Normal,2017-03-26 14:37:22
+W_Task.776,W_User.16,Call,Call,Task,90,In Progress,Normal,2016-06-04 03:15:22
+W_Task.777,W_User.20,Other,Other,Email,120,On Hold,Normal,2016-01-04 16:20:45
+W_Task.778,W_User.8,Send Letter,Email,Call,3750,Completed,Normal,2016-02-04 09:16:19
+W_Task.779,W_User.17,Send Quote,Email,Task,480,Not Started,Normal,2016-05-03 16:40:02
+W_Task.780,W_User.18,Send Quote,Email,Email,150,Completed,Normal,2017-01-26 00:13:42
+W_Task.781,W_User.16,Send Quote,Email,Task,600,In Progress,Normal,2017-01-28 18:57:49
+W_Task.782,W_User.12,Call,Call,Task,1440,In Progress,Normal,2016-05-14 09:07:02
+W_Task.783,W_User.1,Other,Prep,Task,150,Not Started,Normal,2017-03-16 03:39:54
+W_Task.784,W_User.14,Call,Call,Email,720,Not Started,Normal,2016-10-12 00:31:41
+W_Task.785,W_User.2,Call,Call,Email,540,Completed,Normal,2016-09-16 18:49:51
+W_Task.786,W_User.15,Send Letter,Email,Call,600,On Hold,Normal,2016-06-22 21:37:48
+W_Task.787,W_User.3,Send Letter,Email,Call,750,On Hold,Normal,2017-02-20 09:42:20
+W_Task.788,W_User.20,Call,Call,Email,1440,On Hold,High,2016-04-01 00:18:33
+W_Task.789,W_User.12,Send Quote,Email,Email,5400,Not Started,Normal,2016-07-15 20:02:40
+W_Task.790,W_User.18,Send Quote,Email,Call,3240,Not Started,Normal,2016-07-28 00:16:06
+W_Task.791,W_User.12,Send Letter,Email,Email,270,Not Started,Normal,2016-06-23 18:44:25
+W_Task.792,W_User.20,Send Letter,Email,Call,900,On Hold,Normal,2016-05-31 05:03:21
+W_Task.793,W_User.17,Send Letter,Email,Email,1080,Completed,Normal,2016-03-13 08:27:05
+W_Task.794,W_User.9,Call,Meeting,Task,300,In Progress,Normal,2016-11-26 23:52:04
+W_Task.795,W_User.9,Send Quote,Email,Call,1440,Completed,Normal,2016-05-05 12:06:10
+W_Task.796,W_User.14,Other,Meeting,Task,1800,Completed,Normal,2016-05-28 23:11:56
+W_Task.797,W_User.12,Other,Other,Email,3600,Not Started,High,2016-02-09 18:05:58
+W_Task.798,W_User.9,Send Quote,Email,Task,1080,Not Started,Normal,2016-04-13 23:26:07
+W_Task.799,W_User.6,Send Letter,Email,Task,900,On Hold,Normal,2016-11-09 04:13:17
+W_Task.800,W_User.8,Call,Call,Call,600,On Hold,Normal,2016-09-15 15:59:21
+W_Task.801,W_User.18,Send Letter,Email,Email,120,Completed,Normal,2016-11-07 04:35:11
+W_Task.802,W_User.18,Call,Call,Call,900,Not Started,Normal,2017-03-20 12:06:54
+W_Task.803,W_User.2,Send Letter,Email,Email,450,Not Started,Normal,2016-10-05 03:19:39
+W_Task.804,W_User.3,Send Letter,Email,Task,360,On Hold,Normal,2016-05-05 05:31:34
+W_Task.805,W_User.1,Send Letter,Email,Call,3600,On Hold,Normal,2017-01-10 17:33:40
+W_Task.806,W_User.15,Call,Call,Call,900,In Progress,Normal,2017-01-18 12:20:43
+W_Task.807,W_User.14,Send Letter,Email,Task,2160,Completed,Normal,2016-10-09 08:54:09
+W_Task.808,W_User.10,Call,Call,Task,2880,On Hold,Normal,2016-01-28 05:51:41
+W_Task.809,W_User.12,Other,Other,Task,900,In Progress,Normal,2017-02-01 10:32:57
+W_Task.810,W_User.7,Other,Meeting,Email,270,Completed,Normal,2017-02-15 05:05:35
+W_Task.811,W_User.9,Send Letter,Email,Task,5400,Not Started,Normal,2016-06-13 10:28:14
+W_Task.812,W_User.2,Other,Meeting,Task,360,In Progress,Normal,2016-03-29 11:13:35
+W_Task.813,W_User.4,Send Quote,Email,Email,1080,Completed,Normal,2016-05-30 20:31:12
+W_Task.814,W_User.4,Other,Meeting,Call,1200,In Progress,Normal,2016-08-20 21:39:20
+W_Task.815,W_User.12,Call,Call,Task,150,Not Started,Normal,2016-06-06 07:12:23
+W_Task.816,W_User.19,Send Letter,Email,Email,150,On Hold,Normal,2016-06-16 18:33:26
+W_Task.817,W_User.14,Send Quote,Email,Email,600,Not Started,High,2016-03-04 15:21:37
+W_Task.818,W_User.3,Send Quote,Email,Email,1080,Not Started,Normal,2016-11-26 06:55:21
+W_Task.819,W_User.9,Send Quote,Email,Task,360,Not Started,Normal,2016-08-29 07:58:44
+W_Task.820,W_User.13,Call,Call,Task,2160,In Progress,Normal,2016-03-03 01:18:30
+W_Task.821,W_User.9,Other,Prep,Email,960,Not Started,Normal,2016-08-13 18:51:16
+W_Task.822,W_User.13,Call,Call,Task,3600,Completed,Normal,2016-02-23 00:44:49
+W_Task.823,W_User.11,Send Quote,Email,Call,3000,On Hold,Normal,2016-11-18 04:14:41
+W_Task.824,W_User.3,Call,Call,Call,1620,Not Started,Normal,2016-12-24 10:48:40
+W_Task.825,W_User.11,Send Letter,Email,Task,3600,On Hold,Normal,2016-09-11 20:17:40
+W_Task.826,W_User.2,Send Quote,Email,Task,750,In Progress,Normal,2016-01-22 19:32:24
+W_Task.827,W_User.9,Call,Call,Task,1080,Completed,Normal,2017-02-04 04:31:39
+W_Task.828,W_User.10,Send Quote,Email,Email,3600,Completed,Normal,2016-06-01 08:06:00
+W_Task.829,W_User.7,Call,Meeting,Call,480,Completed,Normal,2016-07-11 17:39:00
+W_Task.830,W_User.14,Other,Meeting,Call,180,In Progress,Normal,2016-09-27 09:22:12
+W_Task.831,W_User.16,Send Letter,Email,Task,300,In Progress,Normal,2016-05-27 20:33:51
+W_Task.832,W_User.14,Call,Meeting,Task,720,In Progress,Normal,2016-05-29 00:04:46
+W_Task.833,W_User.2,Call,Meeting,Task,1920,In Progress,Normal,2016-02-23 04:48:52
+W_Task.834,W_User.20,Call,Call,Email,2700,On Hold,Normal,2016-05-27 08:58:34
+W_Task.835,W_User.6,Send Letter,Email,Task,750,On Hold,High,2016-07-16 18:15:40
+W_Task.836,W_User.17,Send Letter,Email,Email,2160,Completed,Normal,2016-07-18 14:57:03
+W_Task.837,W_User.10,Send Letter,Email,Call,360,Not Started,Normal,2016-08-12 22:17:56
+W_Task.838,W_User.18,Send Letter,Email,Email,2700,On Hold,Normal,2017-03-09 16:41:17
+W_Task.839,W_User.17,Send Letter,Email,Email,360,Completed,Normal,2016-01-14 05:58:55
+W_Task.840,W_User.1,Other,Prep,Email,2250,Not Started,Normal,2016-03-05 07:33:45
+W_Task.841,W_User.5,Send Letter,Email,Call,600,Not Started,High,2016-08-09 18:33:00
+W_Task.842,W_User.17,Send Letter,Email,Task,450,In Progress,Normal,2016-08-03 19:09:01
+W_Task.843,W_User.7,Call,Call,Task,240,Completed,Normal,2016-09-24 01:08:14
+W_Task.844,W_User.6,Send Letter,Email,Email,60,On Hold,Normal,2017-01-04 16:29:55
+W_Task.845,W_User.17,Call,Meeting,Email,2160,Not Started,Normal,2016-03-23 15:09:38
+W_Task.846,W_User.9,Send Letter,Email,Call,960,On Hold,Normal,2016-03-02 03:42:45
+W_Task.847,W_User.6,Call,Call,Email,300,On Hold,High,2016-06-23 00:53:10
+W_Task.848,W_User.10,Call,Call,Email,2400,On Hold,Normal,2016-02-10 18:36:10
+W_Task.849,W_User.18,Send Letter,Email,Email,750,Completed,Normal,2017-01-10 23:18:27
+W_Task.850,W_User.9,Send Letter,Email,Task,300,Completed,Normal,2017-02-05 10:31:48
+W_Task.851,W_User.10,Send Letter,Email,Call,360,In Progress,Normal,2017-03-05 11:26:36
+W_Task.852,W_User.7,Other,Prep,Call,1080,Completed,Normal,2016-06-19 18:28:51
+W_Task.853,W_User.9,Send Letter,Email,Call,720,Completed,Normal,2016-02-03 02:06:10
+W_Task.854,W_User.7,Other,Meeting,Task,120,In Progress,Normal,2016-10-06 11:27:36
+W_Task.855,W_User.8,Send Letter,Email,Email,360,Completed,Normal,2016-08-11 08:08:36
+W_Task.856,W_User.2,Call,Call,Task,1080,In Progress,Normal,2016-05-28 12:35:11
+W_Task.857,W_User.13,Other,Meeting,Email,360,In Progress,Normal,2017-03-17 16:29:05
+W_Task.858,W_User.12,Send Letter,Email,Email,540,Not Started,Normal,2016-12-24 09:22:52
+W_Task.859,W_User.20,Send Quote,Email,Email,1200,Not Started,Normal,2016-12-27 19:58:26
+W_Task.860,W_User.11,Call,Call,Task,4500,In Progress,Normal,2017-01-02 15:36:27
+W_Task.861,W_User.9,Call,Call,Call,360,In Progress,Normal,2016-04-20 21:33:26
+W_Task.862,W_User.6,Other,Other,Call,600,On Hold,High,2016-06-01 01:19:37
+W_Task.863,W_User.9,Call,Call,Task,240,In Progress,Normal,2017-03-19 20:52:33
+W_Task.864,W_User.11,Call,Call,Call,1200,Completed,Normal,2016-07-17 15:48:31
+W_Task.865,W_User.8,Send Letter,Email,Task,1080,Not Started,High,2016-05-17 22:36:16
+W_Task.866,W_User.4,Send Letter,Email,Call,1350,Completed,Normal,2016-10-07 12:38:15
+W_Task.867,W_User.12,Call,Meeting,Email,1800,On Hold,Normal,2017-01-31 02:53:27
+W_Task.868,W_User.20,Send Quote,Email,Task,4320,In Progress,Normal,2016-07-12 21:35:13
+W_Task.869,W_User.16,Send Letter,Email,Email,2400,Not Started,Normal,2016-01-06 18:24:34
+W_Task.870,W_User.11,Call,Call,Email,450,Completed,Normal,2017-02-15 01:43:13
+W_Task.871,W_User.11,Send Quote,Email,Email,120,In Progress,Normal,2016-12-29 09:52:21
+W_Task.872,W_User.7,Send Letter,Email,Task,3240,Completed,High,2016-04-24 16:12:29
+W_Task.873,W_User.4,Send Letter,Email,Email,900,In Progress,Normal,2016-05-12 07:35:38
+W_Task.874,W_User.13,Call,Meeting,Call,4320,Completed,Normal,2016-09-14 17:48:38
+W_Task.875,W_User.16,Call,Call,Call,1920,On Hold,Normal,2017-02-11 12:18:29
+W_Task.876,W_User.13,Send Letter,Email,Email,360,In Progress,Normal,2017-03-13 03:07:16
+W_Task.877,W_User.13,Other,Meeting,Call,600,Not Started,High,2017-03-02 03:07:23
+W_Task.878,W_User.14,Other,Meeting,Email,1800,Not Started,Normal,2016-12-13 03:50:09
+W_Task.879,W_User.3,Call,Call,Task,1080,Completed,Normal,2016-10-17 12:31:12
+W_Task.880,W_User.9,Send Letter,Email,Call,1800,Not Started,Normal,2017-01-20 07:01:02
+W_Task.881,W_User.1,Call,Meeting,Task,360,Completed,Normal,2016-10-08 14:25:11
+W_Task.882,W_User.18,Send Letter,Email,Email,960,In Progress,Normal,2016-10-23 02:23:19
+W_Task.883,W_User.16,Call,Call,Call,900,Completed,Normal,2016-02-09 11:30:39
+W_Task.884,W_User.20,Send Letter,Email,Call,720,Completed,Normal,2016-09-13 12:45:37
+W_Task.885,W_User.15,Send Letter,Email,Task,180,On Hold,Normal,2016-01-04 10:09:05
+W_Task.886,W_User.9,Send Letter,Email,Task,3600,Completed,Normal,2016-03-11 18:42:07
+W_Task.887,W_User.10,Send Letter,Email,Call,900,Not Started,Normal,2016-11-18 22:49:33
+W_Task.888,W_User.9,Call,Call,Email,1080,Completed,High,2016-02-23 13:27:27
+W_Task.889,W_User.18,Call,Call,Task,90,Completed,Normal,2016-09-13 09:29:24
+W_Task.890,W_User.14,Send Quote,Email,Call,300,Not Started,Normal,2016-05-30 23:41:02
+W_Task.891,W_User.8,Other,Meeting,Call,3600,Completed,Normal,2016-03-14 06:37:16
+W_Task.892,W_User.19,Other,Meeting,Email,360,On Hold,Normal,2016-07-21 23:01:26
+W_Task.893,W_User.3,Call,Call,Call,360,On Hold,Normal,2016-12-01 15:53:11
+W_Task.894,W_User.13,Send Letter,Email,Call,720,Completed,Normal,2017-03-03 12:31:14
+W_Task.895,W_User.12,Send Letter,Email,Call,1500,In Progress,Normal,2016-03-09 17:43:40
+W_Task.896,W_User.20,Call,Meeting,Email,450,Completed,Normal,2016-12-02 22:08:45
+W_Task.897,W_User.15,Other,Prep,Call,2700,In Progress,Normal,2016-08-15 00:55:37
+W_Task.898,W_User.20,Call,Call,Task,2160,Not Started,Normal,2016-07-31 01:17:54
+W_Task.899,W_User.6,Call,Call,Email,1080,In Progress,Normal,2017-03-28 10:31:17
+W_Task.900,W_User.15,Send Letter,Email,Task,90,On Hold,Normal,2016-09-15 18:05:40
+W_Task.901,W_User.2,Call,Call,Call,600,Completed,Normal,2016-04-22 22:44:31
+W_Task.902,W_User.1,Send Quote,Email,Call,2160,In Progress,Normal,2017-02-20 00:12:29
+W_Task.903,W_User.1,Call,Call,Call,540,On Hold,Normal,2016-07-15 00:19:09
+W_Task.904,W_User.5,Call,Meeting,Call,5400,Not Started,Normal,2016-10-24 04:17:48
+W_Task.905,W_User.3,Send Quote,Email,Task,2250,Not Started,Normal,2016-01-17 00:42:31
+W_Task.906,W_User.9,Send Quote,Email,Call,120,Not Started,Normal,2016-12-14 21:52:41
+W_Task.907,W_User.14,Other,Meeting,Task,4500,Completed,Normal,2016-06-25 19:28:22
+W_Task.908,W_User.7,Send Quote,Email,Email,3600,Completed,Normal,2016-05-16 16:33:26
+W_Task.909,W_User.18,Call,Call,Call,750,In Progress,Normal,2016-01-12 11:26:22
+W_Task.910,W_User.17,Other,Meeting,Call,30,Not Started,Normal,2016-07-05 03:57:58
+W_Task.911,W_User.16,Call,Meeting,Email,4500,Completed,Normal,2016-09-17 01:50:07
+W_Task.912,W_User.20,Send Letter,Email,Task,1080,In Progress,Normal,2016-06-05 04:04:46
+W_Task.913,W_User.9,Send Letter,Email,Email,1080,In Progress,Normal,2016-04-08 19:01:39
+W_Task.914,W_User.8,Other,Meeting,Email,720,Completed,Normal,2016-08-14 15:57:23
+W_Task.915,W_User.5,Send Letter,Email,Email,2700,In Progress,Normal,2016-08-26 23:01:38
+W_Task.916,W_User.20,Call,Call,Call,960,On Hold,Normal,2016-04-26 11:15:14
+W_Task.917,W_User.16,Send Letter,Email,Email,750,In Progress,Normal,2016-08-21 05:13:59
+W_Task.918,W_User.12,Send Letter,Email,Email,4500,Not Started,Normal,2016-02-16 17:36:15
+W_Task.919,W_User.17,Other,Other,Email,4320,Not Started,High,2016-02-08 16:13:12
+W_Task.920,W_User.8,Call,Call,Email,30,Not Started,Normal,2016-08-01 07:25:20
+W_Task.921,W_User.7,Send Letter,Email,Email,900,Completed,Normal,2016-07-11 20:17:06
+W_Task.922,W_User.19,Other,Meeting,Task,360,In Progress,Normal,2017-02-12 22:34:12
+W_Task.923,W_User.4,Call,Call,Task,1800,In Progress,Normal,2017-03-12 08:35:28
+W_Task.924,W_User.7,Other,Prep,Task,1800,Not Started,Normal,2016-12-03 17:07:09
+W_Task.925,W_User.19,Other,Meeting,Email,600,In Progress,Normal,2016-04-22 13:05:07
+W_Task.926,W_User.2,Send Letter,Email,Task,180,On Hold,Normal,2016-12-20 02:03:11
+W_Task.927,W_User.6,Other,Meeting,Call,1080,In Progress,Normal,2016-05-01 00:06:47
+W_Task.928,W_User.5,Send Quote,Email,Call,150,In Progress,High,2016-01-26 01:20:04
+W_Task.929,W_User.3,Other,Meeting,Email,240,Completed,Normal,2016-08-04 07:58:12
+W_Task.930,W_User.4,Other,Meeting,Task,5400,In Progress,Normal,2016-07-10 17:43:10
+W_Task.931,W_User.19,Send Letter,Email,Email,2160,Completed,Normal,2016-12-17 04:52:37
+W_Task.932,W_User.18,Send Letter,Email,Email,1080,Not Started,Normal,2017-03-04 15:56:20
+W_Task.933,W_User.3,Call,Call,Task,240,In Progress,Normal,2016-02-02 08:45:47
+W_Task.934,W_User.9,Call,Call,Email,270,In Progress,Normal,2016-07-29 21:52:40
+W_Task.935,W_User.2,Send Letter,Email,Task,180,Not Started,High,2017-03-09 12:57:25
+W_Task.936,W_User.8,Other,Meeting,Task,300,Completed,Normal,2017-02-03 11:04:55
+W_Task.937,W_User.11,Send Quote,Email,Call,1080,On Hold,Normal,2016-02-21 12:52:41
+W_Task.938,W_User.15,Send Letter,Email,Task,90,On Hold,Normal,2016-11-27 01:01:15
+W_Task.939,W_User.8,Send Quote,Email,Call,720,In Progress,Normal,2017-01-02 16:56:16
+W_Task.940,W_User.20,Other,Other,Email,720,Not Started,Normal,2016-10-01 17:26:47
+W_Task.941,W_User.10,Call,Call,Task,180,Not Started,Normal,2016-10-07 15:08:24
+W_Task.942,W_User.7,Send Letter,Email,Task,360,In Progress,Normal,2016-01-21 13:11:01
+W_Task.943,W_User.19,Call,Call,Call,60,Completed,Normal,2016-05-28 22:50:32
+W_Task.944,W_User.10,Send Letter,Email,Call,600,In Progress,Normal,2016-03-12 17:41:42
+W_Task.945,W_User.16,Send Letter,Email,Email,1800,Not Started,Normal,2017-02-15 03:10:42
+W_Task.946,W_User.4,Call,Call,Call,4320,Not Started,Normal,2016-07-25 18:28:18
+W_Task.947,W_User.6,Call,Call,Email,2880,On Hold,Normal,2016-01-03 14:33:29
+W_Task.948,W_User.3,Send Letter,Email,Email,1080,In Progress,Normal,2016-08-15 02:03:56
+W_Task.949,W_User.10,Other,Prep,Email,1080,Not Started,Normal,2016-03-05 14:32:49
+W_Task.950,W_User.20,Call,Call,Email,180,Not Started,Normal,2016-09-18 16:09:10
+W_Task.951,W_User.3,Send Quote,Email,Task,300,On Hold,Normal,2016-11-16 01:46:57
+W_Task.952,W_User.19,Call,Call,Task,120,Completed,Normal,2016-12-15 02:12:21
+W_Task.953,W_User.17,Call,Call,Task,360,Not Started,Normal,2016-10-08 00:24:43
+W_Task.954,W_User.3,Send Letter,Email,Email,720,In Progress,Normal,2016-01-06 18:01:24
+W_Task.955,W_User.17,Other,Other,Call,900,On Hold,Normal,2017-02-01 14:02:21
+W_Task.956,W_User.18,Send Quote,Email,Call,720,Not Started,Normal,2016-03-27 03:48:51
+W_Task.957,W_User.12,Other,Other,Call,720,On Hold,Normal,2016-06-20 22:00:08
+W_Task.958,W_User.1,Send Quote,Email,Call,600,In Progress,Normal,2016-01-12 11:18:08
+W_Task.959,W_User.3,Send Letter,Email,Email,1800,On Hold,Normal,2017-03-11 22:00:07
+W_Task.960,W_User.14,Send Letter,Email,Task,2400,Completed,Normal,2016-01-16 07:02:28
+W_Task.961,W_User.16,Call,Call,Task,60,Completed,Normal,2016-12-25 13:40:59
+W_Task.962,W_User.10,Send Letter,Email,Task,1440,In Progress,Normal,2016-03-03 00:33:49
+W_Task.963,W_User.15,Other,Meeting,Email,900,In Progress,Normal,2016-08-01 03:26:51
+W_Task.964,W_User.18,Send Letter,Email,Task,180,In Progress,Normal,2016-03-29 20:01:16
+W_Task.965,W_User.6,Call,Call,Task,900,Completed,Normal,2017-01-02 02:43:15
+W_Task.966,W_User.5,Call,Call,Email,2160,On Hold,Normal,2016-01-10 09:46:46
+W_Task.967,W_User.13,Send Letter,Email,Task,3600,Not Started,High,2016-05-11 07:40:57
+W_Task.968,W_User.2,Other,Meeting,Task,450,Completed,High,2016-07-26 23:52:07
+W_Task.969,W_User.13,Call,Call,Task,180,Not Started,Normal,2016-03-26 01:10:22
+W_Task.970,W_User.15,Send Letter,Email,Task,120,On Hold,Normal,2017-03-30 03:25:20
+W_Task.971,W_User.3,Send Letter,Email,Email,720,Not Started,Normal,2016-05-27 08:22:06
+W_Task.972,W_User.7,Other,Other,Task,540,Not Started,High,2016-12-14 21:58:11
+W_Task.973,W_User.20,Send Letter,Email,Task,180,In Progress,Normal,2017-01-24 06:55:16
+W_Task.974,W_User.5,Send Quote,Email,Email,900,Not Started,Normal,2016-05-28 02:43:16
+W_Task.975,W_User.12,Call,Call,Email,1440,Completed,Normal,2016-07-01 12:12:51
+W_Task.976,W_User.7,Send Quote,Email,Email,1440,Completed,Normal,2016-11-21 04:25:41
+W_Task.977,W_User.1,Other,Prep,Email,150,Not Started,Normal,2016-08-05 04:03:36
+W_Task.978,W_User.19,Send Letter,Email,Email,2250,Completed,Normal,2016-09-28 18:46:07
+W_Task.979,W_User.18,Call,Meeting,Task,900,Not Started,Normal,2016-03-17 04:59:06
+W_Task.980,W_User.16,Send Letter,Email,Task,450,Completed,Normal,2016-11-22 13:21:47
+W_Task.981,W_User.1,Call,Call,Task,450,Completed,Normal,2016-04-01 21:22:11
+W_Task.982,W_User.10,Send Letter,Email,Task,300,Completed,High,2016-08-03 11:17:34
+W_Task.983,W_User.16,Call,Meeting,Task,900,Not Started,Normal,2016-12-23 12:57:24
+W_Task.984,W_User.10,Call,Call,Task,180,Completed,Normal,2016-07-11 03:21:12
+W_Task.985,W_User.17,Send Quote,Email,Call,240,Not Started,Normal,2016-01-31 10:28:22
+W_Task.986,W_User.11,Other,Other,Call,360,Completed,Normal,2016-05-24 00:43:55
+W_Task.987,W_User.20,Send Letter,Email,Task,360,In Progress,High,2016-07-20 23:09:01
+W_Task.988,W_User.8,Other,Other,Call,360,Completed,Normal,2017-02-21 07:35:28
+W_Task.989,W_User.12,Send Quote,Email,Call,120,Not Started,Normal,2016-01-30 23:22:17
+W_Task.990,W_User.1,Send Letter,Email,Email,1440,On Hold,Normal,2016-06-11 03:39:29
+W_Task.991,W_User.19,Call,Call,Email,1440,On Hold,Normal,2016-05-14 22:12:03
+W_Task.992,W_User.15,Send Quote,Email,Task,2160,Completed,Normal,2016-05-12 11:44:20
+W_Task.993,W_User.1,Call,Call,Call,120,Not Started,High,2017-02-16 17:45:17
+W_Task.994,W_User.1,Other,Prep,Email,600,Completed,Normal,2016-06-09 02:43:29
+W_Task.995,W_User.18,Send Letter,Email,Call,450,Completed,Normal,2016-05-05 18:05:25
+W_Task.996,W_User.6,Send Letter,Email,Task,4320,Completed,Normal,2016-03-27 12:13:40
+W_Task.997,W_User.6,Send Quote,Email,Email,150,Not Started,Normal,2016-01-10 18:25:35
+W_Task.998,W_User.20,Call,Meeting,Task,2700,Completed,Normal,2016-01-31 08:08:41
+W_Task.999,W_User.18,Send Letter,Email,Call,3000,Not Started,Normal,2016-03-21 12:32:12
+W_Task.1000,W_User.6,Send Letter,Email,Task,1200,Not Started,Normal,2016-01-06 10:18:20
