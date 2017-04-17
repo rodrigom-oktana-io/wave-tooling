@@ -620,7 +620,7 @@
                     "defaultValue":"0",
                     "precision":18,
                     "name":"DurationCalculatedField",
-                    "saqlExpression":"case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
+                    "saqlExpression":"case  when ('IsClosed' == \"true\") then ('ClosedDate__c_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
                     "scale":2,
                     "label":"Case Duration",
                     "type":"Numeric"
@@ -1107,7 +1107,7 @@
                     "defaultValue":"0",
                     "precision":18,
                     "name":"DateDiffNew",
-                    "saqlExpression":"case  when ('Case.IsClosed' == \"true\" && 'CreatedDateNext' is null && CreatedDate__c <= 'Case.ClosedDate__c') then ('Case.ClosedDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   when ('Case.IsClosed' == \"true\" &&  CreatedDate__c > 'Case.ClosedDate__c') then 0 when 'CreatedDateNext' is null then ('CurrentDate_sec_epoch' -'CreatedDate__c_sec_epoch')/86400 else ('CreatedDateNext_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400 end",
+                    "saqlExpression":"case  when ('Case.IsClosed' == \"true\" && 'CreatedDateNext' is null && CreatedDate__c <= 'Case.ClosedDate__c') then ('Case.ClosedDate__c_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   when ('Case.IsClosed' == \"true\" &&  CreatedDate__c > 'Case.ClosedDate__c') then 0 when 'CreatedDateNext' is null then ('CurrentDate_sec_epoch' -'CreatedDate__c_sec_epoch')/86400 else ('CreatedDateNext_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400 end",
                     "scale":2,
                     "label":"Date Diff New",
                     "type":"Numeric"
