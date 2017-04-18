@@ -388,7 +388,7 @@
           "visualizationType": "scatter"
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = group a by 'Owner.Name';a = foreach a generate avg('CallDurationInSeconds') as 'avg_CallDurationInSeconds', unique('Case.Id') as 'sum_CaseId', 'Owner.Name' as 'Owner.Name', count() / unique('Case.Id') as 'avg_Calls_Per_Case';\",\"measures\":[[\"avg\",\"CallDurationInSeconds\",null,{\"display\":\"Avg of Call Duration (Sec)\"}],[\"avg\",\"Calls_Per_Case\",null,{\"display\":\"Avg of Calls Per Case\"}],[\"sum\",\"CaseId\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Owner.Name\"]}",
+          "query": "{\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = group a by 'Owner.Name';a = foreach a generate avg('CallDurationInSeconds') as 'avg_CallDurationInSeconds', unique('Case.Id') as 'sum_CaseId', 'Owner.Name' as 'Owner.Name', count() / unique('Case.Id') as 'avg_Calls_Per_Case';\",\"measures\":[[\"avg\",\"CallDurationInSeconds\",null,{\"display\":\"Avg of Call Duration (Sec)\"}],[\"avg\",\"Calls_Per_Case\",null,{\"display\":\"Avg of Calls Per Case\"}],[\"sum\",\"CaseId__c\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Owner.Name\"]}",
           "version": -1
         },
         "datasets": [
