@@ -69,6 +69,12 @@
 					"targetSObject" : "Account",
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "AccountId"
+				},
+				{
+					"csvColumnName": "Contact.External_Id__c",
+					"targetSObject" : "Contact",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ContactId"
 				}
 			],
 			"dateFieldsToShift": [
