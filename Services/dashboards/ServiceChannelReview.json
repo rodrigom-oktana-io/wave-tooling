@@ -556,7 +556,7 @@
           "zIndex": 9
         },
         "parameters": {
-          "destination": "<ServiceChannelReview>",
+          "destination": "<ServiceOverview>",
           "text": "Back to Overview",
           "textColor": "rgb(45, 147, 237)",
           "visualizationType": "hbar",
