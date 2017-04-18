@@ -348,7 +348,7 @@
           "zIndex": 1486
         },
         "parameters": {
-          "destination": "0FKB00000005oDuOAI",
+          "destination": "<ServiceAgentPerformance>",
           "fontSize": 14,
           "text": "Review Agents",
           "textColor": "rgb(89, 65, 149)",
@@ -406,7 +406,7 @@
           "zIndex": 1490
         },
         "parameters": {
-          "destination": "0FKB00000005oDrOAI",
+          "destination": "<ServiceAccountProfile>",
           "fontSize": 14,
           "text": "Review Accounts",
           "textColor": "rgb(89, 65, 149)",
@@ -436,7 +436,7 @@
           "zIndex": 1488
         },
         "parameters": {
-          "destination": "0FKB00000005oDvOAI",
+          "destination": "<ServiceChannelReview>",
           "fontSize": 14,
           "text": "Review Channels",
           "textColor": "rgb(89, 65, 149)",
@@ -638,7 +638,7 @@
           "zIndex": 1484
         },
         "parameters": {
-          "destination": "0FKB00000005oDtOAI",
+          "destination": "<ServiceOpenCases>",
           "fontSize": 14,
           "text": "Prioritize Open Cases",
           "textColor": "rgb(89, 65, 149)",
@@ -939,7 +939,7 @@
           "zIndex": 1495
         },
         "parameters": {
-          "destination": "0FKB00000005oE4OAI",
+          "destination": "<ServiceTelephony>",
           "text": "Review Telephony Metrics",
           "textColor": "rgb(255, 255, 255)",
           "visualizationType": "hbar",
@@ -954,7 +954,7 @@
           "zIndex": 1462
         },
         "parameters": {
-          "destination": "0FKB00000005oE0OAI",
+          "destination": "<ServiceCustomerSatisfaction>",
           "text": "Review CSAT Drivers",
           "textColor": "rgb(255, 255, 255)",
           "visualizationType": "hbar",
@@ -996,7 +996,7 @@
           "zIndex": 1467
         },
         "parameters": {
-          "destination": "0FKB00000005oE2OAI",
+          "destination": "<ServiceAgentActivity>",
           "text": "Review Agent Activities",
           "textColor": "rgb(255, 255, 255)",
           "visualizationType": "hbar",
@@ -1027,7 +1027,7 @@
           "zIndex": 1465
         },
         "parameters": {
-          "destination": "0FKB00000005oDsOAI",
+          "destination": "<ServiceBacklog>",
           "text": "Review Backlog",
           "textColor": "rgb(255, 255, 255)",
           "visualizationType": "hbar",
