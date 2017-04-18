@@ -5,939 +5,88 @@
   },
   "state": {
     "dataSourceLinks": [],
-    "gridLayouts": [
+    "gridLayouts": [],
+    "layouts": [
       {
-        "maxWidth": 1360,
-        "name": "Default",
-        "numColumns": 48,
+        "device": "default",
         "pages": [
           {
-            "widgets": [
-              {
-                "colspan": 48,
-                "column": 0,
-                "name": "container_1",
-                "row": 1,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#9271E8",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 1,
-                "name": "text_Channel_Review",
-                "row": 1,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 3,
-                "column": 33,
-                "name": "link_Telephony",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 28,
-                "name": "link_Channel_Review",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#634F95",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 2
-                }
-              },
-              {
-                "colspan": 48,
-                "column": 0,
-                "name": "container_2",
-                "row": 3,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 20
-                }
-              },
-              {
-                "colspan": 25,
-                "column": 0,
-                "name": "container_3",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 32,
-                "name": "container_4",
-                "row": 5,
-                "rowspan": 11,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 32,
-                "column": 0,
-                "name": "container_5",
-                "row": 7,
-                "rowspan": 9,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 23,
-                "column": 1,
-                "name": "text_Channel_Performance_by_CSAT_Duration_and_Case_Volume",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 7,
-                "column": 25,
-                "name": "container_6",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 30
-                }
-              },
-              {
-                "colspan": 14,
-                "column": 33,
-                "name": "chart_case_count_by_origin_over_time",
-                "row": 8,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#091A3E",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 14,
-                "column": 33,
-                "name": "number_kpi_average_duration",
-                "row": 12,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "rgba(51, 87, 121, 0.5)",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 14,
-                "column": 33,
-                "name": "number_kpi_fcr",
-                "row": 13,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 14,
-                "column": 33,
-                "name": "number_kpi_csat",
-                "row": 14,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 32,
-                "column": 0,
-                "name": "container_7",
-                "row": 16,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 25,
-                "column": 1,
-                "name": "text_Closed_Case_Segmentation",
-                "row": 16,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 32,
-                "name": "container_9",
-                "row": 16,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 24
-                }
-              },
-              {
-                "colspan": 6,
-                "column": 41,
-                "name": "pillbox_static_Order",
-                "row": 16,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_11",
-                "row": 18,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 24,
-                "name": "container_12",
-                "row": 18,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 3,
-                "name": "chart_case_count_by_product",
-                "row": 19,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 2,
-                "name": "text_By_Constants_CaseProductLabel",
-                "row": 18,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 14,
-                "name": "listselector_filter_product",
-                "row": 18,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 26,
-                "name": "text_By_Constants_CaseReasonLabel",
-                "row": 18,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 38,
-                "name": "listselector_filter_reason",
-                "row": 18,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 27,
-                "name": "chart_case_count_by_reason",
-                "row": 19,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_13",
-                "row": 25,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 24,
-                "name": "container_14",
-                "row": 25,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 3,
-                "name": "chart_case_count_by_owner",
-                "row": 26,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 27,
-                "name": "chart_case_count_by_origin",
-                "row": 26,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 9,
-                "column": 2,
-                "name": "text_By_Agent",
-                "row": 25,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 26,
-                "name": "text_By_Constants_CaseOriginLabel",
-                "row": 25,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 14,
-                "name": "listselector_filter_owner",
-                "row": 25,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 38,
-                "name": "listselector_filter_origin",
-                "row": 25,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 48,
-                "column": 0,
-                "name": "container_17",
-                "row": 32,
-                "rowspan": 13,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 28,
-                "column": 2,
-                "name": "text_Closed_Case_Details",
-                "row": 32,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 30,
-                "column": 1,
-                "name": "chart_origin_by_csat_duration",
-                "row": 7,
-                "rowspan": 9,
-                "widgetStyle": {
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 14,
-                "column": 33,
-                "name": "number_kpi_closed_case_count",
-                "row": 6,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 1,
-                "name": "listselector_filter_support_level",
-                "row": 3,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 7,
-                "name": "listselector_filter_type",
-                "row": 3,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 13,
-                "name": "listselector_filter_geography",
-                "row": 3,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 7,
-                "column": 40,
-                "name": "listselector_Time_Selection",
-                "row": 3,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 47,
-                "column": 1,
-                "name": "table_lens_table",
-                "row": 34,
-                "rowspan": 10,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 6,
-                "column": 25,
-                "name": "pillbox_static_CSAT",
-                "row": 5,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 2,
-                "column": 25,
-                "name": "link_Home",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              }
+            "rows": [
+              "box_7 {colspan=6, rowspan=8, zIndex=-1, vpad=-4, hpad=-15} | row: {height=5}",
+              "text_1 {colspan=6}",
+              "headerFlash {colspan=6} | row: {height=8}",
+              "| row : {height=5}",
+              "date_filter_date {colspan=6}",
+              "list_filter_owner {colspan=3} | list_filter_account {colspan=3}",
+              "list_filter_product {colspan=3} | list_filter_support_level {colspan=3}",
+              "| row : {height=10}",
+              "box_purple {colspan=6, rowspan=11, zIndex=-1, vpad=-4, hpad=-15} | row: {height=5}",
+              "| row : {height=15}",
+              "text_27 {colspan=2} | text_28 {colspan=2} | text_29 {colspan=2}",
+              "kpi_closed_case_count {colspan=2} | number_kpi_csat {colspan=2} | number_kpi_average_duration {colspan=2}",
+              "| row : {height=15}",
+              "text_17 {colspan=4}",
+              "number_kpi_fcr {colspan=4}",
+              "| row : {height=15}",
+              "headerFlash2 {colspan=6} | row: {height=5}",
+              "row : {height=15}",
+              "text_4 {colspan=6}",
+              "row : {height=15}",
+              "chart_origin_by_csat_duration {colspan=6} | row: {height=500}"
+            ]
+          },
+          {
+            "rows": [
+              "box_7{colspan=4, rowspan=3, zIndex=-1, vpad=-4, hpad=-15} | row: {height=10}",
+              "text_1 {colspan=4}",
+              "| row : {height=10}",
+              "| row : {height=20}",
+              "text_7 {colspan=2} | toggle_Order_Select {colspan=2}",
+              "chart_case_count_by_product {colspan=4}",
+              "text_8 {colspan=4}",
+              "chart_case_count_by_reason {colspan=4}",
+              "text_38 {colspan=4}",
+              "chart_case_count_by_owner {colspan=4}",
+              "text_37 {colspan=4}",
+              "chart_case_count_by_origin {colspan=4}"
+            ]
+          },
+          {
+            "rows": [
+              "box_7{colspan=4, rowspan=3, zIndex=-1, vpad=-4, hpad=-15} | row: {height=10}",
+              "text_1 {colspan=4}",
+              "| row : {height=10}",
+              "| row : {height=20}",
+              "text_39 {colspan=2} | toggle_timeline_grouping {colspan=2}",
+              "chart_case_count_by_origin_over_time {colspan=4}"
+            ]
+          },
+          {
+            "rows": [
+              "box_7{colspan=4, rowspan=3, zIndex=-1, vpad=-4, hpad=-15} | row: {height=10}",
+              "text_1 {colspan=4}",
+              "| row : {height=10}",
+              "| row : {height=20}",
+              "text_40 {colspan=4}",
+              "table_raw_case {colspan=4}"
             ]
           }
         ],
-        "selectors": [],
-        "style": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "backgroundColor": "#C5D3E0",
-          "cellSpacingX": 0,
-          "cellSpacingY": 0,
-          "documentId": "",
-          "fit": "original"
-        },
-        "version": 1,
-        "rowHeight": "normal"
-      },
-      {
-        "name": "iphone",
-        "numColumns": 12,
-        "pages": [
-          {
-            "widgets": [
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "container_1",
-                "row": 0,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#9271E8",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 6,
-                "column": 6,
-                "name": "listselector_Time_Selection",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#9271E8",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "container_2",
-                "row": 2,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#9271E8",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "text_Channel_Performance_by_CSAT_Duration_and_Case_Volume",
-                "row": 12,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 1,
-                "name": "pillbox_static_CSAT",
-                "row": 23,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "container_6",
-                "row": 23,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 1,
-                "name": "number_kpi_closed_case_count",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 6,
-                "name": "number_kpi_average_duration",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "rgba(51, 87, 121, 0.5)",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 1,
-                "name": "number_kpi_fcr",
-                "row": 7,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 6,
-                "name": "number_kpi_csat",
-                "row": 7,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 1,
-                "name": "chart_case_count_by_origin_over_time",
-                "row": 9,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#091A3E",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "container_4",
-                "row": 4,
-                "rowspan": 8,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 1,
-                "name": "chart_origin_by_csat_duration",
-                "row": 14,
-                "rowspan": 9,
-                "widgetStyle": {
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "container_5",
-                "row": 14,
-                "rowspan": 9,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 6,
-                "column": 0,
-                "name": "listselector_1",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#9271E8",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "text_1",
-                "row": 0,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#9271E8",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              }
-            ]
-          }
-        ],
-        "selectors": [
-          "maxWidth(599)"
-        ],
-        "style": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "backgroundColor": "#F2F6FA",
-          "cellSpacingX": 0,
-          "cellSpacingY": 0,
-          "documentId": "",
-          "fit": "original"
-        },
-        "version": 1,
-        "rowHeight": "normal"
+        "version": 1
       }
     ],
-    "layouts": [],
     "steps": {
-      "filter_owner": {
+      "filter_account": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "static_Order": {
-        "dimensions": [],
-        "groups": [],
-        "isFacet": false,
-        "isGlobal": false,
-        "numbers": [],
-        "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Desc\"]}",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{\"display\":\"Desc\",\"compact\":false}",
-          "{\"display\":\"Asc\",\"compact\":true}"
-        ],
-        "datasets": []
-      },
-      "kpi_closed_case_count": {
-        "isFacet": true,
-        "isGlobal": false,
-        "type": "aggregateflex",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Account.Name\"]}",
           "version": -1
         },
         "datasets": [
@@ -945,211 +94,18 @@
             "name": "<ServiceCase>"
           }
         ]
-      },
-      "filter_geography": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Account.BillingCountry\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "filter_type": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Type\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Time_Selection": {
-        "dimensions": [],
-        "groups": [],
-        "isFacet": false,
-        "isGlobal": false,
-        "numbers": [],
-        "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Last 180 Days\"]}",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{\"display\":\"YTD\",\"Backlog30DayClose\":\"[\\\"current day - 395 days\\\"..\\\"current day - 1 year\\\"]\",\"BacklogCompare\":[\"current day - 1 year\",\"current day\"],\"BacklogLabel\":\"Backlog Last Year\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate__c_Month')\",\"Compact\":[[\"year\",0],[\"year\",0]],\"CreatedField\":\"'CreatedDate__c_Month'\",\"CreatedProjection\":\"created['CreatedDate__c_Month']\",\"Current\":[\"current year\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"LastPeriodCompare\":[\"current year - 1 year\",\"current day - 1 year\"],\"LastYearCompare\":[\"current year - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"],\"filter\":\"year\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"SAQL\":\"coalesce((avg(ThisYear['DurationCalculatedField'])-avg(LastYear['DurationCalculatedField']))/avg(LastYear['DurationCalculatedField']),0)*100 as sum_Percent\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"QTD\",\"Backlog30DayClose\":\"[\\\"current day - 120 days\\\"..\\\"current day - 1 quarter\\\"]\",\"BacklogCompare\":[\"current day - 1 quarter\",\"current day\"],\"BacklogLabel\":\"Backlog Last Quarter\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate__c_Week')\",\"Compact\":[[\"quarter\",0],[\"quarter\",0]],\"CreatedField\":\"'CreatedDate__c_Week'\",\"CreatedProjection\":\"created['CreatedDate__c_Week']\",\"Current\":[\"current quarter\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Week')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"LastPeriodCompare\":[\"current quarter - 1 quarter\",\"current day - 1 quarter\"],\"LastYearCompare\":[\"current quarter - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Week\"],\"filter\":\"quarter\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"SAQL\":\"coalesce((avg(ThisYear['DurationCalculatedField'])-avg(LastYear['DurationCalculatedField']))/avg(LastYear['DurationCalculatedField']),0)*100 as sum_Percent\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"MTD\",\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 1 month\\\"]\",\"BacklogCompare\":[\"current day - 1 month\",\"current day\"],\"BacklogLabel\":\"Backlog Last Month\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate__c_Month','CreatedDate__c_Day')\",\"Compact\":[[\"month\",0],[\"month\",0]],\"CreatedField\":\"'CreatedDate__c_Month','CreatedDate__c_Day'\",\"CreatedProjection\":\"created['CreatedDate__c_Month'] +\\\"~~~\\\" + created['CreatedDate__c_Day']\",\"Current\":[\"current month\",\"current month\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month']+\\\"~~~\\\"+created['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"LastPeriodCompare\":[\"current month - 1 month\",\"current day - 1 month\"],\"LastYearCompare\":[\"current month - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month']+\\\"~~~\\\"+ThisYear['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"Last 7 Days\",\"Backlog30DayClose\":\"[\\\"current day - 37 days\\\"..\\\"current day - 7 days\\\"]\",\"BacklogCompare\":[\"current day - 1 week\",\"current day\"],\"BacklogLabel\":\"Backlog Last 7 Days\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate__c_Month','CreatedDate__c_Day')\",\"Compact\":[[\"day\",-7],[\"day\",0]],\"CreatedField\":\"'CreatedDate__c_Month','CreatedDate__c_Day'\",\"CreatedProjection\":\"created['CreatedDate__c_Month'] +\\\"~~~\\\" + created['CreatedDate__c_Day']\",\"Current\":[\"7 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month']+\\\"~~~\\\"+created['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"LastPeriodCompare\":[\"7 days ago - 1 week\",\"current day - 1 week\"],\"LastYearCompare\":[\"7 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month']+\\\"~~~\\\"+ThisYear['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"Last 30 Days\",\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 30 days\\\"]\",\"BacklogCompare\":[\"current day - 30 days\",\"current day\"],\"BacklogLabel\":\"Backlog Last 30 Days\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate__c_Week')\",\"Compact\":[[\"day\",-30],[\"day\",0]],\"CreatedField\":\"'CreatedDate__c_Week'\",\"CreatedProjection\":\"created['CreatedDate__c_Week']\",\"Current\":[\"30 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Week' as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Week')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Week\",\"LastPeriodCompare\":[\"30 days ago - 30 days\",\"current day - 30 days\"],\"LastYearCompare\":[\"30 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Week\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}",
-          "{\"display\":\"Last 180 Days\",\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":[\"current day - 180 days\",\"current day\"],\"BacklogLabel\":\"Backlog Last 180 Days\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate__c_Month')\",\"Compact\":[[\"day\",-180],[\"day\",0]],\"CreatedField\":\"'CreatedDate__c_Month'\",\"CreatedProjection\":\"created['CreatedDate__c_Month']\",\"Current\":[\"180 days ago\",\"current day\"],\"FullGroup\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate__c_Year']+\\\"~~~\\\"+created['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCreatedDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate__c_Year','CreatedDate__c_Month')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"LastPeriodCompare\":[\"180 days ago - 180 days\",\"current day - 180 days\"],\"LastYearCompare\":[\"180 days ago - 1 year\",\"current day - 1 year\"],\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}"
-        ],
-        "datasets": []
-      },
-      "filter_product": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "case_count_by_origin_over_time": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregateflex",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"{{cell(Time_Selection.selection,0,\\\"compactGroup\\\").asObject()}}\",\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "raw_case": {
-        "isFacet": true,
-        "isGlobal": false,
-        "type": "grain",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "valuestable",
-          "options": {}
-        },
-        "query": {
-          "query": "{\"values\":[\"Account.Name\",\"CaseNumber\",\"First_Contact_Close__c\",\"Type\",\"CSAT__c\",\"Owner.Name\",\"MilestoneStatus\",\"Priority\",\"IsEscalated\",\"Origin\",\"SLA_Type__c\",\"DurationCalculatedField\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "lens_table": {
-        "groups": [],
-        "isFacet": true,
-        "numbers": [],
-        "query": "q = load \"<ServiceCase>\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\")}}; q = foreach q generate 'CaseNumber', first('Account.Name') as 'Account.Name', first('CSAT__c') as 'CSAT__c', first('First_Contact_Close__c') as 'First_Contact_Close__c', first('Type') as 'Type', first('Owner.Name') as 'Owner.Name', first('MilestoneStatus') as 'MilestoneStatus',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Origin') as 'Origin', first('Priority') as 'Priority', first('Status') as 'Status', first('SLA_Type__c') as 'SLA_Type__c',first('IsEscalated') as 'Escalated'; q = order q by 'CaseNumber' desc; q = limit q 100;",
-        "selectMode": "single",
-        "strings": [],
-        "type": "saql",
-        "useGlobal": false
-      },
-      "lens_table_alt": {
-        "groups": [],
-        "isFacet": true,
-        "numbers": [],
-        "query": "q = load \"<ServiceCase>\"; q = filter q by {{cell(Time_Selection.selection, 0, \"Current\").asDateRange(\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\")}}; q = foreach q generate 'CaseNumber', first('Account.Name') as 'Account.Name', first('First_Contact_Close__c') as 'First_Contact_Close__c', first('Type') as 'Type', first('Owner.Name') as 'Owner.Name', first('MilestoneStatus') as 'MilestoneStatus',avg('{{column(Static_Duration.selection, [\"pigql_value\"]).asObject()}}') as '{{column(Static_Duration.selection, [\"measure_field\"]).asObject()}}', first('Origin') as 'Origin', first('Priority') as 'Priority', first('Status') as 'Status', first('SLA_Type__c') as 'SLA_Type__c',first('IsEscalated') as 'Escalated'; q = order q by 'CaseNumber' desc; q = limit q 100;",
-        "selectMode": "single",
-        "strings": [],
-        "type": "saql",
-        "useGlobal": false
-      },
-      "filter_reason": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "static_CSAT": {
-        "dimensions": [],
-        "groups": [],
-        "isFacet": false,
-        "isGlobal": false,
-        "numbers": [],
-        "selectMode": "singlerequired",
-        "start": "{\"display\":[\"CSAT\"]}",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{\"display\":\"CSAT\",\"compact\":[[\"avg\",\"CSAT\"],[\"count\",\"*\"]],\"mea\":[-10]}",
-          "{\"display\":\"No CSAT\",\"compact\":[[\"count\",\"*\"]],\"mea\":[-999]}"
-        ],
-        "datasets": []
       },
       "case_count_by_product": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
-        "type": "aggregateflex",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "filter_origin": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Origin\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"Product_Name__c\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]],\"order\":[[-1,{\"ascending\":\"{{no_quote(value(selection(Order_Select)))}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1162,14 +118,13 @@
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
-        "type": "aggregateflex",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"Reason\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]],\"order\":[[-1,{\"ascending\":\"{{no_quote(value(selection(Order_Select)))}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1181,15 +136,14 @@
       "case_count_by_origin": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]],\"order\":[[-1,{\"ascending\":\"{{no_quote(value(selection(Order_Select)))}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1198,17 +152,50 @@
           }
         ]
       },
+      "filter_owner": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "multi",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "timeline_grouping": {
+        "isFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "start": "[[[\"CreatedDate_Year\",\"CreatedDate_Month\"]]]",
+        "type": "static",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Month\",\"value\":[[\"CreatedDate_Year\",\"CreatedDate_Month\"]]}",
+          "{\"display\":\"Week\",\"value\":[[\"CreatedDate_Year\",\"CreatedDate_Week\"]]}",
+          "{\"display\":\"Day\",\"value\":[[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"]]}"
+        ]
+      },
       "filter_record_type": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
+        "start": "[]",
+        "type": "aggregate",
+        "useGlobal": true,
         "visualizationParameters": {
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Id\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"RecordType.Name\"]}",
           "version": -1
         },
         "datasets": [
@@ -1221,14 +208,16 @@
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
-        "type": "aggregateflex",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "scatter",
-          "options": {}
+          "options": {
+            "fit": true
+          },
+          "visualizationType": "scatter"
         },
         "query": {
-          "query": "{\"measures\":\"{{concat(column(Static_Duration.selection, [\\\"value\\\"]), cell(static_CSAT.selection,0, \\\"compact\\\")).asObject()}}\",\"groups\":[\"Origin\"],\"filters\":[[\"CSAT\",[[\"{{cell(static_CSAT.selection,0, \\\"mea\\\").asObject()}}\"]],\">=\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"avg\",\"{{selection(Static_Duration)}}\"],[\"avg\",\"CSAT\"],[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"Origin\"],\"filters\":[[\"CSAT\",[[-10]],\">=\"],[\"IsClosed\",[\"true\"],\"in\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1237,50 +226,55 @@
           }
         ]
       },
-      "static_No_CSAT": {
-        "dimensions": [],
-        "groups": [],
-        "isFacet": false,
+      "kpi_closed_case_count": {
+        "isFacet": true,
         "isGlobal": false,
-        "numbers": [],
-        "selectMode": "single",
-        "start": "{\"display\":[\"No CSAT\"]}",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{\"display\":\"No CSAT\",\"compact\":[[\"count\",\"*\"]],\"mea\":[-999]}"
-        ],
-        "visualizationParameters": {},
-        "datasets": []
+        "selectMode": "multi",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
       },
-      "static_2": {
-        "dimensions": [],
-        "groups": [],
-        "isFacet": false,
+      "filter_geography": {
+        "isFacet": true,
         "isGlobal": false,
-        "numbers": [],
-        "selectMode": "single",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{\"display\":\"Dsc\"}"
-        ],
-        "datasets": []
+        "selectMode": "multi",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Account.BillingState\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
       },
       "kpi_csat": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "multi",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"filters\":[[\"CSAT\",[[-10]],\">=\"],[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"filters\":[[\"CSAT\",[[-10]],\">=\"],[\"IsClosed\",[\"true\"],\"in\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1293,14 +287,13 @@
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
-        "type": "aggregateflex",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":\"{{cell(static_Order.selection, 0, \\\"compact\\\").asObject()}}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]],\"order\":[[-1,{\"ascending\":\"{{no_quote(value(selection(Order_Select)))}}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -1309,18 +302,56 @@
           }
         ]
       },
-      "kpi_fcr": {
+      "filter_type": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "multi",
+        "start": "[]",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\"]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"BacklogCompare\\\").asDateRange(\\\"date('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\\\")}}; q = filter q by 'IsClosed' == \\\"true\\\"; q = group q by 'First_Contact_Close__c'; q = foreach q generate 'First_Contact_Close__c' as 'First_Contact_Close__c', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'First_Contact_Close__c' == \\\"true\\\"; \",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Type\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "kpi_owner_count": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "multi",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"unique\",\"OwnerId\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "filter_product": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "multi",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Name__c\"]}",
           "version": -1
         },
         "datasets": [
@@ -1332,15 +363,72 @@
       "kpi_average_duration": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "multi",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(Time_Selection.selection, 0, \\\"Current\\\").asDateRange(\\\"date('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\\\")}}; q = group q by all; q = foreach q generate avg('{{column(Static_Duration.selection, [\\\"pigql_value\\\"]).asObject()}}') as 'avg_Duration';\",\"measures\":[[\"avg\",\"Duration\"]],\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"Duration__c\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "kpi_fcr": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"perc\",\"Percent\",null,{\"display\":\"% FCR\"}]],\"pigql\":\"q = load \\\"ServiceCase\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = group q by 'First_Contact_Close__c'; q = foreach q generate 'First_Contact_Close__c' as 'First_Contact_Close__c', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'First_Contact_Close__c' == \\\"true\\\"; \",\"autoFilter\":true}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "case_count_by_origin_over_time": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"{{value(selection(timeline_grouping))}}\",\"Origin\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "filter_date": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "multi",
+        "start": "[[[\"month\",-6],[\"month\",0]]]",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"CreatedDate_Month\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1350,33 +438,47 @@
         ]
       },
       "Static_Duration": {
-        "dimensions": [],
-        "groups": [],
-        "isFacet": true,
+        "isFacet": false,
         "isGlobal": false,
-        "numbers": [],
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Case Duration\"]}",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": true,
+        "start": "[\"Duration__c\"]",
+        "type": "static",
+        "useGlobal": false,
         "values": [
-          "{\"display\":\"Case Duration\",\"value\":[\"avg\",\"DurationCalculatedField\"],\"pigql_value\":\"DurationCalculatedField\",\"measure_field\":\"avg_DurationCalculatedField\"}"
-        ],
-        "datasets": []
+          "{\"display\":\"Duration\",\"value\":[\"Duration__c\"]}",
+          "{\"display\":\"DB Hours\",\"value\":[\"DB_Hours__c\"]}"
+        ]
       },
-      "Product__c_1": {
+      "raw_case": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "grain",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "valuestable"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"]}",
+          "query": "{\"values\":[\"Account.Name\",\"CaseNumber\",\"First_Contact_Close__c\",\"Type\",\"Duration__c\",\"CSAT__c\",\"Owner.Name\",\"MilestoneStatus\",\"Priority\",\"IsEscalated\",\"Origin\",\"Type_of_Support__c\",\"DB_Hours__c\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "SLAMeet__c_18": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "pie"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"groups\":[\"MilestoneStatus\"],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
           "version": -1
         },
         "datasets": [
@@ -1389,13 +491,13 @@
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "multi",
-        "type": "aggregateflex",
-        "useGlobal": false,
+        "type": "aggregate",
+        "useGlobal": true,
         "visualizationParameters": {
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SLA_Type__c\"],\"filters\":[[\"CreatedDate__c\",\"{{column(Time_Selection.selection, [\\\"Compact\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Type_of_Support__c\"]}",
           "version": -1
         },
         "datasets": [
@@ -1403,813 +505,886 @@
             "name": "<ServiceCase>"
           }
         ]
+      },
+      "Order_Select": {
+        "isFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "start": "[[\"false\"]]",
+        "type": "static",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Desc\",\"value\":[\"false\"]}",
+          "{\"display\":\"Asc\",\"value\":[\"true\"]}"
+        ]
       }
     },
-    "widgetStyle": {
-      "backgroundColor": "#FFFFFF",
-      "borderColor": "#E6ECF2",
-      "borderEdges": [],
-      "borderRadius": 0,
-      "borderWidth": 1
-    },
     "widgets": {
-      "text_By_Constants_CaseReasonLabel": {
+      "text_17": {
+        "type": "text",
+        "position": {
+          "x": 720,
+          "y": 240,
+          "zIndex": 99995
+        },
         "parameters": {
           "fontSize": 14,
+          "text": "First Contact Resolution",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "chart_case_count_by_origin": {
+        "type": "chart",
+        "position": {
+          "h": 210,
+          "w": 490,
+          "x": 800,
+          "y": 1110,
+          "zIndex": 99985
+        },
+        "parameters": {
+          "step": "case_count_by_origin",
+          "visualizationType": "hbar"
+        }
+      },
+      "link_back_to_overview": {
+        "type": "link",
+        "position": {
+          "x": 30,
+          "y": 20,
+          "zIndex": 9
+        },
+        "parameters": {
+          "destination": "0FKB00000005oDqOAI",
+          "text": "Back to Overview",
+          "textColor": "rgb(45, 147, 237)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "Widget_Duration": {
+        "type": "pillbox",
+        "position": {
+          "w": 1010,
+          "x": 290,
+          "y": 640,
+          "zIndex": 71
+        },
+        "parameters": {
+          "exploreLink": false,
+          "measureField": "",
+          "step": "Static_Duration",
+          "selectModeOverride": "singlerequired"
+        }
+      },
+      "box_12": {
+        "type": "box",
+        "position": {
+          "h": 30,
+          "w": 30,
+          "x": 10,
+          "y": 20,
+          "zIndex": 380
+        },
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "box_11": {
+        "type": "box",
+        "position": {
+          "h": 560,
+          "w": 1040,
+          "x": 270,
+          "y": 140,
+          "zIndex": 6
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(176, 195, 212)"
+        }
+      },
+      "text_4": {
+        "type": "text",
+        "position": {
+          "x": 580,
+          "y": 160,
+          "zIndex": 99989
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Channel Performance by CSAT, Duration and Case Volume",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "box_10": {
+        "type": "box",
+        "position": {
+          "h": 330,
+          "w": 1040,
+          "x": 270,
+          "y": 1740,
+          "zIndex": 5
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(176, 195, 212)"
+        }
+      },
+      "text_7": {
+        "type": "text",
+        "position": {
+          "x": 290,
+          "y": 810,
+          "zIndex": 99979
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "By Product Name",
+          "textAlignment": "left",
+          "textColor": "rgb(64, 96, 127)"
+        }
+      },
+      "number_kpi_average_duration": {
+        "type": "number",
+        "position": {
+          "w": 210,
+          "x": 510,
+          "y": 260,
+          "zIndex": 99992
+        },
+        "parameters": {
+          "compact": true,
+          "fontSize": 32,
+          "measureField": "avg_Duration__c",
+          "step": "kpi_average_duration",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)",
+          "title": ""
+        }
+      },
+      "text_8": {
+        "type": "text",
+        "position": {
+          "x": 800,
+          "y": 810,
+          "zIndex": 99981
+        },
+        "parameters": {
+          "fontSize": 16,
           "text": "By Case Reason",
           "textAlignment": "left",
-          "textColor": "#335779"
-        },
-        "type": "text"
+          "textColor": "rgb(64, 96, 127)"
+        }
       },
-      "listselector_filter_support_level": {
+      "list_filter_owner": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 210,
+          "zIndex": 100009
+        },
         "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
+          "expanded": false,
           "instant": false,
           "measureField": "count",
-          "step": "filter_support_level",
-          "title": "Support Type"
-        },
-        "type": "listselector"
+          "step": "filter_owner",
+          "selectModeOverride": "multi"
+        }
       },
-      "pillbox_static_CSAT": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": false,
-          "step": "static_CSAT"
+      "list_filter_product": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 140,
+          "zIndex": 100008
         },
-        "type": "pillbox"
-      },
-      "pillbox_static_Order": {
         "parameters": {
-          "compact": false,
-          "exploreLink": false,
-          "step": "static_Order"
-        },
-        "type": "pillbox"
-      },
-      "container_17": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "listselector_filter_product": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
+          "expanded": false,
           "instant": false,
           "measureField": "count",
           "step": "filter_product",
+          "selectModeOverride": "multi"
+        }
+      },
+      "chart_case_count_by_origin_over_time": {
+        "type": "chart",
+        "position": {
+          "h": 290,
+          "w": 1020,
+          "x": 280,
+          "y": 1410,
+          "zIndex": 13
+        },
+        "parameters": {
+          "legend": true,
+          "step": "case_count_by_origin_over_time",
+          "visualizationType": "time"
+        }
+      },
+      "number_kpi_csat": {
+        "type": "number",
+        "position": {
+          "w": 150,
+          "x": 920,
+          "y": 260,
+          "zIndex": 99998
+        },
+        "parameters": {
+          "fontSize": 32,
+          "measureField": "avg_CSAT",
+          "step": "kpi_csat",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)",
           "title": ""
-        },
-        "type": "listselector"
+        }
       },
-      "container_14": {
+      "box_3": {
+        "type": "box",
+        "position": {
+          "h": 30,
+          "w": 130,
+          "x": 20,
+          "y": -10,
+          "zIndex": 378
+        },
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
       },
-      "chart_case_count_by_origin": {
+      "text_1": {
+        "type": "text",
+        "position": {
+          "x": 30,
+          "y": 40,
+          "zIndex": 962
+        },
         "parameters": {
-          "autoFitMode": "keepLabels",
-          "showValues": true,
-          "legend": {
-            "showHeader": true,
-            "show": false,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "axisMode": "multi",
-          "visualizationType": "hbar",
-          "exploreLink": true,
-          "title": {
-            "label": "",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "measureAxis2": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "step": "case_count_by_origin",
-          "theme": "light",
-          "dimensionAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "customSize": "auto"
-          },
-          "binValues": false,
-          "bins": {
-            "breakpoints": {
-              "low": 0,
-              "high": 100
-            },
-            "bands": {
-              "low": {
-                "label": "",
-                "color": "#B22222"
-              },
-              "medium": {
-                "label": "",
-                "color": "#ffa500"
-              },
-              "high": {
-                "label": "",
-                "color": "#008000"
-              }
-            }
-          }
-        },
-        "type": "chart"
+          "fontSize": 24,
+          "text": "Channel Review",
+          "textAlignment": "left",
+          "textColor": "rgb(41, 71, 102)"
+        }
       },
-      "container_13": {
+      "list_filter_account": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 420,
+          "zIndex": 100010
+        },
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
+          "expanded": false,
+          "instant": false,
+          "measureField": "count",
+          "step": "filter_account",
+          "selectModeOverride": "multi"
+        }
       },
-      "text_Closed_Case_Details": {
+      "RecordTypeFilter": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 560,
+          "zIndex": 100006
+        },
+        "parameters": {
+          "expanded": false,
+          "instant": false,
+          "measureField": "count",
+          "step": "filter_record_type",
+          "selectModeOverride": "multi"
+        }
+      },
+      "date_filter_date": {
+        "type": "dateselector",
+        "position": {
+          "h": 50,
+          "w": 290,
+          "x": 1020,
+          "y": 30,
+          "zIndex": 100004
+        },
+        "parameters": {
+          "expanded": false,
+          "step": "filter_date"
+        }
+      },
+      "chart_case_count_by_owner": {
+        "type": "chart",
+        "position": {
+          "h": 210,
+          "w": 490,
+          "x": 290,
+          "y": 1110,
+          "zIndex": 99978
+        },
+        "parameters": {
+          "step": "case_count_by_owner",
+          "visualizationType": "hbar"
+        }
+      },
+      "text_40": {
+        "type": "text",
+        "position": {
+          "x": 270,
+          "y": 1750,
+          "zIndex": 43
+        },
         "parameters": {
           "fontSize": 16,
           "text": "Closed Case Details",
           "textAlignment": "left",
-          "textColor": "#091A3E"
-        },
-        "type": "text"
+          "textColor": "rgb(41, 71, 102)"
+        }
       },
-      "listselector_filter_type": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
-          "instant": false,
-          "measureField": "count",
-          "step": "filter_type",
-          "title": "Type"
+      "box_26": {
+        "type": "box",
+        "position": {
+          "h": 250,
+          "w": 490,
+          "x": 800,
+          "y": 800,
+          "zIndex": 43
         },
-        "type": "listselector"
-      },
-      "container_1": {
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_25": {
+        "type": "box",
+        "position": {
+          "h": 250,
+          "w": 490,
+          "x": 290,
+          "y": 1070,
+          "zIndex": 43
         },
-        "type": "container"
-      },
-      "container_2": {
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_24": {
+        "type": "box",
+        "position": {
+          "h": 250,
+          "w": 490,
+          "x": 800,
+          "y": 1070,
+          "zIndex": 42
         },
-        "type": "container"
-      },
-      "chart_origin_by_csat_duration": {
         "parameters": {
-          "legend": {
-            "showHeader": true,
-            "show": true,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "x": {
-            "showZero": false,
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "visualizationType": "scatter",
-          "y": {
-            "showZero": false,
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "step": "origin_by_csat_duration",
-          "theme": "light",
-          "exploreLink": true,
-          "title": {
-            "label": "",
-            "align": "center",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          }
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "chart_case_count_by_product": {
+        "type": "chart",
+        "position": {
+          "h": 210,
+          "w": 490,
+          "x": 290,
+          "y": 840,
+          "zIndex": 99980
         },
-        "type": "chart"
-      },
-      "chart_case_count_by_reason": {
         "parameters": {
-          "autoFitMode": "keepLabels",
-          "showValues": true,
-          "legend": {
-            "showHeader": true,
-            "show": false,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "axisMode": "multi",
-          "visualizationType": "hbar",
-          "exploreLink": true,
-          "title": {
-            "label": "",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "measureAxis2": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "step": "case_count_by_reason",
-          "theme": "light",
-          "dimensionAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "customSize": "auto"
-          },
-          "binValues": false,
-          "bins": {
-            "breakpoints": {
-              "low": 0,
-              "high": 100
-            },
-            "bands": {
-              "low": {
-                "label": "",
-                "color": "#B22222"
-              },
-              "medium": {
-                "label": "",
-                "color": "#ffa500"
-              },
-              "high": {
-                "label": "",
-                "color": "#008000"
-              }
-            }
-          }
+          "step": "case_count_by_product",
+          "visualizationType": "hbar"
+        }
+      },
+      "box_23": {
+        "type": "box",
+        "position": {
+          "h": 250,
+          "w": 490,
+          "x": 290,
+          "y": 800,
+          "zIndex": 41
         },
-        "type": "chart"
-      },
-      "container_3": {
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_22": {
+        "type": "box",
+        "position": {
+          "h": 50,
+          "w": 250,
+          "x": 10,
+          "y": 40,
+          "zIndex": 42
         },
-        "type": "container"
-      },
-      "text_Channel_Review": {
         "parameters": {
-          "fontSize": 24,
-          "text": "Channel Review",
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "box_purple": {
+        "type": "box",
+        "position": {
+          "h": 180,
+          "w": 1040,
+          "x": 270,
+          "y": 140,
+          "zIndex": 99986
+        },
+        "parameters": {
+          "backgroundColor": "rgb(32, 44, 88)",
+          "borderColor": "rgb(32, 44, 88)"
+        }
+      },
+      "table_raw_case": {
+        "type": "valuestable",
+        "position": {
+          "h": 280,
+          "w": 1020,
+          "x": 280,
+          "y": 1780,
+          "zIndex": 11
+        },
+        "parameters": {
+          "step": "raw_case",
+          "selectModeOverride": "single"
+        }
+      },
+      "text_39": {
+        "type": "text",
+        "position": {
+          "x": 270,
+          "y": 1380,
+          "zIndex": 43
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Closed Cases Created by Origin",
           "textAlignment": "left",
-          "textColor": "#091A3E"
-        },
-        "type": "text"
+          "textColor": "rgb(41, 71, 102)"
+        }
       },
-      "container_4": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
+      "text_36": {
+        "type": "text",
+        "position": {
+          "x": 670,
+          "y": 750,
+          "zIndex": 41
         },
-        "type": "container"
-      },
-      "container_5": {
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
+          "fontSize": 16,
+          "text": "Closed Case Segmentation",
+          "textAlignment": "left",
+          "textColor": "rgb(41, 71, 102)"
+        }
+      },
+      "list_filter_geography": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 490,
+          "zIndex": 100010
         },
-        "type": "container"
-      },
-      "container_6": {
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_7": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_9": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "number_kpi_average_duration": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
-          "measureField": "avg_Duration",
-          "numberColor": "#FFFFFF",
-          "numberSize": 24,
-          "step": "kpi_average_duration",
-          "textAlignment": "right",
-          "titleColor": "#C5D3E0",
-          "titleSize": 14
-        },
-        "type": "number"
-      },
-      "link_Channel_Review": {
-        "parameters": {
-          "destination": "<ServiceChannelReview>",
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "Channel Review",
-          "textColor": "#634F95"
-        },
-        "type": "link"
-      },
-      "listselector_filter_geography": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
+          "expanded": false,
           "instant": false,
           "measureField": "count",
           "step": "filter_geography",
-          "title": "Billing Country"
-        },
-        "type": "listselector"
+          "selectModeOverride": "multi"
+        }
       },
-      "listselector_Time_Selection": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
-          "instant": true,
-          "step": "Time_Selection",
-          "title": "Date"
+      "text_38": {
+        "type": "text",
+        "position": {
+          "x": 290,
+          "y": 1080,
+          "zIndex": 43
         },
-        "type": "listselector"
-      },
-      "chart_case_count_by_origin_over_time": {
         "parameters": {
-          "fillArea": false,
-          "showPoints": false,
-          "legend": {
-            "showHeader": false,
-            "show": true,
-            "position": "bottom-center",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": false,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "visualizationType": "time",
-          "missingValue": "connect",
-          "step": "case_count_by_origin_over_time",
-          "theme": "dark",
-          "timeAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "predictiveLine": null
-          },
-          "exploreLink": true,
-          "title": {
-            "label": "",
-            "align": "center",
-            "subtitleLabel": "By Case Origin"
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "showZero": true,
-          "axisMode": "multi",
-          "measureAxis2": {
-            "sqrtScale": false,
-            "showAxis": true,
-            "showTitle": true,
-            "title": "",
-            "referenceLine": null
-          }
-        },
-        "type": "chart"
-      },
-      "number_kpi_closed_case_count": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
-          "measureField": "count",
-          "numberColor": "#FFFFFF",
-          "numberSize": 32,
-          "step": "kpi_closed_case_count",
-          "textAlignment": "left",
-          "title": "Closed Cases",
-          "titleColor": "#C5D3E0",
-          "titleSize": 14
-        },
-        "type": "number"
-      },
-      "listselector_filter_reason": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
-          "instant": false,
-          "measureField": "count",
-          "step": "filter_reason",
-          "title": ""
-        },
-        "type": "listselector"
-      },
-      "text_Closed_Case_Segmentation": {
-        "parameters": {
-          "fontSize": 18,
-          "text": "Closed Case Segmentation",
-          "textAlignment": "left",
-          "textColor": "#091A3E"
-        },
-        "type": "text"
-      },
-      "text_By_Constants_CaseProductLabel": {
-        "parameters": {
-          "fontSize": 14,
-          "text": "By Product Family",
-          "textAlignment": "left",
-          "textColor": "#335779"
-        },
-        "type": "text"
-      },
-      "number_kpi_csat": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
-          "measureField": "avg_CSAT",
-          "numberColor": "#FFFFFF",
-          "numberSize": 24,
-          "step": "kpi_csat",
-          "textAlignment": "right",
-          "titleColor": "#C5D3E0",
-          "titleSize": 12
-        },
-        "type": "number"
-      },
-      "text_Channel_Performance_by_CSAT_Duration_and_Case_Volume": {
-        "parameters": {
-          "fontSize": 18,
-          "text": "Channel Performance by CSAT, Duration and Case Volume",
-          "textAlignment": "left",
-          "textColor": "#091A3E"
-        },
-        "type": "text"
-      },
-      "text_1": {
-        "parameters": {
-          "fontSize": 24,
-          "text": "Channel Review",
-          "textAlignment": "center",
-          "textColor": "#091A3E"
-        },
-        "type": "text"
-      },
-      "table_lens_table": {
-        "parameters": {
-          "customBulkActions": [],
-          "exploreLink": false,
-          "step": "lens_table"
-        },
-        "type": "table"
-      },
-      "number_kpi_fcr": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
-          "measureField": "perc_Percent",
-          "numberColor": "#FFFFFF",
-          "numberSize": 24,
-          "step": "kpi_fcr",
-          "textAlignment": "right",
-          "title": "First Contact Resolution",
-          "titleColor": "#C5D3E0",
-          "titleSize": 12
-        },
-        "type": "number"
-      },
-      "listselector_filter_origin": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
-          "instant": false,
-          "measureField": "count",
-          "step": "filter_origin",
-          "title": ""
-        },
-        "type": "listselector"
-      },
-      "chart_case_count_by_owner": {
-        "parameters": {
-          "autoFitMode": "keepLabels",
-          "showValues": true,
-          "legend": {
-            "showHeader": true,
-            "show": false,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "axisMode": "multi",
-          "visualizationType": "hbar",
-          "exploreLink": true,
-          "title": {
-            "label": "",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "measureAxis2": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "step": "case_count_by_owner",
-          "theme": "light",
-          "dimensionAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "customSize": "auto"
-          },
-          "binValues": false,
-          "bins": {
-            "breakpoints": {
-              "low": 0,
-              "high": 100
-            },
-            "bands": {
-              "low": {
-                "label": "",
-                "color": "#B22222"
-              },
-              "medium": {
-                "label": "",
-                "color": "#ffa500"
-              },
-              "high": {
-                "label": "",
-                "color": "#008000"
-              }
-            }
-          }
-        },
-        "type": "chart"
-      },
-      "text_By_Constants_CaseOriginLabel": {
-        "parameters": {
-          "fontSize": 14,
-          "text": "By Case Origin",
-          "textAlignment": "left",
-          "textColor": "#335779"
-        },
-        "type": "text"
-      },
-      "link_Telephony": {
-        "parameters": {
-          "destination": "<ServiceTelephony>",
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "Telephony",
-          "textColor": "#091A3E"
-        },
-        "type": "link"
-      },
-      "container_12": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_11": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "chart_case_count_by_product": {
-        "parameters": {
-          "autoFitMode": "keepLabels",
-          "showValues": true,
-          "legend": {
-            "showHeader": true,
-            "show": false,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "axisMode": "multi",
-          "visualizationType": "hbar",
-          "exploreLink": true,
-          "title": {
-            "label": "",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "measureAxis2": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "step": "case_count_by_product",
-          "theme": "light",
-          "dimensionAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "customSize": "auto"
-          },
-          "binValues": false,
-          "bins": {
-            "breakpoints": {
-              "low": 0,
-              "high": 100
-            },
-            "bands": {
-              "low": {
-                "label": "",
-                "color": "#B22222"
-              },
-              "medium": {
-                "label": "",
-                "color": "#ffa500"
-              },
-              "high": {
-                "label": "",
-                "color": "#008000"
-              }
-            }
-          }
-        },
-        "type": "chart"
-      },
-      "listselector_filter_owner": {
-        "parameters": {
-          "compact": false,
-          "expanded": true,
-          "exploreLink": false,
-          "instant": false,
-          "measureField": "count",
-          "step": "filter_owner",
-          "title": ""
-        },
-        "type": "listselector"
-      },
-      "listselector_1": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": false,
-          "instant": true,
-          "measureField": "count",
-          "step": "filter_origin",
-          "title": "Origin"
-        },
-        "type": "listselector"
-      },
-      "text_By_Agent": {
-        "parameters": {
-          "fontSize": 14,
+          "fontSize": 16,
           "text": "By Agent",
           "textAlignment": "left",
-          "textColor": "#335779"
-        },
-        "type": "text"
+          "textColor": "rgb(64, 96, 127)"
+        }
       },
-      "link_Home": {
-        "parameters": {
-          "destination": "<AboutServiceWave>",
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "Home",
-          "textColor": "#091A3E"
+      "headerFlash2": {
+        "type": "box",
+        "position": {
+          "h": 50,
+          "w": 1280,
+          "x": 40,
+          "y": 97,
+          "zIndex": 3
         },
-        "type": "link"
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "text_37": {
+        "type": "text",
+        "position": {
+          "x": 800,
+          "y": 1080,
+          "zIndex": 99984
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "By Case Origin",
+          "textAlignment": "left",
+          "textColor": "rgb(64, 96, 127)"
+        }
+      },
+      "autocenter.autocenter.bgcolor=#CAD4DE": {
+        "type": "box",
+        "position": {
+          "h": 20,
+          "w": 20,
+          "x": 1330,
+          "y": 2130,
+          "zIndex": -100
+        },
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "kpi_closed_case_count": {
+        "type": "number",
+        "position": {
+          "w": 150,
+          "x": 300,
+          "y": 260,
+          "zIndex": 99988
+        },
+        "parameters": {
+          "fontSize": 32,
+          "measureField": "count",
+          "step": "kpi_closed_case_count",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)",
+          "title": ""
+        }
+      },
+      "text_30": {
+        "type": "text",
+        "position": {
+          "x": 640,
+          "y": 1085,
+          "zIndex": 43
+        },
+        "parameters": {
+          "fontSize": 12,
+          "text": "Agents Working",
+          "textAlignment": "left",
+          "textColor": "rgb(64, 96, 127)"
+        }
+      },
+      "headerFlash": {
+        "type": "box",
+        "position": {
+          "h": 50,
+          "w": 1260,
+          "x": 50,
+          "y": 95,
+          "zIndex": 1
+        },
+        "parameters": {
+          "backgroundColor": "rgb(167, 123, 202)",
+          "borderColor": "rgb(167, 123, 202)"
+        }
+      },
+      "chart_case_count_by_reason": {
+        "type": "chart",
+        "position": {
+          "h": 210,
+          "w": 490,
+          "x": 800,
+          "y": 840,
+          "zIndex": 99982
+        },
+        "parameters": {
+          "step": "case_count_by_reason",
+          "visualizationType": "hbar"
+        }
+      },
+      "chart_origin_by_csat_duration": {
+        "type": "chart",
+        "position": {
+          "h": 340,
+          "w": 1010,
+          "x": 290,
+          "y": 320,
+          "zIndex": 13
+        },
+        "parameters": {
+          "fit": true,
+          "legend": true,
+          "step": "origin_by_csat_duration",
+          "visualizationType": "scatter"
+        }
+      },
+      "box_5": {
+        "type": "box",
+        "position": {
+          "h": 300,
+          "w": 1350,
+          "x": 0,
+          "y": 1400,
+          "zIndex": 0
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(217, 218, 223)"
+        }
+      },
+      "box_4": {
+        "type": "box",
+        "position": {
+          "h": 30,
+          "w": 130,
+          "x": 150,
+          "y": 20,
+          "zIndex": 379
+        },
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "list_filter_support_level": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 280,
+          "zIndex": 100011
+        },
+        "parameters": {
+          "expanded": false,
+          "instant": false,
+          "measureField": "count",
+          "step": "filter_support_level",
+          "selectModeOverride": "multi"
+        }
+      },
+      "box_7": {
+        "type": "box",
+        "position": {
+          "h": 2150,
+          "w": 1360,
+          "x": 0,
+          "y": 0,
+          "zIndex": 0
+        },
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgba(146, 103, 194, 0)"
+        }
+      },
+      "box_9": {
+        "type": "box",
+        "position": {
+          "h": 340,
+          "w": 1040,
+          "x": 270,
+          "y": 1370,
+          "zIndex": 1
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(176, 195, 212)"
+        }
+      },
+      "box_8": {
+        "type": "box",
+        "position": {
+          "h": 610,
+          "w": 1040,
+          "x": 270,
+          "y": 730,
+          "zIndex": 4
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(176, 195, 212)"
+        }
+      },
+      "mobile_text_num_cases_by_origin": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "zIndex": -1
+        },
+        "parameters": {
+          "fontSize": 36,
+          "text": "#Cases by Origin",
+          "textColor": "rgb(22, 50, 92)"
+        }
+      },
+      "number_kpi_owner_count": {
+        "type": "number",
+        "position": {
+          "w": 150,
+          "x": 520,
+          "y": 1080,
+          "zIndex": 99983
+        },
+        "parameters": {
+          "fontSize": 18,
+          "measureField": "unique_OwnerId",
+          "step": "kpi_owner_count",
+          "textColor": "rgb(64, 96, 127)",
+          "title": ""
+        }
+      },
+      "text_29": {
+        "type": "text",
+        "position": {
+          "x": 510,
+          "y": 240,
+          "zIndex": 99991
+        },
+        "parameters": {
+          "fontSize": 14,
+          "text": "Avg Duration",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "text_28": {
+        "type": "text",
+        "position": {
+          "x": 920,
+          "y": 240,
+          "zIndex": 99997
+        },
+        "parameters": {
+          "fontSize": 14,
+          "text": "Avg CSAT",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "list_filter_type": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 170,
+          "x": 50,
+          "y": 350,
+          "zIndex": 100008
+        },
+        "parameters": {
+          "expanded": false,
+          "instant": false,
+          "step": "filter_type",
+          "selectModeOverride": "multi"
+        }
+      },
+      "text_27": {
+        "type": "text",
+        "position": {
+          "x": 300,
+          "y": 240,
+          "zIndex": 99987
+        },
+        "parameters": {
+          "fontSize": 14,
+          "text": "Closed Cases",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "number_kpi_fcr": {
+        "type": "number",
+        "position": {
+          "w": 170,
+          "x": 720,
+          "y": 260,
+          "zIndex": 99996
+        },
+        "parameters": {
+          "exploreLink": false,
+          "fontSize": 32,
+          "measureField": "perc_Percent",
+          "step": "kpi_fcr",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)",
+          "title": ""
+        }
+      },
+      "text_26": {
+        "type": "text",
+        "position": {
+          "x": 700,
+          "y": 180,
+          "zIndex": 99990
+        },
+        "parameters": {
+          "fontSize": 12,
+          "text": "Click on a bubble to filter the view",
+          "textColor": "rgba(255, 255, 255, 0.65)"
+        }
+      },
+      "mobile_text_raw_table": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "zIndex": -1
+        },
+        "parameters": {
+          "fontSize": 36,
+          "text": "Raw Table",
+          "textColor": "rgb(22, 50, 92)"
+        }
+      },
+      "toggle_timeline_grouping": {
+        "type": "pillbox",
+        "position": {
+          "w": 200,
+          "x": 1130,
+          "y": 1370,
+          "zIndex": 961
+        },
+        "parameters": {
+          "step": "timeline_grouping",
+          "title": "",
+          "exploreLink": false,
+          "selectModeOverride": "singlerequired"
+        }
+      },
+      "toggle_Order_Select": {
+        "type": "pillbox",
+        "position": {
+          "w": 130,
+          "x": 1190,
+          "y": 730,
+          "zIndex": 23
+        },
+        "parameters": {
+          "step": "Order_Select",
+          "title": "",
+          "exploreLink": false,
+          "selectModeOverride": "singlerequired"
+        }
       }
     }
   }
