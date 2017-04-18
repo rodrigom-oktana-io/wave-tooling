@@ -571,7 +571,7 @@
           "zIndex": 18
         },
         "parameters": {
-          "destination": "0FKB00000005oDqOAI",
+          "destination": "<ServiceAgentActivity>",
           "text": "Back to Overview",
           "textColor": "rgb(45, 147, 237)",
           "visualizationType": "hbar",
