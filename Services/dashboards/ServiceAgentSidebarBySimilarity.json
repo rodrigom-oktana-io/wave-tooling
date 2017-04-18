@@ -68,7 +68,7 @@
           "visualizationType": "time"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",\"true\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[[\"ClosedDate__c_Year\",\"ClosedDate__c_Month\"]],\"filters\":[[\"IsClosed\",\"true\"]]}",
           "version": -1
         },
         "datasets": [
@@ -87,7 +87,7 @@
           "visualizationType": "time"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Duration__c\"]],\"autoFilter\":true,\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",\"true\"]]}",
+          "query": "{\"measures\":[[\"avg\",\"Duration__c\"]],\"autoFilter\":true,\"groups\":[[\"ClosedDate__c_Year\",\"ClosedDate__c_Month\"]],\"filters\":[[\"IsClosed\",\"true\"]]}",
           "version": -1
         },
         "datasets": [
