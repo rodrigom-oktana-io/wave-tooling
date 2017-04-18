@@ -150,10 +150,6 @@
 	],
 	"dashboards": [
 		{
-			"Name": "AboutServiceWave",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/AboutServiceWave.json"
-		},
-		{
 			"Name": "MyPerformanceSummary",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/MyPerformanceSummary.json"
 		},
