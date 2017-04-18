@@ -196,6 +196,14 @@
 		{
 			"Name": "ServiceTelephony",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceTelephony.json"
+		},
+		{
+			"Name": "ServiceAgentSidebarByCaseHistory",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarByCaseHistory.json"
+		},
+		{
+			"Name": "ServiceOverview",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOverview.json"
 		}
 	]
 }
