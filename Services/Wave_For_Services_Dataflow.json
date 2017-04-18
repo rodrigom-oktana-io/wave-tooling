@@ -515,7 +515,7 @@
                 },
                 {
                     "expression":{
-                        "sourceField":"CreatedDate__c__c",
+                        "sourceField":"CreatedDate__c",
                         "default":null,
                         "offset":"next()"
                     },
