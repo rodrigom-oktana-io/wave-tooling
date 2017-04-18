@@ -39,6 +39,20 @@
 			]
 		},
 		{
+			"name": "Contact",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				}
+			]
+		},
+		{
 			"name": "Case",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
 			"additionalDataFiles": 0,
