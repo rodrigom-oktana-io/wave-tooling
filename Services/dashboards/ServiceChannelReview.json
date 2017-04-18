@@ -175,13 +175,13 @@
         "isFacet": false,
         "isGlobal": false,
         "selectMode": "singlerequired",
-        "start": "[[[\"CreatedDate_Year\",\"CreatedDate_Month\"]]]",
+        "start": "[[[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"]]]",
         "type": "static",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Month\",\"value\":[[\"CreatedDate_Year\",\"CreatedDate_Month\"]]}",
-          "{\"display\":\"Week\",\"value\":[[\"CreatedDate_Year\",\"CreatedDate_Week\"]]}",
-          "{\"display\":\"Day\",\"value\":[[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"]]}"
+          "{\"display\":\"Month\",\"value\":[[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"]]}",
+          "{\"display\":\"Week\",\"value\":[[\"CreatedDate__c_Year\",\"CreatedDate__c_Week\"]]}",
+          "{\"display\":\"Day\",\"value\":[[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"]]}"
         ]
       },
       "filter_record_type": {
@@ -428,7 +428,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"CreatedDate_Month\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"CreatedDate__c_Month\"]]}",
           "version": -1
         },
         "datasets": [
