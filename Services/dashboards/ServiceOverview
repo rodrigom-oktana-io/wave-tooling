@@ -1,0 +1,1057 @@
+{
+  "label": "Service Overview",
+  "folder": {
+    "id": "<folderId>"
+  },
+  "state": {
+    "dataSourceLinks": [],
+    "gridLayouts": [],
+    "layouts": [
+      {
+        "device": "default",
+        "pages": [
+          {
+            "rows": [
+              "box_26 {colspan=2, rowspan=6, zIndex=-2, vpad=-4, hpad=-15} | row: {height=10}",
+              "text_17 {colspan=2}",
+              "date_Time_Selection {colspan=2}",
+              "| row : {height=10}",
+              "box_23 {colspan=1, rowspan=3, zIndex=-1, vpad=6} | row: {height=10} | box_16 {colspan=1, rowspan=3, zIndex=-1, vpad=6} | row: {height=10}",
+              "text_38 | text_70",
+              "| row : {height=10}",
+              "number_kpi_count_open_case | number_kpi_avg_Duration",
+              "text_25 | text_26",
+              "link_Open_Cases | link_review_agents",
+              "| row : {height=20}",
+              "box_21 {colspan=1, rowspan=3, zIndex=-1} | row: {height=10} | box_19 {colspan=1, rowspan=3, zIndex=-1} | row: {height=10}",
+              "text_49 | text_61",
+              "| row : {height=10}",
+              "number_kpi_avg_FCR_Percent | number_kpi_avg_CSAT",
+              "text_23 | text_21",
+              "link_Review_Channel | link_account_profile",
+              "| row : {height=20}",
+              "headerFlash {colspan=2, rowspan=9, zIndex=-1, hpad=-15}| row: {height=10}",
+              "text_27",
+              "link_backlog {colspan=2}",
+              "link_agent_activities {colspan=2}",
+              "link_knowledge_impact {colspan=2}",
+              "link_knowledge_usage {colspan=2}",
+              "link_csat {colspan=2}",
+              "link_Telephony {colspan=2}",
+              "| row : {height=10}",
+              "row : {height=15}",
+              "headerFlash2 {colspan=2} | row: {height=1}",
+              "row : {height=15}",
+              "text_90 {colspan=2}",
+              "chart_count_cases_over_time {colspan=2}",
+              "text_91 {colspan=2}",
+              "chart_avg_csat_timeline {colspan=2}"
+            ]
+          }
+        ],
+        "version": 1
+      }
+    ],
+    "steps": {
+      "avg_Backlog": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "start": "[]",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time"
+        },
+        "query": {
+          "query": "{\"measures\":\"{{((field(selection(Time_Selection), 'Measure')))}}\",\"pigql\":\"q = load \\\"ServiceCase\\\"; created = filter q by date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};; closed = filter q by date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day') in  {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; current = filter q by 'IsClosed' == \\\"false\\\"; current = group current by all;current = foreach current generate \\\"Today\\\" as 'time',{{no_quote(value(field(selection(Time_Selection), 'trendProjection')))}}as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, count() as backlog;diff = group created by ('CreatedDate_Year', {{no_quote(value(field(selection(Time_Selection), 'CreatedField')))}}) full, closed by ('ClosedDate_Year', {{no_quote(value(field(selection(Time_Selection), 'ClosedField')))}});diff = foreach diff generate \\\"Begining\\\" as 'time', {{no_quote(value(field(selection(Time_Selection), 'CreatedProjection')))}} as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, count(closed) - count(created) as backlog;combined = union current, diff;combined = group combined by ({{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}},'time');combined = foreach combined generate 'time' as 'time', {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}} as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, sum(sum(backlog)) over([0 ..] partition by all order by ({{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}})) as Backlog_Count; combined = filter combined by 'time' == \\\"Begining\\\";final = group combined by all; final = foreach final generate avg('Backlog_Count') as 'Backlog_Count'\",\"autoFilter\":true}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "avg_duration_over_time": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "none",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"Duration__c\",null,{\"display\":\" \"}]],\"pigql\":\"q = load \\\"ServiceCase\\\"; q = filter q by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; q = filter q by 'IsClosed' == \\\"true\\\";q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate')))}}; r = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCreatedDate')))}}, avg('Duration__c') as 'avg_Duration__c', \\\"{{no_quote(value(field(selection(Time_Selection),'filter')))}}\\\" as 'Grouping' ;s = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCreatedDate')))}}, {{value(results(avg_Duration))}} as 'avg_Duration__c', \\\"Overall Average for Period\\\" as 'Grouping'; final = union s, r;\",\"autoFilter\":true,\"groups\":[\"{{(value(field(selection(Time_Selection), 'compactGroup')))}}\",\"Grouping\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "avg_FCR_Percent": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"Percent\"]],\"pigql\":\"q = load \\\"ServiceCase\\\"; q = filter q by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = filter q by 'IsClosed' == \\\"true\\\"; a = filter a by 'First_Contact_Close__c' == \\\"true\\\";  b = filter q by 'IsClosed' == \\\"true\\\"; c = cogroup a by all full, b by all; c = foreach c generate coalesce((count(a)/ count(b)) * 100, 0) as 'avg_Percent';\",\"autoFilter\":true}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "count_case_by_sla": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "pie"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"MilestoneStatus\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "count_open_case": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "Time_Selection": {
+        "isFacet": false,
+        "isGlobal": false,
+        "selectMode": "single",
+        "start": "[[{\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 180 days\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last 180 Days\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate_Month')\",\"Compact\":[[\"day\",-180],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Month'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Month'] end)\",\"Current\":\"[\\\"180 days ago\\\"..\\\"current day\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month\",\"LastPeriodCompare\":\"[\\\"180 days ago - 180 days\\\"..\\\"current day - 180 days\\\"]\",\"LastYearCompare\":\"[\\\"180 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"filter\":\"Average By Month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]]",
+        "type": "static",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"YTD\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 395 days\\\"..\\\"current day - 1 year\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 year\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last Year\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate_Month')\",\"Compact\":[[\"year\",0],[\"year\",0]],\"CreatedField\":\"'CreatedDate_Month'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Month'] end)\",\"Current\":\"[\\\"current year\\\"..\\\"current day\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month\",\"LastPeriodCompare\":\"[\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"LastYearCompare\":\"[\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"filter\":\"Average By Month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]}",
+          "{\"display\":\"QTD\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 120 days\\\"..\\\"current day - 1 quarter\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 quarter\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last Quarter\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate_Week')\",\"Compact\":[[\"quarter\",0],[\"quarter\",0]],\"CreatedField\":\"'CreatedDate_Week'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Week'] end)\",\"Current\":\"[\\\"current quarter\\\"..\\\"current day\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Week')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Week\",\"LastPeriodCompare\":\"[\\\"current quarter - 1 quarter\\\"..\\\"current day - 1 quarter\\\"]\",\"LastYearCompare\":\"[\\\"current quarter - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Week\"],\"filter\":\"Average By Week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]}",
+          "{\"display\":\"MTD\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 1 month\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 month\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last Month\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate_Month','CreatedDate_Day')\",\"Compact\":[[\"month\",0],[\"month\",0]],\"CreatedField\":\"'CreatedDate_Month','CreatedDate_Day'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month']+\\\"~~~\\\"+created['CreatedDate_Day'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Month']+\\\"~~~\\\"+closed['ClosedDate_Day'] end)\",\"Current\":\"[\\\"current month\\\"..\\\"current month\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month']+\\\"~~~\\\"+created['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"LastPeriodCompare\":\"[\\\"current month - 1 month\\\"..\\\"current day - 1 month\\\"]\",\"LastYearCompare\":\"[\\\"current month - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"Average By Day\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month']+\\\"~~~\\\"+ThisYear['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]}",
+          "{\"display\":\"Last 7 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 37 days\\\"..\\\"current day - 7 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 week\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last 7 Days\",\"ClosedField\":\"'ClosedDate_Month','ClosedDate_Day'\",\"CoGroup\":\"('CreatedDate_Month','CreatedDate_Day')\",\"Compact\":[[\"day\",-7],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Month','CreatedDate_Day'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month']+\\\"~~~\\\"+created['CreatedDate_Day'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Month']+\\\"~~~\\\"+closed['ClosedDate_Day'] end)\",\"Current\":\"[\\\"7 days ago\\\"..\\\"current day\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month']+\\\"~~~\\\"+created['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"LastPeriodCompare\":\"[\\\"7 days ago - 1 week\\\"..\\\"current day - 1 week\\\"]\",\"LastYearCompare\":\"[\\\"7 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Day\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"Average By Day\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month']+\\\"~~~\\\"+ThisYear['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"trendProjection\":\"toString(now(), \\\"yyyy~~~MM\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]}",
+          "{\"display\":\"Last 30 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 30 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 30 days\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last 30 Days\",\"ClosedField\":\"'ClosedDate_Week'\",\"CoGroup\":\"('CreatedDate_Week')\",\"Compact\":[[\"day\",-30],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Week'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Week'] end)\",\"Current\":\"[\\\"30 days ago\\\"..\\\"current day\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Week\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Week')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Week')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Week\",\"LastPeriodCompare\":\"[\\\"30 days ago - 30 days\\\"..\\\"current day - 30 days\\\"]\",\"LastYearCompare\":\"[\\\"30 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Week\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Week\"],\"filter\":\"Average By Week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]}",
+          "{\"display\":\"Last 180 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 180 days\\\"..\\\"current day\\\"]\",\"BacklogLabel\":\"Backlog Last 180 Days\",\"ClosedField\":\"'ClosedDate_Month'\",\"CoGroup\":\"('CreatedDate_Month')\",\"Compact\":[[\"day\",-180],[\"day\",0]],\"CreatedField\":\"'CreatedDate_Month'\",\"CreatedProjection\":\"(case when count(created) >0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] else  closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Month'] end)\",\"Current\":\"[\\\"180 days ago\\\"..\\\"current day\\\"]\",\"FullGroup\":\"CreatedDate_Year~~~CreatedDate_Month\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate\":\"created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month\",\"LastPeriodCompare\":\"[\\\"180 days ago - 180 days\\\"..\\\"current day - 180 days\\\"]\",\"LastYearCompare\":\"[\\\"180 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"Measure\":[\"Backlog\",\"Count\",null,{\"display\":\"Backlog Count at Start of Month\"}],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"filter\":\"Average By Month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\",\"trendProjection\":\"toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\")\"}]}"
+        ]
+      },
+      "Backlog_Trend_OverTime": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "none",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time"
+        },
+        "query": {
+          "query": "{\"measures\":\"{{((field(selection(Time_Selection), 'Measure')))}}\",\"pigql\":\"q = load \\\"ServiceCase\\\"; created = filter q by date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};; closed = filter q by date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day') in  {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; current = filter q by 'IsClosed' == \\\"false\\\"; current = group current by all;current = foreach current generate \\\"Today\\\" as 'time',{{no_quote(value(field(selection(Time_Selection), 'trendProjection')))}}as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, count() as backlog;diff = group created by ('CreatedDate_Year', {{no_quote(value(field(selection(Time_Selection), 'CreatedField')))}}) full, closed by ('ClosedDate_Year', {{no_quote(value(field(selection(Time_Selection), 'ClosedField')))}});diff = foreach diff generate \\\"Begining\\\" as 'time', {{no_quote(value(field(selection(Time_Selection), 'CreatedProjection')))}} as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, count(closed) - count(created) as backlog;combined = union current, diff;combined = group combined by ({{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}},'time');combined = foreach combined generate 'time' as 'time', {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}} as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, sum(sum(backlog)) over([0 ..] partition by all order by ({{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}})) as Backlog_Count; combined = filter combined by 'time' == \\\"Begining\\\"; f1 = foreach combined generate 'Backlog_Count' as 'Backlog_Count',{{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}} as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, \\\"{{no_quote(value(field(selection(Time_Selection),'filter')))}}\\\" as 'Grouping'; f2 = foreach combined generate {{value(results(avg_Backlog))}} as 'Backlog_Count', {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}} as {{single_quote(value(field(selection(Time_Selection), 'FullGroup')))}}, \\\"Overall Average for Period\\\" as 'Grouping'; final = union f1, f2 \",\"autoFilter\":true,\"groups\":[\"{{(value(field(selection(Time_Selection), 'compactGroup')))}}\",\"Grouping\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "avg_CSAT_over_time": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "none",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"CSAT\",null,{\"display\":\"Average Customer Satisfaction\"}]],\"pigql\":\"q = load \\\"ServiceCase\\\"; q = filter q by 'CSAT' >= -10; q = filter q by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; q = filter q by 'IsClosed' == \\\"true\\\";  q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate')))}}; r = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCreatedDate')))}}, avg('CSAT') as 'avg_CSAT', \\\"{{no_quote(value(field(selection(Time_Selection),'filter')))}}\\\" as 'Grouping';  s = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCreatedDate')))}}, {{value(results(avg_CSAT))}} as 'avg_CSAT', \\\"Overall Average for Period\\\" as 'Grouping'; final = union s,r\",\"autoFilter\":true,\"groups\":[\"{{(value(field(selection(Time_Selection), 'compactGroup')))}}\",\"Grouping\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "avg_Duration": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"Duration__c\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "Accounts_with_OpenCases": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"AccountId\"]],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"],[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "avg_FCR_Over_Time": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "none",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"Percent\",null,{\"display\":\"Average First Contact Resolution\"}]],\"pigql\":\"created = load \\\"ServiceCase\\\";created = filter created by 'IsClosed' == \\\"true\\\";created = filter created by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; b = filter created by 'First_Contact_Close__c' == \\\"true\\\";d = cogroup created by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate')))}} full, b by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate')))}};f = foreach d generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCoGroupDate')))}}, coalesce((count(b)/ count(created)) * 100, 0) as 'avg_Percent', \\\"{{no_quote(value(field(selection(Time_Selection),'filter')))}}\\\" as 'Grouping'; e = foreach d generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCoGroupDate')))}}, coalesce({{value(results(avg_FCR_Percent))}} ,0) as 'avg_Percent', \\\"Overall Average for Period\\\" as 'Grouping'; final = union f,e;\",\"autoFilter\":true,\"groups\":[\"{{(value(field(selection(Time_Selection), 'compactGroup')))}}\",\"Grouping\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "avg_CSAT": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"filters\":[[\"CSAT\",[[-10]],\">=\"],[\"IsClosed\",[\"true\"],\"in\"],[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      }
+    },
+    "widgets": {
+      "number_kpi_avg_CSAT": {
+        "type": "number",
+        "position": {
+          "w": 300,
+          "x": 1010,
+          "y": 300,
+          "zIndex": 1430
+        },
+        "parameters": {
+          "fontSize": 40,
+          "measureField": "avg_CSAT",
+          "step": "avg_CSAT",
+          "textAlignment": "center",
+          "textColor": "rgb(32, 44, 88)",
+          "title": ""
+        }
+      },
+      "text_17": {
+        "type": "text",
+        "position": {
+          "x": 490,
+          "y": 30,
+          "zIndex": 50
+        },
+        "parameters": {
+          "fontSize": 32,
+          "text": "Manager Overview",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "text_19": {
+        "type": "text",
+        "position": {
+          "x": 60,
+          "y": 495,
+          "zIndex": 1418
+        },
+        "parameters": {
+          "fontSize": 18,
+          "text": "Additional Insights",
+          "textColor": "rgb(41, 71, 102)"
+        }
+      },
+      "chart_avg_FCR_Over_Time": {
+        "type": "chart",
+        "position": {
+          "h": 190,
+          "w": 250,
+          "x": 690,
+          "y": 350,
+          "zIndex": 1476
+        },
+        "parameters": {
+          "step": "avg_FCR_Over_Time",
+          "exploreLink": false,
+          "visualizationType": "time",
+          "selectModeOverride": "none"
+        }
+      },
+      "link_review_agents": {
+        "type": "link",
+        "position": {
+          "x": 460,
+          "y": 480,
+          "zIndex": 1486
+        },
+        "parameters": {
+          "destination": "0FKB00000005oDuOAI",
+          "fontSize": 14,
+          "text": "Review Agents",
+          "textColor": "rgb(89, 65, 149)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "box_channelreview": {
+        "type": "box",
+        "position": {
+          "h": 20,
+          "w": 300,
+          "x": 690,
+          "y": 352,
+          "zIndex": 1487
+        },
+        "parameters": {
+          "backgroundColor": "rgba(255, 255, 255, 0.97)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_19": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 300,
+          "x": 370,
+          "y": 160,
+          "zIndex": 49
+        },
+        "parameters": {
+          "backgroundColor": "rgb(32, 44, 88)",
+          "borderColor": "rgb(32, 44, 88)"
+        }
+      },
+      "box_16": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 300,
+          "x": 50,
+          "y": 160,
+          "zIndex": 1443
+        },
+        "parameters": {
+          "backgroundColor": "rgb(32, 44, 88)",
+          "borderColor": "rgb(32, 44, 88)"
+        }
+      },
+      "link_account_profile": {
+        "type": "link",
+        "position": {
+          "x": 1100,
+          "y": 480,
+          "zIndex": 1490
+        },
+        "parameters": {
+          "destination": "0FKB00000005oDrOAI",
+          "fontSize": 14,
+          "text": "Review Accounts",
+          "textColor": "rgb(89, 65, 149)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "box_10": {
+        "type": "box",
+        "position": {
+          "h": 300,
+          "w": 300,
+          "x": 50,
+          "y": 240,
+          "zIndex": 1420
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "link_Review_Channel": {
+        "type": "link",
+        "position": {
+          "x": 770,
+          "y": 480,
+          "zIndex": 1488
+        },
+        "parameters": {
+          "destination": "0FKB00000005oDvOAI",
+          "fontSize": 14,
+          "text": "Review Channels",
+          "textColor": "rgb(89, 65, 149)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "box_agentperformance": {
+        "type": "box",
+        "position": {
+          "h": 20,
+          "w": 290,
+          "x": 370,
+          "y": 352,
+          "zIndex": 1485
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_49": {
+        "type": "text",
+        "position": {
+          "x": 750,
+          "y": 180,
+          "zIndex": 1451
+        },
+        "parameters": {
+          "fontSize": 18,
+          "text": "Channel Review",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "box_csat_bottom": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 220,
+          "x": 1080,
+          "y": 454,
+          "zIndex": 1482
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "chart_avg_CSAT_over_time": {
+        "type": "chart",
+        "position": {
+          "h": 190,
+          "w": 250,
+          "x": 1010,
+          "y": 350,
+          "zIndex": 53
+        },
+        "parameters": {
+          "step": "avg_CSAT_over_time",
+          "exploreLink": false,
+          "visualizationType": "time",
+          "selectModeOverride": "none"
+        }
+      },
+      "box_28": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 220,
+          "x": 770,
+          "y": 454,
+          "zIndex": 1477
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "box_26": {
+        "type": "box",
+        "position": {
+          "h": 50,
+          "w": 1260,
+          "x": 50,
+          "y": 570,
+          "zIndex": 1461
+        },
+        "parameters": {
+          "backgroundColor": "rgb(89, 65, 149)",
+          "borderColor": "rgb(89, 65, 149)"
+        }
+      },
+      "box_25": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 220,
+          "x": 450,
+          "y": 454,
+          "zIndex": 1475
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "box_24": {
+        "type": "box",
+        "position": {
+          "h": 300,
+          "w": 300,
+          "x": 1010,
+          "y": 240,
+          "zIndex": 50
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_23": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 300,
+          "x": 1010,
+          "y": 160,
+          "zIndex": 1454
+        },
+        "parameters": {
+          "backgroundColor": "rgb(32, 44, 88)",
+          "borderColor": "rgb(32, 44, 88)"
+        }
+      },
+      "box_21": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 300,
+          "x": 690,
+          "y": 160,
+          "zIndex": 1450
+        },
+        "parameters": {
+          "backgroundColor": "rgb(32, 44, 88)",
+          "borderColor": "rgb(32, 44, 88)"
+        }
+      },
+      "box_accountprofile": {
+        "type": "box",
+        "position": {
+          "h": 20,
+          "w": 300,
+          "x": 1010,
+          "y": 352,
+          "zIndex": 1489
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "chart_Backlog_Trend_OverTime": {
+        "type": "chart",
+        "position": {
+          "h": 190,
+          "w": 250,
+          "x": 50,
+          "y": 350,
+          "zIndex": 1472
+        },
+        "parameters": {
+          "legendWidth": 0,
+          "step": "Backlog_Trend_OverTime",
+          "exploreLink": false,
+          "visualizationType": "time",
+          "selectModeOverride": "none"
+        }
+      },
+      "box_20": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 220,
+          "x": 130,
+          "y": 454,
+          "zIndex": 1473
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "link_Open_Cases": {
+        "type": "link",
+        "position": {
+          "x": 130,
+          "y": 480,
+          "zIndex": 1484
+        },
+        "parameters": {
+          "destination": "0FKB00000005oDtOAI",
+          "fontSize": 14,
+          "text": "Prioritize Open Cases",
+          "textColor": "rgb(89, 65, 149)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "text_38": {
+        "type": "text",
+        "position": {
+          "x": 135,
+          "y": 180,
+          "zIndex": 1444
+        },
+        "parameters": {
+          "fontSize": 18,
+          "text": "Backlog",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "autocenter.autocenter.bgcolor=#CAD4DE": {
+        "type": "box",
+        "position": {
+          "h": 20,
+          "w": 20,
+          "x": 1330,
+          "y": 0,
+          "zIndex": -99
+        },
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "headerFlash": {
+        "type": "box",
+        "position": {
+          "h": 240,
+          "w": 1360,
+          "x": 0,
+          "y": 0,
+          "zIndex": 35
+        },
+        "parameters": {
+          "backgroundColor": "rgb(89, 65, 149)",
+          "borderColor": "rgb(89, 65, 149)"
+        }
+      },
+      "text_70": {
+        "type": "text",
+        "position": {
+          "x": 420,
+          "y": 180,
+          "zIndex": 1423
+        },
+        "parameters": {
+          "fontSize": 18,
+          "text": "Agent Performance",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "chart_count_case_by_sla": {
+        "type": "chart",
+        "position": {
+          "h": 140,
+          "w": 300,
+          "x": 1010,
+          "y": 350,
+          "zIndex": -100
+        },
+        "parameters": {
+          "legend": true,
+          "legendWidth": 70,
+          "step": "count_case_by_sla",
+          "visualizationType": "pie"
+        }
+      },
+      "date_Time_Selection": {
+        "type": "listselector",
+        "position": {
+          "h": 50,
+          "w": 250,
+          "x": 520,
+          "y": 80,
+          "zIndex": 100001
+        },
+        "parameters": {
+          "expanded": false,
+          "measureField": "",
+          "step": "Time_Selection",
+          "exploreLink": false
+        }
+      },
+      "box_35": {
+        "type": "box",
+        "position": {
+          "h": 180,
+          "w": 30,
+          "x": 700,
+          "y": 360,
+          "zIndex": 1480
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "box_4": {
+        "type": "box",
+        "position": {
+          "h": 300,
+          "w": 300,
+          "x": 370,
+          "y": 240,
+          "zIndex": 5
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_7": {
+        "type": "box",
+        "position": {
+          "h": 300,
+          "w": 300,
+          "x": 1000,
+          "y": 260,
+          "zIndex": 3
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_33": {
+        "type": "box",
+        "position": {
+          "h": 180,
+          "w": 40,
+          "x": 50,
+          "y": 360,
+          "zIndex": 1478
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "box_6": {
+        "type": "box",
+        "position": {
+          "h": 300,
+          "w": 300,
+          "x": 690,
+          "y": 240,
+          "zIndex": 1425
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "box_30": {
+        "type": "box",
+        "position": {
+          "h": 690,
+          "w": 1360,
+          "x": 0,
+          "y": 0,
+          "zIndex": 4
+        },
+        "parameters": {
+          "backgroundColor": "rgb(232, 238, 244)",
+          "borderColor": "rgb(232, 238, 244)"
+        }
+      },
+      "box_backlog": {
+        "type": "box",
+        "position": {
+          "h": 20,
+          "w": 290,
+          "x": 50,
+          "y": 352,
+          "zIndex": 1483
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "number_kpi_avg_Duration": {
+        "type": "number",
+        "position": {
+          "w": 300,
+          "x": 370,
+          "y": 300,
+          "zIndex": 1494
+        },
+        "parameters": {
+          "compact": true,
+          "fontSize": 40,
+          "measureField": "avg_Duration__c",
+          "step": "avg_Duration",
+          "textAlignment": "center",
+          "textColor": "rgb(32, 44, 88)",
+          "title": ""
+        }
+      },
+      "number_kpi_count_open_case": {
+        "type": "number",
+        "position": {
+          "w": 300,
+          "x": 50,
+          "y": 300,
+          "zIndex": 1492
+        },
+        "parameters": {
+          "fontSize": 40,
+          "measureField": "count",
+          "step": "count_open_case",
+          "textAlignment": "center",
+          "textColor": "rgb(32, 44, 88)",
+          "title": ""
+        }
+      },
+      "text_25": {
+        "type": "text",
+        "position": {
+          "x": 140,
+          "y": 270,
+          "zIndex": 1491
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Open Cases",
+          "textColor": "rgb(32, 44, 88)"
+        }
+      },
+      "text_27": {
+        "type": "text",
+        "position": {
+          "x": 60,
+          "y": 580,
+          "zIndex": 1464
+        },
+        "parameters": {
+          "fontSize": 14,
+          "text": "There's More!",
+          "textAlignment": "left",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "text_26": {
+        "type": "text",
+        "position": {
+          "x": 420,
+          "y": 270,
+          "zIndex": 1493
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Average Time to Close",
+          "textColor": "rgb(32, 44, 88)"
+        }
+      },
+      "text_21": {
+        "type": "text",
+        "position": {
+          "x": 1090,
+          "y": 270,
+          "zIndex": 1431
+        },
+        "parameters": {
+          "fontSize": 15,
+          "text": "Average CSAT",
+          "textColor": "rgb(32, 44, 88)"
+        }
+      },
+      "text_23": {
+        "type": "text",
+        "position": {
+          "x": 740,
+          "y": 270,
+          "zIndex": 1428
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "First Contact Resolution",
+          "textColor": "rgb(32, 44, 88)"
+        }
+      },
+      "link_Telephony": {
+        "type": "link",
+        "position": {
+          "x": 650,
+          "y": 580,
+          "zIndex": 1495
+        },
+        "parameters": {
+          "destination": "0FKB00000005oE4OAI",
+          "text": "Review Telephony Metrics",
+          "textColor": "rgb(255, 255, 255)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "link_csat": {
+        "type": "link",
+        "position": {
+          "x": 500,
+          "y": 580,
+          "zIndex": 1462
+        },
+        "parameters": {
+          "destination": "0FKB00000005oE0OAI",
+          "text": "Review CSAT Drivers",
+          "textColor": "rgb(255, 255, 255)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "text_61": {
+        "type": "text",
+        "position": {
+          "x": 1080,
+          "y": 180,
+          "zIndex": 1455
+        },
+        "parameters": {
+          "fontSize": 18,
+          "text": "Account Profile",
+          "textColor": "rgb(255, 255, 255)"
+        }
+      },
+      "box_csat_left": {
+        "type": "box",
+        "position": {
+          "h": 180,
+          "w": 40,
+          "x": 1010,
+          "y": 360,
+          "zIndex": 1481
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "link_agent_activities": {
+        "type": "link",
+        "position": {
+          "x": 340,
+          "y": 580,
+          "zIndex": 1467
+        },
+        "parameters": {
+          "destination": "0FKB00000005oE2OAI",
+          "text": "Review Agent Activities",
+          "textColor": "rgb(255, 255, 255)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "chart_avg_duration_over_time": {
+        "type": "chart",
+        "position": {
+          "h": 190,
+          "w": 250,
+          "x": 370,
+          "y": 350,
+          "zIndex": 1474
+        },
+        "parameters": {
+          "step": "avg_duration_over_time",
+          "exploreLink": false,
+          "visualizationType": "time",
+          "selectModeOverride": "none"
+        }
+      },
+      "link_backlog": {
+        "type": "link",
+        "position": {
+          "x": 200,
+          "y": 580,
+          "zIndex": 1465
+        },
+        "parameters": {
+          "destination": "0FKB00000005oDsOAI",
+          "text": "Review Backlog",
+          "textColor": "rgb(255, 255, 255)",
+          "visualizationType": "hbar",
+          "destinationType": "dashboard"
+        }
+      },
+      "number_kpi_avg_FCR_Percent": {
+        "type": "number",
+        "position": {
+          "w": 300,
+          "x": 690,
+          "y": 300,
+          "zIndex": 1427
+        },
+        "parameters": {
+          "exploreLink": false,
+          "fontSize": 40,
+          "measureField": "avg_Percent",
+          "step": "avg_FCR_Percent",
+          "textAlignment": "center",
+          "textColor": "rgb(32, 44, 88)",
+          "title": ""
+        }
+      }
+    }
+  }
+}
