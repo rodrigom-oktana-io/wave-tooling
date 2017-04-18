@@ -5,324 +5,32 @@
   },
   "state": {
     "dataSourceLinks": [],
-    "gridLayouts": [
+    "gridLayouts": [],
+    "layouts": [
       {
-        "maxWidth": 500,
-        "name": "Default",
-        "numColumns": 24,
+        "device": "default",
         "pages": [
           {
-            "widgets": [
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "dateselector_CreatedDate_Year_1",
-                "row": 0,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 0,
-                "name": "number_Customer_Sum_Cases",
-                "row": 3,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
-                  "borderColor": "#F2F6FA",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 16,
-                "name": "number_Customer_Sum_Open_Opportunities",
-                "row": 3,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
-                  "borderColor": "#F2F6FA",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 8,
-                "name": "number_Customer_Sum_Won_Opportunities",
-                "row": 3,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
-                  "borderColor": "#F2F6FA",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_Customer_Product",
-                "row": 6,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_Customer_Reason",
-                "row": 11,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_Customer_Priority",
-                "row": 16,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_Customer_CSAT",
-                "row": 19,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_Customer_Agents",
-                "row": 24,
-                "rowspan": 6,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "pillbox_IsClosed_Selector",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_1",
-                "row": 0,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 24
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_2",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 20
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_4",
-                "row": 6,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_5",
-                "row": 11,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_6",
-                "row": 16,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_7",
-                "row": 19,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_8",
-                "row": 24,
-                "rowspan": 6,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "text_Case_Segmentation",
-                "row": 5,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "left"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 8
-                }
-              }
+            "rows": [
+              "text_desktop_only {colspan=2, rowspan=5}"
             ]
           }
         ],
-        "selectors": [],
-        "style": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "backgroundColor": "#FFFFFF",
-          "cellSpacingX": 0,
-          "cellSpacingY": 0,
-          "documentId": "",
-          "fit": "original"
-        },
-        "version": 1,
-        "rowHeight": "normal"
+        "version": 1
       }
     ],
-    "layouts": [],
     "steps": {
-      "avg_duration_over_time": {
+      "Customer_Agents": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
         "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "time",
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"DurationCalculatedField\"]],\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Owner.Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -331,18 +39,17 @@
           }
         ]
       },
-      "Customer_Agents": {
+      "avg_duration_over_time": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "time"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"avg\",\"Duration__c\"]],\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -358,8 +65,7 @@
         "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
         "query": {
           "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"AccountId\"]}",
@@ -372,17 +78,16 @@
         ]
       },
       "Customer_Sum_Open_Opportunities": {
-        "isFacet": true,
+        "isFacet": false,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"],[\"AccountId\",\"{{coalesce(column(AccountId_Select.result,[\\\"AccountId\\\"]),\\\"0\\\").asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"AccountId\",\"{{selection(AccountId_Select)}}\"],[\"IsClosed\",\"false\"]]}",
           "version": -1
         },
         "datasets": [
@@ -391,18 +96,37 @@
           }
         ]
       },
+      "IsClosed_Select": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "start": "[\"true\"]",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"IsClosed\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
       "Customer_Reason": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "pie",
-          "options": {}
+          "visualizationType": "pie"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Reason\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Reason\"]}",
           "version": -1
         },
         "datasets": [
@@ -414,56 +138,14 @@
       "Customer_CSAT": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "time",
-          "options": {}
-        },
-        "selectMode": "single",
-        "query": {
-          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"],\"in\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "CreatedDate_Year_1": {
-        "isFacet": true,
-        "isGlobal": false,
-        "start": "[[[\"year\",-1],[\"year\",0]]]",
-        "type": "aggregateflex",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
-        },
-        "selectMode": "single",
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate__c_Year\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "IsClosed_Selector": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "start": "[\"true\"]",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {
-          "options": {}
+          "visualizationType": "time"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"IsClosed\"]}",
+          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"autoFilter\":true,\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]]}",
           "version": -1
         },
         "datasets": [
@@ -476,14 +158,13 @@
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
-        "type": "aggregateflex",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "pie"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Family_KB__c\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Product_Name__c\"]}",
           "version": -1
         },
         "datasets": [
@@ -495,15 +176,34 @@
       "Customer_Priority": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "pie"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Priority\"]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Priority\"]}",
+          "version": -1
+        },
+        "datasets": [
+          {
+            "name": "<ServiceCase>"
+          }
+        ]
+      },
+      "CreatedDate_Select": {
+        "isFacet": true,
+        "isGlobal": false,
+        "selectMode": "single",
+        "start": "[[[\"year\",-1],[\"year\",0]]]",
+        "type": "aggregate",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        },
+        "query": {
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate_Year\"]}",
           "version": -1
         },
         "datasets": [
@@ -515,15 +215,14 @@
       "Customer_Sum_Won_Opportunities": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"IsWon\",[\"true\"],\"in\"],[\"AccountId\",\"{{coalesce(column(AccountId_Select.result,[\\\"AccountId\\\"]),\\\"0\\\").asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"autoFilter\":true,\"filters\":[[\"AccountId\",\"{{selection(AccountId_Select)}}\"],[\"IsWon\",\"true\"]]}",
           "version": -1
         },
         "datasets": [
@@ -535,15 +234,14 @@
       "Customer_Sum_Cases": {
         "isFacet": true,
         "isGlobal": false,
-        "type": "aggregateflex",
+        "selectMode": "single",
+        "type": "aggregate",
         "useGlobal": true,
         "visualizationParameters": {
-          "visualizationType": "hbar",
-          "options": {}
+          "visualizationType": "hbar"
         },
-        "selectMode": "single",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -553,400 +251,323 @@
         ]
       }
     },
-    "widgetStyle": {
-      "backgroundColor": "#FFFFFF",
-      "borderColor": "#E6ECF2",
-      "borderEdges": [],
-      "borderRadius": 0,
-      "borderWidth": 1
-    },
     "widgets": {
-      "number_Customer_Sum_Open_Opportunities": {
+      "number_22": {
+        "type": "number",
+        "position": {
+          "w": 130,
+          "x": 300,
+          "y": 120,
+          "zIndex": 2
+        },
         "parameters": {
           "compact": true,
-          "exploreLink": true,
+          "fontSize": 32,
           "measureField": "sum_Amount",
-          "numberColor": "#091A3E",
-          "numberSize": 24,
           "step": "Customer_Sum_Open_Opportunities",
           "textAlignment": "center",
-          "title": "Pending Deals",
-          "titleColor": "#5C7A99",
-          "titleSize": 14
-        },
-        "type": "number"
+          "textColor": "rgb(41, 71, 102)",
+          "title": ""
+        }
       },
-      "pillbox_IsClosed_Selector": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": false,
-          "measureField": "count",
-          "step": "IsClosed_Selector"
+      "number_21": {
+        "type": "number",
+        "position": {
+          "w": 130,
+          "x": 160,
+          "y": 120,
+          "zIndex": 2
         },
-        "type": "pillbox"
-      },
-      "number_Customer_Sum_Won_Opportunities": {
         "parameters": {
           "compact": true,
-          "exploreLink": true,
+          "fontSize": 32,
           "measureField": "sum_Amount",
-          "numberColor": "#091A3E",
-          "numberSize": 24,
           "step": "Customer_Sum_Won_Opportunities",
           "textAlignment": "center",
-          "title": "Closed Deals",
-          "titleColor": "#5C7A99",
-          "titleSize": 14
+          "textColor": "rgb(41, 71, 102)",
+          "title": ""
+        }
+      },
+      "buttongroup_31b": {
+        "type": "pillbox",
+        "position": {
+          "w": 130,
+          "x": 260,
+          "y": 10,
+          "zIndex": 29
         },
-        "type": "number"
+        "parameters": {
+          "step": "IsClosed_Select",
+          "title": "Cases"
+        }
+      },
+      "box_1": {
+        "type": "box",
+        "position": {
+          "h": 1180,
+          "w": 440,
+          "x": 0,
+          "y": 0,
+          "zIndex": 0
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
       },
       "AccountIdfilter_1": {
-        "parameters": {
-          "expanded": false,
-          "measureField": "count",
-          "step": "AccountId_Select"
-        },
+        "type": "listselector",
         "position": {
-          "h": "50",
-          "w": "250",
+          "h": 50,
+          "w": 250,
           "x": 0,
           "y": 0,
           "zIndex": -1
         },
-        "type": "listselector"
-      },
-      "dateselector_CreatedDate_Year_1": {
         "parameters": {
-          "instant": false,
-          "step": "CreatedDate_Year_1",
-          "title": "Created Date (date)",
-          "defaultAbsoluteMode": true,
-          "defaultFiscalMode": false,
-          "modeSwitchingAllowed": true,
-          "calendarTypeSwitchingAllowed": false
-        },
-        "type": "dateselector"
-      },
-      "number_Customer_Sum_Cases": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
+          "expanded": false,
           "measureField": "count",
-          "numberColor": "#091A3E",
-          "numberSize": 24,
-          "step": "Customer_Sum_Cases",
-          "textAlignment": "center",
-          "title": "Total Cases",
-          "titleColor": "#5C7A99",
-          "titleSize": 14
-        },
-        "type": "number"
+          "step": "AccountId_Select"
+        }
       },
-      "text_Case_Segmentation": {
+      "chart_32a": {
+        "type": "chart",
+        "position": {
+          "h": 150,
+          "w": 420,
+          "x": 0,
+          "y": 230,
+          "zIndex": 30
+        },
+        "parameters": {
+          "legend": true,
+          "step": "Customer_Product",
+          "visualizationType": "pie"
+        }
+      },
+      "box_3": {
+        "type": "box",
+        "position": {
+          "h": 240,
+          "w": 440,
+          "x": 0,
+          "y": 690,
+          "zIndex": 1
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "chart_32b": {
+        "type": "chart",
+        "position": {
+          "h": 150,
+          "w": 420,
+          "x": 0,
+          "y": 380,
+          "zIndex": 31
+        },
+        "parameters": {
+          "legend": true,
+          "step": "Customer_Reason",
+          "visualizationType": "pie"
+        }
+      },
+      "text_1": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 90,
+          "zIndex": 1
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Total Cases",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        }
+      },
+      "box_2": {
+        "type": "box",
+        "position": {
+          "h": 90,
+          "w": 440,
+          "x": 0,
+          "y": 0,
+          "zIndex": 1
+        },
+        "parameters": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "chart_32c": {
+        "type": "chart",
+        "position": {
+          "h": 150,
+          "w": 420,
+          "x": 0,
+          "y": 530,
+          "zIndex": 32
+        },
+        "parameters": {
+          "legend": true,
+          "step": "Customer_Priority",
+          "visualizationType": "pie"
+        }
+      },
+      "number_31c": {
+        "type": "number",
+        "position": {
+          "w": 140,
+          "x": 0,
+          "y": 120,
+          "zIndex": 33
+        },
+        "parameters": {
+          "fontSize": 32,
+          "measureField": "count",
+          "step": "Customer_Sum_Cases",
+          "textColor": "rgb(41, 71, 102)",
+          "title": ""
+        }
+      },
+      "text_34": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 940,
+          "zIndex": 2
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Who has helped this customer ?",
+          "textAlignment": "left",
+          "textColor": "rgb(41, 71, 102)"
+        }
+      },
+      "datefilter_1": {
+        "type": "dateselector",
+        "position": {
+          "h": 50,
+          "w": 150,
+          "x": 20,
+          "y": 10,
+          "zIndex": 2
+        },
+        "parameters": {
+          "expanded": false,
+          "step": "CreatedDate_Select"
+        }
+      },
+      "text_33": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 700,
+          "zIndex": 2
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "CSAT Overview",
+          "textAlignment": "left",
+          "textColor": "rgb(41, 71, 102)"
+        }
+      },
+      "text_3": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 190,
+          "zIndex": 2
+        },
+        "parameters": {
+          "fontSize": 16,
+          "text": "Customer Case Segmentation",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        }
+      },
+      "box_4": {
+        "type": "box",
+        "position": {
+          "h": 80,
+          "w": 290,
+          "x": 150,
+          "y": 90,
+          "zIndex": 0
+        },
+        "parameters": {
+          "backgroundColor": "rgba(255, 255, 255, 0.85)",
+          "borderColor": "rgb(230, 236, 242)"
+        }
+      },
+      "text_2": {
+        "type": "text",
+        "position": {
+          "x": 160,
+          "y": 90,
+          "zIndex": 2
+        },
         "parameters": {
           "fontSize": 14,
-          "text": "Case Segmentation",
+          "text": "Closed Deals",
+          "textColor": "rgb(22, 50, 92)"
+        }
+      },
+      "text_4": {
+        "type": "text",
+        "position": {
+          "x": 300,
+          "y": 90,
+          "zIndex": 3
+        },
+        "parameters": {
+          "fontSize": 14,
+          "text": "Pending Deals",
           "textAlignment": "left",
-          "textColor": "#091A3E"
-        },
-        "type": "text"
+          "textColor": "rgb(22, 50, 92)"
+        }
       },
-      "container_1": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
+      "chart_34": {
+        "type": "chart",
+        "position": {
+          "h": 200,
+          "w": 440,
+          "x": 0,
+          "y": 970,
+          "zIndex": 2
         },
-        "type": "container"
-      },
-      "container_2": {
         "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "chart_Customer_CSAT": {
-        "parameters": {
-          "fillArea": true,
-          "showPoints": true,
-          "legend": {
-            "showHeader": true,
-            "show": true,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "visualizationType": "time",
-          "missingValue": "connect",
-          "step": "Customer_CSAT",
-          "theme": "light",
-          "timeAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "predictiveLine": null
-          },
-          "exploreLink": true,
-          "title": {
-            "label": "Customer Satisfaction Score",
-            "align": "left",
-            "subtitleLabel": "Average over time"
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "showZero": true,
-          "axisMode": "multi",
-          "measureAxis2": {
-            "sqrtScale": false,
-            "showAxis": true,
-            "showTitle": true,
-            "title": "",
-            "referenceLine": null
-          }
-        },
-        "type": "chart"
-      },
-      "container_4": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_5": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_6": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_7": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_8": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "documentId": "",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "chart_Customer_Agents": {
-        "parameters": {
-          "autoFitMode": "keepLabels",
-          "showValues": true,
-          "legend": {
-            "showHeader": false,
-            "show": false,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "axisMode": "multi",
-          "visualizationType": "hbar",
-          "exploreLink": true,
-          "title": {
-            "label": "Who has helped this customer?",
-            "align": "left",
-            "subtitleLabel": "# of Cases"
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "measureAxis2": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": false,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
           "step": "Customer_Agents",
-          "theme": "light",
-          "dimensionAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "customSize": "auto"
-          },
-          "binValues": false,
-          "bins": {
-            "breakpoints": {
-              "low": 0,
-              "high": 100
-            },
-            "bands": {
-              "low": {
-                "label": "",
-                "color": "#B22222"
-              },
-              "medium": {
-                "label": "",
-                "color": "#ffa500"
-              },
-              "high": {
-                "label": "",
-                "color": "#008000"
-              }
-            }
-          }
-        },
-        "type": "chart"
+          "visualizationType": "hbar"
+        }
       },
-      "chart_Customer_Product": {
-        "parameters": {
-          "legend": {
-            "showHeader": false,
-            "show": true,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "showMeasureTitle": false,
-          "showTotal": false,
-          "visualizationType": "pie",
-          "step": "Customer_Product",
-          "theme": "light",
-          "exploreLink": true,
-          "title": {
-            "label": "By Product Family",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "inner": 70
+      "chart_33": {
+        "type": "chart",
+        "position": {
+          "h": 190,
+          "w": 440,
+          "x": 0,
+          "y": 740,
+          "zIndex": 2
         },
-        "type": "chart"
+        "parameters": {
+          "step": "Customer_CSAT",
+          "visualizationType": "time"
+        }
       },
-      "chart_Customer_Priority": {
-        "parameters": {
-          "autoFitMode": "fit",
-          "showValues": false,
-          "legend": {
-            "showHeader": false,
-            "show": true,
-            "position": "bottom-center",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "axisMode": "multi",
-          "visualizationType": "stackhbar",
-          "exploreLink": true,
-          "title": {
-            "label": "By Priority",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "measureAxis2": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "normalize": false,
-          "measureAxis1": {
-            "showTitle": false,
-            "showAxis": false,
-            "title": "",
-            "sqrtScale": false,
-            "referenceLine": null
-          },
-          "step": "Customer_Priority",
-          "theme": "light",
-          "dimensionAxis": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "customSize": "auto"
-          }
+      "text_desktop_only": {
+        "type": "text",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "zIndex": 0
         },
-        "type": "chart"
-      },
-      "chart_Customer_Reason": {
         "parameters": {
-          "showMeasureTitle": false,
-          "legend": {
-            "showHeader": false,
-            "show": true,
-            "position": "right-top",
-            "inside": false,
-            "customSize": "auto"
-          },
-          "showTotal": false,
-          "visualizationType": "pie",
-          "step": "Customer_Reason",
-          "theme": "light",
-          "exploreLink": true,
-          "title": {
-            "label": "By Case Reason",
-            "align": "left",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "inner": 70
-        },
-        "type": "chart"
+          "text": "This dashboard is designed \nfor desktop viewing only"
+        }
       }
     }
   }
