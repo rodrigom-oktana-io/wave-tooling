@@ -98,7 +98,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"CallDurationInSeconds\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day','CreatedDate_Hour');a = foreach a generate avg(avg('CallDurationInSeconds')) over([..] partition by all) as 'avg_CallDurationInSeconds';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"CallDurationInSeconds\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day','CreatedDate__c_Hour');a = foreach a generate avg(avg('CallDurationInSeconds')) over([..] partition by all) as 'avg_CallDurationInSeconds';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -122,7 +122,7 @@
           "visualizationType": "pie"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Case.Priority\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Case.Priority\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -144,7 +144,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"CallDurationInSeconds\",null,{\"display\":\"Duration\"}]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate_Hour');a = foreach a generate  'CreatedDate_Hour' as 'CreatedDate_Hour', avg(CallDurationInSeconds) as 'avg_CallDurationInSeconds';\",\"autoFilter\":true,\"groups\":[[\"CreatedDate_Hour\"]]}",
+          "query": "{\"measures\":[[\"avg\",\"CallDurationInSeconds\",null,{\"display\":\"Duration\"}]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate__c_Hour');a = foreach a generate  'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', avg(CallDurationInSeconds) as 'avg_CallDurationInSeconds';\",\"autoFilter\":true,\"groups\":[[\"CreatedDate__c_Hour\"]]}",
           "version": -1
         },
         "datasets": [
@@ -163,7 +163,7 @@
           "visualizationType": "time"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"]],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"]],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -176,11 +176,11 @@
         "isFacet": false,
         "isGlobal": false,
         "selectMode": "single",
-        "start": "[[{\"Metric\":\"((((count() / unique('CreatedDate_Day'))/3600) * avg('CallDurationInSeconds')) )  as 'avg_TrafficIntensity'\",\"compactGroup\":[\"avg\",\"TrafficIntensity\",null,{\"display\":\"Intensity\"}]}]]",
+        "start": "[[{\"Metric\":\"((((count() / unique('CreatedDate__c_Day'))/3600) * avg('CallDurationInSeconds')) )  as 'avg_TrafficIntensity'\",\"compactGroup\":[\"avg\",\"TrafficIntensity\",null,{\"display\":\"Intensity\"}]}]]",
         "type": "static",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Traffic Intensity\",\"value\":[{\"Metric\":\"((((count() / unique('CreatedDate_Day'))/3600) * avg('CallDurationInSeconds')) )  as 'avg_TrafficIntensity'\",\"compactGroup\":[\"avg\",\"TrafficIntensity\",null,{\"display\":\"Intensity\"}]}]}",
+          "{\"display\":\"Traffic Intensity\",\"value\":[{\"Metric\":\"((((count() / unique('CreatedDate__c_Day'))/3600) * avg('CallDurationInSeconds')) )  as 'avg_TrafficIntensity'\",\"compactGroup\":[\"avg\",\"TrafficIntensity\",null,{\"display\":\"Intensity\"}]}]}",
           "{\"display\":\"# of Agents\",\"value\":[{\"Metric\":\"unique('Owner.Id') as 'unique_Owner.Id'\",\"compactGroup\":[\"unique\",\"Owner.Id\",null,{\"display\":\"Agents\"}]}]}"
         ]
       },
@@ -236,7 +236,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CallType\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CallType\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -255,7 +255,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Call_Per_Day\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by ('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day');a = foreach a generate sum(count()) over([..] partition by all) / count() over ([..] partition by all) as 'avg_Call_Per_Day';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"Call_Per_Day\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by ('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day');a = foreach a generate sum(count()) over([..] partition by all) / count() over ([..] partition by all) as 'avg_Call_Per_Day';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -274,7 +274,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Agent_Occupancy\",null,{\"display\":\"Occupancy\"}]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by ('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day','CreatedDate_Hour');a = foreach a generate 'CreatedDate_Hour' as 'CreatedDate_Hour', (sum('CallDurationInSeconds')/ ( 36 * unique('Owner.Id'))) as 'sum_duration_Per_Agent';a = group a by 'CreatedDate_Hour';a = foreach a generate 'CreatedDate_Hour' as 'CreatedDate_Hour', avg('sum_duration_Per_Agent') as 'avg_Agent_Occupancy';\",\"autoFilter\":true,\"groups\":[[\"CreatedDate_Hour\"]]}",
+          "query": "{\"measures\":[[\"avg\",\"Agent_Occupancy\",null,{\"display\":\"Occupancy\"}]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by ('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day','CreatedDate__c_Hour');a = foreach a generate 'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', (sum('CallDurationInSeconds')/ ( 36 * unique('Owner.Id'))) as 'sum_duration_Per_Agent';a = group a by 'CreatedDate__c_Hour';a = foreach a generate 'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', avg('sum_duration_Per_Agent') as 'avg_Agent_Occupancy';\",\"autoFilter\":true,\"groups\":[[\"CreatedDate__c_Hour\"]]}",
           "version": -1
         },
         "datasets": [
@@ -287,16 +287,16 @@
         "isFacet": false,
         "isGlobal": false,
         "selectMode": "single",
-        "start": "[[{\"Current\":\"[\\\"60 days ago\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day')\",\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"Compact\":[[\"day\",-60],[\"day\",0]]}]]",
+        "start": "[[{\"Current\":\"[\\\"60 days ago\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day')\",\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"Compact\":[[\"day\",-60],[\"day\",0]]}]]",
         "type": "static",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"YTD\",\"value\":[{\"Current\":\"[\\\"current fiscal_year\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month')\",\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"Compact\":[[\"fiscal_year\",0],[\"fiscal_year\",0]]}]}",
-          "{\"display\":\"QTD\",\"value\":[{\"Current\":\"[\\\"current fiscal_quarter\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month')\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month')\",\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\"],\"Compact\":[[\"fiscal_quarter\",0],[\"fiscal_quarter\",0]]}]}",
-          "{\"display\":\"MTD\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 1 month\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 month\\\"..\\\"current day\\\"]\",\"CoGroup\":\"('CreatedDate_Week')\",\"Compact\":[[\"month\",0],[\"month\",0]],\"Current\":\"[\\\"current month\\\"..\\\"current month\\\"]\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateTask\":\"('TaskSubtype','CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateEvent\":\"('EventSubtype','CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"LastPeriodCompare\":\"[\\\"7 days ago - 1 week\\\"..\\\"current day - 1 week\\\"]\",\"LastYearCompare\":\"[\\\"7 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day')\",\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Week'] as 'CreatedDate_Year~~~CreatedDate_Week'\"}]}",
-          "{\"display\":\"Last 7 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 37 days\\\"..\\\"current day - 7 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 week\\\"..\\\"current day\\\"]\",\"CoGroup\":\"('CreatedDate_Month','CreatedDate_Day')\",\"Compact\":[[\"day\",-7],[\"month\",0]],\"Current\":\"[\\\"7 days ago\\\"..\\\"current day\\\"]\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateTask\":\"('TaskSubtype','CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateEvent\":\"('EventSubtype','CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day\",\"LastPeriodCompare\":\"[\\\"7 days ago - 1 week\\\"..\\\"current day - 1 week\\\"]\",\"LastYearCompare\":\"[\\\"7 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day')\",\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month']+\\\"~~~\\\"+ThisYear['CreatedDate_Day'] as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\"}]}",
-          "{\"display\":\"Last 30 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 180 days\\\"..\\\"current day\\\"]\",\"CoGroup\":\"('CreatedDate_Month')\",\"Compact\":[[\"day\",-30],[\"day\",0]],\"Current\":\"[\\\"30 days ago\\\"..\\\"current day\\\"]\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate_Year~~~CreatedDate_Month'\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateTask\":\"('TaskSubtype','CreatedDate_Year','CreatedDate_Month')\",\"GroupbyCreatedDateEvent\":\"('EventSubtype','CreatedDate_Year','CreatedDate_Month')\",\"Grouping\":\"CreatedDate_Year~~~CreatedDate_Month\",\"LastPeriodCompare\":\"[\\\"180 days ago - 180 days\\\"..\\\"current day - 180 days\\\"]\",\"LastYearCompare\":\"[\\\"180 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day')\",\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate_Month'] as 'CreatedDate_Year~~~CreatedDate_Month'\"}]}",
-          "{\"display\":\"Last 60 Days\",\"value\":[{\"Current\":\"[\\\"60 days ago\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GenerateCreatedDate\":\"'CreatedDate_Year'+\\\"~~~\\\"+'CreatedDate_Month'+\\\"~~~\\\"+'CreatedDate_Day' as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\",\"GroupbyCreatedDate\":\"('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\",\"GroupbyCreatedDateMetric\":\"('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day')\",\"Compact\":[[\"day\",-60],[\"day\",0]],\"compactGroup\":[\"CreatedDate_Year\",\"CreatedDate_Month\",\"CreatedDate_Day\"]}]}"
+          "{\"display\":\"YTD\",\"value\":[{\"Current\":\"[\\\"current fiscal_year\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month')\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month')\",\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"],\"Compact\":[[\"fiscal_year\",0],[\"fiscal_year\",0]]}]}",
+          "{\"display\":\"QTD\",\"value\":[{\"Current\":\"[\\\"current fiscal_quarter\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month')\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month')\",\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\"],\"Compact\":[[\"fiscal_quarter\",0],[\"fiscal_quarter\",0]]}]}",
+          "{\"display\":\"MTD\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 60 days\\\"..\\\"current day - 1 month\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 month\\\"..\\\"current day\\\"]\",\"CoGroup\":\"('CreatedDate__c_Week')\",\"Compact\":[[\"month\",0],[\"month\",0]],\"Current\":\"[\\\"current month\\\"..\\\"current month\\\"]\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cTask\":\"('TaskSubtype','CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cEvent\":\"('EventSubtype','CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"LastPeriodCompare\":\"[\\\"7 days ago - 1 week\\\"..\\\"current day - 1 week\\\"]\",\"LastYearCompare\":\"[\\\"7 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day')\",\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Week'] as 'CreatedDate__c_Year~~~CreatedDate__c_Week'\"}]}",
+          "{\"display\":\"Last 7 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 37 days\\\"..\\\"current day - 7 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 1 week\\\"..\\\"current day\\\"]\",\"CoGroup\":\"('CreatedDate__c_Month','CreatedDate__c_Day')\",\"Compact\":[[\"day\",-7],[\"month\",0]],\"Current\":\"[\\\"7 days ago\\\"..\\\"current day\\\"]\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month'+\\\"~~~\\\"+'ClosedDate_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cTask\":\"('TaskSubtype','CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cEvent\":\"('EventSubtype','CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day\",\"LastPeriodCompare\":\"[\\\"7 days ago - 1 week\\\"..\\\"current day - 1 week\\\"]\",\"LastYearCompare\":\"[\\\"7 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day')\",\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"week\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month']+\\\"~~~\\\"+ThisYear['CreatedDate__c_Day'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\"}]}",
+          "{\"display\":\"Last 30 Days\",\"value\":[{\"Backlog30DayClose\":\"[\\\"current day - 240 days\\\"..\\\"current day - 180 days\\\"]\",\"BacklogCompare\":\"[\\\"current day - 180 days\\\"..\\\"current day\\\"]\",\"CoGroup\":\"('CreatedDate__c_Month')\",\"Compact\":[[\"day\",-30],[\"day\",0]],\"Current\":\"[\\\"30 days ago\\\"..\\\"current day\\\"]\",\"GenerateClosedDate\":\"'ClosedDate_Year'+\\\"~~~\\\"+'ClosedDate_Month' as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyClosedDate\":\"('ClosedDate_Year','ClosedDate_Month')\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cTask\":\"('TaskSubtype','CreatedDate__c_Year','CreatedDate__c_Month')\",\"GroupbyCreatedDate__cEvent\":\"('EventSubtype','CreatedDate__c_Year','CreatedDate__c_Month')\",\"Grouping\":\"CreatedDate__c_Year~~~CreatedDate__c_Month\",\"LastPeriodCompare\":\"[\\\"180 days ago - 180 days\\\"..\\\"current day - 180 days\\\"]\",\"LastYearCompare\":\"[\\\"180 days ago - 1 year\\\"..\\\"current day - 1 year\\\"]\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day')\",\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"],\"filter\":\"month\",\"queryCogroupNew\":\"first(ThisYear['CreatedDate__c_Year'])+\\\"~~~\\\"+ThisYear['CreatedDate__c_Month'] as 'CreatedDate__c_Year~~~CreatedDate__c_Month'\"}]}",
+          "{\"display\":\"Last 60 Days\",\"value\":[{\"Current\":\"[\\\"60 days ago\\\"..\\\"current day\\\"]\",\"GenerateCoGroupDate\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCoGroupDate2\":\"'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GenerateCreatedDate__c\":\"'CreatedDate__c_Year'+\\\"~~~\\\"+'CreatedDate__c_Month'+\\\"~~~\\\"+'CreatedDate__c_Day' as 'CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day'\",\"GroupbyCreatedDate__c\":\"('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day')\",\"GroupbyCreatedDate__cMetric\":\"('CreatedDate__c_Year~~~CreatedDate__c_Month~~~CreatedDate__c_Day')\",\"Compact\":[[\"day\",-60],[\"day\",0]],\"compactGroup\":[\"CreatedDate__c_Year\",\"CreatedDate__c_Month\",\"CreatedDate__c_Day\"]}]}"
         ]
       },
       "filter_product": {
@@ -309,7 +309,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Calls\"}]],\"groups\":[\"Case.Product_Name__c\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Calls\"}]],\"groups\":[\"Case.Product_Name__c\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -347,7 +347,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Agent_Occupancy\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by ('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day','CreatedDate_Hour');a = foreach a generate 'CreatedDate_Hour' as 'CreatedDate_Hour', (sum('CallDurationInSeconds')/ ( 36 * unique('Owner.Id'))) as 'sum_duration_Per_Agent';a = group a by 'CreatedDate_Hour';a = foreach a generate 'CreatedDate_Hour' as 'CreatedDate_Hour', avg('sum_duration_Per_Agent') as 'avg_Agent_Occupancy';a = group a by all;a = foreach a generate avg('avg_Agent_Occupancy') as 'avg_Agent_Occupancy';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"Agent_Occupancy\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by ('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day','CreatedDate__c_Hour');a = foreach a generate 'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', (sum('CallDurationInSeconds')/ ( 36 * unique('Owner.Id'))) as 'sum_duration_Per_Agent';a = group a by 'CreatedDate__c_Hour';a = foreach a generate 'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', avg('sum_duration_Per_Agent') as 'avg_Agent_Occupancy';a = group a by all;a = foreach a generate avg('avg_Agent_Occupancy') as 'avg_Agent_Occupancy';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -366,7 +366,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[\"{{(value(field(selection(metric_toggle), 'compactGroup')))}}\"],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = group a by 'CreatedDate_Hour';a = foreach a generate 'CreatedDate_Hour' as 'CreatedDate_Hour', {{no_quote(value(field(selection(metric_toggle), 'Metric')))}} ;\",\"autoFilter\":true,\"groups\":[[\"CreatedDate_Hour\"]]}",
+          "query": "{\"measures\":[\"{{(value(field(selection(metric_toggle), 'compactGroup')))}}\"],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = group a by 'CreatedDate__c_Hour';a = foreach a generate 'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', {{no_quote(value(field(selection(metric_toggle), 'Metric')))}} ;\",\"autoFilter\":true,\"groups\":[[\"CreatedDate__c_Hour\"]]}",
           "version": -1
         },
         "datasets": [
@@ -407,7 +407,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"<ServiceActivity>\\\"; q = filter q by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate')))}};q = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCreatedDate')))}}, unique('Id') as 'dailyCalls',avg(unique('Id')) over ([..] partition by all ) as 'avg_dailyCalls',sum(1) over ([..] partition by all) as 'Counter';q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDateMetric')))}};q = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCoGroupDate2')))}}, power(first('dailyCalls') - (first('avg_dailyCalls')),2)/first('Counter') as 'sqr_diff_dailyCalls',first('avg_dailyCalls') as 'avg_dailyCalls',first('dailyCalls') as 'dailyCalls';q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDateMetric')))}};q = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCoGroupDate2')))}}, first('dailyCalls') as 'total_dailyCalls', first('avg_dailyCalls') as 'avg_dailyCalls',first('avg_dailyCalls') + (3 * sqrt(sum(sum('sqr_diff_dailyCalls')) over ([..] partition by all))) as 'l_UCL',first('avg_dailyCalls') - (3 * sqrt(sum(sum('sqr_diff_dailyCalls')) over ([..] partition by all))) as 'l_LCL';\",\"measures\":[[\"total\",\"dailyCalls\",null,{\"display\":\"Daily Calls\"}],[\"avg\",\"dailyCalls\",null,{\"display\":\"Average\"}],[\"l\",\"UCL\",null,{\"display\":\"UCL\"}],[\"l\",\"LCL\",null,{\"display\":\"LCL\"}]],\"autoFilter\":true,\"groups\":[\"{{(value(field(selection(Time_Selection), 'compactGroup')))}}\"]}",
+          "query": "{\"pigql\":\"q = load \\\"<ServiceActivity>\\\"; q = filter q by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate__c')))}};q = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCreatedDate__c')))}}, unique('Id') as 'dailyCalls',avg(unique('Id')) over ([..] partition by all ) as 'avg_dailyCalls',sum(1) over ([..] partition by all) as 'Counter';q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate__cMetric')))}};q = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCoGroupDate2')))}}, power(first('dailyCalls') - (first('avg_dailyCalls')),2)/first('Counter') as 'sqr_diff_dailyCalls',first('avg_dailyCalls') as 'avg_dailyCalls',first('dailyCalls') as 'dailyCalls';q = group q by {{no_quote(value(field(selection(Time_Selection), 'GroupbyCreatedDate__cMetric')))}};q = foreach q generate {{no_quote(value(field(selection(Time_Selection), 'GenerateCoGroupDate2')))}}, first('dailyCalls') as 'total_dailyCalls', first('avg_dailyCalls') as 'avg_dailyCalls',first('avg_dailyCalls') + (3 * sqrt(sum(sum('sqr_diff_dailyCalls')) over ([..] partition by all))) as 'l_UCL',first('avg_dailyCalls') - (3 * sqrt(sum(sum('sqr_diff_dailyCalls')) over ([..] partition by all))) as 'l_LCL';\",\"measures\":[[\"total\",\"dailyCalls\",null,{\"display\":\"Daily Calls\"}],[\"avg\",\"dailyCalls\",null,{\"display\":\"Average\"}],[\"l\",\"UCL\",null,{\"display\":\"UCL\"}],[\"l\",\"LCL\",null,{\"display\":\"LCL\"}]],\"autoFilter\":true,\"groups\":[\"{{(value(field(selection(Time_Selection), 'compactGroup')))}}\"]}",
           "version": -1
         },
         "datasets": [
@@ -426,7 +426,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Calls\"}]],\"groups\":[\"Case.Account.Name\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Calls\"}]],\"groups\":[\"Case.Account.Name\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -445,7 +445,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"CallsPerCase\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by all;a = foreach a generate count() / unique('Case.Id') as 'avg_CallsPerCase';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"CallsPerCase\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\"; a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}};a = group a by all;a = foreach a generate count() / unique('Case.Id') as 'avg_CallsPerCase';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -464,7 +464,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"TotalCalls\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by 'CreatedDate_Hour';a = foreach a generate  'CreatedDate_Hour' as 'CreatedDate_Hour', count() as 'sum_TotalCalls';\",\"autoFilter\":true,\"groups\":[[\"CreatedDate_Hour\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"TotalCalls\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by 'CreatedDate__c_Hour';a = foreach a generate  'CreatedDate__c_Hour' as 'CreatedDate__c_Hour', count() as 'sum_TotalCalls';\",\"autoFilter\":true,\"groups\":[[\"CreatedDate__c_Hour\"]]}",
           "version": -1
         },
         "datasets": [
@@ -483,7 +483,7 @@
           "visualizationType": "valuestable"
         },
         "query": {
-          "query": "{\"values\":[\"CallObject\",\"Case.CaseNumber\",\"Case.Account.Name\",\"Owner.Name\",\"CallDisposition\",\"CallDurationInSeconds\",\"CallType\",\"Case.Reason\",\"Case.Product_Name__c\",\"Case.Status\",\"Case.Type\",\"Priority\"],\"filters\":[[\"Case.IsClosed\",\"{{selection(filter_closed)}}\"],[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"values\":[\"CallObject\",\"Case.CaseNumber\",\"Case.Account.Name\",\"Owner.Name\",\"CallDisposition\",\"CallDurationInSeconds\",\"CallType\",\"Case.Reason\",\"Case.Product_Name__c\",\"Case.Status\",\"Case.Type\",\"Priority\"],\"filters\":[[\"Case.IsClosed\",\"{{selection(filter_closed)}}\"],[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -502,7 +502,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -522,7 +522,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"RecordType.Name\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"RecordType.Name\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -545,7 +545,7 @@
           "visualizationType": "pie"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Case.Type_of_Support__c\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Case.Type_of_Support__c\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -583,7 +583,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Call_Per_Hour\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day');a = foreach a generate count() / ( unique('CreatedDate_Hour') *  unique('CreatedDate_Day'))  as 'avg_Call_Per_Hour';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"Call_Per_Hour\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day');a = foreach a generate count() / ( unique('CreatedDate__c_Hour') *  unique('CreatedDate__c_Day'))  as 'avg_Call_Per_Hour';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
@@ -602,7 +602,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CallDisposition\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CallDisposition\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]]}",
           "version": -1
         },
         "datasets": [
@@ -621,7 +621,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Calls\"}]],\"groups\":[\"Case.Reason\"],\"filters\":[[\"CreatedDate\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Calls\"}]],\"groups\":[\"Case.Reason\"],\"filters\":[[\"CreatedDate__c\",[\"{{value(field(selection(Time_Selection), 'Compact'))}}\"]]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
@@ -640,7 +640,7 @@
           "visualizationType": "vbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Call_Per_Agent\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day');a = foreach a generate count() / unique('Owner.Name') as 'avg_Call_Per_Agent';a = group a by all;a = foreach a generate avg('avg_Call_Per_Agent')  as 'avg_Call_Per_Agent';\",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"avg\",\"Call_Per_Agent\"]],\"pigql\":\"a = load \\\"<ServiceActivity>\\\";a = filter a by date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day') in {{no_quote(value(field(selection(Time_Selection), 'Current')))}}; a = group a by ('CreatedDate__c_Year','CreatedDate__c_Month','CreatedDate__c_Day');a = foreach a generate count() / unique('Owner.Name') as 'avg_Call_Per_Agent';a = group a by all;a = foreach a generate avg('avg_Call_Per_Agent')  as 'avg_Call_Per_Agent';\",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
