@@ -1070,27 +1070,27 @@
             "computedFields":[
                 {
                     "name":"NewStatus",
-                    "saqlExpression":"case when 'Field__c' == \"created\" then \"Created\" when 'Field__c' == \"Status\" then 'NewValue' else\"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"created\" then \"Created\" when 'Field__c' == \"Status\" then 'NewValue__c' else\"NA\" end ",
                     "label":"New Status",
                     "type":"Text"
                 },
                 {
                     "name":"OldStatus",
-                    "saqlExpression":"case when 'Field__c' == \"closed\" then \"Closed\" when 'Field__c' == \"Status\" then 'OldValue' else \"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"closed\" then \"Closed\" when 'Field__c' == \"Status\" then 'OldValue__c' else \"NA\" end ",
                     "label":"Old Status",
                     "type":"Text"
                 },
                 {
                     "defaultValue":"N/A",
                     "name":"NewOwner",
-                    "saqlExpression":"case when 'Field__c' == \"Owner\" then 'NewValue' else\"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"Owner\" then 'NewValue__c' else\"NA\" end ",
                     "label":"New Owner",
                     "type":"Text"
                 },
                 {
                     "defaultValue":"N/A",
                     "name":"OldOwner",
-                    "saqlExpression":"case when 'Field__c' == \"Owner\" then 'OldValue' else \"NA\" end ",
+                    "saqlExpression":"case when 'Field__c' == \"Owner\" then 'OldValue__c' else \"NA\" end ",
                     "label":"Old Owner",
                     "type":"Text"
                 },
