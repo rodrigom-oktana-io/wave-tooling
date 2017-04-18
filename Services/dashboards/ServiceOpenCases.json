@@ -209,7 +209,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}],[\"sum\",\"Amount\",null,{\"display\":\"Sum of Amount\"}]],\"pigql\":\"q = load \\\"ServiceCase\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; r = load \\\"ServiceOpportunity1\\\"; r = filter r by 'ForecastCategory' in {{selection(filter_forecast_category)}}; s = group q by 'Account.Name' left, r by 'Account.Name'; s = foreach s generate q.'Account.Name' as 'Account.Name', count(q) as 'count', coalesce(sum(r.'Amount'),0) as 'sum_Amount'; s = order s by {{ single_quote(value(selection(Field_Select))) }} {{ no_quote(value(field(selection(Order_Select),'saql_step_value'))) }};\",\"autoFilter\":true,\"groups\":[\"Account.Name\"],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"]],\"order\":[[-1,{\"ascending\":\"{{ value(field(selection(Order_Select),'compact_step_value')) }}\"}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}],[\"sum\",\"Amount\",null,{\"display\":\"Sum of Amount\"}]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; r = load \\\"<ServiceOpportunity>\\\"; r = filter r by 'ForecastCategory' in {{selection(filter_forecast_category)}}; s = group q by 'Account.Name' left, r by 'Account.Name'; s = foreach s generate q.'Account.Name' as 'Account.Name', count(q) as 'count', coalesce(sum(r.'Amount'),0) as 'sum_Amount'; s = order s by {{ single_quote(value(selection(Field_Select))) }} {{ no_quote(value(field(selection(Order_Select),'saql_step_value'))) }};\",\"autoFilter\":true,\"groups\":[\"Account.Name\"],\"filters\":[[\"IsClosed\",[\"false\"],\"in\"]],\"order\":[[-1,{\"ascending\":\"{{ value(field(selection(Order_Select),'compact_step_value')) }}\"}]]}",
           "version": -1
         },
         "datasets": [
@@ -319,7 +319,7 @@
           "visualizationType": "scatter"
         },
         "query": {
-          "query": "{\"measures\":[[\"last\",\"Duration__c\",null,{\"display\":\"Days Since Last Activity\"}],[\"sum\",\"{{(value(selection(Static_Duration)))}}\",null,{\"display\":\"Duration\"}]],\"pigql\":\"q = load \\\"ServiceCase\\\";q = filter q by 'IsClosed' ==\\\"false\\\";q = group q by 'Id'; q = foreach q generate 'Id' as 'Id', sum('{{no_quote(value(selection(Static_Duration)))}}') as 'sum_{{no_quote(value(selection(Static_Duration)))}}', sum('sum_last_activity') as 'last_Duration__c';q = order q by ('sum_{{no_quote(value(selection(Static_Duration)))}}' desc,'last_Duration__c' desc);\",\"autoFilter\":true,\"groups\":[\"Id\"]}",
+          "query": "{\"measures\":[[\"last\",\"Duration__c\",null,{\"display\":\"Days Since Last Activity\"}],[\"sum\",\"{{(value(selection(Static_Duration)))}}\",null,{\"display\":\"Duration\"}]],\"pigql\":\"q = load \\\"<ServiceCase>\\\";q = filter q by 'IsClosed' ==\\\"false\\\";q = group q by 'Id'; q = foreach q generate 'Id' as 'Id', sum('{{no_quote(value(selection(Static_Duration)))}}') as 'sum_{{no_quote(value(selection(Static_Duration)))}}', sum('sum_last_activity') as 'last_Duration__c';q = order q by ('sum_{{no_quote(value(selection(Static_Duration)))}}' desc,'last_Duration__c' desc);\",\"autoFilter\":true,\"groups\":[\"Id\"]}",
           "version": -1
         },
         "datasets": [
@@ -493,7 +493,7 @@
           "visualizationType": "pie"
         },
         "query": {
-          "query": "{\"measures\":[[\"perc\",\"Percent\",null,{\"display\":\"% Escalated\"}]],\"pigql\":\"q = load \\\"ServiceCase\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; q = group q by 'IsEscalated'; q = foreach q generate 'IsEscalated' as 'IsEscalated', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'IsEscalated' == \\\"true\\\"; \",\"autoFilter\":true}",
+          "query": "{\"measures\":[[\"perc\",\"Percent\",null,{\"display\":\"% Escalated\"}]],\"pigql\":\"q = load \\\"<ServiceCase>\\\"; q = filter q by 'IsClosed' == \\\"false\\\"; q = group q by 'IsEscalated'; q = foreach q generate 'IsEscalated' as 'IsEscalated', count() as 'count', (count()) / sum(count()) over([..] partition by all)*100 as 'perc_Percent'; q = filter q by 'IsEscalated' == \\\"true\\\"; \",\"autoFilter\":true}",
           "version": -1
         },
         "datasets": [
