@@ -1,574 +1,578 @@
 {
-  "label": "Service Agent Sidebar By Customer",
-  "folder": {
-    "id": "<folderId>"
-  },
-  "state": {
-    "dataSourceLinks": [],
-    "gridLayouts": [],
-    "layouts": [
-      {
-        "device": "default",
-        "pages": [
-          {
-            "rows": [
-              "text_desktop_only {colspan=2, rowspan=5}"
-            ]
-          }
-        ],
-        "version": 1
-      }
-    ],
-    "steps": {
-      "Customer_Agents": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Owner.Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "avg_duration_over_time": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "time"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"avg\",\"Duration__c\"]],\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"]]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "AccountId_Select": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"AccountId\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Customer_Sum_Open_Opportunities": {
-        "isFacet": false,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"AccountId\",\"{{selection(AccountId_Select)}}\"],[\"IsClosed\",\"false\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceOpportunity>"
-          }
-        ]
-      },
-      "IsClosed_Select": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "start": "[\"true\"]",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"IsClosed\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Customer_Reason": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "pie"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Reason\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Customer_CSAT": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "time"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"avg\",\"CSAT\"]],\"autoFilter\":true,\"groups\":[[\"ClosedDate_Year\",\"ClosedDate_Month\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Customer_Product": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "pie"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Product_Name__c\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Customer_Priority": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "pie"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Priority\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "CreatedDate__c_Select": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "start": "[[[\"year\",-1],[\"year\",0]]]",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate__c_Year\"]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      },
-      "Customer_Sum_Won_Opportunities": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"autoFilter\":true,\"filters\":[[\"AccountId\",\"{{selection(AccountId_Select)}}\"],[\"IsWon\",\"true\"]]}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceOpportunity>"
-          }
-        ]
-      },
-      "Customer_Sum_Cases": {
-        "isFacet": true,
-        "isGlobal": false,
-        "selectMode": "single",
-        "type": "aggregate",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "visualizationType": "hbar"
-        },
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true}",
-          "version": -1
-        },
-        "datasets": [
-          {
-            "name": "<ServiceCase>"
-          }
-        ]
-      }
+    "label":"Service Agent Sidebar By Customer",
+    "folder":{
+        "id":"<folderId>"
     },
-    "widgets": {
-      "number_22": {
-        "type": "number",
-        "position": {
-          "w": 130,
-          "x": 300,
-          "y": 120,
-          "zIndex": 2
+    "state":{
+        "dataSourceLinks":[
+
+        ],
+        "gridLayouts":[
+
+        ],
+        "layouts":[
+            {
+                "device":"default",
+                "pages":[
+                    {
+                        "rows":[
+                            "text_desktop_only {colspan=2, rowspan=5}"
+                        ]
+                    }
+                ],
+                "version":1
+            }
+        ],
+        "steps":{
+            "Customer_Agents":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Owner.Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "avg_duration_over_time":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"time"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"avg\",\"Duration__c\"]],\"groups\":[[\"ClosedDate__c_Year\",\"ClosedDate__c_Month\"]],\"filters\":[[\"IsClosed\",[\"true\"]]]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "AccountId_Select":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"AccountId\"]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "Customer_Sum_Open_Opportunities":{
+                "isFacet":false,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"AccountId\",\"{{selection(AccountId_Select)}}\"],[\"IsClosed\",\"false\"]]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceOpportunity>"
+                    }
+                ]
+            },
+            "IsClosed_Select":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "start":"[\"true\"]",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"IsClosed\"]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "Customer_Reason":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"pie"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Reason\"]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "Customer_CSAT":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"time"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"avg\",\"CSAT\"]],\"autoFilter\":true,\"groups\":[[\"ClosedDate__c_Year\",\"ClosedDate__c_Month\"]]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "Customer_Product":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"pie"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Product_Name__c\"]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "Customer_Priority":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"pie"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\",null,{\"display\":\"Number of Cases\"}]],\"autoFilter\":true,\"groups\":[\"Priority\"]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "CreatedDate__c_Select":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "start":"[[[\"year\",-1],[\"year\",0]]]",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CreatedDate__c_Year\"]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            },
+            "Customer_Sum_Won_Opportunities":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"sum\",\"Amount\"]],\"autoFilter\":true,\"filters\":[[\"AccountId\",\"{{selection(AccountId_Select)}}\"],[\"IsWon\",\"true\"]]}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceOpportunity>"
+                    }
+                ]
+            },
+            "Customer_Sum_Cases":{
+                "isFacet":true,
+                "isGlobal":false,
+                "selectMode":"single",
+                "type":"aggregate",
+                "useGlobal":true,
+                "visualizationParameters":{
+                    "visualizationType":"hbar"
+                },
+                "query":{
+                    "query":"{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true}",
+                    "version":-1
+                },
+                "datasets":[
+                    {
+                        "name":"<ServiceCase>"
+                    }
+                ]
+            }
         },
-        "parameters": {
-          "compact": true,
-          "fontSize": 32,
-          "measureField": "sum_Amount",
-          "step": "Customer_Sum_Open_Opportunities",
-          "textAlignment": "center",
-          "textColor": "rgb(41, 71, 102)",
-          "title": ""
+        "widgets":{
+            "number_22":{
+                "type":"number",
+                "position":{
+                    "w":130,
+                    "x":300,
+                    "y":120,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "compact":true,
+                    "fontSize":32,
+                    "measureField":"sum_Amount",
+                    "step":"Customer_Sum_Open_Opportunities",
+                    "textAlignment":"center",
+                    "textColor":"rgb(41, 71, 102)",
+                    "title":""
+                }
+            },
+            "number_21":{
+                "type":"number",
+                "position":{
+                    "w":130,
+                    "x":160,
+                    "y":120,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "compact":true,
+                    "fontSize":32,
+                    "measureField":"sum_Amount",
+                    "step":"Customer_Sum_Won_Opportunities",
+                    "textAlignment":"center",
+                    "textColor":"rgb(41, 71, 102)",
+                    "title":""
+                }
+            },
+            "buttongroup_31b":{
+                "type":"pillbox",
+                "position":{
+                    "w":130,
+                    "x":260,
+                    "y":10,
+                    "zIndex":29
+                },
+                "parameters":{
+                    "step":"IsClosed_Select",
+                    "title":"Cases"
+                }
+            },
+            "box_1":{
+                "type":"box",
+                "position":{
+                    "h":1180,
+                    "w":440,
+                    "x":0,
+                    "y":0,
+                    "zIndex":0
+                },
+                "parameters":{
+                    "backgroundColor":"rgb(255, 255, 255)",
+                    "borderColor":"rgb(230, 236, 242)"
+                }
+            },
+            "AccountIdfilter_1":{
+                "type":"listselector",
+                "position":{
+                    "h":50,
+                    "w":250,
+                    "x":0,
+                    "y":0,
+                    "zIndex":-1
+                },
+                "parameters":{
+                    "expanded":false,
+                    "measureField":"count",
+                    "step":"AccountId_Select"
+                }
+            },
+            "chart_32a":{
+                "type":"chart",
+                "position":{
+                    "h":150,
+                    "w":420,
+                    "x":0,
+                    "y":230,
+                    "zIndex":30
+                },
+                "parameters":{
+                    "legend":true,
+                    "step":"Customer_Product",
+                    "visualizationType":"pie"
+                }
+            },
+            "box_3":{
+                "type":"box",
+                "position":{
+                    "h":240,
+                    "w":440,
+                    "x":0,
+                    "y":690,
+                    "zIndex":1
+                },
+                "parameters":{
+                    "backgroundColor":"rgb(255, 255, 255)",
+                    "borderColor":"rgb(230, 236, 242)"
+                }
+            },
+            "chart_32b":{
+                "type":"chart",
+                "position":{
+                    "h":150,
+                    "w":420,
+                    "x":0,
+                    "y":380,
+                    "zIndex":31
+                },
+                "parameters":{
+                    "legend":true,
+                    "step":"Customer_Reason",
+                    "visualizationType":"pie"
+                }
+            },
+            "text_1":{
+                "type":"text",
+                "position":{
+                    "x":0,
+                    "y":90,
+                    "zIndex":1
+                },
+                "parameters":{
+                    "fontSize":16,
+                    "text":"Total Cases",
+                    "textAlignment":"left",
+                    "textColor":"rgb(22, 50, 92)"
+                }
+            },
+            "box_2":{
+                "type":"box",
+                "position":{
+                    "h":90,
+                    "w":440,
+                    "x":0,
+                    "y":0,
+                    "zIndex":1
+                },
+                "parameters":{
+                    "backgroundColor":"rgb(255, 255, 255)",
+                    "borderColor":"rgb(230, 236, 242)"
+                }
+            },
+            "chart_32c":{
+                "type":"chart",
+                "position":{
+                    "h":150,
+                    "w":420,
+                    "x":0,
+                    "y":530,
+                    "zIndex":32
+                },
+                "parameters":{
+                    "legend":true,
+                    "step":"Customer_Priority",
+                    "visualizationType":"pie"
+                }
+            },
+            "number_31c":{
+                "type":"number",
+                "position":{
+                    "w":140,
+                    "x":0,
+                    "y":120,
+                    "zIndex":33
+                },
+                "parameters":{
+                    "fontSize":32,
+                    "measureField":"count",
+                    "step":"Customer_Sum_Cases",
+                    "textColor":"rgb(41, 71, 102)",
+                    "title":""
+                }
+            },
+            "text_34":{
+                "type":"text",
+                "position":{
+                    "x":0,
+                    "y":940,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "fontSize":16,
+                    "text":"Who has helped this customer ?",
+                    "textAlignment":"left",
+                    "textColor":"rgb(41, 71, 102)"
+                }
+            },
+            "datefilter_1":{
+                "type":"dateselector",
+                "position":{
+                    "h":50,
+                    "w":150,
+                    "x":20,
+                    "y":10,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "expanded":false,
+                    "step":"CreatedDate__c_Select"
+                }
+            },
+            "text_33":{
+                "type":"text",
+                "position":{
+                    "x":0,
+                    "y":700,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "fontSize":16,
+                    "text":"CSAT Overview",
+                    "textAlignment":"left",
+                    "textColor":"rgb(41, 71, 102)"
+                }
+            },
+            "text_3":{
+                "type":"text",
+                "position":{
+                    "x":0,
+                    "y":190,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "fontSize":16,
+                    "text":"Customer Case Segmentation",
+                    "textAlignment":"left",
+                    "textColor":"rgb(22, 50, 92)"
+                }
+            },
+            "box_4":{
+                "type":"box",
+                "position":{
+                    "h":80,
+                    "w":290,
+                    "x":150,
+                    "y":90,
+                    "zIndex":0
+                },
+                "parameters":{
+                    "backgroundColor":"rgba(255, 255, 255, 0.85)",
+                    "borderColor":"rgb(230, 236, 242)"
+                }
+            },
+            "text_2":{
+                "type":"text",
+                "position":{
+                    "x":160,
+                    "y":90,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "fontSize":14,
+                    "text":"Closed Deals",
+                    "textColor":"rgb(22, 50, 92)"
+                }
+            },
+            "text_4":{
+                "type":"text",
+                "position":{
+                    "x":300,
+                    "y":90,
+                    "zIndex":3
+                },
+                "parameters":{
+                    "fontSize":14,
+                    "text":"Pending Deals",
+                    "textAlignment":"left",
+                    "textColor":"rgb(22, 50, 92)"
+                }
+            },
+            "chart_34":{
+                "type":"chart",
+                "position":{
+                    "h":200,
+                    "w":440,
+                    "x":0,
+                    "y":970,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "step":"Customer_Agents",
+                    "visualizationType":"hbar"
+                }
+            },
+            "chart_33":{
+                "type":"chart",
+                "position":{
+                    "h":190,
+                    "w":440,
+                    "x":0,
+                    "y":740,
+                    "zIndex":2
+                },
+                "parameters":{
+                    "step":"Customer_CSAT",
+                    "visualizationType":"time"
+                }
+            },
+            "text_desktop_only":{
+                "type":"text",
+                "position":{
+                    "x":0,
+                    "y":0,
+                    "zIndex":0
+                },
+                "parameters":{
+                    "text":"This dashboard is designed \nfor desktop viewing only"
+                }
+            }
         }
-      },
-      "number_21": {
-        "type": "number",
-        "position": {
-          "w": 130,
-          "x": 160,
-          "y": 120,
-          "zIndex": 2
-        },
-        "parameters": {
-          "compact": true,
-          "fontSize": 32,
-          "measureField": "sum_Amount",
-          "step": "Customer_Sum_Won_Opportunities",
-          "textAlignment": "center",
-          "textColor": "rgb(41, 71, 102)",
-          "title": ""
-        }
-      },
-      "buttongroup_31b": {
-        "type": "pillbox",
-        "position": {
-          "w": 130,
-          "x": 260,
-          "y": 10,
-          "zIndex": 29
-        },
-        "parameters": {
-          "step": "IsClosed_Select",
-          "title": "Cases"
-        }
-      },
-      "box_1": {
-        "type": "box",
-        "position": {
-          "h": 1180,
-          "w": 440,
-          "x": 0,
-          "y": 0,
-          "zIndex": 0
-        },
-        "parameters": {
-          "backgroundColor": "rgb(255, 255, 255)",
-          "borderColor": "rgb(230, 236, 242)"
-        }
-      },
-      "AccountIdfilter_1": {
-        "type": "listselector",
-        "position": {
-          "h": 50,
-          "w": 250,
-          "x": 0,
-          "y": 0,
-          "zIndex": -1
-        },
-        "parameters": {
-          "expanded": false,
-          "measureField": "count",
-          "step": "AccountId_Select"
-        }
-      },
-      "chart_32a": {
-        "type": "chart",
-        "position": {
-          "h": 150,
-          "w": 420,
-          "x": 0,
-          "y": 230,
-          "zIndex": 30
-        },
-        "parameters": {
-          "legend": true,
-          "step": "Customer_Product",
-          "visualizationType": "pie"
-        }
-      },
-      "box_3": {
-        "type": "box",
-        "position": {
-          "h": 240,
-          "w": 440,
-          "x": 0,
-          "y": 690,
-          "zIndex": 1
-        },
-        "parameters": {
-          "backgroundColor": "rgb(255, 255, 255)",
-          "borderColor": "rgb(230, 236, 242)"
-        }
-      },
-      "chart_32b": {
-        "type": "chart",
-        "position": {
-          "h": 150,
-          "w": 420,
-          "x": 0,
-          "y": 380,
-          "zIndex": 31
-        },
-        "parameters": {
-          "legend": true,
-          "step": "Customer_Reason",
-          "visualizationType": "pie"
-        }
-      },
-      "text_1": {
-        "type": "text",
-        "position": {
-          "x": 0,
-          "y": 90,
-          "zIndex": 1
-        },
-        "parameters": {
-          "fontSize": 16,
-          "text": "Total Cases",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        }
-      },
-      "box_2": {
-        "type": "box",
-        "position": {
-          "h": 90,
-          "w": 440,
-          "x": 0,
-          "y": 0,
-          "zIndex": 1
-        },
-        "parameters": {
-          "backgroundColor": "rgb(255, 255, 255)",
-          "borderColor": "rgb(230, 236, 242)"
-        }
-      },
-      "chart_32c": {
-        "type": "chart",
-        "position": {
-          "h": 150,
-          "w": 420,
-          "x": 0,
-          "y": 530,
-          "zIndex": 32
-        },
-        "parameters": {
-          "legend": true,
-          "step": "Customer_Priority",
-          "visualizationType": "pie"
-        }
-      },
-      "number_31c": {
-        "type": "number",
-        "position": {
-          "w": 140,
-          "x": 0,
-          "y": 120,
-          "zIndex": 33
-        },
-        "parameters": {
-          "fontSize": 32,
-          "measureField": "count",
-          "step": "Customer_Sum_Cases",
-          "textColor": "rgb(41, 71, 102)",
-          "title": ""
-        }
-      },
-      "text_34": {
-        "type": "text",
-        "position": {
-          "x": 0,
-          "y": 940,
-          "zIndex": 2
-        },
-        "parameters": {
-          "fontSize": 16,
-          "text": "Who has helped this customer ?",
-          "textAlignment": "left",
-          "textColor": "rgb(41, 71, 102)"
-        }
-      },
-      "datefilter_1": {
-        "type": "dateselector",
-        "position": {
-          "h": 50,
-          "w": 150,
-          "x": 20,
-          "y": 10,
-          "zIndex": 2
-        },
-        "parameters": {
-          "expanded": false,
-          "step": "CreatedDate__c_Select"
-        }
-      },
-      "text_33": {
-        "type": "text",
-        "position": {
-          "x": 0,
-          "y": 700,
-          "zIndex": 2
-        },
-        "parameters": {
-          "fontSize": 16,
-          "text": "CSAT Overview",
-          "textAlignment": "left",
-          "textColor": "rgb(41, 71, 102)"
-        }
-      },
-      "text_3": {
-        "type": "text",
-        "position": {
-          "x": 0,
-          "y": 190,
-          "zIndex": 2
-        },
-        "parameters": {
-          "fontSize": 16,
-          "text": "Customer Case Segmentation",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        }
-      },
-      "box_4": {
-        "type": "box",
-        "position": {
-          "h": 80,
-          "w": 290,
-          "x": 150,
-          "y": 90,
-          "zIndex": 0
-        },
-        "parameters": {
-          "backgroundColor": "rgba(255, 255, 255, 0.85)",
-          "borderColor": "rgb(230, 236, 242)"
-        }
-      },
-      "text_2": {
-        "type": "text",
-        "position": {
-          "x": 160,
-          "y": 90,
-          "zIndex": 2
-        },
-        "parameters": {
-          "fontSize": 14,
-          "text": "Closed Deals",
-          "textColor": "rgb(22, 50, 92)"
-        }
-      },
-      "text_4": {
-        "type": "text",
-        "position": {
-          "x": 300,
-          "y": 90,
-          "zIndex": 3
-        },
-        "parameters": {
-          "fontSize": 14,
-          "text": "Pending Deals",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        }
-      },
-      "chart_34": {
-        "type": "chart",
-        "position": {
-          "h": 200,
-          "w": 440,
-          "x": 0,
-          "y": 970,
-          "zIndex": 2
-        },
-        "parameters": {
-          "step": "Customer_Agents",
-          "visualizationType": "hbar"
-        }
-      },
-      "chart_33": {
-        "type": "chart",
-        "position": {
-          "h": 190,
-          "w": 440,
-          "x": 0,
-          "y": 740,
-          "zIndex": 2
-        },
-        "parameters": {
-          "step": "Customer_CSAT",
-          "visualizationType": "time"
-        }
-      },
-      "text_desktop_only": {
-        "type": "text",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "zIndex": 0
-        },
-        "parameters": {
-          "text": "This dashboard is designed \nfor desktop viewing only"
-        }
-      }
     }
-  }
 }
