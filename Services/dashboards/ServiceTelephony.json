@@ -1634,7 +1634,7 @@
           "zIndex": 6
         },
         "parameters": {
-          "destination": "0FKB00000005oDqOAI",
+          "destination": "<ServiceOverview>",
           "text": "Back to Overview",
           "textColor": "rgb(45, 147, 237)",
           "visualizationType": "hbar",
