@@ -134,7 +134,7 @@
           }
         ]
       },
-      "CreatedDate_Select": {
+      "CreatedDate__c_Select": {
         "isFacet": true,
         "isGlobal": false,
         "selectMode": "single",
@@ -145,7 +145,7 @@
           "visualizationType": "hbar"
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"CreatedDate_Year\"]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"autoFilter\":true,\"groups\":[\"CreatedDate__c_Year\"]}",
           "version": -1
         },
         "datasets": [
@@ -270,7 +270,7 @@
         },
         "parameters": {
           "expanded": false,
-          "step": "CreatedDate_Select"
+          "step": "CreatedDate__c_Select"
         }
       },
       "dimfilter_2": {
