@@ -459,7 +459,7 @@
           "zIndex": 17
         },
         "parameters": {
-          "destination": "<ServiceCustomerSatisfaction>",
+          "destination": "<ServiceOverview>",
           "text": "Back to Overview",
           "textColor": "rgb(45, 147, 237)",
           "visualizationType": "hbar",
