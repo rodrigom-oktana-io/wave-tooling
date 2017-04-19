@@ -22,6 +22,9 @@
 					"targetSObjectLookupField" : "Name",
 					"foreignKeyField" : "ProfileId"
 				}
+			],
+			"dateFieldsToShift": [
+				"CreatedDate"
 			]
 		}
 	],
