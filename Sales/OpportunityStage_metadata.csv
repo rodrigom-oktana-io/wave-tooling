@@ -8,4 +8,4 @@ Is Active,IsActive__c,Checkbox,,0,0,0,0,FALSE,FALSE
 Is Closed,IsClosed__c,Checkbox,,0,0,0,0,FALSE,FALSE
 Is Won,IsWon__c,Checkbox,,0,0,0,0,FALSE,FALSE
 Master Label,MasterLabel__c,Text,,255,0,0,,FALSE,FALSE
-Sort Order,SortOrder__c,Number,,0,0,0,,FALSE,FALSE
+Sort Order,SortOrder__c,Number,,0,18,0,,FALSE,FALSE
