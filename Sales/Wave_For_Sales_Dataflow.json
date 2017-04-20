@@ -89,7 +89,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate__c"
+          "name": "CreatedDate"
         },
         {
           "fiscalMonthOffset": 0,
@@ -210,7 +210,7 @@
         "LeadSource",
         "ForecastCategory",
         "ForecastCategoryName",
-        "CreatedDate__c",
+        "CreatedDate",
         "AccountId",
         "OwnerId",
         "Owner.Name",
@@ -357,12 +357,12 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate__c"
+          "name": "CreatedDate"
         },
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "ClosedDate__c"
+          "name": "ClosedDate"
         },
         {
           "name": "IsEscalated"
@@ -377,12 +377,12 @@
       "object": "Case"
     }
   },
-  "Extract_OpportunityStage__c": {
+  "Extract_OpportunityStage": {
     "action": "sfdcDigest",
     "parameters": {
       "fields": [
         {
-          "name": "IsClosed"
+          "name": "IsClosed__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -390,16 +390,16 @@
           "name": "CreatedDate__c"
         },
         {
-          "name": "Description"
+          "name": "Description__c"
         },
         {
-          "name": "ForecastCategory"
+          "name": "ForecastCategory__c"
         },
         {
-          "name": "ForecastCategoryName"
+          "name": "ForecastCategoryName__c"
         },
         {
-          "name": "IsActive"
+          "name": "IsActive__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -407,34 +407,134 @@
           "name": "LastModifiedDate"
         },
         {
-          "name": "MasterLabel"
+          "name": "MasterLabel__c"
         },
         {
           "name": "Id"
         },
         {
-          "name": "DefaultProbability"
+          "name": "DefaultProbability__c"
         },
         {
-          "name": "SortOrder"
+          "name": "SortOrder__c"
         },
         {
           "name": "SystemModstamp"
         },
         {
-          "name": "IsWon"
+          "name": "IsWon__c"
         }
       ],
       "object": "OpportunityStage__c"
     }
   },
-  "Join_OpportunityStage__c_Previous_with_Opp": {
+  "rename_OpportunityStageFields": {
+    "action": "computeExpression",
+    "parameters": {
+      "mergeWithSource": false,
+      "computedFields": [
+        {
+          "name": "IsClosed",
+          "type": "Text",
+          "label": "IsClosed",
+          "saqlExpression": "IsClosed__c",
+          "default": ""
+        },
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        },
+        {
+          "name": "Description",
+          "type": "Text",
+          "label": "Description",
+          "saqlExpression": "Description__c",
+          "default": ""
+        },
+        {
+          "name": "ForecastCategory",
+          "type": "Text",
+          "label": "ForecastCategory",
+          "saqlExpression": "ForecastCategory__c",
+          "default": ""
+        },
+        {
+          "name": "ForecastCategoryName",
+          "type": "Text",
+          "label": "ForecastCategoryName",
+          "saqlExpression": "ForecastCategoryName__c",
+          "default": ""
+        },
+        {
+          "name": "IsActive",
+          "type": "Text",
+          "label": "IsActive",
+          "saqlExpression": "IsActive__c",
+          "default": ""
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "Date",
+          "label": "LastModifiedDate",
+          "saqlExpression": "LastModifiedDate",
+          "default": ""
+        },
+        {
+          "name": "MasterLabel",
+          "type": "Text",
+          "label": "MasterLabel",
+          "saqlExpression": "MasterLabel__c",
+          "default": ""
+        },
+        {
+          "name": "Id",
+          "type": "Text",
+          "label": "Id",
+          "saqlExpression": "Id",
+          "default": ""
+        },
+        {
+          "name": "DefaultProbability",
+          "type": "Numeric",
+          "label": "DefaultProbability",
+          "saqlExpression": "DefaultProbability__c",
+          "default": ""
+        },
+        {
+          "name": "SortOrder",
+          "type": "Numeric",
+          "label": "SortOrder",
+          "saqlExpression": "SortOrder__c",
+          "default": ""
+        },
+        {
+          "name": "SystemModstamp",
+          "type": "Date",
+          "label": "SystemModstamp",
+          "saqlExpression": "SystemModstamp",
+          "default": ""
+        },
+        {
+          "name": "IsWon",
+          "type": "Text",
+          "label": "IsWon",
+          "saqlExpression": "IsWon__c",
+          "default": ""
+        }
+      ],
+      "source": "Extract_OpportunityStage"
+    }
+  },
+  "Join_OpportunityStage_Previous_with_Opp": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "Id"
       ],
-      "left": "Join_OpportunityStage__c_Previous",
+      "left": "Join_OpportunityStage_Previous",
       "left_key": [
         "OpportunityId"
       ],
@@ -507,13 +607,13 @@
       "source": "Join_User_Manager"
     }
   },
-  "Join_OpportunityStage__c_Previous_with_Opp_Amount": {
+  "Join_OpportunityStage_Previous_with_Opp_Amount": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "Id"
       ],
-      "left": "Join_OpportunityStage__c_Previous_with_Opp",
+      "left": "Join_OpportunityStage_Previous_with_Opp",
       "left_key": [
         "OpportunityId"
       ],
@@ -562,7 +662,7 @@
           "defaultValue": "0",
           "precision": 18,
           "name": "LeadAge",
-          "saqlExpression": "case when ('IsConverted' == \"false\") then daysBetween(toDate(CreatedDate__c_sec_epoch), now())  else daysBetween(toDate(ConvertedDate_day_epoch), toDate(CreatedDate__c_day_epoch))  end",
+          "saqlExpression": "case when ('IsConverted' == \"false\") then daysBetween(toDate(CreatedDate_sec_epoch), now())  else daysBetween(toDate(ConvertedDate_day_epoch), toDate(CreatedDate_day_epoch))  end",
           "scale": 2,
           "label": "Lead Age in Days",
           "type": "Numeric"
@@ -571,7 +671,7 @@
           "defaultValue": "0",
           "precision": 18,
           "name": "OpportunityAge",
-          "saqlExpression": "case when ('ConvertedOpportunity.Name' is null) then 0 when ('ConvertedOpportunity.IsClosed' == \"false\") then ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  else ('ConvertedOpportunity.CloseDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400 end",
+          "saqlExpression": "case when ('ConvertedOpportunity.Name' is null) then 0 when ('ConvertedOpportunity.IsClosed' == \"false\") then ('CurrentDate_sec_epoch' - 'CreatedDate_sec_epoch')/86400  else ('ConvertedOpportunity.CloseDate_sec_epoch' - 'CreatedDate_sec_epoch')/86400 end",
           "scale": 2,
           "label": "Total Opportunity Age",
           "type": "Numeric"
@@ -644,7 +744,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate__c"
+          "name": "CreatedDate"
         },
         {
           "fiscalMonthOffset": 0,
@@ -701,13 +801,13 @@
       "folderid": "<folderId>"
     }
   },
-  "Join_OpportunityStage__c": {
+  "Join_OpportunityStage": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "MasterLabel"
       ],
-      "left": "Add_Fields_to_OpportunityHistory__c",
+      "left": "Add_Fields_to_OpportunityHistory",
       "left_key": [
         "StageName"
       ],
@@ -715,7 +815,7 @@
         "IsClosed",
         "IsWon"
       ],
-      "right": "Extract_OpportunityStage__c",
+      "right": "rename_OpportunityStageFields",
       "relationship": "Stage"
     }
   },
@@ -769,7 +869,7 @@
         "AccountId",
         "CloseDate",
         "StageName",
-        "CreatedDate__c",
+        "CreatedDate",
         "LeadSource",
         "ForecastCategoryName",
         "Account.Name",
@@ -866,7 +966,7 @@
       ]
     }
   },
-  "Join_OpportunityOpportunityStage__c": {
+  "Join_OpportunityOpportunityStage": {
     "action": "augment",
     "parameters": {
       "right_key": [
@@ -880,24 +980,24 @@
         "SortOrder",
         "DefaultProbability"
       ],
-      "right": "Extract_OpportunityStage__c",
+      "right": "rename_OpportunityStageFields",
       "relationship": "Stage"
     }
   },
-  "Extract_OpportunityHistory__c": {
+  "Extract_OpportunityHistory": {
     "schema": {
       "objects": [
         {
-          "label": "OpportunityHistory__c",
+          "label": "OpportunityHistory",
           "fields": [
             {
               "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
               "name": "CreatedDate__c",
               "description": "Opportunity Created Date",
-              "label": "CreatedDate__c"
+              "label": "CreatedDate"
             },
             {
-              "name": "Amount",
+              "name": "Amount__c",
               "description": "Amount",
               "label": "Amount"
             }
@@ -909,12 +1009,12 @@
     "parameters": {
       "fields": [
         {
-          "name": "Amount"
+          "name": "Amount__c"
         },
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CloseDate"
+          "name": "CloseDate__c"
         },
         {
           "name": "CreatedById"
@@ -925,7 +1025,7 @@
           "name": "CreatedDate__c"
         },
         {
-          "name": "ForecastCategory"
+          "name": "ForecastCategory__c"
         },
         {
           "name": "Id"
@@ -934,13 +1034,78 @@
           "name": "IsDeleted"
         },
         {
-          "name": "OpportunityId"
+          "name": "OpportunityId__c"
         },
         {
-          "name": "StageName"
+          "name": "StageName__c"
         }
       ],
       "object": "OpportunityHistory__c"
+    }
+  },
+  "rename_OpportunityHistoryFields": {
+    "action": "computeExpression",
+    "parameters": {
+      "mergeWithSource": false,
+      "computedFields": [
+        {
+          "name": "Amount",
+          "type": "Numeric",
+          "label": "Amount",
+          "saqlExpression": "Amount__c",
+          "default": ""
+        },
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        },
+        {
+          "name": "CloseDate",
+          "type": "Date",
+          "label": "CloseDate",
+          "saqlExpression": "CloseDate__c",
+          "default": ""
+        },
+        {
+          "name": "CreatedById",
+          "type": "Text",
+          "saqlExpression": "CreatedById",
+          "default": ""
+        },
+        {          
+          "name": "ForecastCategory",
+          "type": "Text",
+          "saqlExpression": "ForecastCategory__c",
+          "default": ""
+        },
+        {
+          "name": "Id",
+          "type": "Text",
+          "saqlExpression": "Id",
+          "default": ""
+        },
+        {
+          "name": "IsDeleted",
+          "type": "Text",
+          "saqlExpression": "IsDeleted"
+        },
+        {
+          "name": "OpportunityId",
+          "type": "Text",
+          "saqlExpression": "OpportunityId__c",
+          "default": ""
+        },
+        {          
+          "name": "StageName",
+          "type": "Text",
+          "saqlExpression": "StageName__c",
+          "default": ""
+        }
+      ],
+      "source": "Extract_OpportunityHistory"
     }
   },
   "Extract_OpportunityLineItem": {
@@ -1044,7 +1209,7 @@
     "action": "filter",
     "parameters": {
       "filter": "Stage_isUpdated:EQ:1",
-      "source": "Add_Fields_to_OpportunityHistory__c"
+      "source": "Add_Fields_to_OpportunityHistory"
     }
   },
   "Discount_Field": {
@@ -1171,7 +1336,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate__c"
+          "name": "CreatedDate"
         },
         {
           "fiscalMonthOffset": 0,
@@ -1261,7 +1426,7 @@
       ]
     }
   },
-  "Add_Fields_to_OpportunityHistory__c": {
+  "Add_Fields_to_OpportunityHistory": {
     "action": "computeExpression",
     "parameters": {
       "source": "Compute_Historical_Trending_Fields",
@@ -1423,7 +1588,7 @@
       ],
       "orderBy": [
         {
-          "name": "CreatedDate__c",
+          "name": "CreatedDate",
           "direction": "desc"
         }
       ],
@@ -1598,7 +1763,7 @@
           "defaultValue": "0",
           "precision": 18,
           "name": "DurationCalculatedField",
-          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate__c_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
+          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CreatedDate_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate_sec_epoch')/86400  end",
           "scale": 2,
           "label": "Case Duration",
           "type": "Numeric"
@@ -1627,7 +1792,7 @@
       "right_key": [
         "Id"
       ],
-      "left": "Join_OpportunityOpportunityStage__c",
+      "left": "Join_OpportunityOpportunityStage",
       "left_key": [
         "RecordTypeId"
       ],
@@ -1751,13 +1916,13 @@
       ]
     }
   },
-  "Join_OpportunityStage__c_Previous_with_Opp_Amount_Product": {
+  "Join_OpportunityStage_Previous_with_Opp_Amount_Product": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "OpportunityId"
       ],
-      "left": "Join_OpportunityStage__c_Previous_with_Opp_Amount",
+      "left": "Join_OpportunityStage_Previous_with_Opp_Amount",
       "left_key": [
         "OpportunityId"
       ],
@@ -1778,15 +1943,15 @@
       ],
       "orderBy": [
         {
-          "name": "CreatedDate__c",
+          "name": "CreatedDate",
           "direction": "asc"
         }
       ],
-      "source": "Extract_OpportunityHistory__c",
+      "source": "rename_OpportunityHistoryFields",
       "computedFields": [
         {
           "expression": {
-            "sourceField": "CreatedDate__c",
+            "sourceField": "CreatedDate",
             "default": "current()",
             "offset": "first()"
           },
@@ -1796,7 +1961,7 @@
         },
         {
           "expression": {
-            "sourceField": "CreatedDate__c",
+            "sourceField": "CreatedDate",
             "default": "3000-01-01T00:00:00.000Z",
             "offset": "next()"
           },
@@ -1806,7 +1971,7 @@
         },
         {
           "expression": {
-            "sourceField": "CreatedDate__c",
+            "sourceField": "CreatedDate",
             "default": "current()",
             "offset": "current()"
           },
@@ -1856,7 +2021,7 @@
         },
         {
           "expression": {
-            "sourceField": "CreatedDate__c",
+            "sourceField": "CreatedDate",
             "default": null,
             "offset": "previous()"
           },
@@ -1982,7 +2147,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate__c"
+          "name": "CreatedDate"
         },
         {
           "fiscalMonthOffset": 0,
@@ -2028,7 +2193,7 @@
         "LeadSource",
         "ForecastCategory",
         "ForecastCategoryName",
-        "CreatedDate__c",
+        "CreatedDate",
         "AccountId",
         "Account.Name",
         "Account.OwnerId",
@@ -2178,7 +2343,7 @@
   "Pipeline_Trending_Custom_Filter_Flag": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Join_OpportunityStage__c_Previous_with_Opp_Amount_Product",
+      "source": "Join_OpportunityStage_Previous_with_Opp_Amount_Product",
       "mergeWithSource": true,
       "computedFields": [
         {
@@ -2224,7 +2389,7 @@
         {
           "precision": 8,
           "name": "OpportunityAge",
-          "saqlExpression": "case    when IsClosed == \"false\"     then daysBetween(toDate(substr(CreatedDate__c, 1, 10), \"yyyy-MM-dd\"), now())     else daysBetween(toDate(substr(CreatedDate__c, 1, 10), \"yyyy-MM-dd\"),toDate(substr(CloseDate, 1, 10), \"yyyy-MM-dd\"))     end",
+          "saqlExpression": "case    when IsClosed == \"false\"     then daysBetween(toDate(substr(CreatedDate, 1, 10), \"yyyy-MM-dd\"), now())     else daysBetween(toDate(substr(CreatedDate, 1, 10), \"yyyy-MM-dd\"),toDate(substr(CloseDate, 1, 10), \"yyyy-MM-dd\"))     end",
           "scale": 0,
           "label": "Opportunity Age",
           "type": "Numeric"
@@ -2243,7 +2408,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate__c"
+          "name": "CreatedDate"
         },
         {
           "fiscalMonthOffset": 0,
@@ -2328,13 +2493,13 @@
       "folderid": "<folderId>"
     }
   },
-  "Join_OpportunityStage__c_Previous": {
+  "Join_OpportunityStage_Previous": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "MasterLabel"
       ],
-      "left": "Join_OpportunityStage__c",
+      "left": "Join_OpportunityStage",
       "left_key": [
         "StageNamePrev"
       ],
@@ -2342,7 +2507,7 @@
         "IsClosed",
         "IsWon"
       ],
-      "right": "Extract_OpportunityStage__c",
+      "right": "rename_OpportunityStageFields",
       "relationship": "StagePrev"
     }
   }
