@@ -35,6 +35,10 @@
         "AnnualRevenue",
         "OwnerId",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.Name",
         "Owner.Role.Roles",
         "Owner.Role.RolePath",
@@ -42,16 +46,6 @@
       ],
       "right": "Join_AccountOwner",
       "relationship": "Account"
-    }
-  },
-  "Append_User_Queue": {
-    "action": "append",
-    "parameters": {
-      "enableDisjointedSchemaMerge": true,
-      "sources": [
-        "Filter_User",
-        "Extract_Queue"
-      ]
     }
   },
   "Extract_Opportunity": {
@@ -157,6 +151,10 @@
         "Name",
         "Username",
         "UserRoleId",
+        "UserManager.Name",
+        "UserManagerNames",
+        "UniqueUserName",
+        "UserManager.UniqueUserName",
         "Role.Name",
         "Role.DeveloperName",
         "Role.Roles",
@@ -198,7 +196,7 @@
       "right_key": [
         "Id"
       ],
-      "left": "Join_LeadOwner",
+      "left": "Compute_Lead_Name_or_Queue",
       "left_key": [
         "ConvertedOpportunityId"
       ],
@@ -216,6 +214,10 @@
         "AccountId",
         "OwnerId",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.Name",
         "Owner.Role.DeveloperName",
         "Owner.Role.Roles",
@@ -226,6 +228,27 @@
       ],
       "right": "Join_OpportunityOwner",
       "relationship": "ConvertedOpportunity"
+    }
+  },
+  "Join_User_Manager": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "ManagerId"
+      ],
+      "left": "Compute_Manager_Unique",
+      "left_key": [
+        "Id"
+      ],
+      "right_select": [
+        "Name",
+        "Username",
+        "UserRoleId",
+        "Id",
+        "UniqueUserName"
+      ],
+      "right": "Compute_Manager_Unique",
+      "relationship": "UserManager"
     }
   },
   "Compute_CurrentDateForLeads": {
@@ -272,6 +295,10 @@
         },
         {
           "name": "IsActive"
+        },
+        {
+          "defaultValue": "N/A",
+          "name": "ManagerId"
         }
       ],
       "object": "User"
@@ -290,7 +317,7 @@
       "right_select": [
         "Name"
       ],
-      "right": "Append_User_Queue",
+      "right": "Flatten_UserManager",
       "relationship": "AssignedTo"
     }
   },
@@ -335,7 +362,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "ClosedDate"
+          "name": "ClosedDate__c"
         },
         {
           "name": "IsEscalated"
@@ -350,12 +377,12 @@
       "object": "Case"
     }
   },
-  "Extract_OpportunityStage": {
+  "Extract_OpportunityStage__c": {
     "action": "sfdcDigest",
     "parameters": {
       "fields": [
         {
-          "name": "IsClosed__c"
+          "name": "IsClosed"
         },
         {
           "fiscalMonthOffset": 0,
@@ -363,16 +390,16 @@
           "name": "CreatedDate__c"
         },
         {
-          "name": "Description__c"
+          "name": "Description"
         },
         {
-          "name": "ForecastCategory__c"
+          "name": "ForecastCategory"
         },
         {
-          "name": "ForecastCategoryName__c"
+          "name": "ForecastCategoryName"
         },
         {
-          "name": "IsActive__c"
+          "name": "IsActive"
         },
         {
           "fiscalMonthOffset": 0,
@@ -380,34 +407,34 @@
           "name": "LastModifiedDate"
         },
         {
-          "name": "MasterLabel__c"
+          "name": "MasterLabel"
         },
         {
           "name": "Id"
         },
         {
-          "name": "DefaultProbability__c"
+          "name": "DefaultProbability"
         },
         {
-          "name": "SortOrder__c"
+          "name": "SortOrder"
         },
         {
           "name": "SystemModstamp"
         },
         {
-          "name": "IsWon__c"
+          "name": "IsWon"
         }
       ],
       "object": "OpportunityStage__c"
     }
   },
-  "Join_OpportunityStage_Previous_with_Opp": {
+  "Join_OpportunityStage__c_Previous_with_Opp": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "Id"
       ],
-      "left": "Join_OpportunityStage_Previous",
+      "left": "Join_OpportunityStage__c_Previous",
       "left_key": [
         "OpportunityId"
       ],
@@ -431,6 +458,10 @@
         "Account.OwnerId",
         "Account.Owner.Name",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.RoleNames",
         "Owner.Role.Name",
         "Owner.Role.DeveloperName",
@@ -446,13 +477,43 @@
       "relationship": "Opportunity"
     }
   },
-  "Join_OpportunityStage_Previous_with_Opp_Amount": {
+  "Flatten_UserManager": {
+    "schema": {
+      "objects": [
+        {
+          "label": "Flatten_UserManager",
+          "fields": [
+            {
+              "name": "UserManagerNames",
+              "label": "UserManagerNames",
+              "isSystemField": false
+            },
+            {
+              "name": "ManagerNamesPath",
+              "label": "ManagerNamesPath",
+              "isSystemField": false
+            }
+          ]
+        }
+      ]
+    },
+    "action": "flatten",
+    "parameters": {
+      "include_self_id": true,
+      "self_field": "UniqueUserName",
+      "multi_field": "UserManagerNames",
+      "parent_field": "UserManager.UniqueUserName",
+      "path_field": "ManagerNamesPath",
+      "source": "Join_User_Manager"
+    }
+  },
+  "Join_OpportunityStage__c_Previous_with_Opp_Amount": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "Id"
       ],
-      "left": "Join_OpportunityStage_Previous_with_Opp",
+      "left": "Join_OpportunityStage__c_Previous_with_Opp",
       "left_key": [
         "OpportunityId"
       ],
@@ -640,21 +701,21 @@
       "folderid": "<folderId>"
     }
   },
-  "Join_OpportunityStage": {
+  "Join_OpportunityStage__c": {
     "action": "augment",
     "parameters": {
       "right_key": [
-        "MasterLabel__c"
+        "MasterLabel"
       ],
-      "left": "Add_Fields_to_OpportunityHistory",
+      "left": "Add_Fields_to_OpportunityHistory__c",
       "left_key": [
         "StageName"
       ],
       "right_select": [
-        "IsClosed__c",
-        "IsWon__c"
+        "IsClosed",
+        "IsWon"
       ],
-      "right": "Extract_OpportunityStage",
+      "right": "Extract_OpportunityStage__c",
       "relationship": "Stage"
     }
   },
@@ -681,7 +742,7 @@
     "action": "sfdcRegister",
     "parameters": {
       "SFDCtoken": "SFDCtoken",
-      "rowLevelSecurityFilter": "'Owner.Role.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\"",
+      "rowLevelSecurityFilter": "'Owner.Role.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\" || 'Opportunity.Account.OwnerId' == \"$User.Id\"",
       "name": "Activities",
       "alias": "<activity>",
       "source": "Filter_Activity",
@@ -727,6 +788,23 @@
       "relationship": "Opportunity"
     }
   },
+  "Calculate_Current_Stage_Duration": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Filter_Out_Last_Stage_Updates",
+      "mergeWithSource": true,
+      "computedFields": [
+        {
+          "precision": 18,
+          "name": "Duration_Seconds",
+          "saqlExpression": "date_diff(\"second\",toDate('ValidFromDate',\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\"), now())",
+          "scale": 0,
+          "label": "Duration",
+          "type": "Numeric"
+        }
+      ]
+    }
+  },
   "Register_UserRole": {
     "action": "sfdcRegister",
     "parameters": {
@@ -753,31 +831,6 @@
       "mergeWithSource": true
     }
   },
-  "Filter_Out_Final_Updates": {
-    "action": "filter",
-    "parameters": {
-      "filter": "IsLastUpdate:EQ:1",
-      "source": "Add_Fields_to_OpportunityHistory"
-    }
-  },
-  "Join_OpportunityOpportunityStage": {
-    "action": "augment",
-    "parameters": {
-      "right_key": [
-        "MasterLabel__c"
-      ],
-      "left": "Add_Fields_To_Opportunity",
-      "left_key": [
-        "StageName"
-      ],
-      "right_select": [
-        "SortOrder__c",
-        "DefaultProbability__c"
-      ],
-      "right": "Extract_OpportunityStage",
-      "relationship": "Stage"
-    }
-  },
   "Augment_ParentName": {
     "_comment": "get parent role's rolename",
     "action": "augment",
@@ -791,26 +844,60 @@
       ],
       "right_select": [
         "Name",
-        "DeveloperName"
+        "DeveloperName",
+        "ParentRoleId"
       ],
       "right": "Extract_UserRole",
       "relationship": "ParentRole"
     }
   },
-  "Extract_OpportunityHistory": {
+  "Create_IsLastStageUpdate_Field": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Find_Last_Stage_Updates",
+      "mergeWithSource": true,
+      "computedFields": [
+        {
+          "name": "IsLastStageUpdate",
+          "saqlExpression": "case when 'LastStageUpdate_Id' == 'Id' then \"1\" else \"0\" end",
+          "label": "IsLastStageUpdate",
+          "type": "Text"
+        }
+      ]
+    }
+  },
+  "Join_OpportunityOpportunityStage__c": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "MasterLabel"
+      ],
+      "left": "Add_Fields_To_Opportunity",
+      "left_key": [
+        "StageName"
+      ],
+      "right_select": [
+        "SortOrder",
+        "DefaultProbability"
+      ],
+      "right": "Extract_OpportunityStage__c",
+      "relationship": "Stage"
+    }
+  },
+  "Extract_OpportunityHistory__c": {
     "schema": {
       "objects": [
         {
-          "label": "OpportunityHistory",
+          "label": "OpportunityHistory__c",
           "fields": [
             {
               "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
               "name": "CreatedDate__c",
               "description": "Opportunity Created Date",
-              "label": "CreatedDate"
+              "label": "CreatedDate__c"
             },
             {
-              "name": "Amount__c",
+              "name": "Amount",
               "description": "Amount",
               "label": "Amount"
             }
@@ -822,12 +909,12 @@
     "parameters": {
       "fields": [
         {
-          "name": "Amount__c"
+          "name": "Amount"
         },
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CloseDate__c"
+          "name": "CloseDate"
         },
         {
           "name": "CreatedById"
@@ -838,7 +925,7 @@
           "name": "CreatedDate__c"
         },
         {
-          "name": "ForecastCategory__c"
+          "name": "ForecastCategory"
         },
         {
           "name": "Id"
@@ -847,10 +934,10 @@
           "name": "IsDeleted"
         },
         {
-          "name": "OpportunityId__c"
+          "name": "OpportunityId"
         },
         {
-          "name": "StageName__c"
+          "name": "StageName"
         }
       ],
       "object": "OpportunityHistory__c"
@@ -914,6 +1001,13 @@
       "source": "Add_Fields_To_Opportunity"
     }
   },
+  "Filter_Out_Last_Stage_Updates": {
+    "action": "filter",
+    "parameters": {
+      "filter": "IsLastStageUpdate:EQ:1",
+      "source": "Create_IsLastStageUpdate_Field"
+    }
+  },
   "Join_ActivityOwner": {
     "action": "augment",
     "parameters": {
@@ -928,6 +1022,10 @@
         "Name",
         "Username",
         "UserRoleId",
+        "UserManager.Name",
+        "UserManagerNames",
+        "UniqueUserName",
+        "UserManager.UniqueUserName",
         "Role.Name",
         "Role.DeveloperName",
         "Role.Roles",
@@ -940,6 +1038,13 @@
       ],
       "right": "User_with_Roles",
       "relationship": "Owner"
+    }
+  },
+  "Filter_Out_Stage_Updates": {
+    "action": "filter",
+    "parameters": {
+      "filter": "Stage_isUpdated:EQ:1",
+      "source": "Add_Fields_to_OpportunityHistory__c"
     }
   },
   "Discount_Field": {
@@ -981,6 +1086,38 @@
     "parameters": {
       "filter": "CustomFilter:EQ:true",
       "source": "Activity_Custom_Filter_Flag"
+    }
+  },
+  "Join_LeadQueue": {
+    "action": "augment",
+    "parameters": {
+      "right_key": [
+        "Id"
+      ],
+      "left": "Join_LeadOwner",
+      "left_key": [
+        "OwnerId"
+      ],
+      "right_select": [
+        "Name",
+        "Type"
+      ],
+      "right": "Extract_Queue",
+      "relationship": "Queue"
+    }
+  },
+  "Compute_Manager_Unique": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Compute_Unique_Name",
+      "mergeWithSource": true,
+      "computedFields": [
+        {
+          "name": "UniqueUserName",
+          "saqlExpression": "case when isDuplicate is null then 'Name' else 'Name' + \" (\" +'Username'+ \")\" end",
+          "type": "Text"
+        }
+      ]
     }
   },
   "Join_OpportunityLineItemPricebookEntry": {
@@ -1073,6 +1210,10 @@
         "Name",
         "Username",
         "UserRoleId",
+        "UserManager.Name",
+        "UserManagerNames",
+        "UniqueUserName",
+        "UserManager.UniqueUserName",
         "Role.Name",
         "Role.DeveloperName",
         "Role.Roles",
@@ -1098,9 +1239,9 @@
         "Id"
       ],
       "right_select": [
-        "Duration"
+        "Duration_Seconds"
       ],
-      "right": "Filter_Out_Final_Updates",
+      "right": "Calculate_Current_Stage_Duration",
       "relationship": "Time_In_Current_Stage"
     }
   },
@@ -1120,7 +1261,7 @@
       ]
     }
   },
-  "Add_Fields_to_OpportunityHistory": {
+  "Add_Fields_to_OpportunityHistory__c": {
     "action": "computeExpression",
     "parameters": {
       "source": "Compute_Historical_Trending_Fields",
@@ -1153,14 +1294,14 @@
         {
           "precision": 8,
           "name": "IsPushed",
-          "saqlExpression": "case when ('CloseDatePrev' is not null) && ('CloseDatePrev' < 'CloseDate') then 1 else 0 end",
+          "saqlExpression": "case when ('CloseDatePrev' != \"1970-1-1\") && ('CloseDatePrev' < 'CloseDate') then 1 else 0 end",
           "scale": 0,
           "type": "Numeric"
         },
         {
           "precision": 8,
           "name": "IsPulled",
-          "saqlExpression": "case when ('CloseDatePrev' is not null) && ('CloseDatePrev' > 'CloseDate') then 1 else 0 end",
+          "saqlExpression": "case when ('CloseDatePrev' != \"1970-1-1\") && ('CloseDatePrev' > 'CloseDate') then 1 else 0 end",
           "scale": 0,
           "type": "Numeric"
         },
@@ -1179,7 +1320,7 @@
     "action": "sfdcRegister",
     "parameters": {
       "SFDCtoken": "SFDCtoken",
-      "rowLevelSecurityFilter": "'Owner.Role.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\"",
+      "rowLevelSecurityFilter": "'IsConverted' == \"false\" || 'ConvertedOpportunity.Owner.Role.Roles' == \"$User.UserRoleId\" || 'ConvertedOpportunity.OwnerId' == \"$User.Id\" || 'ConvertedAccount.OwnerId' == \"$User.Id\"",
       "name": "Leads",
       "alias": "<lead>",
       "source": "Compute_AdditionalFieldsForLead",
@@ -1190,7 +1331,7 @@
     "action": "sfdcRegister",
     "parameters": {
       "SFDCtoken": "SFDCtoken",
-      "rowLevelSecurityFilter": "",
+      "rowLevelSecurityFilter": "'Owner.Role.Roles' == \"$User.UserRoleId\" || 'OwnerId' == \"$User.Id\"",
       "name": "Accounts",
       "alias": "<account>",
       "source": "Filter_Account",
@@ -1211,6 +1352,10 @@
         "Name",
         "Username",
         "UserRoleId",
+        "UserManager.Name",
+        "UserManagerNames",
+        "UniqueUserName",
+        "UserManager.UniqueUserName",
         "Role.Name",
         "Role.DeveloperName",
         "Role.Roles",
@@ -1241,6 +1386,60 @@
       "right": "Filter_WonOppty",
       "relationship": "Opportunity",
       "operation": "LookupMultiValue"
+    }
+  },
+  "Compute_Unique_Name": {
+    "action": "computeRelative",
+    "parameters": {
+      "partitionBy": [
+        "Name"
+      ],
+      "orderBy": [
+        {
+          "name": "Id",
+          "direction": "asc"
+        }
+      ],
+      "source": "Filter_User",
+      "computedFields": [
+        {
+          "expression": {
+            "sourceField": "Id",
+            "default": null,
+            "offset": "next()"
+          },
+          "name": "isDuplicate",
+          "description": "isDuplicate",
+          "label": "isDuplicate"
+        }
+      ]
+    }
+  },
+  "Find_Last_Stage_Updates": {
+    "action": "computeRelative",
+    "parameters": {
+      "partitionBy": [
+        "OpportunityId"
+      ],
+      "orderBy": [
+        {
+          "name": "CreatedDate__c",
+          "direction": "desc"
+        }
+      ],
+      "source": "Filter_Out_Stage_Updates",
+      "computedFields": [
+        {
+          "expression": {
+            "sourceField": "Id",
+            "default": "current()",
+            "offset": "first()"
+          },
+          "name": "LastStageUpdate_Id",
+          "description": "Final Stage Change Id",
+          "label": "LastStageUpdate_Id"
+        }
+      ]
     }
   },
   "Add_Fields_To_Event": {
@@ -1318,6 +1517,10 @@
         "AnnualRevenue",
         "OwnerId",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.Name",
         "Owner.Role.Roles",
         "Owner.Role.RolePath",
@@ -1362,6 +1565,10 @@
         "AnnualRevenue",
         "OwnerId",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.Name",
         "Owner.Role.Roles",
         "Owner.Role.RolePath",
@@ -1375,6 +1582,7 @@
     "action": "sfdcRegister",
     "parameters": {
       "SFDCtoken": "SFDCtoken",
+      "rowLevelSecurityFilter": "'User.Role.Roles' == \"$User.UserRoleId\" || 'User.Id' == \"$User.Id\"",
       "name": "User Allocation",
       "alias": "<quota>",
       "source": "Join_Quota_User",
@@ -1390,7 +1598,7 @@
           "defaultValue": "0",
           "precision": 18,
           "name": "DurationCalculatedField",
-          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate_sec_epoch' - 'CCreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
+          "saqlExpression": "case  when ('IsClosed' == \"true\") then ('ClosedDate__c_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400   else ('CurrentDate_sec_epoch' - 'CreatedDate__c_sec_epoch')/86400  end",
           "scale": 2,
           "label": "Case Duration",
           "type": "Numeric"
@@ -1419,7 +1627,7 @@
       "right_key": [
         "Id"
       ],
-      "left": "Join_OpportunityOpportunityStage",
+      "left": "Join_OpportunityOpportunityStage__c",
       "left_key": [
         "RecordTypeId"
       ],
@@ -1516,6 +1724,10 @@
         "AnnualRevenue",
         "OwnerId",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.Name",
         "Owner.Role.Roles",
         "Owner.Role.RolePath",
@@ -1539,13 +1751,13 @@
       ]
     }
   },
-  "Join_OpportunityStage_Previous_with_Opp_Amount_Product": {
+  "Join_OpportunityStage__c_Previous_with_Opp_Amount_Product": {
     "action": "augment",
     "parameters": {
       "right_key": [
         "OpportunityId"
       ],
-      "left": "Join_OpportunityStage_Previous_with_Opp_Amount",
+      "left": "Join_OpportunityStage__c_Previous_with_Opp_Amount",
       "left_key": [
         "OpportunityId"
       ],
@@ -1562,7 +1774,7 @@
     "action": "computeRelative",
     "parameters": {
       "partitionBy": [
-        "OpportunityId__c"
+        "OpportunityId"
       ],
       "orderBy": [
         {
@@ -1570,7 +1782,7 @@
           "direction": "asc"
         }
       ],
-      "source": "Extract_OpportunityHistory",
+      "source": "Extract_OpportunityHistory__c",
       "computedFields": [
         {
           "expression": {
@@ -1604,7 +1816,7 @@
         },
         {
           "expression": {
-            "sourceField": "Amount__c",
+            "sourceField": "Amount",
             "default": "0",
             "offset": "previous()"
           },
@@ -1614,7 +1826,7 @@
         },
         {
           "expression": {
-            "sourceField": "StageName__c",
+            "sourceField": "StageName",
             "default": null,
             "offset": "previous()"
           },
@@ -1624,7 +1836,7 @@
         },
         {
           "expression": {
-            "sourceField": "ForecastCategory__c",
+            "sourceField": "ForecastCategory",
             "default": null,
             "offset": "previous()"
           },
@@ -1634,7 +1846,7 @@
         },
         {
           "expression": {
-            "sourceField": "CloseDate__c",
+            "sourceField": "CloseDate",
             "default": "1970-01-01",
             "offset": "previous()"
           },
@@ -1673,7 +1885,7 @@
     "schema": {
       "objects": [
         {
-          "label": "Flatten_ParentName",
+          "label": "Flatten_UserRole",
           "fields": [
             {
               "name": "RoleNames",
@@ -1714,6 +1926,10 @@
         "Name",
         "Username",
         "UserRoleId",
+        "UserManager.Name",
+        "UserManagerNames",
+        "UniqueUserName",
+        "UserManager.UniqueUserName",
         "Role.Name",
         "Role.DeveloperName",
         "Role.Roles",
@@ -1726,27 +1942,6 @@
       ],
       "right": "User_with_Roles",
       "relationship": "User"
-    }
-  },
-  "Extract_CampaignMember": {
-    "action": "sfdcDigest",
-    "parameters": {
-      "SFDCtoken": "SFDCtoken",
-      "fields": [
-        {
-          "name": "Id"
-        },
-        {
-          "name": "Name"
-        },
-        {
-          "name": "FirstRespondedDate"
-        },
-        {
-          "name": "Status"
-        }
-      ],
-      "object": "CampaignMember"
     }
   },
   "Extract_Account": {
@@ -1850,6 +2045,10 @@
         "Account.Owner.Role.RolePath",
         "OwnerId",
         "Owner.Name",
+        "Owner.UserManager.Name",
+        "Owner.UserManagerNames",
+        "Owner.UserManager.UniqueUserName",
+        "Owner.UniqueUserName",
         "Owner.Role.Name",
         "Owner.Role.DeveloperName",
         "Owner.Role.Roles",
@@ -1868,6 +2067,27 @@
     "action": "edgemart",
     "parameters": {
       "alias": "<plain_quota>"
+    }
+  },
+  "Compute_Lead_Name_or_Queue": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Join_LeadQueue",
+      "computedFields": [
+        {
+          "name": "UserOrQueueName",
+          "saqlExpression": "case when 'Owner.Name' is null && !('Queue.Name' is null) then 'Queue.Name' when !('Owner.Name' is null) then 'Owner.Name' else \"N/A\" end",
+          "label": "Owner or Queue Name",
+          "type": "Text"
+        },
+        {
+          "name": "OwnerType",
+          "saqlExpression": "case when 'Owner.Name' is null && !('Queue.Name' is null) then \"Queue\" when !('Owner.Name' is null) then \"User\" else \"N/A\" end",
+          "label": "Owner Type",
+          "type": "Text"
+        }
+      ],
+      "mergeWithSource": true
     }
   },
   "Add_Fields_To_Task": {
@@ -1920,6 +2140,9 @@
           "name": "LastModifiedById"
         },
         {
+          "name": "ForecastUserId"
+        },
+        {
           "name": "SystemModstamp"
         }
       ],
@@ -1933,7 +2156,7 @@
       "right_key": [
         "Id"
       ],
-      "left": "Append_User_Queue",
+      "left": "Flatten_UserManager",
       "left_key": [
         "UserRoleId"
       ],
@@ -1943,10 +2166,10 @@
         "Roles",
         "RolePath",
         "ParentRoleId",
-        "RoleNames",
-        "RoleNamesPath",
         "ParentRole.Name",
-        "ParentRole.DeveloperName"
+        "ParentRole.DeveloperName",
+        "RoleNames",
+        "RoleNamesPath"
       ],
       "right": "Flatten_ParentName",
       "relationship": "Role"
@@ -1955,7 +2178,7 @@
   "Pipeline_Trending_Custom_Filter_Flag": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Join_OpportunityStage_Previous_with_Opp_Amount_Product",
+      "source": "Join_OpportunityStage__c_Previous_with_Opp_Amount_Product",
       "mergeWithSource": true,
       "computedFields": [
         {
@@ -2105,21 +2328,21 @@
       "folderid": "<folderId>"
     }
   },
-  "Join_OpportunityStage_Previous": {
+  "Join_OpportunityStage__c_Previous": {
     "action": "augment",
     "parameters": {
       "right_key": [
-        "MasterLabel__c"
+        "MasterLabel"
       ],
-      "left": "Join_OpportunityStage",
+      "left": "Join_OpportunityStage__c",
       "left_key": [
         "StageNamePrev"
       ],
       "right_select": [
-        "IsClosed__c",
-        "IsWon__c"
+        "IsClosed",
+        "IsWon"
       ],
-      "right": "Extract_OpportunityStage",
+      "right": "Extract_OpportunityStage__c",
       "relationship": "StagePrev"
     }
   }
