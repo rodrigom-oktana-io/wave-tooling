@@ -1,5 +1,5 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
-Created Date,CreatedDate__c,Date,,100,0,0,,FALSE,TRUE
+Created Date,CreatedDate__c,DateTime,,100,0,0,,FALSE,TRUE
 Probability (%),DefaultProbability__c,Percent,,0,3,0,,FALSE,FALSE
 Description,Description__c,Text,,255,0,0,,FALSE,FALSE
 Forecast Category,ForecastCategory__c,Text,,40,0,0,,FALSE,TRUE
