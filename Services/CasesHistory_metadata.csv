@@ -1,6 +1,6 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
 Case ID,CaseId__c,MasterDetail,Case,0,0,0,,FALSE,TRUE
-External ID,External_Id__c,Text,,50,0,0,,TRUE,TRUE
+External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created By ID,CreatedById__c,Lookup,User,0,0,0,,TRUE,TRUE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Field,Field__c,Text,,100,0,0,,FALSE,TRUE
