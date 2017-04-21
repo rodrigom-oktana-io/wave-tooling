@@ -1,5 +1,5 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
-ExternalId,External_Id__c,Text,,50,0,0,,TRUE,FALSE
+External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Product_Family_KB__c,Product_Family_KB__c,Text,,100,0,0,,FALSE,TRUE
 Type_of_Support__c,Type_of_Support__c,Text,,100,0,0,,FALSE,TRUE
 CSAT__c,CSAT__c,Text,,100,0,0,,FALSE,TRUE
