@@ -89,7 +89,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate"
+          "name": "CreatedDate__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -110,7 +110,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "LastActivityDate"
+          "name": "LastActivityDate__c"
         },
         {
           "name": "HasOpportunityLineItem"
@@ -120,6 +120,44 @@
         }
       ],
       "object": "Opportunity"
+    }
+  },
+  "add_standard_Extract_Opportunity": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Extract_Opportunity",
+      "computedFields": [
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        },
+        {
+          "name": "LastActivityDate",
+          "type": "Date",
+          "label": "LastActivity",
+          "saqlExpression": "LastActivityDate__c",
+          "default": ""
+        }
+      ],
+      "mergeWithSource": true
+    }
+  },
+  "drop_custom_Extract_Opportunity": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "add_standard_Extract_Opportunity",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "CreatedDate__c"
+        },
+        {
+          "name": "LastActivityDate__c"
+        }
+      ]
     }
   },
   "Extract_OpportunityAmount": {
@@ -254,7 +292,7 @@
   "Compute_CurrentDateForLeads": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Extract_Lead",
+      "source": "drop_custom_Extract_Lead",
       "computedFields": [
         {
           "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
@@ -375,6 +413,44 @@
         }
       ],
       "object": "Case"
+    }
+  },
+  "add_standard_Extract_Case": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Extract_Case",
+      "computedFields": [
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        },
+        {
+          "name": "ClosedDate",
+          "type": "Date",
+          "label": "Closed Date",
+          "saqlExpression": "ClosedDate__c",
+          "default": ""
+        }
+      ],
+      "mergeWithSource": true
+    }
+  },
+  "drop_custom_Extract_Case": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "add_standard_Extract_Case",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "CreatedDate__c"
+        },
+        {
+          "name": "ClosedDate__c"
+        }
+      ]
     }
   },
   "Extract_OpportunityStage": {
@@ -736,7 +812,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "ConvertedDate"
+          "name": "ConvertedDate__c"
         },
         {
           "name": "ConvertedOpportunityId"
@@ -744,7 +820,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate"
+          "name": "CreatedDate__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -781,6 +857,44 @@
       "object": "Lead"
     }
   },
+  "add_standard_Extract_Lead": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Extract_Lead",
+      "computedFields": [
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        },
+        {
+          "name": "ConvertedDate",
+          "type": "Date",
+          "label": "Converted Date",
+          "saqlExpression": "ConvertedDate__c",
+          "default": ""
+        }
+      ],
+      "mergeWithSource": true
+    }
+  },
+  "drop_custom_Extract_Lead": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "add_standard_Extract_Lead",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "CreatedDate__c"
+        },
+        {
+          "name": "ConvertedDate__c"
+        }
+      ]
+    }
+  }
   "Append_LineItems": {
     "action": "append",
     "parameters": {
@@ -918,7 +1032,7 @@
   "compute_CurrentDateForCase": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Extract_Case",
+      "source": "drop_custom_Extract_Case",
       "computedFields": [
         {
           "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
@@ -1336,7 +1450,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate"
+          "name": "CreatedDate__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -1359,6 +1473,34 @@
         }
       ],
       "object": "Task"
+    }
+  },
+  "add_standard_Extract_Task": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Extract_Task",
+      "computedFields": [
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        }
+      ],
+      "mergeWithSource": true
+    }
+  },
+  "drop_custom_Extract_Task": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "add_standard_Extract_Task",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "CreatedDate__c"
+        }
+      ]
     }
   },
   "Join_AccountOwner": {
@@ -1610,7 +1752,7 @@
   "Add_Fields_To_Event": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Extract_Event",
+      "source": "drop_custom_Extract_Event",
       "computedFields": [
         {
           "name": "CallDisposition",
@@ -2258,7 +2400,7 @@
   "Add_Fields_To_Task": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Extract_Task",
+      "source": "drop_custom_Extract_Task",
       "computedFields": [
         {
           "name": "EventSubtype",
@@ -2376,7 +2518,7 @@
   "Add_Fields_To_Opportunity": {
     "action": "computeExpression",
     "parameters": {
-      "source": "Extract_Opportunity",
+      "source": "drop_custom_Extract_Opportunity",
       "computedFields": [
         {
           "precision": 8,
@@ -2408,7 +2550,7 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate"
+          "name": "CreatedDate__c"
         },
         {
           "fiscalMonthOffset": 0,
@@ -2437,6 +2579,34 @@
         }
       ],
       "object": "Event"
+    }
+  },
+  "add_standard_Extract_Event": {
+    "action": "computeExpression",
+    "parameters": {
+      "source": "Extract_Event",
+      "computedFields": [
+        {
+          "name": "CreatedDate",
+          "type": "Date",
+          "label": "CreatedDate",
+          "saqlExpression": "CreatedDate__c",
+          "default": ""
+        }
+      ],
+      "mergeWithSource": true
+    }
+  },
+  "drop_custom_Extract_Event": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "add_standard_Extract_Event",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "CreatedDate__c"
+        }
+      ]
     }
   },
   "Flatten_UserRole": {
