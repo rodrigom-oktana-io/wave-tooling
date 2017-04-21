@@ -1,2 +1,3 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
 Created Date,CreatedDate__c,Date,,100,0,0,,FALSE,TRUE
+ExternalId,External_Id__c,Text,,50,0,0,,TRUE,FALSE
