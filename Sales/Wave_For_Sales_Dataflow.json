@@ -395,12 +395,12 @@
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "CreatedDate"
+          "name": "CreatedDate__c"
         },
         {
           "fiscalMonthOffset": 0,
           "firstDayOfWeek": 0,
-          "name": "ClosedDate"
+          "name": "ClosedDate__c"
         },
         {
           "name": "IsEscalated"
