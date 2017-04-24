@@ -1,4 +1,4 @@
-Opportunity.External_Id__c,CreatedDate__c,CloseDate__c,StageName__c,Amount__c,ForecastCategory__c,ExpectedRevenue__c,Probability__c
+Opportunity.Id,CreatedDate__c,CloseDate__c,StageName__c,Amount__c,ForecastCategory__c,ExpectedRevenue__c,Probability__c
 W_Opportunity.35,2015-06-05 02:50:05,2015-11-21 02:50:05,Closed Lost,131500,,19925.4,74
 W_Opportunity.98,2016-08-07 20:17:53,2017-02-18 20:17:53,Needs Analysis,104400,,72821.6,95
 W_Opportunity.9,2016-03-11 16:46:58,2016-07-16 16:46:58,Proposal/Quote,141500,,34705.9,79
