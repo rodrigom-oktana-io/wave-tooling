@@ -526,7 +526,7 @@
           "label": "CreatedDate",
           "saqlExpression": "toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
           "default": "",
-          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         },
         {
           "name": "Description",
@@ -961,7 +961,7 @@
         "IsClosed",
         "IsWon"
       ],
-      "right": "rename_OpportunityStageFields",
+      "right": "drop_custom_rename_OpportunityStageFields",
       "relationship": "Stage"
     }
   },
@@ -1126,7 +1126,7 @@
         "SortOrder",
         "DefaultProbability"
       ],
-      "right": "rename_OpportunityStageFields",
+      "right": "drop_custom_rename_OpportunityStageFields",
       "relationship": "Stage"
     }
   },
@@ -2725,7 +2725,7 @@
         "IsClosed",
         "IsWon"
       ],
-      "right": "rename_OpportunityStageFields",
+      "right": "drop_custom_rename_OpportunityStageFields",
       "relationship": "StagePrev"
     }
   }
