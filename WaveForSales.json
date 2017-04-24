@@ -39,6 +39,50 @@
 			]
 		},
 		{
+			"name": "Contact",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				}
+			]
+		},
+		{
+			"name": "Case",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				},
+				{
+					"csvColumnName": "Contact.External_Id__c",
+					"targetSObject" : "Contact",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ContactId"
+				}
+			],
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"ClosedDate__c"
+			]
+		},
+		{
 			"name": "Opportunity",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
 			"additionalDataFiles": 0,
