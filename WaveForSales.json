@@ -69,7 +69,7 @@
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityHistory_metadata.csv",
 			"relations": [
 				{
-					"csvColumnName": "Opportunity.External_Id__c",
+					"csvColumnName": "Opportunity.Id",
 					"targetSObject" : "Opportunity",
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "OpportunityId__c"
