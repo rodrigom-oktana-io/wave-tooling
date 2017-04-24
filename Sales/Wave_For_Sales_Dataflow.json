@@ -581,14 +581,18 @@
           "type": "Numeric",
           "label": "DefaultProbability",
           "saqlExpression": "DefaultProbability__c",
-          "default": ""
+          "default": "",
+          "precision": 3,
+          "scale": 0
         },
         {
           "name": "SortOrder",
           "type": "Numeric",
           "label": "SortOrder",
           "saqlExpression": "SortOrder__c",
-          "default": ""
+          "default": "",
+          "precision": 18,
+          "scale": 0
         },
         {
           "name": "SystemModstamp",
@@ -1172,21 +1176,25 @@
           "name": "Amount",
           "type": "Numeric",
           "label": "Amount",
-          "saqlExpression": "Amount__c",
-          "default": ""
+          "saqlExpression": "'Amount__c'",
+          "default": "",
+          "precision": 18,
+          "scale": 2
         },
         {
           "name": "CreatedDate",
           "type": "Date",
           "label": "CreatedDate",
-          "saqlExpression": "CreatedDate__c",
+          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "saqlExpression": "toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
           "default": ""
         },
         {
           "name": "CloseDate",
           "type": "Date",
           "label": "CloseDate",
-          "saqlExpression": "CloseDate__c",
+          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+          "saqlExpression": "toDate(CloseDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
           "default": ""
         },
         {
