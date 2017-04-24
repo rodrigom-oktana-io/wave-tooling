@@ -58,7 +58,8 @@
 				}
 			],
 			"dateFieldsToShift": [
-				"CreatedDate__c"
+				"CreatedDate__c",
+				"LastActivityDate__c"
 			]
 		},
 		{
@@ -80,7 +81,7 @@
 		},
 		{
 			"name": "OpportunityStage__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityStage.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityStages.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityStage_metadata.csv",
 			"dateFieldsToShift": [
