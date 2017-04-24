@@ -1,1 +1,1 @@
-Amount__c,CloseDate__c,CreatedDate__c,ExpectedRevenue__c,ForecastCategory__c,IsDeleted__c,Opportunity.External_Id__c,Probability__c,StageName__c
+Amount__c,CloseDate__c,CreatedDate__c,ExpectedRevenue__c,ForecastCategory__c,Opportunity.External_Id__c,Probability__c,StageName__c
