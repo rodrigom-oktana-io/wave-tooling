@@ -72,7 +72,7 @@
 					"csvColumnName": "Opportunity.External_Id__c",
 					"targetSObject" : "Opportunity",
 					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OpportunityId"
+					"foreignKeyField" : "OpportunityId__c"
 				}
 			],
 			"dateFieldsToShift": [
