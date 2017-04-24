@@ -511,7 +511,7 @@
   "rename_OpportunityStageFields": {
     "action": "computeExpression",
     "parameters": {
-      "mergeWithSource": false,
+      "mergeWithSource": true,
       "computedFields": [
         {
           "name": "IsClosed",
@@ -524,8 +524,9 @@
           "name": "CreatedDate",
           "type": "Date",
           "label": "CreatedDate",
-          "saqlExpression": "CreatedDate__c",
-          "default": ""
+          "saqlExpression": "toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+          "default": "",
+          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
         },
         {
           "name": "Description",
@@ -556,24 +557,10 @@
           "default": ""
         },
         {
-          "name": "LastModifiedDate",
-          "type": "Date",
-          "label": "LastModifiedDate",
-          "saqlExpression": "LastModifiedDate",
-          "default": ""
-        },
-        {
           "name": "MasterLabel",
           "type": "Text",
           "label": "MasterLabel",
           "saqlExpression": "MasterLabel__c",
-          "default": ""
-        },
-        {
-          "name": "Id",
-          "type": "Text",
-          "label": "Id",
-          "saqlExpression": "Id",
           "default": ""
         },
         {
@@ -595,13 +582,6 @@
           "scale": 0
         },
         {
-          "name": "SystemModstamp",
-          "type": "Date",
-          "label": "SystemModstamp",
-          "saqlExpression": "SystemModstamp",
-          "default": ""
-        },
-        {
           "name": "IsWon",
           "type": "Text",
           "label": "IsWon",
@@ -610,6 +590,48 @@
         }
       ],
       "source": "Extract_OpportunityStage"
+    }
+  },
+  "drop_custom_rename_OpportunityStageFields": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "rename_OpportunityStageFields",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "IsClosed__c"
+        },
+        {
+          "name": "CreatedDate__c"
+        },
+        {
+          "name": "Description__c"
+        },
+        {
+          "name": "ForecastCategory__c"
+        },
+        {
+          "name": "ForecastCategoryName__c"
+        },
+        {
+          "name": "IsActive__c"
+        },
+        {
+          "name": "MasterLabel__c"
+        },
+        {
+          "name": "DefaultProbability__c"
+        },
+        {
+          "name": "SortOrder__c"
+        },
+        {
+          "name": "SortOrder__c"
+        },
+        {
+          "name": "IsWon__c"
+        }
+      ]
     }
   },
   "Join_OpportunityStage_Previous_with_Opp": {
