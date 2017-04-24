@@ -1193,14 +1193,8 @@
           "name": "CloseDate",
           "type": "Date",
           "label": "CloseDate",
-          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-          "saqlExpression": "toDate(CloseDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
-          "default": ""
-        },
-        {
-          "name": "CreatedById",
-          "type": "Text",
-          "saqlExpression": "CreatedById",
+          "format": "yyyy-MM-dd",
+          "saqlExpression": "toDate(CloseDate__c, \"yyyy-MM-dd\")",
           "default": ""
         },
         {          
@@ -1208,17 +1202,6 @@
           "type": "Text",
           "saqlExpression": "ForecastCategory__c",
           "default": ""
-        },
-        {
-          "name": "Id",
-          "type": "Text",
-          "saqlExpression": "Id",
-          "default": ""
-        },
-        {
-          "name": "IsDeleted",
-          "type": "Text",
-          "saqlExpression": "IsDeleted"
         },
         {
           "name": "OpportunityId",
@@ -1234,6 +1217,33 @@
         }
       ],
       "source": "Extract_OpportunityHistory"
+    }
+  },
+  "drop_custom_rename_OpportunityHistoryFields": {
+    "action": "sliceDataset",
+    "parameters": {
+      "source": "rename_OpportunityHistoryFields",
+      "mode": "drop",
+      "fields": [
+        {
+          "name": "Amount__c"
+        },
+        {
+          "name": "CreatedDate__c"
+        },
+        {
+          "name": "CloseDate__c"
+        },
+        {
+          "name": "ForecastCategory__c"
+        },
+        {
+          "name": "OpportunityId__c"
+        },
+        {
+          "name": "StageName__c"
+        }
+      ]
     }
   },
   "Extract_OpportunityLineItem": {
@@ -2104,7 +2114,7 @@
           "direction": "asc"
         }
       ],
-      "source": "rename_OpportunityHistoryFields",
+      "source": "drop_custom_rename_OpportunityHistoryFields",
       "computedFields": [
         {
           "expression": {
