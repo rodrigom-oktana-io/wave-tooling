@@ -1,0 +1,12 @@
+CreatedDate__c,DefaultProbability__c,Description__c,ForecastCategory__c,ForecastCategoryName__c,IsActive__c,IsClosed__c,IsWon__c,MasterLabel__c,SortOrder__c
+2016-04-25 17:32:24,60.0,,BestCase,Best Case,false,false,false,Id. Decision Makers,0
+2016-04-25 17:32:24,70.0,,BestCase,Best Case,false,false,false,Perception Analysis,0
+2016-04-25 17:32:24,0.0,,Omitted,Omitted,false,false,false,Open,0
+2016-08-17 00:34:13,0.0,,Omitted,Omitted,false,false,false,error: Field 'Product' not found,0
+2016-08-17 00:59:19,0.0,,Omitted,Omitted,false,false,false,ClosedLost,0
+2016-04-25 17:32:24,20.0,,Pipeline,Pipeline,true,false,false,Qualification,2
+2016-04-25 17:32:24,35.0,,BestCase,Best Case,true,false,false,Needs Analysis,3
+2016-04-25 17:32:24,75.0,,BestCase,Best Case,true,false,false,Proposal/Quote,5
+2016-04-25 17:32:24,90.0,,Forecast,Commit,true,false,false,Negotiation,7
+2016-04-25 17:32:24,100.0,,Closed,Closed,true,true,true,Closed Won,8
+2016-04-25 17:32:24,0.0,,Omitted,Omitted,true,true,false,Closed Lost,9
