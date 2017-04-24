@@ -1,4 +1,5 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
+External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Amount,Amount__c,Currency,,0,18,2,,FALSE,FALSE
 Close Date,CloseDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
