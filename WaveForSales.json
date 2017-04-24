@@ -69,7 +69,7 @@
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityHistory_metadata.csv",
 			"relations": [
 				{
-					"csvColumnName": "Opportunity.Id",
+					"csvColumnName": "Opportunity.External_Id__c",
 					"targetSObject" : "Opportunity",
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "OpportunityId__c"
@@ -93,6 +93,14 @@
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Leads.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Lead_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				}
+			],
 			"dateFieldsToShift": [
 				"CreatedDate__c"
 			]
