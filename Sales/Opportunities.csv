@@ -1,4 +1,4 @@
-External_Id__c,Owner.External_Id__c,Account.External_Id__c,CreatedDate__c,CloseDate,Name,Products__c,StageName,Amount,Type
+External_Id__c,Owner.External_Id__c,Account.External_Id__c,DateTimeCreated__c,CloseDate,Name,Products__c,StageName,Amount,Type
 W_Opportunity.1,W_User.13,W_Account.53,2016-06-26 21:50:48,2016-11-18 21:50:48,New Opportunity [2016-06-26 21:50:48],GC50000,Closed Lost,238500,Renewal
 W_Opportunity.2,W_User.15,W_Account.54,2015-12-19 03:30:18,2016-05-04 03:30:18,New Opportunity [2015-12-19 03:30:18],GC10001,Closed Lost,140500,Services
 W_Opportunity.3,W_User.14,W_Account.75,2016-02-21 03:49:57,2016-08-11 03:49:57,New Opportunity [2016-02-21 03:49:57],GC20002,Qualification,125800,Services
