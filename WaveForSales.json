@@ -102,7 +102,7 @@
 				}
 			],
 			"dateFieldsToShift": [
-				"CreatedDate__c",
+				"DateTimeCreated__c",
 				"LastActivityDate__c"
 			]
 		},
