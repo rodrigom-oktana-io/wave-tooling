@@ -626,9 +626,6 @@
           "name": "SortOrder__c"
         },
         {
-          "name": "SortOrder__c"
-        },
-        {
           "name": "IsWon__c"
         }
       ]
