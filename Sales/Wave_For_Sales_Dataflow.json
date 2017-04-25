@@ -893,20 +893,20 @@
       "source": "Extract_Lead",
       "computedFields": [
         {
+          "default": "",
           "name": "CreatedDate",
-          "type": "Date",
+          "format": "yyyy-MM-dd",
+          "saqlExpression": "toDate(CreatedDate__c, \"yyyy-MM-dd\")",
           "label": "CreatedDate",
-          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-          "saqlExpression": "toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
-          "default": ""
+          "type": "Date"
         },
         {
+          "default": "",
           "name": "ConvertedDate",
-          "type": "Date",
+          "format": "yyyy-MM-dd",
+          "saqlExpression": "toDate(ConvertedDate__c, \"yyyy-MM-dd\")",
           "label": "Converted Date",
-          "format": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
-          "saqlExpression": "toDate(ConvertedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
-          "default": ""
+          "type": "Date"
         }
       ],
       "mergeWithSource": true
@@ -1192,7 +1192,7 @@
   "rename_OpportunityHistoryFields": {
     "action": "computeExpression",
     "parameters": {
-      "mergeWithSource": false,
+      "mergeWithSource": true,
       "computedFields": [
         {
           "name": "Amount",
