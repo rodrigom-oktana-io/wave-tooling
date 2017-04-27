@@ -4,5 +4,5 @@ External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created By ID,CreatedById__c,Lookup,User,0,0,0,,TRUE,TRUE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Field,Field__c,Text,,100,0,0,,FALSE,TRUE
-Old Value,OldValue__c,Text,,100,0,0,,FALSE,TRUE
-New Value,NewValue__c,Text,,100,0,0,,FALSE,TRUE
+Old Value,OldValue__c,Text,,100,0,0,,FALSE,FALSE
+New Value,NewValue__c,Text,,100,0,0,,FALSE,FALSE
