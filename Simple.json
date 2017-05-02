@@ -22,9 +22,20 @@
 					"targetSObjectLookupField" : "Name",
 					"foreignKeyField" : "ProfileId"
 				}
-			],
-			"dateFieldsToShift": [
-				"CreatedDate"
+			]
+		},
+		{
+			"name": "Account",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/AccountsL.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				}
 			]
 		}
 	],
