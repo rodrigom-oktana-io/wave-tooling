@@ -37,6 +37,26 @@
 					"foreignKeyField" : "OwnerId"
 				}
 			]
+		},
+		{
+			"name": "Case",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				}
+			]
 		}
 	],
 	"edgemarts": [
