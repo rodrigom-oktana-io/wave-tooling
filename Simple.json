@@ -5,17 +5,11 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "Case",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+			"name": "Contact",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts_metadata.csv",
 			"relations": [
-				{
-					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OwnerId"
-				},
 				{
 					"csvColumnName": "Account.External_Id__c",
 					"targetSObject" : "Account",
