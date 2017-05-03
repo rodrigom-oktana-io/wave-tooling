@@ -11,6 +11,12 @@
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
 			"relations": [
 				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
+				{
 					"csvColumnName": "Account.External_Id__c",
 					"targetSObject" : "Account",
 					"targetSObjectLookupField" : "External_Id__c",
@@ -30,7 +36,7 @@
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/KnowledgeArticle_metadata.csv",
 			"relations": [
-				
+
 			]
 		},
 		{
