@@ -21,12 +21,6 @@
 					"targetSObject" : "Account",
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "AccountId"
-				},
-				{
-					"csvColumnName": "Account.External_Id__c_fail",
-					"targetSObject" : "Account",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "AccountId"
 				}
 			]
 		}
