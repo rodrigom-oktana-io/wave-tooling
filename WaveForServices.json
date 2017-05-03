@@ -83,35 +83,6 @@
 			]
 		},
 		{
-			"name": "KnowledgeArticle",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Knowledge_Articles.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/KnowledgeArticle_metadata.csv",
-			"relations": [
-				
-			]
-		},
-		{
-			"name": "CaseArticle",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Case_Articles.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/CaseArticle_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "KnowledgeArticle.External_Id__c",
-					"targetSObject" : "KnowledgeArticle",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "KnowledgeArticleId"
-				},
-				{
-					"csvColumnName": "Case.External_Id__c",
-					"targetSObject" : "Case",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "CaseId"
-				}
-			]
-		},
-		{
 			"name": "CaseHistory__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_History.csv",
 			"additionalDataFiles": 0,
