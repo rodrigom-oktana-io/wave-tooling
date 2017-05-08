@@ -653,8 +653,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceCaseHistory",
-            "alias":"ServiceCaseHistory2",
-            "source":"Join_CaseHistory_NewOwner"
+            "alias":"<ServiceCaseHistory>",
+            "source":"Join_CaseHistory_NewOwner",
+            "folderid":"<folderId>"
         }
     },
     "Join_AgentWorkUserGroupServiceChannelCase_NoCSAT":{
@@ -751,8 +752,9 @@
         "parameters":{
             "SFDCtoken":"SFDCtoken",
             "name":"ServiceActivity",
-            "alias":"ServiceActivity2",
-            "source":"Filter_Activities"
+            "alias":"<ServiceActivity>",
+            "source":"Filter_Activities",
+            "folderid":"<folderId>"
         }
     },
     "Extract_Task":{
@@ -827,8 +829,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceChatTranscriptEvent",
-            "alias":"ServiceChatTranscriptEvent",
-            "source":"compute_LiveChatTranscriptEventLCT"
+            "alias":"<ServiceChatTranscriptEvent>",
+            "source":"compute_LiveChatTranscriptEventLCT",
+            "folderid":"<folderId>"
         }
     },
     "Append_TaskEvent":{
@@ -858,8 +861,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceChatTranscript",
-            "alias":"ServiceChatTranscript",
-            "source":"compute_LiveChatTranscriptCSAT"
+            "alias":"<ServiceChatTranscript>",
+            "source":"compute_LiveChatTranscriptCSAT",
+            "folderid":"<folderId>"
         }
     },
     "Extract_CaseArticleKnowledge":{
@@ -1037,8 +1041,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceKnowledgeAttached",
-            "alias":"ServiceKnowledgeAttached1",
-            "source":"computeKnowledgeCitationFlag"
+            "alias":"<ServiceKnowledgeAttached>",
+            "source":"computeKnowledgeCitationFlag",
+            "folderid":"<folderId>"
         }
     },
     "Join_OpportunityRecordType":{
@@ -1122,32 +1127,106 @@
             "enablePKChunking":false,
             "fields":[
                 {
-                    "name":"CaseId"
+                    "name":"CaseId__c"
                 },
                 {
-                    "name":"CreatedById"
+                    "name":"CreatedById__c"
                 },
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
-                    "name":"Field"
+                    "name":"Field__c"
                 },
                 {
                     "name":"Id"
                 },
                 {
-                    "name":"NewValue"
+                    "name":"NewValue__c"
                 },
                 {
-                    "name":"OldValue"
+                    "name":"OldValue__c"
                 }
             ],
             "complexFilterConditions":"CreatedDate >= LAST_N_MONTHS:18 and Field IN ('Status', 'Owner')",
             "object":"CaseHistory"
+        }
+    },
+    "rename_CaseHistoryFields":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+                {
+                    "name":"CaseId",
+                    "type":"Text",
+                    "saqlExpression":"CaseId__c",
+                    "default":""
+                },
+                {
+                    "name":"CreatedById",
+                    "type":"Text",
+                    "saqlExpression":"CreatedById__c",
+                    "default":""
+                },
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"Field",
+                    "type":"Text",
+                    "saqlExpression":"Field__c",
+                    "default":""
+                },
+                {
+                    "name":"NewValue",
+                    "type":"Text",
+                    "saqlExpression":"NewValue__c",
+                    "default":""
+                },
+                {
+                    "name":"OldValue",
+                    "type":"Text",
+                    "saqlExpression":"OldValue__c",
+                    "default":""
+                }
+            ],
+            "source":"Extract_CaseHistory"
+        }
+    },
+    "drop_custom_rename_CaseHistoryFields":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_CaseHistoryFields",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"CreatedById__c"
+                },
+                {
+                    "name":"CreatedDate__c"
+                },
+                {
+                    "name":"Field__c"
+                },
+                {
+                    "name":"NewValue__c"
+                },
+                {
+                    "name":"OldValue__c"
+                }
+            ]
         }
     },
     "Extract_RecordTypes":{
@@ -1668,8 +1747,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceKnowledge",
-            "alias":"ServiceKnowledge1",
-            "source":"computeKnowledgeDraftStatusAndChannelField"
+            "alias":"<ServiceKnowledge>",
+            "source":"computeKnowledgeDraftStatusAndChannelField",
+            "folderid":"<folderId>"
         }
     },
     "Join_OpportunityRecordTypeAccount":{
@@ -1768,7 +1848,7 @@
         "action":"filter",
         "parameters":{
             "filter":"Field:EQ:Status",
-            "source":"Extract_CaseHistory"
+            "source":"drop_custom_rename_CaseHistoryFields"
         }
     },
     "Handle_Null_Attached_Articles":{
@@ -1938,7 +2018,7 @@
         "action":"filter",
         "parameters":{
             "filter":"Field:EQ:Owner",
-            "source":"Extract_CaseHistory"
+            "source":"drop_custom_rename_CaseHistoryFields"
         }
     },
     "Join_Append_Knowledge__kav_dataCategory":{
@@ -2018,8 +2098,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceOmniAgentWork",
-            "alias":"ServiceOmniAgentWork",
-            "source":"compute_AgentWorkCSAT"
+            "alias":"<ServiceOmniAgentWork>",
+            "source":"compute_AgentWorkCSAT",
+            "folderid":"<folderId>"
         }
     },
     "Join_ActivityOwner":{
@@ -2088,8 +2169,9 @@
         "parameters":{
             "SFDCtoken":"SFDCtoken",
             "name":"ServiceOpportunities",
-            "alias":"ServiceOpportunity2",
-            "source":"Join_OpportunityRecordTypeAccountCase"
+            "alias":"<ServiceOpportunity>",
+            "source":"Join_OpportunityRecordTypeAccountCase",
+            "folderid":"<folderId>"
         }
     },
     "Join_Append_Knowledge__ka_kav_dataCategory_ViewStat_VoteStat_User":{
@@ -2376,8 +2458,9 @@
         "action":"sfdcRegister",
         "parameters":{
             "name":"ServiceOmniUserPresence",
-            "alias":"ServiceOmniUserPresence",
-            "source":"Join_ServicePresenceUserStatus"
+            "alias":"<ServiceOmniUserPresence>",
+            "source":"Join_ServicePresenceUserStatus",
+            "folderid":"<folderId>"
         }
     },
     "compute_CalculatedCaseDuration":{
@@ -2683,8 +2766,9 @@
         "parameters":{
             "SFDCtoken":"SFDCtoken",
             "name":"ServiceCase",
-            "alias":"ServiceCase2",
-            "source":"Handle_Null_RecordType"
+            "alias":"<ServiceCase>",
+            "source":"Handle_Null_RecordType",
+            "folderid":"<folderId>"
         }
     }
 }
