@@ -1151,7 +1151,7 @@
                     "name":"OldValue__c"
                 }
             ],
-            "complexFilterConditions":"CreatedDate >= LAST_N_MONTHS:18 and Field IN ('Status', 'Owner')",
+            "complexFilterConditions":"CreatedDate__c >= LAST_N_MONTHS:18 and Field__c IN ('Status', 'Owner')",
             "object":"CaseHistory"
         }
     },
