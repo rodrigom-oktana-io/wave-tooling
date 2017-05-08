@@ -2,13 +2,13 @@
 	"appName": "Wave for Sales",
 	"appType": "Sales",
 	"appDescription": "This package includes data on Users, Accounts, Opportunities for Wave for Sales. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Wave_For_Sales_Dataflow.json",
+	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/Wave_For_Sales_Dataflow.json",
 	"objects": [
 		{
 			"name": "User",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/User.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Users_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/User_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "UserRole.Name",
@@ -26,9 +26,9 @@
 		},
 		{
 			"name": "Account",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Account.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Accounts_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Account_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -40,9 +40,9 @@
 		},
 		{
 			"name": "Contact",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Contact.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Contacts_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Contact_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Account.External_Id__c",
@@ -54,9 +54,9 @@
 		},
 		{
 			"name": "Case",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Case.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/Cases_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Case_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -84,9 +84,9 @@
 		},
 		{
 			"name": "Opportunity",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunities.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Opportunity.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Opportunity_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Opportunity_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -108,9 +108,9 @@
 		},
 		{
 			"name": "OpportunityHistory__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityHistory.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/OpportunityHistory.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityHistory_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/OpportunityHistory_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Opportunity.External_Id__c",
@@ -125,18 +125,18 @@
 		},
 		{
 			"name": "OpportunityStage__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityStages.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/OpportunityStage.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/OpportunityStage_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/OpportunityStage_metadata.csv",
 			"dateFieldsToShift": [
 				"CreatedDate__c"
 			]
 		},
 		{
 			"name": "Lead",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Leads.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Lead.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/Lead_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Lead_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -151,9 +151,9 @@
 		},
 		{
 			"name": "Task",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Task.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Tasks_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Task_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -169,9 +169,9 @@
 		},
 		{
 			"name": "Event",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Event.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Events_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Event_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
