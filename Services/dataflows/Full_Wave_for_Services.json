@@ -290,7 +290,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"Extract_UserServicePresence",
+            "left":"drop_custom_rename_UserServicePresence",
             "left_key":[
                 "UserId"
             ],
