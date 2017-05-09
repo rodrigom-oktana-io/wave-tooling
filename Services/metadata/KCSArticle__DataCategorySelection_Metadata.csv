@@ -1,0 +1,4 @@
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
+DataCategoryGroupName,DataCategoryGroupName__c,Text,,80,0,0,,FALSE,TRUE
+DataCategoryName,DataCategoryName__c,Text,,80,0,0,,FALSE,TRUE
+Parent ID,ParentId__c,Lookup,KCSArticle__kav,18,0,0,,FALSE,TRUE
