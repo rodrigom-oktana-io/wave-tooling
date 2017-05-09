@@ -106,10 +106,83 @@
 			]
 		},
 		{
+			"name": "AgentWork__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/AgentWork.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/AgentWork_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "OriginalQueue.DeveloperName",
+					"targetSObject": "Group",
+					"targetSObjectLookupField": "DeveloperName",
+					"foreignKeyField": "OriginalQueueId__c"
+    			},
+				{
+					"csvColumnName": "ServiceChannel.DeveloperName",
+					"targetSObject": "ServiceChannel",
+					"targetSObjectLookupField": "DeveloperName",
+					"foreignKeyField": "ServiceChannelId__c"
+    			},
+				{
+					"csvColumnName": "User.External_Id__c",
+					"targetSObject": "User",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "UserId__c"
+    			},
+				{
+					"csvColumnName": "Case.External_Id__c",
+					"targetSObject": "Case",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "WorkItemId__c"
+    			}
+  			],
+			"dateFieldsToShift": [
+				"AcceptDateTime__c",
+				"AssignedDateTime__c",
+				"CancelDateTime__c",
+				"CloseDateTime__c",
+				"CreatedDate__c",
+				"DeclineDateTime__c",
+				"PushTimeoutDateTime__c",
+				"RequestDateTime__c"
+			]
+		},
+		{
+			"name": "UserServicePresence__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/UserServicePresence.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/UserServicePresence_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject": "User",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "Owner__c"
+    			},
+				{
+					"csvColumnName": "User.External_Id__c",
+					"targetSObject": "User",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "UserId__c"
+    			},
+				{
+					"csvColumnName": "ServicePresenceStatus.DeveloperName",
+					"targetSObject": "ServicePresenceStatus",
+					"targetSObjectLookupField": "DeveloperName",
+					"foreignKeyField": "ServicePresenceStatusId__c"
+    			}
+  			],
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"StatusEndDate",
+				"StatusStartDate__c"
+			]
+		},
+		{
 			"name": "Task",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Task.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/meta/Task_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Task_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
