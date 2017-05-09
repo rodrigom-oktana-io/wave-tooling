@@ -3,3 +3,4 @@ Channel,Channel__c,Text,,40,0,0,,FALSE,TRUE
 Parent ID,ParentId__c,Lookup,KCSArticle__ka,18,0,0,,TRUE,TRUE
 ViewCount,ViewCount__c,Number,,9,0,0,,FALSE,TRUE
 NormalizedScore,NormalizedScore__c,Number,,0,18,4,,FALSE,FALSE
+External_Id__c,External_Id__c,Text,,50,0,0,,TRUE,FALSE
