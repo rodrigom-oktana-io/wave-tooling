@@ -17,6 +17,6 @@ PushTimeoutDateTime,PushTimeoutDateTime__c,DateTime,,0,0,0,,FALSE,FALSE
 RequestDateTime,RequestDateTime__c,DateTime,,0,0,0,,FALSE,FALSE
 ServiceChannel ID,ServiceChannelId__c,Lookup,ServiceChannel,18,0,0,,FALSE,TRUE
 SpeedToAnswer,SpeedToAnswer__c,Number,,9,0,0,0,FALSE,FALSE
-Status,Status__c,Picklist,,255,0,0,,FALSE,TRUE
+Status,Status__c,Text,,255,0,0,,FALSE,TRUE
 User ID,UserId__c,Lookup,User,18,0,0,,FALSE,TRUE
 WorkItem ID,WorkItemId__c,Lookup,WorkItem,18,0,0,,FALSE,TRUE
