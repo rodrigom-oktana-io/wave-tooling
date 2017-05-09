@@ -1,0 +1,2 @@
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
+ConfiguredCapacity__c,ConfiguredCapacity__c, Text,,,,,FALSE,FALSE
