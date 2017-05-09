@@ -2014,40 +2014,40 @@
         "parameters":{
             "fields":[
                 {
-                    "name":"AcceptDateTime"
+                    "name":"AcceptDateTime__c"
                 },
                 {
-                    "name":"ActiveTime"
+                    "name":"ActiveTime__c"
                 },
                 {
-                    "name":"AgentCapacityWhenDeclined"
+                    "name":"AgentCapacityWhenDeclined__c"
                 },
                 {
                     "name":"Id"
                 },
                 {
-                    "name":"AssignedDateTime"
+                    "name":"AssignedDateTime__c"
                 },
                 {
-                    "name":"CancelDateTime"
+                    "name":"CancelDateTime__c"
                 },
                 {
-                    "name":"CloseDateTime"
+                    "name":"CloseDateTime__c"
                 },
                 {
-                    "name":"CreatedDate"
+                    "name":"CreatedDate__c"
                 },
                 {
-                    "name":"DeclineDateTime"
+                    "name":"DeclineDateTime__c"
                 },
                 {
-                    "name":"DeclineReason"
+                    "name":"DeclineReason__c"
                 },
                 {
                     "name":"IsDeleted"
                 },
                 {
-                    "name":"HandleTime"
+                    "name":"HandleTime__c"
                 },
                 {
                     "name":"LastModifiedDate"
@@ -2056,43 +2056,263 @@
                     "name":"Name"
                 },
                 {
-                    "name":"CapacityPercentage"
+                    "name":"CapacityPercentage__c"
                 },
                 {
-                    "name":"PushTimeout"
+                    "name":"PushTimeout__c"
                 },
                 {
-                    "name":"PushTimeoutDateTime"
+                    "name":"PushTimeoutDateTime__c"
                 },
                 {
-                    "name":"RequestDateTime"
+                    "name":"RequestDateTime__c"
                 },
                 {
-                    "name":"SpeedToAnswer"
+                    "name":"SpeedToAnswer__c"
                 },
                 {
-                    "name":"Status"
+                    "name":"Status__c"
                 },
                 {
                     "name":"SystemModstamp"
                 },
                 {
-                    "name":"CapacityWeight"
+                    "name":"CapacityWeight__c"
                 },
                 {
-                    "name":"UserId"
+                    "name":"UserId__c"
                 },
                 {
-                    "name":"OriginalQueueId"
+                    "name":"OriginalQueueId__c"
                 },
                 {
-                    "name":"ServiceChannelId"
+                    "name":"ServiceChannelId__c"
                 },
                 {
-                    "name":"WorkItemId"
+                    "name":"WorkItemId__c"
                 }
             ],
-            "object":"AgentWork"
+            "object":"AgentWork__c"
+        }
+    },
+    "rename_AgentWork":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+                {
+                    "name":"AcceptDateTime",
+                    "type":"Date",
+                    "label":"AcceptDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(AcceptDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"ActiveTime",
+                    "saqlExpression":"ActiveTime__c",
+                    "scale":0,
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":10,
+                    "name":"AgentCapacityWhenDeclined",
+                    "saqlExpression":"AgentCapacityWhenDeclined__c",
+                    "scale":2,
+                    "type":"Numeric"
+                },
+                {
+                    "name":"AssignedDateTime",
+                    "type":"Date",
+                    "label":"AssignedDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(AssignedDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"CancelDateTime",
+                    "type":"Date",
+                    "label":"CancelDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CancelDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"CloseDateTime",
+                    "type":"Date",
+                    "label":"CloseDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CloseDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"DeclineDateTime",
+                    "type":"Date",
+                    "label":"DeclineDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(DeclineDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"DeclineReason",
+                    "type":"Text",
+                    "saqlExpression":"DeclineReason__c",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"HandleTime",
+                    "saqlExpression":"HandleTime__c",
+                    "scale":0,
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":5,
+                    "name":"CapacityPercentage",
+                    "saqlExpression":"CapacityPercentage__c",
+                    "scale":2,
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"PushTimeout",
+                    "saqlExpression":"PushTimeout__c",
+                    "scale":0,
+                    "type":"Numeric"
+                },
+                {
+                    "name":"PushTimeoutDateTime",
+                    "type":"Date",
+                    "label":"PushTimeoutDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(PushTimeoutDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"RequestDateTime",
+                    "type":"Date",
+                    "label":"RequestDateTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(RequestDateTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"SpeedToAnswer",
+                    "saqlExpression":"SpeedToAnswer__c",
+                    "scale":0,
+                    "type":"Numeric"
+                },
+                {
+                    "name":"Status",
+                    "type":"Text",
+                    "saqlExpression":"Status__c",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":10,
+                    "name":"CapacityWeight",
+                    "saqlExpression":"CapacityWeight__c",
+                    "scale":2,
+                    "type":"Numeric"
+                },
+                {
+                    "name":"UserId",
+                    "type":"Text",
+                    "saqlExpression":"UserId__c",
+                    "default":""
+                },
+                {
+                    "name":"OriginalQueueId",
+                    "type":"Text",
+                    "saqlExpression":"OriginalQueueId__c",
+                    "default":""
+                },
+                {
+                    "name":"ServiceChannelId",
+                    "type":"Text",
+                    "saqlExpression":"ServiceChannelId__c",
+                    "default":""
+                },
+                {
+                    "name":"WorkItemId",
+                    "type":"Text",
+                    "saqlExpression":"WorkItemId__c",
+                    "default":""
+                }
+            ],
+            "source":"Extract_AgentWork"
+        }
+    },
+    "drop_custom_rename_AgentWork":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_AgentWork",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ActiveTime__c"
+                },
+                {
+                    "name":"AgentCapacityWhenDeclined__c"
+                },
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"DeclineReason__c"
+                },
+                {
+                    "name":"IsDeleted"
+                },
+                {
+                    "name":"HandleTime__c"
+                },
+                {
+                    "name":"CapacityPercentage__c"
+                },
+                {
+                    "name":"PushTimeout__c"
+                },
+                {
+                    "name":"SpeedToAnswer__c"
+                },
+                {
+                    "name":"Status__c"
+                },
+                
+                {
+                    "name":"CapacityWeight__c"
+                },
+                {
+                    "name":"UserId__c"
+                },
+                {
+                    "name":"OriginalQueueId__c"
+                },
+                {
+                    "name":"ServiceChannelId__c"
+                },
+                {
+                    "name":"WorkItemId__c"
+                }
+            ]
         }
     },
     "Extract_Knowledge_ViewStat":{
@@ -2858,7 +3078,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"Extract_AgentWork",
+            "left":"drop_custom_rename_AgentWork",
             "left_key":[
                 "UserId"
             ],
