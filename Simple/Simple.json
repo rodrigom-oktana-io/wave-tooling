@@ -57,7 +57,7 @@
 					"csvColumnName": "Owner.External_Id__c",
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "Owner__c"
+					"foreignKeyField": "OwnerId__c"
     			},
 				{
 					"csvColumnName": "User.External_Id__c",
