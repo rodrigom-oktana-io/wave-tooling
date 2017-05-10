@@ -6,7 +6,7 @@
 	"objects": [
 		
 		{
-			"name": "KCSArticle__ka__c",
+			"name": "KCSArticle_ka__c",
 			"url": "",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"name": "KCSArticle__kav__c",
+			"name": "KCSArticle_kav__c",
 			"url": "",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__kav_metadata.csv",
@@ -37,7 +37,7 @@
 			]
 		},
 		{
-			"name": "KCSArticle__DataCategorySelection__c",
+			"name": "KCSArticle_DataCategorySelection__c",
 			"url": "",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__DataCategorySelection_metadata.csv",
@@ -51,7 +51,7 @@
   			]
 		},
 		{
-			"name": "KCSArticle__ViewStat",
+			"name": "KCSArticle_ViewStat",
 			"url": "",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ViewStat_metadata.csv",
@@ -65,7 +65,7 @@
   			]
 		},
 		{
-			"name": "KCSArticle__VoteStat",
+			"name": "KCSArticle_VoteStat",
 			"url": "",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__VoteStat_metadata.csv",
