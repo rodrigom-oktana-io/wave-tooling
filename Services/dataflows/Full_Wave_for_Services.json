@@ -276,8 +276,7 @@
                     "type":"Text",
                     "saqlExpression":"VersionNumber__c",
                     "default":""
-                },
-
+                }
             ],
             "source":"Extract_Knowledge_kav_online"
         }
@@ -765,8 +764,7 @@
                     "scale":0,
                     "label":"CaseAssociationCount",
                     "type":"Numeric"
-                },
-
+                }
             ],
             "source":"Extract_Knowledge_kav_online"
         }
@@ -1124,8 +1122,7 @@
                     "scale":4,
                     "label":"CaseAssociationCount",
                     "type":"Numeric"
-                },
-
+                }
             ],
             "source":"Extract_Knowledge_kav_online"
         }
