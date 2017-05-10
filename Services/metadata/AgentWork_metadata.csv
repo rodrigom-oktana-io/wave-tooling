@@ -11,13 +11,13 @@ CreatedDate,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 DeclineDateTime,DeclineDateTime__c,DateTime,,0,0,0,,FALSE,FALSE
 DeclineReason,DeclineReason__c,Text,,200,0,0,,FALSE,FALSE
 HandleTime,HandleTime__c,Number,,0,9,0,,FALSE,FALSE
-OriginalQueue ID,OriginalQueueId__c,Lookup,Group,18,0,0,,FALSE,FALSE
+OriginalQueue ID,OriginalQueueId__c,Text,,18,0,0,,FALSE,FALSE
 PushTimeout,PushTimeout__c,Number,,0,9,0,,FALSE,FALSE
 PushTimeoutDateTime,PushTimeoutDateTime__c,DateTime,,0,0,0,,FALSE,FALSE
 RequestDateTime,RequestDateTime__c,DateTime,,0,0,0,,FALSE,FALSE
-ServiceChannel ID,ServiceChannelId__c,Lookup,ServiceChannel,18,0,0,,FALSE,TRUE
+ServiceChannel ID,ServiceChannelId__c,Text,,18,0,0,,FALSE,TRUE
 SpeedToAnswer,SpeedToAnswer__c,Number,,0,9,0,,FALSE,FALSE
 Status,Status__c,Text,,255,0,0,,FALSE,TRUE
 User ID,UserId__c,Lookup,User,18,0,0,,FALSE,TRUE
-WorkItem ID,WorkItemId__c,Lookup,WorkItem,18,0,0,,FALSE,TRUE
+WorkItem ID,WorkItemId__c,Text,,18,0,0,,FALSE,TRUE
 External_Id__c,External_Id__c,Text,,50,0,0,,TRUE,FALSE
