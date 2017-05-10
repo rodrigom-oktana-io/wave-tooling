@@ -2926,13 +2926,13 @@
                     "name":"ChatKey"
                 },
                 {
-                    "name":"CreatedDate"
+                    "name":"CreatedDate__c"
                 },
                 {
                     "name":"IsDeleted"
                 },
                 {
-                    "name":"EndTime"
+                    "name":"EndTime__c"
                 },
                 {
                     "name":"EndedBy"
@@ -2941,10 +2941,10 @@
                     "name":"LastModifiedDate"
                 },
                 {
-                    "name":"LastReferencedDate"
+                    "name":"LastReferencedDate__c"
                 },
                 {
-                    "name":"LastViewedDate"
+                    "name":"LastViewedDate__c"
                 },
                 {
                     "name":"LiveChatButtonId"
@@ -2974,7 +2974,7 @@
                     "name":"ScreenResolution"
                 },
                 {
-                    "name":"StartTime"
+                    "name":"StartTime__c"
                 },
                 {
                     "name":"Status"
@@ -3005,6 +3005,55 @@
                 }
             ],
             "object":"LiveChatTranscript"
+        }
+    },
+    "rename_LiveChatTranscript":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+                {
+                    "name":"EndTime",
+                    "type":"Date",
+                    "label":"EndTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(EndTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"LastReferencedDate",
+                    "type":"Date",
+                    "label":"LastReferencedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(LastReferencedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"LastViewedDate",
+                    "type":"Date",
+                    "label":"LastViewedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(LastViewedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"StartTime",
+                    "type":"Date",
+                    "label":"StartTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(StartTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                }
+            ],
+            "source":"Extract_LiveChatTranscript"
         }
     },
     "compute_LiveChatTranscript":{
@@ -3095,7 +3144,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"Extract_LiveChatTranscript",
+            "left":"rename_LiveChatTranscript",
             "left_key":[
                 "LiveChatButtonId"
             ],
