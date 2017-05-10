@@ -16,25 +16,25 @@
 					"targetSObject": "Group",
 					"targetSObjectLookupField": "DeveloperName",
 					"foreignKeyField": "OriginalQueueId__c"
-    			},
+    				},
 				{
 					"csvColumnName": "ServiceChannel.DeveloperName",
 					"targetSObject": "ServiceChannel",
 					"targetSObjectLookupField": "DeveloperName",
 					"foreignKeyField": "ServiceChannelId__c"
-    			},
+    				},
 				{
 					"csvColumnName": "User.External_Id__c",
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
 					"foreignKeyField": "UserId__c"
-    			},
+    				},
 				{
 					"csvColumnName": "Case.External_Id__c",
 					"targetSObject": "Case",
 					"targetSObjectLookupField": "External_Id__c",
 					"foreignKeyField": "WorkItemId__c"
-    			}
+    				}
   			],
 			"dateFieldsToShift": [
 				"AcceptDateTime__c",
