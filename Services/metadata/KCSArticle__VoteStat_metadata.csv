@@ -1,5 +1,5 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
 Channel,Channel,Text,,40,0,0,,FALSE,TRUE
-Parent ID,ParentId__c,Lookup,KCSArticle__ka,18,0,0,,FALSE,TRUE
+Parent ID,ParentId__c,Text,,18,0,0,,FALSE,TRUE
 NormalizedScore,NormalizedScore,Number,,0,18,4,,FALSE,FALSE
 External_Id__c,External_Id__c,Text,,50,0,0,,TRUE,FALSE
