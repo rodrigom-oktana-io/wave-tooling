@@ -28,7 +28,7 @@
 					"targetSObject": "KCSArticle__ka",
 					"targetSObjectLookupField": "External_Id__c",
 					"foreignKeyField": "KnowledgeArticleId__c"
-    			}
+    				}
   			],
   			"dateFieldsToShift": [
 				"CreatedDate__c"
