@@ -203,7 +203,13 @@
 					"targetSObject": "KCSArticle__ka",
 					"targetSObjectLookupField": "External_Id__c",
 					"foreignKeyField": "KnowledgeArticleId__c"
-    				}
+    			},
+    			{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId__c"
+				}
   			],
 			"dateFieldsToShift": [
 				"CreatedDate__c"
