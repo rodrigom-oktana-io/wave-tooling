@@ -1,3 +1,8 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
 External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,FALSE
+ArticleVersionNumber,ArticleVersionNumber__c,Number,,0,6,0,,FALSE,FALSE
+Case ID,CaseId__c,Text,,18,0,0,,FALSE,TRUE
+CreatedById,CreatedById__c,Text,,18,0,0,,FALSE,TRUE
+KnowledgeArticle ID,KnowledgeArticleId__c,Text,,18,0,0,,FALSE,TRUE
+IsSharedByEmail,IsSharedByEmail__c,Checkbox,,0,0,0,FALSE,FALSE,FALSE
