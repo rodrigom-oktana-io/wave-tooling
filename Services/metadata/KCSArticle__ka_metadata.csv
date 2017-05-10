@@ -1,7 +1,7 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
 External_Id__c,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 ArticleNumber,ArticleNumber__c,Text,,30,0,0,,FALSE,TRUE
-CaseAssociationCount,CaseAssociationCount__c,Number,,9,0,0,,FALSE,TRUE
+CaseAssociationCount,CaseAssociationCount__c,Number,,0,9,0,,FALSE,TRUE
 CreatedDate__c,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 FirstPublishedDate,FirstPublishedDate__c,DateTime,,0,0,0,,FALSE,FALSE
 LastPublishedDate,LastPublishedDate__c,DateTime,,0,0,0,,FALSE,FALSE
