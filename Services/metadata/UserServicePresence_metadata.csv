@@ -10,6 +10,6 @@ StatusDuration,StatusDuration__c,Number,,0,9,0,,FALSE,FALSE
 StatusEndDate,StatusEndDate__c,DateTime,,0,0,0,,FALSE,FALSE
 StatusStartDate,StatusStartDate__c,DateTime,,0,0,0,,FALSE,FALSE
 Owner ID,OwnerId__c,Text,,20,0,0,,FALSE,TRUE
-User ID,User_Id__c,Text,,20,20,0,,FALSE,TRUE
+User ID,User_Id__c,Text,,20,0,0,,FALSE,TRUE
 Service Presence Status ID,ServicePresenceStatusId__c,Text,,18,0,0,,FALSE,TRUE
 External_Id__c,External_Id__c,Text,,50,0,0,,TRUE,FALSE
