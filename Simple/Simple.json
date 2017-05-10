@@ -6,77 +6,28 @@
 	"objects": [
 		
 		{
-			"name": "KCSArticle_ka__c",
+			"name": "LiveChatTranscript__c",
 			"url": "",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
 			"relations": [
 				
   			],
-			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"FirstPublishedDate__c",
-				"LastPublishedDate__c"
-			]
-		},
-		{
-			"name": "KCSArticle_kav__c",
-			"url": "",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__kav_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "KCSArticle__ka.External_Id__c",
-					"targetSObject": "KCSArticle__ka",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "KnowledgeArticleId__c"
-    				}
-  			],
-			"dateFieldsToShift": [
+  			"dateFieldsToShift": [
 				"CreatedDate__c"
 			]
 		},
 		{
-			"name": "KCSArticle_DataCategorySelection__c",
+			"name": "LiveChatTranscriptEvent__c",
 			"url": "",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__DataCategorySelection_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
 			"relations": [
-				{
-					"csvColumnName": "KCSArticle__ka.External_Id__c",
-					"targetSObject": "KCSArticle__ka",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "ParentId__c"
-    				}
-  			]
-		},
-		{
-			"name": "KCSArticle_ViewStat__c",
-			"url": "",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ViewStat_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "KCSArticle__ka.External_Id__c",
-					"targetSObject": "KCSArticle__ka",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "ParentId__c"
-    				}
-  			]
-		},
-		{
-			"name": "KCSArticle_VoteStat__c",
-			"url": "",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__VoteStat_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "KCSArticle__ka.External_Id__c",
-					"targetSObject": "KCSArticle__ka",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "ParentId__c"
-    				}
-  			]
+				
+  			],
+  			"dateFieldsToShift": [
+				"CreatedDate__c"
+			]
 		}
 	],
 	"edgemarts": [
