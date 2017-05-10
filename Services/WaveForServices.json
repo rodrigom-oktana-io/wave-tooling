@@ -281,19 +281,39 @@
 			]
 		},
 		{
-			"name": "LiveChatTranscript__c",
+			"name": "LiveChatTranscript",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
 			"relations": [
-				
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject": "User",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "OwnerId"
+    			},
+    			{
+					"csvColumnName": "Case.External_Id__c",
+					"targetSObject" : "Case",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "CaseId__c"
+				},
+    			{
+					"csvColumnName": "LiveChatButton.DeveloperName",
+					"targetSObject" : "LiveChatButton",
+					"targetSObjectLookupField" : "DeveloperName",
+					"foreignKeyField" : "LiveChatButtonId"
+				}
   			],
   			"dateFieldsToShift": [
-				"CreatedDate__c"
+				"CreatedDate__c",
+				"RequestTime",
+				"EndTime",
+				"StartTime"
 			]
 		},
 		{
-			"name": "LiveChatTranscriptEvent__c",
+			"name": "LiveChatTranscriptEvent",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscriptEvent.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
