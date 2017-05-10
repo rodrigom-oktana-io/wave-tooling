@@ -318,10 +318,16 @@
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
 			"relations": [
-				
+				{
+
+				},
+				{
+
+				}
   			],
   			"dateFieldsToShift": [
-				"CreatedDate__c"
+				"CreatedDate__c",
+				"Time__c"
 			]
 		}
 		{
