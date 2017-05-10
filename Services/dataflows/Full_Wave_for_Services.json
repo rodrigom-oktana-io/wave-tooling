@@ -164,7 +164,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -219,6 +219,14 @@
                     "name":"PublishStatus",
                     "type":"Text",
                     "saqlExpression":"PublishStatus__c",
+                    "default":""
+                },
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
                     "default":""
                 },
                 {
@@ -679,10 +687,10 @@
                     "name":"Id"
                 },
                 {
-                    "name":"ArticleNumber"
+                    "name":"ArticleNumber__c"
                 },
                 {
-                    "name":"CaseAssociationCount"
+                    "name":"CaseAssociationCount__c"
                 },
                 {
                     "name":"CreatedById"
@@ -690,26 +698,92 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"FirstPublishedDate",
+                    "name":"FirstPublishedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"LastPublishedDate",
+                    "name":"LastPublishedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
                     "name":"LastModifiedById"
                 }
             ],
-            "object":"KCSArticle__ka"
+            "object":"Extract_Knowledge_ka"
+        }
+    },
+
+    "rename_Knowledge_ka":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"ArticleNumber",
+                    "type":"Text",
+                    "saqlExpression":"ArticleNumber__c",
+                    "default":""
+                },
+                {
+                    "name":"FirstPublishedDate",
+                    "type":"Date",
+                    "label":"FirstPublishedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(FirstPublishedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"LastPublishedDate",
+                    "type":"Date",
+                    "label":"LastPublishedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(LastPublishedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"CaseAssociationCount",
+                    "saqlExpression":"CaseAssociationCount__c",
+                    "scale":0,
+                    "label":"CaseAssociationCount",
+                    "type":"Numeric"
+                },
+
+            ],
+            "source":"Extract_Knowledge_kav_online"
+        }
+    },
+    "drop_custom_rename_Knowledge_ka":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_ka",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ArticleNumber__c"
+                },
+                {
+                    "name":"CaseAssociationCount__c"
+                }
+            ]
         }
     },
     "Handle_Null_Opportunity_RecordType":{
@@ -2855,7 +2929,7 @@
             "right_key":[
                 "KnowledgeArticleId"
             ],
-            "left":"Extract_Knowledge_ka",
+            "left":"drop_custom_rename_Knowledge_ka",
             "left_key":[
                 "Id"
             ],
