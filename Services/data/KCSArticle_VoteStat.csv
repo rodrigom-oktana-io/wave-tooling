@@ -1,0 +1,1001 @@
+External_Id__c,Channel__c,Parent.External_Id__c,NormalizedScore__c
+W_KCSArticle_VoteStat.1,App,W_KCSArticle.1,9.796
+W_KCSArticle_VoteStat.2,Desktop Site,W_KCSArticle.2,5.571
+W_KCSArticle_VoteStat.3,Mobile Site,W_KCSArticle.3,2.539
+W_KCSArticle_VoteStat.4,Mobile Site,W_KCSArticle.4,2.683
+W_KCSArticle_VoteStat.5,App,W_KCSArticle.5,7.117
+W_KCSArticle_VoteStat.6,Desktop Site,W_KCSArticle.6,5.262
+W_KCSArticle_VoteStat.7,Mobile Site,W_KCSArticle.7,2.393
+W_KCSArticle_VoteStat.8,App,W_KCSArticle.8,8.703
+W_KCSArticle_VoteStat.9,Mobile Site,W_KCSArticle.9,3.81
+W_KCSArticle_VoteStat.10,Desktop Site,W_KCSArticle.10,7.197
+W_KCSArticle_VoteStat.11,App,W_KCSArticle.11,7.047
+W_KCSArticle_VoteStat.12,Mobile Site,W_KCSArticle.12,7.728
+W_KCSArticle_VoteStat.13,Mobile Site,W_KCSArticle.13,1.657
+W_KCSArticle_VoteStat.14,App,W_KCSArticle.14,4.992
+W_KCSArticle_VoteStat.15,Desktop Site,W_KCSArticle.15,7.252
+W_KCSArticle_VoteStat.16,App,W_KCSArticle.16,4.461
+W_KCSArticle_VoteStat.17,App,W_KCSArticle.17,5.492
+W_KCSArticle_VoteStat.18,App,W_KCSArticle.18,4.504
+W_KCSArticle_VoteStat.19,App,W_KCSArticle.19,2.445
+W_KCSArticle_VoteStat.20,Desktop Site,W_KCSArticle.20,5.347
+W_KCSArticle_VoteStat.21,Desktop Site,W_KCSArticle.21,6.002
+W_KCSArticle_VoteStat.22,Mobile Site,W_KCSArticle.22,4.953
+W_KCSArticle_VoteStat.23,App,W_KCSArticle.23,6.39
+W_KCSArticle_VoteStat.24,Desktop Site,W_KCSArticle.24,7.895
+W_KCSArticle_VoteStat.25,Mobile Site,W_KCSArticle.25,1.314
+W_KCSArticle_VoteStat.26,Mobile Site,W_KCSArticle.26,3.341
+W_KCSArticle_VoteStat.27,App,W_KCSArticle.27,2.799
+W_KCSArticle_VoteStat.28,Mobile Site,W_KCSArticle.28,2.227
+W_KCSArticle_VoteStat.29,Mobile Site,W_KCSArticle.29,7.66
+W_KCSArticle_VoteStat.30,Desktop Site,W_KCSArticle.30,1.011
+W_KCSArticle_VoteStat.31,Desktop Site,W_KCSArticle.31,8.383
+W_KCSArticle_VoteStat.32,Mobile Site,W_KCSArticle.32,1.898
+W_KCSArticle_VoteStat.33,Mobile Site,W_KCSArticle.33,2.101
+W_KCSArticle_VoteStat.34,Mobile Site,W_KCSArticle.34,1.521
+W_KCSArticle_VoteStat.35,Mobile Site,W_KCSArticle.35,1.451
+W_KCSArticle_VoteStat.36,Desktop Site,W_KCSArticle.36,7.694
+W_KCSArticle_VoteStat.37,Mobile Site,W_KCSArticle.37,3.008
+W_KCSArticle_VoteStat.38,Mobile Site,W_KCSArticle.38,5.302
+W_KCSArticle_VoteStat.39,Desktop Site,W_KCSArticle.39,5.555
+W_KCSArticle_VoteStat.40,App,W_KCSArticle.40,5.96
+W_KCSArticle_VoteStat.41,Mobile Site,W_KCSArticle.41,9.16
+W_KCSArticle_VoteStat.42,App,W_KCSArticle.42,1.799
+W_KCSArticle_VoteStat.43,App,W_KCSArticle.43,2.85
+W_KCSArticle_VoteStat.44,Desktop Site,W_KCSArticle.44,4.901
+W_KCSArticle_VoteStat.45,Mobile Site,W_KCSArticle.45,6.089
+W_KCSArticle_VoteStat.46,Desktop Site,W_KCSArticle.46,4.242
+W_KCSArticle_VoteStat.47,Mobile Site,W_KCSArticle.47,9.887
+W_KCSArticle_VoteStat.48,App,W_KCSArticle.48,4.796
+W_KCSArticle_VoteStat.49,App,W_KCSArticle.49,1.627
+W_KCSArticle_VoteStat.50,App,W_KCSArticle.50,3.16
+W_KCSArticle_VoteStat.51,Desktop Site,W_KCSArticle.51,5.133
+W_KCSArticle_VoteStat.52,Desktop Site,W_KCSArticle.52,3.707
+W_KCSArticle_VoteStat.53,App,W_KCSArticle.53,1.987
+W_KCSArticle_VoteStat.54,Desktop Site,W_KCSArticle.54,3.392
+W_KCSArticle_VoteStat.55,Mobile Site,W_KCSArticle.55,8.772
+W_KCSArticle_VoteStat.56,Mobile Site,W_KCSArticle.56,9.768
+W_KCSArticle_VoteStat.57,App,W_KCSArticle.57,3.358
+W_KCSArticle_VoteStat.58,App,W_KCSArticle.58,6.997
+W_KCSArticle_VoteStat.59,App,W_KCSArticle.59,3.604
+W_KCSArticle_VoteStat.60,App,W_KCSArticle.60,4.457
+W_KCSArticle_VoteStat.61,App,W_KCSArticle.61,5.336
+W_KCSArticle_VoteStat.62,Desktop Site,W_KCSArticle.62,7.719
+W_KCSArticle_VoteStat.63,App,W_KCSArticle.63,3.159
+W_KCSArticle_VoteStat.64,App,W_KCSArticle.64,8.725
+W_KCSArticle_VoteStat.65,App,W_KCSArticle.65,5.383
+W_KCSArticle_VoteStat.66,App,W_KCSArticle.66,1.028
+W_KCSArticle_VoteStat.67,App,W_KCSArticle.67,7.605
+W_KCSArticle_VoteStat.68,Mobile Site,W_KCSArticle.68,6.528
+W_KCSArticle_VoteStat.69,App,W_KCSArticle.69,1.749
+W_KCSArticle_VoteStat.70,App,W_KCSArticle.70,9.035
+W_KCSArticle_VoteStat.71,Mobile Site,W_KCSArticle.71,5.648
+W_KCSArticle_VoteStat.72,Desktop Site,W_KCSArticle.72,8.862
+W_KCSArticle_VoteStat.73,Mobile Site,W_KCSArticle.73,7.875
+W_KCSArticle_VoteStat.74,Desktop Site,W_KCSArticle.74,6.601
+W_KCSArticle_VoteStat.75,Mobile Site,W_KCSArticle.75,1.089
+W_KCSArticle_VoteStat.76,Mobile Site,W_KCSArticle.76,6.893
+W_KCSArticle_VoteStat.77,Mobile Site,W_KCSArticle.77,4.187
+W_KCSArticle_VoteStat.78,App,W_KCSArticle.78,6.359
+W_KCSArticle_VoteStat.79,Desktop Site,W_KCSArticle.79,1.747
+W_KCSArticle_VoteStat.80,Desktop Site,W_KCSArticle.80,3.119
+W_KCSArticle_VoteStat.81,Mobile Site,W_KCSArticle.81,3.035
+W_KCSArticle_VoteStat.82,App,W_KCSArticle.82,9.992
+W_KCSArticle_VoteStat.83,Mobile Site,W_KCSArticle.83,9.228
+W_KCSArticle_VoteStat.84,Desktop Site,W_KCSArticle.84,8.146
+W_KCSArticle_VoteStat.85,App,W_KCSArticle.85,7.902
+W_KCSArticle_VoteStat.86,Desktop Site,W_KCSArticle.86,4.66
+W_KCSArticle_VoteStat.87,Desktop Site,W_KCSArticle.87,7.071
+W_KCSArticle_VoteStat.88,App,W_KCSArticle.88,6.798
+W_KCSArticle_VoteStat.89,Desktop Site,W_KCSArticle.89,2.092
+W_KCSArticle_VoteStat.90,App,W_KCSArticle.90,5.12
+W_KCSArticle_VoteStat.91,Mobile Site,W_KCSArticle.91,2.347
+W_KCSArticle_VoteStat.92,Desktop Site,W_KCSArticle.92,7.104
+W_KCSArticle_VoteStat.93,App,W_KCSArticle.93,4.225
+W_KCSArticle_VoteStat.94,Desktop Site,W_KCSArticle.94,4.597
+W_KCSArticle_VoteStat.95,Mobile Site,W_KCSArticle.95,4.492
+W_KCSArticle_VoteStat.96,Desktop Site,W_KCSArticle.96,7.031
+W_KCSArticle_VoteStat.97,Desktop Site,W_KCSArticle.97,4.084
+W_KCSArticle_VoteStat.98,App,W_KCSArticle.98,2.791
+W_KCSArticle_VoteStat.99,Desktop Site,W_KCSArticle.99,7.784
+W_KCSArticle_VoteStat.100,Desktop Site,W_KCSArticle.100,5.644
+W_KCSArticle_VoteStat.101,Desktop Site,W_KCSArticle.101,8.094
+W_KCSArticle_VoteStat.102,App,W_KCSArticle.102,3.392
+W_KCSArticle_VoteStat.103,App,W_KCSArticle.103,3.401
+W_KCSArticle_VoteStat.104,Mobile Site,W_KCSArticle.104,8.776
+W_KCSArticle_VoteStat.105,Desktop Site,W_KCSArticle.105,4.308
+W_KCSArticle_VoteStat.106,Desktop Site,W_KCSArticle.106,8.854
+W_KCSArticle_VoteStat.107,Desktop Site,W_KCSArticle.107,3.271
+W_KCSArticle_VoteStat.108,Desktop Site,W_KCSArticle.108,2.72
+W_KCSArticle_VoteStat.109,Desktop Site,W_KCSArticle.109,9.571
+W_KCSArticle_VoteStat.110,App,W_KCSArticle.110,3.556
+W_KCSArticle_VoteStat.111,App,W_KCSArticle.111,5.275
+W_KCSArticle_VoteStat.112,App,W_KCSArticle.112,4.974
+W_KCSArticle_VoteStat.113,Desktop Site,W_KCSArticle.113,1.276
+W_KCSArticle_VoteStat.114,App,W_KCSArticle.114,2.698
+W_KCSArticle_VoteStat.115,App,W_KCSArticle.115,8.62
+W_KCSArticle_VoteStat.116,Mobile Site,W_KCSArticle.116,7.345
+W_KCSArticle_VoteStat.117,App,W_KCSArticle.117,4.807
+W_KCSArticle_VoteStat.118,Desktop Site,W_KCSArticle.118,1.542
+W_KCSArticle_VoteStat.119,Mobile Site,W_KCSArticle.119,1.778
+W_KCSArticle_VoteStat.120,Desktop Site,W_KCSArticle.120,9.105
+W_KCSArticle_VoteStat.121,Desktop Site,W_KCSArticle.121,2.965
+W_KCSArticle_VoteStat.122,Mobile Site,W_KCSArticle.122,7.031
+W_KCSArticle_VoteStat.123,Mobile Site,W_KCSArticle.123,6.535
+W_KCSArticle_VoteStat.124,App,W_KCSArticle.124,4.046
+W_KCSArticle_VoteStat.125,Desktop Site,W_KCSArticle.125,1.159
+W_KCSArticle_VoteStat.126,App,W_KCSArticle.126,6.135
+W_KCSArticle_VoteStat.127,App,W_KCSArticle.127,3.224
+W_KCSArticle_VoteStat.128,Mobile Site,W_KCSArticle.128,9.948
+W_KCSArticle_VoteStat.129,App,W_KCSArticle.129,3.975
+W_KCSArticle_VoteStat.130,App,W_KCSArticle.130,9.064
+W_KCSArticle_VoteStat.131,Mobile Site,W_KCSArticle.131,9.092
+W_KCSArticle_VoteStat.132,Mobile Site,W_KCSArticle.132,3.379
+W_KCSArticle_VoteStat.133,App,W_KCSArticle.133,2.737
+W_KCSArticle_VoteStat.134,Desktop Site,W_KCSArticle.134,8.248
+W_KCSArticle_VoteStat.135,Mobile Site,W_KCSArticle.135,3.579
+W_KCSArticle_VoteStat.136,App,W_KCSArticle.136,6.072
+W_KCSArticle_VoteStat.137,App,W_KCSArticle.137,5.48
+W_KCSArticle_VoteStat.138,Mobile Site,W_KCSArticle.138,9.716
+W_KCSArticle_VoteStat.139,Desktop Site,W_KCSArticle.139,6.467
+W_KCSArticle_VoteStat.140,Desktop Site,W_KCSArticle.140,8.423
+W_KCSArticle_VoteStat.141,App,W_KCSArticle.141,3.121
+W_KCSArticle_VoteStat.142,App,W_KCSArticle.142,7.223
+W_KCSArticle_VoteStat.143,App,W_KCSArticle.143,7.292
+W_KCSArticle_VoteStat.144,Desktop Site,W_KCSArticle.144,7.041
+W_KCSArticle_VoteStat.145,Desktop Site,W_KCSArticle.145,9.647
+W_KCSArticle_VoteStat.146,Mobile Site,W_KCSArticle.146,5.83
+W_KCSArticle_VoteStat.147,Mobile Site,W_KCSArticle.147,5.97
+W_KCSArticle_VoteStat.148,Desktop Site,W_KCSArticle.148,6.654
+W_KCSArticle_VoteStat.149,App,W_KCSArticle.149,5.569
+W_KCSArticle_VoteStat.150,Desktop Site,W_KCSArticle.150,3.062
+W_KCSArticle_VoteStat.151,Desktop Site,W_KCSArticle.151,4.061
+W_KCSArticle_VoteStat.152,Mobile Site,W_KCSArticle.152,1.686
+W_KCSArticle_VoteStat.153,Mobile Site,W_KCSArticle.153,1.5
+W_KCSArticle_VoteStat.154,Desktop Site,W_KCSArticle.154,2.282
+W_KCSArticle_VoteStat.155,Mobile Site,W_KCSArticle.155,3.196
+W_KCSArticle_VoteStat.156,App,W_KCSArticle.156,6.02
+W_KCSArticle_VoteStat.157,Mobile Site,W_KCSArticle.157,8.472
+W_KCSArticle_VoteStat.158,App,W_KCSArticle.158,7.38
+W_KCSArticle_VoteStat.159,App,W_KCSArticle.159,2.703
+W_KCSArticle_VoteStat.160,App,W_KCSArticle.160,5.078
+W_KCSArticle_VoteStat.161,App,W_KCSArticle.161,7.835
+W_KCSArticle_VoteStat.162,Desktop Site,W_KCSArticle.162,3.08
+W_KCSArticle_VoteStat.163,Mobile Site,W_KCSArticle.163,6.529
+W_KCSArticle_VoteStat.164,App,W_KCSArticle.164,7.889
+W_KCSArticle_VoteStat.165,Mobile Site,W_KCSArticle.165,7.543
+W_KCSArticle_VoteStat.166,Mobile Site,W_KCSArticle.166,9.821
+W_KCSArticle_VoteStat.167,Desktop Site,W_KCSArticle.167,4.621
+W_KCSArticle_VoteStat.168,App,W_KCSArticle.168,2.775
+W_KCSArticle_VoteStat.169,App,W_KCSArticle.169,3.742
+W_KCSArticle_VoteStat.170,Mobile Site,W_KCSArticle.170,4.432
+W_KCSArticle_VoteStat.171,Mobile Site,W_KCSArticle.171,2.018
+W_KCSArticle_VoteStat.172,Mobile Site,W_KCSArticle.172,7.997
+W_KCSArticle_VoteStat.173,Mobile Site,W_KCSArticle.173,9.547
+W_KCSArticle_VoteStat.174,App,W_KCSArticle.174,4.957
+W_KCSArticle_VoteStat.175,App,W_KCSArticle.175,2.136
+W_KCSArticle_VoteStat.176,Mobile Site,W_KCSArticle.176,6.742
+W_KCSArticle_VoteStat.177,App,W_KCSArticle.177,5.695
+W_KCSArticle_VoteStat.178,Desktop Site,W_KCSArticle.178,4.49
+W_KCSArticle_VoteStat.179,Mobile Site,W_KCSArticle.179,3.465
+W_KCSArticle_VoteStat.180,App,W_KCSArticle.180,5.066
+W_KCSArticle_VoteStat.181,Desktop Site,W_KCSArticle.181,7.896
+W_KCSArticle_VoteStat.182,Desktop Site,W_KCSArticle.182,4.495
+W_KCSArticle_VoteStat.183,App,W_KCSArticle.183,3.443
+W_KCSArticle_VoteStat.184,Desktop Site,W_KCSArticle.184,2.852
+W_KCSArticle_VoteStat.185,Desktop Site,W_KCSArticle.185,9.694
+W_KCSArticle_VoteStat.186,App,W_KCSArticle.186,8.036
+W_KCSArticle_VoteStat.187,Desktop Site,W_KCSArticle.187,1.193
+W_KCSArticle_VoteStat.188,Desktop Site,W_KCSArticle.188,1.723
+W_KCSArticle_VoteStat.189,App,W_KCSArticle.189,5.335
+W_KCSArticle_VoteStat.190,Desktop Site,W_KCSArticle.190,6.227
+W_KCSArticle_VoteStat.191,Desktop Site,W_KCSArticle.191,9.994
+W_KCSArticle_VoteStat.192,App,W_KCSArticle.192,1.397
+W_KCSArticle_VoteStat.193,Desktop Site,W_KCSArticle.193,3.653
+W_KCSArticle_VoteStat.194,Desktop Site,W_KCSArticle.194,2.402
+W_KCSArticle_VoteStat.195,Desktop Site,W_KCSArticle.195,1.175
+W_KCSArticle_VoteStat.196,Mobile Site,W_KCSArticle.196,5.47
+W_KCSArticle_VoteStat.197,App,W_KCSArticle.197,1.058
+W_KCSArticle_VoteStat.198,Desktop Site,W_KCSArticle.198,9.56
+W_KCSArticle_VoteStat.199,Mobile Site,W_KCSArticle.199,3.454
+W_KCSArticle_VoteStat.200,Mobile Site,W_KCSArticle.200,3.622
+W_KCSArticle_VoteStat.201,Desktop Site,W_KCSArticle.201,4.411
+W_KCSArticle_VoteStat.202,App,W_KCSArticle.202,7.917
+W_KCSArticle_VoteStat.203,Desktop Site,W_KCSArticle.203,4.645
+W_KCSArticle_VoteStat.204,Desktop Site,W_KCSArticle.204,9.683
+W_KCSArticle_VoteStat.205,App,W_KCSArticle.205,5.227
+W_KCSArticle_VoteStat.206,App,W_KCSArticle.206,5.382
+W_KCSArticle_VoteStat.207,Mobile Site,W_KCSArticle.207,2.173
+W_KCSArticle_VoteStat.208,App,W_KCSArticle.208,6.245
+W_KCSArticle_VoteStat.209,Desktop Site,W_KCSArticle.209,2.029
+W_KCSArticle_VoteStat.210,Mobile Site,W_KCSArticle.210,4.492
+W_KCSArticle_VoteStat.211,App,W_KCSArticle.211,6.738
+W_KCSArticle_VoteStat.212,Mobile Site,W_KCSArticle.212,8.051
+W_KCSArticle_VoteStat.213,Desktop Site,W_KCSArticle.213,7.512
+W_KCSArticle_VoteStat.214,App,W_KCSArticle.214,1.782
+W_KCSArticle_VoteStat.215,Mobile Site,W_KCSArticle.215,8.687
+W_KCSArticle_VoteStat.216,Desktop Site,W_KCSArticle.216,2.005
+W_KCSArticle_VoteStat.217,App,W_KCSArticle.217,4.687
+W_KCSArticle_VoteStat.218,Desktop Site,W_KCSArticle.218,5.521
+W_KCSArticle_VoteStat.219,App,W_KCSArticle.219,7.435
+W_KCSArticle_VoteStat.220,App,W_KCSArticle.220,2.387
+W_KCSArticle_VoteStat.221,Mobile Site,W_KCSArticle.221,9.36
+W_KCSArticle_VoteStat.222,Mobile Site,W_KCSArticle.222,3.294
+W_KCSArticle_VoteStat.223,Mobile Site,W_KCSArticle.223,8.838
+W_KCSArticle_VoteStat.224,Mobile Site,W_KCSArticle.224,7.804
+W_KCSArticle_VoteStat.225,Mobile Site,W_KCSArticle.225,7.008
+W_KCSArticle_VoteStat.226,Mobile Site,W_KCSArticle.226,9.919
+W_KCSArticle_VoteStat.227,Mobile Site,W_KCSArticle.227,6.136
+W_KCSArticle_VoteStat.228,App,W_KCSArticle.228,3.454
+W_KCSArticle_VoteStat.229,Desktop Site,W_KCSArticle.229,8.626
+W_KCSArticle_VoteStat.230,Desktop Site,W_KCSArticle.230,1.963
+W_KCSArticle_VoteStat.231,Mobile Site,W_KCSArticle.231,3.039
+W_KCSArticle_VoteStat.232,Desktop Site,W_KCSArticle.232,7.052
+W_KCSArticle_VoteStat.233,Mobile Site,W_KCSArticle.233,4.538
+W_KCSArticle_VoteStat.234,Mobile Site,W_KCSArticle.234,7.625
+W_KCSArticle_VoteStat.235,App,W_KCSArticle.235,1.711
+W_KCSArticle_VoteStat.236,App,W_KCSArticle.236,3.576
+W_KCSArticle_VoteStat.237,App,W_KCSArticle.237,2.81
+W_KCSArticle_VoteStat.238,Desktop Site,W_KCSArticle.238,5.303
+W_KCSArticle_VoteStat.239,App,W_KCSArticle.239,4.616
+W_KCSArticle_VoteStat.240,Desktop Site,W_KCSArticle.240,8.448
+W_KCSArticle_VoteStat.241,Mobile Site,W_KCSArticle.241,9.528
+W_KCSArticle_VoteStat.242,Mobile Site,W_KCSArticle.242,1.962
+W_KCSArticle_VoteStat.243,Mobile Site,W_KCSArticle.243,5.863
+W_KCSArticle_VoteStat.244,Mobile Site,W_KCSArticle.244,3.783
+W_KCSArticle_VoteStat.245,Mobile Site,W_KCSArticle.245,8.824
+W_KCSArticle_VoteStat.246,Desktop Site,W_KCSArticle.246,7.35
+W_KCSArticle_VoteStat.247,App,W_KCSArticle.247,2.561
+W_KCSArticle_VoteStat.248,Desktop Site,W_KCSArticle.248,7.407
+W_KCSArticle_VoteStat.249,App,W_KCSArticle.249,6.005
+W_KCSArticle_VoteStat.250,App,W_KCSArticle.250,6.563
+W_KCSArticle_VoteStat.251,Desktop Site,W_KCSArticle.251,9.112
+W_KCSArticle_VoteStat.252,Mobile Site,W_KCSArticle.252,9.169
+W_KCSArticle_VoteStat.253,Mobile Site,W_KCSArticle.253,5.138
+W_KCSArticle_VoteStat.254,App,W_KCSArticle.254,9.691
+W_KCSArticle_VoteStat.255,Mobile Site,W_KCSArticle.255,3.422
+W_KCSArticle_VoteStat.256,Desktop Site,W_KCSArticle.256,1.169
+W_KCSArticle_VoteStat.257,App,W_KCSArticle.257,1.648
+W_KCSArticle_VoteStat.258,Desktop Site,W_KCSArticle.258,8.227
+W_KCSArticle_VoteStat.259,Desktop Site,W_KCSArticle.259,7.269
+W_KCSArticle_VoteStat.260,Mobile Site,W_KCSArticle.260,1.166
+W_KCSArticle_VoteStat.261,App,W_KCSArticle.261,7.686
+W_KCSArticle_VoteStat.262,Desktop Site,W_KCSArticle.262,6.621
+W_KCSArticle_VoteStat.263,Mobile Site,W_KCSArticle.263,8.338
+W_KCSArticle_VoteStat.264,Desktop Site,W_KCSArticle.264,6.386
+W_KCSArticle_VoteStat.265,Desktop Site,W_KCSArticle.265,3.474
+W_KCSArticle_VoteStat.266,Mobile Site,W_KCSArticle.266,7.684
+W_KCSArticle_VoteStat.267,Mobile Site,W_KCSArticle.267,9.104
+W_KCSArticle_VoteStat.268,Mobile Site,W_KCSArticle.268,6.73
+W_KCSArticle_VoteStat.269,Desktop Site,W_KCSArticle.269,2.552
+W_KCSArticle_VoteStat.270,Mobile Site,W_KCSArticle.270,9.643
+W_KCSArticle_VoteStat.271,Desktop Site,W_KCSArticle.271,8.358
+W_KCSArticle_VoteStat.272,Mobile Site,W_KCSArticle.272,2.233
+W_KCSArticle_VoteStat.273,Mobile Site,W_KCSArticle.273,9.387
+W_KCSArticle_VoteStat.274,Mobile Site,W_KCSArticle.274,7.282
+W_KCSArticle_VoteStat.275,Desktop Site,W_KCSArticle.275,6.796
+W_KCSArticle_VoteStat.276,App,W_KCSArticle.276,8.334
+W_KCSArticle_VoteStat.277,Desktop Site,W_KCSArticle.277,6.315
+W_KCSArticle_VoteStat.278,Desktop Site,W_KCSArticle.278,4.73
+W_KCSArticle_VoteStat.279,Desktop Site,W_KCSArticle.279,5.604
+W_KCSArticle_VoteStat.280,Desktop Site,W_KCSArticle.280,6.602
+W_KCSArticle_VoteStat.281,App,W_KCSArticle.281,2.848
+W_KCSArticle_VoteStat.282,Desktop Site,W_KCSArticle.282,8.667
+W_KCSArticle_VoteStat.283,Mobile Site,W_KCSArticle.283,3.267
+W_KCSArticle_VoteStat.284,App,W_KCSArticle.284,7.201
+W_KCSArticle_VoteStat.285,Desktop Site,W_KCSArticle.285,7.379
+W_KCSArticle_VoteStat.286,App,W_KCSArticle.286,4.356
+W_KCSArticle_VoteStat.287,App,W_KCSArticle.287,2.453
+W_KCSArticle_VoteStat.288,Desktop Site,W_KCSArticle.288,6.875
+W_KCSArticle_VoteStat.289,App,W_KCSArticle.289,2.24
+W_KCSArticle_VoteStat.290,Desktop Site,W_KCSArticle.290,9.632
+W_KCSArticle_VoteStat.291,Mobile Site,W_KCSArticle.291,9.172
+W_KCSArticle_VoteStat.292,Mobile Site,W_KCSArticle.292,8.16
+W_KCSArticle_VoteStat.293,Desktop Site,W_KCSArticle.293,4.052
+W_KCSArticle_VoteStat.294,Desktop Site,W_KCSArticle.294,9.975
+W_KCSArticle_VoteStat.295,Mobile Site,W_KCSArticle.295,9.041
+W_KCSArticle_VoteStat.296,Desktop Site,W_KCSArticle.296,2.929
+W_KCSArticle_VoteStat.297,App,W_KCSArticle.297,9.517
+W_KCSArticle_VoteStat.298,App,W_KCSArticle.298,8.791
+W_KCSArticle_VoteStat.299,Desktop Site,W_KCSArticle.299,2.819
+W_KCSArticle_VoteStat.300,App,W_KCSArticle.300,6.447
+W_KCSArticle_VoteStat.301,Desktop Site,W_KCSArticle.301,4.049
+W_KCSArticle_VoteStat.302,Mobile Site,W_KCSArticle.302,9.505
+W_KCSArticle_VoteStat.303,Desktop Site,W_KCSArticle.303,3.233
+W_KCSArticle_VoteStat.304,App,W_KCSArticle.304,3.388
+W_KCSArticle_VoteStat.305,Mobile Site,W_KCSArticle.305,3.573
+W_KCSArticle_VoteStat.306,Mobile Site,W_KCSArticle.306,5.213
+W_KCSArticle_VoteStat.307,App,W_KCSArticle.307,2.436
+W_KCSArticle_VoteStat.308,Desktop Site,W_KCSArticle.308,1.86
+W_KCSArticle_VoteStat.309,Mobile Site,W_KCSArticle.309,5.861
+W_KCSArticle_VoteStat.310,App,W_KCSArticle.310,3.101
+W_KCSArticle_VoteStat.311,Desktop Site,W_KCSArticle.311,9.548
+W_KCSArticle_VoteStat.312,App,W_KCSArticle.312,6.778
+W_KCSArticle_VoteStat.313,App,W_KCSArticle.313,8.014
+W_KCSArticle_VoteStat.314,Mobile Site,W_KCSArticle.314,2.322
+W_KCSArticle_VoteStat.315,Mobile Site,W_KCSArticle.315,1.375
+W_KCSArticle_VoteStat.316,App,W_KCSArticle.316,5.35
+W_KCSArticle_VoteStat.317,App,W_KCSArticle.317,6.073
+W_KCSArticle_VoteStat.318,App,W_KCSArticle.318,1.404
+W_KCSArticle_VoteStat.319,App,W_KCSArticle.319,2.309
+W_KCSArticle_VoteStat.320,Mobile Site,W_KCSArticle.320,8.87
+W_KCSArticle_VoteStat.321,Desktop Site,W_KCSArticle.321,7.761
+W_KCSArticle_VoteStat.322,App,W_KCSArticle.322,1.74
+W_KCSArticle_VoteStat.323,Mobile Site,W_KCSArticle.323,3.396
+W_KCSArticle_VoteStat.324,Mobile Site,W_KCSArticle.324,8.718
+W_KCSArticle_VoteStat.325,Mobile Site,W_KCSArticle.325,2.899
+W_KCSArticle_VoteStat.326,App,W_KCSArticle.326,6.123
+W_KCSArticle_VoteStat.327,App,W_KCSArticle.327,7.803
+W_KCSArticle_VoteStat.328,App,W_KCSArticle.328,5.767
+W_KCSArticle_VoteStat.329,App,W_KCSArticle.329,3.678
+W_KCSArticle_VoteStat.330,Desktop Site,W_KCSArticle.330,5.654
+W_KCSArticle_VoteStat.331,Mobile Site,W_KCSArticle.331,8.689
+W_KCSArticle_VoteStat.332,App,W_KCSArticle.332,7.681
+W_KCSArticle_VoteStat.333,Mobile Site,W_KCSArticle.333,7.173
+W_KCSArticle_VoteStat.334,App,W_KCSArticle.334,7.526
+W_KCSArticle_VoteStat.335,Desktop Site,W_KCSArticle.335,5.635
+W_KCSArticle_VoteStat.336,App,W_KCSArticle.336,8.594
+W_KCSArticle_VoteStat.337,Mobile Site,W_KCSArticle.337,9.461
+W_KCSArticle_VoteStat.338,Mobile Site,W_KCSArticle.338,9.157
+W_KCSArticle_VoteStat.339,Desktop Site,W_KCSArticle.339,1.199
+W_KCSArticle_VoteStat.340,Desktop Site,W_KCSArticle.340,6.66
+W_KCSArticle_VoteStat.341,App,W_KCSArticle.341,4.766
+W_KCSArticle_VoteStat.342,App,W_KCSArticle.342,1.816
+W_KCSArticle_VoteStat.343,Mobile Site,W_KCSArticle.343,8.245
+W_KCSArticle_VoteStat.344,Desktop Site,W_KCSArticle.344,6.65
+W_KCSArticle_VoteStat.345,Desktop Site,W_KCSArticle.345,1.466
+W_KCSArticle_VoteStat.346,Mobile Site,W_KCSArticle.346,2.089
+W_KCSArticle_VoteStat.347,Mobile Site,W_KCSArticle.347,8.452
+W_KCSArticle_VoteStat.348,Desktop Site,W_KCSArticle.348,9.714
+W_KCSArticle_VoteStat.349,Mobile Site,W_KCSArticle.349,7.231
+W_KCSArticle_VoteStat.350,App,W_KCSArticle.350,6.23
+W_KCSArticle_VoteStat.351,Desktop Site,W_KCSArticle.351,1.518
+W_KCSArticle_VoteStat.352,Desktop Site,W_KCSArticle.352,3.298
+W_KCSArticle_VoteStat.353,App,W_KCSArticle.353,3.716
+W_KCSArticle_VoteStat.354,Mobile Site,W_KCSArticle.354,1.955
+W_KCSArticle_VoteStat.355,Desktop Site,W_KCSArticle.355,9.554
+W_KCSArticle_VoteStat.356,Mobile Site,W_KCSArticle.356,2.841
+W_KCSArticle_VoteStat.357,Mobile Site,W_KCSArticle.357,4.073
+W_KCSArticle_VoteStat.358,App,W_KCSArticle.358,1.531
+W_KCSArticle_VoteStat.359,App,W_KCSArticle.359,7.629
+W_KCSArticle_VoteStat.360,Desktop Site,W_KCSArticle.360,2.767
+W_KCSArticle_VoteStat.361,Mobile Site,W_KCSArticle.361,9.779
+W_KCSArticle_VoteStat.362,Desktop Site,W_KCSArticle.362,2.615
+W_KCSArticle_VoteStat.363,Mobile Site,W_KCSArticle.363,4.599
+W_KCSArticle_VoteStat.364,Desktop Site,W_KCSArticle.364,5.634
+W_KCSArticle_VoteStat.365,Desktop Site,W_KCSArticle.365,7.095
+W_KCSArticle_VoteStat.366,App,W_KCSArticle.366,8.262
+W_KCSArticle_VoteStat.367,App,W_KCSArticle.367,9.143
+W_KCSArticle_VoteStat.368,Desktop Site,W_KCSArticle.368,5.238
+W_KCSArticle_VoteStat.369,App,W_KCSArticle.369,7.556
+W_KCSArticle_VoteStat.370,Mobile Site,W_KCSArticle.370,2.919
+W_KCSArticle_VoteStat.371,App,W_KCSArticle.371,8.371
+W_KCSArticle_VoteStat.372,App,W_KCSArticle.372,5.281
+W_KCSArticle_VoteStat.373,Mobile Site,W_KCSArticle.373,8.683
+W_KCSArticle_VoteStat.374,App,W_KCSArticle.374,3.406
+W_KCSArticle_VoteStat.375,App,W_KCSArticle.375,7.989
+W_KCSArticle_VoteStat.376,Mobile Site,W_KCSArticle.376,3.621
+W_KCSArticle_VoteStat.377,Desktop Site,W_KCSArticle.377,3.109
+W_KCSArticle_VoteStat.378,Mobile Site,W_KCSArticle.378,6.556
+W_KCSArticle_VoteStat.379,Mobile Site,W_KCSArticle.379,5.074
+W_KCSArticle_VoteStat.380,App,W_KCSArticle.380,9.844
+W_KCSArticle_VoteStat.381,Desktop Site,W_KCSArticle.381,8.512
+W_KCSArticle_VoteStat.382,Desktop Site,W_KCSArticle.382,8.28
+W_KCSArticle_VoteStat.383,Mobile Site,W_KCSArticle.383,3.628
+W_KCSArticle_VoteStat.384,App,W_KCSArticle.384,2.828
+W_KCSArticle_VoteStat.385,Mobile Site,W_KCSArticle.385,5.172
+W_KCSArticle_VoteStat.386,App,W_KCSArticle.386,4.456
+W_KCSArticle_VoteStat.387,Mobile Site,W_KCSArticle.387,7.639
+W_KCSArticle_VoteStat.388,Desktop Site,W_KCSArticle.388,6.237
+W_KCSArticle_VoteStat.389,Desktop Site,W_KCSArticle.389,1.348
+W_KCSArticle_VoteStat.390,Mobile Site,W_KCSArticle.390,5.391
+W_KCSArticle_VoteStat.391,App,W_KCSArticle.391,3.118
+W_KCSArticle_VoteStat.392,Desktop Site,W_KCSArticle.392,8.204
+W_KCSArticle_VoteStat.393,App,W_KCSArticle.393,2.013
+W_KCSArticle_VoteStat.394,Mobile Site,W_KCSArticle.394,1.819
+W_KCSArticle_VoteStat.395,App,W_KCSArticle.395,1.938
+W_KCSArticle_VoteStat.396,Mobile Site,W_KCSArticle.396,5.967
+W_KCSArticle_VoteStat.397,App,W_KCSArticle.397,4.879
+W_KCSArticle_VoteStat.398,App,W_KCSArticle.398,4.115
+W_KCSArticle_VoteStat.399,App,W_KCSArticle.399,3.619
+W_KCSArticle_VoteStat.400,Mobile Site,W_KCSArticle.400,1.095
+W_KCSArticle_VoteStat.401,Desktop Site,W_KCSArticle.401,5.287
+W_KCSArticle_VoteStat.402,Mobile Site,W_KCSArticle.402,7.339
+W_KCSArticle_VoteStat.403,Mobile Site,W_KCSArticle.403,7.679
+W_KCSArticle_VoteStat.404,Desktop Site,W_KCSArticle.404,4.193
+W_KCSArticle_VoteStat.405,Desktop Site,W_KCSArticle.405,2.568
+W_KCSArticle_VoteStat.406,Desktop Site,W_KCSArticle.406,5.414
+W_KCSArticle_VoteStat.407,App,W_KCSArticle.407,2.359
+W_KCSArticle_VoteStat.408,Desktop Site,W_KCSArticle.408,2.268
+W_KCSArticle_VoteStat.409,Desktop Site,W_KCSArticle.409,2.197
+W_KCSArticle_VoteStat.410,App,W_KCSArticle.410,4.115
+W_KCSArticle_VoteStat.411,App,W_KCSArticle.411,1.823
+W_KCSArticle_VoteStat.412,Mobile Site,W_KCSArticle.412,3.146
+W_KCSArticle_VoteStat.413,Desktop Site,W_KCSArticle.413,5.201
+W_KCSArticle_VoteStat.414,Mobile Site,W_KCSArticle.414,1.258
+W_KCSArticle_VoteStat.415,Mobile Site,W_KCSArticle.415,9.752
+W_KCSArticle_VoteStat.416,Desktop Site,W_KCSArticle.416,6.201
+W_KCSArticle_VoteStat.417,App,W_KCSArticle.417,4.073
+W_KCSArticle_VoteStat.418,App,W_KCSArticle.418,6.754
+W_KCSArticle_VoteStat.419,Desktop Site,W_KCSArticle.419,2.765
+W_KCSArticle_VoteStat.420,Desktop Site,W_KCSArticle.420,2.853
+W_KCSArticle_VoteStat.421,Mobile Site,W_KCSArticle.421,4.746
+W_KCSArticle_VoteStat.422,App,W_KCSArticle.422,7.668
+W_KCSArticle_VoteStat.423,Mobile Site,W_KCSArticle.423,4.574
+W_KCSArticle_VoteStat.424,Mobile Site,W_KCSArticle.424,1.407
+W_KCSArticle_VoteStat.425,App,W_KCSArticle.425,3.27
+W_KCSArticle_VoteStat.426,App,W_KCSArticle.426,5.783
+W_KCSArticle_VoteStat.427,Desktop Site,W_KCSArticle.427,1.339
+W_KCSArticle_VoteStat.428,Desktop Site,W_KCSArticle.428,4.964
+W_KCSArticle_VoteStat.429,App,W_KCSArticle.429,8.237
+W_KCSArticle_VoteStat.430,App,W_KCSArticle.430,3.857
+W_KCSArticle_VoteStat.431,Mobile Site,W_KCSArticle.431,6.198
+W_KCSArticle_VoteStat.432,Mobile Site,W_KCSArticle.432,5.085
+W_KCSArticle_VoteStat.433,Mobile Site,W_KCSArticle.433,9.702
+W_KCSArticle_VoteStat.434,App,W_KCSArticle.434,9.549
+W_KCSArticle_VoteStat.435,Desktop Site,W_KCSArticle.435,5.644
+W_KCSArticle_VoteStat.436,Desktop Site,W_KCSArticle.436,9.104
+W_KCSArticle_VoteStat.437,App,W_KCSArticle.437,4.744
+W_KCSArticle_VoteStat.438,Desktop Site,W_KCSArticle.438,4.822
+W_KCSArticle_VoteStat.439,Mobile Site,W_KCSArticle.439,1.846
+W_KCSArticle_VoteStat.440,Desktop Site,W_KCSArticle.440,4.292
+W_KCSArticle_VoteStat.441,Desktop Site,W_KCSArticle.441,9.839
+W_KCSArticle_VoteStat.442,Desktop Site,W_KCSArticle.442,7.815
+W_KCSArticle_VoteStat.443,App,W_KCSArticle.443,1.463
+W_KCSArticle_VoteStat.444,App,W_KCSArticle.444,1.57
+W_KCSArticle_VoteStat.445,Mobile Site,W_KCSArticle.445,7.298
+W_KCSArticle_VoteStat.446,Desktop Site,W_KCSArticle.446,6.591
+W_KCSArticle_VoteStat.447,Mobile Site,W_KCSArticle.447,3.216
+W_KCSArticle_VoteStat.448,App,W_KCSArticle.448,6.023
+W_KCSArticle_VoteStat.449,Desktop Site,W_KCSArticle.449,8.418
+W_KCSArticle_VoteStat.450,App,W_KCSArticle.450,4.388
+W_KCSArticle_VoteStat.451,Desktop Site,W_KCSArticle.451,3.316
+W_KCSArticle_VoteStat.452,App,W_KCSArticle.452,2.365
+W_KCSArticle_VoteStat.453,Desktop Site,W_KCSArticle.453,5.429
+W_KCSArticle_VoteStat.454,Mobile Site,W_KCSArticle.454,3.007
+W_KCSArticle_VoteStat.455,App,W_KCSArticle.455,2.6
+W_KCSArticle_VoteStat.456,Mobile Site,W_KCSArticle.456,7.445
+W_KCSArticle_VoteStat.457,App,W_KCSArticle.457,7.756
+W_KCSArticle_VoteStat.458,Desktop Site,W_KCSArticle.458,5.61
+W_KCSArticle_VoteStat.459,Desktop Site,W_KCSArticle.459,4.149
+W_KCSArticle_VoteStat.460,Desktop Site,W_KCSArticle.460,5.37
+W_KCSArticle_VoteStat.461,App,W_KCSArticle.461,1.13
+W_KCSArticle_VoteStat.462,Mobile Site,W_KCSArticle.462,3.437
+W_KCSArticle_VoteStat.463,App,W_KCSArticle.463,9.825
+W_KCSArticle_VoteStat.464,Mobile Site,W_KCSArticle.464,1.391
+W_KCSArticle_VoteStat.465,App,W_KCSArticle.465,6.629
+W_KCSArticle_VoteStat.466,App,W_KCSArticle.466,1.727
+W_KCSArticle_VoteStat.467,Desktop Site,W_KCSArticle.467,3.987
+W_KCSArticle_VoteStat.468,App,W_KCSArticle.468,2.304
+W_KCSArticle_VoteStat.469,Mobile Site,W_KCSArticle.469,6.55
+W_KCSArticle_VoteStat.470,App,W_KCSArticle.470,9.251
+W_KCSArticle_VoteStat.471,Mobile Site,W_KCSArticle.471,3.956
+W_KCSArticle_VoteStat.472,Desktop Site,W_KCSArticle.472,2.719
+W_KCSArticle_VoteStat.473,Desktop Site,W_KCSArticle.473,7.475
+W_KCSArticle_VoteStat.474,App,W_KCSArticle.474,3.689
+W_KCSArticle_VoteStat.475,Desktop Site,W_KCSArticle.475,9.727
+W_KCSArticle_VoteStat.476,Desktop Site,W_KCSArticle.476,6.481
+W_KCSArticle_VoteStat.477,Mobile Site,W_KCSArticle.477,8.476
+W_KCSArticle_VoteStat.478,Mobile Site,W_KCSArticle.478,4.925
+W_KCSArticle_VoteStat.479,Desktop Site,W_KCSArticle.479,4.75
+W_KCSArticle_VoteStat.480,Desktop Site,W_KCSArticle.480,9.006
+W_KCSArticle_VoteStat.481,App,W_KCSArticle.481,3.567
+W_KCSArticle_VoteStat.482,Mobile Site,W_KCSArticle.482,3.076
+W_KCSArticle_VoteStat.483,Desktop Site,W_KCSArticle.483,8.953
+W_KCSArticle_VoteStat.484,App,W_KCSArticle.484,6.107
+W_KCSArticle_VoteStat.485,App,W_KCSArticle.485,6.56
+W_KCSArticle_VoteStat.486,App,W_KCSArticle.486,2.816
+W_KCSArticle_VoteStat.487,Mobile Site,W_KCSArticle.487,3.167
+W_KCSArticle_VoteStat.488,Mobile Site,W_KCSArticle.488,5.499
+W_KCSArticle_VoteStat.489,Mobile Site,W_KCSArticle.489,1.599
+W_KCSArticle_VoteStat.490,App,W_KCSArticle.490,2.148
+W_KCSArticle_VoteStat.491,Mobile Site,W_KCSArticle.491,2.682
+W_KCSArticle_VoteStat.492,App,W_KCSArticle.492,8.314
+W_KCSArticle_VoteStat.493,App,W_KCSArticle.493,7.884
+W_KCSArticle_VoteStat.494,Mobile Site,W_KCSArticle.494,5.95
+W_KCSArticle_VoteStat.495,Desktop Site,W_KCSArticle.495,4.134
+W_KCSArticle_VoteStat.496,Mobile Site,W_KCSArticle.496,9.418
+W_KCSArticle_VoteStat.497,App,W_KCSArticle.497,9.185
+W_KCSArticle_VoteStat.498,Mobile Site,W_KCSArticle.498,4.448
+W_KCSArticle_VoteStat.499,App,W_KCSArticle.499,8.739
+W_KCSArticle_VoteStat.500,App,W_KCSArticle.500,9.799
+W_KCSArticle_VoteStat.501,App,W_KCSArticle.501,8.402
+W_KCSArticle_VoteStat.502,Desktop Site,W_KCSArticle.502,1.38
+W_KCSArticle_VoteStat.503,Mobile Site,W_KCSArticle.503,1.987
+W_KCSArticle_VoteStat.504,App,W_KCSArticle.504,2.604
+W_KCSArticle_VoteStat.505,App,W_KCSArticle.505,7.429
+W_KCSArticle_VoteStat.506,App,W_KCSArticle.506,3.947
+W_KCSArticle_VoteStat.507,App,W_KCSArticle.507,4.164
+W_KCSArticle_VoteStat.508,Mobile Site,W_KCSArticle.508,2.542
+W_KCSArticle_VoteStat.509,App,W_KCSArticle.509,4.999
+W_KCSArticle_VoteStat.510,App,W_KCSArticle.510,1.87
+W_KCSArticle_VoteStat.511,Mobile Site,W_KCSArticle.511,5.647
+W_KCSArticle_VoteStat.512,App,W_KCSArticle.512,6.736
+W_KCSArticle_VoteStat.513,Mobile Site,W_KCSArticle.513,7.285
+W_KCSArticle_VoteStat.514,App,W_KCSArticle.514,7.836
+W_KCSArticle_VoteStat.515,Mobile Site,W_KCSArticle.515,8.385
+W_KCSArticle_VoteStat.516,App,W_KCSArticle.516,9.378
+W_KCSArticle_VoteStat.517,App,W_KCSArticle.517,4.898
+W_KCSArticle_VoteStat.518,Desktop Site,W_KCSArticle.518,4.258
+W_KCSArticle_VoteStat.519,Desktop Site,W_KCSArticle.519,4.683
+W_KCSArticle_VoteStat.520,Mobile Site,W_KCSArticle.520,5.444
+W_KCSArticle_VoteStat.521,Mobile Site,W_KCSArticle.521,1.027
+W_KCSArticle_VoteStat.522,App,W_KCSArticle.522,3.394
+W_KCSArticle_VoteStat.523,Mobile Site,W_KCSArticle.523,5.865
+W_KCSArticle_VoteStat.524,Desktop Site,W_KCSArticle.524,7.151
+W_KCSArticle_VoteStat.525,Mobile Site,W_KCSArticle.525,8.395
+W_KCSArticle_VoteStat.526,Mobile Site,W_KCSArticle.526,4.815
+W_KCSArticle_VoteStat.527,Mobile Site,W_KCSArticle.527,9.598
+W_KCSArticle_VoteStat.528,Desktop Site,W_KCSArticle.528,1.537
+W_KCSArticle_VoteStat.529,App,W_KCSArticle.529,7.184
+W_KCSArticle_VoteStat.530,App,W_KCSArticle.530,7.797
+W_KCSArticle_VoteStat.531,Desktop Site,W_KCSArticle.531,5.061
+W_KCSArticle_VoteStat.532,Desktop Site,W_KCSArticle.532,8.648
+W_KCSArticle_VoteStat.533,Desktop Site,W_KCSArticle.533,7.933
+W_KCSArticle_VoteStat.534,Mobile Site,W_KCSArticle.534,1.302
+W_KCSArticle_VoteStat.535,Mobile Site,W_KCSArticle.535,7.43
+W_KCSArticle_VoteStat.536,Desktop Site,W_KCSArticle.536,6.246
+W_KCSArticle_VoteStat.537,Mobile Site,W_KCSArticle.537,9.301
+W_KCSArticle_VoteStat.538,Desktop Site,W_KCSArticle.538,7.865
+W_KCSArticle_VoteStat.539,App,W_KCSArticle.539,9.581
+W_KCSArticle_VoteStat.540,Mobile Site,W_KCSArticle.540,8.658
+W_KCSArticle_VoteStat.541,Desktop Site,W_KCSArticle.541,3.891
+W_KCSArticle_VoteStat.542,Desktop Site,W_KCSArticle.542,8.126
+W_KCSArticle_VoteStat.543,App,W_KCSArticle.543,1.327
+W_KCSArticle_VoteStat.544,App,W_KCSArticle.544,5.47
+W_KCSArticle_VoteStat.545,Desktop Site,W_KCSArticle.545,6.037
+W_KCSArticle_VoteStat.546,App,W_KCSArticle.546,8.134
+W_KCSArticle_VoteStat.547,Mobile Site,W_KCSArticle.547,5.533
+W_KCSArticle_VoteStat.548,App,W_KCSArticle.548,4.717
+W_KCSArticle_VoteStat.549,Mobile Site,W_KCSArticle.549,3.927
+W_KCSArticle_VoteStat.550,Mobile Site,W_KCSArticle.550,2.738
+W_KCSArticle_VoteStat.551,Desktop Site,W_KCSArticle.551,1.958
+W_KCSArticle_VoteStat.552,Mobile Site,W_KCSArticle.552,4.013
+W_KCSArticle_VoteStat.553,Desktop Site,W_KCSArticle.553,2.886
+W_KCSArticle_VoteStat.554,Desktop Site,W_KCSArticle.554,8.441
+W_KCSArticle_VoteStat.555,Mobile Site,W_KCSArticle.555,2.174
+W_KCSArticle_VoteStat.556,App,W_KCSArticle.556,9.397
+W_KCSArticle_VoteStat.557,App,W_KCSArticle.557,6.695
+W_KCSArticle_VoteStat.558,Desktop Site,W_KCSArticle.558,6.857
+W_KCSArticle_VoteStat.559,Desktop Site,W_KCSArticle.559,1.96
+W_KCSArticle_VoteStat.560,App,W_KCSArticle.560,1.024
+W_KCSArticle_VoteStat.561,Desktop Site,W_KCSArticle.561,7.375
+W_KCSArticle_VoteStat.562,Mobile Site,W_KCSArticle.562,2.538
+W_KCSArticle_VoteStat.563,App,W_KCSArticle.563,3.357
+W_KCSArticle_VoteStat.564,Desktop Site,W_KCSArticle.564,2.901
+W_KCSArticle_VoteStat.565,Mobile Site,W_KCSArticle.565,8.072
+W_KCSArticle_VoteStat.566,Mobile Site,W_KCSArticle.566,5.767
+W_KCSArticle_VoteStat.567,Mobile Site,W_KCSArticle.567,4.892
+W_KCSArticle_VoteStat.568,App,W_KCSArticle.568,5.849
+W_KCSArticle_VoteStat.569,Mobile Site,W_KCSArticle.569,8.753
+W_KCSArticle_VoteStat.570,App,W_KCSArticle.570,4.989
+W_KCSArticle_VoteStat.571,Mobile Site,W_KCSArticle.571,2.105
+W_KCSArticle_VoteStat.572,App,W_KCSArticle.572,6.396
+W_KCSArticle_VoteStat.573,App,W_KCSArticle.573,7.182
+W_KCSArticle_VoteStat.574,Mobile Site,W_KCSArticle.574,1.446
+W_KCSArticle_VoteStat.575,Mobile Site,W_KCSArticle.575,8.501
+W_KCSArticle_VoteStat.576,Mobile Site,W_KCSArticle.576,1.132
+W_KCSArticle_VoteStat.577,Mobile Site,W_KCSArticle.577,8.806
+W_KCSArticle_VoteStat.578,Desktop Site,W_KCSArticle.578,3.742
+W_KCSArticle_VoteStat.579,Desktop Site,W_KCSArticle.579,1.685
+W_KCSArticle_VoteStat.580,Desktop Site,W_KCSArticle.580,4.491
+W_KCSArticle_VoteStat.581,App,W_KCSArticle.581,3.743
+W_KCSArticle_VoteStat.582,Mobile Site,W_KCSArticle.582,2.809
+W_KCSArticle_VoteStat.583,Mobile Site,W_KCSArticle.583,1.313
+W_KCSArticle_VoteStat.584,App,W_KCSArticle.584,1.484
+W_KCSArticle_VoteStat.585,Mobile Site,W_KCSArticle.585,5.726
+W_KCSArticle_VoteStat.586,Mobile Site,W_KCSArticle.586,6.212
+W_KCSArticle_VoteStat.587,Mobile Site,W_KCSArticle.587,4.765
+W_KCSArticle_VoteStat.588,Desktop Site,W_KCSArticle.588,2.797
+W_KCSArticle_VoteStat.589,App,W_KCSArticle.589,1.867
+W_KCSArticle_VoteStat.590,Mobile Site,W_KCSArticle.590,2.954
+W_KCSArticle_VoteStat.591,App,W_KCSArticle.591,1.241
+W_KCSArticle_VoteStat.592,App,W_KCSArticle.592,7.152
+W_KCSArticle_VoteStat.593,App,W_KCSArticle.593,6.618
+W_KCSArticle_VoteStat.594,Desktop Site,W_KCSArticle.594,3.408
+W_KCSArticle_VoteStat.595,Desktop Site,W_KCSArticle.595,7.302
+W_KCSArticle_VoteStat.596,Desktop Site,W_KCSArticle.596,5.537
+W_KCSArticle_VoteStat.597,App,W_KCSArticle.597,4.178
+W_KCSArticle_VoteStat.598,Mobile Site,W_KCSArticle.598,5.073
+W_KCSArticle_VoteStat.599,Mobile Site,W_KCSArticle.599,5.561
+W_KCSArticle_VoteStat.600,App,W_KCSArticle.600,2.217
+W_KCSArticle_VoteStat.601,Mobile Site,W_KCSArticle.601,3.391
+W_KCSArticle_VoteStat.602,App,W_KCSArticle.602,5.472
+W_KCSArticle_VoteStat.603,App,W_KCSArticle.603,4.749
+W_KCSArticle_VoteStat.604,App,W_KCSArticle.604,9.289
+W_KCSArticle_VoteStat.605,Mobile Site,W_KCSArticle.605,6.463
+W_KCSArticle_VoteStat.606,App,W_KCSArticle.606,3.197
+W_KCSArticle_VoteStat.607,App,W_KCSArticle.607,4.657
+W_KCSArticle_VoteStat.608,Desktop Site,W_KCSArticle.608,5.413
+W_KCSArticle_VoteStat.609,App,W_KCSArticle.609,2.952
+W_KCSArticle_VoteStat.610,Desktop Site,W_KCSArticle.610,1.613
+W_KCSArticle_VoteStat.611,Desktop Site,W_KCSArticle.611,8.617
+W_KCSArticle_VoteStat.612,Mobile Site,W_KCSArticle.612,5.923
+W_KCSArticle_VoteStat.613,App,W_KCSArticle.613,7.072
+W_KCSArticle_VoteStat.614,App,W_KCSArticle.614,2.444
+W_KCSArticle_VoteStat.615,Desktop Site,W_KCSArticle.615,5.522
+W_KCSArticle_VoteStat.616,Desktop Site,W_KCSArticle.616,2.281
+W_KCSArticle_VoteStat.617,App,W_KCSArticle.617,9.405
+W_KCSArticle_VoteStat.618,Desktop Site,W_KCSArticle.618,2.219
+W_KCSArticle_VoteStat.619,Desktop Site,W_KCSArticle.619,7.899
+W_KCSArticle_VoteStat.620,Desktop Site,W_KCSArticle.620,4.656
+W_KCSArticle_VoteStat.621,Desktop Site,W_KCSArticle.621,3.428
+W_KCSArticle_VoteStat.622,Mobile Site,W_KCSArticle.622,7.843
+W_KCSArticle_VoteStat.623,Mobile Site,W_KCSArticle.623,2.847
+W_KCSArticle_VoteStat.624,Mobile Site,W_KCSArticle.624,5.661
+W_KCSArticle_VoteStat.625,Desktop Site,W_KCSArticle.625,2.017
+W_KCSArticle_VoteStat.626,Desktop Site,W_KCSArticle.626,4.365
+W_KCSArticle_VoteStat.627,App,W_KCSArticle.627,1.466
+W_KCSArticle_VoteStat.628,App,W_KCSArticle.628,3.21
+W_KCSArticle_VoteStat.629,App,W_KCSArticle.629,1.709
+W_KCSArticle_VoteStat.630,Desktop Site,W_KCSArticle.630,2.503
+W_KCSArticle_VoteStat.631,Mobile Site,W_KCSArticle.631,6.529
+W_KCSArticle_VoteStat.632,App,W_KCSArticle.632,1.284
+W_KCSArticle_VoteStat.633,Mobile Site,W_KCSArticle.633,8.802
+W_KCSArticle_VoteStat.634,Desktop Site,W_KCSArticle.634,7.498
+W_KCSArticle_VoteStat.635,Desktop Site,W_KCSArticle.635,7.489
+W_KCSArticle_VoteStat.636,Desktop Site,W_KCSArticle.636,6.155
+W_KCSArticle_VoteStat.637,Desktop Site,W_KCSArticle.637,5.218
+W_KCSArticle_VoteStat.638,Mobile Site,W_KCSArticle.638,8.308
+W_KCSArticle_VoteStat.639,App,W_KCSArticle.639,4.193
+W_KCSArticle_VoteStat.640,Mobile Site,W_KCSArticle.640,7.731
+W_KCSArticle_VoteStat.641,Mobile Site,W_KCSArticle.641,3.401
+W_KCSArticle_VoteStat.642,App,W_KCSArticle.642,7.113
+W_KCSArticle_VoteStat.643,Desktop Site,W_KCSArticle.643,4.515
+W_KCSArticle_VoteStat.644,Desktop Site,W_KCSArticle.644,4.544
+W_KCSArticle_VoteStat.645,Desktop Site,W_KCSArticle.645,6.816
+W_KCSArticle_VoteStat.646,Mobile Site,W_KCSArticle.646,8.87
+W_KCSArticle_VoteStat.647,Mobile Site,W_KCSArticle.647,4.546
+W_KCSArticle_VoteStat.648,Desktop Site,W_KCSArticle.648,8.692
+W_KCSArticle_VoteStat.649,Desktop Site,W_KCSArticle.649,1.651
+W_KCSArticle_VoteStat.650,Mobile Site,W_KCSArticle.650,5.345
+W_KCSArticle_VoteStat.651,Desktop Site,W_KCSArticle.651,1.362
+W_KCSArticle_VoteStat.652,Desktop Site,W_KCSArticle.652,5.402
+W_KCSArticle_VoteStat.653,App,W_KCSArticle.653,5.565
+W_KCSArticle_VoteStat.654,Mobile Site,W_KCSArticle.654,7.257
+W_KCSArticle_VoteStat.655,Desktop Site,W_KCSArticle.655,9.712
+W_KCSArticle_VoteStat.656,Desktop Site,W_KCSArticle.656,7.748
+W_KCSArticle_VoteStat.657,App,W_KCSArticle.657,7.758
+W_KCSArticle_VoteStat.658,App,W_KCSArticle.658,1.106
+W_KCSArticle_VoteStat.659,Mobile Site,W_KCSArticle.659,7.505
+W_KCSArticle_VoteStat.660,App,W_KCSArticle.660,1.846
+W_KCSArticle_VoteStat.661,Mobile Site,W_KCSArticle.661,7.934
+W_KCSArticle_VoteStat.662,Desktop Site,W_KCSArticle.662,3.068
+W_KCSArticle_VoteStat.663,Desktop Site,W_KCSArticle.663,6.365
+W_KCSArticle_VoteStat.664,Mobile Site,W_KCSArticle.664,1.081
+W_KCSArticle_VoteStat.665,Mobile Site,W_KCSArticle.665,9.488
+W_KCSArticle_VoteStat.666,Desktop Site,W_KCSArticle.666,3.813
+W_KCSArticle_VoteStat.667,Mobile Site,W_KCSArticle.667,1.231
+W_KCSArticle_VoteStat.668,App,W_KCSArticle.668,1.862
+W_KCSArticle_VoteStat.669,App,W_KCSArticle.669,7.867
+W_KCSArticle_VoteStat.670,Desktop Site,W_KCSArticle.670,7.492
+W_KCSArticle_VoteStat.671,Mobile Site,W_KCSArticle.671,5.425
+W_KCSArticle_VoteStat.672,App,W_KCSArticle.672,6.109
+W_KCSArticle_VoteStat.673,App,W_KCSArticle.673,4.526
+W_KCSArticle_VoteStat.674,Mobile Site,W_KCSArticle.674,3.525
+W_KCSArticle_VoteStat.675,Mobile Site,W_KCSArticle.675,3.906
+W_KCSArticle_VoteStat.676,Mobile Site,W_KCSArticle.676,6.713
+W_KCSArticle_VoteStat.677,Desktop Site,W_KCSArticle.677,6.575
+W_KCSArticle_VoteStat.678,Mobile Site,W_KCSArticle.678,2.879
+W_KCSArticle_VoteStat.679,Desktop Site,W_KCSArticle.679,6.624
+W_KCSArticle_VoteStat.680,Desktop Site,W_KCSArticle.680,5.694
+W_KCSArticle_VoteStat.681,App,W_KCSArticle.681,3.166
+W_KCSArticle_VoteStat.682,Desktop Site,W_KCSArticle.682,6.633
+W_KCSArticle_VoteStat.683,Mobile Site,W_KCSArticle.683,6.005
+W_KCSArticle_VoteStat.684,Mobile Site,W_KCSArticle.684,3.655
+W_KCSArticle_VoteStat.685,App,W_KCSArticle.685,3.771
+W_KCSArticle_VoteStat.686,Desktop Site,W_KCSArticle.686,8.691
+W_KCSArticle_VoteStat.687,Mobile Site,W_KCSArticle.687,7.357
+W_KCSArticle_VoteStat.688,Mobile Site,W_KCSArticle.688,6.306
+W_KCSArticle_VoteStat.689,App,W_KCSArticle.689,7.208
+W_KCSArticle_VoteStat.690,Mobile Site,W_KCSArticle.690,1.678
+W_KCSArticle_VoteStat.691,Desktop Site,W_KCSArticle.691,8.128
+W_KCSArticle_VoteStat.692,App,W_KCSArticle.692,7.919
+W_KCSArticle_VoteStat.693,Mobile Site,W_KCSArticle.693,6.292
+W_KCSArticle_VoteStat.694,Mobile Site,W_KCSArticle.694,7.127
+W_KCSArticle_VoteStat.695,Mobile Site,W_KCSArticle.695,4.132
+W_KCSArticle_VoteStat.696,Mobile Site,W_KCSArticle.696,5.015
+W_KCSArticle_VoteStat.697,App,W_KCSArticle.697,2.794
+W_KCSArticle_VoteStat.698,Mobile Site,W_KCSArticle.698,6.15
+W_KCSArticle_VoteStat.699,Desktop Site,W_KCSArticle.699,4.692
+W_KCSArticle_VoteStat.700,App,W_KCSArticle.700,4.027
+W_KCSArticle_VoteStat.701,App,W_KCSArticle.701,7.099
+W_KCSArticle_VoteStat.702,Mobile Site,W_KCSArticle.702,5.454
+W_KCSArticle_VoteStat.703,App,W_KCSArticle.703,8.037
+W_KCSArticle_VoteStat.704,Mobile Site,W_KCSArticle.704,4.79
+W_KCSArticle_VoteStat.705,Desktop Site,W_KCSArticle.705,2.131
+W_KCSArticle_VoteStat.706,Desktop Site,W_KCSArticle.706,6.725
+W_KCSArticle_VoteStat.707,Desktop Site,W_KCSArticle.707,8.555
+W_KCSArticle_VoteStat.708,App,W_KCSArticle.708,6.233
+W_KCSArticle_VoteStat.709,App,W_KCSArticle.709,1.095
+W_KCSArticle_VoteStat.710,App,W_KCSArticle.710,8.465
+W_KCSArticle_VoteStat.711,Desktop Site,W_KCSArticle.711,6.83
+W_KCSArticle_VoteStat.712,Desktop Site,W_KCSArticle.712,7.361
+W_KCSArticle_VoteStat.713,Mobile Site,W_KCSArticle.713,6.021
+W_KCSArticle_VoteStat.714,App,W_KCSArticle.714,6.532
+W_KCSArticle_VoteStat.715,Mobile Site,W_KCSArticle.715,1.881
+W_KCSArticle_VoteStat.716,Desktop Site,W_KCSArticle.716,3.861
+W_KCSArticle_VoteStat.717,App,W_KCSArticle.717,1.429
+W_KCSArticle_VoteStat.718,App,W_KCSArticle.718,7.946
+W_KCSArticle_VoteStat.719,Desktop Site,W_KCSArticle.719,9.61
+W_KCSArticle_VoteStat.720,Desktop Site,W_KCSArticle.720,3.419
+W_KCSArticle_VoteStat.721,Mobile Site,W_KCSArticle.721,1.102
+W_KCSArticle_VoteStat.722,Mobile Site,W_KCSArticle.722,7.328
+W_KCSArticle_VoteStat.723,App,W_KCSArticle.723,7.615
+W_KCSArticle_VoteStat.724,Desktop Site,W_KCSArticle.724,7.022
+W_KCSArticle_VoteStat.725,Desktop Site,W_KCSArticle.725,6.59
+W_KCSArticle_VoteStat.726,App,W_KCSArticle.726,6.929
+W_KCSArticle_VoteStat.727,Desktop Site,W_KCSArticle.727,8.83
+W_KCSArticle_VoteStat.728,Desktop Site,W_KCSArticle.728,1.155
+W_KCSArticle_VoteStat.729,App,W_KCSArticle.729,3.703
+W_KCSArticle_VoteStat.730,Desktop Site,W_KCSArticle.730,8.371
+W_KCSArticle_VoteStat.731,App,W_KCSArticle.731,5.888
+W_KCSArticle_VoteStat.732,Desktop Site,W_KCSArticle.732,8.541
+W_KCSArticle_VoteStat.733,App,W_KCSArticle.733,5.414
+W_KCSArticle_VoteStat.734,Mobile Site,W_KCSArticle.734,7.15
+W_KCSArticle_VoteStat.735,Mobile Site,W_KCSArticle.735,2.735
+W_KCSArticle_VoteStat.736,Mobile Site,W_KCSArticle.736,9.41
+W_KCSArticle_VoteStat.737,App,W_KCSArticle.737,4.285
+W_KCSArticle_VoteStat.738,App,W_KCSArticle.738,5.914
+W_KCSArticle_VoteStat.739,Mobile Site,W_KCSArticle.739,7.218
+W_KCSArticle_VoteStat.740,Mobile Site,W_KCSArticle.740,9.89
+W_KCSArticle_VoteStat.741,Desktop Site,W_KCSArticle.741,2.741
+W_KCSArticle_VoteStat.742,App,W_KCSArticle.742,1.775
+W_KCSArticle_VoteStat.743,Desktop Site,W_KCSArticle.743,6.981
+W_KCSArticle_VoteStat.744,Mobile Site,W_KCSArticle.744,3.65
+W_KCSArticle_VoteStat.745,Mobile Site,W_KCSArticle.745,7.723
+W_KCSArticle_VoteStat.746,Mobile Site,W_KCSArticle.746,6.15
+W_KCSArticle_VoteStat.747,Desktop Site,W_KCSArticle.747,1.184
+W_KCSArticle_VoteStat.748,Mobile Site,W_KCSArticle.748,3.378
+W_KCSArticle_VoteStat.749,App,W_KCSArticle.749,5.425
+W_KCSArticle_VoteStat.750,Mobile Site,W_KCSArticle.750,5.318
+W_KCSArticle_VoteStat.751,Desktop Site,W_KCSArticle.751,4.722
+W_KCSArticle_VoteStat.752,Mobile Site,W_KCSArticle.752,9.858
+W_KCSArticle_VoteStat.753,Desktop Site,W_KCSArticle.753,7.625
+W_KCSArticle_VoteStat.754,App,W_KCSArticle.754,5.328
+W_KCSArticle_VoteStat.755,Desktop Site,W_KCSArticle.755,5.333
+W_KCSArticle_VoteStat.756,App,W_KCSArticle.756,7.643
+W_KCSArticle_VoteStat.757,Desktop Site,W_KCSArticle.757,2.464
+W_KCSArticle_VoteStat.758,Desktop Site,W_KCSArticle.758,1.638
+W_KCSArticle_VoteStat.759,Desktop Site,W_KCSArticle.759,5.058
+W_KCSArticle_VoteStat.760,Desktop Site,W_KCSArticle.760,6.386
+W_KCSArticle_VoteStat.761,App,W_KCSArticle.761,4.837
+W_KCSArticle_VoteStat.762,Desktop Site,W_KCSArticle.762,9.631
+W_KCSArticle_VoteStat.763,Desktop Site,W_KCSArticle.763,5.766
+W_KCSArticle_VoteStat.764,Desktop Site,W_KCSArticle.764,6.345
+W_KCSArticle_VoteStat.765,Desktop Site,W_KCSArticle.765,1.697
+W_KCSArticle_VoteStat.766,App,W_KCSArticle.766,7.257
+W_KCSArticle_VoteStat.767,Desktop Site,W_KCSArticle.767,9.912
+W_KCSArticle_VoteStat.768,App,W_KCSArticle.768,3.45
+W_KCSArticle_VoteStat.769,App,W_KCSArticle.769,6.427
+W_KCSArticle_VoteStat.770,Mobile Site,W_KCSArticle.770,9.452
+W_KCSArticle_VoteStat.771,App,W_KCSArticle.771,7.872
+W_KCSArticle_VoteStat.772,Desktop Site,W_KCSArticle.772,7.508
+W_KCSArticle_VoteStat.773,Mobile Site,W_KCSArticle.773,6.885
+W_KCSArticle_VoteStat.774,Desktop Site,W_KCSArticle.774,5.783
+W_KCSArticle_VoteStat.775,Mobile Site,W_KCSArticle.775,2.114
+W_KCSArticle_VoteStat.776,Desktop Site,W_KCSArticle.776,5.123
+W_KCSArticle_VoteStat.777,Mobile Site,W_KCSArticle.777,6.441
+W_KCSArticle_VoteStat.778,Mobile Site,W_KCSArticle.778,4.018
+W_KCSArticle_VoteStat.779,App,W_KCSArticle.779,4.014
+W_KCSArticle_VoteStat.780,Desktop Site,W_KCSArticle.780,5.534
+W_KCSArticle_VoteStat.781,Mobile Site,W_KCSArticle.781,1.187
+W_KCSArticle_VoteStat.782,Desktop Site,W_KCSArticle.782,1.84
+W_KCSArticle_VoteStat.783,Desktop Site,W_KCSArticle.783,6.247
+W_KCSArticle_VoteStat.784,Desktop Site,W_KCSArticle.784,1.027
+W_KCSArticle_VoteStat.785,App,W_KCSArticle.785,8.799
+W_KCSArticle_VoteStat.786,Mobile Site,W_KCSArticle.786,2.454
+W_KCSArticle_VoteStat.787,Desktop Site,W_KCSArticle.787,3.062
+W_KCSArticle_VoteStat.788,Desktop Site,W_KCSArticle.788,9.011
+W_KCSArticle_VoteStat.789,App,W_KCSArticle.789,9.863
+W_KCSArticle_VoteStat.790,Desktop Site,W_KCSArticle.790,1.248
+W_KCSArticle_VoteStat.791,Mobile Site,W_KCSArticle.791,9.599
+W_KCSArticle_VoteStat.792,Desktop Site,W_KCSArticle.792,3.761
+W_KCSArticle_VoteStat.793,Mobile Site,W_KCSArticle.793,5.863
+W_KCSArticle_VoteStat.794,Mobile Site,W_KCSArticle.794,7.94
+W_KCSArticle_VoteStat.795,App,W_KCSArticle.795,1.425
+W_KCSArticle_VoteStat.796,Mobile Site,W_KCSArticle.796,3.07
+W_KCSArticle_VoteStat.797,App,W_KCSArticle.797,8.339
+W_KCSArticle_VoteStat.798,Mobile Site,W_KCSArticle.798,9.7
+W_KCSArticle_VoteStat.799,Mobile Site,W_KCSArticle.799,6.87
+W_KCSArticle_VoteStat.800,App,W_KCSArticle.800,7.879
+W_KCSArticle_VoteStat.801,Mobile Site,W_KCSArticle.801,4.268
+W_KCSArticle_VoteStat.802,Mobile Site,W_KCSArticle.802,8.88
+W_KCSArticle_VoteStat.803,App,W_KCSArticle.803,1.011
+W_KCSArticle_VoteStat.804,App,W_KCSArticle.804,4.545
+W_KCSArticle_VoteStat.805,App,W_KCSArticle.805,4.122
+W_KCSArticle_VoteStat.806,Desktop Site,W_KCSArticle.806,6.95
+W_KCSArticle_VoteStat.807,App,W_KCSArticle.807,5.652
+W_KCSArticle_VoteStat.808,Desktop Site,W_KCSArticle.808,2.204
+W_KCSArticle_VoteStat.809,Desktop Site,W_KCSArticle.809,8.163
+W_KCSArticle_VoteStat.810,App,W_KCSArticle.810,7.844
+W_KCSArticle_VoteStat.811,Mobile Site,W_KCSArticle.811,1.236
+W_KCSArticle_VoteStat.812,App,W_KCSArticle.812,1.615
+W_KCSArticle_VoteStat.813,Desktop Site,W_KCSArticle.813,1.003
+W_KCSArticle_VoteStat.814,App,W_KCSArticle.814,1.774
+W_KCSArticle_VoteStat.815,Desktop Site,W_KCSArticle.815,7.023
+W_KCSArticle_VoteStat.816,App,W_KCSArticle.816,1.559
+W_KCSArticle_VoteStat.817,Desktop Site,W_KCSArticle.817,2.059
+W_KCSArticle_VoteStat.818,Mobile Site,W_KCSArticle.818,4.627
+W_KCSArticle_VoteStat.819,Desktop Site,W_KCSArticle.819,1.236
+W_KCSArticle_VoteStat.820,Mobile Site,W_KCSArticle.820,3.207
+W_KCSArticle_VoteStat.821,Mobile Site,W_KCSArticle.821,7.903
+W_KCSArticle_VoteStat.822,Mobile Site,W_KCSArticle.822,8.878
+W_KCSArticle_VoteStat.823,Desktop Site,W_KCSArticle.823,5.32
+W_KCSArticle_VoteStat.824,Desktop Site,W_KCSArticle.824,5.395
+W_KCSArticle_VoteStat.825,App,W_KCSArticle.825,1.387
+W_KCSArticle_VoteStat.826,App,W_KCSArticle.826,9.211
+W_KCSArticle_VoteStat.827,App,W_KCSArticle.827,8.377
+W_KCSArticle_VoteStat.828,Mobile Site,W_KCSArticle.828,1.051
+W_KCSArticle_VoteStat.829,Mobile Site,W_KCSArticle.829,8.457
+W_KCSArticle_VoteStat.830,Mobile Site,W_KCSArticle.830,3.514
+W_KCSArticle_VoteStat.831,App,W_KCSArticle.831,6.445
+W_KCSArticle_VoteStat.832,Mobile Site,W_KCSArticle.832,2.199
+W_KCSArticle_VoteStat.833,Mobile Site,W_KCSArticle.833,3.341
+W_KCSArticle_VoteStat.834,Mobile Site,W_KCSArticle.834,9.574
+W_KCSArticle_VoteStat.835,Mobile Site,W_KCSArticle.835,1.436
+W_KCSArticle_VoteStat.836,Mobile Site,W_KCSArticle.836,8.814
+W_KCSArticle_VoteStat.837,Mobile Site,W_KCSArticle.837,2.943
+W_KCSArticle_VoteStat.838,Mobile Site,W_KCSArticle.838,3.047
+W_KCSArticle_VoteStat.839,Mobile Site,W_KCSArticle.839,3.723
+W_KCSArticle_VoteStat.840,Mobile Site,W_KCSArticle.840,2.029
+W_KCSArticle_VoteStat.841,Mobile Site,W_KCSArticle.841,1.761
+W_KCSArticle_VoteStat.842,Desktop Site,W_KCSArticle.842,5.735
+W_KCSArticle_VoteStat.843,App,W_KCSArticle.843,7.701
+W_KCSArticle_VoteStat.844,Desktop Site,W_KCSArticle.844,7.053
+W_KCSArticle_VoteStat.845,App,W_KCSArticle.845,5.212
+W_KCSArticle_VoteStat.846,Mobile Site,W_KCSArticle.846,2.799
+W_KCSArticle_VoteStat.847,App,W_KCSArticle.847,9.235
+W_KCSArticle_VoteStat.848,Mobile Site,W_KCSArticle.848,8.399
+W_KCSArticle_VoteStat.849,Mobile Site,W_KCSArticle.849,2.088
+W_KCSArticle_VoteStat.850,App,W_KCSArticle.850,7.067
+W_KCSArticle_VoteStat.851,Mobile Site,W_KCSArticle.851,4.208
+W_KCSArticle_VoteStat.852,Mobile Site,W_KCSArticle.852,6.862
+W_KCSArticle_VoteStat.853,Mobile Site,W_KCSArticle.853,9.103
+W_KCSArticle_VoteStat.854,Mobile Site,W_KCSArticle.854,5.683
+W_KCSArticle_VoteStat.855,Desktop Site,W_KCSArticle.855,9.876
+W_KCSArticle_VoteStat.856,App,W_KCSArticle.856,5.63
+W_KCSArticle_VoteStat.857,Desktop Site,W_KCSArticle.857,4.277
+W_KCSArticle_VoteStat.858,Mobile Site,W_KCSArticle.858,6.756
+W_KCSArticle_VoteStat.859,Desktop Site,W_KCSArticle.859,8.625
+W_KCSArticle_VoteStat.860,Mobile Site,W_KCSArticle.860,7.661
+W_KCSArticle_VoteStat.861,App,W_KCSArticle.861,2.051
+W_KCSArticle_VoteStat.862,App,W_KCSArticle.862,3.246
+W_KCSArticle_VoteStat.863,Mobile Site,W_KCSArticle.863,2.246
+W_KCSArticle_VoteStat.864,App,W_KCSArticle.864,2.783
+W_KCSArticle_VoteStat.865,App,W_KCSArticle.865,3.63
+W_KCSArticle_VoteStat.866,Desktop Site,W_KCSArticle.866,4.582
+W_KCSArticle_VoteStat.867,Desktop Site,W_KCSArticle.867,5.453
+W_KCSArticle_VoteStat.868,Desktop Site,W_KCSArticle.868,9.218
+W_KCSArticle_VoteStat.869,Mobile Site,W_KCSArticle.869,4.769
+W_KCSArticle_VoteStat.870,App,W_KCSArticle.870,1.931
+W_KCSArticle_VoteStat.871,Mobile Site,W_KCSArticle.871,7.003
+W_KCSArticle_VoteStat.872,Desktop Site,W_KCSArticle.872,2.34
+W_KCSArticle_VoteStat.873,Desktop Site,W_KCSArticle.873,4.335
+W_KCSArticle_VoteStat.874,Mobile Site,W_KCSArticle.874,2.331
+W_KCSArticle_VoteStat.875,Mobile Site,W_KCSArticle.875,9.039
+W_KCSArticle_VoteStat.876,Desktop Site,W_KCSArticle.876,3.763
+W_KCSArticle_VoteStat.877,App,W_KCSArticle.877,3.358
+W_KCSArticle_VoteStat.878,Mobile Site,W_KCSArticle.878,1.455
+W_KCSArticle_VoteStat.879,Mobile Site,W_KCSArticle.879,6.366
+W_KCSArticle_VoteStat.880,App,W_KCSArticle.880,4.887
+W_KCSArticle_VoteStat.881,Desktop Site,W_KCSArticle.881,8.184
+W_KCSArticle_VoteStat.882,App,W_KCSArticle.882,4.299
+W_KCSArticle_VoteStat.883,Desktop Site,W_KCSArticle.883,4.489
+W_KCSArticle_VoteStat.884,App,W_KCSArticle.884,4.384
+W_KCSArticle_VoteStat.885,Mobile Site,W_KCSArticle.885,5.21
+W_KCSArticle_VoteStat.886,App,W_KCSArticle.886,2.628
+W_KCSArticle_VoteStat.887,Mobile Site,W_KCSArticle.887,4.028
+W_KCSArticle_VoteStat.888,Mobile Site,W_KCSArticle.888,5.312
+W_KCSArticle_VoteStat.889,Mobile Site,W_KCSArticle.889,1.46
+W_KCSArticle_VoteStat.890,App,W_KCSArticle.890,7.316
+W_KCSArticle_VoteStat.891,Desktop Site,W_KCSArticle.891,6.303
+W_KCSArticle_VoteStat.892,Desktop Site,W_KCSArticle.892,5.9
+W_KCSArticle_VoteStat.893,Desktop Site,W_KCSArticle.893,1.868
+W_KCSArticle_VoteStat.894,App,W_KCSArticle.894,5.272
+W_KCSArticle_VoteStat.895,Desktop Site,W_KCSArticle.895,2.896
+W_KCSArticle_VoteStat.896,Desktop Site,W_KCSArticle.896,5.567
+W_KCSArticle_VoteStat.897,Desktop Site,W_KCSArticle.897,6.847
+W_KCSArticle_VoteStat.898,App,W_KCSArticle.898,6.554
+W_KCSArticle_VoteStat.899,Desktop Site,W_KCSArticle.899,4.53
+W_KCSArticle_VoteStat.900,App,W_KCSArticle.900,2.356
+W_KCSArticle_VoteStat.901,Desktop Site,W_KCSArticle.901,7.033
+W_KCSArticle_VoteStat.902,Desktop Site,W_KCSArticle.902,4.093
+W_KCSArticle_VoteStat.903,App,W_KCSArticle.903,8.732
+W_KCSArticle_VoteStat.904,Mobile Site,W_KCSArticle.904,9.059
+W_KCSArticle_VoteStat.905,App,W_KCSArticle.905,3.015
+W_KCSArticle_VoteStat.906,Mobile Site,W_KCSArticle.906,6.74
+W_KCSArticle_VoteStat.907,App,W_KCSArticle.907,6.325
+W_KCSArticle_VoteStat.908,Desktop Site,W_KCSArticle.908,5.581
+W_KCSArticle_VoteStat.909,Mobile Site,W_KCSArticle.909,1.363
+W_KCSArticle_VoteStat.910,Desktop Site,W_KCSArticle.910,1.327
+W_KCSArticle_VoteStat.911,App,W_KCSArticle.911,5.098
+W_KCSArticle_VoteStat.912,Desktop Site,W_KCSArticle.912,2.326
+W_KCSArticle_VoteStat.913,Desktop Site,W_KCSArticle.913,3.535
+W_KCSArticle_VoteStat.914,App,W_KCSArticle.914,2.895
+W_KCSArticle_VoteStat.915,Mobile Site,W_KCSArticle.915,3.093
+W_KCSArticle_VoteStat.916,Desktop Site,W_KCSArticle.916,2.939
+W_KCSArticle_VoteStat.917,Desktop Site,W_KCSArticle.917,4.391
+W_KCSArticle_VoteStat.918,Desktop Site,W_KCSArticle.918,3.824
+W_KCSArticle_VoteStat.919,App,W_KCSArticle.919,9.976
+W_KCSArticle_VoteStat.920,Mobile Site,W_KCSArticle.920,7.917
+W_KCSArticle_VoteStat.921,Mobile Site,W_KCSArticle.921,1.117
+W_KCSArticle_VoteStat.922,Mobile Site,W_KCSArticle.922,8.306
+W_KCSArticle_VoteStat.923,Mobile Site,W_KCSArticle.923,5.835
+W_KCSArticle_VoteStat.924,App,W_KCSArticle.924,7.826
+W_KCSArticle_VoteStat.925,Desktop Site,W_KCSArticle.925,7.319
+W_KCSArticle_VoteStat.926,Desktop Site,W_KCSArticle.926,4.695
+W_KCSArticle_VoteStat.927,Desktop Site,W_KCSArticle.927,9.968
+W_KCSArticle_VoteStat.928,App,W_KCSArticle.928,9.696
+W_KCSArticle_VoteStat.929,Mobile Site,W_KCSArticle.929,7.189
+W_KCSArticle_VoteStat.930,Mobile Site,W_KCSArticle.930,7.523
+W_KCSArticle_VoteStat.931,Desktop Site,W_KCSArticle.931,8.101
+W_KCSArticle_VoteStat.932,Mobile Site,W_KCSArticle.932,2.735
+W_KCSArticle_VoteStat.933,App,W_KCSArticle.933,8.776
+W_KCSArticle_VoteStat.934,App,W_KCSArticle.934,6.006
+W_KCSArticle_VoteStat.935,Mobile Site,W_KCSArticle.935,1.352
+W_KCSArticle_VoteStat.936,App,W_KCSArticle.936,7.387
+W_KCSArticle_VoteStat.937,Mobile Site,W_KCSArticle.937,1.393
+W_KCSArticle_VoteStat.938,Desktop Site,W_KCSArticle.938,8.98
+W_KCSArticle_VoteStat.939,Desktop Site,W_KCSArticle.939,6.378
+W_KCSArticle_VoteStat.940,Mobile Site,W_KCSArticle.940,4.592
+W_KCSArticle_VoteStat.941,Mobile Site,W_KCSArticle.941,2.021
+W_KCSArticle_VoteStat.942,Desktop Site,W_KCSArticle.942,4.705
+W_KCSArticle_VoteStat.943,App,W_KCSArticle.943,3.018
+W_KCSArticle_VoteStat.944,Mobile Site,W_KCSArticle.944,8.967
+W_KCSArticle_VoteStat.945,Mobile Site,W_KCSArticle.945,1.326
+W_KCSArticle_VoteStat.946,Desktop Site,W_KCSArticle.946,9.989
+W_KCSArticle_VoteStat.947,App,W_KCSArticle.947,5.423
+W_KCSArticle_VoteStat.948,Mobile Site,W_KCSArticle.948,9.611
+W_KCSArticle_VoteStat.949,Desktop Site,W_KCSArticle.949,3.968
+W_KCSArticle_VoteStat.950,App,W_KCSArticle.950,1.963
+W_KCSArticle_VoteStat.951,Desktop Site,W_KCSArticle.951,6.668
+W_KCSArticle_VoteStat.952,Desktop Site,W_KCSArticle.952,1.61
+W_KCSArticle_VoteStat.953,Mobile Site,W_KCSArticle.953,5.533
+W_KCSArticle_VoteStat.954,App,W_KCSArticle.954,6.842
+W_KCSArticle_VoteStat.955,Desktop Site,W_KCSArticle.955,7.382
+W_KCSArticle_VoteStat.956,App,W_KCSArticle.956,7.819
+W_KCSArticle_VoteStat.957,App,W_KCSArticle.957,3.142
+W_KCSArticle_VoteStat.958,Mobile Site,W_KCSArticle.958,1.848
+W_KCSArticle_VoteStat.959,Desktop Site,W_KCSArticle.959,6.3
+W_KCSArticle_VoteStat.960,App,W_KCSArticle.960,9.389
+W_KCSArticle_VoteStat.961,Desktop Site,W_KCSArticle.961,1.493
+W_KCSArticle_VoteStat.962,Desktop Site,W_KCSArticle.962,3.467
+W_KCSArticle_VoteStat.963,Desktop Site,W_KCSArticle.963,8.724
+W_KCSArticle_VoteStat.964,Mobile Site,W_KCSArticle.964,6.118
+W_KCSArticle_VoteStat.965,Desktop Site,W_KCSArticle.965,5.334
+W_KCSArticle_VoteStat.966,Mobile Site,W_KCSArticle.966,6.841
+W_KCSArticle_VoteStat.967,Desktop Site,W_KCSArticle.967,3.136
+W_KCSArticle_VoteStat.968,App,W_KCSArticle.968,4.552
+W_KCSArticle_VoteStat.969,Desktop Site,W_KCSArticle.969,5.076
+W_KCSArticle_VoteStat.970,Desktop Site,W_KCSArticle.970,8.981
+W_KCSArticle_VoteStat.971,Desktop Site,W_KCSArticle.971,2.666
+W_KCSArticle_VoteStat.972,App,W_KCSArticle.972,5.819
+W_KCSArticle_VoteStat.973,Mobile Site,W_KCSArticle.973,4.88
+W_KCSArticle_VoteStat.974,Mobile Site,W_KCSArticle.974,1.365
+W_KCSArticle_VoteStat.975,Mobile Site,W_KCSArticle.975,3.019
+W_KCSArticle_VoteStat.976,Mobile Site,W_KCSArticle.976,7.644
+W_KCSArticle_VoteStat.977,Desktop Site,W_KCSArticle.977,5.311
+W_KCSArticle_VoteStat.978,Desktop Site,W_KCSArticle.978,8.237
+W_KCSArticle_VoteStat.979,Mobile Site,W_KCSArticle.979,8.098
+W_KCSArticle_VoteStat.980,Desktop Site,W_KCSArticle.980,6.245
+W_KCSArticle_VoteStat.981,App,W_KCSArticle.981,4.481
+W_KCSArticle_VoteStat.982,Mobile Site,W_KCSArticle.982,2.935
+W_KCSArticle_VoteStat.983,App,W_KCSArticle.983,9.752
+W_KCSArticle_VoteStat.984,Desktop Site,W_KCSArticle.984,2.12
+W_KCSArticle_VoteStat.985,App,W_KCSArticle.985,3.429
+W_KCSArticle_VoteStat.986,Mobile Site,W_KCSArticle.986,8.055
+W_KCSArticle_VoteStat.987,Desktop Site,W_KCSArticle.987,9.639
+W_KCSArticle_VoteStat.988,App,W_KCSArticle.988,9.562
+W_KCSArticle_VoteStat.989,Desktop Site,W_KCSArticle.989,1.405
+W_KCSArticle_VoteStat.990,Mobile Site,W_KCSArticle.990,9.383
+W_KCSArticle_VoteStat.991,Mobile Site,W_KCSArticle.991,9.755
+W_KCSArticle_VoteStat.992,Desktop Site,W_KCSArticle.992,5.612
+W_KCSArticle_VoteStat.993,Mobile Site,W_KCSArticle.993,4.138
+W_KCSArticle_VoteStat.994,Desktop Site,W_KCSArticle.994,7.931
+W_KCSArticle_VoteStat.995,Desktop Site,W_KCSArticle.995,7.871
+W_KCSArticle_VoteStat.996,Desktop Site,W_KCSArticle.996,4.654
+W_KCSArticle_VoteStat.997,Desktop Site,W_KCSArticle.997,2.9
+W_KCSArticle_VoteStat.998,App,W_KCSArticle.998,1.203
+W_KCSArticle_VoteStat.999,App,W_KCSArticle.999,8.479
+W_KCSArticle_VoteStat.1000,Desktop Site,W_KCSArticle.1000,9.467

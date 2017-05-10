@@ -1,4 +1,4 @@
-External_Id__c,ArticleVersionNumber,CreatedDate__c,KnowledgeArticle.External_Id__c,IsSharedByEmail,Case.External_Id__c
+External_Id__c,ArticleVersionNumber__c,CreatedDate__c,KnowledgeArticle.External_Id__c,IsSharedByEmail__c,Case.External_Id__c
 W_CaseArticle.1,1,2017-01-12 00:00:00,W_KnowledgeArticle.858,TRUE,W_Case.1841
 W_CaseArticle.2,1,2016-09-18 00:00:00,W_KnowledgeArticle.714,TRUE,W_Case.1004
 W_CaseArticle.3,1,2016-09-12 00:00:00,W_KnowledgeArticle.963,FALSE,W_Case.3735
