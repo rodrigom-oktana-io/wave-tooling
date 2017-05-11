@@ -3,3 +3,4 @@ External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Abandoned,Abandoned__c,Number,,0,9,0,,FALSE,FALSE
 Chat Duration,ChatDuration__c,Number,,0,9,0,,FALSE,FALSE
+Wait Time,WaitTime__c,Number,,0,9,0,,FALSE,FALSE
