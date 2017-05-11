@@ -3136,16 +3136,62 @@
         "parameters":{
             "fields":[
                 {
-                    "name":"DataCategoryGroupName"
+                    "name":"DataCategoryGroupName__c"
                 },
                 {
-                    "name":"DataCategoryName"
+                    "name":"DataCategoryName__c"
                 },
                 {
-                    "name":"ParentId"
+                    "name":"ParentId__c"
                 }
             ],
-            "object":"KCSArticle__DataCategorySelection"
+            "object":"KCSArticle_DataCategorySelection__c"
+        }
+    },
+
+    "rename_Knowledge_DataCategory":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+                {
+                    "name":"ParentId",
+                    "type":"Text",
+                    "saqlExpression":"ParentId__c",
+                    "default":""
+                },
+                {
+                    "name":"DataCategoryGroupName",
+                    "type":"Text",
+                    "saqlExpression":"DataCategoryGroupName__c",
+                    "default":""
+                },
+                {
+                    "name":"DataCategoryName",
+                    "type":"Text",
+                    "saqlExpression":"DataCategoryName__c",
+                    "default":""
+                },
+            ],
+            "source":"Extract_Knowledge_DataCategory"
+        }
+    },
+    "drop_custom_rename_Knowledge_DataCategory":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_DataCategory",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"DataCategoryGroupName__c"
+                },
+                {
+                    "name":"DataCategoryName__c"
+                },
+                {
+                    "name":"NormalizedScore__c"
+                }
+            ]
         }
     },
     "Join_Append_Knowledge__ka_kav_dataCategory":{
