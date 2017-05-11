@@ -258,6 +258,15 @@
   			]
 		},
 		{
+			"name": "LiveChatVisitor",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatVisitor.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatVisitor_metadata.csv",
+			"relations": [
+				
+  			]
+		},		
+		{
 			"name": "CaseArticle__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseArticle.csv",
 			"additionalDataFiles": 0,
@@ -268,6 +277,12 @@
 					"targetSObject" : "Case",
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "CaseId__c"
+				},
+				{
+					"csvColumnName": "LiveChatVisitor.External_Id__c",
+					"targetSObject" : "LiveChatVisitor",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "LiveChatVisitorId"
 				},
 				{
 					"csvColumnName": "KnowledgeArticle.External_Id__c",

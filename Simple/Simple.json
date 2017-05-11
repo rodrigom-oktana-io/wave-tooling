@@ -5,6 +5,15 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
+			"name": "LiveChatVisitor",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatVisitor.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatVisitor_metadata.csv",
+			"relations": [
+				
+  			]
+		},
+		{
 			"name": "CaseArticle__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseArticle.csv",
 			"additionalDataFiles": 0,
