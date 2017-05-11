@@ -319,17 +319,22 @@
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
 			"relations": [
 				{
-
+					"csvColumnName": "LiveChatTranscript.External_Id__c",
+					"targetSObject" : "LiveChatTranscript",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "LiveChatTranscriptId"
 				},
 				{
-
+					"csvColumnName": "AgentId.External_Id__c",
+					"targetSObject": "User",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "AgentId"
 				}
   			],
   			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"Time__c"
+				"Time"
 			]
-		}
+		},
 		{
 			"name": "Task",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Task.csv",
