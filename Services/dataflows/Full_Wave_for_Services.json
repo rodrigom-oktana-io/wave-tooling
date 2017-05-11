@@ -829,7 +829,7 @@
                 "ViewCount",
                 "NormalizedScore"
             ],
-            "right":"Extract_Knowledge_ViewStat",
+            "right":"drop_custom_rename_Knowledge_ViewStat",
             "relationship":"ViewStat"
         }
     },
@@ -1012,6 +1012,7 @@
     "drop_custom_rename_Knowledge_kav_archived":{
         "action":"sliceDataset",
         "parameters":{
+
             "source":"rename_Knowledge_kav_archived",
             "mode":"drop",
             "fields":[
@@ -1242,13 +1243,13 @@
                     "type":"Numeric"
                 }
             ],
-            "source":"Extract_Knowledge_kav_online"
+            "source":"Extract_Knowledge_VoteStat"
         }
     },
     "drop_custom_rename_Knowledge_VoteStat":{
         "action":"sliceDataset",
         "parameters":{
-            "source":"rename_Knowledge_ka",
+            "source":"rename_Knowledge_VoteStat",
             "mode":"drop",
             "fields":[
                 {
@@ -2670,19 +2671,79 @@
         "parameters":{
             "fields":[
                 {
-                    "name":"Channel"
+                    "name":"Channel__c"
                 },
                 {
-                    "name":"ParentId"
+                    "name":"ParentId__c"
                 },
                 {
-                    "name":"ViewCount"
+                    "name":"ViewCount__c"
                 },
                 {
-                    "name":"NormalizedScore"
+                    "name":"NormalizedScore__c"
                 }
             ],
-            "object":"KCSArticle__ViewStat"
+            "object":"KCSArticle_ViewStat__c"
+        }
+    },
+    "rename_Knowledge_ViewStat":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+                {
+                    "name":"ParentId",
+                    "type":"Text",
+                    "saqlExpression":"ParentId__c",
+                    "default":""
+                },
+                {
+                    "name":"Channel",
+                    "type":"Text",
+                    "saqlExpression":"Channel__c",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":18,
+                    "name":"NormalizedScore",
+                    "saqlExpression":"NormalizedScore__c",
+                    "scale":4,
+                    "label":"NormalizedScore",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"ViewCount",
+                    "saqlExpression":"ViewCount__c",
+                    "scale":0,
+                    "label":"ViewCount",
+                    "type":"Numeric"
+                }
+            ],
+            "source":"Extract_Knowledge_ViewStat"
+        }
+    },
+    "drop_custom_rename_Knowledge_ViewStat":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_ViewStat",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"Channel__c"
+                },
+                {
+                    "name":"ParentId__c"
+                },
+                {
+                    "name":"NormalizedScore__c"
+                },
+                {
+                    "name":"ViewCount__c"
+                }
+            ]
         }
     },
     "Handle_Null_RecordType":{
