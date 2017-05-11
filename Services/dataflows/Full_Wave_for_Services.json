@@ -884,7 +884,7 @@
                     "name":"Id"
                 },
                 {
-                    "name":"ArticleNumber"
+                    "name":"ArticleNumber__c"
                 },
                 {
                     "name":"CreatedById"
@@ -899,36 +899,154 @@
                     "name":"OwnerId"
                 },
                 {
-                    "name":"PublishStatus"
+                    "name":"PublishStatus__c"
                 },
                 {
-                    "name":"IsLatestVersion"
+                    "name":"IsLatestVersion__c"
                 },
                 {
-                    "name":"IsVisibleInApp"
+                    "name":"IsVisibleInApp__c"
                 },
                 {
-                    "name":"IsVisibleInCsp"
+                    "name":"IsVisibleInCsp__c"
                 },
                 {
-                    "name":"IsVisibleInPkb"
+                    "name":"IsVisibleInPkb__c"
                 },
                 {
-                    "name":"IsVisibleInPrm"
+                    "name":"IsVisibleInPrm__c"
                 },
                 {
-                    "name":"KnowledgeArticleId"
+                    "name":"KnowledgeArticleId__c"
                 },
                 {
-                    "name":"Title"
+                    "name":"Title__c"
                 },
                 {
-                    "name":"VersionNumber",
+                    "name":"VersionNumber__c",
                     "type":"Text"
                 }
             ],
             "complexFilterConditions":"language = 'en_US' and PublishStatus='Archived'",
-            "object":"KCSArticle__kav"
+            "object":"KCSArticle_kav__c"
+        }
+    },
+    "rename_Knowledge_kav_archived":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+
+                {
+                    "name":"ArticleNumber",
+                    "type":"Text",
+                    "saqlExpression":"ArticleNumber__c",
+                    "default":""
+                },
+                {
+                    "name":"PublishStatus",
+                    "type":"Text",
+                    "saqlExpression":"PublishStatus__c",
+                    "default":""
+                },
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"IsLatestVersion",
+                    "type":"Text",
+                    "saqlExpression":"IsLatestVersion__c",
+                    "default":""
+                },
+                {
+                    "name":"IsVisibleInApp",
+                    "type":"Text",
+                    "saqlExpression":"IsVisibleInApp__c",
+                    "default":""
+                },
+                {
+                    "name":"IsVisibleInCsp",
+                    "type":"Text",
+                    "saqlExpression":"IsVisibleInCsp__c",
+                    "default":""
+                },
+                {
+                    "name":"IsVisibleInPkb",
+                    "type":"Text",
+                    "saqlExpression":"IsVisibleInPkb__c",
+                    "default":""
+                },
+                {
+                    "name":"IsVisibleInPrm",
+                    "type":"Text",
+                    "saqlExpression":"IsVisibleInPrm__c",
+                    "default":""
+                },
+                {
+                    "name":"KnowledgeArticleId",
+                    "type":"Text",
+                    "saqlExpression":"IsVisibleInPrm__c",
+                    "default":""
+                },
+                {
+                    "name":"Title",
+                    "type":"Text",
+                    "saqlExpression":"Title__c",
+                    "default":""
+                },
+                {
+                    "name":"VersionNumber",
+                    "type":"Text",
+                    "saqlExpression":"VersionNumber__c",
+                    "default":""
+                }
+            ],
+            "source":"Extract_Knowledge_kav_archived"
+        }
+    },
+    "drop_custom_rename_Knowledge_kav_archived":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_kav_archived",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ArticleNumber__c"
+                },
+                {
+                    "name":"PublishStatus__c"
+                },
+                {
+                    "name":"IsLatestVersion__c"
+                },
+                {
+                    "name":"IsVisibleInApp__c"
+                },
+                {
+                    "name":"IsVisibleInCsp__c"
+                },
+                {
+                    "name":"IsVisibleInPkb__c"
+                },
+                {
+                    "name":"IsVisibleInPrm__c"
+                },
+                {
+                    "name":"KnowledgeArticleId__c"
+                },
+                {
+                    "name":"Title__c"
+                },
+                {
+                    "name":"VersionNumber__c",
+                    "type":"Text"
+                }
+            ]
         }
     },
     "Register_ActivityOwner_Case":{
@@ -1349,7 +1467,7 @@
         "parameters":{
             "sources":[
                 "drop_custom_rename_Knowledge_kav_online",
-                "Extract_Knowledge_kav_archived"
+                "drop_custom_rename_Knowledge_kav_archived"
             ]
         }
     },
