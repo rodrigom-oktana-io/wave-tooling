@@ -35,27 +35,17 @@
 			]
 		},
 		{
-			"name": "LiveChatTranscript__c",
-			"url": "",
+			"name": "KCSArticle_ka__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ka.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
 			"relations": [
 				
   			],
-  			"dateFieldsToShift": [
-				"CreatedDate__c"
-			]
-		},
-		{
-			"name": "LiveChatTranscriptEvent__c",
-			"url": "",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
-			"relations": [
-				
-  			],
-  			"dateFieldsToShift": [
-				"CreatedDate__c"
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"FirstPublishedDate__c",
+				"LastPublishedDate__c"
 			]
 		}
 	],
