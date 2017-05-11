@@ -5,6 +5,108 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
+			"name": "KCSArticle_ka__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ka.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
+			"relations": [
+				
+  			],
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"FirstPublishedDate__c",
+				"LastPublishedDate__c"
+			]
+		},
+		{
+			"name": "KCSArticle_kav__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_kav.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__kav_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "KCSArticle__ka.External_Id__c",
+					"targetSObject": "KCSArticle_ka__c",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "KnowledgeArticleId__c"
+    			},
+    			{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId__c"
+				}
+  			],
+			"dateFieldsToShift": [
+				"CreatedDate__c"
+			]
+		},
+		{
+			"name": "KCSArticle_DataCategorySelection__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_DataCategorySelection.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__DataCategorySelection_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Parent.External_Id__c",
+					"targetSObject": "KCSArticle_ka__c",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "ParentId__c"
+    			}
+  			]
+		},
+		{
+			"name": "KCSArticle_ViewStat__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ViewStat.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ViewStat_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Parent.External_Id__c",
+					"targetSObject": "KCSArticle_ka__c",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "ParentId__c"
+    			}
+  			]
+		},
+		{
+			"name": "KCSArticle_VoteStat__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_VoteStat.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__VoteStat_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Parent.External_Id__c",
+					"targetSObject": "KCSArticle_ka__c",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "ParentId__c"
+    			}
+  			]
+		},
+		{
+			"name": "CaseArticle__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseArticle.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/CaseArticle_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Case.External_Id__c",
+					"targetSObject" : "Case",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "CaseId__c"
+				},
+				{
+					"csvColumnName": "KnowledgeArticle.External_Id__c",
+					"targetSObject": "KCSArticle_ka__c",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "KnowledgeArticleId__c"
+    			}
+  			],
+  			"dateFieldsToShift": [
+				"CreatedDate__c"
+			]
+		},
+		{
 			"name": "LiveChatTranscript",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
 			"additionalDataFiles": 0,
