@@ -279,12 +279,6 @@
 					"foreignKeyField" : "CaseId__c"
 				},
 				{
-					"csvColumnName": "LiveChatVisitor.External_Id__c",
-					"targetSObject" : "LiveChatVisitor",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "LiveChatVisitorId"
-				},
-				{
 					"csvColumnName": "KnowledgeArticle.External_Id__c",
 					"targetSObject": "KCSArticle_ka__c",
 					"targetSObjectLookupField": "External_Id__c",
@@ -324,7 +318,13 @@
 					"targetSObject" : "LiveChatButton",
 					"targetSObjectLookupField" : "DeveloperName",
 					"foreignKeyField" : "LiveChatButtonId"
-				}
+				},
+				{
+					"csvColumnName": "LiveChatVisitor.External_Id__c",
+					"targetSObject" : "LiveChatVisitor",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "LiveChatVisitorId"
+				}				
   			],
   			"dateFieldsToShift": [
 				"CreatedDate__c",

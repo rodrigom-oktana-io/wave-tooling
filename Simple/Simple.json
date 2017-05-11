@@ -65,6 +65,12 @@
 					"targetSObject" : "LiveChatButton",
 					"targetSObjectLookupField" : "DeveloperName",
 					"foreignKeyField" : "LiveChatButtonId"
+				},
+				{
+					"csvColumnName": "LiveChatVisitor.External_Id__c",
+					"targetSObject" : "LiveChatVisitor",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "LiveChatVisitorId"
 				}
   			],
   			"dateFieldsToShift": [
