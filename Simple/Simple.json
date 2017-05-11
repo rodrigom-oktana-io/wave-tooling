@@ -11,6 +11,12 @@
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/CaseArticle_metadata.csv",
 			"relations": [
 				{
+					"csvColumnName": "User.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "CreatedById__c"
+				},
+				{
 					"csvColumnName": "Case.External_Id__c",
 					"targetSObject" : "Case",
 					"targetSObjectLookupField" : "External_Id__c",
