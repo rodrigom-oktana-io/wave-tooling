@@ -4,58 +4,18 @@
 	"appDescription": "",
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
-		
 		{
-			"name": "CaseArticle__c",
-			"url": "",
+			"name": "KCSArticle_ka__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ka.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/CaseArticle_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Case.External_Id__c",
-					"targetSObject" : "Case",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "CaseId__c"
-				},
-				{
-					"csvColumnName": "User.CreatedById__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "CreatedById__c"
-				},
-				{
-					"csvColumnName": "KCSArticle__ka.External_Id__c",
-					"targetSObject": "KCSArticle__ka",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "KnowledgeArticleId__c"
-    				}
-  			],
-  			"dateFieldsToShift": [
-				"CreatedDate__c"
-			]
-		},
-		{
-			"name": "LiveChatTranscript__c",
-			"url": "",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
 			"relations": [
 				
   			],
-  			"dateFieldsToShift": [
-				"CreatedDate__c"
-			]
-		},
-		{
-			"name": "LiveChatTranscriptEvent__c",
-			"url": "",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
-			"relations": [
-				
-  			],
-  			"dateFieldsToShift": [
-				"CreatedDate__c"
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"FirstPublishedDate__c",
+				"LastPublishedDate__c"
 			]
 		}
 	],
