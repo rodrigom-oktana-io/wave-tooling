@@ -5,17 +5,35 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "KCSArticle_ka__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ka.csv",
+			"name": "LiveChatTranscript",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
 			"relations": [
-				
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject": "User",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "OwnerId"
+    			},
+    			{
+					"csvColumnName": "Case.External_Id__c",
+					"targetSObject" : "Case",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "CaseId__c"
+				},
+    			{
+					"csvColumnName": "LiveChatButton.DeveloperName",
+					"targetSObject" : "LiveChatButton",
+					"targetSObjectLookupField" : "DeveloperName",
+					"foreignKeyField" : "LiveChatButtonId"
+				}
   			],
-			"dateFieldsToShift": [
+  			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"FirstPublishedDate__c",
-				"LastPublishedDate__c"
+				"RequestTime",
+				"EndTime",
+				"StartTime"
 			]
 		}
 	],
