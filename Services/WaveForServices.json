@@ -296,7 +296,7 @@
 			]
 		},
 		{
-			"name": "LiveChatTranscript",
+			"name": "LiveChatTranscript__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
@@ -305,7 +305,7 @@
 					"csvColumnName": "Owner.External_Id__c",
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "OwnerId"
+					"foreignKeyField": "OwnerId__c"
     			},
     			{
 					"csvColumnName": "Case.External_Id__c",
@@ -317,20 +317,14 @@
 					"csvColumnName": "LiveChatButton.DeveloperName",
 					"targetSObject" : "LiveChatButton",
 					"targetSObjectLookupField" : "DeveloperName",
-					"foreignKeyField" : "LiveChatButtonId"
-				},
-				{
-					"csvColumnName": "LiveChatVisitor.External_Id__c",
-					"targetSObject" : "LiveChatVisitor",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "LiveChatVisitorId"
-				}				
+					"foreignKeyField" : "LiveChatButtonId__c"
+				}
   			],
   			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"RequestTime",
-				"EndTime",
-				"StartTime"
+				"RequestTime__c",
+				"EndTime__c",
+				"StartTime__c"
 			]
 		},
 		{

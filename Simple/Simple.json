@@ -5,35 +5,27 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "LiveChatTranscript__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
+			"name": "LiveChatTranscriptEvent__c",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscriptEvent.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
 			"relations": [
 				{
-					"csvColumnName": "Owner.External_Id__c",
+					"csvColumnName": "LiveChatTranscript.External_Id__c",
+					"targetSObject" : "LiveChatTranscript",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "LiveChatTranscriptId__c"
+				},
+				{
+					"csvColumnName": "AgentId.External_Id__c",
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "OwnerId__c"
-    			},
-    			{
-					"csvColumnName": "Case.External_Id__c",
-					"targetSObject" : "Case",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "CaseId__c"
-				},
-    			{
-					"csvColumnName": "LiveChatButton.DeveloperName",
-					"targetSObject" : "LiveChatButton",
-					"targetSObjectLookupField" : "DeveloperName",
-					"foreignKeyField" : "LiveChatButtonId__c"
+					"foreignKeyField": "AgentId__c"
 				}
   			],
   			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"RequestTime__c",
-				"EndTime__c",
-				"StartTime__c"
+				"Time__c",
+				"CreatedDate__c"
 			]
 		}
 	],
