@@ -17,7 +17,7 @@
 					"foreignKeyField" : "LiveChatTranscriptId__c"
 				},
 				{
-					"csvColumnName": "AgentId.External_Id__c",
+					"csvColumnName": "Agent.External_Id__c",
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
 					"foreignKeyField": "AgentId__c"
