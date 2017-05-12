@@ -3415,34 +3415,34 @@
         "parameters":{
             "fields":[
                 {
-                    "name":"Abandoned"
+                    "name":"Abandoned__c"
                 },
                 {
-                    "name":"AverageResponseTimeOperator"
+                    "name":"AverageResponseTimeOperator__c"
                 },
                 {
-                    "name":"MaxResponseTimeOperator"
+                    "name":"MaxResponseTimeOperator__c"
                 },
                 {
-                    "name":"OperatorMessageCount"
+                    "name":"OperatorMessageCount__c"
                 },
                 {
-                    "name":"Body"
+                    "name":"Body__c"
                 },
                 {
-                    "name":"Browser"
+                    "name":"Browser__c"
                 },
                 {
-                    "name":"BrowserLanguage"
+                    "name":"BrowserLanguage__c"
                 },
                 {
-                    "name":"CaseId"
+                    "name":"CaseId__c"
                 },
                 {
-                    "name":"ChatDuration"
+                    "name":"ChatDuration__c"
                 },
                 {
-                    "name":"ChatKey"
+                    "name":"ChatKey__c"
                 },
                 {
                     "name":"CreatedDate__c"
@@ -3454,7 +3454,7 @@
                     "name":"EndTime__c"
                 },
                 {
-                    "name":"EndedBy"
+                    "name":"EndedBy__c"
                 },
                 {
                     "name":"LastModifiedDate"
@@ -3466,7 +3466,7 @@
                     "name":"LastViewedDate__c"
                 },
                 {
-                    "name":"LiveChatButtonId"
+                    "name":"LiveChatButtonId__c"
                 },
                 {
                     "name":"Id"
@@ -3475,55 +3475,55 @@
                     "name":"Name"
                 },
                 {
-                    "name":"Location"
+                    "name":"Location__c"
                 },
                 {
                     "name":"OwnerId"
                 },
                 {
-                    "name":"Platform"
+                    "name":"Platform__c"
                 },
                 {
-                    "name":"ReferrerUri"
+                    "name":"ReferrerUri__c"
                 },
                 {
-                    "name":"RequestTime"
+                    "name":"RequestTime__c"
                 },
                 {
-                    "name":"ScreenResolution"
+                    "name":"ScreenResolution__c"
                 },
                 {
                     "name":"StartTime__c"
                 },
                 {
-                    "name":"Status"
+                    "name":"Status__c"
                 },
                 {
-                    "name":"SupervisorTranscriptBody"
+                    "name":"SupervisorTranscriptBody__c"
                 },
                 {
                     "name":"SystemModstamp"
                 },
                 {
-                    "name":"UserAgent"
+                    "name":"UserAgent__c"
                 },
                 {
-                    "name":"AverageResponseTimeVisitor"
+                    "name":"AverageResponseTimeVisitor__c"
                 },
                 {
-                    "name":"IpAddress"
+                    "name":"IpAddress__c"
                 },
                 {
-                    "name":"MaxResponseTimeVisitor"
+                    "name":"MaxResponseTimeVisitor__c"
                 },
                 {
-                    "name":"VisitorMessageCount"
+                    "name":"VisitorMessageCount__c"
                 },
                 {
-                    "name":"WaitTime"
+                    "name":"WaitTime__c"
                 }
             ],
-            "object":"LiveChatTranscript"
+            "object":"LiveChatTranscript__c"
         }
     },
     "rename_LiveChatTranscript":{
@@ -3531,6 +3531,185 @@
         "parameters":{
             "mergeWithSource":true,
             "computedFields":[
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"Abandoned",
+                    "saqlExpression":"Abandoned__c",
+                    "scale":0,
+                    "label":"Abandoned",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"AverageResponseTimeOperator",
+                    "saqlExpression":"AverageResponseTimeOperator__c",
+                    "scale":0,
+                    "label":"AverageResponseTimeOperator",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"MaxResponseTimeOperator",
+                    "saqlExpression":"MaxResponseTimeOperator__c",
+                    "scale":0,
+                    "label":"MaxResponseTimeOperator",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"OperatorMessageCount",
+                    "saqlExpression":"OperatorMessageCount__c",
+                    "scale":0,
+                    "label":"OperatorMessageCount",
+                    "type":"Numeric"
+                },
+                {
+                    "name":"Body",
+                    "type":"Text",
+                    "saqlExpression":"Body__c",
+                    "default":""
+                },
+                {
+                    "name":"Browser",
+                    "type":"Text",
+                    "saqlExpression":"Browser__c",
+                    "default":""
+                },
+                {
+                    "name":"BrowserLanguage",
+                    "type":"Text",
+                    "saqlExpression":"BrowserLanguage__c",
+                    "default":""
+                },
+                {
+                    "name":"CaseId",
+                    "type":"Text",
+                    "saqlExpression":"CaseId__c",
+                    "default":""
+                },
+                {
+                    "name":"ChatKey",
+                    "type":"Text",
+                    "saqlExpression":"ChatKey__c",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"ChatDuration",
+                    "saqlExpression":"ChatDuration__c",
+                    "scale":0,
+                    "label":"OperatorMessageCount",
+                    "type":"Numeric"
+                },
+                {
+                    "name":"EndedBy",
+                    "type":"Text",
+                    "saqlExpression":"EndedBy__c",
+                    "default":""
+                },
+                {
+                    "name":"LiveChatButtonId",
+                    "type":"Text",
+                    "saqlExpression":"LiveChatButtonId__c",
+                    "default":""
+                },
+                {
+                    "name":"Location__c",
+                    "type":"Text",
+                    "saqlExpression":"Location",
+                    "default":""
+                },
+                {
+                    "name":"Platform",
+                    "type":"Text",
+                    "saqlExpression":"Platform__c",
+                    "default":""
+                },
+                {
+                    "name":"ReferrerUri",
+                    "type":"Text",
+                    "saqlExpression":"ReferrerUri__c",
+                    "default":""
+                },
+                {
+                    "name":"ScreenResolution",
+                    "type":"Text",
+                    "saqlExpression":"ScreenResolution__c",
+                    "default":""
+                },
+                {
+                    "name":"RequestTime",
+                    "type":"Date",
+                    "label":"RequestTime",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(RequestTime__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"Status",
+                    "type":"Text",
+                    "saqlExpression":"Status__c",
+                    "default":""
+                },
+                {
+                    "name":"SupervisorTranscriptBody",
+                    "type":"Text",
+                    "saqlExpression":"SupervisorTranscriptBody__c",
+                    "default":""
+                },
+                {
+                    "name":"UserAgent",
+                    "type":"Text",
+                    "saqlExpression":"UserAgent__c",
+                    "default":""
+                },
+                {
+                    "name":"IpAddress",
+                    "type":"Text",
+                    "saqlExpression":"IpAddress__c",
+                    "default":""
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"AverageResponseTimeVisitor",
+                    "saqlExpression":"AverageResponseTimeVisitor__c",
+                    "scale":0,
+                    "label":"AverageResponseTimeVisitor",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"MaxResponseTimeVisitor",
+                    "saqlExpression":"MaxResponseTimeVisitor__c",
+                    "scale":0,
+                    "label":"MaxResponseTimeVisitor",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"VisitorMessageCount",
+                    "saqlExpression":"VisitorMessageCount__c",
+                    "scale":0,
+                    "label":"VisitorMessageCount",
+                    "type":"Numeric"
+                },
+                {
+                    "defaultValue":"0",
+                    "precision":9,
+                    "name":"WaitTime",
+                    "saqlExpression":"WaitTime__c",
+                    "scale":0,
+                    "label":"WaitTime",
+                    "type":"Numeric"
+                },
                 {
                     "name":"EndTime",
                     "type":"Date",
@@ -3573,6 +3752,87 @@
                 }
             ],
             "source":"Extract_LiveChatTranscript"
+        }
+    },
+    "drop_custom_rename_LiveChatTranscript":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_LiveChatTranscript",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"Abandoned__c"
+                },
+                {
+                    "name":"AverageResponseTimeOperator__c"
+                },
+                {
+                    "name":"MaxResponseTimeOperator__c"
+                },
+                {
+                    "name":"OperatorMessageCount__c"
+                },
+                {
+                    "name":"Body__c"
+                },
+                {
+                    "name":"Browser__c"
+                },
+                {
+                    "name":"BrowserLanguage__c"
+                },
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"ChatDuration__c"
+                },
+                {
+                    "name":"ChatKey__c"
+                },
+                {
+                    "name":"EndedBy__c"
+                },
+                {
+                    "name":"LiveChatButtonId__c"
+                },
+                {
+                    "name":"Location__c"
+                },
+                {
+                    "name":"Platform__c"
+                },
+                {
+                    "name":"ReferrerUri__c"
+                },
+                {
+                    "name":"ScreenResolution__c"
+                },
+                {
+                    "name":"Status__c"
+                },
+                {
+                    "name":"SupervisorTranscriptBody__c"
+                },
+                {
+                    "name":"UserAgent__c"
+                },
+                {
+                    "name":"AverageResponseTimeVisitor__c"
+                },
+                {
+                    "name":"IpAddress__c"
+                },
+                {
+                    "name":"MaxResponseTimeVisitor__c"
+                },
+                {
+                    "name":"VisitorMessageCount__c"
+                },
+                {
+                    "name":"WaitTime__c"
+                }
+            ]
         }
     },
     "compute_LiveChatTranscript":{
@@ -3663,7 +3923,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"rename_LiveChatTranscript",
+            "left":"drop_custom_rename_LiveChatTranscript",
             "left_key":[
                 "LiveChatButtonId"
             ],
