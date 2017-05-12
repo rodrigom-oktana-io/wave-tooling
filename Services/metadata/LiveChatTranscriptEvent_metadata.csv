@@ -4,5 +4,5 @@ Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Time,Time__c,DateTime,,0,0,0,,FALSE,TRUE
 Detail,Detail__c,Text,,255,0,0,,FALSE,FALSE
 Type,Type__c,Text,,255,0,0,,FALSE,TRUE
-LiveChatTranscript ID,LiveChatTranscriptId__c,Number,,18,0,0,,FALSE,TRUE
-Agent ID,AgentId__c,Number,,19,0,0,,FALSE,FALSE
+LiveChatTranscript ID,LiveChatTranscriptId__c,Text,,18,0,0,,FALSE,TRUE
+Agent ID,AgentId__c,Text,,18,0,0,,FALSE,FALSE
