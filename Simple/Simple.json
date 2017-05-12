@@ -12,7 +12,7 @@
 			"relations": [
 				{
 					"csvColumnName": "LiveChatTranscript.External_Id__c",
-					"targetSObject" : "LiveChatTranscript",
+					"targetSObject" : "LiveChatTranscript__c",
 					"targetSObjectLookupField" : "External_Id__c",
 					"foreignKeyField" : "LiveChatTranscriptId__c"
 				},
