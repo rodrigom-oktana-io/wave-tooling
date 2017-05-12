@@ -1,0 +1,32 @@
+Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
+External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
+Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
+Abandoned,Abandoned__c,Number,,0,9,0,,FALSE,FALSE
+Chat Duration,ChatDuration__c,Number,,0,9,0,,FALSE,FALSE
+Wait Time,WaitTime__c,Number,,0,9,0,,FALSE,FALSE
+AverageResponseTimeOperator,AverageResponseTimeOperator__c,Number,,0,9,0,,FALSE,FALSE
+MaxResponseTimeOperator,MaxResponseTimeOperator__c,Number,,0,9,0,,FALSE,FALSE
+OperatorMessageCount,OperatorMessageCount__c,Number,,0,9,0,,FALSE,FALSE
+Body,Body__c,Text,,131072,0,0,,FALSE,FALSE
+Browser,Browser__c,Text,,200,0,0,,FALSE,FALSE
+BrowserLanguage,BrowserLanguage__c,Text,,200,0,0,,FALSE,FALSE
+Case ID,CaseId__c,Number,,18,0,0,,FALSE,FALSE
+LiveChatVisitor ID,LiveChatVisitorId__c,Number,,18,0,0,,FALSE,TRUE
+ChatKey,ChatKey__c,Text,,200,0,0,,FALSE,FALSE
+StartTime,StartTime__c,DateTime,,0,0,0,,FALSE,FALSE
+EndTime,EndTime__c,DateTime,,0,0,0,,FALSE,FALSE
+EndedBy,EndedBy__c,Text,,255,0,0,,FALSE,FALSE
+LiveChatButton ID,LiveChatButtonID__c,Number,,18,0,0,,FALSE,FALSE
+Location,Location__c,Text,,200,0,0,,FALSE,FALSE
+Owner ID,OwnerId__c,Number,,18,0,0,,FALSE,TRUE
+Platform,Platform__c,Text,,200,0,0,,FALSE,FALSE
+ReferrerUri,ReferrerUri__c,Text,,200,0,0,,FALSE,FALSE
+ScreenResolution,ScreenResolution__c,Text,,200,0,0,,FALSE,FALSE
+RequestTime,RequestTime__c,DateTime,,0,0,0,,FALSE,FALSE
+Status,Status__c,Text,,255,0,0,,FALSE,FALSE
+SupervisorTranscriptBody,SupervisorTranscriptBody__c,Text,,131072,0,0,,FALSE,FALSE
+UserAgent,UserAgent__c,Text,,200,0,0,,FALSE,FALSE
+AverageResponseTimeVisitor,AverageResponseTimeVisitor__c,Number,,0,9,0,,FALSE,FALSE
+IpAddress,IpAddress__c,Text,,39,0,0,,FALSE,FALSE
+MaxResponseTimeVisitor,MaxResponseTimeVisitor__c,Number,,0,9,0,,FALSE,FALSE
+VisitorMessageCount,VisitorMessageCount__c,Number,,0,9,0,,FALSE,FALSE
