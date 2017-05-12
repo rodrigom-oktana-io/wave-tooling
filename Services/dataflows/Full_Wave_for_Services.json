@@ -1335,7 +1335,7 @@
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
                     "saqlExpression":"toDate(Time__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
                     "default":""
-                },
+                }
             ],
             "source":"Extract_LiveChatTranscriptEvent"
         }
@@ -3233,7 +3233,7 @@
                     "type":"Text",
                     "saqlExpression":"DataCategoryName__c",
                     "default":""
-                },
+                }
             ],
             "source":"Extract_Knowledge_DataCategory"
         }
