@@ -7,7 +7,7 @@ Wait Time,WaitTime__c,Number,,0,9,0,,FALSE,FALSE
 AverageResponseTimeOperator,AverageResponseTimeOperator__c,Number,,0,9,0,,FALSE,FALSE
 MaxResponseTimeOperator,MaxResponseTimeOperator__c,Number,,0,9,0,,FALSE,FALSE
 OperatorMessageCount,OperatorMessageCount__c,Number,,0,9,0,,FALSE,FALSE
-Body,Body__c,LongTextArea,,131072,0,0,,FALSE,FALSE
+Body,Body__c,LongTextArea,,131071,0,0,,FALSE,FALSE
 Browser,Browser__c,Text,,200,0,0,,FALSE,FALSE
 BrowserLanguage,BrowserLanguage__c,Text,,200,0,0,,FALSE,FALSE
 Case ID,CaseId__c,Text,,18,0,0,,FALSE,FALSE
@@ -23,7 +23,7 @@ ReferrerUri,ReferrerUri__c,Text,,200,0,0,,FALSE,FALSE
 ScreenResolution,ScreenResolution__c,Text,,200,0,0,,FALSE,FALSE
 RequestTime,RequestTime__c,DateTime,,0,0,0,,FALSE,FALSE
 Status,Status__c,Text,,255,0,0,,FALSE,FALSE
-SupervisorTranscriptBody,SupervisorTranscriptBody__c,LongTextArea,,131072,0,0,,FALSE,FALSE
+SupervisorTranscriptBody,SupervisorTranscriptBody__c,LongTextArea,,131071,0,0,,FALSE,FALSE
 UserAgent,UserAgent__c,Text,,200,0,0,,FALSE,FALSE
 AverageResponseTimeVisitor,AverageResponseTimeVisitor__c,Number,,0,9,0,,FALSE,FALSE
 IpAddress,IpAddress__c,Text,,39,0,0,,FALSE,FALSE
