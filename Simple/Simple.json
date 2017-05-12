@@ -5,45 +5,7 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "LiveChatVisitor",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatVisitor.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatVisitor_metadata.csv",
-			"relations": [
-				
-  			]
-		},
-		{
-			"name": "CaseArticle__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseArticle.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/CaseArticle_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "User.External_Id__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "CreatedById__c"
-				},
-				{
-					"csvColumnName": "Case.External_Id__c",
-					"targetSObject" : "Case",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "CaseId__c"
-				},
-				{
-					"csvColumnName": "KnowledgeArticle.External_Id__c",
-					"targetSObject": "KCSArticle_ka__c",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "KnowledgeArticleId__c"
-    			}
-  			],
-  			"dateFieldsToShift": [
-				"CreatedDate__c"
-			]
-		},
-		{
-			"name": "LiveChatTranscript",
+			"name": "LiveChatTranscript__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
@@ -52,7 +14,7 @@
 					"csvColumnName": "Owner.External_Id__c",
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "OwnerId"
+					"foreignKeyField": "OwnerId__c"
     			},
     			{
 					"csvColumnName": "Case.External_Id__c",
@@ -64,20 +26,14 @@
 					"csvColumnName": "LiveChatButton.DeveloperName",
 					"targetSObject" : "LiveChatButton",
 					"targetSObjectLookupField" : "DeveloperName",
-					"foreignKeyField" : "LiveChatButtonId"
-				},
-				{
-					"csvColumnName": "LiveChatVisitor.External_Id__c",
-					"targetSObject" : "LiveChatVisitor",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "LiveChatVisitorId"
+					"foreignKeyField" : "LiveChatButtonId__c"
 				}
   			],
   			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"RequestTime",
-				"EndTime",
-				"StartTime"
+				"RequestTime__c",
+				"EndTime__c",
+				"StartTime__c"
 			]
 		}
 	],

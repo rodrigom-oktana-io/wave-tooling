@@ -11,12 +11,11 @@ Body,Body__c,Text,,131072,0,0,,FALSE,FALSE
 Browser,Browser__c,Text,,200,0,0,,FALSE,FALSE
 BrowserLanguage,BrowserLanguage__c,Text,,200,0,0,,FALSE,FALSE
 Case ID,CaseId__c,Number,,18,0,0,,FALSE,FALSE
-LiveChatVisitor ID,LiveChatVisitorId__c,Number,,18,0,0,,FALSE,TRUE
 ChatKey,ChatKey__c,Text,,200,0,0,,FALSE,FALSE
 StartTime,StartTime__c,DateTime,,0,0,0,,FALSE,FALSE
 EndTime,EndTime__c,DateTime,,0,0,0,,FALSE,FALSE
 EndedBy,EndedBy__c,Text,,255,0,0,,FALSE,FALSE
-LiveChatButton ID,LiveChatButtonID__c,Number,,18,0,0,,FALSE,FALSE
+LiveChatButton ID,LiveChatButtonId__c,Number,,18,0,0,,FALSE,FALSE
 Location,Location__c,Text,,200,0,0,,FALSE,FALSE
 Owner ID,OwnerId__c,Number,,18,0,0,,FALSE,TRUE
 Platform,Platform__c,Text,,200,0,0,,FALSE,FALSE
