@@ -2,7 +2,7 @@ Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsR
 External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Time,Time__c,DateTime,,0,0,0,,FALSE,TRUE
-Detail,Detail__c,Text,,255,0,0,,FALSE,FALSE
+Detail,Detail__c,LongTextArea,,131072,0,0,,FALSE,FALSE
 Type,Type__c,Text,,255,0,0,,FALSE,TRUE
 LiveChatTranscript ID,LiveChatTranscriptId__c,Text,,18,0,0,,FALSE,TRUE
 Agent ID,AgentId__c,Text,,18,0,0,,FALSE,FALSE
