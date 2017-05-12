@@ -3478,7 +3478,7 @@
                     "name":"Location__c"
                 },
                 {
-                    "name":"OwnerId"
+                    "name":"OwnerId__c"
                 },
                 {
                     "name":"Platform__c"
@@ -3589,6 +3589,12 @@
                     "name":"CaseId",
                     "type":"Text",
                     "saqlExpression":"CaseId__c",
+                    "default":""
+                },
+                {
+                    "name":"OwnerId",
+                    "type":"Text",
+                    "saqlExpression":"OwnerId__c",
                     "default":""
                 },
                 {
@@ -3831,6 +3837,9 @@
                 },
                 {
                     "name":"WaitTime__c"
+                },
+                {
+                    "name":"OwnerId__c"
                 }
             ]
         }

@@ -2,7 +2,7 @@
 	"appName": "Wave for Services",
 	"appType": "Services",
 	"appDescription": "This package includes data on Users, Accounts, Cases and Cases History for Wave for Services. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dataflows/Wave_For_Services_Dataflow.json",
+	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dataflows/Full_Wave_for_Services.json",
 	"objects": [
 		{
 			"name": "User",
