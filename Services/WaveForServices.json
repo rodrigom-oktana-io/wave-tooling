@@ -396,31 +396,77 @@
 	],
 	"edgemarts": [
 		{
-			"Name": "ServiceActivity",
-			"Label": "ServiceActivity",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceActivityMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceActivity.csv"
-		},
-		{
 			"Name": "ServiceCase",
 			"Label": "ServiceCase",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCase.csv"
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
 		},
 		{
-			"Name": "ServiceOpportunity",
-			"Label": "ServiceOpportunity",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunityMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunity.csv"
+			"Name": "ServiceOpportunities",
+			"Label": "ServiceOpportunities",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceOmniAgentWork",
+			"Label": "ServiceOmniAgentWork",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceChatTranscript",
+			"Label": "ServiceChatTranscript",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceKnowledge",
+			"Label": "ServiceChatTranscript",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceKnowledgeAttached",
+			"Label": "ServiceKnowledgeAttached",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
 		},
 		{
 			"Name": "ServiceCaseHistory",
 			"Label": "ServiceCaseHistory",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseHistoryMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseHistory.csv"			
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceActivity",
+			"Label": "ServiceActivity",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "AgentWork",
+			"Label": "AgentWork",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceChatTranscriptEvent",
+			"Label": "ServiceChatTranscriptEvent",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
+		},
+		{
+			"Name": "ServiceOmniUserPresence",
+			"Label": "ServiceOmniUserPresence",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
 		}
 	],
 	"dashboards": [
+		{
+			"Name": "AboutServiceWave",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/AboutServiceWave.json"
+		},
 		{
 			"Name": "MyPerformanceSummary",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/MyPerformanceSummary.json"
@@ -436,6 +482,10 @@
 		{
 			"Name": "ServiceAgentPerformance",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentPerformance.json"
+		},
+		{
+			"Name": "ServiceAgentSidebarByCaseHistory",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarByCaseHistory.json"
 		},
 		{
 			"Name": "ServiceAgentSidebarByCustomer",
@@ -458,20 +508,28 @@
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceCustomerSatisfaction.json"
 		},
 		{
+			"Name": "ServiceKnowledgeEfficiency",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceKnowledgeEfficiency.json"
+		},
+		{
+			"Name": "ServiceKnowledgeUsage",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceKnowledgeUsage.json"
+		},
+		{
+			"Name": "ServiceLiveAgentChat",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceLiveAgentChat.json"
+		},
+		{
+			"Name": "ServiceOmni",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOmni.json"
+		},
+		{
 			"Name": "ServiceOpenCases",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOpenCases.json"
 		},
 		{
 			"Name": "ServiceTelephony",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceTelephony.json"
-		},
-		{
-			"Name": "ServiceAgentSidebarByCaseHistory",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarByCaseHistory.json"
-		},
-		{
-			"Name": "ServiceOverview",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOverview.json"
 		}
 	]
 }
