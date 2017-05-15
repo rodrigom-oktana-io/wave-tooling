@@ -174,7 +174,7 @@
   			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"StatusEndDate",
+				"StatusEndDate__c",
 				"StatusStartDate__c"
 			]
 		},
