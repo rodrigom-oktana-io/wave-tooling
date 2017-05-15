@@ -3082,7 +3082,7 @@
         "parameters":{
             "SFDCtoken":"SFDCtoken",
             "name":"ServiceOpportunities",
-            "alias":"<ServiceOpportunity>",
+            "alias":"<ServiceOpportunities>",
             "source":"Join_OpportunityRecordTypeAccountCase",
             "folderid":"<folderId>"
         }

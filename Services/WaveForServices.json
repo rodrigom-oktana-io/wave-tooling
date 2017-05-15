@@ -412,7 +412,7 @@
 		},
 		{
 			"Name": "ServiceKnowledge",
-			"Label": "ServiceChatTranscript",
+			"Label": "ServiceKnowledge",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
 		},
@@ -431,12 +431,6 @@
 		{
 			"Name": "ServiceActivity",
 			"Label": "ServiceActivity",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
-		},
-		{
-			"Name": "AgentWork",
-			"Label": "AgentWork",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv"
 		},
