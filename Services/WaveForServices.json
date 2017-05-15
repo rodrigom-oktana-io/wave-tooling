@@ -182,7 +182,7 @@
 			"name": "KCSArticle_ka__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ka.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ka_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_ka_metadata.csv",
 			"relations": [
 				
   			],
@@ -196,7 +196,7 @@
 			"name": "KCSArticle_kav__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_kav.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__kav_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_kav_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "KCSArticle__ka.External_Id__c",
@@ -219,7 +219,7 @@
 			"name": "KCSArticle_DataCategorySelection__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_DataCategorySelection.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__DataCategorySelection_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_DataCategorySelection_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Parent.External_Id__c",
@@ -233,7 +233,7 @@
 			"name": "KCSArticle_ViewStat__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ViewStat.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__ViewStat_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_ViewStat_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Parent.External_Id__c",
@@ -247,7 +247,7 @@
 			"name": "KCSArticle_VoteStat__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_VoteStat.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle__VoteStat_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_VoteStat_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Parent.External_Id__c",
@@ -257,15 +257,6 @@
     			}
   			]
 		},
-		{
-			"name": "LiveChatVisitor",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatVisitor.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatVisitor_metadata.csv",
-			"relations": [
-				
-  			]
-		},		
 		{
 			"name": "CaseArticle__c",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseArticle.csv",

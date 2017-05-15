@@ -716,7 +716,7 @@
                     "name":"LastModifiedById"
                 }
             ],
-            "object":"Extract_Knowledge_ka"
+            "object":"KCSArticle_ka__c"
         }
     },
 
@@ -1565,7 +1565,7 @@
                 }
             ],
             "complexFilterConditions":"CreatedDate__c >= LAST_N_MONTHS:18 and Field__c IN ('Status', 'Owner')",
-            "object":"CaseHistory"
+            "object":"CaseHistory__c"
         }
     },
     "rename_CaseHistoryFields":{
