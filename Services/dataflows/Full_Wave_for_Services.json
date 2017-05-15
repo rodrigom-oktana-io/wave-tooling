@@ -1377,7 +1377,7 @@
                 {
                     "name":"Detail",
                     "type":"Text",
-                    "saqlExpression":"ParentId__c",
+                    "saqlExpression":"Detail__c",
                     "default":""
                 },
                 {
