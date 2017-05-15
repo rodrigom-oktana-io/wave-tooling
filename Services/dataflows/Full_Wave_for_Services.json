@@ -3386,7 +3386,7 @@
                 },
                 {
                     "name":"ValidToWithNow",
-                    "saqlExpression":"case when 'ValidToDate' == \"3000-10-10T10:10:10.100Z\" then now() else toDate('ValidToDate', \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\") end",
+                    "saqlExpression":"case when 'ValidToDate' == \"3000-10-10T10:10:10.100Z\" then now() else toDate('ValidToDate_Year' + 'ValidToDate_Month' + 'ValidToDate_Day' + 'ValidToDate_Hour' + 'ValidToDate_Minute' + 'ValidToDate_Second', \"yyyyMMddHHmmss\") end",
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
                     "type":"Date"
                 }
