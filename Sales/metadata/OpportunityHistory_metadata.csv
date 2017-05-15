@@ -5,5 +5,5 @@ Close Date,CloseDate__c,Date,,0,0,0,,FALSE,TRUE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,TRUE
 Forecast Category,ForecastCategory__c,Text,,40,0,0,,FALSE,FALSE
 Opportunity ID,OpportunityId__c,MasterDetail,Opportunity,0,0,0,,FALSE,TRUE
-Created By ID,CreatedById__c,Text,,18,0,0,FALSE,TRUE
+Created By ID,CreatedById__c,Text,,18,0,0,,FALSE,TRUE
 Stage Name,StageName__c,Text,,40,0,0,,FALSE,TRUE
