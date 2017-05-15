@@ -276,6 +276,12 @@
                     "type":"Text",
                     "saqlExpression":"VersionNumber__c",
                     "default":""
+                },
+                {
+                    "name":"OwnerId",
+                    "type":"Text",
+                    "saqlExpression":"OwnerId__c",
+                    "default":""
                 }
             ],
             "source":"Extract_Knowledge_kav_online"
@@ -313,6 +319,9 @@
                 },
                 {
                     "name":"Title__c"
+                },
+                {
+                    "name":"OwnerId__c"
                 },
                 {
                     "name":"VersionNumber__c",
@@ -935,11 +944,16 @@
         "parameters":{
             "mergeWithSource":true,
             "computedFields":[
-
                 {
                     "name":"ArticleNumber",
                     "type":"Text",
                     "saqlExpression":"ArticleNumber__c",
+                    "default":""
+                },
+                {
+                    "name":"OwnerId",
+                    "type":"Text",
+                    "saqlExpression":"OwnerId__c",
                     "default":""
                 },
                 {
@@ -1041,6 +1055,9 @@
                 },
                 {
                     "name":"Title__c"
+                },
+                {
+                    "name":"OwnerId__c"
                 },
                 {
                     "name":"VersionNumber__c",
@@ -2931,7 +2948,7 @@
                 "DataCategoryName",
                 "DataCategoryGroupName"
             ],
-            "right":"Extract_Knowledge_DataCategory",
+            "right":"drop_custom_rename_Knowledge_DataCategory",
             "relationship":"DataCategory",
             "operation":"LookupMultiValue"
         }
@@ -3280,7 +3297,6 @@
             "object":"KCSArticle_DataCategorySelection__c"
         }
     },
-
     "rename_Knowledge_DataCategory":{
         "action":"computeExpression",
         "parameters":{
@@ -3321,7 +3337,7 @@
                     "name":"DataCategoryName__c"
                 },
                 {
-                    "name":"NormalizedScore__c"
+                    "name":"ParentId__c"
                 }
             ]
         }
