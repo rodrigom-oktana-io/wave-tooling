@@ -2,6 +2,3 @@ Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsR
 External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created Date,CreatedDate__c,DateTime,,100,0,0,,FALSE,FALSE
 Closed Date,ClosedDate__c,DateTime,,100,0,0,,FALSE,FALSE
-Account ID,AccountId__c,Text,,18,0,0,,FALSE,FALSE
-Contact ID,ContactId__c,Text,,18,0,0,,FALSE,FALSE
-Owner ID,OwnerId__c,Text,,18,0,0,,FALSE,FALSE
