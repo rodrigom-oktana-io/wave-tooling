@@ -719,7 +719,6 @@
             "object":"KCSArticle_ka__c"
         }
     },
-
     "rename_Knowledge_ka":{
         "action":"computeExpression",
         "parameters":{
@@ -766,7 +765,7 @@
                     "type":"Numeric"
                 }
             ],
-            "source":"Extract_Knowledge_kav_online"
+            "source":"Extract_Knowledge_ka"
         }
     },
     "drop_custom_rename_Knowledge_ka":{
