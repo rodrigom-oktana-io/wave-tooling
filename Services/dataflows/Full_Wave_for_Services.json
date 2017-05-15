@@ -199,7 +199,7 @@
                     "type":"Text"
                 }
             ],
-            "complexFilterConditions":"language = 'en_US' and PublishStatus='Online'",
+            "complexFilterConditions":"Language__c = 'en_US' and PublishStatus__c = 'Online'",
             "object":"KCSArticle_kav__c"
         }
     },
@@ -927,7 +927,7 @@
                     "type":"Text"
                 }
             ],
-            "complexFilterConditions":"language = 'en_US' and PublishStatus='Archived'",
+            "complexFilterConditions":"Language__c = 'en_US' and PublishStatus__c = 'Archived'",
             "object":"KCSArticle_kav__c"
         }
     },
@@ -1174,29 +1174,102 @@
         "parameters":{
             "fields":[
                 {
-                    "name":"ArticleVersionNumber",
+                    "name":"ArticleVersionNumber__c",
                     "type":"Text"
                 },
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
-                    "name":"CaseId"
+                    "name":"CaseId__c"
                 },
                 {
-                    "name":"CreatedById"
+                    "name":"CreatedById__c"
                 },
                 {
-                    "name":"KnowledgeArticleId"
+                    "name":"KnowledgeArticleId__c"
                 },
                 {
-                    "name":"IsSharedByEmail"
+                    "name":"IsSharedByEmail__c"
                 }
             ],
-            "object":"CaseArticle"
+            "object":"CaseArticle__c"
+        }
+    },
+    "rename_CaseArticleKnowledge":{
+        "action":"computeExpression",
+        "parameters":{
+            "mergeWithSource":true,
+            "computedFields":[
+                {
+                    "name":"ArticleVersionNumber",
+                    "type":"Numeric",
+                    "saqlExpression":"ArticleVersionNumber__c",
+                    "default": "0",
+                    "precision": 6,
+                    "scale": 0
+                },
+                {
+                    "name":"CaseId",
+                    "type":"Text",
+                    "saqlExpression":"CaseId__c",
+                    "default":""
+                },
+                {
+                    "name":"CreatedById",
+                    "type":"Text",
+                    "saqlExpression":"CreatedById__c",
+                    "default":""
+                },
+                {
+                    "name":"KnowledgeArticleId",
+                    "type":"Text",
+                    "saqlExpression":"KnowledgeArticleId__c",
+                    "default":""
+                },
+                {
+                    "name":"IsSharedByEmail",
+                    "type":"Text",
+                    "saqlExpression":"IsSharedByEmail__c",
+                    "default":""
+                },
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                }
+            ],
+            "source":"Extract_CaseArticleKnowledge"
+        }
+    },
+    "drop_custom_rename_CaseArticleKnowledge":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_CaseArticleKnowledge",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"IsSharedByEmail__c"
+                },
+                {
+                    "name":"KnowledgeArticleId__c"
+                },
+                {
+                    "name":"CreatedById__c"
+                },
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"ArticleVersionNumber__c"
+                }
+            ]
         }
     },
     "Extract_Knowledge_VoteStat":{
@@ -1331,7 +1404,7 @@
                 {
                     "name":"Time",
                     "type":"Date",
-                    "label":"CreatedDate",
+                    "label":"Time",
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
                     "saqlExpression":"toDate(Time__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
                     "default":""
@@ -3110,7 +3183,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"Extract_CaseArticleKnowledge",
+            "left":"drop_custom_rename_CaseArticleKnowledge",
             "left_key":[
                 "CreatedById"
             ],
