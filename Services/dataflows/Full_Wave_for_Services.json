@@ -168,7 +168,7 @@
                     "isYearEndFiscalYear":false
                 },
                 {
-                    "name":"OwnerId"
+                    "name":"OwnerId__c"
                 },
                 {
                     "name":"PublishStatus__c"
@@ -892,11 +892,11 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
-                    "name":"OwnerId"
+                    "name":"OwnerId__c"
                 },
                 {
                     "name":"PublishStatus__c"
@@ -1206,11 +1206,9 @@
             "computedFields":[
                 {
                     "name":"ArticleVersionNumber",
-                    "type":"Numeric",
+                    "type":"Text",
                     "saqlExpression":"ArticleVersionNumber__c",
-                    "default": "0",
-                    "precision": 6,
-                    "scale": 0
+                    "default": ""
                 },
                 {
                     "name":"CaseId",
