@@ -3695,9 +3695,9 @@
                     "default":""
                 },
                 {
-                    "name":"Location__c",
+                    "name":"Location",
                     "type":"Text",
-                    "saqlExpression":"Location",
+                    "saqlExpression":"Location__c",
                     "default":""
                 },
                 {
