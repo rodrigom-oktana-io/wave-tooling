@@ -53,6 +53,30 @@
 			]
 		},
 		{
+			"name": "Opportunity",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Opportunity.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Opportunity_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				}
+			],
+			"dateFieldsToShift": [
+				"DateTimeCreated__c",
+				"LastActivityDate__c"
+			]
+		},
+		{
 			"name": "Case",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Case.csv",
 			"additionalDataFiles": 0,
@@ -313,6 +337,8 @@
   			],
   			"dateFieldsToShift": [
 				"CreatedDate__c",
+				"LastReferencedDate__c",
+				"LastViewedDate__c",
 				"RequestTime__c",
 				"EndTime__c",
 				"StartTime__c"
@@ -381,7 +407,8 @@
 			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"ActivityDate"
+				"ActivityDate",
+				"ActivityDateTime"
 			]
 		}
 	],
