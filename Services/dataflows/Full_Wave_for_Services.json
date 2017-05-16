@@ -93,7 +93,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"DateTimeCreated__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -113,6 +113,23 @@
                 }
             ],
             "object":"Opportunity"
+        }
+    },
+    "add_standard_Extract_Opportunity":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_Opportunity",
+            "computedFields":[
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "saqlExpression":"toDate(DateTimeCreated__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":"",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+                }
+            ],
+            "mergeWithSource":true
         }
     },
     "Join_LiveChatTranscript_Case_NoCSAT":{
@@ -470,13 +487,13 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"ClosedDate",
+                    "name":"ClosedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -522,6 +539,31 @@
                 }
             ],
             "object":"Case"
+        }
+    },
+    "add_standard_Extract_Case":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_Case",
+            "computedFields":[
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":"",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+                },
+                {
+                    "name":"ClosedDate",
+                    "type":"Date",
+                    "label":"Closed Date",
+                    "saqlExpression":"toDate(ClosedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":"",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+                }
+            ],
+            "mergeWithSource":true
         }
     },
     "Join_CaseAccountContactUser":{
@@ -667,7 +709,7 @@
     "compute_CurrentDateForCase":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Case",
+            "source":"add_standard_Extract_Case",
             "computedFields":[
                 {
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
@@ -1118,7 +1160,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -1142,6 +1184,23 @@
                 }
             ],
             "object":"Task"
+        }
+    },
+    "add_standard_Extract_Task":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_Task",
+            "computedFields":[
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                }
+            ],
+            "mergeWithSource":true
         }
     },
     "Register_LiveChatTranscriptEvent":{
@@ -1451,7 +1510,7 @@
     "Add_Fields_To_Event":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Event",
+            "source":"add_standard_Extract_Event",
             "computedFields":[
                 {
                     "name":"CallObject",
@@ -1552,7 +1611,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"Extract_Opportunity",
+            "left":"add_standard_Extract_Opportunity",
             "left_key":[
                 "RecordTypeId"
             ],
@@ -1876,7 +1935,7 @@
                     "direction":"asc"
                 }
             ],
-            "source":"Extract_Event",
+            "source":"add_standard_Extract_Event",
             "computedFields":[
                 {
                     "expression":{
@@ -1982,7 +2041,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"CreatedDate",
+                    "name":"CreatedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -2019,6 +2078,23 @@
                 }
             ],
             "object":"Event"
+        }
+    },
+    "add_standard_Extract_Event":{
+        "action":"computeExpression",
+        "parameters":{
+            "source":"Extract_Event",
+            "computedFields":[
+                {
+                    "name":"CreatedDate",
+                    "type":"Date",
+                    "label":"CreatedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                }
+            ],
+            "mergeWithSource":true
         }
     },
     "Append_CaseHistory":{
@@ -2149,7 +2225,7 @@
                     "direction":"asc"
                 }
             ],
-            "source":"Extract_Task",
+            "source":"add_standard_Extract_Task",
             "computedFields":[
                 {
                     "expression":{
@@ -3949,7 +4025,7 @@
     "Add_Fields_To_Task":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Task",
+            "source":"add_standard_Extract_Task",
             "computedFields":[
                 {
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
