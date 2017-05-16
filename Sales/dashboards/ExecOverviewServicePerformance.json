@@ -1,7 +1,7 @@
 {
   "label": "Exec Overview - Service Performance",
   "folder": {
-    "id": "00lB0000000uig5IAA"
+    "id": "00lB0000000RJbPIAW"
   },
   "state": {
     "dataSourceLinks": [],
@@ -849,7 +849,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -864,12 +864,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"case4\\\"; this_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; last_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; u = group this_year by all full, last_year by all; result = foreach u generate count(this_year) as 'A', count(last_year) as 'B'; result = foreach result generate (A-B)/B as 'sum_percent'; result = foreach result generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#26AB40\\\" when 'sum_percent' > 0 then \\\"#DC0029\\\" else \\\"#7D98B3\\\" end as 'color';\",\"measures\":[[\"sum\",\"percent\"]]}",
+          "query": "{\"pigql\":\"q = load \\\"case1\\\"; this_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; last_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; u = group this_year by all full, last_year by all; result = foreach u generate count(this_year) as 'A', count(last_year) as 'B'; result = foreach result generate (A-B)/B as 'sum_percent'; result = foreach result generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#26AB40\\\" when 'sum_percent' > 0 then \\\"#DC0029\\\" else \\\"#7D98B3\\\" end as 'color';\",\"measures\":[[\"sum\",\"percent\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -889,7 +889,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -903,12 +903,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity4\\\"; q = group q by all;q = foreach q generate coalesce(({{coalesce(column(kpi_current_pipeline.result,[\\\"sum_Amount\\\"]),0).asObject()}} - {{coalesce(column(kpi_total_amount_last_year.result,[\\\"Open_Amount\\\"]),0).asObject()}})/{{coalesce(column(kpi_total_amount_last_year.result,[\\\"Open_Amount\\\"]),0).asObject()}},0)  as 'sum_percent'; q = foreach q generate 'sum_percent' as 'sum_percent', (case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"measures\":[[\"count\",\"*\",\"sum_percent\"]],\"measuresMap\":{},\"autoFilter\":true,\"groups\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"opportunity1\\\"; q = group q by all;q = foreach q generate coalesce(({{coalesce(column(kpi_current_pipeline.result,[\\\"sum_Amount\\\"]),0).asObject()}} - {{coalesce(column(kpi_total_amount_last_year.result,[\\\"Open_Amount\\\"]),0).asObject()}})/{{coalesce(column(kpi_total_amount_last_year.result,[\\\"Open_Amount\\\"]),0).asObject()}},0)  as 'sum_percent'; q = foreach q generate 'sum_percent' as 'sum_percent', (case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"measures\":[[\"count\",\"*\",\"sum_percent\"]],\"measuresMap\":{},\"autoFilter\":true,\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -922,12 +922,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"case4\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; r = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; s = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate (avg(r.DurationCalculatedField)-avg(s.DurationCalculatedField))/avg(s.DurationCalculatedField) as 'avg_percent'; t = foreach t generate 'avg_percent' as 'avg_percent', (case when 'avg_percent' < 0 then \\\"#26AB40\\\" when 'avg_percent' > 0 then \\\"#DC0029\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"measures\":[[\"count\",\"*\",\"avg_percent\"]],\"measuresMap\":{},\"groups\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"case1\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; r = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; s = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; t = group r by all, s by all; t = foreach t generate (avg(r.DurationCalculatedField)-avg(s.DurationCalculatedField))/avg(s.DurationCalculatedField) as 'avg_percent'; t = foreach t generate 'avg_percent' as 'avg_percent', (case when 'avg_percent' < 0 then \\\"#26AB40\\\" when 'avg_percent' > 0 then \\\"#DC0029\\\" else \\\"#7D98B3\\\" end) as 'color';\",\"measures\":[[\"count\",\"*\",\"avg_percent\"]],\"measuresMap\":{},\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -941,12 +941,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"x = load \\\"case4\\\"; q = filter x by date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day') in [\\\"1 year ago\\\"..\\\"1 year ago\\\"]; q = group q by 'ClosedDate_Quarter'; q = foreach q generate 'ClosedDate_Quarter' as 'ClosedDate_Quarter', coalesce(avg('DurationCalculatedField'),0) as 'DurationCalculatedField', \\\"Last Year\\\" as 'Years'; r = filter x by date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day') in [\\\"current year\\\"..\\\"current year\\\"]; r = group r by 'ClosedDate_Quarter'; r = foreach r generate 'ClosedDate_Quarter' as 'ClosedDate_Quarter', coalesce(avg('DurationCalculatedField'),0) as 'DurationCalculatedField', \\\"This Year\\\" as 'Years'; s = union q,r; s = group s by ('ClosedDate_Quarter', 'Years'); s = foreach s generate \\\"Q\\\" + 'ClosedDate_Quarter' as 'ClosedDate_Quarter', coalesce(sum('DurationCalculatedField'),0) as 'DurationCalculatedField', 'Years' as 'Years';\",\"measures\":[[\"count\",\"*\",\"DurationCalculatedField\"]],\"groups\":[\"ClosedDate_Quarter\",\"Years\"]}",
+          "query": "{\"pigql\":\"x = load \\\"case1\\\"; q = filter x by date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day') in [\\\"1 year ago\\\"..\\\"1 year ago\\\"]; q = group q by 'ClosedDate_Quarter'; q = foreach q generate 'ClosedDate_Quarter' as 'ClosedDate_Quarter', coalesce(avg('DurationCalculatedField'),0) as 'DurationCalculatedField', \\\"Last Year\\\" as 'Years'; r = filter x by date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day') in [\\\"current year\\\"..\\\"current year\\\"]; r = group r by 'ClosedDate_Quarter'; r = foreach r generate 'ClosedDate_Quarter' as 'ClosedDate_Quarter', coalesce(avg('DurationCalculatedField'),0) as 'DurationCalculatedField', \\\"This Year\\\" as 'Years'; s = union q,r; s = group s by ('ClosedDate_Quarter', 'Years'); s = foreach s generate \\\"Q\\\" + 'ClosedDate_Quarter' as 'ClosedDate_Quarter', coalesce(sum('DurationCalculatedField'),0) as 'DurationCalculatedField', 'Years' as 'Years';\",\"measures\":[[\"count\",\"*\",\"DurationCalculatedField\"]],\"groups\":[\"ClosedDate_Quarter\",\"Years\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -966,7 +966,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -981,12 +981,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"case4\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; q = group q by ('ClosedDate_Year', 'ClosedDate_Week'); q = foreach q generate count(q) as 'closed_cases'; q = group q by all; result = foreach q generate avg('closed_cases') as 'avg_closedcase';\",\"measures\":[[\"avg\",\"closedcase\"]]}",
+          "query": "{\"pigql\":\"q = load \\\"case1\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; q = group q by ('ClosedDate_Year', 'ClosedDate_Week'); q = foreach q generate count(q) as 'closed_cases'; q = group q by all; result = foreach q generate avg('closed_cases') as 'avg_closedcase';\",\"measures\":[[\"avg\",\"closedcase\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1001,12 +1001,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"createdcase\"]],\"pigql\":\"q = load \\\"case4\\\"; q = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; q = group q by ('CreatedDate_Year', 'CreatedDate_Week'); q = foreach q generate count(q) as 'created_cases'; q = group q by all; result = foreach q generate avg('created_cases') as 'avg_createdcase';\"}",
+          "query": "{\"measures\":[[\"avg\",\"createdcase\"]],\"pigql\":\"q = load \\\"case1\\\"; q = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; q = group q by ('CreatedDate_Year', 'CreatedDate_Week'); q = foreach q generate count(q) as 'created_cases'; q = group q by all; result = foreach q generate avg('created_cases') as 'avg_createdcase';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1026,7 +1026,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1046,7 +1046,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1061,12 +1061,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"Backlog\",\"Count\"]],\"pigql\":\"q = load \\\"case4\\\"; created = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; closed = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\\\")}}; current = filter q by 'IsClosed' == \\\"false\\\"; current = group current by all; current = foreach current generate \\\"Today\\\" as 'time', toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\") as 'CreatedDate_Year~~~CreatedDate_Week', count() as backlog; diff = group created by ('CreatedDate_Year', 'CreatedDate_Week') full, closed by ('ClosedDate_Year', 'ClosedDate_Week'); diff = foreach diff generate \\\"Beginning\\\" as 'time', (case when count(created) > 0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] else closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Week'] end) as 'CreatedDate_Year~~~CreatedDate_Week', count(closed) - count(created) as backlog; combined = union current, diff; combined = group combined by ('CreatedDate_Year~~~CreatedDate_Week', 'time'); combined = foreach combined generate 'time' as 'time', 'CreatedDate_Year~~~CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week', sum(sum(backlog)) over ([0 ..] partition by all order by 'CreatedDate_Year~~~CreatedDate_Week') as 'Backlog_Count'; combined = filter combined by 'time' == \\\"Beginning\\\";\",\"groups\":[[\"CreatedDate_Year\",\"CreatedDate_Week\"]]}",
+          "query": "{\"measures\":[[\"Backlog\",\"Count\"]],\"pigql\":\"q = load \\\"case1\\\"; created = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; closed = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\\\")}}; current = filter q by 'IsClosed' == \\\"false\\\"; current = group current by all; current = foreach current generate \\\"Today\\\" as 'time', toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\") as 'CreatedDate_Year~~~CreatedDate_Week', count() as backlog; diff = group created by ('CreatedDate_Year', 'CreatedDate_Week') full, closed by ('ClosedDate_Year', 'ClosedDate_Week'); diff = foreach diff generate \\\"Beginning\\\" as 'time', (case when count(created) > 0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] else closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Week'] end) as 'CreatedDate_Year~~~CreatedDate_Week', count(closed) - count(created) as backlog; combined = union current, diff; combined = group combined by ('CreatedDate_Year~~~CreatedDate_Week', 'time'); combined = foreach combined generate 'time' as 'time', 'CreatedDate_Year~~~CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week', sum(sum(backlog)) over ([0 ..] partition by all order by 'CreatedDate_Year~~~CreatedDate_Week') as 'Backlog_Count'; combined = filter combined by 'time' == \\\"Beginning\\\";\",\"groups\":[[\"CreatedDate_Year\",\"CreatedDate_Week\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1086,7 +1086,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1101,12 +1101,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"case4\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; this_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; last_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; u = group this_year by all, last_year by all; result = foreach u generate count(this_year) as 'A', count(last_year) as 'B'; result = foreach result generate (A-B)/B as 'sum_percent'; result = foreach result generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"case1\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; this_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; last_year = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; u = group this_year by all, last_year by all; result = foreach u generate count(this_year) as 'A', count(last_year) as 'B'; result = foreach result generate (A-B)/B as 'sum_percent'; result = foreach result generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1126,7 +1126,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1146,7 +1146,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1184,12 +1184,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"x = load \\\"pipeline_trending4\\\";q = filter x by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}};q = filter q by date('ValidFromDate_Year', 'ValidFromDate_Month', 'ValidFromDate_Day') in [{{cell(timeperiod_list.selection, 0, \\\"validfrom_date\\\").asString()}}];q = filter q by date('ValidToDate_Year', 'ValidToDate_Month', 'ValidToDate_Day') in [{{cell(timeperiod_list.selection, 0, \\\"validto_date\\\").asString()}}];q = filter q by 'Stage.IsClosed' == \\\"false\\\";q = group q by all;q = foreach q generate sum('Amount') as 'sum_Amount';t = load \\\"opportunity4\\\";t = filter t by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}};t = group t by all;t = foreach t generate sum('Amount') as 'sum_Amount';v = group q by all full, t by all;v = foreach v generate coalesce(sum(q.sum_Amount),0) as 'Open_Amount', coalesce(sum(t.sum_Amount),0) as 'Pipe_Generated';\",\"measures\":[\"count\",\"*\",\"Open_Amount\"],\"groups\":[]}",
+          "query": "{\"pigql\":\"x = load \\\"pipeline_trending1\\\";q = filter x by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}};q = filter q by date('ValidFromDate_Year', 'ValidFromDate_Month', 'ValidFromDate_Day') in [{{cell(timeperiod_list.selection, 0, \\\"validfrom_date\\\").asString()}}];q = filter q by date('ValidToDate_Year', 'ValidToDate_Month', 'ValidToDate_Day') in [{{cell(timeperiod_list.selection, 0, \\\"validto_date\\\").asString()}}];q = filter q by 'Stage.IsClosed' == \\\"false\\\";q = group q by all;q = foreach q generate sum('Amount') as 'sum_Amount';t = load \\\"opportunity1\\\";t = filter t by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}};t = group t by all;t = foreach t generate sum('Amount') as 'sum_Amount';v = group q by all full, t by all;v = foreach v generate coalesce(sum(q.sum_Amount),0) as 'Open_Amount', coalesce(sum(t.sum_Amount),0) as 'Pipe_Generated';\",\"measures\":[\"count\",\"*\",\"Open_Amount\"],\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1209,7 +1209,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1229,7 +1229,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1244,12 +1244,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity4\\\"; q = filter q by 'IsWon' == \\\"true\\\"; current = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; prior = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; compare = group current by all full, prior by all; compare = foreach compare generate sum(current['Amount']) as 'A', sum(prior['Amount']) as 'B'; compare = foreach compare generate (A-B)/B as 'sum_percent'; compare = foreach compare generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\",\"measures\":[[\"sum\",\"percent\"]]}",
+          "query": "{\"pigql\":\"q = load \\\"opportunity1\\\"; q = filter q by 'IsWon' == \\\"true\\\"; current = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; prior = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; compare = group current by all full, prior by all; compare = foreach compare generate sum(current['Amount']) as 'A', sum(prior['Amount']) as 'B'; compare = foreach compare generate (A-B)/B as 'sum_percent'; compare = foreach compare generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\",\"measures\":[[\"sum\",\"percent\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1269,7 +1269,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1288,7 +1288,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1306,7 +1306,7 @@
         "values": [
           "{\"display\":\"Account\",\"grp\":\"Account.Name\",\"meas\":[[\"max\",\"Opportunity.Amount\"],[\"avg\",\"DurationCalculatedField\"]],\"filt\":[\"IsClosed\",[\"true\"],\"in\"],\"yes\":true,\"no\":false,\"Xtitle\":\"Total Bookings($)\",\"Ytitle\":\"Duration\",\"label\":\"\",\"map\":\"\",\"lowColor\":\"\",\"highColor\":\"\",\"visual\":\"scatter\",\"ord\":[]}",
           "{\"display\":\"Channel\",\"grp\":\"Origin\",\"meas\":[[\"avg\",\"DurationCalculatedField\",\"Average Duration\"],[\"count\",\"Id\",\"Closed Case Count\"]],\"filt\":[\"IsClosed\",[\"true\"],\"in\"],\"yes\":true,\"no\":false,\"Xtitle\":\"\",\"Ytitle\":\"\",\"label\":\"\",\"map\":\"\",\"lowColor\":\"\",\"highColor\":\"\",\"visual\":\"hbar\",\"ord\":[[-1,{\"ascending\":false}]]}",
-          "{\"display\":\"Geography\",\"grp\":\"Account.BillingState\",\"meas\":[[\"count\",\"Id\",\"Case Volume\"]],\"filt\":[],\"yes\":true,\"no\":true,\"Xtitle\":\"\",\"Ytitle\":\"\",\"label\":\"Closed Case Volume by Geography\",\"map\":\"US States\",\"lowColor\":\"#C5DBF7\",\"highColor\":\"#1674D9\",\"visual\":\"choropleth\",\"ord\":[]}"
+          "{\"display\":\"Geography\",\"grp\":\"Account.BillingCountry\",\"meas\":[[\"count\",\"Id\",\"Case Volume\"]],\"filt\":[],\"yes\":true,\"no\":true,\"Xtitle\":\"\",\"Ytitle\":\"\",\"label\":\"Closed Case Volume by Geography\",\"map\":\"World Countries\",\"lowColor\":\"#C5DBF7\",\"highColor\":\"#1674D9\",\"visual\":\"choropleth\",\"ord\":[]}"
         ],
         "datasets": []
       },
@@ -1321,12 +1321,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"unique\",\"percent\"]],\"pigql\":\"q = load \\\"case4\\\"; end_total = filter q by 'IsClosed' == \\\"false\\\"; created_total = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_prior\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; closed_total = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_prior\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; compare = group created_total by all full, closed_total by all full, end_total by all; compare = foreach compare generate (count(end_total) - (count(end_total) + count(closed_total) - count(created_total)))/(count(end_total) + count(closed_total) - count(created_total)) as 'unique_percent'; compare = foreach compare generate 'unique_percent' as 'unique_percent', case when 'unique_percent' > 0 then \\\"#DC0029\\\" when 'unique_percent' < 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\"}",
+          "query": "{\"measures\":[[\"unique\",\"percent\"]],\"pigql\":\"q = load \\\"case1\\\"; end_total = filter q by 'IsClosed' == \\\"false\\\"; created_total = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_prior\\\").asDateRange(\\\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\\\")}}; closed_total = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_prior\\\").asDateRange(\\\"date('ClosedDate_Year', 'ClosedDate_Month', 'ClosedDate_Day')\\\")}}; compare = group created_total by all full, closed_total by all full, end_total by all; compare = foreach compare generate (count(end_total) - (count(end_total) + count(closed_total) - count(created_total)))/(count(end_total) + count(closed_total) - count(created_total)) as 'unique_percent'; compare = foreach compare generate 'unique_percent' as 'unique_percent', case when 'unique_percent' > 0 then \\\"#DC0029\\\" when 'unique_percent' < 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1341,12 +1341,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"Backlog\",\"Count\"]],\"pigql\":\"q = load \\\"case4\\\"; created = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; closed = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\\\")}}; current = filter q by 'IsClosed' == \\\"false\\\"; current = group current by all; current = foreach current generate \\\"Today\\\" as 'time', toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\") as 'CreatedDate_Year~~~CreatedDate_Week', count() as backlog; diff = group created by ('CreatedDate_Year', 'CreatedDate_Week') full, closed by ('ClosedDate_Year', 'ClosedDate_Week'); diff = foreach diff generate \\\"Beginning\\\" as 'time', (case when count(created) > 0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] else closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Week'] end) as 'CreatedDate_Year~~~CreatedDate_Week', count(closed) - count(created) as backlog; combined = union current, diff; combined = group combined by ('CreatedDate_Year~~~CreatedDate_Week', 'time'); combined = foreach combined generate 'time' as 'time', 'CreatedDate_Year~~~CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week', sum(sum(backlog)) over ([0 ..] partition by all order by 'CreatedDate_Year~~~CreatedDate_Week') as Backlog_Count; combined = filter combined by 'time' == \\\"Beginning\\\"; final = group combined by all; final = foreach final generate avg('Backlog_Count') as 'Backlog_Count';\"}",
+          "query": "{\"measures\":[[\"Backlog\",\"Count\"]],\"pigql\":\"q = load \\\"case1\\\"; created = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('CreatedDate_Year','CreatedDate_Month','CreatedDate_Day')\\\")}}; closed = filter q by {{cell(timeperiod_list.selection, 0, \\\"service_current\\\").asDateRange(\\\"date('ClosedDate_Year','ClosedDate_Month','ClosedDate_Day')\\\")}}; current = filter q by 'IsClosed' == \\\"false\\\"; current = group current by all; current = foreach current generate \\\"Today\\\" as 'time', toString(now(), \\\"yyyy\\\")+\\\"~~~\\\"+toString(now(), \\\"99\\\") as 'CreatedDate_Year~~~CreatedDate_Week', count() as backlog; diff = group created by ('CreatedDate_Year', 'CreatedDate_Week') full, closed by ('ClosedDate_Year', 'ClosedDate_Week'); diff = foreach diff generate \\\"Beginning\\\" as 'time', (case when count(created) > 0 then created['CreatedDate_Year']+\\\"~~~\\\"+created['CreatedDate_Week'] else closed['ClosedDate_Year']+\\\"~~~\\\"+closed['ClosedDate_Week'] end) as 'CreatedDate_Year~~~CreatedDate_Week', count(closed) - count(created) as backlog; combined = union current, diff; combined = group combined by ('CreatedDate_Year~~~CreatedDate_Week', 'time'); combined = foreach combined generate 'time' as 'time', 'CreatedDate_Year~~~CreatedDate_Week' as 'CreatedDate_Year~~~CreatedDate_Week', sum(sum(backlog)) over ([0 ..] partition by all order by 'CreatedDate_Year~~~CreatedDate_Week') as Backlog_Count; combined = filter combined by 'time' == \\\"Beginning\\\"; final = group combined by all; final = foreach final generate avg('Backlog_Count') as 'Backlog_Count';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1360,12 +1360,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity4\\\"; q = filter q by 'IsWon' == \\\"true\\\"; q1 = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; q2 = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; co = group q1 by all, q2 by all; co = foreach co generate (sum(q2.'Amount')-sum(q1.'Amount'))/sum(q1.'Amount') as 'sum_percent'; co = foreach co generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\",\"measures\":[[\"count\",\"*\",\"sum_percent\"]],\"measuresMap\":{\"sum_percent\":[\"count\",\"*\",\"sum_percent\"]},\"groups\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"opportunity1\\\"; q = filter q by 'IsWon' == \\\"true\\\"; q1 = filter q by {{cell(timeperiod_list.selection, 0, \\\"prior\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; q2 = filter q by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; co = group q1 by all, q2 by all; co = foreach co generate (sum(q2.'Amount')-sum(q1.'Amount'))/sum(q1.'Amount') as 'sum_percent'; co = foreach co generate 'sum_percent' as 'sum_percent', case when 'sum_percent' < 0 then \\\"#DC0029\\\" when 'sum_percent' > 0 then \\\"#26AB40\\\" else \\\"#7D98B3\\\" end as 'color';\",\"measures\":[[\"count\",\"*\",\"sum_percent\"]],\"measuresMap\":{\"sum_percent\":[\"count\",\"*\",\"sum_percent\"]},\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1380,15 +1380,15 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"opportunity4\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = filter a by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; b = load \\\"quota4\\\"; b = filter b by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; c = group a by all full, b by all; c = foreach c generate sum(b['QuotaAmount']) as 'quota', coalesce(sum(a['Amount']),0) as 'amount'; c = foreach c generate (case when sum('quota') - sum('amount') > 0 then sum('quota') - sum('amount') else 0 end) as 'remaining_quota'; d = load \\\"opportunity4\\\"; d = filter d by 'IsClosed' == \\\"false\\\"; d = filter d by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; e = group c by all full, d by all; e = foreach e generate coalesce(sum(d['Amount']),0) as 'amount', sum(c['remaining_quota']) as 'remaining_quota'; e = foreach e generate round(coalesce(sum('amount') / sum('remaining_quota'),0),1) as 'sum_pipe_coverage';e = foreach e generate 'sum_pipe_coverage' as 'sum_pipe_coverage', case when 'sum_pipe_coverage' < 1.0 then \\\"#DC0029\\\" else \\\"#26AB40\\\" end as 'color';\",\"measures\":[[\"sum\",\"pipe_coverage\"]],\"autoFilter\":true,\"filters\":[[\"CloseDate\",[[[\"quarter\",0],[\"quarter\",0]]],\">=<=\"],[\"ForecastCategory\",[\"BestCase\",\"Forecast\",\"Pipeline\"],\"in\"]]}",
+          "query": "{\"pigql\":\"a = load \\\"opportunity1\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = filter a by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; b = load \\\"quota1\\\"; b = filter b by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; c = group a by all full, b by all; c = foreach c generate sum(b['QuotaAmount']) as 'quota', coalesce(sum(a['Amount']),0) as 'amount'; c = foreach c generate (case when sum('quota') - sum('amount') > 0 then sum('quota') - sum('amount') else 0 end) as 'remaining_quota'; d = load \\\"opportunity1\\\"; d = filter d by 'IsClosed' == \\\"false\\\"; d = filter d by {{cell(timeperiod_list.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; e = group c by all full, d by all; e = foreach e generate coalesce(sum(d['Amount']),0) as 'amount', sum(c['remaining_quota']) as 'remaining_quota'; e = foreach e generate round(coalesce(sum('amount') / sum('remaining_quota'),0),1) as 'sum_pipe_coverage';e = foreach e generate 'sum_pipe_coverage' as 'sum_pipe_coverage', case when 'sum_pipe_coverage' < 1.0 then \\\"#DC0029\\\" else \\\"#26AB40\\\" end as 'color';\",\"measures\":[[\"sum\",\"pipe_coverage\"]],\"autoFilter\":true,\"filters\":[[\"CloseDate\",[[[\"quarter\",0],[\"quarter\",0]]],\">=<=\"],[\"ForecastCategory\",[\"BestCase\",\"Forecast\",\"Pipeline\"],\"in\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "quota4"
+            "name": "quota1"
           },
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1408,7 +1408,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -1428,7 +1428,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       }
@@ -1629,12 +1629,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": false,
@@ -1715,12 +1715,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": false,
@@ -1792,12 +1792,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": false,
@@ -1887,12 +1887,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": false,
@@ -1951,12 +1951,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": false,
@@ -2031,12 +2031,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -2100,9 +2100,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -2158,12 +2159,12 @@
             "subtitleLabel": "This Year vs Last Year"
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "textColor": "#FFFFFF",
@@ -2201,9 +2202,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -2221,7 +2223,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FKB00000002NajOAE",
+          "destination": "0FKB0000000D9WuOAK",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2233,7 +2235,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB00000002NakOAE",
+          "destination": "0FKB0000000D9WvOAK",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -2363,12 +2365,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": true,

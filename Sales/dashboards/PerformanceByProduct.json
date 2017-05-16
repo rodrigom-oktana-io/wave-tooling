@@ -1,102 +1,77 @@
 {
   "label": "Performance by Product",
   "folder": {
-    "id": "00lB0000000uig5IAA"
+    "id": "00lB0000000RJbPIAW"
   },
   "state": {
     "dataSourceLinks": [],
     "gridLayouts": [
       {
-        "maxWidth": 1360,
+        "maxWidth": 1240,
         "name": "Default",
         "numColumns": 48,
         "pages": [
           {
             "widgets": [
               {
-                "colspan": 12,
-                "column": 1,
-                "name": "text_2",
+                "colspan": 4,
+                "column": 4,
+                "name": "link_overview",
                 "row": 1,
-                "rowspan": 2,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 3,
-                "column": 14,
-                "name": "link_overview",
-                "row": 2,
-                "rowspan": 1,
+                "colspan": 4,
+                "column": 11,
+                "name": "link_pipeline_changes",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 20,
+                "name": "link_by_customer",
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 5,
-                "column": 21,
-                "name": "link_pipeline_changes",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 32,
-                "name": "link_by_customer",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 36,
+                "column": 24,
                 "name": "link_by_geography",
-                "row": 2,
-                "rowspan": 1,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 3,
-                "column": 40,
+                "colspan": 4,
+                "column": 29,
                 "name": "link_by_source",
-                "row": 2,
-                "rowspan": 1,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 4,
-                "column": 43,
-                "name": "link_by_product",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderColor": "rgb(60, 141, 225)",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderWidth": 2
-                }
-              },
-              {
-                "colspan": 48,
-                "column": 0,
+                "colspan": 45,
+                "column": 3,
                 "name": "container_3",
-                "row": 1,
-                "rowspan": 2,
+                "row": 0,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "borderColor": "rgb(60, 141, 225)",
+                  "borderColor": "#E6ECF2",
                   "borderEdges": [
                     "bottom"
                   ]
@@ -106,10 +81,10 @@
                 "colspan": 4,
                 "column": 1,
                 "name": "dimfilter_3",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -117,10 +92,10 @@
                 "colspan": 4,
                 "column": 6,
                 "name": "dimfilter_4",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -128,10 +103,10 @@
                 "colspan": 4,
                 "column": 11,
                 "name": "dimfilter_5",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -139,10 +114,10 @@
                 "colspan": 4,
                 "column": 16,
                 "name": "dimfilter_6",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -150,10 +125,10 @@
                 "colspan": 4,
                 "column": 21,
                 "name": "dimfilter_12",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -161,54 +136,54 @@
                 "colspan": 4,
                 "column": 26,
                 "name": "dimfilter_8",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
-                "column": 21,
+                "colspan": 6,
+                "column": 5,
                 "name": "product_family_filter",
-                "row": 6,
-                "rowspan": 1,
+                "row": 28,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
+                  "backgroundColor": "#091A3E",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 5,
+                "name": "product_name_filter",
+                "row": 33,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 5,
-                "column": 27,
-                "name": "product_name_filter",
-                "row": 6,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 41,
+                "column": 42,
                 "name": "ui_RecordType_Name",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 36,
                 "name": "dimfilter_16",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -216,10 +191,10 @@
                 "colspan": 4,
                 "column": 31,
                 "name": "dimfilter_13",
-                "row": 3,
-                "rowspan": 1,
+                "row": 7,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
@@ -227,145 +202,128 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_2",
-                "row": 3,
-                "rowspan": 2,
+                "row": 6,
+                "rowspan": 7,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderWidth": 20
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 1,
-                "name": "number_1",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
-                  "borderColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
+                  "backgroundColor": "#F2F6FA",
+                  "borderColor": "#F2F6FA",
                   "borderEdges": [
                     "top",
-                    "bottom"
-                  ],
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 9,
-                "name": "number_2",
-                "row": 5,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
-                  "borderColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderWidth": 20
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 1,
-                "name": "number_3",
-                "row": 8,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 1,
-                "name": "number_4",
-                "row": 9,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 1,
-                "name": "chart_6",
-                "row": 11,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 14,
-                "column": 0,
-                "name": "container_4",
-                "row": 7,
-                "rowspan": 10,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 20,
-                "column": 21,
-                "name": "buttongroup_1",
-                "row": 15,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 15,
-                "name": "dimfilter_14",
-                "row": 6,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 30,
-                "column": 15,
-                "name": "chart_2",
-                "row": 7,
-                "rowspan": 8,
-                "widgetStyle": {
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "all"
+                    "right",
+                    "left"
                   ],
                   "borderWidth": 8
                 }
               },
               {
-                "colspan": 34,
-                "column": 14,
-                "name": "container_1",
-                "row": 7,
-                "rowspan": 8,
+                "colspan": 10,
+                "column": 21,
+                "name": "number_1",
+                "row": 15,
+                "rowspan": 4,
                 "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 31,
+                "name": "number_2",
+                "row": 16,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
+                  "borderColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
+                  "borderEdges": [],
+                  "borderRadius": 16,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 1,
+                "name": "number_3",
+                "row": 15,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderColor": "rgba(9, 26, 62, 0)",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 37,
+                "name": "number_4",
+                "row": 15,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 11,
+                "name": "chart_6",
+                "row": 14,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderColor": "rgba(230, 236, 242, 0)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 5,
+                "name": "dimfilter_14",
+                "row": 23,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 34,
+                "column": 13,
+                "name": "chart_2",
+                "row": 23,
+                "rowspan": 28,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_1",
+                "row": 21,
+                "rowspan": 32,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
                   "borderEdges": []
                 }
               },
@@ -373,18 +331,18 @@
                 "colspan": 14,
                 "column": 1,
                 "name": "text_1",
-                "row": 18,
-                "rowspan": 1,
+                "row": 55,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 13,
-                "column": 18,
+                "colspan": 14,
+                "column": 17,
                 "name": "text_30",
-                "row": 18,
-                "rowspan": 1,
+                "row": 55,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -393,199 +351,214 @@
                 "colspan": 14,
                 "column": 33,
                 "name": "text_3",
-                "row": 18,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 2,
-                "name": "chart_3",
-                "row": 19,
-                "rowspan": 6,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 18,
-                "name": "chart_4",
-                "row": 19,
-                "rowspan": 6,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 34,
-                "name": "chart_1",
-                "row": 19,
-                "rowspan": 6,
+                "row": 55,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 14,
-                "column": 0,
-                "name": "container_5",
-                "row": 5,
-                "rowspan": 2,
+                "column": 1,
+                "name": "chart_3",
+                "row": 59,
+                "rowspan": 26,
                 "widgetStyle": {
-                  "backgroundColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
-                  "borderColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 17,
+                "name": "chart_4",
+                "row": 59,
+                "rowspan": 26,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
+                "name": "chart_1",
+                "row": 59,
+                "rowspan": 26,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 8,
+                "name": "link_lead_analysis",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_7",
+                "row": 53,
+                "rowspan": 34,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_16",
+                "row": 13,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(5, 16, 39)",
+                  "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
                 }
               },
               {
-                "colspan": 34,
-                "column": 14,
-                "name": "container_6",
-                "row": 5,
-                "rowspan": 2,
+                "colspan": 6,
+                "column": 5,
+                "name": "listselector_1",
+                "row": 38,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "bottom"
-                  ],
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 1,
+                "name": "text_5",
+                "row": 23,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 8
                 }
               },
               {
-                "colspan": 16,
-                "column": 0,
-                "name": "container_9",
-                "row": 17,
-                "rowspan": 2,
+                "colspan": 4,
+                "column": 1,
+                "name": "text_6",
+                "row": 28,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
                   "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 16,
-                "name": "container_10",
-                "row": 17,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 32,
-                "name": "container_11",
-                "row": 17,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 0,
-                "name": "container_12",
-                "row": 19,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 16,
-                "name": "container_13",
-                "row": 19,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 16,
-                "column": 32,
-                "name": "container_14",
-                "row": 19,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 34,
-                "column": 14,
-                "name": "container_8",
-                "row": 15,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 24
+                  "borderWidth": 8
                 }
               },
               {
                 "colspan": 4,
-                "column": 17,
-                "name": "link_lead_analysis",
-                "row": 2,
-                "rowspan": 1,
+                "column": 1,
+                "name": "text_7",
+                "row": 33,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 1,
+                "name": "text_8",
+                "row": 38,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 33,
+                "name": "text_current_dashboard",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 15,
+                "name": "link_3",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "container_18",
+                "row": 0,
+                "rowspan": 6,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 6,
-                "column": 26,
-                "name": "link_1",
-                "row": 2,
-                "rowspan": 1,
+                "colspan": 3,
+                "column": 0,
+                "name": "link_4",
+                "row": 1,
+                "rowspan": 4,
                 "widgetStyle": {
-                  "borderEdges": []
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
                 }
               }
             ]
           }
         ],
-        "rowHeight": "normal",
+        "rowHeight": "fine",
         "selectors": [],
         "style": {
           "alignmentX": "left",
           "alignmentY": "top",
-          "backgroundColor": "#C5D3E0",
+          "backgroundColor": "#E6ECF2",
           "cellSpacingX": 0,
           "cellSpacingY": 0,
           "documentId": "",
-          "fit": "original"
+          "fit": "original",
+          "gutterColor": "#E6ECF2"
         },
         "version": 1
       },
@@ -596,33 +569,29 @@
           {
             "widgets": [
               {
-                "colspan": 14,
-                "column": 0,
+                "colspan": 13,
+                "column": 1,
                 "name": "number_1",
-                "row": 2,
-                "rowspan": 2,
+                "row": 3,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
                   "borderColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
-                  "borderEdges": [
-                    "top",
-                    "bottom"
-                  ],
+                  "borderEdges": [],
                   "borderWidth": 4
                 }
               },
               {
-                "colspan": 10,
+                "colspan": 8,
                 "column": 14,
                 "name": "number_2",
-                "row": 2,
+                "row": 6,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
                   "borderColor": "{{column(Color_YoY_20.result, [\"RAG\"]).asObject()}}",
-                  "borderEdges": [
-                    "top"
-                  ],
+                  "borderEdges": [],
+                  "borderRadius": 8,
                   "borderWidth": 8
                 }
               },
@@ -630,8 +599,8 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "product_family_filter",
-                "row": 17,
-                "rowspan": 1,
+                "row": 30,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": []
@@ -641,8 +610,8 @@
                 "colspan": 10,
                 "column": 13,
                 "name": "product_name_filter",
-                "row": 17,
-                "rowspan": 1,
+                "row": 30,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": []
@@ -650,10 +619,10 @@
               },
               {
                 "colspan": 11,
-                "column": 12,
+                "column": 13,
                 "name": "number_3",
-                "row": 18,
-                "rowspan": 2,
+                "row": 33,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -663,11 +632,11 @@
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 11,
+                "column": 0,
                 "name": "number_4",
-                "row": 18,
-                "rowspan": 2,
+                "row": 33,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -680,22 +649,8 @@
                 "colspan": 24,
                 "column": 0,
                 "name": "chart_6",
-                "row": 4,
-                "rowspan": 12,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 24,
-                "column": 0,
-                "name": "container_4",
-                "row": 16,
-                "rowspan": 4,
+                "row": 11,
+                "rowspan": 16,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -706,10 +661,10 @@
               },
               {
                 "colspan": 22,
-                "column": 1,
+                "column": 0,
                 "name": "text_1",
-                "row": 21,
-                "rowspan": 1,
+                "row": 42,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -718,64 +673,34 @@
                 "colspan": 24,
                 "column": 0,
                 "name": "container_9",
-                "row": 20,
-                "rowspan": 28,
+                "row": 42,
+                "rowspan": 18,
                 "widgetStyle": {
-                  "backgroundColor": "#C5D3E0",
+                  "backgroundColor": "#FFFFFF",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [
-                    "top"
+                    "all"
                   ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
+                  "borderRadius": 4,
+                  "borderWidth": 8
                 }
               },
               {
-                "colspan": 22,
-                "column": 1,
+                "colspan": 24,
+                "column": 0,
                 "name": "text_30",
-                "row": 30,
-                "rowspan": 1,
+                "row": 61,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 22,
-                "column": 1,
+                "column": 0,
                 "name": "text_3",
-                "row": 39,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_3",
-                "row": 22,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_4",
-                "row": 31,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 22,
-                "column": 1,
-                "name": "chart_1",
-                "row": 40,
-                "rowspan": 7,
+                "row": 80,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -783,21 +708,69 @@
               {
                 "colspan": 24,
                 "column": 0,
-                "name": "text_4",
-                "row": 0,
-                "rowspan": 2,
+                "name": "chart_3",
+                "row": 45,
+                "rowspan": 14,
                 "widgetStyle": {
-                  "backgroundColor": "#091A3E",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "chart_4",
+                "row": 64,
+                "rowspan": 15,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "chart_1",
+                "row": 83,
+                "rowspan": 16,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_17",
+                "row": 80,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
                   "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 24,
+                "column": 0,
+                "name": "container_19",
+                "row": 61,
+                "rowspan": 18,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
                 }
               }
             ]
           }
         ],
-        "rowHeight": "normal",
+        "rowHeight": "fine",
         "selectors": [
           "maxWidth(599)"
         ],
@@ -876,7 +849,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -896,7 +869,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -916,7 +889,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -936,7 +909,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -957,7 +930,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -973,12 +946,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity_products4\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; p = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; p = foreach p generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'TotalPrice'; r = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current quarter\\\"..\\\"current day\\\"]; r = foreach r generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisQuarter'; s = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 quarter ago\\\"..\\\"current day - 1 quarter\\\"]; s = foreach s generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastQuarter'; t = union r, s; t = group t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; t = foreach t generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisQuarter'), 0) - coalesce(sum('LastQuarter'), 0)) / coalesce(sum('LastQuarter'), 0), 0) as 'QoQ'; a = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = foreach a generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisYear'; b = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; b = foreach b generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastYear'; c = union a, b; c = group c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; c = foreach c generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisYear'), 0) - coalesce(sum('LastYear'), 0)) / coalesce(sum('LastYear'), 0), 0) as 'YoY'; x = group p by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; x = foreach x generate coalesce(p.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(t.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, c.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}})) as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum(p.'TotalPrice'), 0) as 'sum_TotalPrice', coalesce(sum(t.'QoQ'), 0) as 'sum_QoQ', coalesce(sum(c.'YoY'), 0) as 'sum_YoY'; x = order x by {{cell(step_grouping.selection, 0, \\\"order\\\").asObject()}} desc;\",\"measures\":\"{{cell(step_grouping.selection, 0, \\\"measure\\\").asObject()}}\",\"autoFilter\":true,\"groups\":[\"{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asObject()}}\"],\"filters\":[],\"order\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"opportunity_products1\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; p = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; p = foreach p generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'TotalPrice'; r = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current quarter\\\"..\\\"current day\\\"]; r = foreach r generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisQuarter'; s = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 quarter ago\\\"..\\\"current day - 1 quarter\\\"]; s = foreach s generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastQuarter'; t = union r, s; t = group t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; t = foreach t generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisQuarter'), 0) - coalesce(sum('LastQuarter'), 0)) / coalesce(sum('LastQuarter'), 0), 0) as 'QoQ'; a = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = foreach a generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisYear'; b = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; b = foreach b generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastYear'; c = union a, b; c = group c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; c = foreach c generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisYear'), 0) - coalesce(sum('LastYear'), 0)) / coalesce(sum('LastYear'), 0), 0) as 'YoY'; x = group p by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; x = foreach x generate coalesce(p.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(t.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, c.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}})) as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum(p.'TotalPrice'), 0) as 'sum_TotalPrice', coalesce(sum(t.'QoQ'), 0) as 'sum_QoQ', coalesce(sum(c.'YoY'), 0) as 'sum_YoY'; x = order x by {{cell(step_grouping.selection, 0, \\\"order\\\").asObject()}} desc;\",\"measures\":\"{{cell(step_grouping.selection, 0, \\\"measure\\\").asObject()}}\",\"autoFilter\":true,\"groups\":[\"{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asObject()}}\"],\"filters\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -992,12 +965,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"win_rate\"],[\"sum\",\"TotalPrice\"]],\"pigql\":\"a = load \\\"opportunity_products4\\\"; a = filter a by 'Opportunity.IsWon' == \\\"true\\\"; b = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; c = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; d = group b by all full, c by all; d = foreach d generate coalesce((coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0)) / coalesce(sum(c['TotalPrice']), 0), 0) as 'avg_win_rate', coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0) as 'sum_TotalPrice'; fake = load \\\"opportunity_products4\\\"; fake = group fake by all; fake = foreach fake generate 0 as 'sum_TotalPrice', 0 as 'avg_win_rate'; final = union d, fake; final = group final by all; final = foreach final generate sum('sum_TotalPrice') as 'sum_TotalPrice', sum('avg_win_rate') as 'avg_win_rate';\",\"autoFilter\":true,\"groups\":[],\"dimensions\":[],\"order\":[]}",
+          "query": "{\"measures\":[[\"avg\",\"win_rate\"],[\"sum\",\"TotalPrice\"]],\"pigql\":\"a = load \\\"opportunity_products1\\\"; a = filter a by 'Opportunity.IsWon' == \\\"true\\\"; b = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; c = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; d = group b by all full, c by all; d = foreach d generate coalesce((coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0)) / coalesce(sum(c['TotalPrice']), 0), 0) as 'avg_win_rate', coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0) as 'sum_TotalPrice'; fake = load \\\"opportunity_products1\\\"; fake = group fake by all; fake = foreach fake generate 0 as 'sum_TotalPrice', 0 as 'avg_win_rate'; final = union d, fake; final = group final by all; final = foreach final generate sum('sum_TotalPrice') as 'sum_TotalPrice', sum('avg_win_rate') as 'avg_win_rate';\",\"autoFilter\":true,\"groups\":[],\"dimensions\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1017,7 +990,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1039,7 +1012,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1059,7 +1032,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1082,7 +1055,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1097,12 +1070,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity_products4\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter'); q = foreach q generate 'Opportunity.CloseDate_Year' + \\\"~~~\\\" + 'Opportunity.CloseDate_Quarter' as 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', sum('TotalPrice') as 'TotalPrice', sum(sum('TotalPrice')) over ([ - 4.. - 4] partition by all order by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter')) as 'last'; q = foreach q generate 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter' as'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', (sum('TotalPrice') - sum('last')) / sum('last') as 'sum_QoQ'; q = offset q 4;\",\"measures\":[[\"sum\",\"QoQ\"]],\"autoFilter\":true,\"groups\":[[\"Opportunity.CloseDate_Year\",\"Opportunity.CloseDate_Quarter\"]],\"filters\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"opportunity_products1\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter'); q = foreach q generate 'Opportunity.CloseDate_Year' + \\\"~~~\\\" + 'Opportunity.CloseDate_Quarter' as 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', sum('TotalPrice') as 'TotalPrice', sum(sum('TotalPrice')) over ([ - 4.. - 4] partition by all order by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter')) as 'last'; q = foreach q generate 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter' as'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', (sum('TotalPrice') - sum('last')) / sum('last') as 'sum_QoQ'; q = offset q 4;\",\"measures\":[[\"sum\",\"QoQ\"]],\"autoFilter\":true,\"groups\":[[\"Opportunity.CloseDate_Year\",\"Opportunity.CloseDate_Quarter\"]],\"filters\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1117,12 +1090,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Opportunity.Account.ShippingState\"]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Opportunity.Account.BillingState\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1142,7 +1115,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1179,7 +1152,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1200,7 +1173,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1238,7 +1211,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1252,12 +1225,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"finalcf\",null,{\"display\":\" \"}]],\"pigql\":\"a = load \\\"opportunity_products4\\\"; a = foreach a generate (case when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) > 0 then \\\"#3CAF6D\\\" when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) < 0 then \\\"#D4504C\\\" else \\\"#7D98B3\\\" end) as 'RAG'; a = group a by 'RAG'; a = foreach a generate 'RAG' as 'RAG', 0.95 as 'sum_finalcf';\",\"groups\":[\"RAG\"],\"order\":[]}",
+          "query": "{\"measures\":[[\"sum\",\"finalcf\",null,{\"display\":\" \"}]],\"pigql\":\"a = load \\\"opportunity_products1\\\"; a = foreach a generate (case when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) > 0 then \\\"#3CAF6D\\\" when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) < 0 then \\\"#D4504C\\\" else \\\"#7D98B3\\\" end) as 'RAG'; a = group a by 'RAG'; a = foreach a generate 'RAG' as 'RAG', 0.95 as 'sum_finalcf';\",\"groups\":[\"RAG\"],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1272,12 +1245,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Opportunity.Account.BillingState\"]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Opportunity.Account.BillingCountry\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -1297,7 +1270,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       }
@@ -1310,6 +1283,50 @@
       "borderWidth": 1
     },
     "widgets": {
+      "container_19": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_18": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "fitwidth",
+          "image": {
+            "name": "SalesWaveLogo2",
+            "namespace": ""
+          }
+        },
+        "type": "container"
+      },
+      "container_17": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_16": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_15": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
       "container_14": {
         "parameters": {
           "alignmentX": "left",
@@ -1321,13 +1338,16 @@
       },
       "link_overview": {
         "parameters": {
-          "destination": "0FKB00000002NarOAE",
+          "destinationLink": {
+            "name": "Sales_Ops_Manager_Overview2",
+            "namespace": ""
+          },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Overview",
+          "text": "OVERVIEW",
           "textAlignment": "center",
-          "textColor": "#091A3E",
+          "textColor": "#5C7A99",
           "visualizationType": "hbar"
         },
         "type": "link"
@@ -1349,39 +1369,9 @@
           "instant": false,
           "measureField": "count",
           "step": "dropdown_product_family",
-          "title": "Product Family"
+          "title": ""
         },
         "type": "listselector"
-      },
-      "link_by_customer": {
-        "parameters": {
-          "destination": "0FKB00000002NauOAE",
-          "destinationType": "dashboard",
-          "fontSize": 14,
-          "includeState": false,
-          "text": "By Customer",
-          "textColor": "#091A3E",
-          "visualizationType": "hbar"
-        },
-        "type": "link"
-      },
-      "text_30": {
-        "parameters": {
-          "fontSize": 16,
-          "text": "Top 10 Opportunity Owners",
-          "textAlignment": "left",
-          "textColor": "rgb(23, 50, 77)"
-        },
-        "type": "text"
-      },
-      "buttongroup_1": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": false,
-          "measureField": "",
-          "step": "step_grouping"
-        },
-        "type": "pillbox"
       },
       "container_1": {
         "parameters": {
@@ -1439,7 +1429,28 @@
       },
       "chart_6": {
         "parameters": {
-          "showPoints": true,
+          "autoFitMode": "fit",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
           "legend": {
             "showHeader": true,
             "show": false,
@@ -1448,31 +1459,23 @@
             "inside": false
           },
           "axisMode": "multi",
-          "visualizationType": "time",
-          "missingValue": "connect",
+          "visualizationType": "vbar",
           "exploreLink": true,
-          "timeAxis": {
-            "showTitle": false,
-            "showAxis": true,
-            "title": "",
-            "predictiveLine": null
-          },
           "title": {
-            "label": "Trailing 12 Months Trend",
+            "label": "",
             "align": "center",
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
+          "binValues": false,
           "textColor": "#FFFFFF",
-          "fillArea": true,
-          "showZero": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1488,7 +1491,7 @@
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": false,
-            "showAxis": true,
+            "showAxis": false,
             "title": "",
             "customDomain": {
               "showDomain": false,
@@ -1498,7 +1501,22 @@
             "referenceLine": null
           },
           "step": "kpi_trailing_month_trend",
-          "theme": "dark"
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": false,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round",
+                "parameters": {}
+              }
+            }
+          }
         },
         "type": "chart"
       },
@@ -1511,19 +1529,6 @@
         },
         "type": "container"
       },
-      "link_pipeline_changes": {
-        "parameters": {
-          "destination": "0FKB00000002NasOAE",
-          "destinationType": "dashboard",
-          "fontSize": 14,
-          "includeState": false,
-          "text": "Pipeline Changes",
-          "textAlignment": "center",
-          "textColor": "#091A3E",
-          "visualizationType": "hbar"
-        },
-        "type": "link"
-      },
       "text_2": {
         "parameters": {
           "fontSize": 24,
@@ -1533,17 +1538,13 @@
         },
         "type": "text"
       },
-      "product_name_filter": {
+      "container_7": {
         "parameters": {
-          "compact": false,
-          "expanded": false,
-          "exploreLink": false,
-          "instant": false,
-          "measureField": "count",
-          "step": "dropdown_product_name",
-          "title": "Product Name"
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
         },
-        "type": "listselector"
+        "type": "container"
       },
       "container_8": {
         "parameters": {
@@ -1553,6 +1554,15 @@
           "fit": "original"
         },
         "type": "container"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "View By",
+          "textAlignment": "left",
+          "textColor": "#A3B8CC"
+        },
+        "type": "text"
       },
       "container_9": {
         "parameters": {
@@ -1612,12 +1622,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -1634,8 +1644,8 @@
           },
           "measureAxis1": {
             "sqrtScale": false,
-            "showTitle": true,
-            "showAxis": true,
+            "showTitle": false,
+            "showAxis": false,
             "title": "",
             "customDomain": {
               "showDomain": false,
@@ -1645,23 +1655,33 @@
             "referenceLine": null
           },
           "step": "kpi_main",
-          "theme": "light",
+          "theme": "dark",
           "dimensionAxis": {
-            "showTitle": true,
+            "showTitle": false,
             "customSize": "auto",
             "showAxis": true,
             "title": "",
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
         },
         "type": "chart"
+      },
+      "text_7": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "Product Name",
+          "textAlignment": "left",
+          "textColor": "#A3B8CC"
+        },
+        "type": "text"
       },
       "chart_1": {
         "parameters": {
@@ -1683,12 +1703,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "measureAxis2": {
             "sqrtScale": false,
@@ -1725,14 +1745,24 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
         },
         "type": "chart"
+      },
+      "text_6": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "Product Family",
+          "textAlignment": "left",
+          "textColor": "#A3B8CC"
+        },
+        "type": "text"
       },
       "chart_4": {
         "parameters": {
@@ -1774,12 +1804,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -1797,7 +1827,7 @@
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": false,
-            "showAxis": true,
+            "showAxis": false,
             "title": "",
             "customDomain": {
               "showDomain": false,
@@ -1816,9 +1846,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -1851,12 +1882,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "fillArea": true,
           "showZero": true,
@@ -1889,30 +1920,14 @@
         },
         "type": "chart"
       },
-      "link_by_source": {
+      "text_8": {
         "parameters": {
-          "destination": "0FKB00000002NaxOAE",
-          "destinationType": "dashboard",
-          "fontSize": 14,
-          "includeState": false,
-          "text": "By Source",
-          "textColor": "#091A3E",
-          "visualizationType": "hbar"
+          "fontSize": 12,
+          "text": "Display",
+          "textAlignment": "left",
+          "textColor": "#A3B8CC"
         },
-        "type": "link"
-      },
-      "link_by_geography": {
-        "parameters": {
-          "destination": "0FKB00000002NavOAE",
-          "destinationType": "dashboard",
-          "fontSize": 14,
-          "includeState": false,
-          "text": "By Geography",
-          "textAlignment": "center",
-          "textColor": "#091A3E",
-          "visualizationType": "hbar"
-        },
-        "type": "link"
+        "type": "text"
       },
       "dimfilter_8": {
         "parameters": {
@@ -1961,12 +1976,16 @@
       },
       "link_lead_analysis": {
         "parameters": {
-          "destination": "0FKB00000002Nb0OAE",
+          "destinationLink": {
+            "name": "Lead_Analysis2",
+            "namespace": ""
+          },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Lead Analysis",
-          "textColor": "#091A3E"
+          "text": "LEADS",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -1990,7 +2009,7 @@
           "instant": false,
           "measureField": "count",
           "step": "dropdown_billing_country",
-          "title": "Billing State/Province"
+          "title": "Billing Country"
         },
         "type": "listselector"
       },
@@ -2006,33 +2025,6 @@
         },
         "type": "listselector"
       },
-      "link_by_product": {
-        "parameters": {
-          "destination": "0FKB00000002NawOAE",
-          "destinationType": "dashboard",
-          "fontSize": 14,
-          "includeState": false,
-          "text": "By Product",
-          "textAlignment": "center",
-          "textColor": "rgb(60, 141, 225)",
-          "visualizationType": "hbar"
-        },
-        "type": "link"
-      },
-      "link_1": {
-        "parameters": {
-          "destinationLink": {
-            "name": "Sales_Stage_Analysis"
-          },
-          "destinationType": "dashboard",
-          "fontSize": 14,
-          "includeState": false,
-          "text": "Sales Stage Analysis",
-          "textAlignment": "center",
-          "textColor": "#091A3E"
-        },
-        "type": "link"
-      },
       "dimfilter_6": {
         "parameters": {
           "compact": false,
@@ -2041,7 +2033,7 @@
           "instant": false,
           "measureField": "count",
           "step": "dropdown_billing_state",
-          "title": "Shipping State/Province"
+          "title": "Billing State/Province"
         },
         "type": "listselector"
       },
@@ -2053,7 +2045,7 @@
           "instant": true,
           "measureField": "",
           "step": "dropdown_product_level_group",
-          "title": "View by"
+          "title": ""
         },
         "type": "listselector"
       },
@@ -2090,10 +2082,10 @@
           "numberColor": "#FFFFFF",
           "numberSize": 24,
           "step": "kpi_last_year_total",
-          "textAlignment": "right",
+          "textAlignment": "center",
           "textColor": "rgb(255, 255, 255)",
           "title": "Closed Won Last Year",
-          "titleColor": "#C5D3E0",
+          "titleColor": "#FFFFFF",
           "titleSize": 14
         },
         "type": "number"
@@ -2107,10 +2099,10 @@
           "numberColor": "#FFFFFF",
           "numberSize": 24,
           "step": "kpi_this_year_total",
-          "textAlignment": "right",
+          "textAlignment": "center",
           "textColor": "rgb(255, 255, 255)",
           "title": "Closed Won This Year",
-          "titleColor": "#C5D3E0",
+          "titleColor": "#FFFFFF",
           "titleSize": 14
         },
         "type": "number"
@@ -2139,7 +2131,7 @@
           "fontSize": 40,
           "measureField": "avg_win_rate",
           "numberColor": "#FFFFFF",
-          "numberSize": 32,
+          "numberSize": 24,
           "step": "kpi_yoy_percent_and_diff",
           "textAlignment": "left",
           "textColor": "rgb(255, 255, 255)",
@@ -2175,6 +2167,180 @@
           "fit": "original"
         },
         "type": "container"
+      },
+      "link_by_customer": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Performance_by_Customer2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "BY CUSTOMER",
+          "textAlignment": "center",
+          "textColor": "#5C7A99",
+          "visualizationType": "hbar"
+        },
+        "type": "link"
+      },
+      "text_current_dashboard": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "BY PRODUCT",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_30": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "Top 10 Opportunity Owners",
+          "textAlignment": "left",
+          "textColor": "rgb(23, 50, 77)"
+        },
+        "type": "text"
+      },
+      "buttongroup_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "measureField": "",
+          "step": "step_grouping"
+        },
+        "type": "pillbox"
+      },
+      "link_pipeline_changes": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Sales_Ops_Pipeline_Changes2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "TRENDING",
+          "textAlignment": "center",
+          "textColor": "#5C7A99",
+          "visualizationType": "hbar"
+        },
+        "type": "link"
+      },
+      "product_name_filter": {
+        "parameters": {
+          "compact": false,
+          "expanded": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "count",
+          "step": "dropdown_product_name",
+          "title": ""
+        },
+        "type": "listselector"
+      },
+      "link_by_source": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Performance_by_Source2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "BY SOURCE",
+          "textAlignment": "center",
+          "textColor": "#5C7A99",
+          "visualizationType": "hbar"
+        },
+        "type": "link"
+      },
+      "link_by_geography": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Performance_by_Geography2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "BY GEOGRAPHY",
+          "textAlignment": "center",
+          "textColor": "#5C7A99",
+          "visualizationType": "hbar"
+        },
+        "type": "link"
+      },
+      "link_3": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Sales_Ops_Pipeline_Changes2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "STAGE ANALYSIS",
+          "textAlignment": "center",
+          "textColor": "#5C7A99",
+          "visualizationType": "hbar"
+        },
+        "type": "link"
+      },
+      "link_4": {
+        "parameters": {
+          "destinationLink": {
+            "name": "About_Wave_for_Sales2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Manager_Overview2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "MANAGER >",
+          "textAlignment": "center",
+          "textColor": "rgb(0, 112, 210)"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "About_Wave_for_Sales2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "step": "step_grouping",
+          "title": ""
+        },
+        "type": "listselector"
       }
     }
   }

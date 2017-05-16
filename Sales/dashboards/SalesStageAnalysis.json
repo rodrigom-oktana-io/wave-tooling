@@ -1,19 +1,19 @@
 {
   "label": "Sales Stage Analysis",
   "folder": {
-    "id": "00lB0000000uig5IAA"
+    "id": "00lB0000000RJbPIAW"
   },
   "state": {
     "dataSourceLinks": [
       {
         "fields": [
           {
-            "dataSourceName": "pipeline_trending4",
+            "dataSourceName": "pipeline_trending1",
             "dataSourceType": "saql",
             "fieldName": "Opportunity.RecordType.Name"
           },
           {
-            "dataSourceName": "opportunity4",
+            "dataSourceName": "opportunity1",
             "dataSourceType": "saql",
             "fieldName": "RecordType.Name"
           }
@@ -24,12 +24,12 @@
       {
         "fields": [
           {
-            "dataSourceName": "pipeline_trending4",
+            "dataSourceName": "pipeline_trending1",
             "dataSourceType": "saql",
             "fieldName": "Opportunity.Owner.Role.Name"
           },
           {
-            "dataSourceName": "opportunity4",
+            "dataSourceName": "opportunity1",
             "dataSourceType": "saql",
             "fieldName": "Owner.Role.Name"
           }
@@ -40,12 +40,12 @@
       {
         "fields": [
           {
-            "dataSourceName": "pipeline_trending4",
+            "dataSourceName": "pipeline_trending1",
             "dataSourceType": "saql",
             "fieldName": "Opportunity.Account.Name"
           },
           {
-            "dataSourceName": "opportunity4",
+            "dataSourceName": "opportunity1",
             "dataSourceType": "saql",
             "fieldName": "Account.Name"
           }
@@ -56,12 +56,12 @@
       {
         "fields": [
           {
-            "dataSourceName": "pipeline_trending4",
+            "dataSourceName": "pipeline_trending1",
             "dataSourceType": "saql",
             "fieldName": "Opportunity.Owner.Name"
           },
           {
-            "dataSourceName": "opportunity4",
+            "dataSourceName": "opportunity1",
             "dataSourceType": "saql",
             "fieldName": "Owner.Name"
           }
@@ -72,12 +72,12 @@
       {
         "fields": [
           {
-            "dataSourceName": "pipeline_trending4",
+            "dataSourceName": "pipeline_trending1",
             "dataSourceType": "saql",
             "fieldName": "Opportunity.Name"
           },
           {
-            "dataSourceName": "opportunity4",
+            "dataSourceName": "opportunity1",
             "dataSourceType": "saql",
             "fieldName": "Name"
           }
@@ -88,30 +88,32 @@
     ],
     "gridLayouts": [
       {
-        "maxWidth": 1360,
+        "maxWidth": 1240,
         "name": "Default",
         "numColumns": 48,
         "pages": [
           {
             "widgets": [
               {
-                "colspan": 48,
-                "column": 0,
+                "colspan": 45,
+                "column": 3,
                 "name": "container_1",
-                "row": 4,
-                "rowspan": 7,
+                "row": 0,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "borderEdges": []
+                  "borderEdges": [
+                    "bottom"
+                  ]
                 }
               },
               {
                 "colspan": 48,
                 "column": 0,
                 "name": "container_3",
-                "row": 11,
+                "row": 6,
                 "rowspan": 7,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -119,11 +121,11 @@
                 }
               },
               {
-                "colspan": 33,
-                "column": 0,
+                "colspan": 32,
+                "column": 1,
                 "name": "chart_1",
-                "row": 27,
-                "rowspan": 31,
+                "row": 21,
+                "rowspan": 30,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -134,9 +136,9 @@
               },
               {
                 "colspan": 6,
-                "column": 29,
+                "column": 33,
                 "name": "ui_RecordType_Name",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -148,9 +150,9 @@
               },
               {
                 "colspan": 6,
-                "column": 8,
+                "column": 9,
                 "name": "listselector_2",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -162,9 +164,9 @@
               },
               {
                 "colspan": 6,
-                "column": 15,
+                "column": 17,
                 "name": "listselector_3",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -178,7 +180,7 @@
                 "colspan": 6,
                 "column": 1,
                 "name": "listselector_4",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -190,9 +192,9 @@
               },
               {
                 "colspan": 6,
-                "column": 22,
+                "column": 25,
                 "name": "listselector_5",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -206,7 +208,7 @@
                 "colspan": 6,
                 "column": 41,
                 "name": "listselector_6",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -220,8 +222,8 @@
                 "colspan": 12,
                 "column": 35,
                 "name": "chart_2",
-                "row": 41,
-                "rowspan": 17,
+                "row": 36,
+                "rowspan": 15,
                 "widgetStyle": {
                   "backgroundColor": "rgb(2, 10, 25)",
                   "borderColor": "#E6ECF2",
@@ -234,7 +236,7 @@
                 "colspan": 12,
                 "column": 35,
                 "name": "number_1",
-                "row": 30,
+                "row": 25,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(2, 10, 25)",
@@ -250,7 +252,7 @@
                 "colspan": 12,
                 "column": 35,
                 "name": "number_2",
-                "row": 20,
+                "row": 15,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(2, 10, 25)",
@@ -264,8 +266,8 @@
                 "colspan": 14,
                 "column": 33,
                 "name": "chart_3",
-                "row": 65,
-                "rowspan": 22,
+                "row": 63,
+                "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -274,8 +276,8 @@
                 "colspan": 14,
                 "column": 33,
                 "name": "number_5",
-                "row": 61,
-                "rowspan": 3,
+                "row": 55,
+                "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "rgba(255, 255, 255, 0)",
@@ -292,8 +294,8 @@
                 "colspan": 14,
                 "column": 1,
                 "name": "number_4",
-                "row": 61,
-                "rowspan": 3,
+                "row": 55,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": [
@@ -308,8 +310,8 @@
                 "colspan": 14,
                 "column": 1,
                 "name": "chart_4",
-                "row": 65,
-                "rowspan": 22,
+                "row": 63,
+                "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -318,8 +320,8 @@
                 "colspan": 14,
                 "column": 17,
                 "name": "number_6",
-                "row": 61,
-                "rowspan": 3,
+                "row": 55,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": [
@@ -334,8 +336,8 @@
                 "colspan": 14,
                 "column": 17,
                 "name": "chart_6",
-                "row": 65,
-                "rowspan": 22,
+                "row": 63,
+                "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -344,8 +346,8 @@
                 "colspan": 46,
                 "column": 1,
                 "name": "table_1",
-                "row": 95,
-                "rowspan": 30,
+                "row": 93,
+                "rowspan": 38,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "#FFFFFF",
@@ -358,10 +360,10 @@
                 }
               },
               {
-                "colspan": 36,
-                "column": 1,
+                "colspan": 38,
+                "column": 3,
                 "name": "text_6",
-                "row": 90,
+                "row": 88,
                 "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
@@ -369,80 +371,80 @@
               },
               {
                 "colspan": 4,
-                "column": 43,
+                "column": 33,
                 "name": "link_by_product",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 3,
-                "column": 40,
+                "colspan": 4,
+                "column": 29,
                 "name": "link_by_source",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 4,
-                "column": 32,
+                "column": 20,
                 "name": "link_by_customer",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 24,
+                "name": "link_by_geography",
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 4,
-                "column": 36,
-                "name": "link_by_geography",
-                "row": 7,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 21,
+                "column": 11,
                 "name": "link_pipeline_changes",
-                "row": 7,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 16,
-                "name": "link_lead_analysis",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 3,
-                "column": 13,
-                "name": "link_overview",
-                "row": 7,
-                "rowspan": 4,
+                "column": 8,
+                "name": "link_lead_analysis",
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 6,
-                "column": 26,
-                "name": "text_7",
-                "row": 7,
-                "rowspan": 4,
+                "colspan": 4,
+                "column": 4,
+                "name": "link_overview",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 15,
+                "name": "text_current_dashboard",
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "rgb(60, 141, 225)",
@@ -457,7 +459,7 @@
                 "colspan": 12,
                 "column": 35,
                 "name": "number_7",
-                "row": 26,
+                "row": 21,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(2, 10, 25)",
@@ -473,7 +475,7 @@
                 "colspan": 12,
                 "column": 35,
                 "name": "number_3",
-                "row": 24,
+                "row": 19,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "rgb(2, 10, 25)",
@@ -489,8 +491,8 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_8",
-                "row": 89,
-                "rowspan": 38,
+                "row": 86,
+                "rowspan": 47,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "#E6ECF2",
@@ -505,8 +507,8 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_12",
-                "row": 59,
-                "rowspan": 30,
+                "row": 53,
+                "rowspan": 33,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -515,8 +517,8 @@
                 "colspan": 14,
                 "column": 34,
                 "name": "container_16",
-                "row": 18,
-                "rowspan": 41,
+                "row": 13,
+                "rowspan": 40,
                 "widgetStyle": {
                   "backgroundColor": "rgb(2, 10, 25)",
                   "borderColor": "#E6ECF2",
@@ -529,8 +531,8 @@
                 "colspan": 34,
                 "column": 0,
                 "name": "container_17",
-                "row": 18,
-                "rowspan": 41,
+                "row": 13,
+                "rowspan": 40,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -540,10 +542,10 @@
                 }
               },
               {
-                "colspan": 20,
+                "colspan": 32,
                 "column": 1,
                 "name": "text_10",
-                "row": 20,
+                "row": 15,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -557,7 +559,7 @@
                 "colspan": 23,
                 "column": 1,
                 "name": "text_11",
-                "row": 23,
+                "row": 18,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -571,7 +573,7 @@
                 "colspan": 12,
                 "column": 35,
                 "name": "text_12",
-                "row": 37,
+                "row": 32,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -582,13 +584,94 @@
                 }
               },
               {
-                "colspan": 10,
+                "colspan": 4,
+                "column": 43,
+                "name": "link_2",
+                "row": 89,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
                 "column": 1,
-                "name": "text_14",
-                "row": 5,
-                "rowspan": 5,
+                "name": "text_15",
+                "row": 59,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 17,
+                "name": "text_16",
+                "row": 59,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
+                "name": "text_17",
+                "row": 59,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "container_19",
+                "row": 0,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "link_3",
+                "row": 1,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "image_1",
+                "row": 88,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "top",
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
                 }
               }
             ]
@@ -599,11 +682,11 @@
         "style": {
           "alignmentX": "left",
           "alignmentY": "top",
-          "backgroundColor": "#C5D3E0",
+          "backgroundColor": "#E6ECF2",
           "cellSpacingX": 0,
           "cellSpacingY": 0,
           "fit": "original",
-          "gutterColor": "#C5D3E0"
+          "gutterColor": "#E6ECF2"
         },
         "version": 1
       },
@@ -614,25 +697,11 @@
           {
             "widgets": [
               {
-                "colspan": 12,
-                "column": 0,
-                "name": "text_13",
-                "row": 0,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
                 "colspan": 4,
                 "column": 1,
                 "name": "listselector_4",
-                "row": 2,
-                "rowspan": 1,
+                "row": 3,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -645,8 +714,8 @@
                 "colspan": 4,
                 "column": 7,
                 "name": "listselector_2",
-                "row": 2,
-                "rowspan": 1,
+                "row": 3,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -659,8 +728,8 @@
                 "colspan": 4,
                 "column": 1,
                 "name": "listselector_3",
-                "row": 4,
-                "rowspan": 1,
+                "row": 6,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -673,8 +742,8 @@
                 "colspan": 4,
                 "column": 7,
                 "name": "listselector_5",
-                "row": 4,
-                "rowspan": 1,
+                "row": 6,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -687,8 +756,8 @@
                 "colspan": 4,
                 "column": 1,
                 "name": "ui_RecordType_Name",
-                "row": 6,
-                "rowspan": 1,
+                "row": 9,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -701,8 +770,8 @@
                 "colspan": 4,
                 "column": 7,
                 "name": "listselector_6",
-                "row": 6,
-                "rowspan": 1,
+                "row": 9,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -715,10 +784,10 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_3",
-                "row": 2,
-                "rowspan": 6,
+                "row": 0,
+                "rowspan": 13,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -729,8 +798,8 @@
                 "colspan": 11,
                 "column": 1,
                 "name": "text_10",
-                "row": 9,
-                "rowspan": 1,
+                "row": 14,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -740,11 +809,11 @@
                 }
               },
               {
-                "colspan": 11,
+                "colspan": 10,
                 "column": 1,
                 "name": "text_11",
-                "row": 10,
-                "rowspan": 1,
+                "row": 17,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -757,8 +826,8 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "chart_1",
-                "row": 11,
-                "rowspan": 5,
+                "row": 20,
+                "rowspan": 15,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -771,8 +840,8 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_17",
-                "row": 8,
-                "rowspan": 8,
+                "row": 13,
+                "rowspan": 24,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -782,13 +851,13 @@
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 1,
                 "name": "number_2",
-                "row": 17,
-                "rowspan": 2,
+                "row": 40,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(2, 10, 25)",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "rgba(51, 87, 121, 0.5)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -796,13 +865,13 @@
                 }
               },
               {
-                "colspan": 4,
-                "column": 7,
+                "colspan": 5,
+                "column": 6,
                 "name": "number_3",
-                "row": 17,
-                "rowspan": 2,
+                "row": 40,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(2, 10, 25)",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "rgba(51, 87, 121, 0.5)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -810,13 +879,13 @@
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 1,
                 "name": "number_7",
-                "row": 19,
-                "rowspan": 2,
+                "row": 46,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(2, 10, 25)",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "rgba(51, 87, 121, 0.5)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -824,13 +893,13 @@
                 }
               },
               {
-                "colspan": 4,
-                "column": 7,
+                "colspan": 5,
+                "column": 6,
                 "name": "number_1",
-                "row": 19,
-                "rowspan": 2,
+                "row": 46,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(2, 10, 25)",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "rgba(51, 87, 121, 0.5)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -841,8 +910,8 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "text_12",
-                "row": 21,
-                "rowspan": 1,
+                "row": 52,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -855,10 +924,10 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "chart_2",
-                "row": 22,
-                "rowspan": 5,
+                "row": 55,
+                "rowspan": 15,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(2, 10, 25)",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -869,10 +938,10 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_16",
-                "row": 16,
-                "rowspan": 12,
+                "row": 37,
+                "rowspan": 36,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(2, 10, 25)",
+                  "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -880,11 +949,11 @@
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "number_4",
-                "row": 29,
-                "rowspan": 1,
+                "row": 73,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": [
@@ -896,11 +965,11 @@
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "number_6",
-                "row": 35,
-                "rowspan": 1,
+                "row": 96,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": [
@@ -912,11 +981,11 @@
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "number_5",
-                "row": 41,
-                "rowspan": 1,
+                "row": 119,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "rgba(255, 255, 255, 0)",
@@ -930,31 +999,31 @@
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "chart_4",
-                "row": 30,
-                "rowspan": 4,
+                "row": 77,
+                "rowspan": 18,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "chart_6",
-                "row": 36,
-                "rowspan": 4,
+                "row": 100,
+                "rowspan": 18,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "chart_3",
-                "row": 42,
-                "rowspan": 4,
+                "row": 122,
+                "rowspan": 19,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -963,28 +1032,32 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_12",
-                "row": 28,
-                "rowspan": 19,
+                "row": 73,
+                "rowspan": 22,
                 "widgetStyle": {
-                  "borderEdges": []
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
                 }
               },
               {
                 "colspan": 10,
-                "column": 1,
+                "column": 0,
                 "name": "text_6",
-                "row": 48,
-                "rowspan": 1,
+                "row": 142,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "table_1",
-                "row": 49,
-                "rowspan": 12,
+                "row": 145,
+                "rowspan": 37,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "#FFFFFF",
@@ -1000,33 +1073,65 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_8",
-                "row": 47,
-                "rowspan": 15,
+                "row": 142,
+                "rowspan": 40,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [
-                    "top"
+                    "all"
                   ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
+                  "borderRadius": 4,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_18",
+                "row": 119,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_20",
+                "row": 96,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
                 }
               }
             ]
           }
         ],
-        "rowHeight": "normal",
+        "rowHeight": "fine",
         "selectors": [
           "maxWidth(599)"
         ],
         "style": {
           "alignmentX": "left",
           "alignmentY": "top",
-          "backgroundColor": "#F2F6FA",
+          "backgroundColor": "#091A3E",
           "cellSpacingX": 0,
           "cellSpacingY": 0,
           "fit": "original",
-          "gutterColor": "#C5D3E0"
+          "gutterColor": "#091A3E"
         },
         "version": 1
       }
@@ -1050,7 +1155,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1071,7 +1176,7 @@
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1091,7 +1196,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1107,12 +1212,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"b = load \\\"pipeline_trending4\\\"; b = filter b by 'Opportunity.IsClosed' == \\\"false\\\"; b = filter b by {{column(Pushed_Opportunities_1.selection, [\\\"Opportunity.Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(Neglected_Opportunit_1.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; b = filter b by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; b = filter b by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; b = filter b by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; b = filter b by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = group b by ('OpportunityId', 'StageName'); b = foreach b generate 'OpportunityId', 'StageName', avg(sum('Duration')) over ([..] partition by 'StageName') as 'avg_Stage_Duration', first('Opportunity.Name') as 'Opportunity.Name', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'Opportunity.Amount'; b = foreach b generate 'OpportunityId', 'StageName', first('Opportunity.Name') as 'Opportunity.Name', sum('avg_Stage_Duration') as 'avg_Stage_Duration', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'Opportunity.Amount', case when first('Time_In_Current_Stage.Duration_Seconds')-86400 > sum('avg_Stage_Duration') then \\\"Stalled\\\" else \\\"Not Stalled\\\" end as 'Status'; b = filter b by 'Status' == \\\"Stalled\\\"; b = group b by all; b = foreach b generate count() as 'count', avg('Opportunity.Amount') as 'avg_Opportunity.Amount';\",\"measures\":[[\"count\",\"*\"],[\"avg\",\"Opportunity.Amount\"]]}",
+          "query": "{\"pigql\":\"b = load \\\"pipeline_trending1\\\"; b = filter b by 'Opportunity.IsClosed' == \\\"false\\\"; b = filter b by {{column(Pushed_Opportunities_1.selection, [\\\"Opportunity.Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(Neglected_Opportunit_1.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; b = filter b by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; b = filter b by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; b = filter b by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; b = filter b by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = group b by ('OpportunityId', 'StageName'); b = foreach b generate 'OpportunityId', 'StageName', avg(sum('Duration')) over ([..] partition by 'StageName') as 'avg_Stage_Duration', first('Opportunity.Name') as 'Opportunity.Name', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'Opportunity.Amount'; b = foreach b generate 'OpportunityId', 'StageName', first('Opportunity.Name') as 'Opportunity.Name', sum('avg_Stage_Duration') as 'avg_Stage_Duration', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'Opportunity.Amount', case when first('Time_In_Current_Stage.Duration_Seconds')-86400 > sum('avg_Stage_Duration') then \\\"Stalled\\\" else \\\"Not Stalled\\\" end as 'Status'; b = filter b by 'Status' == \\\"Stalled\\\"; b = group b by all; b = foreach b generate count() as 'count', avg('Opportunity.Amount') as 'avg_Opportunity.Amount';\",\"measures\":[[\"count\",\"*\"],[\"avg\",\"Opportunity.Amount\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1128,12 +1233,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"pipeline_trending4\\\"; q = filter q by 'Opportunity.IsClosed' == \\\"false\\\"; q = filter q by {{column(Neglected_Opportunit_1.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; q = filter q by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; q = filter q by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; q = filter q by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; q = filter q by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; q = filter q by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; q = filter q by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; q = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; q = group q by 'Opportunity.Name'; q = foreach q generate 'Opportunity.Name' as 'Opportunity.Name', sum('IsPushed') as 'IsPushed'; q = filter q by 'IsPushed' > 0; q = group q by all; q = foreach q generate avg('IsPushed') as 'avg_IsPushed';\",\"measures\":[[\"avg\",\"IsPushed\"]],\"groups\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"pipeline_trending1\\\"; q = filter q by 'Opportunity.IsClosed' == \\\"false\\\"; q = filter q by {{column(Neglected_Opportunit_1.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; q = filter q by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; q = filter q by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; q = filter q by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; q = filter q by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; q = filter q by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; q = filter q by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; q = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; q = group q by 'Opportunity.Name'; q = foreach q generate 'Opportunity.Name' as 'Opportunity.Name', sum('IsPushed') as 'IsPushed'; q = filter q by 'IsPushed' > 0; q = group q by all; q = foreach q generate avg('IsPushed') as 'avg_IsPushed';\",\"measures\":[[\"avg\",\"IsPushed\"]],\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1154,7 +1259,7 @@
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1175,7 +1280,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1195,7 +1300,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1215,7 +1320,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1231,12 +1336,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"b = load \\\"pipeline_trending4\\\"; b = filter b by 'Opportunity.IsClosed' == \\\"false\\\"; b = filter b by {{column(Pushed_Opportunities_1.selection, [\\\"Opportunity.Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(Neglected_Opportunit_1.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; b = filter b by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; b = filter b by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; b = filter b by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; b = filter b by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = group b by ('OpportunityId', 'StageName'); b = foreach b generate 'OpportunityId', 'StageName', avg(sum('Duration')) over ([..] partition by 'StageName') as 'avg_Stage_Duration', first('Opportunity.Name') as 'Opportunity.Name', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'Opportunity.Amount'; b = foreach b generate 'OpportunityId', 'StageName', first('Opportunity.Name') as 'Opportunity.Name', sum('avg_Stage_Duration') as 'avg_Stage_Duration', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'sum_Opportunity.Amount', case when first('Time_In_Current_Stage.Duration_Seconds')-86400 > sum('avg_Stage_Duration') then \\\"Stalled\\\" else \\\"Not Stalled\\\" end as 'Status'; b = filter b by 'Status' == \\\"Stalled\\\"; b = order b by 'sum_Opportunity.Amount' desc; b = limit b 100;\",\"measures\":[[\"sum\",\"Opportunity.Amount\"]],\"groups\":[\"Opportunity.Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"pigql\":\"b = load \\\"pipeline_trending1\\\"; b = filter b by 'Opportunity.IsClosed' == \\\"false\\\"; b = filter b by {{column(Pushed_Opportunities_1.selection, [\\\"Opportunity.Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(Neglected_Opportunit_1.selection, [\\\"Name\\\"]).asEquality(\\\"Opportunity.Name\\\")}}; b = filter b by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; b = filter b by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"Opportunity.StageName\\\")}}; b = filter b by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; b = filter b by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; b = filter b by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; b = filter b by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = group b by ('OpportunityId', 'StageName'); b = foreach b generate 'OpportunityId', 'StageName', avg(sum('Duration')) over ([..] partition by 'StageName') as 'avg_Stage_Duration', first('Opportunity.Name') as 'Opportunity.Name', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'Opportunity.Amount'; b = foreach b generate 'OpportunityId', 'StageName', first('Opportunity.Name') as 'Opportunity.Name', sum('avg_Stage_Duration') as 'avg_Stage_Duration', first('Stage.SortOrder') as 'Stage.SortOrder', first('Time_In_Current_Stage.Duration_Seconds') as 'Time_In_Current_Stage.Duration_Seconds', first('Opportunity.Amount') as 'sum_Opportunity.Amount', case when first('Time_In_Current_Stage.Duration_Seconds')-86400 > sum('avg_Stage_Duration') then \\\"Stalled\\\" else \\\"Not Stalled\\\" end as 'Status'; b = filter b by 'Status' == \\\"Stalled\\\"; b = order b by 'sum_Opportunity.Amount' desc; b = limit b 100;\",\"measures\":[[\"sum\",\"Opportunity.Amount\"]],\"groups\":[\"Opportunity.Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1256,7 +1361,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1277,7 +1382,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1298,7 +1403,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1314,12 +1419,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"pipeline_trending4\\\"; q = filter q by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"StageNamePrev\\\")}}; q = filter q by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; q = filter q by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; q = filter q by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; q = filter q by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; q = filter q by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; q = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; q = filter q by 'Stage_isUpdated' == \\\"1\\\"; q = group q by 'StageName'; q = foreach q generate 'StageName' as 'StageName', count() as 'count', avg('Stage.SortOrder') as 'Stage.SortOrder'; q = order q by 'Stage.SortOrder' asc;\",\"measures\":[[\"count\",\"*\"]],\"groups\":[\"StageName\"]}",
+          "query": "{\"pigql\":\"q = load \\\"pipeline_trending1\\\"; q = filter q by {{column(StageName_1.selection, [\\\"StageName\\\"]).asEquality(\\\"StageNamePrev\\\")}}; q = filter q by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; q = filter q by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; q = filter q by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; q = filter q by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; q = filter q by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; q = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; q = filter q by 'Stage_isUpdated' == \\\"1\\\"; q = group q by 'StageName'; q = foreach q generate 'StageName' as 'StageName', count() as 'count', avg('Stage.SortOrder') as 'Stage.SortOrder'; q = order q by 'Stage.SortOrder' asc;\",\"measures\":[[\"count\",\"*\"]],\"groups\":[\"StageName\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1340,7 +1445,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1360,7 +1465,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1381,7 +1486,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1402,7 +1507,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1423,7 +1528,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1438,12 +1543,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"opportunity4\\\"; a = filter a by 'IsClosed' == \\\"false\\\"; a = filter a by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; a = filter a by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Owner.Role.Name\\\")}}; a = filter a by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Account.Name\\\")}}; a = filter a by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = load \\\"pipeline_trending4\\\"; b = filter b by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; b = filter b by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; b = filter b by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; b = filter b by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; b = filter b by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; b = filter b by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = filter b by 'Stage.IsClosed' == \\\"false\\\"; b = group b by ('OpportunityId', 'StageName'); b = foreach b generate 'OpportunityId' as 'OpportunityId', 'StageName' as 'StageName', sum('Duration') as 'sum_Duration', first('Stage.SortOrder') as 'Stage.SortOrder'; c = group a by 'StageName' full, b by 'StageName'; c = foreach c generate coalesce(a['StageName'],b['StageName']) as 'StageName', avg(a['Time_In_Current_Stage.Duration_Seconds'])/86400 as 'Open Opportunities', avg(b['sum_Duration'])/86400 as 'Historical Average', coalesce(first(a['Stage.SortOrder']),first(b['Stage.SortOrder'])) as 'Stage.SortOrder'; c = order c by 'Stage.SortOrder' asc;\",\"measures\":[[\"count\",\"*\",\"Historical Average\"],[\"count\",\"*\",\"Open Opportunities\"]],\"groups\":[\"StageName\"]}",
+          "query": "{\"pigql\":\"a = load \\\"opportunity1\\\"; a = filter a by 'IsClosed' == \\\"false\\\"; a = filter a by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; a = filter a by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Owner.Role.Name\\\")}}; a = filter a by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Account.Name\\\")}}; a = filter a by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = load \\\"pipeline_trending1\\\"; b = filter b by {{column(RecordType_Name_1.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; b = filter b by {{column(stagename_dropdown.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; b = filter b by {{column(Owner_Role_Name_1.selection, [\\\"Owner.Role.Name\\\"]).asEquality(\\\"Opportunity.Owner.Role.Name\\\")}}; b = filter b by {{column(Account_Name_1.selection, [\\\"Account.Name\\\"]).asEquality(\\\"Opportunity.Account.Name\\\")}}; b = filter b by {{column(Owner_Name_1.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; b = filter b by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [{{cell(time_dropdown.selection, 0, \\\"current\\\").asObject()}}]; b = filter b by 'Stage.IsClosed' == \\\"false\\\"; b = group b by ('OpportunityId', 'StageName'); b = foreach b generate 'OpportunityId' as 'OpportunityId', 'StageName' as 'StageName', sum('Duration') as 'sum_Duration', first('Stage.SortOrder') as 'Stage.SortOrder'; c = group a by 'StageName' full, b by 'StageName'; c = foreach c generate coalesce(a['StageName'],b['StageName']) as 'StageName', avg(a['Time_In_Current_Stage.Duration_Seconds'])/86400 as 'Open Opportunities', avg(b['sum_Duration'])/86400 as 'Historical Average', coalesce(first(a['Stage.SortOrder']),first(b['Stage.SortOrder'])) as 'Stage.SortOrder'; c = order c by 'Stage.SortOrder' asc;\",\"measures\":[[\"count\",\"*\",\"Historical Average\"],[\"count\",\"*\",\"Open Opportunities\"]],\"groups\":[\"StageName\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending4"
+            "name": "pipeline_trending1"
           }
         ]
       },
@@ -1486,7 +1591,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -1507,7 +1612,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       }
@@ -1520,6 +1625,26 @@
       "borderWidth": 1
     },
     "widgets": {
+      "container_19": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "fitwidth",
+          "image": {
+            "name": "SalesWaveLogo2",
+            "namespace": ""
+          }
+        },
+        "type": "container"
+      },
+      "container_18": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
       "container_17": {
         "parameters": {
           "alignmentX": "left",
@@ -1544,17 +1669,27 @@
         },
         "type": "container"
       },
+      "text_17": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "Which Opportunities got pushed the most?",
+          "textAlignment": "left",
+          "textColor": "#7D98B3"
+        },
+        "type": "text"
+      },
       "link_overview": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Ops_Manager_Overview"
+            "name": "Sales_Ops_Manager_Overview2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Overview",
+          "text": "OVERVIEW",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -1586,9 +1721,27 @@
       "text_13": {
         "parameters": {
           "fontSize": 20,
-          "text": "Sales Stage Analysis",
+          "text": "",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_16": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "Current stage is at least 1 day longer than the stage's historical average",
+          "textAlignment": "left",
+          "textColor": "#7D98B3"
+        },
+        "type": "text"
+      },
+      "text_15": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "Opportunities that have not been touched in 60 days",
+          "textAlignment": "left",
+          "textColor": "#7D98B3"
         },
         "type": "text"
       },
@@ -1705,15 +1858,15 @@
           "title": {
             "label": "",
             "align": "left",
-            "subtitleLabel": "Current stage is at least 1 day longer than the stage's historical average"
+            "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -1754,9 +1907,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -1829,12 +1983,12 @@
           },
           "binValues": false,
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "measureAxis2": {
             "sqrtScale": false,
@@ -1870,9 +2024,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -1912,6 +2067,14 @@
           "textColor": "#FFFFFF"
         },
         "type": "text"
+      },
+      "container_20": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
       },
       "chart_2": {
         "parameters": {
@@ -1954,12 +2117,12 @@
           },
           "binValues": false,
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "measureAxis2": {
             "sqrtScale": false,
@@ -1995,23 +2158,15 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
         },
         "type": "chart"
-      },
-      "text_7": {
-        "parameters": {
-          "fontSize": 14,
-          "text": "Sales Stage Analysis",
-          "textAlignment": "center",
-          "textColor": "rgb(60, 141, 225)"
-        },
-        "type": "text"
       },
       "chart_1": {
         "parameters": {
@@ -2053,12 +2208,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "y",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -2095,9 +2250,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -2107,7 +2263,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 16,
-          "text": "Opportunity Detail",
+          "text": "Top Deals",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -2150,16 +2306,16 @@
           "title": {
             "label": "",
             "align": "left",
-            "subtitleLabel": "Opportunities that have not been touched in 60 days"
+            "subtitleLabel": ""
           },
           "binValues": false,
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "measureAxis2": {
             "sqrtScale": false,
@@ -2199,9 +2355,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -2254,16 +2411,16 @@
           "title": {
             "label": "",
             "align": "left",
-            "subtitleLabel": "Which Opportunities got pushed the most?"
+            "subtitleLabel": ""
           },
           "binValues": false,
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "measureAxis2": {
             "sqrtScale": false,
@@ -2303,9 +2460,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -2344,14 +2502,15 @@
       "link_lead_analysis": {
         "parameters": {
           "destinationLink": {
-            "name": "Lead_Analysis1"
+            "name": "Lead_Analysis2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Lead Analysis",
+          "text": "LEADS",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -2390,12 +2549,12 @@
           "compact": false,
           "exploreLink": true,
           "measureField": "C",
-          "numberColor": "#7D98B3",
+          "numberColor": "#C5D3E0",
           "numberSize": 12,
           "step": "Probability_to_Close_All_Time",
           "textAlignment": "left",
           "title": "All history probablity to close",
-          "titleColor": "#7D98B3",
+          "titleColor": "#A3B8CC",
           "titleSize": 12
         },
         "type": "number"
@@ -2437,6 +2596,18 @@
           "fit": "original"
         },
         "type": "container"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "top",
+          "fit": "fitheight",
+          "image": {
+            "name": "OpportunityLogo2",
+            "namespace": ""
+          }
+        },
+        "type": "image"
       },
       "container_11": {
         "parameters": {
@@ -2517,28 +2688,39 @@
       "link_by_customer": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Customer1"
+            "name": "Performance_by_Customer2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Customer",
+          "text": "BY CUSTOMER",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "link"
+      },
+      "text_current_dashboard": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "STAGE ANALYSIS",
           "textAlignment": "center",
           "textColor": "#091A3E"
         },
-        "type": "link"
+        "type": "text"
       },
       "link_pipeline_changes": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Ops_Pipeline_Changes"
+            "name": "Sales_Ops_Pipeline_Changes2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Pipeline Changes",
+          "text": "TRENDING",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -2555,14 +2737,15 @@
       "link_by_source": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Source"
+            "name": "Performance_by_Source2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Source",
+          "text": "BY SOURCE",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -2580,14 +2763,15 @@
       "link_by_geography": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Geography"
+            "name": "Performance_by_Geography2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Geography",
+          "text": "BY GEOGRAPHY",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -2624,17 +2808,62 @@
         },
         "type": "listselector"
       },
+      "link_3": {
+        "parameters": {
+          "destinationLink": {
+            "name": "About_Wave_for_Sales2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
       "link_by_product": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Product"
+            "name": "Performance_by_Product2",
+            "namespace": ""
           },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Product",
+          "text": "BY PRODUCT",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "About_Wave_for_Sales2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "",
           "textAlignment": "center",
           "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Opportunity_Detail_1"
+          },
+          "destinationType": "explore",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "View Detail",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },

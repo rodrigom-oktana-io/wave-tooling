@@ -1,7 +1,7 @@
 {
   "label": "Summary of Account",
   "folder": {
-    "id": "00lB0000000uig5IAA"
+    "id": "00lB0000000RJbPIAW"
   },
   "state": {
     "dataSourceLinks": [],
@@ -647,7 +647,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -667,7 +667,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -698,7 +698,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -719,7 +719,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -739,7 +739,7 @@
         },
         "datasets": [
           {
-            "name": "activity4"
+            "name": "activity1"
           }
         ]
       },
@@ -759,7 +759,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -780,7 +780,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -800,7 +800,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products4"
+            "name": "opportunity_products1"
           }
         ]
       },
@@ -819,7 +819,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -856,7 +856,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -876,7 +876,7 @@
         },
         "datasets": [
           {
-            "name": "case4"
+            "name": "case1"
           }
         ]
       },
@@ -895,7 +895,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -915,7 +915,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -935,7 +935,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -949,12 +949,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"win_rate\"]],\"pigql\":\"a = load \\\"opportunity4\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; won = filter a by 'IsWon' == \\\"true\\\"; closed = filter a by 'IsClosed' == \\\"true\\\"; q = group won by all, closed by all; q = foreach q generate sum(won['Amount']) / sum(closed['Amount']) as 'avg_win_rate';\",\"groups\":[],\"dimensions\":[],\"order\":[]}",
+          "query": "{\"measures\":[[\"avg\",\"win_rate\"]],\"pigql\":\"a = load \\\"opportunity1\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; won = filter a by 'IsWon' == \\\"true\\\"; closed = filter a by 'IsClosed' == \\\"true\\\"; q = group won by all, closed by all; q = foreach q generate sum(won['Amount']) / sum(closed['Amount']) as 'avg_win_rate';\",\"groups\":[],\"dimensions\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       },
@@ -974,7 +974,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity4"
+            "name": "opportunity1"
           }
         ]
       }

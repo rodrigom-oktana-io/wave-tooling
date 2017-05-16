@@ -1,62 +1,49 @@
 {
   "label": "Lead Analysis",
   "folder": {
-    "id": "00lB0000000uig5IAA"
+    "id": "00lB0000000RJbPIAW"
   },
   "state": {
     "dataSourceLinks": [],
     "gridLayouts": [
       {
-        "maxWidth": 1366,
+        "maxWidth": 1240,
         "name": "Default",
         "numColumns": 48,
         "pages": [
           {
             "widgets": [
               {
-                "colspan": 48,
-                "column": 0,
+                "colspan": 45,
+                "column": 3,
                 "name": "container_1",
-                "row": 4,
-                "rowspan": 7,
+                "row": 0,
+                "rowspan": 6,
                 "widgetStyle": {
-                  "borderColor": "rgb(60, 141, 225)",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
                   "borderEdges": [
                     "bottom"
                   ]
                 }
               },
               {
-                "colspan": 8,
-                "column": 1,
-                "name": "text_1",
-                "row": 5,
-                "rowspan": 6,
-                "widgetStyle": {
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "bottom"
-                  ],
-                  "borderWidth": 4
-                }
-              },
-              {
-                "colspan": 9,
+                "colspan": 10,
                 "column": 13,
                 "name": "ui_open_leads_count",
-                "row": 19,
-                "rowspan": 5,
+                "row": 15,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
+                "colspan": 14,
                 "column": 1,
                 "name": "ui_lead_conversion_over_time",
-                "row": 45,
-                "rowspan": 20,
+                "row": 42,
+                "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -65,8 +52,8 @@
                 "colspan": 46,
                 "column": 1,
                 "name": "ui_performance_details",
-                "row": 74,
-                "rowspan": 27,
+                "row": 71,
+                "rowspan": 38,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -75,8 +62,8 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_2",
-                "row": 68,
-                "rowspan": 35,
+                "row": 65,
+                "rowspan": 47,
                 "widgetStyle": {
                   "borderEdges": [
                     "top"
@@ -87,8 +74,8 @@
                 "colspan": 46,
                 "column": 1,
                 "name": "text_2",
-                "row": 68,
-                "rowspan": 6,
+                "row": 67,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -97,7 +84,7 @@
                 "colspan": 34,
                 "column": 13,
                 "name": "ui_lead_buckets",
-                "row": 29,
+                "row": 27,
                 "rowspan": 8,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -105,45 +92,33 @@
                 }
               },
               {
-                "colspan": 10,
-                "column": 25,
-                "name": "ui_top_industries",
-                "row": 45,
-                "rowspan": 21,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 13,
+                "colspan": 14,
+                "column": 17,
                 "name": "ui_lead_source",
-                "row": 45,
+                "row": 42,
                 "rowspan": 21,
                 "widgetStyle": {
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [
-                    "right"
-                  ],
-                  "borderWidth": 8
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "ui_lead_conversion_yes_no",
-                "row": 19,
-                "rowspan": 18,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderEdges": []
+                  "borderColor": "#F2F6FA",
+                  "borderEdges": [],
+                  "borderWidth": 1
                 }
               },
               {
                 "colspan": 10,
-                "column": 37,
+                "column": 1,
+                "name": "ui_lead_conversion_yes_no",
+                "row": 15,
+                "rowspan": 20,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
                 "name": "ui_leads_by_region_map",
-                "row": 45,
+                "row": 42,
                 "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
@@ -151,30 +126,30 @@
               },
               {
                 "colspan": 4,
-                "column": 12,
+                "column": 4,
                 "name": "link_1",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
-                "column": 21,
+                "colspan": 4,
+                "column": 11,
                 "name": "link_2",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
-                "column": 16,
+                "colspan": 3,
+                "column": 8,
                 "name": "text_3",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "rgb(60, 141, 225)",
@@ -187,40 +162,40 @@
               },
               {
                 "colspan": 4,
-                "column": 32,
+                "column": 20,
                 "name": "link_3",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 4,
-                "column": 36,
+                "colspan": 5,
+                "column": 24,
                 "name": "link_4",
-                "row": 7,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 3,
-                "column": 40,
-                "name": "link_5",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 4,
-                "column": 43,
+                "column": 29,
+                "name": "link_5",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 33,
                 "name": "link_by_product",
-                "row": 7,
-                "rowspan": 4,
+                "row": 1,
+                "rowspan": 5,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -229,55 +204,53 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_3",
-                "row": 17,
-                "rowspan": 22,
+                "row": 13,
+                "rowspan": 24,
                 "widgetStyle": {
-                  "backgroundColor": "#091A3E",
+                  "backgroundColor": "rgb(5, 16, 39)",
                   "borderColor": "rgba(51, 87, 121, 0.5)",
-                  "borderEdges": [
-                    "right"
-                  ]
+                  "borderEdges": []
                 }
               },
               {
                 "colspan": 36,
                 "column": 12,
                 "name": "container_5",
-                "row": 17,
-                "rowspan": 22,
+                "row": 13,
+                "rowspan": 24,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 6,
-                "column": 41,
+                "colspan": 10,
+                "column": 37,
                 "name": "ui_time_dropdown",
-                "row": 12,
+                "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 9,
+                "colspan": 10,
                 "column": 25,
                 "name": "ui_converted_leads_count",
-                "row": 19,
-                "rowspan": 5,
+                "row": 15,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 9,
-                "column": 38,
+                "colspan": 10,
+                "column": 37,
                 "name": "ui_conversion_rate",
-                "row": 19,
-                "rowspan": 5,
+                "row": 15,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
@@ -287,79 +260,69 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_6",
-                "row": 11,
-                "rowspan": 6,
+                "row": 6,
+                "rowspan": 7,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 6,
-                "column": 9,
-                "name": "listselector_3",
-                "row": 12,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 7,
-                "column": 1,
-                "name": "listselector_4",
-                "row": 12,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 1,
-                "name": "text_4",
-                "row": 42,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "borderEdges": []
                 }
               },
               {
                 "colspan": 10,
                 "column": 13,
+                "name": "listselector_3",
+                "row": 7,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#F2F6FA",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 1,
+                "name": "listselector_4",
+                "row": 7,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#F2F6FA",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "text_4",
+                "row": 39,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 17,
                 "name": "ui_text_lead_source",
-                "row": 42,
+                "row": 39,
                 "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 37,
+                "colspan": 14,
+                "column": 33,
                 "name": "text_6",
-                "row": 42,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 25,
-                "name": "ui_text_industry",
-                "row": 42,
+                "row": 39,
                 "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
@@ -369,8 +332,8 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_11",
-                "row": 39,
-                "rowspan": 29,
+                "row": 37,
+                "rowspan": 28,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -379,7 +342,7 @@
                 "colspan": 8,
                 "column": 13,
                 "name": "ui_text_rating",
-                "row": 26,
+                "row": 24,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(9, 26, 62)",
@@ -390,13 +353,51 @@
                 }
               },
               {
-                "colspan": 6,
-                "column": 26,
-                "name": "link_6",
+                "colspan": 10,
+                "column": 25,
+                "name": "listselector_1",
                 "row": 7,
                 "rowspan": 4,
                 "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 15,
+                "name": "link_8",
+                "row": 1,
+                "rowspan": 5,
+                "widgetStyle": {
                   "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "container_4",
+                "row": 0,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "link_7",
+                "row": 1,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
                 }
               }
             ]
@@ -407,10 +408,11 @@
         "style": {
           "alignmentX": "left",
           "alignmentY": "top",
-          "backgroundColor": "#C5D3E0",
+          "backgroundColor": "#F2F6FA",
           "cellSpacingX": 0,
           "cellSpacingY": 0,
-          "fit": "original"
+          "fit": "original",
+          "gutterColor": "#E6ECF2"
         },
         "version": 1
       },
@@ -421,27 +423,13 @@
           {
             "widgets": [
               {
-                "colspan": 12,
-                "column": 0,
-                "name": "text_8",
-                "row": 0,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "#091A3E",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
                 "colspan": 4,
                 "column": 1,
                 "name": "listselector_4",
-                "row": 2,
-                "rowspan": 1,
+                "row": 3,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -452,10 +440,10 @@
                 "colspan": 4,
                 "column": 7,
                 "name": "listselector_3",
-                "row": 2,
-                "rowspan": 1,
+                "row": 3,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -466,10 +454,10 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "ui_time_dropdown",
-                "row": 4,
-                "rowspan": 1,
+                "row": 6,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
                   "borderEdges": []
                 }
               },
@@ -477,22 +465,8 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_6",
-                "row": 2,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "#E6ECF2",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 12,
-                "column": 0,
-                "name": "text_9",
-                "row": 6,
-                "rowspan": 1,
+                "row": 0,
+                "rowspan": 9,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "#E6ECF2",
@@ -505,8 +479,8 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "ui_lead_conversion_yes_no",
-                "row": 7,
-                "rowspan": 6,
+                "row": 11,
+                "rowspan": 22,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
@@ -516,8 +490,8 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_3",
-                "row": 6,
-                "rowspan": 8,
+                "row": 10,
+                "rowspan": 24,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderColor": "rgba(51, 87, 121, 0.5)",
@@ -530,8 +504,8 @@
                 "colspan": 5,
                 "column": 1,
                 "name": "ui_open_leads_count",
-                "row": 14,
-                "rowspan": 2,
+                "row": 35,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
@@ -541,8 +515,8 @@
                 "colspan": 5,
                 "column": 7,
                 "name": "ui_converted_leads_count",
-                "row": 14,
-                "rowspan": 2,
+                "row": 35,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
@@ -552,8 +526,8 @@
                 "colspan": 11,
                 "column": 1,
                 "name": "ui_conversion_rate",
-                "row": 16,
-                "rowspan": 2,
+                "row": 41,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
@@ -563,8 +537,8 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "ui_lead_buckets",
-                "row": 20,
-                "rowspan": 3,
+                "row": 53,
+                "rowspan": 9,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
@@ -574,49 +548,49 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_5",
-                "row": 14,
-                "rowspan": 10,
+                "row": 35,
+                "rowspan": 27,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 11,
-                "column": 1,
+                "colspan": 10,
+                "column": 0,
                 "name": "text_4",
-                "row": 24,
-                "rowspan": 1,
+                "row": 63,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "ui_lead_conversion_over_time",
-                "row": 25,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 1,
-                "name": "ui_text_lead_source",
-                "row": 31,
-                "rowspan": 1,
+                "row": 66,
+                "rowspan": 18,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 10,
-                "column": 1,
+                "column": 0,
+                "name": "ui_text_lead_source",
+                "row": 85,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
                 "name": "ui_lead_source",
-                "row": 32,
-                "rowspan": 5,
+                "row": 88,
+                "rowspan": 18,
                 "widgetStyle": {
                   "borderColor": "#FFFFFF",
                   "borderEdges": [
@@ -626,41 +600,41 @@
                 }
               },
               {
-                "colspan": 11,
-                "column": 1,
+                "colspan": 10,
+                "column": 0,
                 "name": "ui_text_industry",
-                "row": 38,
-                "rowspan": 1,
+                "row": 107,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "ui_top_industries",
-                "row": 39,
-                "rowspan": 7,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 1,
-                "name": "text_6",
-                "row": 47,
-                "rowspan": 1,
+                "row": 110,
+                "rowspan": 18,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 10,
-                "column": 1,
+                "column": 0,
+                "name": "text_6",
+                "row": 129,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
                 "name": "ui_leads_by_region_map",
-                "row": 48,
-                "rowspan": 6,
+                "row": 132,
+                "rowspan": 18,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -669,28 +643,33 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_11",
-                "row": 24,
-                "rowspan": 31,
+                "row": 63,
+                "rowspan": 21,
                 "widgetStyle": {
-                  "borderEdges": []
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "text_2",
-                "row": 55,
-                "rowspan": 1,
+                "row": 151,
+                "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 10,
-                "column": 1,
+                "colspan": 12,
+                "column": 0,
                 "name": "ui_performance_details",
-                "row": 57,
-                "rowspan": 27,
+                "row": 155,
+                "rowspan": 34,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -699,37 +678,88 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_2",
-                "row": 55,
-                "rowspan": 29,
+                "row": 151,
+                "rowspan": 38,
                 "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
                   "borderEdges": [
-                    "top"
-                  ]
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
                 }
               },
               {
                 "colspan": 2,
                 "column": 1,
                 "name": "ui_text_rating",
-                "row": 19,
-                "rowspan": 1,
+                "row": 50,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(9, 26, 62)",
                   "borderColor": "rgb(9, 26, 62)",
                   "borderEdges": []
                 }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_8",
+                "row": 129,
+                "rowspan": 21,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_9",
+                "row": 107,
+                "rowspan": 21,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_10",
+                "row": 85,
+                "rowspan": 21,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 8
+                }
               }
             ]
           }
         ],
-        "rowHeight": "normal",
+        "rowHeight": "fine",
         "selectors": [
           "maxWidth(599)"
         ],
         "style": {
           "alignmentX": "left",
           "alignmentY": "top",
-          "backgroundColor": "#F2F6FA",
+          "backgroundColor": "#091A3E",
           "cellSpacingX": 0,
           "cellSpacingY": 0,
           "fit": "original",
@@ -757,7 +787,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -765,7 +795,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"lead4\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('State') as 'State', first('Industry') as 'Industry', first('UserOrQueueName') as 'UserOrQueueName', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'IsConverted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'sum_LeadAge';",
+        "query": "q = load \"lead1\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('Country') as 'Country',  first('UserOrQueueName') as 'UserOrQueueName', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'Converted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'Age';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -787,7 +817,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -807,7 +837,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -827,7 +857,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -847,7 +877,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -868,7 +898,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -888,7 +918,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -903,19 +933,19 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"State\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Country\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
       "top_industries": {
         "isFacet": true,
         "isGlobal": false,
-        "selectMode": "single",
+        "selectMode": "multi",
         "type": "aggregateflex",
         "useGlobal": true,
         "visualizationParameters": {
@@ -928,7 +958,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -970,7 +1000,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       },
@@ -978,7 +1008,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "leads = load \"lead4\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
+        "query": "leads = load \"lead1\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -1001,7 +1031,7 @@
         },
         "datasets": [
           {
-            "name": "lead4"
+            "name": "lead1"
           }
         ]
       }
@@ -1034,7 +1064,7 @@
           "fontSize": 14,
           "text": "Rating",
           "textAlignment": "left",
-          "textColor": "#C5D3E0"
+          "textColor": "#FFFFFF"
         },
         "type": "text"
       },
@@ -1080,14 +1110,14 @@
           },
           "binValues": false,
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
-          "map": "US States"
+          "map": "World Countries"
         },
         "type": "chart"
       },
@@ -1165,12 +1195,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -1188,7 +1218,7 @@
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": false,
-            "showAxis": true,
+            "showAxis": false,
             "title": "",
             "customDomain": {
               "showDomain": false,
@@ -1207,9 +1237,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -1241,6 +1272,18 @@
         },
         "type": "text"
       },
+      "container_4": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "fitwidth",
+          "image": {
+            "name": "SalesWaveLogo2",
+            "namespace": ""
+          }
+        },
+        "type": "container"
+      },
       "container_5": {
         "parameters": {
           "alignmentX": "left",
@@ -1251,7 +1294,7 @@
       },
       "ui_lead_conversion_yes_no": {
         "parameters": {
-          "numberColor": "#FFFFFF",
+          "centerText": "",
           "showMeasureTitle": false,
           "legend": {
             "showHeader": false,
@@ -1261,35 +1304,35 @@
             "inside": false
           },
           "visualizationType": "pie",
-          "step": "lead_conversion_yes_no",
-          "theme": "dark",
           "exploreLink": true,
           "title": {
             "label": "Lead Conversion",
-            "align": "center",
+            "align": "left",
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "inner": 70,
+          "numberColor": "#FFFFFF",
           "centerValueType": "number",
           "valueType": "compactNumber",
-          "centerText": ""
+          "step": "lead_conversion_yes_no",
+          "theme": "dark"
         },
         "type": "chart"
       },
       "text_3": {
         "parameters": {
-          "fontSize": 14,
-          "text": "Lead Analysis",
+          "fontSize": 12,
+          "text": "LEADS",
           "textAlignment": "center",
-          "textColor": "rgb(60, 141, 225)"
+          "textColor": "#091A3E"
         },
         "type": "text"
       },
@@ -1309,6 +1352,14 @@
           "textColor": "#091A3E"
         },
         "type": "text"
+      },
+      "container_8": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
       },
       "text_4": {
         "parameters": {
@@ -1332,27 +1383,27 @@
           "axisMode": "multi",
           "visualizationType": "time",
           "missingValue": "connect",
+          "exploreLink": true,
           "timeAxis": {
-            "showTitle": true,
+            "showTitle": false,
             "showAxis": true,
             "title": "",
             "predictiveLine": null
           },
-          "exploreLink": true,
           "title": {
             "label": "",
             "align": "left",
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
-          "fillArea": false,
+          "fillArea": true,
           "showZero": true,
           "measureAxis2": {
             "sqrtScale": false,
@@ -1368,8 +1419,8 @@
           },
           "measureAxis1": {
             "sqrtScale": false,
-            "showTitle": true,
-            "showAxis": true,
+            "showTitle": false,
+            "showAxis": false,
             "title": "",
             "customDomain": {
               "showDomain": false,
@@ -1383,30 +1434,20 @@
         },
         "type": "chart"
       },
+      "container_9": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
       "text_6": {
         "parameters": {
           "fontSize": 14,
           "text": "Leads by Region",
           "textAlignment": "left",
           "textColor": "#091A3E"
-        },
-        "type": "text"
-      },
-      "text_9": {
-        "parameters": {
-          "fontSize": 20,
-          "text": "Lead Conversion",
-          "textAlignment": "center",
-          "textColor": "#FFFFFF"
-        },
-        "type": "text"
-      },
-      "text_8": {
-        "parameters": {
-          "fontSize": 20,
-          "text": "Lead Analysis",
-          "textAlignment": "center",
-          "textColor": "#FFFFFF"
         },
         "type": "text"
       },
@@ -1450,12 +1491,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "binValues": false,
           "measureAxis2": {
@@ -1473,7 +1514,7 @@
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": false,
-            "showAxis": true,
+            "showAxis": false,
             "title": "",
             "customDomain": {
               "showDomain": false,
@@ -1492,9 +1533,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -1505,7 +1547,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": false,
-          "instant": true,
+          "instant": false,
           "measureField": "count",
           "step": "leads_by_owner",
           "title": "Owner Name"
@@ -1554,13 +1596,13 @@
       },
       "link_3": {
         "parameters": {
-          "destination": "0FKB00000002NauOAE",
+          "destination": "0FKB0000000D9X7OAK",
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Customer",
+          "text": "BY CUSTOMER",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -1594,12 +1636,12 @@
             "subtitleLabel": ""
           },
           "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4,
-            "showGridLines": true,
-            "flipLabels": false
+            "chartsPerLine": 4
           },
           "measureAxis2": {
             "sqrtScale": false,
@@ -1636,9 +1678,10 @@
             "icons": {
               "useIcons": false,
               "iconProps": {
-                "column": "",
                 "fit": "cover",
-                "type": "round"
+                "column": "",
+                "type": "round",
+                "parameters": {}
               }
             }
           }
@@ -1647,49 +1690,49 @@
       },
       "link_4": {
         "parameters": {
-          "destination": "0FKB00000002NavOAE",
+          "destination": "0FKB0000000D9X8OAK",
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Geography",
+          "text": "BY GEOGRAPHY",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
       "link_1": {
         "parameters": {
-          "destination": "0FKB00000002NarOAE",
+          "destination": "0FKB0000000D9X3OAK",
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Overview",
+          "text": "OVERVIEW",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
       "link_by_product": {
         "parameters": {
-          "destination": "0FKB00000002NawOAE",
+          "destination": "0FKB0000000D9X9OAK",
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Product",
+          "text": "BY PRODUCT",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB00000002NasOAE",
+          "destination": "0FKB0000000D9X4OAK",
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Pipeline Changes",
+          "text": "TRENDING",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
@@ -1708,33 +1751,95 @@
         },
         "type": "number"
       },
-      "link_5": {
+      "link_9": {
         "parameters": {
-          "destination": "0FKB00000002NaxOAE",
+          "destinationLink": {
+            "name": "About_Wave_for_Sales2",
+            "namespace": ""
+          },
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "By Source",
+          "text": "",
           "textAlignment": "center",
           "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_7": {
+        "parameters": {
+          "destinationLink": {
+            "name": "About_Wave_for_Sales2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_8": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Sales_Stage_Analysis2",
+            "namespace": ""
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "STAGE ANALYSIS",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "link"
+      },
+      "link_5": {
+        "parameters": {
+          "destination": "0FKB0000000D9XAOA0",
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "BY SOURCE",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
         },
         "type": "link"
       },
       "link_6": {
         "parameters": {
-          "destinationLink": {
-            "name": "Sales_Stage_Analysis"
-          },
+          "destination": "0FKB0000000D9X0OAK",
           "destinationType": "dashboard",
-          "fontSize": 14,
+          "fontSize": 12,
           "includeState": false,
-          "text": "Sales Stage Analysis",
+          "text": "MANAGER >",
           "textAlignment": "center",
-          "textColor": "#091A3E"
+          "textColor": "rgb(0, 112, 210)"
         },
         "type": "link"
       },
       "container_11": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "count",
+          "step": "top_industries",
+          "title": "Industry"
+        },
+        "type": "listselector"
+      },
+      "container_10": {
         "parameters": {
           "alignmentX": "left",
           "alignmentY": "top",
