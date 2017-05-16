@@ -1,7 +1,7 @@
 {
   "label": "Opportunity Discovery",
   "folder": {
-    "id": "<folderId>"
+    "id": "00lB0000000uig5IAA"
   },
   "state": {
     "dataSourceLinks": [],
@@ -513,12 +513,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"limit\":\"{{cell(static_top_n_products.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Product.Name\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"limit\":\"{{cell(static_top_n_products.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Product.Name\"],\"filters\":[\"{{coalesce(cell(pill_open_won.selection, 0, \\\"value\\\"), 0).asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -537,7 +537,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -556,7 +556,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -588,12 +588,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"groups\":[\"Opportunity.Account.Name\",\"Product.Name\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"groups\":[\"Opportunity.Account.Name\",\"Product.Name\"],\"filters\":[\"{{coalesce(cell(pill_open_won.selection, 0, \\\"value\\\"), 0).asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -604,18 +604,21 @@
         "isGlobal": false,
         "numbers": [],
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"This Quarter\"]}",
+        "start": "{\"display\":[\"All Time\"]}",
         "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
+          "{\"display\":\"All Time\",\"current\":[[\"year\",-100],[\"year\",100]]}",
           "{\"display\":\"This Month\",\"current\":[[\"month\",0],[\"month\",0]]}",
           "{\"display\":\"This Quarter\",\"current\":[[\"quarter\",0],[\"quarter\",0]]}",
           "{\"display\":\"This Year\",\"current\":[[\"year\",0],[\"year\",0]]}",
           "{\"display\":\"Next Month\",\"current\":[[\"month\",1],[\"month\",1]]}",
           "{\"display\":\"Next Quarter\",\"current\":[[\"quarter\",1],[\"quarter\",1]]}",
           "{\"display\":\"Next Year\",\"current\":[[\"year\",1],[\"year\",1]]}",
-          "{\"display\":\"Last Year\",\"current\":[[\"year\",-1],[\"year\",-1]]}"
+          "{\"display\":\"Last Year\",\"current\":[[\"year\",-1],[\"year\",-1]]}",
+          "{\"display\":\"Last Quarter\",\"current\":[[\"quarter\",-1],[\"quarter\",-1]]}",
+          "{\"display\":\"Last Month\",\"current\":[[\"month\",-1],[\"month\",-1]]}"
         ],
         "datasets": []
       },
@@ -630,12 +633,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"],[\"sum\",\"Opportunity.Account.AnnualRevenue\"],[\"sum\",\"Opportunity.Account.NumberOfEmployees\"]],\"groups\":[\"Opportunity.Account.Name\",\"Opportunity.Name\",\"Product.Name\",\"Opportunity.CloseDate\",\"Opportunity.ForecastCategoryName\",\"Opportunity.StageName\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"],[\"sum\",\"Opportunity.Account.AnnualRevenue\"],[\"sum\",\"Opportunity.Account.NumberOfEmployees\"]],\"groups\":[\"Opportunity.Account.Name\",\"Opportunity.Name\",\"Product.Name\",\"Opportunity.CloseDate\",\"Opportunity.ForecastCategoryName\",\"Opportunity.StageName\"],\"filters\":[\"{{coalesce(cell(pill_open_won.selection, 0, \\\"value\\\"), 0).asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -649,12 +652,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Opportunity.Account.NumberOfEmployees\"]],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"Opportunity.Account.NumberOfEmployees\"]],\"filters\":[\"{{coalesce(cell(pill_open_won.selection, 0, \\\"value\\\"), 0).asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"],[\"Opportunity.Account.Owner.Name\",\"{{column(dropdown_name.selection, [\\\"Opportunity.Account.Owner.Name\\\"]).asObject()}}\",\"in\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -670,12 +673,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"limit\":\"{{cell(static_top_n_accounts.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Opportunity.Account.Name\"],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"limit\":\"{{cell(static_top_n_accounts.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Opportunity.Account.Name\"],\"filters\":[\"{{coalesce(cell(pill_open_won.selection, 0, \\\"value\\\"), 0).asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -685,7 +688,7 @@
         "isFacet": false,
         "isGlobal": false,
         "numbers": [],
-        "selectMode": "singlerequired",
+        "selectMode": "single",
         "strings": [],
         "type": "staticflex",
         "useGlobal": false,
@@ -710,7 +713,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -724,12 +727,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Opportunity.Account.AnnualRevenue\"]],\"filters\":[\"{{cell(pill_open_won.selection, 0, \\\"value\\\").asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"Opportunity.Account.AnnualRevenue\"]],\"filters\":[\"{{coalesce(cell(pill_open_won.selection, 0, \\\"value\\\"), 0).asObject()}}\",[\"Opportunity.CloseDate\",\"{{column(static_time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"Opportunity.Account.Name\",\"{{column(account_totalprice.result, [\\\"Opportunity.Account.Name\\\"]).asObject()}}\"],[\"Product.Name\",\"{{column(product_totalprice.result, [\\\"Product.Name\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -797,7 +800,11 @@
         "parameters": {
           "customBulkActions": [],
           "exploreLink": true,
-          "step": "raw_opportunity_line_items"
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "step": "raw_opportunity_line_items",
+          "totals": true
         },
         "type": "table"
       },
@@ -976,7 +983,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "textColor": "#FFFFFF",
           "measureAxis2": {
@@ -984,6 +993,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -991,6 +1005,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "normalize": false,
@@ -1000,7 +1019,15 @@
             "showTitle": true,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"

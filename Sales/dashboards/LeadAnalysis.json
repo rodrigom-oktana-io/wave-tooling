@@ -1,7 +1,7 @@
 {
   "label": "Lead Analysis",
   "folder": {
-    "id": "<folderId>"
+    "id": "00lB0000000uig5IAA"
   },
   "state": {
     "dataSourceLinks": [],
@@ -18,7 +18,7 @@
                 "column": 0,
                 "name": "container_1",
                 "row": 4,
-                "rowspan": 6,
+                "rowspan": 7,
                 "widgetStyle": {
                   "borderColor": "rgb(60, 141, 225)",
                   "borderEdges": [
@@ -28,19 +28,23 @@
               },
               {
                 "colspan": 8,
-                "column": 2,
+                "column": 1,
                 "name": "text_1",
-                "row": 4,
+                "row": 5,
                 "rowspan": 6,
                 "widgetStyle": {
-                  "borderEdges": []
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderWidth": 4
                 }
               },
               {
                 "colspan": 9,
                 "column": 13,
                 "name": "ui_open_leads_count",
-                "row": 18,
+                "row": 19,
                 "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -51,7 +55,7 @@
                 "colspan": 10,
                 "column": 1,
                 "name": "ui_lead_conversion_over_time",
-                "row": 44,
+                "row": 45,
                 "rowspan": 20,
                 "widgetStyle": {
                   "borderEdges": []
@@ -61,7 +65,7 @@
                 "colspan": 46,
                 "column": 1,
                 "name": "ui_performance_details",
-                "row": 73,
+                "row": 74,
                 "rowspan": 27,
                 "widgetStyle": {
                   "borderEdges": []
@@ -71,7 +75,7 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_2",
-                "row": 67,
+                "row": 68,
                 "rowspan": 35,
                 "widgetStyle": {
                   "borderEdges": [
@@ -83,7 +87,7 @@
                 "colspan": 46,
                 "column": 1,
                 "name": "text_2",
-                "row": 67,
+                "row": 68,
                 "rowspan": 6,
                 "widgetStyle": {
                   "borderEdges": []
@@ -93,7 +97,7 @@
                 "colspan": 34,
                 "column": 13,
                 "name": "ui_lead_buckets",
-                "row": 28,
+                "row": 29,
                 "rowspan": 8,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -104,7 +108,7 @@
                 "colspan": 10,
                 "column": 25,
                 "name": "ui_top_industries",
-                "row": 44,
+                "row": 45,
                 "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
@@ -114,7 +118,7 @@
                 "colspan": 10,
                 "column": 13,
                 "name": "ui_lead_source",
-                "row": 44,
+                "row": 45,
                 "rowspan": 21,
                 "widgetStyle": {
                   "borderColor": "#FFFFFF",
@@ -128,7 +132,7 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "ui_lead_conversion_yes_no",
-                "row": 18,
+                "row": 19,
                 "rowspan": 18,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -139,38 +143,38 @@
                 "colspan": 10,
                 "column": 37,
                 "name": "ui_leads_by_region_map",
-                "row": 44,
+                "row": 45,
                 "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
-                "column": 13,
+                "colspan": 4,
+                "column": 12,
                 "name": "link_1",
                 "row": 7,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 6,
-                "column": 23,
-                "name": "link_2",
-                "row": 7,
-                "rowspan": 3,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 5,
-                "column": 18,
+                "column": 21,
+                "name": "link_2",
+                "row": 7,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 16,
                 "name": "text_3",
                 "row": 7,
-                "rowspan": 3,
+                "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "rgb(60, 141, 225)",
@@ -182,31 +186,31 @@
                 }
               },
               {
-                "colspan": 5,
-                "column": 29,
+                "colspan": 4,
+                "column": 32,
                 "name": "link_3",
                 "row": 7,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 5,
-                "column": 34,
-                "name": "link_4",
-                "row": 7,
-                "rowspan": 3,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
                 }
               },
               {
                 "colspan": 4,
-                "column": 39,
+                "column": 36,
+                "name": "link_4",
+                "row": 7,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 40,
                 "name": "link_5",
                 "row": 7,
-                "rowspan": 3,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -216,7 +220,7 @@
                 "column": 43,
                 "name": "link_by_product",
                 "row": 7,
-                "rowspan": 3,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -225,7 +229,7 @@
                 "colspan": 12,
                 "column": 0,
                 "name": "container_3",
-                "row": 16,
+                "row": 17,
                 "rowspan": 22,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -239,7 +243,7 @@
                 "colspan": 36,
                 "column": 12,
                 "name": "container_5",
-                "row": 16,
+                "row": 17,
                 "rowspan": 22,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -250,7 +254,7 @@
                 "colspan": 6,
                 "column": 41,
                 "name": "ui_time_dropdown",
-                "row": 11,
+                "row": 12,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#E6ECF2",
@@ -261,7 +265,7 @@
                 "colspan": 9,
                 "column": 25,
                 "name": "ui_converted_leads_count",
-                "row": 18,
+                "row": 19,
                 "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -272,7 +276,7 @@
                 "colspan": 9,
                 "column": 38,
                 "name": "ui_conversion_rate",
-                "row": 18,
+                "row": 19,
                 "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "#091A3E",
@@ -283,7 +287,7 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_6",
-                "row": 10,
+                "row": 11,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#E6ECF2",
@@ -297,7 +301,7 @@
                 "colspan": 6,
                 "column": 9,
                 "name": "listselector_3",
-                "row": 11,
+                "row": 12,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#E6ECF2",
@@ -311,7 +315,7 @@
                 "colspan": 7,
                 "column": 1,
                 "name": "listselector_4",
-                "row": 11,
+                "row": 12,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#E6ECF2",
@@ -325,7 +329,7 @@
                 "colspan": 11,
                 "column": 1,
                 "name": "text_4",
-                "row": 41,
+                "row": 42,
                 "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
@@ -335,7 +339,7 @@
                 "colspan": 10,
                 "column": 13,
                 "name": "ui_text_lead_source",
-                "row": 41,
+                "row": 42,
                 "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
@@ -345,7 +349,7 @@
                 "colspan": 10,
                 "column": 37,
                 "name": "text_6",
-                "row": 41,
+                "row": 42,
                 "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
@@ -355,7 +359,7 @@
                 "colspan": 10,
                 "column": 25,
                 "name": "ui_text_industry",
-                "row": 41,
+                "row": 42,
                 "rowspan": 3,
                 "widgetStyle": {
                   "borderEdges": []
@@ -365,7 +369,7 @@
                 "colspan": 48,
                 "column": 0,
                 "name": "container_11",
-                "row": 38,
+                "row": 39,
                 "rowspan": 29,
                 "widgetStyle": {
                   "borderEdges": []
@@ -375,7 +379,7 @@
                 "colspan": 8,
                 "column": 13,
                 "name": "ui_text_rating",
-                "row": 25,
+                "row": 26,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(9, 26, 62)",
@@ -383,6 +387,16 @@
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 26,
+                "name": "link_6",
+                "row": 7,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
                 }
               }
             ]
@@ -738,12 +752,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"IsConverted\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"IsConverted\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -751,7 +765,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"<lead>\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('Country') as 'Country', first('Industry') as 'Industry', first('Owner.Name') as 'Owner.Name', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'IsConverted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'sum_LeadAge';",
+        "query": "q = load \"lead4\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('State') as 'State', first('Industry') as 'Industry', first('UserOrQueueName') as 'UserOrQueueName', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'IsConverted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'sum_LeadAge';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -768,12 +782,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Status\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Status\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -788,12 +802,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"LeadSource\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"LeadSource\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -808,12 +822,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"true\"],\"in\"],[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"true\"],\"in\"],[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -833,7 +847,7 @@
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -849,12 +863,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"false\"],\"in\"],[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"IsConverted\",[\"false\"],\"in\"],[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -869,12 +883,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.Name\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"UserOrQueueName\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -889,12 +903,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Country\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"State\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -909,12 +923,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -951,12 +965,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Rating\"],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Rating\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       },
@@ -964,7 +978,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "leads = load \"<lead>\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate__c_Year', 'CreatedDate__c_Month', 'CreatedDate__c_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
+        "query": "leads = load \"lead4\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -982,12 +996,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"ConvertedDate_Year\",\"ConvertedDate_Week\"]],\"filters\":[[\"CreatedDate__c\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"IsConverted\",[\"true\"],\"in\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"ConvertedDate_Year\",\"ConvertedDate_Week\"]],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"],[\"IsConverted\",[\"true\"],\"in\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<lead>"
+            "name": "lead4"
           }
         ]
       }
@@ -1069,9 +1083,11 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
-          "map": "World Countries"
+          "map": "US States"
         },
         "type": "chart"
       },
@@ -1094,6 +1110,9 @@
         "parameters": {
           "customBulkActions": [],
           "exploreLink": true,
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
           "step": "performance_details"
         },
         "type": "table"
@@ -1149,7 +1168,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "binValues": false,
           "measureAxis2": {
@@ -1157,6 +1178,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1164,6 +1190,11 @@
             "showTitle": false,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "step": "lead_source",
@@ -1172,7 +1203,15 @@
             "showTitle": false,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"
@@ -1221,7 +1260,6 @@
             "position": "bottom-center",
             "inside": false
           },
-          "showTotal": true,
           "visualizationType": "pie",
           "step": "lead_conversion_yes_no",
           "theme": "dark",
@@ -1235,9 +1273,14 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
-          "inner": 70
+          "inner": 70,
+          "centerValueType": "number",
+          "valueType": "compactNumber",
+          "centerText": ""
         },
         "type": "chart"
       },
@@ -1305,7 +1348,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "fillArea": false,
           "showZero": true,
@@ -1314,6 +1359,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1321,6 +1371,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "step": "lead_conversion_over_time",
@@ -1398,7 +1453,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "binValues": false,
           "measureAxis2": {
@@ -1406,6 +1463,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1413,6 +1475,11 @@
             "showTitle": false,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "step": "top_industries",
@@ -1421,7 +1488,15 @@
             "showTitle": false,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"
@@ -1479,7 +1554,7 @@
       },
       "link_3": {
         "parameters": {
-          "destination": "<PerformanceByCustomer>",
+          "destination": "0FKB00000002NauOAE",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1522,13 +1597,20 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1536,6 +1618,11 @@
             "showTitle": false,
             "showAxis": false,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "normalize": false,
@@ -1545,14 +1632,22 @@
             "showTitle": true,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"
       },
       "link_4": {
         "parameters": {
-          "destination": "<PerformanceByGeography>",
+          "destination": "0FKB00000002NavOAE",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1564,7 +1659,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "<LeaderOverview>",
+          "destination": "0FKB00000002NarOAE",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1576,7 +1671,7 @@
       },
       "link_by_product": {
         "parameters": {
-          "destination": "<PerformanceByProduct>",
+          "destination": "0FKB00000002NawOAE",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1588,7 +1683,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "<LeaderPipelineChanges>",
+          "destination": "0FKB00000002NasOAE",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
@@ -1615,11 +1710,25 @@
       },
       "link_5": {
         "parameters": {
-          "destination": "<PerformanceBySource>",
+          "destination": "0FKB00000002NaxOAE",
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
           "text": "By Source",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_6": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Sales_Stage_Analysis"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 14,
+          "includeState": false,
+          "text": "Sales Stage Analysis",
           "textAlignment": "center",
           "textColor": "#091A3E"
         },

@@ -1,7 +1,7 @@
 {
   "label": "Summary of Account",
   "folder": {
-    "id": "<folderId>"
+    "id": "00lB0000000uig5IAA"
   },
   "state": {
     "dataSourceLinks": [],
@@ -257,6 +257,7 @@
             ]
           }
         ],
+        "rowHeight": "normal",
         "selectors": [],
         "style": {
           "alignmentX": "left",
@@ -267,8 +268,7 @@
           "documentId": "",
           "fit": "original"
         },
-        "version": 1,
-        "rowHeight": "normal"
+        "version": 1
       },
       {
         "name": "Mobile",
@@ -595,6 +595,7 @@
             ]
           }
         ],
+        "rowHeight": "normal",
         "selectors": [
           "minWidth(320)",
           "maxWidth(599)"
@@ -608,8 +609,7 @@
           "documentId": "",
           "fit": "original"
         },
-        "version": 1,
-        "rowHeight": "normal"
+        "version": 1
       }
     ],
     "layouts": [],
@@ -647,7 +647,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -667,7 +667,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -698,7 +698,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -719,7 +719,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -739,7 +739,7 @@
         },
         "datasets": [
           {
-            "name": "<activity>"
+            "name": "activity4"
           }
         ]
       },
@@ -759,7 +759,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -780,7 +780,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -800,7 +800,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity_products>"
+            "name": "opportunity_products4"
           }
         ]
       },
@@ -819,7 +819,7 @@
         },
         "datasets": [
           {
-            "name": "<case>"
+            "name": "case4"
           }
         ]
       },
@@ -856,7 +856,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -876,7 +876,7 @@
         },
         "datasets": [
           {
-            "name": "<case>"
+            "name": "case4"
           }
         ]
       },
@@ -890,12 +890,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Days_Open\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = foreach a generate first('Owner.Name') as 'Owner.Name', sum('CloseDate_day_epoch') - sum('CreatedDate__c_day_epoch') as 'Days_Open'; a = group a by all; a = foreach a generate avg('Days_Open') as 'avg_Days_Open';\",\"groups\":[],\"order\":[]}",
+          "query": "{\"measures\":[[\"avg\",\"OpportunityAge\"]],\"filters\":[[\"AccountId\",\"{{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -915,7 +915,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -935,7 +935,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -949,12 +949,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"win_rate\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; won = filter a by 'IsWon' == \\\"true\\\"; closed = filter a by 'IsClosed' == \\\"true\\\"; q = group won by all, closed by all; q = foreach q generate sum(won['Amount']) / sum(closed['Amount']) as 'avg_win_rate';\",\"groups\":[],\"dimensions\":[],\"order\":[]}",
+          "query": "{\"measures\":[[\"avg\",\"win_rate\"]],\"pigql\":\"a = load \\\"opportunity4\\\"; a = filter a by {{coalesce(column(account_id_filter.result, [\\\"AccountId\\\"]),\\\"0\\\").asEquality(\\\"AccountId\\\")}}; won = filter a by 'IsWon' == \\\"true\\\"; closed = filter a by 'IsClosed' == \\\"true\\\"; q = group won by all, closed by all; q = foreach q generate sum(won['Amount']) / sum(closed['Amount']) as 'avg_win_rate';\",\"groups\":[],\"dimensions\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       },
@@ -974,7 +974,7 @@
         },
         "datasets": [
           {
-            "name": "<opportunity>"
+            "name": "opportunity4"
           }
         ]
       }
@@ -1021,7 +1021,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": true,
-          "measureField": "avg_Days_Open",
+          "measureField": "avg_OpportunityAge",
           "numberColor": "#FFFFFF",
           "numberSize": 18,
           "step": "avg_sales_cycle",
@@ -1170,7 +1170,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "colors": {
             "mediumColor2": "#F29946",
@@ -1249,7 +1251,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "colors": {
             "mediumColor2": "#F29946",
@@ -1307,7 +1311,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "colors": {
             "mediumColor2": "#F29946",
@@ -1364,7 +1370,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "colors": {
             "mediumColor2": "#F29946",
@@ -1410,7 +1418,6 @@
             "position": "bottom-center",
             "inside": false
           },
-          "showTotal": true,
           "visualizationType": "pie",
           "theme": "light",
           "step": "open_by_forecast",
@@ -1424,9 +1431,14 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
-          "inner": 80
+          "inner": 80,
+          "centerValueType": "number",
+          "valueType": "compactNumber",
+          "centerText": ""
         },
         "type": "chart"
       },
@@ -1482,7 +1494,9 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "binValues": false,
           "measureAxis2": {
@@ -1490,6 +1504,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1497,6 +1516,11 @@
             "showTitle": false,
             "showAxis": false,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "theme": "light",
@@ -1505,7 +1529,15 @@
             "showTitle": false,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"
@@ -1563,13 +1595,20 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1577,6 +1616,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "step": "mobile_cases_by_status",
@@ -1585,7 +1629,15 @@
             "showTitle": false,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"
@@ -1634,13 +1686,20 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "measureAxis1": {
@@ -1648,6 +1707,11 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
+            "customDomain": {
+              "showDomain": false,
+              "low": null,
+              "high": null
+            },
             "referenceLine": null
           },
           "step": "mobile_opportunities_closing_this_month",
@@ -1656,7 +1720,15 @@
             "showTitle": true,
             "customSize": "auto",
             "showAxis": true,
-            "title": ""
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "column": "",
+                "fit": "cover",
+                "type": "round"
+              }
+            }
           }
         },
         "type": "chart"
@@ -1724,7 +1796,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": true,
-          "measureField": "avg_Days_Open",
+          "measureField": "avg_OpportunityAge",
           "numberColor": "#FFFFFF",
           "numberSize": 24,
           "step": "avg_sales_cycle",
@@ -1799,7 +1871,6 @@
             "inside": false
           },
           "showMeasureTitle": false,
-          "showTotal": true,
           "visualizationType": "pie",
           "step": "mobile_activiites_by_type",
           "theme": "dark",
@@ -1813,10 +1884,15 @@
             "enable": false,
             "type": "x",
             "parameters": {},
-            "chartsPerLine": 4
+            "chartsPerLine": 4,
+            "showGridLines": true,
+            "flipLabels": false
           },
           "textColor": "#FFFFFF",
-          "inner": 80
+          "inner": 80,
+          "centerValueType": "number",
+          "valueType": "compactNumber",
+          "centerText": ""
         },
         "type": "chart"
       }
