@@ -5,20 +5,6 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/Wave_For_Sales_Dataflow.json",
 	"objects": [
 		{
-			"name": "Contact",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Contact.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Contact_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Account.External_Id__c",
-					"targetSObject" : "Account",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "AccountId"
-				}
-			]
-		},
-		{
 			"name": "Case",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Case.csv",
 			"additionalDataFiles": 0,
