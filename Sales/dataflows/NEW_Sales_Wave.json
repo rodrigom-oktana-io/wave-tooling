@@ -2570,8 +2570,7 @@
     "Extract_Quota":{
         "action":"edgemart",
         "parameters":{
-            "alias":"<plain_quota>",
-            "folderid": "<folderId>"
+            "alias":"<plain_quota>"
         }
     },
     "Add_Fields_To_Task":{
