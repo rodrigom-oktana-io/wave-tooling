@@ -1,7 +1,7 @@
 {
   "label": "Lead Analysis",
   "folder": {
-    "id": "00lB0000000RJbPIAW"
+    "id": "00lB0000000ujXCIAY"
   },
   "state": {
     "dataSourceLinks": [],
@@ -787,7 +787,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -795,7 +795,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"lead1\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('Country') as 'Country',  first('UserOrQueueName') as 'UserOrQueueName', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'Converted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'Age';",
+        "query": "q = load \"lead5\"; q = filter q by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; q = group q by 'Id'; q = foreach q generate first('Name') as 'Name', first('Company') as 'Company', first('State') as 'State',  first('UserOrQueueName') as 'UserOrQueueName', first('Rating') as 'Rating', first('LeadSource') as 'LeadSource', first('IsConverted') as 'Converted', first('ConvertedDate') as 'ConvertedDate', sum('LeadAge') as 'Age';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -817,7 +817,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -837,7 +837,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -857,7 +857,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -877,7 +877,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -898,7 +898,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -918,7 +918,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -933,12 +933,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Country\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"State\"],\"filters\":[[\"CreatedDate\",\"{{column(time_dropdown.selection, [\\\"current\\\"]).asObject()}}\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -958,7 +958,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -1000,7 +1000,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       },
@@ -1008,7 +1008,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "leads = load \"lead1\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
+        "query": "leads = load \"lead5\"; leads = filter leads by {{cell(time_dropdown.selection, 0, \"current\").asDateRange(\"date('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Day')\")}}; converted = filter leads by 'IsConverted' == \"true\"; converted = group converted by all; converted = foreach converted generate count() as 'count_converted'; leads = group leads by all; leads = foreach leads generate count() as 'count_all'; q = group leads by all full, converted by all; q = foreach q generate sum(leads['count_all']) as 'count_all', sum(converted['count_converted']) as 'count_converted'; q = foreach q generate coalesce('count_converted' / 'count_all', 0) as 'sum_percent';",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -1031,7 +1031,7 @@
         },
         "datasets": [
           {
-            "name": "lead1"
+            "name": "lead5"
           }
         ]
       }
@@ -1117,7 +1117,7 @@
             "parameters": {},
             "chartsPerLine": 4
           },
-          "map": "World Countries"
+          "map": "US States"
         },
         "type": "chart"
       },
@@ -1278,7 +1278,7 @@
           "alignmentY": "top",
           "fit": "fitwidth",
           "image": {
-            "name": "SalesWaveLogo2",
+            "name": "SalesWaveLogo",
             "namespace": ""
           }
         },
@@ -1596,7 +1596,7 @@
       },
       "link_3": {
         "parameters": {
-          "destination": "0FKB0000000D9X7OAK",
+          "destination": "0FKB00000002OOWOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1690,7 +1690,7 @@
       },
       "link_4": {
         "parameters": {
-          "destination": "0FKB0000000D9X8OAK",
+          "destination": "0FKB00000002OOXOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1702,7 +1702,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FKB0000000D9X3OAK",
+          "destination": "0FKB00000002OOSOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1714,7 +1714,7 @@
       },
       "link_by_product": {
         "parameters": {
-          "destination": "0FKB0000000D9X9OAK",
+          "destination": "0FKB00000002OOYOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1726,7 +1726,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB0000000D9X4OAK",
+          "destination": "0FKB00000002OOTOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1784,7 +1784,7 @@
       "link_8": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Stage_Analysis2",
+            "name": "Sales_Stage_Analysis1",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -1798,7 +1798,7 @@
       },
       "link_5": {
         "parameters": {
-          "destination": "0FKB0000000D9XAOA0",
+          "destination": "0FKB00000002OOZOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1810,7 +1810,7 @@
       },
       "link_6": {
         "parameters": {
-          "destination": "0FKB0000000D9X0OAK",
+          "destination": "0FKB00000002OOPOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,

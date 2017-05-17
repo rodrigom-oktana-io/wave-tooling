@@ -1,7 +1,7 @@
 {
   "label": "Sales Analytics Home",
   "folder": {
-    "id": "00lB0000000RJbPIAW"
+    "id": "00lB0000000ujXCIAY"
   },
   "state": {
     "dataSourceLinks": [],
@@ -1292,12 +1292,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"],[\"last\",\"year\"]],\"pigql\":\"q = load \\\"opportunity1\\\"; won_this_year = filter q by 'IsWon' == \\\"true\\\";won_this_year = filter won_this_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"];closed_this_year = filter q by 'IsClosed' == \\\"true\\\"; closed_this_year = filter closed_this_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"];won_last_year = filter q by 'IsWon' == \\\"true\\\"; won_last_year = filter won_last_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"];closed_last_year = filter q by 'IsClosed' == \\\"true\\\"; closed_last_year = filter closed_last_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"];result = group won_this_year by all full, closed_this_year by all full, won_last_year by all full, closed_last_year by all;result = foreach result generate sum(won_this_year['Amount']) as 'A', sum(closed_this_year['Amount']) as 'B', sum(won_last_year['Amount']) as 'C', sum(closed_last_year['Amount']) as 'D';result = foreach result generate ((A/B) - (C/D)) / (C/D) as 'sum_percent',(C/D) as 'last_year' ;result = foreach result generate (case when 'sum_percent' < 0 then \\\"#E3193B\\\" when 'sum_percent' > 0 then \\\"#067D1E\\\" else \\\"#192B61\\\" end) as 'color', 'sum_percent' as 'sum_percent','last_year';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"],[\"last\",\"year\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; won_this_year = filter q by 'IsWon' == \\\"true\\\";won_this_year = filter won_this_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"];closed_this_year = filter q by 'IsClosed' == \\\"true\\\"; closed_this_year = filter closed_this_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"];won_last_year = filter q by 'IsWon' == \\\"true\\\"; won_last_year = filter won_last_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"];closed_last_year = filter q by 'IsClosed' == \\\"true\\\"; closed_last_year = filter closed_last_year by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"];result = group won_this_year by all full, closed_this_year by all full, won_last_year by all full, closed_last_year by all;result = foreach result generate sum(won_this_year['Amount']) as 'A', sum(closed_this_year['Amount']) as 'B', sum(won_last_year['Amount']) as 'C', sum(closed_last_year['Amount']) as 'D';result = foreach result generate ((A/B) - (C/D)) / (C/D) as 'sum_percent',(C/D) as 'last_year' ;result = foreach result generate (case when 'sum_percent' < 0 then \\\"#E3193B\\\" when 'sum_percent' > 0 then \\\"#067D1E\\\" else \\\"#192B61\\\" end) as 'color', 'sum_percent' as 'sum_percent','last_year';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1317,7 +1317,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1336,7 +1336,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1351,12 +1351,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"opportunity1\\\"; a = filter a by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"3 year ago\\\"..\\\"current year\\\"]; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = group a by ('CloseDate_Year', 'CloseDate_Month','CloseDate_Day');  a = foreach a generate 'CloseDate_Year' + \\\"~~~\\\" + 'CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; a = foreach a generate 'CloseDate_Year~~~CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', avg('Days_Open') as 'avg_Days_Open';\",\"measures\":[[\"avg\",\"Days_Open\"]],\"groups\":[[\"CloseDate_Year\",\"CloseDate_Month\"]]}",
+          "query": "{\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"3 year ago\\\"..\\\"current year\\\"]; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = group a by ('CloseDate_Year', 'CloseDate_Month','CloseDate_Day');  a = foreach a generate 'CloseDate_Year' + \\\"~~~\\\" + 'CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; a = foreach a generate 'CloseDate_Year~~~CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', avg('Days_Open') as 'avg_Days_Open';\",\"measures\":[[\"avg\",\"Days_Open\"]],\"groups\":[[\"CloseDate_Year\",\"CloseDate_Month\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1371,12 +1371,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"opportunity1\\\"; q = filter q by 'IsWon' == \\\"true\\\"; this_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; last_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]; this_year = foreach this_year generate avg('Amount') as 'Amount'; last_year = foreach last_year generate avg('Amount') as 'Amount'; result = group this_year by all full, last_year by all; result = foreach result generate (avg(this_year['Amount']) - avg(last_year['Amount']))/avg(last_year['Amount']) as 'sum_percent', avg(last_year['Amount'])  as 'last_year'; result = foreach result generate (case when 'sum_percent' < 0 then \\\"#E3193B\\\" when 'sum_percent' > 0 then \\\"#067D1E\\\" else \\\"#192B61\\\" end) as 'color', 'sum_percent' as 'sum_percent', 'last_year';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = filter q by 'IsWon' == \\\"true\\\"; this_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; last_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]; this_year = foreach this_year generate avg('Amount') as 'Amount'; last_year = foreach last_year generate avg('Amount') as 'Amount'; result = group this_year by all full, last_year by all; result = foreach result generate (avg(this_year['Amount']) - avg(last_year['Amount']))/avg(last_year['Amount']) as 'sum_percent', avg(last_year['Amount'])  as 'last_year'; result = foreach result generate (case when 'sum_percent' < 0 then \\\"#E3193B\\\" when 'sum_percent' > 0 then \\\"#067D1E\\\" else \\\"#192B61\\\" end) as 'color', 'sum_percent' as 'sum_percent', 'last_year';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1396,7 +1396,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1416,7 +1416,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1425,7 +1425,7 @@
         "isFacet": true,
         "label": "new_win_rate",
         "numbers": [],
-        "query": "q = load \"opportunity1\";\nq_A = filter q by (date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"current year\"..\"current day\"]) && ('IsWon' == \"true\");\nq_B = filter q by (date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"current year\"..\"current day\"]) && ('IsClosed' == \"true\");\nresult = group q_A by 'all' full, q_B by 'all';\nresult = foreach result generate sum(q_A.'Amount') as 'A', sum(q_B.'Amount') as 'B';\nresult = foreach result generate  'A' / 'B'  as 'C';\nresult = limit result 2000;",
+        "query": "q = load \"opportunity5\";\nq_A = filter q by (date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"current year\"..\"current day\"]) && ('IsWon' == \"true\");\nq_B = filter q by (date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"current year\"..\"current day\"]) && ('IsClosed' == \"true\");\nresult = group q_A by 'all' full, q_B by 'all';\nresult = foreach result generate sum(q_A.'Amount') as 'A', sum(q_B.'Amount') as 'B';\nresult = foreach result generate  'A' / 'B'  as 'C';\nresult = limit result 2000;",
         "selectMode": "single",
         "strings": [],
         "type": "saql",
@@ -1447,7 +1447,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1462,12 +1462,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"Days_Open\"]],\"pigql\":\"a = load \\\"opportunity1\\\"; a = filter a by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = foreach a generate sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; a = group a by all; a = foreach a generate avg('Days_Open') as 'avg_Days_Open';\"}",
+          "query": "{\"measures\":[[\"avg\",\"Days_Open\"]],\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = filter a by 'IsClosed' == \\\"true\\\"; a = filter a by 'IsWon' == \\\"true\\\"; a = foreach a generate sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; a = group a by all; a = foreach a generate avg('Days_Open') as 'avg_Days_Open';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1482,12 +1482,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"opportunity1\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by 'IsWon' == \\\"true\\\"; a = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]; b = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = foreach a generate sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; b = foreach b generate sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; c = group a by all full, b by all; c = foreach c generate avg(a.'Days_Open') as 'A', avg(b.'Days_Open') as 'B'; c = foreach c generate (B-A)/A as 'sum_percent', A as 'last_year'; c = foreach c generate (case when 'sum_percent' > 0 then \\\"#E3193B\\\" when 'sum_percent' < 0 then \\\"#067D1E\\\" else \\\"#192B61\\\" end) as 'color', 'sum_percent' as 'sum_percent','last_year' as 'last_year';\",\"groups\":[]}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = filter q by 'IsClosed' == \\\"true\\\"; q = filter q by 'IsWon' == \\\"true\\\"; a = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]; b = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = foreach a generate sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; b = foreach b generate sum('CloseDate_day_epoch') - sum('CreatedDate_day_epoch') as 'Days_Open'; c = group a by all full, b by all; c = foreach c generate avg(a.'Days_Open') as 'A', avg(b.'Days_Open') as 'B'; c = foreach c generate (B-A)/A as 'sum_percent', A as 'last_year'; c = foreach c generate (case when 'sum_percent' > 0 then \\\"#E3193B\\\" when 'sum_percent' < 0 then \\\"#067D1E\\\" else \\\"#192B61\\\" end) as 'color', 'sum_percent' as 'sum_percent','last_year' as 'last_year';\",\"groups\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1503,12 +1503,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"opportunity1\\\"; q = filter q by 'IsWon' == \\\"true\\\";this_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"];last_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]; this_year = foreach this_year generate sum('Amount') as 'Amount';last_year = foreach last_year generate sum('Amount') as 'Amount';result = group this_year by all full, last_year by all; result = foreach result generate (sum(this_year['Amount']) - sum(last_year['Amount']))/sum(last_year['Amount']) as 'sum_percent', sum(last_year['Amount']) as 'last_year'; result = foreach result generate 'sum_percent','last_year', (case when 'sum_percent' > 0 then \\\"#067D1E\\\" when 'sum_percent' < 0 then \\\"#E3193B\\\" else \\\"#192B61\\\" end) as 'color';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = filter q by 'IsWon' == \\\"true\\\";this_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"];last_year = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\\\"current year - 1 year\\\"..\\\"current day - 1 year\\\"]; this_year = foreach this_year generate sum('Amount') as 'Amount';last_year = foreach last_year generate sum('Amount') as 'Amount';result = group this_year by all full, last_year by all; result = foreach result generate (sum(this_year['Amount']) - sum(last_year['Amount']))/sum(last_year['Amount']) as 'sum_percent', sum(last_year['Amount']) as 'last_year'; result = foreach result generate 'sum_percent','last_year', (case when 'sum_percent' > 0 then \\\"#067D1E\\\" when 'sum_percent' < 0 then \\\"#E3193B\\\" else \\\"#192B61\\\" end) as 'color';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       },
@@ -1516,7 +1516,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"opportunity1\";\nq = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"3 years ago\"..\"current year\"];\nq = filter q by 'IsWon' == \"true\";\nq = group q by ('CloseDate_Year', 'CloseDate_Month');\nq = foreach q generate ('CloseDate_Year' + \"~~~\") + 'CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', avg('Amount') as 'avg_Amount';\nq = order q by 'CloseDate_Year~~~CloseDate_Month' asc;\nq = limit q 2000;",
+        "query": "q = load \"opportunity5\";\nq = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"3 years ago\"..\"current year\"];\nq = filter q by 'IsWon' == \"true\";\nq = group q by ('CloseDate_Year', 'CloseDate_Month');\nq = foreach q generate ('CloseDate_Year' + \"~~~\") + 'CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', avg('Amount') as 'avg_Amount';\nq = order q by 'CloseDate_Year~~~CloseDate_Month' asc;\nq = limit q 2000;",
         "selectMode": "multi",
         "strings": [],
         "type": "saql",
@@ -1526,7 +1526,7 @@
         "groups": [],
         "isFacet": true,
         "numbers": [],
-        "query": "q = load \"opportunity1\";\nq = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"3 years ago\"..\"current year\"];\nq = filter q by 'IsWon' == \"true\";\nq = group q by ('CloseDate_Year', 'CloseDate_Month');\nq = foreach q generate ('CloseDate_Year' + \"~~~\") + 'CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', sum('Amount') as 'sum_Amount';\nq = order q by 'CloseDate_Year~~~CloseDate_Month' asc;\nq = limit q 2000;",
+        "query": "q = load \"opportunity5\";\nq = filter q by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [\"3 years ago\"..\"current year\"];\nq = filter q by 'IsWon' == \"true\";\nq = group q by ('CloseDate_Year', 'CloseDate_Month');\nq = foreach q generate ('CloseDate_Year' + \"~~~\") + 'CloseDate_Month' as 'CloseDate_Year~~~CloseDate_Month', sum('Amount') as 'sum_Amount';\nq = order q by 'CloseDate_Year~~~CloseDate_Month' asc;\nq = limit q 2000;",
         "selectMode": "multi",
         "strings": [],
         "type": "saql",
@@ -1548,7 +1548,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity1"
+            "name": "opportunity5"
           }
         ]
       }
@@ -2504,7 +2504,7 @@
       "link_34": {
         "parameters": {
           "destinationLink": {
-            "name": "Manager_Opportunity_Discovery2",
+            "name": "Manager_Opportunity_Discovery",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2564,7 +2564,7 @@
       "link_30": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Stage_Analysis2",
+            "name": "Sales_Stage_Analysis1",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2647,7 +2647,7 @@
       "link_47": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Rep_Pipeline_Changes2",
+            "name": "Sales_Rep_Pipeline_Changes",
             "namespace": ""
           },
           "destinationType": "dashboard",

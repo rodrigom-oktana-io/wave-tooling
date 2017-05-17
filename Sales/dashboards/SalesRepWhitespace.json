@@ -1,7 +1,7 @@
 {
   "label": "Sales Rep Whitespace",
   "folder": {
-    "id": "00lB0000000RJbPIAW"
+    "id": "00lB0000000ujXCIAY"
   },
   "state": {
     "dataSourceLinks": [],
@@ -541,7 +541,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -560,7 +560,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -579,7 +579,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -598,7 +598,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -634,7 +634,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -654,7 +654,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -699,7 +699,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -714,12 +714,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"groups\":[\"Opportunity.Account.BillingCountry\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"TotalPrice\"]],\"groups\":[\"Opportunity.Account.BillingState\"],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -738,7 +738,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -759,7 +759,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -794,7 +794,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -813,7 +813,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -832,7 +832,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products1"
+            "name": "opportunity_products5"
           }
         ]
       },
@@ -1017,7 +1017,7 @@
           "alignmentY": "top",
           "fit": "fitwidth",
           "image": {
-            "name": "SalesWaveLogo2",
+            "name": "SalesWaveLogo",
             "namespace": ""
           }
         },
@@ -1285,7 +1285,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB0000000D9X5OAK",
+          "destination": "0FKB00000002OOUOA2",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1312,7 +1312,7 @@
           "alignmentY": "top",
           "fit": "fitheight",
           "image": {
-            "name": "OpportunityLogo2",
+            "name": "OpportunityLogo",
             "namespace": ""
           }
         },
