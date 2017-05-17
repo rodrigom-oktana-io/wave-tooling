@@ -1,7 +1,7 @@
 {
   "label": "Sales Rep Overview",
   "folder": {
-    "id": "00lB0000000ujXCIAY"
+    "id": "<folderId>"
   },
   "state": {
     "dataSourceLinks": [],
@@ -974,12 +974,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"amount\"]],\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; b = filter a by 'IsWon' == \\\"true\\\" || 'IsClosed' == \\\"false\\\"; b = group b by all; b = foreach b generate \\\"Forecast\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; c = filter a by 'IsWon' == \\\"true\\\"; c = group c by all; c = foreach c generate \\\"Won\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; d = group a by all; d = foreach d generate coalesce({{cell(kpi_quota_forecast_hidden.result, 0, \\\"sum_QuotaAmount\\\").asString()}}, 0) as 'sum_amount', \\\"Quota\\\" as 'Group'; e = union c, b, d;\",\"groups\":[\"Group\"]}",
+          "query": "{\"measures\":[[\"sum\",\"amount\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; b = filter a by 'IsWon' == \\\"true\\\" || 'IsClosed' == \\\"false\\\"; b = group b by all; b = foreach b generate \\\"Forecast\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; c = filter a by 'IsWon' == \\\"true\\\"; c = group c by all; c = foreach c generate \\\"Won\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; d = group a by all; d = foreach d generate coalesce({{cell(kpi_quota_forecast_hidden.result, 0, \\\"sum_QuotaAmount\\\").asString()}}, 0) as 'sum_amount', \\\"Quota\\\" as 'Group'; e = union c, b, d;\",\"groups\":[\"Group\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -994,12 +994,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"team_opptys = load \\\"opportunity5\\\"; team_opptys = filter team_opptys by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; team_opptys = filter team_opptys by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; team_opptys = filter team_opptys by 'IsClosed' == \\\"false\\\"; team_opptys = group team_opptys by 'OwnerId'; team_opptys = foreach team_opptys generate 'OwnerId' as 'OwnerId', coalesce(sum('Amount'), 0) as 'owner_amount'; team_opptys = group team_opptys by all; team_opptys = foreach team_opptys generate coalesce(coalesce(sum('owner_amount'), 0) / unique('OwnerId'), 0) as 'team_avg'; team_opptys = foreach team_opptys generate coalesce(({{coalesce(cell(kpi_open_pipe.result, 0, \\\"sum_Amount\\\"), 0).asObject()}} - coalesce(sum('team_avg'), 0)) / coalesce(sum('team_avg'), 0), 0) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"team_opptys = load \\\"<opportunity>\\\"; team_opptys = filter team_opptys by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; team_opptys = filter team_opptys by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; team_opptys = filter team_opptys by 'IsClosed' == \\\"false\\\"; team_opptys = group team_opptys by 'OwnerId'; team_opptys = foreach team_opptys generate 'OwnerId' as 'OwnerId', coalesce(sum('Amount'), 0) as 'owner_amount'; team_opptys = group team_opptys by all; team_opptys = foreach team_opptys generate coalesce(coalesce(sum('owner_amount'), 0) / unique('OwnerId'), 0) as 'team_avg'; team_opptys = foreach team_opptys generate coalesce(({{coalesce(cell(kpi_open_pipe.result, 0, \\\"sum_Amount\\\"), 0).asObject()}} - coalesce(sum('team_avg'), 0)) / coalesce(sum('team_avg'), 0), 0) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1014,12 +1014,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"opp = load \\\"opportunity5\\\"; opp = filter opp by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; opp = filter opp by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; opp = filter opp by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; opp = filter opp by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; opp = filter opp by 'IsWon' == \\\"true\\\"; today = filter opp by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [..\\\"current day\\\"]; last_week = filter opp by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [..\\\"7 days ago\\\"]; s = group today by all full, last_week by all; s = foreach s generate (case when coalesce(sum(last_week['Amount']), 0) == 0 && coalesce(sum(today['Amount']), 0) > 0 then 1.0 else coalesce((coalesce(sum(today['Amount']), 0) - coalesce(sum(last_week['Amount']), 0)) / coalesce(sum(last_week['Amount']), 0), 0) end) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"opp = load \\\"<opportunity>\\\"; opp = filter opp by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; opp = filter opp by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; opp = filter opp by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; opp = filter opp by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; opp = filter opp by 'IsWon' == \\\"true\\\"; today = filter opp by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [..\\\"current day\\\"]; last_week = filter opp by date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day') in [..\\\"7 days ago\\\"]; s = group today by all full, last_week by all; s = foreach s generate (case when coalesce(sum(last_week['Amount']), 0) == 0 && coalesce(sum(today['Amount']), 0) > 0 then 1.0 else coalesce((coalesce(sum(today['Amount']), 0) - coalesce(sum(last_week['Amount']), 0)) / coalesce(sum(last_week['Amount']), 0), 0) end) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1034,12 +1034,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\",\"color\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = group q by all; q = foreach q generate {{coalesce(cell(kpi_activities_completed_comparision.result, 0, \\\"sum_percent\\\"), 0).asObject()}} as 'sum_percent'; q = foreach q generate (case when 'sum_percent' > 0 then \\\"#0BA976\\\" when 'sum_percent' < 0 then \\\"#C03757\\\" else \\\"#44517D\\\" end) as 'color', 'sum_percent' as 'sum_percent';\",\"autoFilter\":false}",
+          "query": "{\"measures\":[[\"sum\",\"percent\",\"color\"]],\"pigql\":\"q = load \\\"<opportunity>\\\"; q = group q by all; q = foreach q generate {{coalesce(cell(kpi_activities_completed_comparision.result, 0, \\\"sum_percent\\\"), 0).asObject()}} as 'sum_percent'; q = foreach q generate (case when 'sum_percent' > 0 then \\\"#0BA976\\\" when 'sum_percent' < 0 then \\\"#C03757\\\" else \\\"#44517D\\\" end) as 'color', 'sum_percent' as 'sum_percent';\",\"autoFilter\":false}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1078,12 +1078,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"team_opptys = load \\\"opportunity5\\\"; team_opptys = filter team_opptys by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\")}}; team_opptys = filter team_opptys by 'IsWon' == \\\"true\\\"; team_opptys = group team_opptys by 'OwnerId'; team_opptys = foreach team_opptys generate 'OwnerId' as 'OwnerId', coalesce(sum('Amount'), 0) as 'owner_amount'; team_opptys = group team_opptys by all; team_opptys = foreach team_opptys generate coalesce(coalesce(sum('owner_amount'), 0) / unique('OwnerId'), 0) as 'team_avg'; team_opptys = foreach team_opptys generate coalesce(({{coalesce(cell(kpi_closed_won.result, 0, \\\"sum_Amount\\\"), 0).asObject()}} - coalesce(sum('team_avg'), 0)) / coalesce(sum('team_avg'), 0), 0) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"team_opptys = load \\\"<opportunity>\\\"; team_opptys = filter team_opptys by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; team_opptys = filter team_opptys by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\")}}; team_opptys = filter team_opptys by 'IsWon' == \\\"true\\\"; team_opptys = group team_opptys by 'OwnerId'; team_opptys = foreach team_opptys generate 'OwnerId' as 'OwnerId', coalesce(sum('Amount'), 0) as 'owner_amount'; team_opptys = group team_opptys by all; team_opptys = foreach team_opptys generate coalesce(coalesce(sum('owner_amount'), 0) / unique('OwnerId'), 0) as 'team_avg'; team_opptys = foreach team_opptys generate coalesce(({{coalesce(cell(kpi_closed_won.result, 0, \\\"sum_Amount\\\"), 0).asObject()}} - coalesce(sum('team_avg'), 0)) / coalesce(sum('team_avg'), 0), 0) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1098,12 +1098,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}} || 'IsWon' == \\\"true\\\"; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = group a by all; b = foreach a generate (case when {{coalesce(cell(kpi_quota_forecast_hidden.result, 0, \\\"sum_QuotaAmount\\\"), 0).asObject()}} - sum('Amount') > 0 then {{coalesce(cell(kpi_quota_forecast_hidden.result, 0, \\\"sum_QuotaAmount\\\"), 0).asObject()}} - sum('Amount') else 0 end) as 'sum_QuotaAmount';\",\"measures\":[[\"sum\",\"QuotaAmount\"]]}",
+          "query": "{\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}} || 'IsWon' == \\\"true\\\"; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = group a by all; b = foreach a generate (case when {{coalesce(cell(kpi_quota_forecast_hidden.result, 0, \\\"sum_QuotaAmount\\\"), 0).asObject()}} - sum('Amount') > 0 then {{coalesce(cell(kpi_quota_forecast_hidden.result, 0, \\\"sum_QuotaAmount\\\"), 0).asObject()}} - sum('Amount') else 0 end) as 'sum_QuotaAmount';\",\"measures\":[[\"sum\",\"QuotaAmount\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "quota5"
+            "name": "<quota>"
           }
         ]
       },
@@ -1122,7 +1122,7 @@
         },
         "datasets": [
           {
-            "name": "user5"
+            "name": "<user>"
           }
         ]
       },
@@ -1137,12 +1137,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"opp_history = load \\\"pipeline_trending5\\\"; opp_history = filter opp_history by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; opp_history = filter opp_history by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; opp_history = filter opp_history by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; opp_history = filter opp_history by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; opp_history = filter opp_history by 'Stage.IsClosed' == \\\"false\\\"; today = filter opp_history by date('ValidFromDate_Year', 'ValidFromDate_Month', 'ValidFromDate_Day') in [..\\\"current day\\\"]; today = filter today by date('ValidToDate_Year', 'ValidToDate_Month', 'ValidToDate_Day') in [\\\"1 day ahead\\\"..]; today = foreach today generate coalesce(sum('Amount'), 0) as 'Amount'; last_week = filter opp_history by date('ValidFromDate_Year', 'ValidFromDate_Month', 'ValidFromDate_Day') in [..\\\"8 day ago\\\"]; last_week = filter last_week by date('ValidToDate_Year', 'ValidToDate_Month', 'ValidToDate_Day') in [\\\"7 days ago\\\"..]; last_week = foreach last_week generate coalesce(sum('Amount'), 0) as 'AmountP'; s = group today by all full, last_week by all; s = foreach s generate (case when coalesce(sum(last_week['AmountP']), 0) == 0 && coalesce(sum(today['Amount']), 0) > 0 then 1.0 else coalesce((coalesce(sum(today['Amount']), 0) - coalesce(sum(last_week['AmountP']), 0)) / coalesce(sum(last_week['AmountP']), 0), 0) end) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"opp_history = load \\\"<pipeline_trending>\\\"; opp_history = filter opp_history by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Opportunity.Owner.Name\\\")}}; opp_history = filter opp_history by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; opp_history = filter opp_history by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; opp_history = filter opp_history by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; opp_history = filter opp_history by 'Stage.IsClosed' == \\\"false\\\"; today = filter opp_history by date('ValidFromDate_Year', 'ValidFromDate_Month', 'ValidFromDate_Day') in [..\\\"current day\\\"]; today = filter today by date('ValidToDate_Year', 'ValidToDate_Month', 'ValidToDate_Day') in [\\\"1 day ahead\\\"..]; today = foreach today generate coalesce(sum('Amount'), 0) as 'Amount'; last_week = filter opp_history by date('ValidFromDate_Year', 'ValidFromDate_Month', 'ValidFromDate_Day') in [..\\\"8 day ago\\\"]; last_week = filter last_week by date('ValidToDate_Year', 'ValidToDate_Month', 'ValidToDate_Day') in [\\\"7 days ago\\\"..]; last_week = foreach last_week generate coalesce(sum('Amount'), 0) as 'AmountP'; s = group today by all full, last_week by all; s = foreach s generate (case when coalesce(sum(last_week['AmountP']), 0) == 0 && coalesce(sum(today['Amount']), 0) > 0 then 1.0 else coalesce((coalesce(sum(today['Amount']), 0) - coalesce(sum(last_week['AmountP']), 0)) / coalesce(sum(last_week['AmountP']), 0), 0) end) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "pipeline_trending5"
+            "name": "<pipeline_trending>"
           }
         ]
       },
@@ -1162,7 +1162,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1181,7 +1181,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1200,7 +1200,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1220,7 +1220,7 @@
         },
         "datasets": [
           {
-            "name": "quota5"
+            "name": "<quota>"
           }
         ]
       },
@@ -1235,12 +1235,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\",\"color\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = group q by all; q = foreach q generate {{coalesce(cell(kpi_open_pipe_comparision.result, 0, \\\"sum_percent\\\"), 0).asObject()}} as 'sum_percent'; q = foreach q generate (case when 'sum_percent' > 0 then \\\"#0BA976\\\" when 'sum_percent' < 0 then \\\"#C03757\\\" else \\\"#44517D\\\" end) as 'color', 'sum_percent' as 'sum_percent';\",\"autoFilter\":false}",
+          "query": "{\"measures\":[[\"sum\",\"percent\",\"color\"]],\"pigql\":\"q = load \\\"<opportunity>\\\"; q = group q by all; q = foreach q generate {{coalesce(cell(kpi_open_pipe_comparision.result, 0, \\\"sum_percent\\\"), 0).asObject()}} as 'sum_percent'; q = foreach q generate (case when 'sum_percent' > 0 then \\\"#0BA976\\\" when 'sum_percent' < 0 then \\\"#C03757\\\" else \\\"#44517D\\\" end) as 'color', 'sum_percent' as 'sum_percent';\",\"autoFilter\":false}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1260,7 +1260,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1275,12 +1275,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"activity5\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; today = filter a by date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day') in [\\\"7 days ago\\\"..\\\"current day\\\"]; last_week = filter a by date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day') in [\\\"15 days ago\\\"..\\\"8 days ago\\\"]; q = group today by all full, last_week by all; q = foreach q generate coalesce(count('today'), 0) as 'today', coalesce(count('last_week'), 0) as 'last_week'; q = foreach q generate (case when coalesce(sum('last_week'), 0) == 0 && coalesce(sum('today'), 0) > 0 then 1.0 else coalesce((coalesce(sum('today'), 0) - coalesce(sum('last_week'), 0)) / coalesce(sum('last_week'), 0), 0) end) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"<activity>\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; today = filter a by date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day') in [\\\"7 days ago\\\"..\\\"current day\\\"]; last_week = filter a by date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day') in [\\\"15 days ago\\\"..\\\"8 days ago\\\"]; q = group today by all full, last_week by all; q = foreach q generate coalesce(count('today'), 0) as 'today', coalesce(count('last_week'), 0) as 'last_week'; q = foreach q generate (case when coalesce(sum('last_week'), 0) == 0 && coalesce(sum('today'), 0) > 0 then 1.0 else coalesce((coalesce(sum('today'), 0) - coalesce(sum('last_week'), 0)) / coalesce(sum('last_week'), 0), 0) end) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "activity5"
+            "name": "<activity>"
           }
         ]
       },
@@ -1299,7 +1299,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1313,12 +1313,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = group a by 'ForecastCategoryName'; a = foreach a generate 'ForecastCategoryName' as 'ForecastCategoryName', (case when 'ForecastCategoryName' == \\\"Closed\\\" then - 1 else avg('Stage.SortOrder')end) as 'SortOrder'; a = order a by 'SortOrder' asc;\",\"measures\":[],\"groups\":[\"ForecastCategoryName\"]}",
+          "query": "{\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = group a by 'ForecastCategoryName'; a = foreach a generate 'ForecastCategoryName' as 'ForecastCategoryName', (case when 'ForecastCategoryName' == \\\"Closed\\\" then - 1 else avg('Stage.SortOrder')end) as 'SortOrder'; a = order a by 'SortOrder' asc;\",\"measures\":[],\"groups\":[\"ForecastCategoryName\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1338,7 +1338,7 @@
         },
         "datasets": [
           {
-            "name": "activity5"
+            "name": "<activity>"
           }
         ]
       },
@@ -1353,12 +1353,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = filter q by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; q = filter q by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; q = filter q by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; q = filter q by 'IsClosed' == \\\"false\\\"; q = filter q by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}}; q = filter q by {{column(dropdown_stage_list.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; q = group q by ('Id', 'Name'); q = foreach q generate 'Id' as 'Id', 'Name' as 'Name', sum('Amount') as 'sum_Amount', sum('DaysSinceLastActivity') as 'DaysBetween'; q = filter q by 'DaysBetween' > 60; q = order q by 'sum_Amount' desc; q = limit q 10;\",\"groups\":[\"Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"pigql\":\"q = load \\\"<opportunity>\\\"; q = filter q by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; q = filter q by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; q = filter q by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; q = filter q by 'IsClosed' == \\\"false\\\"; q = filter q by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}}; q = filter q by {{column(dropdown_stage_list.selection, [\\\"StageName\\\"]).asEquality(\\\"StageName\\\")}}; q = group q by ('Id', 'Name'); q = foreach q generate 'Id' as 'Id', 'Name' as 'Name', sum('Amount') as 'sum_Amount', sum('DaysSinceLastActivity') as 'DaysBetween'; q = filter q by 'DaysBetween' > 60; q = order q by 'sum_Amount' desc; q = limit q 10;\",\"groups\":[\"Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1373,12 +1373,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"amount\"]],\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; b = filter a by 'IsWon' == \\\"true\\\" || 'IsClosed' == \\\"false\\\"; b = group b by all; b = foreach b generate \\\"Forecast\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; c = filter a by 'IsWon' == \\\"true\\\"; c = group c by all; c = foreach c generate \\\"Won\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; e = union c, b;\",\"groups\":[\"Group\"]}",
+          "query": "{\"measures\":[[\"sum\",\"amount\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; b = filter a by 'IsWon' == \\\"true\\\" || 'IsClosed' == \\\"false\\\"; b = group b by all; b = foreach b generate \\\"Forecast\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; c = filter a by 'IsWon' == \\\"true\\\"; c = group c by all; c = foreach c generate \\\"Won\\\" as 'Group', coalesce(sum('Amount'), 0) as 'sum_amount'; e = union c, b;\",\"groups\":[\"Group\"]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1393,12 +1393,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\",\"color\"]],\"pigql\":\"q = load \\\"opportunity5\\\"; q = group q by all; q = foreach q generate {{coalesce(cell(kpi_closed_won_comparision.result, 0, \\\"sum_percent\\\"), 0).asObject()}} as 'sum_percent'; q = foreach q generate (case when 'sum_percent' > 0 then \\\"#0BA976\\\" when 'sum_percent' < 0 then \\\"#C03757\\\" else \\\"#44517D\\\" end) as 'color', 'sum_percent' as 'sum_percent';\",\"autoFilter\":false}",
+          "query": "{\"measures\":[[\"sum\",\"percent\",\"color\"]],\"pigql\":\"q = load \\\"<opportunity>\\\"; q = group q by all; q = foreach q generate {{coalesce(cell(kpi_closed_won_comparision.result, 0, \\\"sum_percent\\\"), 0).asObject()}} as 'sum_percent'; q = foreach q generate (case when 'sum_percent' > 0 then \\\"#0BA976\\\" when 'sum_percent' < 0 then \\\"#C03757\\\" else \\\"#44517D\\\" end) as 'color', 'sum_percent' as 'sum_percent';\",\"autoFilter\":false}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1418,7 +1418,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1433,12 +1433,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"pigql\":\"a = load \\\"opportunity5\\\"; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}}; a = group a by ('CloseDate_Year', 'CloseDate_Week'); a = foreach a generate 'CloseDate_Year' + \\\"~~~\\\" + 'CloseDate_Week' as 'CloseDate_Year~~~CloseDate_Week', sum(sum('Amount')) over([.. 0] partition by all order by ('CloseDate_Year', 'CloseDate_Week')) as 'sum_Amount';\",\"groups\":[[\"CloseDate_Year\",\"CloseDate_Week\"]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"pigql\":\"a = load \\\"<opportunity>\\\"; a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; a = filter a by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}}; a = group a by ('CloseDate_Year', 'CloseDate_Week'); a = foreach a generate 'CloseDate_Year' + \\\"~~~\\\" + 'CloseDate_Week' as 'CloseDate_Year~~~CloseDate_Week', sum(sum('Amount')) over([.. 0] partition by all order by ('CloseDate_Year', 'CloseDate_Week')) as 'sum_Amount';\",\"groups\":[[\"CloseDate_Year\",\"CloseDate_Week\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1471,12 +1471,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"QuotaAmount\"]],\"pigql\":\"b = load \\\"quota5\\\"; b = filter b by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; b = filter b by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; b = group b by all; b = foreach b generate coalesce(sum('QuotaAmount'), 0) as 'sum_QuotaAmount';\"}",
+          "query": "{\"measures\":[[\"sum\",\"QuotaAmount\"]],\"pigql\":\"b = load \\\"<quota>\\\"; b = filter b by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; b = filter b by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; b = group b by all; b = foreach b generate coalesce(sum('QuotaAmount'), 0) as 'sum_QuotaAmount';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "quota5"
+            "name": "<quota>"
           }
         ]
       },
@@ -1491,12 +1491,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"activity5\\\"; a = filter a by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\"); a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day')\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = group a by 'OwnerId'; a = foreach a generate count() as 'owner_count', 'OwnerId' as 'OwnerId'; a = group a by all; a = foreach a generate coalesce(coalesce(sum('owner_count'), 0) / unique('OwnerId'), 0) as 'team_avg'; a = foreach a generate coalesce(({{coalesce(cell(kpi_activities_completed.result, 0, \\\"count\\\"), 0).asObject()}} - coalesce(sum('team_avg'), 0)) / coalesce(sum('team_avg'), 0), 0) as 'sum_percent';\"}",
+          "query": "{\"measures\":[[\"sum\",\"percent\"]],\"pigql\":\"a = load \\\"<activity>\\\"; a = filter a by {{column(dropdown_parent_id_hidden.result, [\\\"Role.DeveloperName\\\"]).asEquality(\\\"Owner.Role.DeveloperName\\\"); a = filter a by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"Opportunity.RecordType.Name\\\")}}; a = filter a by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Opportunity.Type\\\")}}; a = filter a by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('ActivityDate_Year', 'ActivityDate_Month', 'ActivityDate_Day')\\\")}}; a = filter a by 'IsClosed' == \\\"true\\\"; a = group a by 'OwnerId'; a = foreach a generate count() as 'owner_count', 'OwnerId' as 'OwnerId'; a = group a by all; a = foreach a generate coalesce(coalesce(sum('owner_count'), 0) / unique('OwnerId'), 0) as 'team_avg'; a = foreach a generate coalesce(({{coalesce(cell(kpi_activities_completed.result, 0, \\\"count\\\"), 0).asObject()}} - coalesce(sum('team_avg'), 0)) / coalesce(sum('team_avg'), 0), 0) as 'sum_percent';\"}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "activity5"
+            "name": "<activity>"
           }
         ]
       },
@@ -1511,12 +1511,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"won = load \\\"opportunity5\\\"; won = filter won by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; won = filter won by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; won = filter won by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; won = filter won by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; won = filter won by 'IsWon' == \\\"true\\\"; won = foreach won generate coalesce(sum('Amount'), 0) as 'sum_Amount'; quota = load \\\"quota5\\\"; quota = filter quota by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; quota = filter quota by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; quota = group quota by all; quota = foreach quota generate coalesce(sum('QuotaAmount'), 0) as 'sum_quota'; remain = group won by all full, quota by all; remain = foreach remain generate coalesce(sum(quota['sum_quota']), 0) - coalesce(sum(won['sum_Amount']), 0) as 'sum_remaining_quota'; remain = foreach remain generate (case when sum('sum_remaining_quota') > 0 then sum('sum_remaining_quota') else 0 end) as 'sum_remaining_quota';\",\"measures\":[[\"sum\",\"remaining_quota\"]]}",
+          "query": "{\"pigql\":\"won = load \\\"<opportunity>\\\"; won = filter won by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; won = filter won by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; won = filter won by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; won = filter won by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; won = filter won by 'IsWon' == \\\"true\\\"; won = foreach won generate coalesce(sum('Amount'), 0) as 'sum_Amount'; quota = load \\\"<quota>\\\"; quota = filter quota by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; quota = filter quota by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; quota = group quota by all; quota = foreach quota generate coalesce(sum('QuotaAmount'), 0) as 'sum_quota'; remain = group won by all full, quota by all; remain = foreach remain generate coalesce(sum(quota['sum_quota']), 0) - coalesce(sum(won['sum_Amount']), 0) as 'sum_remaining_quota'; remain = foreach remain generate (case when sum('sum_remaining_quota') > 0 then sum('sum_remaining_quota') else 0 end) as 'sum_remaining_quota';\",\"measures\":[[\"sum\",\"remaining_quota\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1531,12 +1531,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"AnnualRevenue\"]],\"pigql\":\"a = load \\\"account5\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; b = load \\\"opportunity5\\\"; c = group a by 'Name' left, b by 'Account.Name'; c = foreach c generate a['Name'] as 'Name', b['Account.Name'] as 'Account.Name', coalesce(sum(a['AnnualRevenue']), 0) as 'sum_AnnualRevenue'; c = filter c by 'Account.Name' is null; c = order c by 'sum_AnnualRevenue' desc; c = limit c 10;\",\"groups\":[\"Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
+          "query": "{\"measures\":[[\"sum\",\"AnnualRevenue\"]],\"pigql\":\"a = load \\\"<account>\\\"; a = filter a by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; b = load \\\"<opportunity>\\\"; c = group a by 'Name' left, b by 'Account.Name'; c = foreach c generate a['Name'] as 'Name', b['Account.Name'] as 'Account.Name', coalesce(sum(a['AnnualRevenue']), 0) as 'sum_AnnualRevenue'; c = filter c by 'Account.Name' is null; c = order c by 'sum_AnnualRevenue' desc; c = limit c 10;\",\"groups\":[\"Name\"],\"order\":[[-1,{\"ascending\":false}]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "account5"
+            "name": "<account>"
           }
         ]
       },
@@ -1551,12 +1551,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"won = load \\\"opportunity5\\\"; won = filter won by 'IsWon' == \\\"true\\\"; won = filter won by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; won = filter won by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; won = filter won by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; won = filter won by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; q = load \\\"quota5\\\"; q = filter q by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; q = filter q by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; attainment = group won by all full, q by all; attainment = foreach attainment generate (case when sum(won['Amount']) / sum(q['QuotaAmount']) > 0 then sum(won['Amount']) / sum(q['QuotaAmount']) else 0 end) as 'sum_quota_attainment';\",\"measures\":[[\"sum\",\"quota_attainment\"]]}",
+          "query": "{\"pigql\":\"won = load \\\"<opportunity>\\\"; won = filter won by 'IsWon' == \\\"true\\\"; won = filter won by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; won = filter won by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; won = filter won by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; won = filter won by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; q = load \\\"<quota>\\\"; q = filter q by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; q = filter q by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; attainment = group won by all full, q by all; attainment = foreach attainment generate (case when sum(won['Amount']) / sum(q['QuotaAmount']) > 0 then sum(won['Amount']) / sum(q['QuotaAmount']) else 0 end) as 'sum_quota_attainment';\",\"measures\":[[\"sum\",\"quota_attainment\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1571,12 +1571,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"won = load \\\"opportunity5\\\"; won = filter won by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; won = filter won by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; won = filter won by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; won = filter won by 'IsWon' == \\\"true\\\"; won = filter won by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; quota = load \\\"quota5\\\"; quota = filter quota by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; quota = filter quota by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; remaining_quota = group won by all full, quota by all; remaining_quota = foreach remaining_quota generate sum(quota['QuotaAmount']) as 'quota', coalesce(sum(won['Amount']), 0) as 'amount'; remaining_quota = foreach remaining_quota generate (case when sum('quota') - sum('amount') > 0 then sum('quota') - sum('amount') else 0 end) as 'remaining_quota'; open = load \\\"opportunity5\\\"; open = filter open by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; open = filter open by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; open = filter open by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}}; open = filter open by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; open = filter open by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; open = filter open by 'IsClosed' == \\\"false\\\"; coverage = group remaining_quota by all full, open by all; coverage = foreach coverage generate coalesce(sum(open['Amount']), 0) as 'amount', sum(remaining_quota['remaining_quota']) as 'remaining_quota'; coverage = foreach coverage generate round(coalesce(sum('amount') / sum('remaining_quota'), 0), 1) as 'sum_pipe_coverage'; f = filter coverage by 'sum_pipe_coverage' > 0;\",\"measures\":[[\"sum\",\"pipe_coverage\"]]}",
+          "query": "{\"pigql\":\"won = load \\\"<opportunity>\\\"; won = filter won by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; won = filter won by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; won = filter won by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; won = filter won by 'IsWon' == \\\"true\\\"; won = filter won by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; quota = load \\\"<quota>\\\"; quota = filter quota by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('StartDate_Year', 'StartDate_Month', 'StartDate_Day')\\\")}}; quota = filter quota by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"User.Name\\\")}}; remaining_quota = group won by all full, quota by all; remaining_quota = foreach remaining_quota generate sum(quota['QuotaAmount']) as 'quota', coalesce(sum(won['Amount']), 0) as 'amount'; remaining_quota = foreach remaining_quota generate (case when sum('quota') - sum('amount') > 0 then sum('quota') - sum('amount') else 0 end) as 'remaining_quota'; open = load \\\"<opportunity>\\\"; open = filter open by {{column(dropdown_record_type.selection, [\\\"RecordType.Name\\\"]).asEquality(\\\"RecordType.Name\\\")}}; open = filter open by {{column(dropdown_opportunity_type.selection, [\\\"Type\\\"]).asEquality(\\\"Type\\\")}}; open = filter open by {{column(dropdown_forecast_category.selection, [\\\"ForecastCategoryName\\\"]).asEquality(\\\"ForecastCategoryName\\\")}}; open = filter open by {{cell(dropdown_close_date.selection, 0, \\\"current\\\").asDateRange(\\\"date('CloseDate_Year', 'CloseDate_Month', 'CloseDate_Day')\\\")}}; open = filter open by {{column(dropdown_id_hidden.selection, [\\\"Owner.Name\\\"]).asEquality(\\\"Owner.Name\\\")}}; open = filter open by 'IsClosed' == \\\"false\\\"; coverage = group remaining_quota by all full, open by all; coverage = foreach coverage generate coalesce(sum(open['Amount']), 0) as 'amount', sum(remaining_quota['remaining_quota']) as 'remaining_quota'; coverage = foreach coverage generate round(coalesce(sum('amount') / sum('remaining_quota'), 0), 1) as 'sum_pipe_coverage'; f = filter coverage by 'sum_pipe_coverage' > 0;\",\"measures\":[[\"sum\",\"pipe_coverage\"]]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       },
@@ -1596,7 +1596,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity5"
+            "name": "<opportunity>"
           }
         ]
       }
@@ -2698,7 +2698,7 @@
       "link_3": {
         "parameters": {
           "destinationLink": {
-            "name": "About_Wave_for_Sales2",
+            "name": "<SalesAnalyticsHome>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2712,7 +2712,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FKB00000002OOROA2",
+          "destination": "<SalesRepWhitespace>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -2724,7 +2724,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB00000002OOUOA2",
+          "destination": "<Trending>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,

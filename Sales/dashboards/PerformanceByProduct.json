@@ -1,7 +1,7 @@
 {
   "label": "Performance by Product",
   "folder": {
-    "id": "00lB0000000ujXCIAY"
+    "id": "<folderId>"
   },
   "state": {
     "dataSourceLinks": [],
@@ -849,7 +849,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -869,7 +869,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -889,7 +889,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -909,7 +909,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -930,7 +930,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -946,12 +946,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity_products5\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; p = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; p = foreach p generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'TotalPrice'; r = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current quarter\\\"..\\\"current day\\\"]; r = foreach r generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisQuarter'; s = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 quarter ago\\\"..\\\"current day - 1 quarter\\\"]; s = foreach s generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastQuarter'; t = union r, s; t = group t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; t = foreach t generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisQuarter'), 0) - coalesce(sum('LastQuarter'), 0)) / coalesce(sum('LastQuarter'), 0), 0) as 'QoQ'; a = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = foreach a generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisYear'; b = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; b = foreach b generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastYear'; c = union a, b; c = group c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; c = foreach c generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisYear'), 0) - coalesce(sum('LastYear'), 0)) / coalesce(sum('LastYear'), 0), 0) as 'YoY'; x = group p by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; x = foreach x generate coalesce(p.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(t.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, c.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}})) as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum(p.'TotalPrice'), 0) as 'sum_TotalPrice', coalesce(sum(t.'QoQ'), 0) as 'sum_QoQ', coalesce(sum(c.'YoY'), 0) as 'sum_YoY'; x = order x by {{cell(step_grouping.selection, 0, \\\"order\\\").asObject()}} desc;\",\"measures\":\"{{cell(step_grouping.selection, 0, \\\"measure\\\").asObject()}}\",\"autoFilter\":true,\"groups\":[\"{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asObject()}}\"],\"filters\":[],\"order\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"<opportunity_products>\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; p = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; p = foreach p generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'TotalPrice'; r = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current quarter\\\"..\\\"current day\\\"]; r = foreach r generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisQuarter'; s = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 quarter ago\\\"..\\\"current day - 1 quarter\\\"]; s = foreach s generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastQuarter'; t = union r, s; t = group t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; t = foreach t generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisQuarter'), 0) - coalesce(sum('LastQuarter'), 0)) / coalesce(sum('LastQuarter'), 0), 0) as 'QoQ'; a = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; a = foreach a generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'ThisYear'; b = filter q by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; b = foreach b generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum('TotalPrice'), 0) as 'LastYear'; c = union a, b; c = group c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; c = foreach c generate {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce((coalesce(sum('ThisYear'), 0) - coalesce(sum('LastYear'), 0)) / coalesce(sum('LastYear'), 0), 0) as 'YoY'; x = group p by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, t by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}} full, c by {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}; x = foreach x generate coalesce(p.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(t.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, c.{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}})) as {{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asGrouping()}}, coalesce(sum(p.'TotalPrice'), 0) as 'sum_TotalPrice', coalesce(sum(t.'QoQ'), 0) as 'sum_QoQ', coalesce(sum(c.'YoY'), 0) as 'sum_YoY'; x = order x by {{cell(step_grouping.selection, 0, \\\"order\\\").asObject()}} desc;\",\"measures\":\"{{cell(step_grouping.selection, 0, \\\"measure\\\").asObject()}}\",\"autoFilter\":true,\"groups\":[\"{{cell(dropdown_product_level_group.selection, 0, \\\"value\\\").asObject()}}\"],\"filters\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -965,12 +965,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"avg\",\"win_rate\"],[\"sum\",\"TotalPrice\"]],\"pigql\":\"a = load \\\"opportunity_products5\\\"; a = filter a by 'Opportunity.IsWon' == \\\"true\\\"; b = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; c = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; d = group b by all full, c by all; d = foreach d generate coalesce((coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0)) / coalesce(sum(c['TotalPrice']), 0), 0) as 'avg_win_rate', coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0) as 'sum_TotalPrice'; fake = load \\\"opportunity_products5\\\"; fake = group fake by all; fake = foreach fake generate 0 as 'sum_TotalPrice', 0 as 'avg_win_rate'; final = union d, fake; final = group final by all; final = foreach final generate sum('sum_TotalPrice') as 'sum_TotalPrice', sum('avg_win_rate') as 'avg_win_rate';\",\"autoFilter\":true,\"groups\":[],\"dimensions\":[],\"order\":[]}",
+          "query": "{\"measures\":[[\"avg\",\"win_rate\"],[\"sum\",\"TotalPrice\"]],\"pigql\":\"a = load \\\"<opportunity_products>\\\"; a = filter a by 'Opportunity.IsWon' == \\\"true\\\"; b = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"current year\\\"..\\\"current day\\\"]; c = filter a by date('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Month', 'Opportunity.CloseDate_Day') in [\\\"1 year ago\\\"..\\\"current day - 1 year\\\"]; d = group b by all full, c by all; d = foreach d generate coalesce((coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0)) / coalesce(sum(c['TotalPrice']), 0), 0) as 'avg_win_rate', coalesce(sum(b['TotalPrice']), 0) - coalesce(sum(c['TotalPrice']), 0) as 'sum_TotalPrice'; fake = load \\\"<opportunity_products>\\\"; fake = group fake by all; fake = foreach fake generate 0 as 'sum_TotalPrice', 0 as 'avg_win_rate'; final = union d, fake; final = group final by all; final = foreach final generate sum('sum_TotalPrice') as 'sum_TotalPrice', sum('avg_win_rate') as 'avg_win_rate';\",\"autoFilter\":true,\"groups\":[],\"dimensions\":[],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -990,7 +990,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1012,7 +1012,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1032,7 +1032,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1055,7 +1055,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1070,12 +1070,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"opportunity_products5\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter'); q = foreach q generate 'Opportunity.CloseDate_Year' + \\\"~~~\\\" + 'Opportunity.CloseDate_Quarter' as 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', sum('TotalPrice') as 'TotalPrice', sum(sum('TotalPrice')) over ([ - 4.. - 4] partition by all order by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter')) as 'last'; q = foreach q generate 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter' as'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', (sum('TotalPrice') - sum('last')) / sum('last') as 'sum_QoQ'; q = offset q 4;\",\"measures\":[[\"sum\",\"QoQ\"]],\"autoFilter\":true,\"groups\":[[\"Opportunity.CloseDate_Year\",\"Opportunity.CloseDate_Quarter\"]],\"filters\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"<opportunity_products>\\\"; q = filter q by 'Opportunity.IsWon' == \\\"true\\\"; q = group q by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter'); q = foreach q generate 'Opportunity.CloseDate_Year' + \\\"~~~\\\" + 'Opportunity.CloseDate_Quarter' as 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', sum('TotalPrice') as 'TotalPrice', sum(sum('TotalPrice')) over ([ - 4.. - 4] partition by all order by ('Opportunity.CloseDate_Year', 'Opportunity.CloseDate_Quarter')) as 'last'; q = foreach q generate 'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter' as'Opportunity.CloseDate_Year~~~Opportunity.CloseDate_Quarter', (sum('TotalPrice') - sum('last')) / sum('last') as 'sum_QoQ'; q = offset q 4;\",\"measures\":[[\"sum\",\"QoQ\"]],\"autoFilter\":true,\"groups\":[[\"Opportunity.CloseDate_Year\",\"Opportunity.CloseDate_Quarter\"]],\"filters\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1095,7 +1095,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1115,7 +1115,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1152,7 +1152,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1173,7 +1173,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1211,7 +1211,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1225,12 +1225,12 @@
           "options": {}
         },
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"finalcf\",null,{\"display\":\" \"}]],\"pigql\":\"a = load \\\"opportunity_products5\\\"; a = foreach a generate (case when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) > 0 then \\\"#3CAF6D\\\" when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) < 0 then \\\"#D4504C\\\" else \\\"#7D98B3\\\" end) as 'RAG'; a = group a by 'RAG'; a = foreach a generate 'RAG' as 'RAG', 0.95 as 'sum_finalcf';\",\"groups\":[\"RAG\"],\"order\":[]}",
+          "query": "{\"measures\":[[\"sum\",\"finalcf\",null,{\"display\":\" \"}]],\"pigql\":\"a = load \\\"<opportunity_products>\\\"; a = foreach a generate (case when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) > 0 then \\\"#3CAF6D\\\" when coalesce( {{column(kpi_yoy_percent_and_diff.result, [\\\"sum_TotalPrice\\\"]).asObject() }}, 0) < 0 then \\\"#D4504C\\\" else \\\"#7D98B3\\\" end) as 'RAG'; a = group a by 'RAG'; a = foreach a generate 'RAG' as 'RAG', 0.95 as 'sum_finalcf';\",\"groups\":[\"RAG\"],\"order\":[]}",
           "version": -1
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1250,7 +1250,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1270,7 +1270,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       }
@@ -1339,7 +1339,7 @@
       "link_overview": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Ops_Manager_Overview2",
+            "name": "<CompanyOverview>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -1977,7 +1977,7 @@
       "link_lead_analysis": {
         "parameters": {
           "destinationLink": {
-            "name": "Lead_Analysis2",
+            "name": "<LeadAnalysis>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2171,7 +2171,7 @@
       "link_by_customer": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Customer2",
+            "name": "<PerformanceByCustomer>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2214,7 +2214,7 @@
       "link_pipeline_changes": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Ops_Pipeline_Changes2",
+            "name": "<CompanyTrending>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2242,7 +2242,7 @@
       "link_by_source": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Source2",
+            "name": "<PerformanceBySource>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2258,7 +2258,7 @@
       "link_by_geography": {
         "parameters": {
           "destinationLink": {
-            "name": "Performance_by_Geography2",
+            "name": "<PerformanceByGeography>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2274,7 +2274,7 @@
       "link_3": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Ops_Pipeline_Changes2",
+            "name": "<CompanyTrending>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2290,7 +2290,7 @@
       "link_4": {
         "parameters": {
           "destinationLink": {
-            "name": "About_Wave_for_Sales2",
+            "name": "<SalesAnalyticsHome>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2305,7 +2305,7 @@
       "link_1": {
         "parameters": {
           "destinationLink": {
-            "name": "Manager_Overview2",
+            "name": "<Leaderboard>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -2320,7 +2320,7 @@
       "link_2": {
         "parameters": {
           "destinationLink": {
-            "name": "About_Wave_for_Sales2",
+            "name": "<SalesAnalyticsHome>",
             "namespace": ""
           },
           "destinationType": "dashboard",

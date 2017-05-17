@@ -1,7 +1,7 @@
 {
   "label": "Team Whitespace",
   "folder": {
-    "id": "00lB0000000ujXCIAY"
+    "id": "<folderId>"
   },
   "state": {
     "dataSourceLinks": [],
@@ -566,7 +566,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -585,7 +585,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -604,7 +604,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -623,7 +623,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -659,7 +659,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -679,7 +679,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -721,7 +721,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -741,7 +741,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -762,7 +762,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -797,7 +797,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -816,7 +816,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1213,7 +1213,7 @@
       },
       "link_3": {
         "parameters": {
-          "destination": "0FKB00000002OOIOA2",
+          "destination": "<Forecast>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1224,7 +1224,7 @@
       },
       "link_4": {
         "parameters": {
-          "destination": "0FKB00000002OOVOA2",
+          "destination": "<TeamBenchmark>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1236,7 +1236,7 @@
       },
       "link_1": {
         "parameters": {
-          "destination": "0FKB00000002OOPOA2",
+          "destination": "<Leaderboard>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1248,7 +1248,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB00000002OOMOA2",
+          "destination": "<TeamTrending>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
@@ -1261,7 +1261,7 @@
       "link_6": {
         "parameters": {
           "destinationLink": {
-            "name": "About_Wave_for_Sales2",
+            "name": "<SalesAnalyticsHome>",
             "namespace": ""
           },
           "destinationType": "dashboard",

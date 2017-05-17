@@ -1,7 +1,7 @@
 {
   "label": "Sales Rep Whitespace",
   "folder": {
-    "id": "00lB0000000ujXCIAY"
+    "id": "<folderId>"
   },
   "state": {
     "dataSourceLinks": [],
@@ -541,7 +541,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -560,7 +560,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -579,7 +579,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -598,7 +598,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -634,7 +634,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -654,7 +654,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -699,7 +699,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -719,7 +719,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -738,7 +738,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -759,7 +759,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -794,7 +794,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -813,7 +813,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -832,7 +832,7 @@
         },
         "datasets": [
           {
-            "name": "opportunity_products5"
+            "name": "<opportunity_products>"
           }
         ]
       },
@@ -1256,7 +1256,7 @@
       "link_3": {
         "parameters": {
           "destinationLink": {
-            "name": "About_Wave_for_Sales2",
+            "name": "<SalesAnalyticsHome>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -1271,7 +1271,7 @@
       "link_1": {
         "parameters": {
           "destinationLink": {
-            "name": "Sales_Rep_Overview2",
+            "name": "<SalesRepOverview>",
             "namespace": ""
           },
           "destinationType": "dashboard",
@@ -1285,7 +1285,7 @@
       },
       "link_2": {
         "parameters": {
-          "destination": "0FKB00000002OOUOA2",
+          "destination": "<Trending>",
           "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
