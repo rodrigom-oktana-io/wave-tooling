@@ -1172,7 +1172,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"LastModifiedDate",
+                    "name":"LastModifiedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -1197,6 +1197,14 @@
                     "label":"CreatedDate",
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
                     "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"LastModifiedDate",
+                    "type":"Date",
+                    "label":"LastModifiedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(LastModifiedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
                     "default":""
                 }
             ],
@@ -2047,7 +2055,7 @@
                 {
                     "fiscalMonthOffset":0,
                     "firstDayOfWeek":"0",
-                    "name":"LastModifiedDate",
+                    "name":"LastModifiedDate__c",
                     "isYearEndFiscalYear":false
                 },
                 {
@@ -2091,6 +2099,14 @@
                     "label":"CreatedDate",
                     "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
                     "saqlExpression":"toDate(CreatedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
+                    "default":""
+                },
+                {
+                    "name":"LastModifiedDate",
+                    "type":"Date",
+                    "label":"LastModifiedDate",
+                    "format":"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+                    "saqlExpression":"toDate(LastModifiedDate__c, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")",
                     "default":""
                 }
             ],
