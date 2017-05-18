@@ -2,7 +2,7 @@
 	"appName": "Wave for Sales",
 	"appType": "Sales",
 	"appDescription": "This package includes data on Users, Accounts, Opportunities for Wave for Sales. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/Wave_For_Sales_Dataflow.json",
+	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/NEW_Sales_Wave.json",
 	"objects": [
 		{
 			"name": "User",
