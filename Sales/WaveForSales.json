@@ -17,12 +17,6 @@
 					"foreignKeyField" : "OpportunityId"
 				},
 				{
-					"csvColumnName": "Product2.External_Id__c",
-					"targetSObject" : "Product2",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "Product2Id"
-				},
-				{
 					"csvColumnName": "PricebookEntry.External_Id__c",
 					"targetSObject" : "PricebookEntry",
 					"targetSObjectLookupField" : "External_Id__c",
