@@ -5,26 +5,33 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "KCSArticle_kav__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_kav.csv",
+			"name": "Opportunity",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Opportunity.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_kav_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Opportunity_metadata.csv",
 			"relations": [
 				{
-					"csvColumnName": "KCSArticle__ka.External_Id__c",
-					"targetSObject": "KCSArticle_ka__c",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "KnowledgeArticleId__c"
-    			},
-    			{
 					"csvColumnName": "Owner.External_Id__c",
 					"targetSObject" : "User",
 					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OwnerId__c"
+					"foreignKeyField" : "OwnerId"
+				},
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				},
+				{
+					"csvColumnName": "RecordType.Name",
+					"targetSObject" : "RecordType",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "RecordTypeId"
 				}
-  			],
+			],
 			"dateFieldsToShift": [
-				"CreatedDate__c"
+				"DateTimeCreated__c",
+				"LastActivityDate__c"
 			]
 		}
 	],
