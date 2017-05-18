@@ -1,3 +1,4 @@
 Label,Name,Type,ReferenceTo,Length,Precision,Scale,DefaultValue,IsExternalId,IsRequired
 External ID,External_Id__c,Text,,50,0,0,,TRUE,FALSE
 Created Date,CreatedDate__c,DateTime,,0,0,0,,FALSE,FALSE
+Last Modified Date,LastModifiedDate__c,DateTime,,100,0,0,,FALSE,FALSE
