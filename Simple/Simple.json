@@ -5,48 +5,33 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "Task",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Task.csv",
+			"name": "Opportunity",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Opportunity.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Task_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Opportunity_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject": "User",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "OwnerId"
-    			},
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
 				{
-					"csvColumnName": "Case.External_Id__c",
-					"targetSObject": "Case",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "WhatId"
-    			}
-  			],
-			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"LastModifiedDate__c",
-				"ActivityDate"
-			]
-		},
-		{
-			"name": "Event",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Event.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Event_metadata.csv",
-			"relations": [
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				},
 				{
-					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject": "User",
-					"targetSObjectLookupField": "External_Id__c",
-					"foreignKeyField": "OwnerId"
+					"csvColumnName": "RecordType.Name",
+					"targetSObject" : "RecordType",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "RecordTypeId"
 				}
 			],
 			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"LastModifiedDate__c",
-				"ActivityDate",
-				"ActivityDateTime"
+				"DateTimeCreated__c",
+				"LastActivityDate__c"
 			]
 		}
 	],
