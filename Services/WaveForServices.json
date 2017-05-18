@@ -389,6 +389,7 @@
   			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
+				"LastModifiedDate__c",
 				"ActivityDate"
 			]
 		},
@@ -407,6 +408,7 @@
 			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
+				"LastModifiedDate__c",
 				"ActivityDate",
 				"ActivityDateTime"
 			]
