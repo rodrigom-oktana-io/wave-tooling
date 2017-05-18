@@ -302,8 +302,12 @@
 	],
 	"dashboards": [
 		{
-			"Name": "AboutWaveForSales",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/AboutWaveForSales.json"
+			"Name": "CompanyOverview",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/CompanyOverview.json"
+		},
+		{
+			"Name": "CompanyTrending",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/CompanyTrending.json"
 		},
 		{
 			"Name": "ExecOverviewPipelinePerformance",
@@ -318,24 +322,16 @@
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/ExecOverviewServicePerformance.json"
 		},
 		{
+			"Name": "Forecast",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/Forecast.json"
+		},		
+		{
 			"Name": "LeadAnalysis",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/LeadAnalysis.json"
 		},
 		{
-			"Name": "LeaderOverview",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/LeaderOverview.json"
-		},
-		{
-			"Name": "LeaderPipelineChanges",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/LeaderPipelineChanges.json"
-		},
-		{
-			"Name": "ManagerOverview",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/ManagerOverview.json"
-		},
-		{
-			"Name": "OpportunityDiscovery",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/OpportunityDiscovery.json"
+			"Name": "Leaderboard",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/Leaderboard.json"
 		},
 		{
 			"Name": "PerformanceByCustomer",
@@ -354,16 +350,20 @@
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PerformanceBySource.json"
 		},
 		{
-			"Name": "PipelineChanges",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/PipelineChanges.json"
-		},
-		{
-			"Name": "QuotaProgress",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/QuotaProgress.json"
+			"Name": "SalesAnalyticsHome",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SalesAnalyticsHome.json"
 		},
 		{
 			"Name": "SalesRepOverview",
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SalesRepOverview.json"
+		},
+		{
+			"Name": "SalesRepWhitespace",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SalesRepWhitespace.json"
+		},
+		{
+			"Name": "SalesStageAnalysis",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SalesStageAnalysis.json"
 		},
 		{
 			"Name": "SummaryOfAccount",
@@ -374,8 +374,20 @@
 			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/SummaryOfOpportunity.json"
 		},
 		{
-			"Name": "TeamProductivity",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/TeamProductivity.json"
+			"Name": "TeamBenchmark",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/TeamBenchmark.json"
+		},
+		{
+			"Name": "TeamTrending",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/TeamTrending.json"
+		},
+		{
+			"Name": "TeamWhitespace",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/TeamWhitespace.json"
+		},
+		{
+			"Name": "Trending",
+			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dashboards/Trending.json"
 		}
 	]
 }
