@@ -5,37 +5,11 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/Wave_For_Sales_Dataflow.json",
 	"objects": [
 		{
-			"name": "OpportunityLineItem",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/OpportunityLineItem.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/OpportunityLineItem_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Opportunity.External_Id__c",
-					"targetSObject" : "Opportunity",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OpportunityId"
-				},
-				{
-					"csvColumnName": "PricebookEntry.External_Id__c",
-					"targetSObject" : "PricebookEntry",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "PricebookEntryId"
-				}
-			]
-		},
-		{
 			"name": "Task",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Task.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Task_metadata.csv",
 			"relations": [
-				{
-					"csvColumnName": "Account.External_Id__c",
-					"targetSObject" : "Account",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "AccountId"
-				},
 				{
 					"csvColumnName": "Owner.External_Id__c",
 					"targetSObject": "User",
@@ -60,12 +34,6 @@
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Event_metadata.csv",
 			"relations": [
-				{
-					"csvColumnName": "Account.External_Id__c",
-					"targetSObject" : "Account",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "AccountId"
-				},
 				{
 					"csvColumnName": "Owner.External_Id__c",
 					"targetSObject": "User",
