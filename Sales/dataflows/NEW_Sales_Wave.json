@@ -1385,7 +1385,7 @@
                     "direction":"asc"
                 }
             ],
-            "source":"Extract_OpportunityHistory",
+            "source":"drop_custom_rename_OpportunityHistoryFields",
             "computedFields":[
                 {
                     "expression":{
