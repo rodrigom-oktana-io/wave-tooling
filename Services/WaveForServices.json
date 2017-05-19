@@ -420,7 +420,7 @@
 			"Label": "ServiceCase",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
 			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCase.xmd.json"
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseTesting.xmd.json"
 		},
 		{
 			"Name": "ServiceOpportunities",
