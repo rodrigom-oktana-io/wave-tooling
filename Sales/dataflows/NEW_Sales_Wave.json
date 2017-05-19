@@ -655,7 +655,7 @@
                 {
                     "precision":18,
                     "name":"Duration_Seconds",
-                    "saqlExpression":"date_diff(\"second\",toDate('ValidFromDate',\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\"), now())",
+                    "saqlExpression":"date_diff(\"second\",toDate('ValidFromDate_Year' + 'ValidFromDate_Month' + 'ValidFromDate_Day' + 'ValidFromDate_Hour' + 'ValidFromDate_Minute' + 'ValidFromDate_Second',\"yyyyMMddHHmmss\"), now())",
                     "scale":0,
                     "label":"Duration",
                     "type":"Numeric"
@@ -1179,7 +1179,7 @@
                 },
                 {
                     "name":"IsClosed",
-                    "saqlExpression":"case when daysBetween(toDate(ActivityDate, \"yyyy-MM-dd\"), now()) >= 0 then \"true\" else \"false\" end",
+                    "saqlExpression":"case when daysBetween(toDate('ActivityDate_Year' + 'ActivityDate_Month' + 'ActivityDate_Day',\"yyyyMMdd\"), now()) >= 0 then \"true\" else \"false\" end",
                     "label":"IsClosed",
                     "type":"Text"
                 }
@@ -2657,7 +2657,7 @@
                 {
                     "precision":8,
                     "name":"OpportunityAge",
-                    "saqlExpression":"case    when IsClosed == \"false\"     then daysBetween(toDate('CreatedDate_Year' + 'CreatedDate_Month' + 'CreatedDate_Day', \"yyyyMMdd\"), now())     else daysBetween(toDate('CreatedDate_Year' + 'CreatedDate_Month' + 'CreatedDate_Day', \"yyyyMMdd\"),toDate('CloseDate_Year' + 'CloseDate_Month' + 'CloseDate_Day', \"yyyyMMdd\")     end",
+                    "saqlExpression":"case    when IsClosed == \"false\"     then daysBetween(toDate('CreatedDate_Year' + 'CreatedDate_Month' + 'CreatedDate_Day', \"yyyyMMdd\"), now())     else daysBetween(toDate('CreatedDate_Year' + 'CreatedDate_Month' + 'CreatedDate_Day', \"yyyyMMdd\"),toDate('CloseDate_Year' + 'CloseDate_Month' + 'CloseDate_Day', \"yyyyMMdd\"))     end",
                     "scale":0,
                     "label":"Opportunity Age",
                     "type":"Numeric"
