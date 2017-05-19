@@ -1,1 +1,15 @@
-{"dataset":{},"dates":[],"derivedDimensions":[],"derivedMeasures":[],"dimensions":[],"measures":[],"organizations":[],"showDetailsDefaultFields":[]}
+{"dataset":{},"dates":[],"derivedDimensions":[],"derivedMeasures":[],"dimensions" : [ {
+    "customActions" : [ ],
+    "customActionsEnabled" : true,
+    "description" : "Generic Column",
+    "field" : "GenericColumn",
+    "fullyQualifiedName" : "GenericColumn",
+    "label" : "Generic Column",
+    "linkTemplateEnabled" : true,
+    "members" : [ ],
+    "origin" : "GenericColumn",
+    "recordDisplayFields" : [ ],
+    "salesforceActions" : [ ],
+    "salesforceActionsEnabled" : true,
+    "showInExplorer" : true
+  } ],"measures":[],"organizations":[],"showDetailsDefaultFields":[]}
