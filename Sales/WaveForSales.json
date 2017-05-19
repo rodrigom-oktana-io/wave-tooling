@@ -38,8 +38,7 @@
 				}
 			],
 			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"LastModifiedDate__c",
+				"CreatedDate__c"
 			]
 		},
 		{
@@ -83,8 +82,7 @@
 			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"ClosedDate__c",
-				"LastModifiedDate__c",
+				"ClosedDate__c"
 			]
 		},
 		{
@@ -115,7 +113,7 @@
 			"dateFieldsToShift": [
 				"DateTimeCreated__c",
 				"LastActivityDate__c",
-				"LastModifiedDate__c",
+				"LastModifiedDate__c"
 			]
 		},
 		{
@@ -206,8 +204,7 @@
   			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
-				"ActivityDate",
-				"LastModifiedDate__c",
+				"ActivityDate"
 			]
 		},
 		{
@@ -232,8 +229,7 @@
 			"dateFieldsToShift": [
 				"CreatedDate__c",
 				"ActivityDate",
-				"ActivityDateTime",
-				"LastModifiedDate__c",
+				"ActivityDateTime"
 			]
 		}
 	],
