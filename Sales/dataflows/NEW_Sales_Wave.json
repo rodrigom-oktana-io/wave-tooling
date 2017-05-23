@@ -11,7 +11,8 @@
                     "name":"Product2Id"
                 }
             ],
-            "object":"PricebookEntry"
+            "object":"PricebookEntry",
+            "complexFilterConditions": "External_Id__c LIKE 'W_PricebookEntry.%'"
         }
     },
     "Extract_Opportunity":{
@@ -85,7 +86,8 @@
                     "name":"RecordTypeId"
                 }
             ],
-            "object":"Opportunity"
+            "object":"Opportunity",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Opportunity.%'"
         }
     },
     "add_standard_Extract_Opportunity":{
@@ -173,7 +175,8 @@
                     "name":"Family"
                 }
             ],
-            "object":"Product2"
+            "object":"Product2",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Product.%'"
         }
     },
     "Join_LeadOwnerOpportunity":{
@@ -325,7 +328,8 @@
                     "name":"CaseNumber"
                 }
             ],
-            "object":"Case"
+            "object":"Case",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Case.%'"
         }
     },
     "add_standard_Extract_Case":{
@@ -552,7 +556,8 @@
                     "name":"State"
                 }
             ],
-            "object":"Lead"
+            "object":"Lead",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Lead.%'"
         }
     },
     "add_standard_Extract_Lead":{
@@ -908,7 +913,8 @@
                     "name":"AccountId"
                 }
             ],
-            "object":"Task"
+            "object":"Task",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Sales_Task.%'"
         }
     },
     "add_standard_Extract_Task":{
@@ -1603,7 +1609,8 @@
                     "name":"LastModifiedDate"
                 }
             ],
-            "object":"Account"
+            "object":"Account",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Account.%'"
         }
     },
     "add_standard_Extract_Account": {
@@ -1757,7 +1764,8 @@
                     "name":"AccountId"
                 }
             ],
-            "object":"Event"
+            "object":"Event",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Sales_Event.%'"
         }
     },
     "add_standard_Extract_Event":{
@@ -1871,7 +1879,8 @@
                     "name":"Amount"
                 }
             ],
-            "object":"Opportunity"
+            "object":"Opportunity",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Opportunity.%'"
         }
     },
     "Extract_User":{
@@ -1914,7 +1923,8 @@
                     "name":"ManagerId"
                 }
             ],
-            "object":"User"
+            "object":"User",
+            "complexFilterConditions": "External_Id__c LIKE 'W_User.%'"
         }
     },
     "Flatten_UserManager":{
@@ -2159,7 +2169,8 @@
                     "name":"StageName__c"
                 }
             ],
-            "object":"OpportunityHistory__c"
+            "object":"OpportunityHistory__c",
+            "complexFilterConditions": "External_Id__c LIKE 'W_OpportunityHistory.%'"
         }
     },
      "rename_OpportunityHistoryFields":{
@@ -2259,7 +2270,8 @@
                     "name":"PricebookEntryId"
                 }
             ],
-            "object":"OpportunityLineItem"
+            "object":"OpportunityLineItem",
+            "complexFilterConditions": "External_Id__c LIKE 'W_OpportunityLineItem.%'"
         }
     },
     "Filter_Pipeline_Trending":{
