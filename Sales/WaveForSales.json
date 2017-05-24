@@ -5,33 +5,6 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/NEW_Sales_Wave.json",
 	"objects": [
 		{
-			"name": "OpportunityHistory__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/OpportunityHistory.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/OpportunityHistory_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Opportunity.External_Id__c",
-					"targetSObject" : "Opportunity",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OpportunityId__c"
-				}
-			],
-			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"CloseDate__c"
-			]
-		},
-		{
-			"name": "Product2",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Product2.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Product2_metadata.csv",
-			"relations": [
-				
-			]
-		},
-		{
 			"name": "PricebookEntry",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/PricebookEntry.csv",
 			"additionalDataFiles": 0,
