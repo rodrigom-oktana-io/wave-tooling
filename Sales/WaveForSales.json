@@ -5,57 +5,6 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/NEW_Sales_Wave.json",
 	"objects": [
 		{
-			"name": "User",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/User.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/User_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "UserRole.Name",
-					"targetSObject" : "UserRole",
-					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "UserRoleId"
-				},
-				{
-					"csvColumnName": "Profile.Name",
-					"targetSObject" : "Profile",
-					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "ProfileId"
-				}
-			]
-		},
-		{
-			"name": "Account",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Account.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Account_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OwnerId"
-				}
-			],
-			"dateFieldsToShift": [
-				"CreatedDate__c"
-			]
-		},
-		{
-			"name": "Contact",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Contact.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Contact_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Account.External_Id__c",
-					"targetSObject" : "Account",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "AccountId"
-				}
-			]
-		},
-		{
 			"name": "Case",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Case.csv",
 			"additionalDataFiles": 0,
