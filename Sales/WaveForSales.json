@@ -5,6 +5,15 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/NEW_Sales_Wave.json",
 	"objects": [
 		{
+			"name": "Product2",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Product2.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Product2_metadata.csv",
+			"relations": [
+				
+			]
+		},
+		{
 			"name": "PricebookEntry",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/PricebookEntry.csv",
 			"additionalDataFiles": 0,
