@@ -1,12 +1,12 @@
-External_Id__c,Product2.External_Id__c,UnitPrice,Pricebook2.Name,IsActive
-W_PricebookEntry.1,W_Product.1,4178,Standard Price Book,true
-W_PricebookEntry.2,W_Product.2,1377,Standard Price Book,true
-W_PricebookEntry.3,W_Product.3,744,Standard Price Book,true
-W_PricebookEntry.4,W_Product.4,38345,Standard Price Book,true
-W_PricebookEntry.5,W_Product.5,1479,Standard Price Book,true
-W_PricebookEntry.6,W_Product.6,1076,Standard Price Book,true
-W_PricebookEntry.7,W_Product.7,12251,Standard Price Book,true
-W_PricebookEntry.8,W_Product.8,4116,Standard Price Book,true
-W_PricebookEntry.9,W_Product.9,3825,Standard Price Book,true
-W_PricebookEntry.10,W_Product.10,3897,Standard Price Book,true
-W_PricebookEntry.11,W_Product.11,2678,Standard Price Book,true
+External_Id__c,Product2.External_Id__c,UnitPrice,IsActive,Pricebook2.Name
+W_PricebookEntry.1,W_Product.1,4178,true,Standard Price Book
+W_PricebookEntry.2,W_Product.2,1377,true,Standard Price Book
+W_PricebookEntry.3,W_Product.3,744,true,Standard Price Book
+W_PricebookEntry.4,W_Product.4,38345,true,Standard Price Book
+W_PricebookEntry.5,W_Product.5,1479,true,Standard Price Book
+W_PricebookEntry.6,W_Product.6,1076,true,Standard Price Book
+W_PricebookEntry.7,W_Product.7,12251,true,Standard Price Book
+W_PricebookEntry.8,W_Product.8,4116,true,Standard Price Book
+W_PricebookEntry.9,W_Product.9,3825,true,Standard Price Book
+W_PricebookEntry.10,W_Product.10,3897,true,Standard Price Book
+W_PricebookEntry.11,W_Product.11,2678,true,Standard Price Book
