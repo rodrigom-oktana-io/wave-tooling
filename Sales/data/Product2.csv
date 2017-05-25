@@ -1,12 +1,12 @@
-Name,Family,External_Id__c,ProductCode,IsActive
-Electronics,Car Electronics,W_Product.1,W_Product.1,TRUE
-Tires and Wheels,Tires & Wheels,W_Product.2,W_Product.2,TRUE
-Car Care,Car Accessories,W_Product.3,W_Product.3,TRUE
-Motorcycle Parts,Performance & Non-auto,W_Product.4,W_Product.4,TRUE
-Interior Accessories,Car Accessories,W_Product.5,W_Product.5,TRUE
-Exterior Accessories,Car Accessories,W_Product.6,W_Product.6,TRUE
-Replacement Parts,Car Accessories,W_Product.7,W_Product.7,TRUE
-Towing Equioment,Car Accessories,W_Product.8,W_Product.8,TRUE
-Batteries,Car Accessories,W_Product.9,W_Product.9,TRUE
-Performance,Performance & Non-auto,W_Product.10,W_Product.10,TRUE
-RV Shelters,Performance & Non-auto,W_Product.11,W_Product.11,TRUE
+Name,Family,External_Id__c,ProductCode
+Electronics,Car Electronics,W_Product.1,W_Product.1
+Towing Equioment,Car Accessories,W_Product.2,W_Product.2
+Car Care,Car Accessories,W_Product.3,W_Product.3
+Motorcycle Parts,Performance & Non-auto,W_Product.4,W_Product.4
+Interior Accessories,Car Accessories,W_Product.5,W_Product.5
+Batteries,Car Accessories,W_Product.6,W_Product.6
+Exterior Accessories,Car Accessories,W_Product.7,W_Product.7
+Tires and Wheels,Tires & Wheels,W_Product.8,W_Product.8
+RV Shelters,Performance & Non-auto,W_Product.9,W_Product.9
+Performance,Performance & Non-auto,W_Product.10,W_Product.10
+Replacement Parts,Car Accessories,W_Product.11,W_Product.11
