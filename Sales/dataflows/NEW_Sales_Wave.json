@@ -2326,7 +2326,19 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_OpportunityHistory.%'"
         }
     },
-     "rename_OpportunityHistoryFields":{
+    "Extract_OpportunityHistory_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_OpportunityHistory"
+        }
+    },
+    "rename_OpportunityHistoryFields":{
         "action":"computeExpression",
         "parameters":{
             "mergeWithSource":true,
@@ -2375,7 +2387,7 @@
                     "default":""
                 }
             ],
-            "source":"Extract_OpportunityHistory"
+            "source":"Extract_OpportunityHistory_Drop_External_Id"
         }
     },
     "drop_custom_rename_OpportunityHistoryFields":{
@@ -2395,9 +2407,6 @@
                 },
                 {
                     "name":"StageName__c"
-                },
-                {
-                    "name":"External_Id__c"
                 }
             ]
         }
