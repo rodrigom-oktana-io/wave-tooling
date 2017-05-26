@@ -18,6 +18,18 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_PricebookEntry.%'"
         }
     },
+    "Extract_PricebookEntry_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_PricebookEntry"
+        }
+    },
     "Extract_Opportunity":{
         "action":"sfdcDigest",
         "parameters":{
@@ -96,10 +108,22 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Opportunity.%'"
         }
     },
+    "Extract_Opportunity_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Opportunity"
+        }
+    },
     "add_standard_Extract_Opportunity":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Opportunity",
+            "source":"Extract_Opportunity_Drop_External_Id",
             "computedFields":[
                 {
                     "name":"CreatedDate",
@@ -186,6 +210,18 @@
             ],
             "object":"Product2",
             "complexFilterConditions": "External_Id__c LIKE 'W_Product.%'"
+        }
+    },
+    "Extract_Product_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Product"
         }
     },
     "Join_LeadOwnerOpportunity":{
@@ -344,10 +380,22 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Case.%'"
         }
     },
+    "Extract_Case_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Case"
+        }
+    },
     "add_standard_Extract_Case":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Case",
+            "source":"Extract_Case_Drop_External_Id",
             "computedFields":[
                 {
                     "name":"CreatedDate",
@@ -485,7 +533,7 @@
             "right_select":[
                 "Amount"
             ],
-            "right":"Extract_OpportunityAmount",
+            "right":"Extract_OpportunityAmount_Drop_External_Id",
             "relationship":"Opportunity"
         }
     },
@@ -575,10 +623,22 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Lead.%'"
         }
     },
+    "Extract_Lead_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Lead"
+        }
+    },
     "add_standard_Extract_Lead":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Lead",
+            "source":"Extract_Lead_Drop_External_Id",
             "computedFields":[
                 {
                     "default":"",
@@ -868,7 +928,7 @@
             "right_select":[
                 "Product2Id"
             ],
-            "right":"Extract_PricebookEntry",
+            "right":"Extract_PricebookEntry_Drop_External_Id",
             "relationship":"Pricebook"
         }
     },
@@ -935,10 +995,22 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Sales_Task.%'"
         }
     },
+    "Extract_Task_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Task"
+        }
+    },
     "add_standard_Extract_Task":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Task",
+            "source":"Extract_Task_Drop_External_Id",
             "computedFields":[
                 {
                     "name":"CreatedDate",
@@ -1313,7 +1385,7 @@
         "action":"filter",
         "parameters":{
             "filter":"UserType:EQ:Standard|PowerPartner",
-            "source":"Extract_User"
+            "source":"Extract_User_Drop_External_Id"
         }
     },
     "Filter_Account":{
@@ -1634,10 +1706,22 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Account.%'"
         }
     },
+    "Extract_Account_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Account"
+        }
+    },
     "add_standard_Extract_Account": {
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Account",
+            "source":"Extract_Account_Drop_External_Id",
             "computedFields":[
                 {
                     "name":"CreatedDate",
@@ -1792,10 +1876,22 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Sales_Event.%'"
         }
     },
+    "Extract_Event_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_Event"
+        }
+    },
     "add_standard_Extract_Event":{
         "action":"computeExpression",
         "parameters":{
-            "source":"Extract_Event",
+            "source":"Extract_Event_Drop_External_Id",
             "computedFields":[
                 {
                     "name":"CreatedDate",
@@ -1910,6 +2006,18 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_Opportunity.%'"
         }
     },
+    "Extract_OpportunityAmount_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_OpportunityAmount"
+        }
+    },
     "Extract_User":{
         "action":"sfdcDigest",
         "parameters":{
@@ -1957,6 +2065,18 @@
             "complexFilterConditions": "External_Id__c LIKE 'W_User.%'"
         }
     },
+    "Extract_User_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_User"
+        }
+    },
     "Flatten_UserManager":{
         "schema":{
             "objects":[
@@ -2002,7 +2122,7 @@
                 "Name",
                 "Family"
             ],
-            "right":"Extract_Product",
+            "right":"Extract_Product_Drop_External_Id",
             "relationship":"Product"
         }
     },
@@ -2073,7 +2193,7 @@
         "action":"append",
         "parameters":{
             "sources":[
-                "Extract_OpportunityLineItem",
+                "Extract_OpportunityLineItem_Drop_External_Id",
                 "Compute_Opportunities_No_Products_Id"
             ]
         }
@@ -2275,6 +2395,9 @@
                 },
                 {
                     "name":"StageName__c"
+                },
+                {
+                    "name":"External_Id__c"
                 }
             ]
         }
@@ -2308,6 +2431,18 @@
             ],
             "object":"OpportunityLineItem",
             "complexFilterConditions": "External_Id__c LIKE 'W_OpportunityLineItem.%'"
+        }
+    },
+    "Extract_OpportunityLineItem_Drop_External_Id":{
+        "action":"sliceDataset",
+        "parameters":{
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"External_Id__c"
+                }
+            ],
+            "source":"Extract_OpportunityLineItem"
         }
     },
     "Filter_Pipeline_Trending":{

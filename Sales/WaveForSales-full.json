@@ -2,8 +2,28 @@
 	"appName": "Wave for Sales",
 	"appType": "Sales",
 	"appDescription": "This package includes data on Users, Accounts, Opportunities for Wave for Sales. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/Wave_For_Sales_Dataflow.json",
+	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/dataflows/NEW_Sales_Wave.json",
 	"objects": [
+		{
+			"name": "User",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/UserManager.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/User_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "UserRole.Name",
+					"targetSObject" : "UserRole",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "UserRoleId"
+				},
+				{
+					"csvColumnName": "Profile.Name",
+					"targetSObject" : "Profile",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "ProfileId"
+				}
+			]
+		},
 		{
 			"name": "User",
 			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/User.csv",
@@ -21,6 +41,12 @@
 					"targetSObject" : "Profile",
 					"targetSObjectLookupField" : "Name",
 					"foreignKeyField" : "ProfileId"
+				},
+				{
+					"csvColumnName": "Manager.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ManagerId"
 				}
 			]
 		},
@@ -112,7 +138,44 @@
 			],
 			"dateFieldsToShift": [
 				"DateTimeCreated__c",
-				"LastActivityDate__c"
+				"LastActivityDate__c",
+				"LastModifiedDate__c"
+			]
+		},
+		{
+			"name": "Lead",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Lead.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Lead_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
+				{
+					"csvColumnName": "ConvertedOpportunity.External_Id__c",
+					"targetSObject" : "Opportunity",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ConvertedOpportunityId"
+				},
+				{
+					"csvColumnName": "ConvertedAccount.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ConvertedAccountId"
+				},
+				{
+					"csvColumnName": "ConvertedContact.External_Id__c",
+					"targetSObject" : "Contact",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ConvertedContactId"
+				}
+			],
+			"dateFieldsToShift": [
+				"CreatedDate__c",
+				"ConvertedDate__c"
 			]
 		},
 		{
@@ -237,67 +300,78 @@
 			"Name": "plain_quota",
 			"Label": "Quota",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/QuotasMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Quotas.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Quotas.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/plain_quota.xmd.json"
 		},
 		{
 			"Name": "opportunity_products",
 			"Label": "Oppty Products",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/OpptyProductsMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/OpptyProducts.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/OpptyProducts.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/opportunity_products.xmd.json"
 		},
 		{
 			"Name": "quota",
 			"Label": "User Allocation",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/UserAllocationMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/UserAllocation.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/UserAllocation.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/quota.xmd.json"
 		},
 		{
 			"Name": "user",
 			"Label": "Users",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/UsersMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Users.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Users.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/user.xmd.json"
 		},
 		{
 			"Name": "activity",
 			"Label": "Activities",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/ActivitiesMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Activities.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Activities.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/activity.xmd.json"
 		},
 		{
 			"Name": "user_role",
 			"Label": "Roles",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/RolesMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Roles.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Roles.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/user_role.xmd.json"
 		},
 		{
 			"Name": "pipeline_trending",
 			"Label": "Pipeline Trending",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/PipelineTrendingMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/PipelineTrending.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/PipelineTrending.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/pipeline_trending.xmd.json"
 		},
 		{
 			"Name": "opportunity",
 			"Label": "Opportunities",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/OpportunitiesMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Opportunities.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Opportunities.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/opportunity.xmd.json"
 		},
 		{
 			"Name": "lead",
 			"Label": "Leads",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/LeadsMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Leads.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Leads.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/lead.xmd.json"
 		},
 		{
 			"Name": "account",
 			"Label": "Accounts",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/AccountsMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Accounts.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Accounts.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/account.xmd.json"
 		},
 		{
 			"Name": "case",
 			"Label": "Cases",
 			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/CasesMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Cases.csv"
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Cases.csv",
+			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/case.xmd.json"
 		}
 	],
 	"dashboards": [
