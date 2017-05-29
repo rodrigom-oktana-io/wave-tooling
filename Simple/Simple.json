@@ -34,6 +34,23 @@
 				"LastActivityDate__c",
 				"LastModifiedDate__c"
 			]
+		},
+		{
+			"name": "Account",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Account.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Account_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				}
+			],
+			"dateFieldsToShift": [
+				"CreatedDate__c"
+			]
 		}
 	],
 	"edgemarts": [
