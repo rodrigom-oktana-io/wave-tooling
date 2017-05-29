@@ -1441,7 +1441,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Billing State/Province\",\"value\":\"Account.BillingState\",\"visual\":\"choropleth\",\"map\":\"World Countries\"}",
+          "{\"display\":\"Billing State/Province\",\"value\":\"Account.BillingState\",\"visual\":\"choropleth\",\"map\":\"US States\"}",
           "{\"display\":\"Shipping State/Province\",\"value\":\"Account.ShippingState\",\"visual\":\"choropleth\",\"map\":\"US States\"}"
         ],
         "datasets": []

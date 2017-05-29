@@ -1306,7 +1306,7 @@
         "values": [
           "{\"display\":\"Account\",\"grp\":\"Account.Name\",\"meas\":[[\"max\",\"Opportunity.Amount\"],[\"avg\",\"DurationCalculatedField\"]],\"filt\":[\"IsClosed\",[\"true\"],\"in\"],\"yes\":true,\"no\":false,\"Xtitle\":\"Total Bookings($)\",\"Ytitle\":\"Duration\",\"label\":\"\",\"map\":\"\",\"lowColor\":\"\",\"highColor\":\"\",\"visual\":\"scatter\",\"ord\":[]}",
           "{\"display\":\"Channel\",\"grp\":\"Origin\",\"meas\":[[\"avg\",\"DurationCalculatedField\",\"Average Duration\"],[\"count\",\"Id\",\"Closed Case Count\"]],\"filt\":[\"IsClosed\",[\"true\"],\"in\"],\"yes\":true,\"no\":false,\"Xtitle\":\"\",\"Ytitle\":\"\",\"label\":\"\",\"map\":\"\",\"lowColor\":\"\",\"highColor\":\"\",\"visual\":\"hbar\",\"ord\":[[-1,{\"ascending\":false}]]}",
-          "{\"display\":\"Geography\",\"grp\":\"Account.BillingState\",\"meas\":[[\"count\",\"Id\",\"Case Volume\"]],\"filt\":[],\"yes\":true,\"no\":true,\"Xtitle\":\"\",\"Ytitle\":\"\",\"label\":\"Closed Case Volume by Geography\",\"map\":\"World Countries\",\"lowColor\":\"#C5DBF7\",\"highColor\":\"#1674D9\",\"visual\":\"choropleth\",\"ord\":[]}"
+          "{\"display\":\"Geography\",\"grp\":\"Account.BillingState\",\"meas\":[[\"count\",\"Id\",\"Case Volume\"]],\"filt\":[],\"yes\":true,\"no\":true,\"Xtitle\":\"\",\"Ytitle\":\"\",\"label\":\"Closed Case Volume by Geography\",\"map\":\"US States\",\"lowColor\":\"#C5DBF7\",\"highColor\":\"#1674D9\",\"visual\":\"choropleth\",\"ord\":[]}"
         ],
         "datasets": []
       },

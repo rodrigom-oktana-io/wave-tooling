@@ -1899,7 +1899,7 @@
           "binValues": false,
           "step": "step_map_country",
           "theme": "dark",
-          "map": "World Countries",
+          "map": "US States",
           "dimensionAxis": {
             "showTitle": true,
             "customSize": "auto",

@@ -1059,7 +1059,7 @@
             "parameters": {},
             "chartsPerLine": 4
           },
-          "map": "World Countries"
+          "map": "US States"
         },
         "type": "chart"
       },
