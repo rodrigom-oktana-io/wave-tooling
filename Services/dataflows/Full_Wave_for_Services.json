@@ -1291,6 +1291,11 @@
                         "OperatorJoinedConference"
                     ],
                     "operator":"IN"
+                },
+                {
+                    "field":"External_Id__c",
+                    "value": "W_LiveChatTranscriptEvent.%",
+                    "operator":"LIKE"
                 }
             ],
             "enablePKChunking":false,
@@ -1311,8 +1316,7 @@
                     "name":"AgentId__c"
                 }
             ],
-            "object":"LiveChatTranscriptEvent__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_LiveChatTranscriptEvent.%'"
+            "object":"LiveChatTranscriptEvent__c"
         }
     },
     "rename_LiveChatTranscriptEvent":{
