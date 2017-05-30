@@ -404,7 +404,13 @@
 					"targetSObject": "User",
 					"targetSObjectLookupField": "External_Id__c",
 					"foreignKeyField": "OwnerId"
-				}
+				},
+				{
+					"csvColumnName": "Case.External_Id__c",
+					"targetSObject": "Case",
+					"targetSObjectLookupField": "External_Id__c",
+					"foreignKeyField": "WhatId"
+    			}
 			],
 			"dateFieldsToShift": [
 				"CreatedDate__c",
