@@ -1,4 +1,4 @@
-User.External_Id__c,Manager.External_Id__c
+External_Id__c,Manager.External_Id__c
 W_Sales_User.3,W_Sales_User.18
 W_Sales_User.1,W_Sales_User.18
 W_Sales_User.8,W_Sales_User.20
