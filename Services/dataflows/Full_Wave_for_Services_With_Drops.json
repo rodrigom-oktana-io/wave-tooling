@@ -112,8 +112,7 @@
                     "name":"RecordTypeId"
                 }
             ],
-            "object":"Opportunity",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Opportunity.%'"
+            "object":"Opportunity"
         }
     },
     "add_standard_Extract_Opportunity":{
@@ -217,7 +216,7 @@
                     "type":"Text"
                 }
             ],
-            "complexFilterConditions":"External_Id__c LIKE 'W_KCSArticleVersion.%' and Language__c = 'en_US' and PublishStatus__c = 'Online'",
+            "complexFilterConditions":"Language__c = 'en_US' and PublishStatus__c = 'Online'",
             "object":"KCSArticle_kav__c"
         }
     },
@@ -305,6 +304,50 @@
             "source":"Extract_Knowledge_kav_online"
         }
     },
+    "drop_custom_rename_Knowledge_kav_online":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_kav_online",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ArticleNumber__c"
+                },
+                {
+                    "name":"PublishStatus__c"
+                },
+                {
+                    "name":"IsLatestVersion__c"
+                },
+                {
+                    "name":"IsVisibleInApp__c"
+                },
+                {
+                    "name":"IsVisibleInCsp__c"
+                },
+                {
+                    "name":"IsVisibleInPkb__c"
+                },
+                {
+                    "name":"IsVisibleInPrm__c"
+                },
+                {
+                    "name":"KnowledgeArticleId__c"
+                },
+                {
+                    "name":"Title__c"
+                },
+                {
+                    "name":"OwnerId__c"
+                },
+                {
+                    "name":"VersionNumber__c",
+                    "type":"Text"
+                }
+            ]
+        }
+    },
+
     "Extract_ServiceChannel":{
         "action":"sfdcDigest",
         "parameters":{
@@ -392,7 +435,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"rename_UserServicePresence",
+            "left":"drop_custom_rename_UserServicePresence",
             "left_key":[
                 "UserId"
             ],
@@ -495,8 +538,7 @@
                     "name":"Response_Time_mins__c"
                 }
             ],
-            "object":"Case",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Case.%'"
+            "object":"Case"
         }
     },
     "add_standard_Extract_Case":{
@@ -725,8 +767,7 @@
                     "name":"LastModifiedById"
                 }
             ],
-            "object":"KCSArticle_ka__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_KCSArticle.%'"
+            "object":"KCSArticle_ka__c"
         }
     },
     "rename_Knowledge_ka":{
@@ -778,6 +819,21 @@
             "source":"Extract_Knowledge_ka"
         }
     },
+    "drop_custom_rename_Knowledge_ka":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_ka",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ArticleNumber__c"
+                },
+                {
+                    "name":"CaseAssociationCount__c"
+                }
+            ]
+        }
+    },
     "Handle_Null_Opportunity_RecordType":{
         "action":"computeExpression",
         "parameters":{
@@ -823,7 +879,7 @@
                 "ViewCount",
                 "NormalizedScore"
             ],
-            "right":"rename_Knowledge_ViewStat",
+            "right":"drop_custom_rename_Knowledge_ViewStat",
             "relationship":"ViewStat"
         }
     },
@@ -921,7 +977,7 @@
                     "type":"Text"
                 }
             ],
-            "complexFilterConditions":"External_Id__c LIKE 'W_KCSArticleVersion.%' and Language__c = 'en_US' and PublishStatus__c = 'Archived'",
+            "complexFilterConditions":"Language__c = 'en_US' and PublishStatus__c = 'Archived'",
             "object":"KCSArticle_kav__c"
         }
     },
@@ -1008,6 +1064,50 @@
             "source":"Extract_Knowledge_kav_archived"
         }
     },
+    "drop_custom_rename_Knowledge_kav_archived":{
+        "action":"sliceDataset",
+        "parameters":{
+
+            "source":"rename_Knowledge_kav_archived",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ArticleNumber__c"
+                },
+                {
+                    "name":"PublishStatus__c"
+                },
+                {
+                    "name":"IsLatestVersion__c"
+                },
+                {
+                    "name":"IsVisibleInApp__c"
+                },
+                {
+                    "name":"IsVisibleInCsp__c"
+                },
+                {
+                    "name":"IsVisibleInPkb__c"
+                },
+                {
+                    "name":"IsVisibleInPrm__c"
+                },
+                {
+                    "name":"KnowledgeArticleId__c"
+                },
+                {
+                    "name":"Title__c"
+                },
+                {
+                    "name":"OwnerId__c"
+                },
+                {
+                    "name":"VersionNumber__c",
+                    "type":"Text"
+                }
+            ]
+        }
+    },
     "Register_ActivityOwner_Case":{
         "action":"sfdcRegister",
         "parameters":{
@@ -1083,8 +1183,7 @@
                     "name":"WhatId"
                 }
             ],
-            "object":"Task",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Task.%'"
+            "object":"Task"
         }
     },
     "add_standard_Extract_Task":{
@@ -1180,8 +1279,7 @@
                     "name":"IsSharedByEmail__c"
                 }
             ],
-            "object":"CaseArticle__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_CaseArticle.%'"
+            "object":"CaseArticle__c"
         }
     },
     "rename_CaseArticleKnowledge":{
@@ -1231,6 +1329,30 @@
             "source":"Extract_CaseArticleKnowledge"
         }
     },
+    "drop_custom_rename_CaseArticleKnowledge":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_CaseArticleKnowledge",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"IsSharedByEmail__c"
+                },
+                {
+                    "name":"KnowledgeArticleId__c"
+                },
+                {
+                    "name":"CreatedById__c"
+                },
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"ArticleVersionNumber__c"
+                }
+            ]
+        }
+    },
     "Extract_Knowledge_VoteStat":{
         "action":"sfdcDigest",
         "parameters":{
@@ -1245,8 +1367,7 @@
                     "name":"NormalizedScore__c"
                 }
             ],
-            "object":"KCSArticle_VoteStat__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_KCSArticle_VoteStat.%'"
+            "object":"KCSArticle_VoteStat__c"
         }
     },
     "rename_Knowledge_VoteStat":{
@@ -1277,6 +1398,24 @@
                 }
             ],
             "source":"Extract_Knowledge_VoteStat"
+        }
+    },
+    "drop_custom_rename_Knowledge_VoteStat":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_VoteStat",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"Channel__c"
+                },
+                {
+                    "name":"ParentId__c"
+                },
+                {
+                    "name":"NormalizedScore__c"
+                }
+            ]
         }
     },
     "Extract_LiveChatTranscriptEvent":{
@@ -1311,8 +1450,7 @@
                     "name":"AgentId__c"
                 }
             ],
-            "object":"LiveChatTranscriptEvent__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_LiveChatTranscriptEvent.%'"
+            "object":"LiveChatTranscriptEvent__c"
         }
     },
     "rename_LiveChatTranscriptEvent":{
@@ -1354,6 +1492,27 @@
                 }
             ],
             "source":"Extract_LiveChatTranscriptEvent"
+        }
+    },
+    "drop_custom_rename_LiveChatTranscriptEvent":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_LiveChatTranscriptEvent",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"Detail__c"
+                },
+                {
+                    "name":"Type__c"
+                },
+                {
+                    "name":"LiveChatTranscriptId__c"
+                },
+                {
+                    "name":"AgentId__c"
+                }
+            ]
         }
     },
     "Add_Fields_To_Event":{
@@ -1524,8 +1683,8 @@
         "action":"append",
         "parameters":{
             "sources":[
-                "rename_Knowledge_kav_online",
-                "rename_Knowledge_kav_archived"
+                "drop_custom_rename_Knowledge_kav_online",
+                "drop_custom_rename_Knowledge_kav_archived"
             ]
         }
     },
@@ -1559,7 +1718,7 @@
                     "name":"OldValue__c"
                 }
             ],
-            "complexFilterConditions":"External_Id__c LIKE 'W_CaseHistory.%' and CreatedDate__c >= LAST_N_MONTHS:18 and Field__c IN ('Status', 'Owner')",
+            "complexFilterConditions":"CreatedDate__c >= LAST_N_MONTHS:18 and Field__c IN ('Status', 'Owner')",
             "object":"CaseHistory__c"
         }
     },
@@ -1610,6 +1769,33 @@
             "source":"Extract_CaseHistory"
         }
     },
+    "drop_custom_rename_CaseHistoryFields":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_CaseHistoryFields",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"CreatedById__c"
+                },
+                {
+                    "name":"CreatedDate__c"
+                },
+                {
+                    "name":"Field__c"
+                },
+                {
+                    "name":"NewValue__c"
+                },
+                {
+                    "name":"OldValue__c"
+                }
+            ]
+        }
+    },
     "Extract_RecordTypes":{
         "action":"sfdcDigest",
         "parameters":{
@@ -1643,8 +1829,7 @@
                     "name":"Industry"
                 }
             ],
-            "object":"Account",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Account.%'"
+            "object":"Account"
         }
     },
     "Join_AgentWorkUserGroup":{
@@ -1900,8 +2085,7 @@
                     "name":"WhatId"
                 }
             ],
-            "object":"Event",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Event.%'"
+            "object":"Event"
         }
     },
     "add_standard_Extract_Event":{
@@ -2089,8 +2273,7 @@
                     "name":"Id"
                 }
             ],
-            "object":"User",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Services_User.%'"
+            "object":"User"
         }
     },
     "Extract_UserServicePresence":{
@@ -2149,8 +2332,7 @@
                     "name":"ServicePresenceStatusId__c"
                 }
             ],
-            "object":"UserServicePresence__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_UserServicePresence.%'"
+            "object":"UserServicePresence__c"
         }
     },
     "rename_UserServicePresence":{
@@ -2248,6 +2430,42 @@
                 }
             ],
             "source":"Extract_UserServicePresence"
+        }
+    },
+    "drop_custom_rename_UserServicePresence":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_UserServicePresence",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"AtCapacityDuration__c"
+                },
+                {
+                    "name":"AverageCapacity__c"
+                },
+                {
+                    "name":"ConfiguredCapacity__c"
+                },
+                {
+                    "name":"IdleDuration__c"
+                },
+                {
+                    "name":"IsAway__c"
+                },
+                {
+                    "name":"IsCurrentState__c"
+                },
+                {
+                    "name":"StatusDuration__c"
+                },
+                {
+                    "name":"UserId__c"
+                },
+                {
+                    "name":"ServicePresenceStatusId__c"
+                }
+            ]
         }
     },
     "Register_Knowledge":{
@@ -2355,7 +2573,7 @@
         "action":"filter",
         "parameters":{
             "filter":"Field:EQ:Status",
-            "source":"rename_CaseHistoryFields"
+            "source":"drop_custom_rename_CaseHistoryFields"
         }
     },
     "Handle_Null_Attached_Articles":{
@@ -2466,8 +2684,7 @@
                     "name":"WorkItemId__c"
                 }
             ],
-            "object":"AgentWork__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_AgentWork.%'"
+            "object":"AgentWork__c"
         }
     },
     "rename_AgentWork":{
@@ -2635,6 +2852,61 @@
             "source":"Extract_AgentWork"
         }
     },
+    "drop_custom_rename_AgentWork":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_AgentWork",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"ActiveTime__c"
+                },
+                {
+                    "name":"AgentCapacityWhenDeclined__c"
+                },
+                {
+                    "name":"Id"
+                },
+                {
+                    "name":"DeclineReason__c"
+                },
+                {
+                    "name":"IsDeleted"
+                },
+                {
+                    "name":"HandleTime__c"
+                },
+                {
+                    "name":"CapacityPercentage__c"
+                },
+                {
+                    "name":"PushTimeout__c"
+                },
+                {
+                    "name":"SpeedToAnswer__c"
+                },
+                {
+                    "name":"Status__c"
+                },
+                
+                {
+                    "name":"CapacityWeight__c"
+                },
+                {
+                    "name":"UserId__c"
+                },
+                {
+                    "name":"OriginalQueueId__c"
+                },
+                {
+                    "name":"ServiceChannelId__c"
+                },
+                {
+                    "name":"WorkItemId__c"
+                }
+            ]
+        }
+    },
     "Extract_Knowledge_ViewStat":{
         "action":"sfdcDigest",
         "parameters":{
@@ -2652,8 +2924,7 @@
                     "name":"NormalizedScore__c"
                 }
             ],
-            "object":"KCSArticle_ViewStat__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_KCSArticle_ViewStat.%'"
+            "object":"KCSArticle_ViewStat__c"
         }
     },
     "rename_Knowledge_ViewStat":{
@@ -2695,6 +2966,27 @@
             "source":"Extract_Knowledge_ViewStat"
         }
     },
+    "drop_custom_rename_Knowledge_ViewStat":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_ViewStat",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"Channel__c"
+                },
+                {
+                    "name":"ParentId__c"
+                },
+                {
+                    "name":"NormalizedScore__c"
+                },
+                {
+                    "name":"ViewCount__c"
+                }
+            ]
+        }
+    },
     "Handle_Null_RecordType":{
         "action":"computeExpression",
         "parameters":{
@@ -2716,7 +3008,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"rename_LiveChatTranscriptEvent",
+            "left":"drop_custom_rename_LiveChatTranscriptEvent",
             "left_key":[
                 "AgentId"
             ],
@@ -2731,7 +3023,7 @@
         "action":"filter",
         "parameters":{
             "filter":"Field:EQ:Owner",
-            "source":"rename_CaseHistoryFields"
+            "source":"drop_custom_rename_CaseHistoryFields"
         }
     },
     "Join_Append_Knowledge__kav_dataCategory":{
@@ -2748,7 +3040,7 @@
                 "DataCategoryName",
                 "DataCategoryGroupName"
             ],
-            "right":"rename_Knowledge_DataCategory",
+            "right":"drop_custom_rename_Knowledge_DataCategory",
             "relationship":"DataCategory",
             "operation":"LookupMultiValue"
         }
@@ -2987,7 +3279,7 @@
                 "Channel",
                 "NormalizedScore"
             ],
-            "right":"rename_Knowledge_VoteStat",
+            "right":"drop_custom_rename_Knowledge_VoteStat",
             "relationship":"VoteStat"
         }
     },
@@ -2997,7 +3289,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"rename_CaseArticleKnowledge",
+            "left":"drop_custom_rename_CaseArticleKnowledge",
             "left_key":[
                 "CreatedById"
             ],
@@ -3094,8 +3386,7 @@
                     "name":"ParentId__c"
                 }
             ],
-            "object":"KCSArticle_DataCategorySelection__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_KCSArticle_DCS.%'"
+            "object":"KCSArticle_DataCategorySelection__c"
         }
     },
     "rename_Knowledge_DataCategory":{
@@ -3125,13 +3416,31 @@
             "source":"Extract_Knowledge_DataCategory"
         }
     },
+    "drop_custom_rename_Knowledge_DataCategory":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_Knowledge_DataCategory",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"DataCategoryGroupName__c"
+                },
+                {
+                    "name":"DataCategoryName__c"
+                },
+                {
+                    "name":"ParentId__c"
+                }
+            ]
+        }
+    },
     "Join_Append_Knowledge__ka_kav_dataCategory":{
         "action":"augment",
         "parameters":{
             "right_key":[
                 "KnowledgeArticleId"
             ],
-            "left":"rename_Knowledge_ka",
+            "left":"drop_custom_rename_Knowledge_ka",
             "left_key":[
                 "Id"
             ],
@@ -3392,8 +3701,7 @@
                     "name":"WaitTime__c"
                 }
             ],
-            "object":"LiveChatTranscript__c",
-            "complexFilterConditions": "External_Id__c LIKE 'W_LiveChatTranscript.%'"
+            "object":"LiveChatTranscript__c"
         }
     },
     "rename_LiveChatTranscript":{
@@ -3630,6 +3938,90 @@
             "source":"Extract_LiveChatTranscript"
         }
     },
+    "drop_custom_rename_LiveChatTranscript":{
+        "action":"sliceDataset",
+        "parameters":{
+            "source":"rename_LiveChatTranscript",
+            "mode":"drop",
+            "fields":[
+                {
+                    "name":"Abandoned__c"
+                },
+                {
+                    "name":"AverageResponseTimeOperator__c"
+                },
+                {
+                    "name":"MaxResponseTimeOperator__c"
+                },
+                {
+                    "name":"OperatorMessageCount__c"
+                },
+                {
+                    "name":"Body__c"
+                },
+                {
+                    "name":"Browser__c"
+                },
+                {
+                    "name":"BrowserLanguage__c"
+                },
+                {
+                    "name":"CaseId__c"
+                },
+                {
+                    "name":"ChatDuration__c"
+                },
+                {
+                    "name":"ChatKey__c"
+                },
+                {
+                    "name":"EndedBy__c"
+                },
+                {
+                    "name":"LiveChatButtonId__c"
+                },
+                {
+                    "name":"Location__c"
+                },
+                {
+                    "name":"Platform__c"
+                },
+                {
+                    "name":"ReferrerUri__c"
+                },
+                {
+                    "name":"ScreenResolution__c"
+                },
+                {
+                    "name":"Status__c"
+                },
+                {
+                    "name":"SupervisorTranscriptBody__c"
+                },
+                {
+                    "name":"UserAgent__c"
+                },
+                {
+                    "name":"AverageResponseTimeVisitor__c"
+                },
+                {
+                    "name":"IpAddress__c"
+                },
+                {
+                    "name":"MaxResponseTimeVisitor__c"
+                },
+                {
+                    "name":"VisitorMessageCount__c"
+                },
+                {
+                    "name":"WaitTime__c"
+                },
+                {
+                    "name":"OwnerId__c"
+                }
+            ]
+        }
+    },
     "compute_LiveChatTranscript":{
         "action":"computeExpression",
         "parameters":{
@@ -3701,7 +4093,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"rename_AgentWork",
+            "left":"drop_custom_rename_AgentWork",
             "left_key":[
                 "UserId"
             ],
@@ -3718,7 +4110,7 @@
             "right_key":[
                 "Id"
             ],
-            "left":"rename_LiveChatTranscript",
+            "left":"drop_custom_rename_LiveChatTranscript",
             "left_key":[
                 "LiveChatButtonId"
             ],
