@@ -48,7 +48,8 @@
                     "name":"Id"
                 }
             ],
-            "object":"Contact"
+            "object":"Contact",
+            "complexFilterConditions": "External_Id__c LIKE 'W_Services_Contact.%'"
         }
     },
     "Extract_Opportunity":{
@@ -113,7 +114,7 @@
                 }
             ],
             "object":"Opportunity",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Opportunity.%'"
+            "complexFilterConditions": "External_Id__c LIKE 'W_Services_Opportunity.%'"
         }
     },
     "add_standard_Extract_Opportunity":{
@@ -1648,7 +1649,7 @@
                 }
             ],
             "object":"Account",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Account.%'"
+            "complexFilterConditions": "External_Id__c LIKE 'W_Services_Account.%'"
         }
     },
     "Join_AgentWorkUserGroup":{
