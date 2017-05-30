@@ -6,7 +6,7 @@
 	"objects": [
 		{
 			"name": "User",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/UserManager.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/User.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/User_metadata.csv",
 			"relations": [
@@ -26,22 +26,10 @@
 		},
 		{
 			"name": "User",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/User.csv",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Manager.csv",
 			"additionalDataFiles": 0,
 			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/User_metadata.csv",
 			"relations": [
-				{
-					"csvColumnName": "UserRole.Name",
-					"targetSObject" : "UserRole",
-					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "UserRoleId"
-				},
-				{
-					"csvColumnName": "Profile.Name",
-					"targetSObject" : "Profile",
-					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "ProfileId"
-				},
 				{
 					"csvColumnName": "Manager.External_Id__c",
 					"targetSObject" : "User",
@@ -299,8 +287,8 @@
 		{
 			"Name": "plain_quota",
 			"Label": "Quota",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/QuotasMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Quotas.csv",
+			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/QuotaMetadata.json",
+			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/Quota.csv",
 			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/datasets/plain_quota.xmd.json"
 		},
 		{

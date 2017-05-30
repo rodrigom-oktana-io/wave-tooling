@@ -1,12 +1,12 @@
 External_Id__c,Product2.External_Id__c,IsActive,Pricebook2.Name,UnitPrice
-W_PricebookEntry.1,W_Product.1,true,Standard Price Book,947
-W_PricebookEntry.2,W_Product.2,true,Standard Price Book,22416
-W_PricebookEntry.3,W_Product.3,true,Standard Price Book,7298
-W_PricebookEntry.4,W_Product.4,true,Standard Price Book,1301
-W_PricebookEntry.5,W_Product.5,true,Standard Price Book,9895
-W_PricebookEntry.6,W_Product.6,true,Standard Price Book,1519
-W_PricebookEntry.7,W_Product.7,true,Standard Price Book,1347
-W_PricebookEntry.8,W_Product.8,true,Standard Price Book,1875
-W_PricebookEntry.9,W_Product.9,true,Standard Price Book,4838
-W_PricebookEntry.10,W_Product.10,true,Standard Price Book,4905
-W_PricebookEntry.11,W_Product.11,true,Standard Price Book,1114
+W_PricebookEntry.1,W_Product.1,true,Standard Price Book,6378
+W_PricebookEntry.2,W_Product.2,true,Standard Price Book,3294
+W_PricebookEntry.3,W_Product.3,true,Standard Price Book,1671
+W_PricebookEntry.4,W_Product.4,true,Standard Price Book,1205
+W_PricebookEntry.5,W_Product.5,true,Standard Price Book,5813
+W_PricebookEntry.6,W_Product.6,true,Standard Price Book,1011
+W_PricebookEntry.7,W_Product.7,true,Standard Price Book,1681
+W_PricebookEntry.8,W_Product.8,true,Standard Price Book,651
+W_PricebookEntry.9,W_Product.9,true,Standard Price Book,2010
+W_PricebookEntry.10,W_Product.10,true,Standard Price Book,800
+W_PricebookEntry.11,W_Product.11,true,Standard Price Book,1539
