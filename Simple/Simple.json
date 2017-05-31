@@ -5,27 +5,10 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "Account",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Account.csv",
+			"name": "Lead",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Lead.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Account_metadata.csv",
-			"relations": [
-				{
-					"csvColumnName": "Owner.External_Id__c",
-					"targetSObject" : "User",
-					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OwnerId"
-				}
-			],
-			"dateFieldsToShift": [
-				"CreatedDate__c"
-			]
-		},
-		{
-			"name": "Opportunity",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Opportunity.csv",
-			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Opportunity_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Lead_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -34,22 +17,27 @@
 					"foreignKeyField" : "OwnerId"
 				},
 				{
-					"csvColumnName": "Account.External_Id__c",
+					"csvColumnName": "ConvertedOpportunity.External_Id__c",
+					"targetSObject" : "Opportunity",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ConvertedOpportunityId"
+				},
+				{
+					"csvColumnName": "ConvertedAccount.External_Id__c",
 					"targetSObject" : "Account",
 					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "AccountId"
+					"foreignKeyField" : "ConvertedAccountId"
 				},
 				{
-					"csvColumnName": "RecordType.Name",
-					"targetSObject" : "RecordType",
-					"targetSObjectLookupField" : "Name",
-					"foreignKeyField" : "RecordTypeId"
+					"csvColumnName": "ConvertedContact.External_Id__c",
+					"targetSObject" : "Contact",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "ConvertedContactId"
 				}
 			],
 			"dateFieldsToShift": [
-				"DateTimeCreated__c",
-				"LastActivityDate__c",
-				"LastModifiedDate__c"
+				"CreatedDate__c",
+				"ConvertedDate__c"
 			]
 		}
 	],
