@@ -329,7 +329,7 @@
                 }
             ],
             "object":"Case",
-            "complexFilterConditions": "External_Id__c LIKE 'W_Case.%'"
+            "complexFilterConditions": "External_Id__c LIKE 'W_Sales_Case.%'"
         }
     },
     "add_standard_Extract_Case":{
@@ -1924,7 +1924,7 @@
                 }
             ],
             "object":"User",
-            "complexFilterConditions": "External_Id__c LIKE 'W_User.%'"
+            "complexFilterConditions": "External_Id__c LIKE 'W_Sales_User.%'"
         }
     },
     "Flatten_UserManager":{
