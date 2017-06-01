@@ -1532,11 +1532,11 @@
         "action":"augment",
         "parameters":{
             "right_key":[
-                "Username"
+                "External_Id__c"
             ],
             "left":"Extract_Quota",
             "left_key":[
-                "Username"
+                "External_Id__c"
             ],
             "right_select":[
                 "Id",
