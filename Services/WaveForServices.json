@@ -2,13 +2,13 @@
 	"appName": "Wave for Services",
 	"appType": "Services",
 	"appDescription": "This package includes data on Users, Accounts, Cases and Cases History for Wave for Services. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dataflows/Full_Wave_for_Services.json",
+	"dataflowLocation": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dataflows/Wave_For_Services.json",
 	"objects": [
 		{
 			"name": "User",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/User.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/User.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/User_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/User_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "UserRole.Name",
@@ -26,9 +26,9 @@
 		},
 		{
 			"name": "Account",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Account.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/Account.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Account_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/Account_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -40,9 +40,9 @@
 		},
 		{
 			"name": "Contact",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Contact.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/Contact.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Contact_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/Contact_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Account.External_Id__c",
@@ -54,9 +54,9 @@
 		},
 		{
 			"name": "Opportunity",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Opportunity.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/Opportunity.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Opportunity_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/Opportunity_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -78,9 +78,9 @@
 		},
 		{
 			"name": "Case",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Case.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/Case.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Case_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/Case_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -108,9 +108,9 @@
 		},
 		{
 			"name": "CaseHistory__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseHistory.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/CaseHistory.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/CaseHistory_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/CaseHistory_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Case.External_Id__c",
@@ -131,9 +131,9 @@
 		},
 		{
 			"name": "AgentWork__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/AgentWork.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/AgentWork.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/AgentWork_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/AgentWork_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "OriginalQueue.DeveloperName",
@@ -173,9 +173,9 @@
 		},
 		{
 			"name": "UserServicePresence__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/UserServicePresence.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/UserServicePresence.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/UserServicePresence_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/UserServicePresence_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -204,9 +204,9 @@
 		},
 		{
 			"name": "KCSArticle_ka__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ka.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/KCSArticle_ka.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_ka_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/KCSArticle_ka_metadata.csv",
 			"relations": [
 				
   			],
@@ -218,9 +218,9 @@
 		},
 		{
 			"name": "KCSArticle_kav__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_kav.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/KCSArticle_kav.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_kav_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/KCSArticle_kav_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "KCSArticle__ka.External_Id__c",
@@ -241,9 +241,9 @@
 		},
 		{
 			"name": "KCSArticle_DataCategorySelection__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_DataCategorySelection.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/KCSArticle_DataCategorySelection.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_DataCategorySelection_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/KCSArticle_DataCategorySelection_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Parent.External_Id__c",
@@ -255,9 +255,9 @@
 		},
 		{
 			"name": "KCSArticle_ViewStat__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_ViewStat.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/KCSArticle_ViewStat.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_ViewStat_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/KCSArticle_ViewStat_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Parent.External_Id__c",
@@ -269,9 +269,9 @@
 		},
 		{
 			"name": "KCSArticle_VoteStat__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/KCSArticle_VoteStat.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/KCSArticle_VoteStat.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/KCSArticle_VoteStat_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/KCSArticle_VoteStat_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Parent.External_Id__c",
@@ -283,9 +283,9 @@
 		},
 		{
 			"name": "CaseArticle__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/CaseArticle.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/CaseArticle.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/CaseArticle_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/CaseArticle_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Case.External_Id__c",
@@ -312,9 +312,9 @@
 		},
 		{
 			"name": "LiveChatTranscript__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscript.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/LiveChatTranscript.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscript_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/LiveChatTranscript_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -346,9 +346,9 @@
 		},
 		{
 			"name": "LiveChatTranscriptEvent__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/LiveChatTranscriptEvent.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/LiveChatTranscriptEvent.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/LiveChatTranscriptEvent_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/LiveChatTranscriptEvent_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "LiveChatTranscript.External_Id__c",
@@ -370,9 +370,9 @@
 		},
 		{
 			"name": "Task",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Task.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/Task.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Task_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/Task_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -395,9 +395,9 @@
 		},
 		{
 			"name": "Event",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/data/Event.csv",
+			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/data/output/latest/Event.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/metadata/Event_metadata.csv",
+			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/metadata/Event_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -424,142 +424,142 @@
 		{
 			"Name": "ServiceCase",
 			"Label": "ServiceCase",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCase.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceCase.xmd.json"
 		},
 		{
 			"Name": "ServiceOpportunities",
 			"Label": "ServiceOpportunities",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOpportunity.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceOpportunity.xmd.json"
 		},
 		{
 			"Name": "ServiceOmniAgentWork",
 			"Label": "ServiceOmniAgentWork",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOmniAgentWork.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceOmniAgentWork.xmd.json"
 		},
 		{
 			"Name": "ServiceChatTranscript",
 			"Label": "ServiceChatTranscript",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceChatTranscript.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceChatTranscript.xmd.json"
 		},
 		{
 			"Name": "ServiceKnowledge",
 			"Label": "ServiceKnowledge",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceKnowledge.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceKnowledge.xmd.json"
 		},
 		{
 			"Name": "ServiceKnowledgeAttached",
 			"Label": "ServiceKnowledgeAttached",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceKnowledgeAttached.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceKnowledgeAttached.xmd.json"
 		},
 		{
 			"Name": "ServiceCaseHistory",
 			"Label": "ServiceCaseHistory",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceCaseHistory.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceCaseHistory.xmd.json"
 		},
 		{
 			"Name": "ServiceActivity",
 			"Label": "ServiceActivity",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceActivity.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceActivity.xmd.json"
 		},
 		{
 			"Name": "ServiceChatTranscriptEvent",
 			"Label": "ServiceChatTranscriptEvent",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceChatTranscriptEvent.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceChatTranscriptEvent.xmd.json"
 		},
 		{
 			"Name": "ServiceOmniUserPresence",
 			"Label": "ServiceOmniUserPresence",
-			"MetadataJsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyMetadata.json",
-			"DataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/DummyDataset.csv",
-			"XmdUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/datasets/ServiceOmniUserPresence.xmd.json"
+			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyMetadata.json",
+			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/DummyDataset.csv",
+			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/datasets/ServiceOmniUserPresence.xmd.json"
 		}
 	],
 	"dashboards": [
 		{
 			"Name": "AboutServiceWave",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/AboutServiceWave.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/AboutServiceWave.json"
 		},
 		{
 			"Name": "MyPerformanceSummary",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/MyPerformanceSummary.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/MyPerformanceSummary.json"
 		},
 		{
 			"Name": "ServiceAccountProfile",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAccountProfile.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceAccountProfile.json"
 		},
 		{
 			"Name": "ServiceAgentActivity",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentActivity.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceAgentActivity.json"
 		},
 		{
 			"Name": "ServiceAgentPerformance",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentPerformance.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceAgentPerformance.json"
 		},
 		{
 			"Name": "ServiceAgentSidebarByCaseHistory",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarByCaseHistory.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceAgentSidebarByCaseHistory.json"
 		},
 		{
 			"Name": "ServiceAgentSidebarByCustomer",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarByCustomer.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceAgentSidebarByCustomer.json"
 		},
 		{
 			"Name": "ServiceAgentSidebarBySimilarity",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceAgentSidebarBySimilarity.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceAgentSidebarBySimilarity.json"
 		},
 		{
 			"Name": "ServiceBacklog",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceBacklog.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceBacklog.json"
 		},
 		{
 			"Name": "ServiceChannelReview",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceChannelReview.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceChannelReview.json"
 		},
 		{
 			"Name": "ServiceCustomerSatisfaction",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceCustomerSatisfaction.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceCustomerSatisfaction.json"
 		},
 		{
 			"Name": "ServiceKnowledgeEfficiency",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceKnowledgeEfficiency.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceKnowledgeEfficiency.json"
 		},
 		{
 			"Name": "ServiceKnowledgeUsage",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceKnowledgeUsage.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceKnowledgeUsage.json"
 		},
 		{
 			"Name": "ServiceLiveAgentChat",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceLiveAgentChat.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceLiveAgentChat.json"
 		},
 		{
 			"Name": "ServiceOmni",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOmni.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceOmni.json"
 		},
 		{
 			"Name": "ServiceOpenCases",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceOpenCases.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceOpenCases.json"
 		},
 		{
 			"Name": "ServiceTelephony",
-			"JsonUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Services/dashboards/ServiceTelephony.json"
+			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/service/dashboards/ServiceTelephony.json"
 		}
 	]
 }
