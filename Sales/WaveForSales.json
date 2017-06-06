@@ -2,13 +2,13 @@
 	"appName": "Wave for Sales",
 	"appType": "Sales",
 	"appDescription": "This package includes data on Users, Accounts, Opportunities for Wave for Sales. It also includes a Wave workflow and dashboards.",
-	"dataflowLocation": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dataflows/Wave_For_Sales.json",
+	"userProfilePicturesUrl": "sales/data/output/latest/ProfileUserPhotos.zip",
 	"objects": [
 		{
 			"name": "User",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/User.csv",
+			"url": "sales/data/output/latest/User.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/User_metadata.csv",
+			"metadataUrl": "sales/metadata/User_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "UserRole.Name",
@@ -26,9 +26,9 @@
 		},
 		{
 			"name": "User",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Manager.csv",
+			"url": "sales/data/output/latest/Manager.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/User_metadata.csv",
+			"metadataUrl": "sales/metadata/User_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Manager.External_Id__c",
@@ -40,9 +40,9 @@
 		},
 		{
 			"name": "Account",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Account.csv",
+			"url": "sales/data/output/latest/Account.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Account_metadata.csv",
+			"metadataUrl": "sales/metadata/Account_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -57,9 +57,9 @@
 		},
 		{
 			"name": "Contact",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Contact.csv",
+			"url": "sales/data/output/latest/Contact.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Contact_metadata.csv",
+			"metadataUrl": "sales/metadata/Contact_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Account.External_Id__c",
@@ -71,9 +71,9 @@
 		},
 		{
 			"name": "Case",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Case.csv",
+			"url": "sales/data/output/latest/Case.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Case_metadata.csv",
+			"metadataUrl": "sales/metadata/Case_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -101,9 +101,9 @@
 		},
 		{
 			"name": "Opportunity",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Opportunity.csv",
+			"url": "sales/data/output/latest/Opportunity.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Opportunity_metadata.csv",
+			"metadataUrl": "sales/metadata/Opportunity_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -132,9 +132,9 @@
 		},
 		{
 			"name": "Lead",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Lead.csv",
+			"url": "sales/data/output/latest/Lead.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Lead_metadata.csv",
+			"metadataUrl": "sales/metadata/Lead_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -168,9 +168,9 @@
 		},
 		{
 			"name": "OpportunityHistory__c",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/OpportunityHistory.csv",
+			"url": "sales/data/output/latest/OpportunityHistory.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/OpportunityHistory_metadata.csv",
+			"metadataUrl": "sales/metadata/OpportunityHistory_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Opportunity.External_Id__c",
@@ -186,18 +186,18 @@
 		},
 		{
 			"name": "Product2",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Product2.csv",
+			"url": "sales/data/output/latest/Product2.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Product2_metadata.csv",
+			"metadataUrl": "sales/metadata/Product2_metadata.csv",
 			"relations": [
 				
 			]
 		},
 		{
 			"name": "PricebookEntry",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/PricebookEntry.csv",
+			"url": "sales/data/output/latest/PricebookEntry.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/PricebookEntry_metadata.csv",
+			"metadataUrl": "sales/metadata/PricebookEntry_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Product2.External_Id__c",
@@ -215,9 +215,9 @@
 		},
 		{
 			"name": "OpportunityLineItem",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/OpportunityLineItem.csv",
+			"url": "sales/data/output/latest/OpportunityLineItem.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/OpportunityLineItem_metadata.csv",
+			"metadataUrl": "sales/metadata/OpportunityLineItem_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Opportunity.External_Id__c",
@@ -235,9 +235,9 @@
 		},
 		{
 			"name": "Task",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Task.csv",
+			"url": "sales/data/output/latest/Task.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Task_metadata.csv",
+			"metadataUrl": "sales/metadata/Task_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -259,9 +259,9 @@
 		},
 		{
 			"name": "Event",
-			"url": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/data/output/latest/Event.csv",
+			"url": "sales/data/output/latest/Event.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/metadata/Event_metadata.csv",
+			"metadataUrl": "sales/metadata/Event_metadata.csv",
 			"relations": [
 				{
 					"csvColumnName": "Owner.External_Id__c",
@@ -281,175 +281,6 @@
 				"ActivityDate",
 				"ActivityDateTime"
 			]
-		}
-	],
-	"edgemarts": [
-		{
-			"Name": "plain_quota",
-			"Label": "Quota",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/QuotaMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Quota.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/plain_quota.xmd.json"
-		},
-		{
-			"Name": "opportunity_products",
-			"Label": "Oppty Products",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/OpptyProductsMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/OpptyProducts.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/opportunity_products.xmd.json"
-		},
-		{
-			"Name": "quota",
-			"Label": "User Allocation",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/UserAllocationMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/UserAllocation.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/quota.xmd.json"
-		},
-		{
-			"Name": "user",
-			"Label": "Users",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/UsersMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Users.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/user.xmd.json"
-		},
-		{
-			"Name": "activity",
-			"Label": "Activities",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/ActivitiesMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Activities.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/activity.xmd.json"
-		},
-		{
-			"Name": "user_role",
-			"Label": "Roles",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/RolesMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Roles.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/user_role.xmd.json"
-		},
-		{
-			"Name": "pipeline_trending",
-			"Label": "Pipeline Trending",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/PipelineTrendingMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/PipelineTrending.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/pipeline_trending.xmd.json"
-		},
-		{
-			"Name": "opportunity",
-			"Label": "Opportunities",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/OpportunitiesMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Opportunities.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/opportunity.xmd.json"
-		},
-		{
-			"Name": "lead",
-			"Label": "Leads",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/LeadsMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Leads.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/lead.xmd.json"
-		},
-		{
-			"Name": "account",
-			"Label": "Accounts",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/AccountsMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Accounts.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/account.xmd.json"
-		},
-		{
-			"Name": "case",
-			"Label": "Cases",
-			"MetadataJsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/CasesMetadata.json",
-			"DataUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/Cases.csv",
-			"XmdUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/datasets/case.xmd.json"
-		}
-	],
-	"dashboards": [
-		{
-			"Name": "CompanyOverview",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/CompanyOverview.json"
-		},
-		{
-			"Name": "CompanyTrending",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/CompanyTrending.json"
-		},
-		{
-			"Name": "ExecOverviewPipelinePerformance",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/ExecOverviewPipelinePerformance.json"
-		},
-		{
-			"Name": "ExecOverviewSalesPerformance",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/ExecOverviewSalesPerformance.json"
-		},
-		{
-			"Name": "ExecOverviewServicePerformance",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/ExecOverviewServicePerformance.json"
-		},
-		{
-			"Name": "Forecast",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/Forecast.json"
-		},		
-		{
-			"Name": "LeadAnalysis",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/LeadAnalysis.json"
-		},
-		{
-			"Name": "Leaderboard",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/Leaderboard.json"
-		},
-		{
-			"Name": "PerformanceByCustomer",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/PerformanceByCustomer.json"
-		},
-		{
-			"Name": "PerformanceByGeography",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/PerformanceByGeography.json"
-		},
-		{
-			"Name": "PerformanceByProduct",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/PerformanceByProduct.json"
-		},
-		{
-			"Name": "PerformanceBySource",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/PerformanceBySource.json"
-		},
-		{
-			"Name": "SalesAnalyticsHome",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/SalesAnalyticsHome.json"
-		},
-		{
-			"Name": "SalesRepOverview",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/SalesRepOverview.json"
-		},
-		{
-			"Name": "SalesRepWhitespace",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/SalesRepWhitespace.json"
-		},
-		{
-			"Name": "SalesStageAnalysis",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/SalesStageAnalysis.json"
-		},
-		{
-			"Name": "SummaryOfAccount",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/SummaryOfAccount.json"
-		},
-		{
-			"Name": "SummaryOfOpportunity",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/SummaryOfOpportunity.json"
-		},
-		{
-			"Name": "TeamBenchmark",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/TeamBenchmark.json"
-		},
-		{
-			"Name": "TeamTrending",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/TeamTrending.json"
-		},
-		{
-			"Name": "TeamWhitespace",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/TeamWhitespace.json"
-		},
-		{
-			"Name": "Trending",
-			"JsonUrl": "https://s3-us-west-2.amazonaws.com/ac-sdo-repo/sales/dashboards/Trending.json"
 		}
 	]
 }
