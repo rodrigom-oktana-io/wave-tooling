@@ -5,6 +5,15 @@
 	"userProfilePicturesUrl": "sales/data/output/latest/ProfileUserPhotos.zip",
 	"objects": [
 		{
+			"name": "Quota__c",
+			"url": "sales/data/output/latest/Quota.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "sales/metadata/Quota_metadata.csv",
+			"relations": [
+				
+			]
+		},
+		{
 			"name": "User",
 			"url": "sales/data/output/latest/User.csv",
 			"additionalDataFiles": 0,
