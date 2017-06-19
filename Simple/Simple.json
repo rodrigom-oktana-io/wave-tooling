@@ -5,21 +5,51 @@
 	"dataflowLocation": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Simple/SimpleDataflow.json",
 	"objects": [
 		{
-			"name": "OpportunityHistory__c",
-			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/OpportunityHistory.csv",
+			"name": "Account",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Account.csv",
 			"additionalDataFiles": 0,
-			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/OpportunityHistory_metadata.csv",
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Account_metadata.csv",
 			"relations": [
 				{
-					"csvColumnName": "Opportunity.External_Id__c",
-					"targetSObject" : "Opportunity",
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
 					"targetSObjectLookupField" : "External_Id__c",
-					"foreignKeyField" : "OpportunityId__c"
+					"foreignKeyField" : "OwnerId"
 				}
 			],
 			"dateFieldsToShift": [
-				"CreatedDate__c",
-				"CloseDate__c"
+				"CreatedDate__c"
+			]
+		},
+		{
+			"name": "Opportunity",
+			"url": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/data/Opportunity.csv",
+			"additionalDataFiles": 0,
+			"metadataUrl": "https://raw.githubusercontent.com/rodrigom-oktana-io/wave-tooling/master/Sales/metadata/Opportunity_metadata.csv",
+			"relations": [
+				{
+					"csvColumnName": "Owner.External_Id__c",
+					"targetSObject" : "User",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "OwnerId"
+				},
+				{
+					"csvColumnName": "Account.External_Id__c",
+					"targetSObject" : "Account",
+					"targetSObjectLookupField" : "External_Id__c",
+					"foreignKeyField" : "AccountId"
+				},
+				{
+					"csvColumnName": "RecordType.Name",
+					"targetSObject" : "RecordType",
+					"targetSObjectLookupField" : "Name",
+					"foreignKeyField" : "RecordTypeId"
+				}
+			],
+			"dateFieldsToShift": [
+				"DateTimeCreated__c",
+				"LastActivityDate__c",
+				"LastModifiedDate__c"
 			]
 		}
 	],
